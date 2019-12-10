@@ -5,23 +5,28 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    useParams
   } from "react-router-dom";
 
 
-
 var lang = '?lang=enus'
-async function get_heroes_api() {
-    var dat = []
-    await fetch('http://127.0.0.1:8000/heroesapi/' + lang).then(value => value.json()).then(value => dat.push(value))
-    ReactDOM.render(
-        makepage(dat[0]),
-        document.getElementById('root')
-    )
-}
-class Portrait extends React.Component {
+//MainPage is the default page
+class MainPage extends React.Component {
+    async componentDidMount() {
+        var dat
+        await fetch('http://localhost:8000/heroesapi/' + lang).then(value => value.json()).then(value => {dat = value})
+        this.setState(makepage(dat))
+    }
     render() {
-        var imagesource='http://127.0.0.1:8000/heroesapi/image/portrait/' + this.props.value
+        return this.state
+    }
+}
+//HeroPortrait is the target image of said Hero 
+class HeroPortrait extends React.Component {
+    
+    render() {
+        var imagesource='http://localhost:8000/heroesapi/image/portrait/' + this.props.value
         return(
             <h1 className="Portrait">
                 <img
@@ -35,17 +40,21 @@ class Portrait extends React.Component {
         )
     }
 }
-class Heroname extends React.Component {
+//Hero is a set of HeroPortrait and HeroName 
+class Hero extends React.Component {
     render() {
         return(
             <button className="Hero">
-            <Portrait value={this.props.value['portraitlink']}></Portrait>
-            {this.props.name}
-        </button>
+                <Link to={'/' + this.props.value['herolink']}>
+                    <HeroPortrait value={this.props.value['portraitlink']}></HeroPortrait>
+                    {this.props.name}
+                </Link>
+            </button>
         )
     }
 }
-class Hero extends React.Component {
+//Heroes is a set of all the Hero components
+class Heroes extends React.Component {
     render() {
         return (
             <div>
@@ -54,37 +63,81 @@ class Hero extends React.Component {
         )
     }
 }
+//makepage returns a Heroes component from the list of heroes
 function makepage(heroes_data) {
     var heroes_render = []
     for (let hero in heroes_data){
         if(heroes_data.hasOwnProperty(hero)){
             heroes_render.push(
-                <Heroname
+                <Hero
+                key={hero}
                 value={heroes_data[hero]}
                 name={hero}
                 />
             )
         } 
     }
-    /*
-    ReactDOM.render(    
-        <Hero
-        data={heroes_render}
-        />,
-        document.getElementById('root')
-    );
-    */
    return(
-       <Hero
+       <Heroes
        data={heroes_render}
        />
    )
 }
+//RealPage will be the rendered page through react router
+class RealPage extends React.Component {
+    render() {
+        return (
+            <Router>
+                <div>
+                    <Switch>
+                        <Route exact path="/">
+                        <MainPage />
+                        </Route>
 
-get_heroes_api()
-/*
+                        <Route exact path="/:herolink" children={<GetHeroLink/>}>
+                        </Route>
+                    </Switch>
+                </div>
+            </Router>
+        )
+    }
+}
+//HeroPage is a page of a certain Hero
+
+class HeroPage extends React.Component {
+    
+    async componentDidMount() {
+        var herodat;
+        var fetchurl ='http://localhost:8000/heroesapi/' + this.props.link + lang;
+        await fetch(fetchurl).then(value => value.json()).then(value => {herodat = value})
+        this.setState(herodat)
+        console.log(this.state)
+        console.log(this.state['herodata'])
+    }
+    
+    render() {
+        return (
+            <h3>
+                {this.props.link}
+                
+            </h3>
+        )
+    }
+}
+
+function GetHeroLink() {
+    let { herolink } = useParams();
+    return (
+        <HeroPage
+        link={herolink}
+        />
+    )
+}
+
+
+
+//Rendering the RealPage
 ReactDOM.render(
-    get_heroes_api(),
+    <RealPage/>,
     document.getElementById('root')
 )
-*/
