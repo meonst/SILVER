@@ -62,3 +62,7 @@ def portraitimage(request, imagelink):
     with open("../files/images/heroportraits/{}".format(imagelink), 'rb') as portrait:
     
         return HttpResponse(portrait.read(), content_type="image/png")
+
+def skillimage(request, imagelink):
+    with open("../files/images/abilitytalents/{}".format(imagelink), 'rb') as portrait:
+        return HttpResponse(portrait.read(), content_type="image/png")

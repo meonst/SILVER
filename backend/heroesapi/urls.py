@@ -7,4 +7,5 @@ urlpatterns = [
     path('<str:herolink>/talents/', views.talents, name = 'talents'),
     path('<str:herolink>/talents/<str:share>/', views.talentshare, name = 'talentshare'),
     path('image/portrait/<str:imagelink>', views.portraitimage, name = 'portraitimage'),
+    path('image/abilitytalent/<str:imagelink>', views.skillimage, name = 'skillimage'),
 ]
