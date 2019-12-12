@@ -18,6 +18,7 @@ class MainPage extends React.Component {
         this.setState(Heroes(dat))
         console.log(this.state)
     }
+
     render() {
         return this.state
     }
@@ -67,7 +68,7 @@ function Heroes(heroes_data) {
             )
         } 
     }
-   return(
+    return(
         <div>
             {heroes_render}
         </div>
@@ -75,25 +76,6 @@ function Heroes(heroes_data) {
    )
 }
 //RealPage will be the rendered page through react router
-class RealPage extends React.Component {
-    render() {
-        return (
-            <Router>
-                <div>
-                    <Switch>
-                        <Route exact path="/">
-                        <MainPage />
-                        </Route>
-
-                        <Route exact path="/:herolink" children={<GetHeroLink/>}>
-                        </Route>
-                    </Switch>
-                </div>
-            </Router>
-        )
-    }
-}
-//HeroPage is a page of a certain Hero
 
 class HeroPage extends React.Component {
     
@@ -101,13 +83,16 @@ class HeroPage extends React.Component {
         var herodat;
         var fetchurl ='http://localhost:8000/heroesapi/' + this.props.link + lang;
         await fetch(fetchurl).then(value => value.json()).then(value => {herodat = value['herodata']})
-
+        console.log(herodat)
 
 
 
         var Abilities = 
 
-            <div>
+            <div>                
+                <HeroSkill
+                    value={herodat['abilities']['trait'][0]}
+                />
                 <HeroSkill
                     value={herodat['abilities']['basic'][0]}
                 />
@@ -117,22 +102,54 @@ class HeroPage extends React.Component {
                 <HeroSkill
                     value={herodat['abilities']['basic'][2]}
                 />
+
             </div>
 
         var Talents = 
-            <div>
-                <Column
-                    value={herodat['talents']['level1']}
-                />
+            <div id='talent'>
+                <div id='column'>
+                    <Column
+                        value={herodat['talents']['level1']}
+                    />
+                </div>
+                <div id='column'>
+                    <Column
+                        value={herodat['talents']['level4']}
+                    />
+                </div>
+                <div id='column'>
+                    <Column
+                        value={herodat['talents']['level7']}
+                    />
+                </div>
+                <div id='column'>
+                    <Column
+                        value={herodat['talents']['level10']}
+                    />
+                </div>
+                <div id='column'>
+                    <Column
+                        value={herodat['talents']['level13']}
+                    />
+                </div>
+                <div id='column'>
+                    <Column
+                        value={herodat['talents']['level16']}
+                    />
+                </div>
+                <div id='column'>
+                    <Column
+                        value={herodat['talents']['level20']}
+                    />
+                </div>
             </div>
-        console.log('TALENTS', Talents)
-        var All =
+        var All = 
             <div>
                 {Abilities}
                 {Talents}
             </div>
-        console.log('talent', herodat['talents'])
-        console.log('1', herodat['talents']['level1'])
+        
+            
         this.setState(All)
         //this.setState(Talents)
 
@@ -145,7 +162,7 @@ class HeroPage extends React.Component {
             <div>
                 {this.props.link}
                 <div>
-                        {this.state}
+                    {this.state}
                 </div>
             </div>
         )
@@ -187,28 +204,27 @@ class SkillImage extends React.Component {
     }
 }
 
-function Column(tierinfo) {
-    var column = []
-    for (let talent in tierinfo){
-        if(tierinfo.hasOwnProperty(talent)){
+class Column extends React.Component {
+    render() {
+        var column = []
+        for (let i in this.props.value){
             column.push(
                 <Talent
-                    value={tierinfo[talent]}
+                    key={this.props.value[i]['nameId']}
+                    value={this.props.value[i]}
                 />
             )
+            
         } 
-    } 
-    return(
-        <div>
-            {column}
-        </div>
-    )
+        return(column)
+    }
 }
 
 class Talent extends React.Component {
     render() {
         return(
             <SkillImage
+                id="skill"
                 value={this.props.value["icon"]}
             />
         )
@@ -222,12 +238,32 @@ class Talent extends React.Component {
 function GetHeroLink() {
     let { herolink } = useParams();
     return (
-        <HeroPage
+        <HeroPage 
+        id='HeroPage'
         link={herolink}
         />
     )
 }
 
+class RealPage extends React.Component {
+    render() {
+        return (
+            <Router>
+                <div>
+                    <Switch>
+                        <Route exact path="/">
+                        <MainPage />
+                        </Route>
+
+                        <Route exact path="/:herolink" children={<GetHeroLink/>}>
+                        </Route>
+                    </Switch>
+                </div>
+            </Router>
+        )
+    }
+}
+//HeroPage is a page of a certain Hero
 
 
 //Rendering the RealPage

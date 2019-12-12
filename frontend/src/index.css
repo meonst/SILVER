@@ -19,10 +19,37 @@ button {
     border-width: 0px;    
     text-align: left;
 }
+
 h1 {
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+#column {
+    width: 95px;
+    height: 465px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-style: solid;
+    background-color: black;
 
+    
+}
+#talent {
+    height: 490px;
+
+}
+#column > img {
+    border-color: black;
+    border-style: solid;
+
+}
+
+img {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+}
