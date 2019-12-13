@@ -75,8 +75,8 @@ function Heroes(heroes_data) {
 
    )
 }
-//RealPage will be the rendered page through react router
 
+//HeroPage is the page for a certain Hero
 class HeroPage extends React.Component {
     
     async componentDidMount() {
@@ -84,12 +84,9 @@ class HeroPage extends React.Component {
         var fetchurl ='http://localhost:8000/heroesapi/' + this.props.link + lang;
         await fetch(fetchurl).then(value => value.json()).then(value => {herodat = value['herodata']})
         console.log(herodat)
-
-
-
         var Abilities = 
 
-            <div>                
+            <div id='skills'>                
                 <HeroSkill
                     value={herodat['abilities']['trait'][0]}
                 />
@@ -106,7 +103,7 @@ class HeroPage extends React.Component {
             </div>
 
         var Talents = 
-            <div id='talent'>
+            <div id='talents'>
                 <div id='column'>
                     <Column
                         value={herodat['talents']['level1']}
@@ -168,42 +165,80 @@ class HeroPage extends React.Component {
         )
     }
 }
-
+//HeroSkill will render the skills of a certain Hero
 class HeroSkill extends React.Component{
+    constructor(props) {
+        super(props)
+        this.state = {hover: false}
+    }
     render() {
+        const Tooltip = {
+            'display': this.state.hover ? 'block' : 'none',
+            'position': 'absolute',
+            'backgroundColor': 'white',
+            'width': '400px',
+            'borderStyle': 'solid',
+            'borderColor': 'grey',
+            'padding': '3px',
+            'margin-left': '100px',
+        }
+
         if (this.props.value === undefined) {
             return(
                 <SkillImage
                     value={'hud_btn_bg_ability_cancel.png'}
+                    name="Skill does not exist"
+                    description="Skill does not exist"
                 />
             )
         }
         else {
+            console.log(this.props.value['fullTooltip'])
             return(
-                <SkillImage
-                    value={this.props.value['icon']}
-                />
+                <div 
+                    id='skill'
+                    onMouseOver={() => this.setState({hover: true})}
+                    onMouseOut={() => this.setState({hover: false})}
+                >
+                    <SkillImage
+                        value={this.props.value['icon']}
+                        name={this.props.value['name']}
+                        description={this.props.value['fullTooltip']}
+                    />
+                    <span
+                        id='tooltip'
+                        style={Tooltip}
+                    >
+                        <Description
+                            value={this.props.value['fullTooltip']}
+                        />
+                    
+                    </span>
+                </div>
             )
         }
     }
 }
-
-
+//SkillImage will return the image of a given skill, talent url
 class SkillImage extends React.Component {
-    
+
+
     render() {
         var imagesource='http://localhost:8000/heroesapi/image/abilitytalent/' + this.props.value
         return (
             <img
+
+                id="skill"
                 src={imagesource}
                 width='92'
                 height='93'
                 alt='new'
             />
+
         )
     }
 }
-
+//Column will return all the talents of a certain tier
 class Column extends React.Component {
     render() {
         var column = []
@@ -219,22 +254,64 @@ class Column extends React.Component {
         return(column)
     }
 }
-
+//Talent will return a talent
 class Talent extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {hover: false}
+    }
     render() {
+        const Tooltip = {
+            'display': this.state.hover ? 'block' : 'none',
+            'position' : 'absolute',
+            'backgroundColor': 'white',
+            'width': '400px',
+            'borderStyle': 'solid',
+            'borderColor': 'grey',
+            'padding-left': '3px',
+            'margin-left': '100px',
+            
+        }
         return(
-            <SkillImage
-                id="skill"
-                value={this.props.value["icon"]}
-            />
+            <div 
+                id='talent'
+                onMouseOver={() => this.setState({hover: true})}
+                onMouseOut={() => this.setState({hover: false})}
+            >
+                <SkillImage  
+                    value={this.props.value["icon"]}
+                />
+                <span
+                    id='tooltip'
+                    style={Tooltip}
+                >
+                    <Description
+                        value={this.props.value['fullTooltip']}
+                    />
+                    
+                </span>
+            </div>
         )
     }
 }
 
+class Description extends React.Component {
+    render() {
+        console.log(this.props.value)
+        var line = new DOMParser().parseFromString(this.props.value, 'text/html')
+        var description = line.getElementsByTagName('body')[0]['innerText']
+        
+        console.log(line)
+        console.log(description)
+        return(description)
+        
+    }
+
+}
 
 
 
-
+//getHeroLink will get which hero to show
 function GetHeroLink() {
     let { herolink } = useParams();
     return (
@@ -244,7 +321,7 @@ function GetHeroLink() {
         />
     )
 }
-
+//RealPage will be the rendered page through react router
 class RealPage extends React.Component {
     render() {
         return (
@@ -263,8 +340,10 @@ class RealPage extends React.Component {
         )
     }
 }
-//HeroPage is a page of a certain Hero
 
+
+
+//HeroPage is a page of a certain Hero
 
 //Rendering the RealPage
 ReactDOM.render(

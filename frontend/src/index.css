@@ -25,26 +25,38 @@ h1 {
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
+}   
 #column {
     width: 95px;
-    height: 465px;
+    height: 600px;
     float: left;
     display: flex;
     justify-content: center;
     flex-direction: column;
     border-style: solid;
     background-color: black;
+    
 
     
 }
-#talent {
-    height: 490px;
-
+#skill {
+    height: 100px;
+    width: 100px;
+    float: left;
+    
+    
 }
-#column > img {
-    border-color: black;
-    border-style: solid;
+#skills {
+    height: 100px;
+}
+#talents {
+    position: fixed;
+    
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    
+    
 
 }
 
