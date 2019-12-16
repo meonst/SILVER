@@ -34,7 +34,8 @@ h1 {
     justify-content: center;
     flex-direction: column;
     border-style: solid;
-    background-color: black;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
     
 
     
@@ -43,25 +44,31 @@ h1 {
     height: 100px;
     width: 100px;
     float: left;
-    
-    
 }
+
 #skills {
     height: 100px;
 }
 #talents {
     position: fixed;
-    
     height: 800px;
     width: 100%;
-    background-color: black;
-    
+    background-color: whitesmoke;
+    border-color: white;
+    border-style: solid;
+    border-left-width: 0px;
     
 
 }
 
 img {
-    background-color: black;
-    border-color: black;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
     border-style: solid;
 }
+
+#discriptionTitle {
+    font-size: 15pt;
+    padding-bottom: 1px;
+}
+

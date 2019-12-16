@@ -16,7 +16,6 @@ class MainPage extends React.Component {
         var dat
         await fetch('http://localhost:8000/heroesapi/' + lang).then(value => value.json()).then(value => {dat = value})
         this.setState(Heroes(dat))
-        console.log(this.state)
     }
 
     render() {
@@ -46,7 +45,7 @@ class Hero extends React.Component {
     render() {
         return(
             <button className="Hero">
-                <Link to={'/' + this.props.value['herolink']}>
+                <Link to={'/' + this.props.value['herolink'] + '/0000000'}>
                     <HeroPortrait value={this.props.value['portraitlink']}></HeroPortrait>
                     {this.props.name}
                 </Link>
@@ -83,7 +82,6 @@ class HeroPage extends React.Component {
         var herodat;
         var fetchurl ='http://localhost:8000/heroesapi/' + this.props.link + lang;
         await fetch(fetchurl).then(value => value.json()).then(value => {herodat = value['herodata']})
-        console.log(herodat)
         var Abilities = 
 
             <div id='skills'>                
@@ -180,7 +178,9 @@ class HeroSkill extends React.Component{
             'borderStyle': 'solid',
             'borderColor': 'grey',
             'padding': '3px',
-            'margin-left': '100px',
+            'marginLeft': '103px',
+            'marginTop': '7px',
+            'zIndex': '99999',
         }
 
         if (this.props.value === undefined) {
@@ -193,7 +193,6 @@ class HeroSkill extends React.Component{
             )
         }
         else {
-            console.log(this.props.value['fullTooltip'])
             return(
                 <div 
                     id='skill'
@@ -210,6 +209,7 @@ class HeroSkill extends React.Component{
                         style={Tooltip}
                     >
                         <Description
+                            name={this.props.value['name']}
                             value={this.props.value['fullTooltip']}
                         />
                     
@@ -230,8 +230,8 @@ class SkillImage extends React.Component {
 
                 id="skill"
                 src={imagesource}
-                width='92'
-                height='93'
+                width='100'
+                height='100'
                 alt='new'
             />
 
@@ -268,10 +268,12 @@ class Talent extends React.Component {
             'width': '400px',
             'borderStyle': 'solid',
             'borderColor': 'grey',
-            'padding-left': '3px',
-            'margin-left': '100px',
-            
+            'paddingLeft': '3px',
+            'marginLeft': '103px',
+            'marginTop': '7px',
+            'zIndex': '99999',
         }
+        
         return(
             <div 
                 id='talent'
@@ -286,6 +288,7 @@ class Talent extends React.Component {
                     style={Tooltip}
                 >
                     <Description
+                        name={this.props.value['name']}
                         value={this.props.value['fullTooltip']}
                     />
                     
@@ -295,18 +298,22 @@ class Talent extends React.Component {
     }
 }
 
+//Do you like Tooltips? Well I do!
 class Description extends React.Component {
     render() {
-        console.log(this.props.value)
         var line = new DOMParser().parseFromString(this.props.value, 'text/html')
         var description = line.getElementsByTagName('body')[0]['innerText']
-        
-        console.log(line)
-        console.log(description)
-        return(description)
+        return(
+            
+            <div>
+                <div id="discriptionTitle">
+                    {this.props.name}
+                </div>
+                {description}
+            </div>
+            )
         
     }
-
 }
 
 
@@ -314,6 +321,8 @@ class Description extends React.Component {
 //getHeroLink will get which hero to show
 function GetHeroLink() {
     let { herolink } = useParams();
+    let { talents } = useParams();
+    console.log(talents)
     return (
         <HeroPage 
         id='HeroPage'
@@ -334,6 +343,9 @@ class RealPage extends React.Component {
 
                         <Route exact path="/:herolink" children={<GetHeroLink/>}>
                         </Route>
+
+                        <Route path="/:herolink/:talents" children={<GetHeroLink/>}>
+                        </Route>
                     </Switch>
                 </div>
             </Router>
@@ -341,9 +353,6 @@ class RealPage extends React.Component {
     }
 }
 
-
-
-//HeroPage is a page of a certain Hero
 
 //Rendering the RealPage
 ReactDOM.render(
