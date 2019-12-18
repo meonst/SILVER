@@ -178,24 +178,26 @@ class HeroSkill extends React.Component{
             'borderStyle': 'solid',
             'borderColor': 'grey',
             'padding': '3px',
-            'marginLeft': '103px',
-            'marginTop': '7px',
             'zIndex': '99999',
         }
 
         if (this.props.value === undefined) {
             return(
-                <SkillImage
-                    value={'hud_btn_bg_ability_cancel.png'}
-                    name="Skill does not exist"
-                    description="Skill does not exist"
-                />
+                <div id="skill">
+                    <SkillImage
+                        value={'hud_btn_bg_ability_cancel.png'}
+                        id="undefined"
+                        name="ubdefined"
+                        description="Skill does not exist"
+                    />
+                </div>
             )
         }
         else {
+           
             return(
                 <div 
-                    id='skill'
+                    id="skill"
                     onMouseOver={() => this.setState({hover: true})}
                     onMouseOut={() => this.setState({hover: false})}
                 >
@@ -203,9 +205,10 @@ class HeroSkill extends React.Component{
                         value={this.props.value['icon']}
                         name={this.props.value['name']}
                         description={this.props.value['fullTooltip']}
+                        id={this.props.value['nameId']}
                     />
                     <span
-                        id='tooltip'
+                        id="tooltip"
                         style={Tooltip}
                     >
                         <Description
@@ -227,8 +230,6 @@ class SkillImage extends React.Component {
         var imagesource='http://localhost:8000/heroesapi/image/abilitytalent/' + this.props.value
         return (
             <img
-
-                id="skill"
                 src={imagesource}
                 width='100'
                 height='100'
@@ -269,8 +270,6 @@ class Talent extends React.Component {
             'borderStyle': 'solid',
             'borderColor': 'grey',
             'paddingLeft': '3px',
-            'marginLeft': '103px',
-            'marginTop': '7px',
             'zIndex': '99999',
         }
         
@@ -315,6 +314,30 @@ class Description extends React.Component {
         
     }
 }
+//TopBar will be the top bar
+class TopBar extends React.Component {
+    render() {
+        return(
+            <div
+                id='TopBar'
+            >
+                <Link
+                    to='/'
+                    id='HomeButton'
+                >
+                    <img
+                        id='Home'
+                        src='http://localhost:8000/heroesapi/image/unit/storm_temp_btn-building-terran-bunker.png'
+                    />
+                    Silver City
+                </Link>
+                
+                
+            </div>
+        )
+    }
+    
+}
 
 
 
@@ -322,6 +345,7 @@ class Description extends React.Component {
 function GetHeroLink() {
     let { herolink } = useParams();
     let { talents } = useParams();
+    if (talents === undefined) {talents = '0000000';}
     console.log(talents)
     return (
         <HeroPage 
@@ -336,6 +360,7 @@ class RealPage extends React.Component {
         return (
             <Router>
                 <div>
+                    <TopBar></TopBar>
                     <Switch>
                         <Route exact path="/">
                         <MainPage />

@@ -1,14 +1,40 @@
 body {
     margin: 0;
     padding: 10;
+
     background-color: whitesmoke;
     
+}
+#TopBar {
+    position: sticky;
+    top:0;
+    width: 100%;
+    height: 50px;
+    background-color: #e7dbdb;
+}
+#TopBar > #HomeButton {
+    color: black;
+    text-decoration: none;
+    font-size: 20pt;
+    height: 50px;
+
+}
+
+#HomeButton > #Home {
+    height: 50px;
+    width: 50px;
+    background-color: #e7dbdb;
+    border: 0px;
 }
 
 .Hero {
     margin: 5px;
     padding: 1px;
-
+    background-color: whitesmoke;
+}
+.Hero > a  {
+    text-decoration-line: none;
+    color: black;
 
 }
 button {
@@ -26,40 +52,19 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }   
-#column {
-    width: 95px;
-    height: 600px;
-    float: left;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-style: solid;
-    border-color: whitesmoke;
-    background-color: whitesmoke;
-    
 
-    
-}
 #skill {
-    height: 100px;
-    width: 100px;
+    height: 106px;
+    width: 106px;
     float: left;
 }
 
 #skills {
-    height: 100px;
-}
-#talents {
-    position: fixed;
-    height: 800px;
+    height: 120px;
     width: 100%;
-    background-color: whitesmoke;
-    border-color: white;
-    border-style: solid;
-    border-left-width: 0px;
-    
-
+    border: 3px;
 }
+
 
 img {
     background-color: whitesmoke;
@@ -72,3 +77,37 @@ img {
     padding-bottom: 1px;
 }
 
+
+#talents {
+    position: fixed;
+    height: 800px;
+    width: 100%;
+    background-color: whitesmoke;
+    border-color: white;
+    border-style: solid;
+}
+#column {
+    width: 106px;
+    height: 600px;
+    border: 0px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-style: solid;
+    border-color: whitesmoke;
+    background-color: whitesmoke;   
+}
+#talent {
+    height: 100px;
+    width: 100px;
+    border: 3px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+#talent > img {
+    height: 100px;
+    width: 100px;
+    border: 0px;
+}
