@@ -6,17 +6,26 @@ import {
     Switch,
     Route,
     Link,
-    useParams
+    useParams,
   } from "react-router-dom";
+  
 
-var lang = '?lang=enus'
+var lang = 'enus'
 //MainPage is the default page
 class MainPage extends React.Component {
+    
     async componentDidMount() {
+        if (this.props.language === undefined) {
+            lang = 'enus'
+        }
+        else {
+            lang = this.props.language
+        }
         var dat
-        await fetch('http://localhost:8000/heroesapi/' + lang).then(value => value.json()).then(value => {dat = value})
+        await fetch('http://localhost:8000/heroesapi/?lang=' + lang).then(value => value.json()).then(value => {dat = value})
         this.setState(Heroes(dat))
     }
+
 
     render() {
         return this.state
@@ -45,7 +54,7 @@ class Hero extends React.Component {
     render() {
         return(
             <button className="Hero">
-                <Link to={'/' + this.props.value['herolink'] + '/0000000'}>
+                <Link to={'/' + lang + '/' + this.props.value['herolink'] + '/0000000'}>
                     <HeroPortrait value={this.props.value['portraitlink']}></HeroPortrait>
                     {this.props.name}
                 </Link>
@@ -80,7 +89,9 @@ class HeroPage extends React.Component {
     
     async componentDidMount() {
         var herodat;
-        var fetchurl ='http://localhost:8000/heroesapi/' + this.props.link + lang;
+        lang = this.props.language
+        console.log(this.props.language)
+        var fetchurl ='http://localhost:8000/heroesapi/' + this.props.link + '?lang=' + lang;
         await fetch(fetchurl).then(value => value.json()).then(value => {herodat = value['herodata']})
         var Abilities = 
 
@@ -155,7 +166,7 @@ class HeroPage extends React.Component {
     render() {
         return (
             <div>
-                {this.props.link}
+
                 <div>
                     {this.state}
                 </div>
@@ -269,7 +280,7 @@ class Talent extends React.Component {
             'width': '400px',
             'borderStyle': 'solid',
             'borderColor': 'grey',
-            'paddingLeft': '3px',
+            'padding': '3px',
             'zIndex': '99999',
         }
         
@@ -300,15 +311,14 @@ class Talent extends React.Component {
 //Do you like Tooltips? Well I do!
 class Description extends React.Component {
     render() {
-        var line = new DOMParser().parseFromString(this.props.value, 'text/html')
-        var description = line.getElementsByTagName('body')[0]['innerText']
         return(
             
             <div>
                 <div id="discriptionTitle">
                     {this.props.name}
                 </div>
-                {description}
+                {this.props.value}
+                
             </div>
             )
         
@@ -316,22 +326,66 @@ class Description extends React.Component {
 }
 //TopBar will be the top bar
 class TopBar extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {hover: false}
+    }
     render() {
+        const LanguageBar = {
+            'display': this.state.hover ? 'block' : 'none',
+            'position' : 'absolute',
+            'backgroundColor': 'white',
+            'width': '400px',
+            'borderStyle': 'solid',
+            'borderColor': 'grey',
+            'padding': '3px',
+            'zIndex': '99999',
+        }
+        
+        const sliced = window.location.pathname.slice(5)
         return(
             <div
                 id='TopBar'
             >
                 <Link
-                    to='/'
+                    to={'/' + lang}
                     id='HomeButton'
                 >
-                    <img
+                    <div
                         id='Home'
-                        src='http://localhost:8000/heroesapi/image/unit/storm_temp_btn-building-terran-bunker.png'
-                    />
+                    >
+                        <img
+                            id='Bunker'
+                            alt='Go Home'
+                            src='http://localhost:8000/heroesapi/image/unit/storm_temp_btn-building-terran-bunker.png'
+                        />
+                    </div>
                     Silver City
                 </Link>
+                <div
+                    id="Languages"
+                    onMouseOver={() => this.setState({hover: true})}
+                    onMouseOut={() => this.setState({hover: false})}
+                >
+                    LANG
+                    <span
+                        style={LanguageBar}
+                    >
+                        <Link
+                            to={'/enus' + sliced}
+                        >
+                            English
+                        </Link>
+
+                        <Link
+                            to={'/kokr' + sliced}
+                        >
+                            한국어
+                        </Link>
+                    </span>
                 
+                </div>
+
                 
             </div>
         )
@@ -343,34 +397,44 @@ class TopBar extends React.Component {
 
 //getHeroLink will get which hero to show
 function GetHeroLink() {
+    let { language } = useParams();
     let { herolink } = useParams();
     let { talents } = useParams();
     if (talents === undefined) {talents = '0000000';}
-    console.log(talents)
     return (
         <HeroPage 
         id='HeroPage'
         link={herolink}
+        language={language}
         />
     )
 }
+function MainPageLanguage() {
+    let { language } = useParams();
+    return (
+        <MainPage
+            language={language}
+        />
+    )
+}
+
+
+
 //RealPage will be the rendered page through react router
 class RealPage extends React.Component {
+    
     render() {
         return (
             <Router>
                 <div>
-                    <TopBar></TopBar>
+                    <TopBar/>
                     <Switch>
                         <Route exact path="/">
-                        <MainPage />
+                            <MainPage/>
                         </Route>
-
-                        <Route exact path="/:herolink" children={<GetHeroLink/>}>
-                        </Route>
-
-                        <Route path="/:herolink/:talents" children={<GetHeroLink/>}>
-                        </Route>
+                        <Route exact path="/:language" children={<MainPageLanguage/>}/>
+                        <Route path="/:language/:herolink/:talents" children={<GetHeroLink/>}/>
+                    
                     </Switch>
                 </div>
             </Router>

@@ -1,7 +1,5 @@
 body {
     margin: 0;
-    padding: 10;
-
     background-color: whitesmoke;
     
 }
@@ -12,19 +10,33 @@ body {
     height: 50px;
     background-color: #e7dbdb;
 }
-#TopBar > #HomeButton {
+#HomeButton {
+    width: 200px;
+    float: left;
+    font-size: 25pt;
     color: black;
     text-decoration: none;
-    font-size: 20pt;
-    height: 50px;
-
 }
 
-#HomeButton > #Home {
+#Home {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+
+#Bunker {
     height: 50px;
     width: 50px;
     background-color: #e7dbdb;
-    border: 0px;
+    border-style: none;
+}
+
+#Languages {
+    float: left;
+    height: 50px;
+    width: 50px;
+    background-color: #e7dbdb;
 }
 
 .Hero {
@@ -44,6 +56,8 @@ button {
     border-style: solid;
     border-width: 0px;    
     text-align: left;
+    width: 100px;
+    height: 121px;
 }
 
 h1 {
@@ -53,30 +67,36 @@ h1 {
     margin-inline-end: 0px;
 }   
 
-#skill {
-    height: 106px;
-    width: 106px;
-    float: left;
+img {
+    background-color: whitesmoke;
+    border-color: black;
+    border-style: solid;
 }
+
+
+
 
 #skills {
     height: 120px;
     width: 100%;
     border: 3px;
-}
-
-
-img {
-    background-color: whitesmoke;
-    border-color: whitesmoke;
     border-style: solid;
+    border-color: whitesmoke;
 }
 
-#discriptionTitle {
-    font-size: 15pt;
-    padding-bottom: 1px;
+#skill {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 3px;
+    border-style: solid;
+    border-color: whitesmoke;
 }
-
+#skill > img {
+    height: 100px;
+    width: 100px;
+    border: 0px;
+}
 
 #talents {
     position: fixed;
@@ -105,9 +125,15 @@ img {
     border-style: solid;
     border-color: whitesmoke;
 }
-
 #talent > img {
     height: 100px;
     width: 100px;
     border: 0px;
 }
+#discriptionTitle {
+    font-size: 15pt;
+    padding-bottom: 1px;
+}
+
+
+

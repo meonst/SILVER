@@ -3,12 +3,12 @@ from django.http import JsonResponse, HttpResponse
 from PIL import Image
 import json
 # Create your views here.
-
+version = '77692'
 def index(request):
     lang = request.GET.get('lang')
     if lang == None:
         lang = "enus"
-    with open("../files/json/herodata_75589_{}.json".format(lang), encoding = 'utf-8') as json_file:
+    with open("../files/json/herodata_{}_{}.json".format(version, lang), encoding = 'utf-8') as json_file:
         herodata = json.load(json_file)
     herolist = dict()
     for herolink in herodata:
@@ -20,7 +20,7 @@ def heroes(request, herolink):
     lang = request.GET.get('lang')
     if lang == None:
         lang = "enus"
-    with open("../files/json/herodata_75589_{}.json".format(lang), encoding = 'utf-8') as json_file:
+    with open("../files/json/herodata_{}_{}.json".format(version, lang), encoding = 'utf-8') as json_file:
         herodata = json.load(json_file)
         context = {
             'herodata' : herodata[herolink]
@@ -31,7 +31,7 @@ def talents(request, herolink):
     lang = request.GET.get('lang')
     if lang == None:
         lang = "enus"
-    with open("../files/json/herodata_75589_{}.json".format(lang), encoding = 'utf-8') as json_file:
+    with open("../files/json/herodata_{}_{}.json".format(version, lang), encoding = 'utf-8') as json_file:
         herodata = json.load(json_file)
         talents = {
             'talents' : herodata[herolink]['talents']
@@ -46,7 +46,7 @@ def talentshare(request, herolink, share):
     if lang == None:
         lang = "enus"
     
-    with open("../files/json/herodata_75589_{}.json".format(lang), encoding = 'utf-8') as json_file:
+    with open("../files/json/herodata_{}_{}.json".format(version, lang), encoding = 'utf-8') as json_file:
         herodata = json.load(json_file)
         talents = {
             'talents' : herodata[herolink]['talents']
