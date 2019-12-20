@@ -38,6 +38,11 @@ body {
     width: 50px;
     background-color: #e7dbdb;
 }
+#Langs {
+    float: middle;
+    text-decoration: none;
+    color: black;
+}
 
 .Hero {
     margin: 5px;
@@ -83,7 +88,26 @@ img {
     border-style: solid;
     border-color: whitesmoke;
 }
-
+#alternativeSkills {
+    height: 120px;
+    width: 100%;
+    border: 3px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+#mount {
+    float: left;
+    height: 48px;
+    width: 76px;
+    border: 3px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+#mount > img {
+    height: 48px;
+    width: 76px;
+    border: 0px;
+}
 #skill {
     float: left;
     height: 100px;
@@ -96,6 +120,14 @@ img {
     height: 100px;
     width: 100px;
     border: 0px;
+}
+#emptySkill {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 3px;
+    border-style: solid;
+    border-color: whitesmoke;
 }
 
 #talents {
@@ -134,6 +166,14 @@ img {
     font-size: 15pt;
     padding-bottom: 1px;
 }
-
+#costs {
+    float:left;
+}
+#cooldown {
+    float: right;
+}
+#necessity {
+    height: 25px;
+}
 
 
