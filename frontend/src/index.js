@@ -100,7 +100,7 @@ class HeroPage extends React.Component {
         if (herodat['unitId'] === 'HeroLostVikingsController') {isViking = true} else {isViking = false}
         qAlt = 'empty'; wAlt = 'empty'; eAlt = 'empty'
         
-
+        if (herodat['unitId'] === 'HeroSamuro') {hasActivable = false}
         //Alternative Skills
         hasAlternative = false
 
@@ -159,6 +159,13 @@ class HeroPage extends React.Component {
         if (herodat['unitId'] === 'HeroUther') {
             hasAlternative = true
             qAlt = herodat['subAbilities'][0]['UtherEternalDevotion|UtherEternalDevotion|Trait']['basic'][0]
+        }
+        //Valeera
+        if (herodat['unitId'] === 'HeroValeera') {
+            hasAlternative = true
+            qAlt = herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][0]
+            wAlt = herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][1]
+            eAlt = herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][2]
         }
         var Abilities = 
             <div>
