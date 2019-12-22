@@ -1372,7 +1372,7 @@
           "icon": "storm_ui_icon_azmodan_generalofhell.png",
           "cooldownTooltip": "冷卻時間：7秒",
           "shortTooltip": "阿茲莫丹召喚惡魔部將來協助小兵、傭兵和召喚單位",
-          "fullTooltip": "在友方傭兵、小兵或阿茲莫丹的惡魔身旁召喚一名惡魔部將。惡魔部將每7秒會施放魔能轟擊，立即擊殺一名敵方小兵。惡魔部將可存在20秒。  可在引導獄焚魔光時使用。",
+          "fullTooltip": "在友方傭兵、小兵或阿茲莫丹的惡魔身旁召喚一名惡魔部將。惡魔部將每7秒會施放魔能轟擊，立即擊殺一名敵方小兵。惡魔部將可存在20秒。<n/><n/>可在引導獄焚魔光時使用。",
           "abilityType": "Hidden"
         }
       ]
@@ -1503,7 +1503,7 @@
             "countUse": 1
           },
           "shortTooltip": "殺死小兵以買通傭兵",
-          "fullTooltip": "附近有敵方小兵或敵方傭兵陣亡時，失落的維京人可獲得收買點數。消耗40點收買點數可買通傭兵，使他們立即投誠我方。無法用於精英傭兵。點數上限為200點。若收買了一個營地的所有傭兵，該營地的重生時間會加快50%。  目前收買點數：0點",
+          "fullTooltip": "附近有敵方小兵或敵方傭兵陣亡時，失落的維京人可獲得收買點數。消耗40點收買點數可買通傭兵，使他們立即投誠我方。無法用於精英傭兵。點數上限為200點。若收買了一個營地的所有傭兵，該營地的重生時間會加快50%。<n/><n/>目前收買點數：0點",
           "abilityType": "E"
         }
       ],
@@ -1515,7 +1515,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "冷卻時間：80秒",
           "shortTooltip": "復活維京人然後召喚他們",
-          "fullTooltip": "一名維京人引導此技能2秒後，可以復活並完全恢復所有維京人的生命值，然後將他們召喚至指定地點。  同一時間只能有一名維京人進行召喚。",
+          "fullTooltip": "一名維京人引導此技能2秒後，可以復活並完全恢復所有維京人的生命值，然後將他們召喚至指定地點。<n/><n/>同一時間只能有一名維京人進行召喚。",
           "abilityType": "Heroic"
         },
         {
@@ -1525,7 +1525,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "冷卻時間：90秒",
           "shortTooltip": "搭乘維京長船攻擊敵人",
-          "fullTooltip": "跳上一艘維京長船朝附近的敵人開火，每秒造成112 (+4% per level)點傷害，同時發射迫擊砲，對一塊區域造成228 (+4% per level)點傷害。維京長船不受控場效果影響，生命值會隨著搭乘的維京人數量而提高。敵人摧毀長船後，所有維京人會昏迷1秒。維京長船的持續時間為15秒。  所有活著的維京人都必須在附近。",
+          "fullTooltip": "跳上一艘維京長船朝附近的敵人開火，每秒造成112 (+4% per level)點傷害，同時發射迫擊砲，對一塊區域造成228 (+4% per level)點傷害。維京長船不受控場效果影響，生命值會隨著搭乘的維京人數量而提高。敵人摧毀長船後，所有維京人會昏迷1秒。維京長船的持續時間為15秒。<n/><n/>所有活著的維京人都必須在附近。",
           "abilityType": "Heroic"
         }
       ],
@@ -1536,7 +1536,7 @@
           "name": "屯寶維京人",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "拾取恢復之球可提高生命恢復率",
-          "fullTooltip": "維京人每拾取一顆恢復之球，全體維京人的每秒生命恢復率永久提高0.5點。  目前加成：每秒0點",
+          "fullTooltip": "維京人每拾取一顆恢復之球，全體維京人的每秒生命恢復率永久提高0.5點。<n/><n/>目前加成：每秒0點",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -3681,7 +3681,7 @@
           "energyTooltip": "法力：0點",
           "cooldownTooltip": "冷卻時間：3秒",
           "shortTooltip": "發射一道遠距攻擊，對一個敵人造成傷害",
-          "fullTooltip": "延遲0.5秒後，發射一枚沙塵彈，對命中的第一名敵人造成305 (+4% per level)點傷害。對建築造成50%傷害。  施放沙塵衝擊會在原地留下一個殘影，殘影會模仿克羅米的沙塵衝擊和基本攻擊，造成40%的傷害。最多可同時擁有1個殘影。",
+          "fullTooltip": "延遲0.5秒後，發射一枚沙塵彈，對命中的第一名敵人造成305 (+4% per level)點傷害。對建築造成50%傷害。<n/><n/>施放沙塵衝擊會在原地留下一個殘影，殘影會模仿克羅米的沙塵衝擊和基本攻擊，造成40%的傷害。最多可同時擁有1個殘影。",
           "abilityType": "Q"
         }
       ]
@@ -3978,7 +3978,7 @@
           "energyTooltip": "能量：15點",
           "cooldownTooltip": "冷卻時間：4秒",
           "shortTooltip": "對死亡之翼附近的敵人造成傷害",
-          "fullTooltip": "在0.75秒後，死亡之翼拍動雙翅，對附近敵人造成80 (+4% per level)點傷害。  碎界者：熔岩爆發 產生一池熔岩，對敵人造成傷害並使其緩速。",
+          "fullTooltip": "在0.75秒後，死亡之翼拍動雙翅，對附近敵人造成80 (+4% per level)點傷害。<n/><n/>碎界者：熔岩爆發<n/>產生一池熔岩，對敵人造成傷害並使其緩速。",
           "abilityType": "W"
         },
         {
@@ -3994,7 +3994,7 @@
           },
           "cooldownTooltip": "補充時間：10秒",
           "shortTooltip": "死亡之翼在巨龍翔翼狀態下可降下隕石",
-          "fullTooltip": "在0.8秒後，降下一顆隕石，對範圍內的敵人造成58 (+4% per level)點傷害。  擊中敵人時，可為死亡之翼恢復最大生命值的3%，並且使降落的冷卻時間降低1.5秒。",
+          "fullTooltip": "在0.8秒後，降下一顆隕石，對範圍內的敵人造成58 (+4% per level)點傷害。<n/><n/>擊中敵人時，可為死亡之翼恢復最大生命值的3%，並且使降落的冷卻時間降低1.5秒。",
           "abilityType": "E"
         },
         {
@@ -4005,7 +4005,7 @@
           "energyTooltip": "能量：20點",
           "cooldownTooltip": "冷卻時間：5秒",
           "shortTooltip": "朝一個方向猛撲",
-          "fullTooltip": "在0.5秒後，死亡之翼朝一個方向猛撲，對敵人造成40 (+4% per level)點傷害，並且使其緩速35%，持續2秒。死亡之翼會在撲襲的末端猛咬敵人，額外造成75 (+4% per level)點傷害。  碎界者形態：大地崩裂 對兩條直線路徑上的敵人造成傷害並且使其昏迷。",
+          "fullTooltip": "在0.5秒後，死亡之翼朝一個方向猛撲，對敵人造成40 (+4% per level)點傷害，並且使其緩速35%，持續2秒。死亡之翼會在撲襲的末端猛咬敵人，額外造成75 (+4% per level)點傷害。<n/><n/>碎界者形態：大地崩裂<n/>對兩條直線路徑上的敵人造成傷害並且使其昏迷。",
           "abilityType": "E"
         }
       ],
@@ -4028,7 +4028,7 @@
           "name": "死亡化身",
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "shortTooltip": "死亡之翼非常強大，但是不受友方效果影響",
-          "fullTooltip": "死亡之翼裝上4片護甲板，每片可提供10點護甲。每失去25%生命值，會使死亡之翼失去一片護甲板。只能在使用巨龍翔翼時恢復護甲板，恢復的數量取決於降落時的生命值。  死亡之翼是強大的守護巨龍，永久處於控場免疫狀態，並且可對英雄造成額外100%法術傷害，但是他鄙視所有盟友，所以不受任何友方效果所影響。",
+          "fullTooltip": "死亡之翼裝上4片護甲板，每片可提供10點護甲。每失去25%生命值，會使死亡之翼失去一片護甲板。只能在使用巨龍翔翼時恢復護甲板，恢復的數量取決於降落時的生命值。<n/><n/>死亡之翼是強大的守護巨龍，永久處於控場免疫狀態，並且可對英雄造成額外100%法術傷害，但是他鄙視所有盟友，所以不受任何友方效果所影響。",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -4053,7 +4053,7 @@
           "name": "轉換形態",
           "icon": "storm_ui_icon_deathwing_deathdrop.png",
           "cooldownTooltip": "冷卻時間：20秒",
-          "fullTooltip": "死亡之翼可切換毀滅者形態或碎界者形態，兩種形態各有不同的基本技能。  焚燒可對死亡之翼周圍的敵人造成傷害，猛襲可使死亡之翼撲向敵人。  熔岩爆發可產生一片緩速區域，大地崩裂可擊昏兩條直線路徑上的敵人。",
+          "fullTooltip": "死亡之翼可切換毀滅者形態或碎界者形態，兩種形態各有不同的基本技能。<n/><n/>焚燒可對死亡之翼周圍的敵人造成傷害，猛襲可使死亡之翼撲向敵人。<n/><n/>熔岩爆發可產生一片緩速區域，大地崩裂可擊昏兩條直線路徑上的敵人。",
           "abilityType": "Active"
         }
       ],
@@ -4194,7 +4194,7 @@
           "energyTooltip": "能量：20點",
           "cooldownTooltip": "冷卻時間：6秒",
           "shortTooltip": "產生一池熔岩，對敵人造成傷害並使其緩速",
-          "fullTooltip": "在1秒後，對範圍內的所有敵人造成30 (+4% per level)點傷害，並且產生一池熔岩，每秒對敵人造成16 (+4% per level)點傷害，並且使其緩速35%。熔岩的存在時間為6秒。  毀滅者形態：焚燒 對死亡之翼附近的敵人造成傷害",
+          "fullTooltip": "在1秒後，對範圍內的所有敵人造成30 (+4% per level)點傷害，並且產生一池熔岩，每秒對敵人造成16 (+4% per level)點傷害，並且使其緩速35%。熔岩的存在時間為6秒。<n/><n/>毀滅者形態：焚燒<n/>對死亡之翼附近的敵人造成傷害",
           "abilityType": "Hidden"
         },
         {
@@ -4219,7 +4219,7 @@
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "cooldownTooltip": "冷卻時間：20秒",
           "shortTooltip": "死亡之翼非常強大，但是不受友方效果影響",
-          "fullTooltip": "死亡之翼裝上4片護甲板，每片可提供10點護甲。每失去25%生命值，會使死亡之翼失去一片護甲板。只能在使用巨龍翔翼時恢復護甲板，恢復的數量取決於降落時的生命值。  死亡之翼是強大的守護巨龍，永久處於控場免疫狀態，並且可對英雄造成額外100%法術傷害，但是他鄙視所有盟友，所以不受任何友方效果所影響。",
+          "fullTooltip": "死亡之翼裝上4片護甲板，每片可提供10點護甲。每失去25%生命值，會使死亡之翼失去一片護甲板。只能在使用巨龍翔翼時恢復護甲板，恢復的數量取決於降落時的生命值。<n/><n/>死亡之翼是強大的守護巨龍，永久處於控場免疫狀態，並且可對英雄造成額外100%法術傷害，但是他鄙視所有盟友，所以不受任何友方效果所影響。",
           "abilityType": "Hidden"
         }
       ]
@@ -4298,7 +4298,7 @@
               "energyTooltip": "能量：25點",
               "cooldownTooltip": "冷卻時間：12秒",
               "shortTooltip": "對兩條直線路徑上的敵人造成傷害和昏迷",
-              "fullTooltip": "在地面產生裂縫，對敵人造成80 (+4% per level)點傷害，並且使其昏迷，持續0.75秒。  毀滅者形態：猛襲 朝一個方向猛撲",
+              "fullTooltip": "在地面產生裂縫，對敵人造成80 (+4% per level)點傷害，並且使其昏迷，持續0.75秒。<n/><n/>毀滅者形態：猛襲<n/>朝一個方向猛撲",
               "abilityType": "E"
             }
           ]
@@ -5495,7 +5495,7 @@
             "countUse": 1
           },
           "shortTooltip": "殺死小兵以買通傭兵",
-          "fullTooltip": "附近有敵方小兵或敵方傭兵陣亡時，失落的維京人可獲得收買點數。消耗40點收買點數可買通傭兵，使他們立即投誠我方。無法用於精英傭兵。點數上限為200點。若收買了一個營地的所有傭兵，該營地的重生時間會加快50%。  目前收買點數：0點",
+          "fullTooltip": "附近有敵方小兵或敵方傭兵陣亡時，失落的維京人可獲得收買點數。消耗40點收買點數可買通傭兵，使他們立即投誠我方。無法用於精英傭兵。點數上限為200點。若收買了一個營地的所有傭兵，該營地的重生時間會加快50%。<n/><n/>目前收買點數：0點",
           "abilityType": "E"
         }
       ],
@@ -5507,7 +5507,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "冷卻時間：80秒",
           "shortTooltip": "復活維京人然後召喚他們",
-          "fullTooltip": "一名維京人引導此技能2秒後，可以復活並完全恢復所有維京人的生命值，然後將他們召喚至指定地點。  同一時間只能有一名維京人進行召喚。",
+          "fullTooltip": "一名維京人引導此技能2秒後，可以復活並完全恢復所有維京人的生命值，然後將他們召喚至指定地點。<n/><n/>同一時間只能有一名維京人進行召喚。",
           "abilityType": "Heroic"
         },
         {
@@ -5517,7 +5517,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "冷卻時間：90秒",
           "shortTooltip": "搭乘維京長船攻擊敵人",
-          "fullTooltip": "跳上一艘維京長船朝附近的敵人開火，每秒造成112 (+4% per level)點傷害，同時發射迫擊砲，對一塊區域造成228 (+4% per level)點傷害。維京長船不受控場效果影響，生命值會隨著搭乘的維京人數量而提高。敵人摧毀長船後，所有維京人會昏迷1秒。維京長船的持續時間為15秒。  所有活著的維京人都必須在附近。",
+          "fullTooltip": "跳上一艘維京長船朝附近的敵人開火，每秒造成112 (+4% per level)點傷害，同時發射迫擊砲，對一塊區域造成228 (+4% per level)點傷害。維京長船不受控場效果影響，生命值會隨著搭乘的維京人數量而提高。敵人摧毀長船後，所有維京人會昏迷1秒。維京長船的持續時間為15秒。<n/><n/>所有活著的維京人都必須在附近。",
           "abilityType": "Heroic"
         }
       ],
@@ -5528,7 +5528,7 @@
           "name": "屯寶維京人",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "拾取恢復之球可提高生命恢復率",
-          "fullTooltip": "維京人每拾取一顆恢復之球，全體維京人的每秒生命恢復率永久提高0.5點。  目前加成：每秒0點",
+          "fullTooltip": "維京人每拾取一顆恢復之球，全體維京人的每秒生命恢復率永久提高0.5點。<n/><n/>目前加成：每秒0點",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -5746,7 +5746,7 @@
           "name": "燃油",
           "icon": "storm_ui_icon_blaze_oil.png",
           "cooldownTooltip": "冷卻時間：6秒",
-          "fullTooltip": "方位指定技能 拋出燃油使敵人緩速。「爆焰」可以點燃燃油。",
+          "fullTooltip": "方位指定技能<n/>拋出燃油使敵人緩速。「爆焰」可以點燃燃油。",
           "abilityType": "W"
         }
       ],
@@ -7121,7 +7121,7 @@
           "nameId": "TerroroftheGarden",
           "buttonId": "TerroroftheGarden",
           "icon": "storm_ui_icon_gardenterror_terrorofthegarden.png",
-          "fullTooltip": "花園魔物（特性）  永遠對控場免疫。",
+          "fullTooltip": "花園魔物（特性）<n/><n/>永遠對控場免疫。",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -9327,7 +9327,7 @@
           "name": "暴虐飛躍",
           "icon": "storm_btn_d3_barbarian_leap.png",
           "shortTooltip": "使區域內的敵人昏迷",
-          "fullTooltip": "跳至目標地點，造成1點傷害並且使著陸地點的目標昏迷1秒。",
+          "fullTooltip": "跳至目標地點，造成1點傷害並且使著陸地點的目標昏迷1秒。<n/><n/>",
           "abilityType": "Q"
         },
         {
@@ -9336,7 +9336,7 @@
           "name": "鎖定",
           "icon": "storm_temp_war3_btnundeadunload.png",
           "cooldownTooltip": "冷卻時間：10秒",
-          "fullTooltip": "鎖定目標，進入狂怒狀態，移動速度提高100%，攻擊速度提高0%，持續4秒。這段期間內暴虐魔不受任何命令影響。  效果結束後，暴虐魔會昏迷1秒。",
+          "fullTooltip": "鎖定目標，進入狂怒狀態，移動速度提高100%，攻擊速度提高0%，持續4秒。這段期間內暴虐魔不受任何命令影響。<n/><n/>效果結束後，暴虐魔會昏迷1秒。",
           "abilityType": "W"
         }
       ]
@@ -10730,7 +10730,7 @@
             "countUse": 1
           },
           "shortTooltip": "殺死小兵以買通傭兵",
-          "fullTooltip": "附近有敵方小兵或敵方傭兵陣亡時，失落的維京人可獲得收買點數。消耗40點收買點數可買通傭兵，使他們立即投誠我方。無法用於精英傭兵。點數上限為200點。若收買了一個營地的所有傭兵，該營地的重生時間會加快50%。  目前收買點數：0點",
+          "fullTooltip": "附近有敵方小兵或敵方傭兵陣亡時，失落的維京人可獲得收買點數。消耗40點收買點數可買通傭兵，使他們立即投誠我方。無法用於精英傭兵。點數上限為200點。若收買了一個營地的所有傭兵，該營地的重生時間會加快50%。<n/><n/>目前收買點數：0點",
           "abilityType": "E"
         }
       ],
@@ -10742,7 +10742,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "冷卻時間：80秒",
           "shortTooltip": "復活維京人然後召喚他們",
-          "fullTooltip": "一名維京人引導此技能2秒後，可以復活並完全恢復所有維京人的生命值，然後將他們召喚至指定地點。  同一時間只能有一名維京人進行召喚。",
+          "fullTooltip": "一名維京人引導此技能2秒後，可以復活並完全恢復所有維京人的生命值，然後將他們召喚至指定地點。<n/><n/>同一時間只能有一名維京人進行召喚。",
           "abilityType": "Heroic"
         },
         {
@@ -10752,7 +10752,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "冷卻時間：90秒",
           "shortTooltip": "搭乘維京長船攻擊敵人",
-          "fullTooltip": "跳上一艘維京長船朝附近的敵人開火，每秒造成112 (+4% per level)點傷害，同時發射迫擊砲，對一塊區域造成228 (+4% per level)點傷害。維京長船不受控場效果影響，生命值會隨著搭乘的維京人數量而提高。敵人摧毀長船後，所有維京人會昏迷1秒。維京長船的持續時間為15秒。  所有活著的維京人都必須在附近。",
+          "fullTooltip": "跳上一艘維京長船朝附近的敵人開火，每秒造成112 (+4% per level)點傷害，同時發射迫擊砲，對一塊區域造成228 (+4% per level)點傷害。維京長船不受控場效果影響，生命值會隨著搭乘的維京人數量而提高。敵人摧毀長船後，所有維京人會昏迷1秒。維京長船的持續時間為15秒。<n/><n/>所有活著的維京人都必須在附近。",
           "abilityType": "Heroic"
         }
       ],
@@ -10763,7 +10763,7 @@
           "name": "屯寶維京人",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "拾取恢復之球可提高生命恢復率",
-          "fullTooltip": "維京人每拾取一顆恢復之球，全體維京人的每秒生命恢復率永久提高0.5點。  目前加成：每秒0點",
+          "fullTooltip": "維京人每拾取一顆恢復之球，全體維京人的每秒生命恢復率永久提高0.5點。<n/><n/>目前加成：每秒0點",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -12499,7 +12499,7 @@
           "energyTooltip": "法力：50點",
           "cooldownTooltip": "冷卻時間：6秒",
           "shortTooltip": "單發射擊，對第一個命中的敵人造成大量傷害",
-          "fullTooltip": "對第一個擊中的敵人造成230 (+4% per level)點傷害。  被動：狙擊命中敵方英雄後，可使狙擊的傷害提高6%，最高可堆疊至30%。當你堆疊至最高層數後，傷害會額外提高25%。只要任何一發狙擊未命中敵人，則會失去所有堆疊。",
+          "fullTooltip": "對第一個擊中的敵人造成230 (+4% per level)點傷害。<n/><n/>被動：狙擊命中敵方英雄後，可使狙擊的傷害提高6%，最高可堆疊至30%。當你堆疊至最高層數後，傷害會額外提高25%。只要任何一發狙擊未命中敵人，則會失去所有堆疊。",
           "abilityType": "Q"
         },
         {
@@ -12544,7 +12544,7 @@
           "icon": "storm_ui_icon_nova_personalcloaking.png",
           "cooldownTooltip": "冷卻時間：3秒",
           "shortTooltip": "未攻擊和未受到傷害時匿蹤，並且提高移動速度",
-          "fullTooltip": "諾娃脫離戰鬥3秒後會進入匿蹤狀態。受到傷害、進行攻擊、使用或引導技能會讓諾娃脫離匿蹤狀態。在匿蹤狀態下靜止不動1.5秒後會進入隱形狀態。  被動：處於匿蹤狀態時移動速度提高15%。",
+          "fullTooltip": "諾娃脫離戰鬥3秒後會進入匿蹤狀態。受到傷害、進行攻擊、使用或引導技能會讓諾娃脫離匿蹤狀態。在匿蹤狀態下靜止不動1.5秒後會進入隱形狀態。<n/><n/>被動：處於匿蹤狀態時移動速度提高15%。",
           "abilityType": "Hidden",
           "isActive": false
         }
@@ -12657,7 +12657,7 @@
             "countUse": 1
           },
           "shortTooltip": "殺死小兵以買通傭兵",
-          "fullTooltip": "附近有敵方小兵或敵方傭兵陣亡時，失落的維京人可獲得收買點數。消耗40點收買點數可買通傭兵，使他們立即投誠我方。無法用於精英傭兵。點數上限為200點。若收買了一個營地的所有傭兵，該營地的重生時間會加快50%。  目前收買點數：0點",
+          "fullTooltip": "附近有敵方小兵或敵方傭兵陣亡時，失落的維京人可獲得收買點數。消耗40點收買點數可買通傭兵，使他們立即投誠我方。無法用於精英傭兵。點數上限為200點。若收買了一個營地的所有傭兵，該營地的重生時間會加快50%。<n/><n/>目前收買點數：0點",
           "abilityType": "E"
         }
       ],
@@ -12669,7 +12669,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "冷卻時間：80秒",
           "shortTooltip": "復活維京人然後召喚他們",
-          "fullTooltip": "一名維京人引導此技能2秒後，可以復活並完全恢復所有維京人的生命值，然後將他們召喚至指定地點。  同一時間只能有一名維京人進行召喚。",
+          "fullTooltip": "一名維京人引導此技能2秒後，可以復活並完全恢復所有維京人的生命值，然後將他們召喚至指定地點。<n/><n/>同一時間只能有一名維京人進行召喚。",
           "abilityType": "Heroic"
         },
         {
@@ -12679,7 +12679,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "冷卻時間：90秒",
           "shortTooltip": "搭乘維京長船攻擊敵人",
-          "fullTooltip": "跳上一艘維京長船朝附近的敵人開火，每秒造成112 (+4% per level)點傷害，同時發射迫擊砲，對一塊區域造成228 (+4% per level)點傷害。維京長船不受控場效果影響，生命值會隨著搭乘的維京人數量而提高。敵人摧毀長船後，所有維京人會昏迷1秒。維京長船的持續時間為15秒。  所有活著的維京人都必須在附近。",
+          "fullTooltip": "跳上一艘維京長船朝附近的敵人開火，每秒造成112 (+4% per level)點傷害，同時發射迫擊砲，對一塊區域造成228 (+4% per level)點傷害。維京長船不受控場效果影響，生命值會隨著搭乘的維京人數量而提高。敵人摧毀長船後，所有維京人會昏迷1秒。維京長船的持續時間為15秒。<n/><n/>所有活著的維京人都必須在附近。",
           "abilityType": "Heroic"
         }
       ],
@@ -12690,7 +12690,7 @@
           "name": "屯寶維京人",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "拾取恢復之球可提高生命恢復率",
-          "fullTooltip": "維京人每拾取一顆恢復之球，全體維京人的每秒生命恢復率永久提高0.5點。  目前加成：每秒0點",
+          "fullTooltip": "維京人每拾取一顆恢復之球，全體維京人的每秒生命恢復率永久提高0.5點。<n/><n/>目前加成：每秒0點",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -13589,7 +13589,7 @@
           "icon": "storm_ui_icon_ragnaros_moltenswing.png",
           "cooldownTooltip": "冷卻時間：6秒",
           "shortTooltip": "對附近敵人造成傷害，並使其昏迷",
-          "fullTooltip": "揮舞巨鎚，對扇形區域中的所有敵人造成161 (+4% per level)點傷害，並且使其昏迷1秒。  對小兵、傭兵以及中立怪的傷害提高25%。",
+          "fullTooltip": "揮舞巨鎚，對扇形區域中的所有敵人造成161 (+4% per level)點傷害，並且使其昏迷1秒。<n/><n/>對小兵、傭兵以及中立怪的傷害提高25%。",
           "abilityType": "Q"
         },
         {
@@ -13599,7 +13599,7 @@
           "icon": "storm_ui_icon_ragnaros_meteorshower.png",
           "cooldownTooltip": "冷卻時間：2.5秒",
           "shortTooltip": "對直線路徑召喚隕石",
-          "fullTooltip": "方位指定技能 在目標地點召喚3枚朝指定方向轟擊的隕石，每一枚隕石會造成151 (+4% per level)點傷害，並且使敵人緩速25%，持續2秒。  對小兵、傭兵以及中立怪的傷害提高25%。",
+          "fullTooltip": "方位指定技能<n/>在目標地點召喚3枚朝指定方向轟擊的隕石，每一枚隕石會造成151 (+4% per level)點傷害，並且使敵人緩速25%，持續2秒。<n/><n/>對小兵、傭兵以及中立怪的傷害提高25%。",
           "abilityType": "W"
         },
         {
@@ -13609,7 +13609,7 @@
           "icon": "storm_ui_icon_ragnaros_explosiverune.png",
           "cooldownTooltip": "冷卻時間：4秒",
           "shortTooltip": "短暫延遲後引爆大範圍區域",
-          "fullTooltip": "產生一個符文，在1.5秒後對非建築單位造成285 (+4% per level)點傷害。  對小兵、傭兵以及中立怪的傷害提高25%。",
+          "fullTooltip": "產生一個符文，在1.5秒後對非建築單位造成285 (+4% per level)點傷害。<n/><n/>對小兵、傭兵以及中立怪的傷害提高25%。",
           "abilityType": "E"
         }
       ],
@@ -14124,7 +14124,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "冷卻時間：14秒",
           "shortTooltip": "產生鏡像以混淆並且攻擊敵人",
-          "fullTooltip": "朝滑鼠方向傳送一小段距離，並且產生2個鏡像，持續8秒，鏡像的生命值等同薩姆羅目前生命值的100%，並且會對敵人進行基本攻擊，造成11 (+4% per level)點傷害。每次鏡像或薩姆羅對敵方英雄進行基本攻擊，鏡像的持續時間會提高1秒。鏡像受到傷害時，會對自己造成等量的傷害，所以實際上會受到雙倍傷害。  同時間最多只能存在2個鏡像。使用鏡像可移除薩姆羅身上大多數的負面效果。",
+          "fullTooltip": "朝滑鼠方向傳送一小段距離，並且產生2個鏡像，持續8秒，鏡像的生命值等同薩姆羅目前生命值的100%，並且會對敵人進行基本攻擊，造成11 (+4% per level)點傷害。每次鏡像或薩姆羅對敵方英雄進行基本攻擊，鏡像的持續時間會提高1秒。鏡像受到傷害時，會對自己造成等量的傷害，所以實際上會受到雙倍傷害。<n/><n/>同時間最多只能存在2個鏡像。使用鏡像可移除薩姆羅身上大多數的負面效果。",
           "abilityType": "Q"
         }
       ],
@@ -14146,7 +14146,7 @@
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
           "cooldownTooltip": "冷卻時間：8秒",
           "shortTooltip": "可操控鏡像",
-          "fullTooltip": "鏡像可以集體行動，也能分別操控，並且傷害提高100%。  被動：鏡像傳送的冷卻時間降低至8秒。",
+          "fullTooltip": "鏡像可以集體行動，也能分別操控，並且傷害提高100%。<n/><n/>被動：鏡像傳送的冷卻時間降低至8秒。",
           "abilityType": "Heroic"
         }
       ],
@@ -14158,7 +14158,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "冷卻時間：14秒",
           "shortTooltip": "攻擊英雄可提高移動速度",
-          "fullTooltip": "啟動後可與目標鏡像調換位置，並且移除薩姆羅與該鏡像身上大部分的負面效果。  步步進逼  對敵方英雄發動基本攻擊可使薩姆羅的移動速度提高25%，持續2秒。",
+          "fullTooltip": "啟動後可與目標鏡像調換位置，並且移除薩姆羅與該鏡像身上大部分的負面效果。<n/><n/>步步進逼<n/><n/>對敵方英雄發動基本攻擊可使薩姆羅的移動速度提高25%，持續2秒。",
           "abilityType": "Trait"
         }
       ],
@@ -14180,7 +14180,7 @@
           "name": "選取鏡像",
           "icon": "storm_temp_war3_btnmirrorimage.png",
           "shortTooltip": "選取鏡像",
-          "fullTooltip": "選取鏡像  操控一個鏡像。",
+          "fullTooltip": "選取鏡像<n/><n/>操控一個鏡像。",
           "abilityType": "Active"
         },
         {
@@ -14189,7 +14189,7 @@
           "name": "選取所有",
           "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
           "shortTooltip": "選取全體",
-          "fullTooltip": "選取全體  操控薩姆羅和所有鏡像。",
+          "fullTooltip": "選取全體<n/><n/>操控薩姆羅和所有鏡像。",
           "abilityType": "Active"
         }
       ],
@@ -14323,7 +14323,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "冷卻時間：14秒",
           "shortTooltip": "攻擊英雄可提高移動速度",
-          "fullTooltip": "啟動後可與目標鏡像調換位置，並且移除薩姆羅與該鏡像身上大部分的負面效果。  步步進逼  對敵方英雄發動基本攻擊可使薩姆羅的移動速度提高25%，持續2秒。",
+          "fullTooltip": "啟動後可與目標鏡像調換位置，並且移除薩姆羅與該鏡像身上大部分的負面效果。<n/><n/>步步進逼<n/><n/>對敵方英雄發動基本攻擊可使薩姆羅的移動速度提高25%，持續2秒。",
           "abilityType": "Hidden"
         },
         {
@@ -14333,7 +14333,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "冷卻時間：18秒",
           "shortTooltip": "產生鏡像以混淆並且攻擊敵人",
-          "fullTooltip": "朝滑鼠方向傳送一小段距離，並且產生2個鏡像，持續8秒，鏡像的生命值等同薩姆羅目前生命值的100%，並且會對敵人進行基本攻擊，造成11 (+4% per level)點傷害。每次鏡像或薩姆羅對敵方英雄進行基本攻擊，鏡像的持續時間會提高1秒。鏡像受到傷害時，會對自己造成等量的傷害，所以實際上會受到雙倍傷害。  同時間最多只能存在2個鏡像。使用鏡像可移除薩姆羅身上大多數的負面效果。",
+          "fullTooltip": "朝滑鼠方向傳送一小段距離，並且產生2個鏡像，持續8秒，鏡像的生命值等同薩姆羅目前生命值的100%，並且會對敵人進行基本攻擊，造成11 (+4% per level)點傷害。每次鏡像或薩姆羅對敵方英雄進行基本攻擊，鏡像的持續時間會提高1秒。鏡像受到傷害時，會對自己造成等量的傷害，所以實際上會受到雙倍傷害。<n/><n/>同時間最多只能存在2個鏡像。使用鏡像可移除薩姆羅身上大多數的負面效果。",
           "abilityType": "Hidden"
         },
         {
@@ -14350,7 +14350,7 @@
           },
           "cooldownTooltip": "冷卻時間：10秒",
           "shortTooltip": "發動致命一擊造成額外傷害",
-          "fullTooltip": "薩姆羅在8秒內的下一次基本攻擊會觸發致命一擊，額外造成50%的傷害。鏡像也會獲得此效果，而且不會解除風之步。  被動：薩姆羅與其鏡像每4次基本攻擊就會造成一次致命一擊。",
+          "fullTooltip": "薩姆羅在8秒內的下一次基本攻擊會觸發致命一擊，額外造成50%的傷害。鏡像也會獲得此效果，而且不會解除風之步。<n/><n/>被動：薩姆羅與其鏡像每4次基本攻擊就會造成一次致命一擊。",
           "abilityType": "Hidden"
         },
         {
@@ -14360,7 +14360,7 @@
           "icon": "storm_ui_icon_samuro_windwalk.png",
           "cooldownTooltip": "冷卻時間：15秒",
           "shortTooltip": "匿蹤，並且提高移動速度",
-          "fullTooltip": "薩姆羅進入匿蹤狀態，最多可持續10秒，若攻擊、使用技能或受到傷害則會提前解除狀態。  處於匿蹤狀態時，薩姆羅每秒恢復最大生命值的1%，移動速度提高25%，並且能穿越其他單位。在匿蹤狀態下靜止不動1.5秒後會進入隱形狀態。  風之步啟動後的1秒內，薩姆羅會獲得強制匿蹤。",
+          "fullTooltip": "薩姆羅進入匿蹤狀態，最多可持續10秒，若攻擊、使用技能或受到傷害則會提前解除狀態。<n/><n/>處於匿蹤狀態時，薩姆羅每秒恢復最大生命值的1%，移動速度提高25%，並且能穿越其他單位。在匿蹤狀態下靜止不動1.5秒後會進入隱形狀態。<n/><n/>風之步啟動後的1秒內，薩姆羅會獲得強制匿蹤。",
           "abilityType": "Hidden"
         },
         {
@@ -14387,7 +14387,7 @@
           },
           "cooldownTooltip": "冷卻時間：10秒",
           "shortTooltip": "發動致命一擊造成額外傷害",
-          "fullTooltip": "薩姆羅在8秒內的下一次基本攻擊會觸發致命一擊，額外造成50%的傷害。鏡像也會獲得此效果，而且不會解除風之步。  被動：薩姆羅與其鏡像每4次基本攻擊就會造成一次致命一擊。",
+          "fullTooltip": "薩姆羅在8秒內的下一次基本攻擊會觸發致命一擊，額外造成50%的傷害。鏡像也會獲得此效果，而且不會解除風之步。<n/><n/>被動：薩姆羅與其鏡像每4次基本攻擊就會造成一次致命一擊。",
           "abilityType": "Hidden"
         },
         {
@@ -14398,7 +14398,7 @@
           "toggleCooldown": 0.5,
           "cooldownTooltip": "冷卻時間：8秒",
           "shortTooltip": "可操控鏡像",
-          "fullTooltip": "鏡像可以集體行動，也能分別操控，並且傷害提高100%。  被動：鏡像傳送的冷卻時間降低至8秒。",
+          "fullTooltip": "鏡像可以集體行動，也能分別操控，並且傷害提高100%。<n/><n/>被動：鏡像傳送的冷卻時間降低至8秒。",
           "abilityType": "Hidden"
         }
       ]
@@ -15962,7 +15962,7 @@
           "energyTooltip": "法力：45點",
           "cooldownTooltip": "冷卻時間：10秒",
           "shortTooltip": "擲出戰鎚，使第一個被擊中的目標昏迷，並且對其造成傷害",
-          "fullTooltip": "投擲戰鎚，對擊中的第一個敵人造成110 (+4% per level)點傷害，並且使其昏迷1.25秒。  任務：以風暴怒擲擊中25名英雄。若英雄被風暴怒擲擊中後2.5秒內死亡，會視為額外擊中3名英雄。  獎勵：風暴怒擲會穿透並且額外擊中一個目標。穆拉丁的基本攻擊會使風暴怒擲的冷卻時間降低1秒。",
+          "fullTooltip": "投擲戰鎚，對擊中的第一個敵人造成110 (+4% per level)點傷害，並且使其昏迷1.25秒。<n/><n/>任務：以風暴怒擲擊中25名英雄。若英雄被風暴怒擲擊中後2.5秒內死亡，會視為額外擊中3名英雄。<n/><n/>獎勵：風暴怒擲會穿透並且額外擊中一個目標。穆拉丁的基本攻擊會使風暴怒擲的冷卻時間降低1秒。",
           "abilityType": "Q"
         },
         {
@@ -16097,7 +16097,7 @@
           "energyTooltip": "法力：70點",
           "cooldownTooltip": "冷卻時間：80秒",
           "shortTooltip": "吞噬區域內的敵人",
-          "fullTooltip": "召喚一隻巨蟲，吞噬敵人4秒。被吞噬的敵人無法作戰，每秒受到94 (+4% per level)點傷害。  可對控場免疫的敵人施放。",
+          "fullTooltip": "召喚一隻巨蟲，吞噬敵人4秒。被吞噬的敵人無法作戰，每秒受到94 (+4% per level)點傷害。<n/><n/>可對控場免疫的敵人施放。",
           "abilityType": "W"
         },
         {
@@ -16160,7 +16160,7 @@
           "energyTooltip": "法力：20點",
           "cooldownTooltip": "冷卻時間：16秒",
           "shortTooltip": "獲得生命值迫使一名英雄攻擊瓦里安",
-          "fullTooltip": "使目標英雄沉默，並且迫使該英雄攻擊瓦里安，持續1.25秒。  被動：最大生命值和生命恢復率提高40%。",
+          "fullTooltip": "使目標英雄沉默，並且迫使該英雄攻擊瓦里安，持續1.25秒。<n/><n/>被動：最大生命值和生命恢復率提高40%。",
           "abilityType": "B"
         }
       ]
@@ -16175,7 +16175,7 @@
               "name": "取消虛空牢獄",
               "icon": "hud_btn_bg_ability_cancel.png",
               "cooldownTooltip": "冷卻時間：1.5秒",
-              "fullTooltip": "取消虛空牢獄技能.",
+              "fullTooltip": "<n/>取消虛空牢獄技能.",
               "abilityType": "Q"
             }
           ]
@@ -24491,7 +24491,7 @@
           "buttonId": "DragonKnightRubbleMaker",
           "name": "碎石者",
           "icon": "storm_ui_icon_dragonknight_rubblemaker.png",
-          "fullTooltip": "對建築物和小兵造成的傷害提高100%。 來自建築物的傷害降低60%。 永遠對控場免疫。 龍騎士死亡時將自爆，擊退周圍的敵人。",
+          "fullTooltip": "對建築物和小兵造成的傷害提高100%。<n/>來自建築物的傷害降低60%。<n/>永遠對控場免疫。<n/>龍騎士死亡時將自爆，擊退周圍的敵人。",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -24708,7 +24708,7 @@
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "冷卻時間：8秒",
           "shortTooltip": "衝向目標，並且造成範圍傷害",
-          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成160點傷害。  對非英雄單位額外造成500%傷害。",
+          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成160點傷害。<n/><n/>對非英雄單位額外造成500%傷害。",
           "abilityType": "Q"
         },
         {
@@ -24718,7 +24718,7 @@
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "冷卻時間：14秒",
           "shortTooltip": "發射火箭拳造成傷害，使英雄定身，並且癱瘓防禦塔",
-          "fullTooltip": "發射火箭拳，對路徑上的第一名英雄或建築造成150點傷害。火箭拳會擊退英雄最多2秒，並且使建築癱瘓4秒。  火箭拳會立即殺死路徑上的小兵。",
+          "fullTooltip": "發射火箭拳，對路徑上的第一名英雄或建築造成150點傷害。火箭拳會擊退英雄最多2秒，並且使建築癱瘓4秒。<n/><n/>火箭拳會立即殺死路徑上的小兵。",
           "abilityType": "W"
         },
         {
@@ -24806,7 +24806,7 @@
           "name": "衝鋒",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "衝向目標，並且造成範圍傷害",
-          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成160點傷害。  對非英雄單位額外造成500%傷害。",
+          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成160點傷害。<n/><n/>對非英雄單位額外造成500%傷害。",
           "abilityType": "Hidden"
         },
         {
@@ -24815,7 +24815,7 @@
           "name": "衝鋒",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "衝向目標，並且造成範圍傷害",
-          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成160點傷害。  對非英雄單位額外造成500%傷害。",
+          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成160點傷害。<n/><n/>對非英雄單位額外造成500%傷害。",
           "abilityType": "Hidden"
         },
         {
@@ -24824,7 +24824,7 @@
           "name": "衝鋒",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "衝向目標，並且造成範圍傷害",
-          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成160點傷害。  對非英雄單位額外造成500%傷害。",
+          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成160點傷害。<n/><n/>對非英雄單位額外造成500%傷害。",
           "abilityType": "Hidden"
         }
       ]
@@ -24875,7 +24875,7 @@
           "icon": "storm_ui_icon_volskayarobot_tacticalstrikes.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "發射密集的炮火",
-          "fullTooltip": "啟用時可朝游標的所在位置發射砲火。每發砲火可造成38點傷害，但是會耗費1點能量。再次啟動可停止射擊。  對建築造成的傷害降低50%。",
+          "fullTooltip": "啟用時可朝游標的所在位置發射砲火。每發砲火可造成38點傷害，但是會耗費1點能量。再次啟動可停止射擊。<n/><n/>對建築造成的傷害降低50%。",
           "abilityType": "W"
         },
         {
@@ -24885,7 +24885,7 @@
           "icon": "storm_ui_icon_volskayarobot_skylaser.png",
           "cooldownTooltip": "冷卻時間：10秒",
           "shortTooltip": "延遲後對直線範圍造成傷害",
-          "fullTooltip": "方位指定技能 在地面上劃一道直線，造成60點傷害，並且在1秒後爆炸，額外造成380點傷害。",
+          "fullTooltip": "方位指定技能<n/>在地面上劃一道直線，造成60點傷害，並且在1秒後爆炸，額外造成380點傷害。",
           "abilityType": "E"
         }
       ],
@@ -25140,7 +25140,7 @@
           "name": "衝鋒",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "冷卻時間：8秒",
-          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成225點傷害。  對非英雄單位額外造成200%傷害。",
+          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成225點傷害。<n/><n/>對非英雄單位額外造成200%傷害。",
           "abilityType": "Q"
         },
         {
@@ -25149,7 +25149,7 @@
           "name": "火箭拳",
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "冷卻時間：14秒",
-          "fullTooltip": "發射火箭拳，對路徑上的第一個英雄或建築造成200點傷害。火箭拳會擊退英雄，並且使其昏迷1.5秒，若擊中建築會使其癱瘓4秒。  火箭拳會立即殺死路徑上的小兵。",
+          "fullTooltip": "發射火箭拳，對路徑上的第一個英雄或建築造成200點傷害。火箭拳會擊退英雄，並且使其昏迷1.5秒，若擊中建築會使其癱瘓4秒。<n/><n/>火箭拳會立即殺死路徑上的小兵。",
           "abilityType": "W"
         },
         {
@@ -25235,7 +25235,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "衝鋒",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成225點傷害。  對非英雄單位額外造成200%傷害。",
+          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成225點傷害。<n/><n/>對非英雄單位額外造成200%傷害。",
           "abilityType": "Hidden"
         },
         {
@@ -25243,7 +25243,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "衝鋒",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成225點傷害。  對非英雄單位額外造成200%傷害。",
+          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成225點傷害。<n/><n/>對非英雄單位額外造成200%傷害。",
           "abilityType": "Hidden"
         },
         {
@@ -25251,7 +25251,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "衝鋒",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成225點傷害。  對非英雄單位額外造成200%傷害。",
+          "fullTooltip": "朝一名目標衝鋒，並且對範圍內造成225點傷害。<n/><n/>對非英雄單位額外造成200%傷害。",
           "abilityType": "Hidden"
         }
       ]

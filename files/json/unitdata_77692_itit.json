@@ -1372,7 +1372,7 @@
           "icon": "storm_ui_icon_azmodan_generalofhell.png",
           "cooldownTooltip": "Recupero: 7 s",
           "shortTooltip": "Azmodan evoca un Luogotenente Demoniaco che assiste servitori, mercenari e creature evocate.",
-          "fullTooltip": "Evoca un Luogotenente Demoniaco nella posizione di un mercenario, di un servitore o di un Demone di Azmodan. Il Luogotenente attiva Espiazione Demoniaca ogni 7 s, uccidendo all'istante un servitore nemico. Dura 20 s.  Può essere usato durante l'incanalamento di Terra Bruciata.",
+          "fullTooltip": "Evoca un Luogotenente Demoniaco nella posizione di un mercenario, di un servitore o di un Demone di Azmodan. Il Luogotenente attiva Espiazione Demoniaca ogni 7 s, uccidendo all'istante un servitore nemico. Dura 20 s.<n/><n/>Può essere usato durante l'incanalamento di Terra Bruciata.",
           "abilityType": "Hidden"
         }
       ]
@@ -1503,7 +1503,7 @@
             "countUse": 1
           },
           "shortTooltip": "Uccidere i servitori permette di corrompere un mercenario.",
-          "fullTooltip": "I servitori uccisi e i mercenari sconfitti vicino ai Vichinghi Sperduti forniscono accumuli di Mazzetta. Servono 40 accumuli per corrompere un mercenario, sconfiggendolo istantaneamente. Non funziona sui mercenari d'élite. Accumuli massimi: 200. I campi conquistati in questo modo ricompaiono nel 50% del tempo.  Accumuli attuali: 0",
+          "fullTooltip": "I servitori uccisi e i mercenari sconfitti vicino ai Vichinghi Sperduti forniscono accumuli di Mazzetta. Servono 40 accumuli per corrompere un mercenario, sconfiggendolo istantaneamente. Non funziona sui mercenari d'élite. Accumuli massimi: 200. I campi conquistati in questo modo ricompaiono nel 50% del tempo.<n/><n/>Accumuli attuali: 0",
           "abilityType": "E"
         }
       ],
@@ -1515,7 +1515,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Recupero: 80 s",
           "shortTooltip": "Resuscita ed evoca i Vichinghi.",
-          "fullTooltip": "Evoca, cura completamente o resuscita i Vichinghi Sperduti nel punto selezionato dopo che uno di essi incanala l'abilità per 2 s.   Solo un Vichingo alla volta può tentare l'evocazione.",
+          "fullTooltip": "Evoca, cura completamente o resuscita i Vichinghi Sperduti nel punto selezionato dopo che uno di essi incanala l'abilità per 2 s. <n/><n/>Solo un Vichingo alla volta può tentare l'evocazione.",
           "abilityType": "Heroic"
         },
         {
@@ -1525,7 +1525,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Recupero: 90 s",
           "shortTooltip": "I Vichinghi saltano a bordo di un drakkar che colpisce i nemici.",
-          "fullTooltip": "I Vichinghi saltano a bordo di un inarrestabile drakkar che colpisce i nemici vicini, infliggendo 112 (+4% per level) danni al secondo. L'imbarcazione dispone anche di un mortaio che infligge 228 (+4% per level) danni ad area. Ogni Vichingo a bordo aumenta la Salute del drakkar. Se l'imbarcazione viene distrutta dai nemici, i Vichinghi rimangono storditi per 1 s. Dura 15 s.  Tutti i Vichinghi in vita devono essere nelle vicinanze.",
+          "fullTooltip": "I Vichinghi saltano a bordo di un inarrestabile drakkar che colpisce i nemici vicini, infliggendo 112 (+4% per level) danni al secondo. L'imbarcazione dispone anche di un mortaio che infligge 228 (+4% per level) danni ad area. Ogni Vichingo a bordo aumenta la Salute del drakkar. Se l'imbarcazione viene distrutta dai nemici, i Vichinghi rimangono storditi per 1 s. Dura 15 s.<n/><n/>Tutti i Vichinghi in vita devono essere nelle vicinanze.",
           "abilityType": "Heroic"
         }
       ],
@@ -1536,7 +1536,7 @@
           "name": "Scorta Vichinga",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Raccogliere globi rigeneranti aumenta la rigenerazione di Salute.",
-          "fullTooltip": "Se un Vichingo raccoglie un Globo Rigenerante, la rigenerazione vitale di tutti aumenta di 0.5 al secondo.  Bonus attuale: 0 rigenerazione al secondo",
+          "fullTooltip": "Se un Vichingo raccoglie un Globo Rigenerante, la rigenerazione vitale di tutti aumenta di 0.5 al secondo.<n/><n/>Bonus attuale: 0 rigenerazione al secondo",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -3681,7 +3681,7 @@
           "energyTooltip": "Mana: 0",
           "cooldownTooltip": "Recupero: 3 s",
           "shortTooltip": "Lancia un proiettile a lungo raggio che infligge danni a un nemico.",
-          "fullTooltip": "Dopo 0.5 s, lancia un proiettile che infligge 305 (+4% per level) danni al primo nemico colpito. Infligge il 50% dei danni alle strutture.  Detonazione di Sabbia lascia un'Eco di Cromie che replica Detonazione di Sabbia e gli attacchi base, infliggendo il 40% dei danni. Possono essere attive 1 Eco per volta.",
+          "fullTooltip": "Dopo 0.5 s, lancia un proiettile che infligge 305 (+4% per level) danni al primo nemico colpito. Infligge il 50% dei danni alle strutture.<n/><n/>Detonazione di Sabbia lascia un'Eco di Cromie che replica Detonazione di Sabbia e gli attacchi base, infliggendo il 40% dei danni. Possono essere attive 1 Eco per volta.",
           "abilityType": "Q"
         }
       ]
@@ -3978,7 +3978,7 @@
           "energyTooltip": "Energia: 15",
           "cooldownTooltip": "Recupero: 4 s",
           "shortTooltip": "Infligge danni ai nemici vicini ad Alamorte.",
-          "fullTooltip": "Dopo 0.75 s, Alamorte sbatte le ali, infliggendo 80 (+4% per level) danni ai nemici vicini.  Devastamondi: Getto di Lava Crea una pozza di lava che danneggia e rallenta i nemici.",
+          "fullTooltip": "Dopo 0.75 s, Alamorte sbatte le ali, infliggendo 80 (+4% per level) danni ai nemici vicini.<n/><n/>Devastamondi: Getto di Lava<n/>Crea una pozza di lava che danneggia e rallenta i nemici.",
           "abilityType": "W"
         },
         {
@@ -3994,7 +3994,7 @@
           },
           "cooldownTooltip": "Recupero carica: 10 s",
           "shortTooltip": "Alamorte può sganciare meteore durante Ali di Drago.",
-          "fullTooltip": "Dopo 0.8 s, una meteora piove dal cielo, infliggendo 58 (+4% per level) danni ai nemici nell'area.  Se colpisce un eroe, Alamorte rigenera il 3% della Salute massima, e il tempo di recupero dell'atterraggio è ridotto di 1.5 s.",
+          "fullTooltip": "Dopo 0.8 s, una meteora piove dal cielo, infliggendo 58 (+4% per level) danni ai nemici nell'area.<n/><n/>Se colpisce un eroe, Alamorte rigenera il 3% della Salute massima, e il tempo di recupero dell'atterraggio è ridotto di 1.5 s.",
           "abilityType": "E"
         },
         {
@@ -4005,7 +4005,7 @@
           "energyTooltip": "Energia: 20",
           "cooldownTooltip": "Recupero: 5 s",
           "shortTooltip": "Alamorte scatta in una direzione.",
-          "fullTooltip": "Dopo 0.5 s, Alamorte scatta in una direzione, infliggendo 40 (+4% per level) danni ai nemici e rallentandoli del 35% per 2 s. Alamorte morde i nemici al termine dell'affondo, infliggendo 75 (+4% per level) danni aggiuntivi.  Devastamondi: Frantumazione Danneggia e stordisce i nemici lungo due traiettorie.",
+          "fullTooltip": "Dopo 0.5 s, Alamorte scatta in una direzione, infliggendo 40 (+4% per level) danni ai nemici e rallentandoli del 35% per 2 s. Alamorte morde i nemici al termine dell'affondo, infliggendo 75 (+4% per level) danni aggiuntivi.<n/><n/>Devastamondi: Frantumazione<n/>Danneggia e stordisce i nemici lungo due traiettorie.",
           "abilityType": "E"
         }
       ],
@@ -4028,7 +4028,7 @@
           "name": "Aspetto della Morte",
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "shortTooltip": "Alamorte è molto potente, ma ignora gli effetti alleati.",
-          "fullTooltip": "Alamorte è coperto di 4 Piastre di Armatura, ognuna delle quali fornisce 10 Resistenza. Ogni 25% di Salute persa fa perdere una piastra. Le piastre sono ripristinate solo usando Ali di Drago, a seconda della Salute di Alamorte all'atterraggio.  Alamorte è un potente Aspetto del Drago perennemente inarrestabile, e infligge il 100% di danni da abilità aggiuntivi agli eroi. Il suo disprezzo verso gli alleati lo porta a ignorarne gli effetti.",
+          "fullTooltip": "Alamorte è coperto di 4 Piastre di Armatura, ognuna delle quali fornisce 10 Resistenza. Ogni 25% di Salute persa fa perdere una piastra. Le piastre sono ripristinate solo usando Ali di Drago, a seconda della Salute di Alamorte all'atterraggio.<n/><n/>Alamorte è un potente Aspetto del Drago perennemente inarrestabile, e infligge il 100% di danni da abilità aggiuntivi agli eroi. Il suo disprezzo verso gli alleati lo porta a ignorarne gli effetti.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -4053,7 +4053,7 @@
           "name": "Cambio di Forma",
           "icon": "storm_ui_icon_deathwing_deathdrop.png",
           "cooldownTooltip": "Recupero: 20 s",
-          "fullTooltip": "Alamorte passa dalla forma di Distruttore a quella di Devastamondi, ognuna delle quali ha due abilità base uniche.  Incenerimento danneggia i nemici vicini e Strage gli consente di slanciarsi verso di loro.  Getto di Lava crea un'area di rallentamento e Frantumazione stordisce i nemici lungo due traiettorie.",
+          "fullTooltip": "Alamorte passa dalla forma di Distruttore a quella di Devastamondi, ognuna delle quali ha due abilità base uniche.<n/><n/>Incenerimento danneggia i nemici vicini e Strage gli consente di slanciarsi verso di loro.<n/><n/>Getto di Lava crea un'area di rallentamento e Frantumazione stordisce i nemici lungo due traiettorie.",
           "abilityType": "Active"
         }
       ],
@@ -4194,7 +4194,7 @@
           "energyTooltip": "Energia: 20",
           "cooldownTooltip": "Recupero: 6 s",
           "shortTooltip": "Crea una pozza di lava che danneggia e rallenta i nemici.",
-          "fullTooltip": "Dopo un ritardo di 1 s, infligge 30 (+4% per level) danni ai nemici nell'area e crea una pozza di lava che infligge 16 (+4% per level) danni al secondo e rallenta i nemici del 35%. Dura 6 s.  Distruttore: Incenerimento Danneggia i nemici vicini ad Alamorte.",
+          "fullTooltip": "Dopo un ritardo di 1 s, infligge 30 (+4% per level) danni ai nemici nell'area e crea una pozza di lava che infligge 16 (+4% per level) danni al secondo e rallenta i nemici del 35%. Dura 6 s.<n/><n/>Distruttore: Incenerimento<n/>Danneggia i nemici vicini ad Alamorte.",
           "abilityType": "Hidden"
         },
         {
@@ -4219,7 +4219,7 @@
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "cooldownTooltip": "Recupero: 20 s",
           "shortTooltip": "Alamorte è molto potente, ma ignora gli effetti alleati.",
-          "fullTooltip": "Alamorte è coperto di 4 Piastre di Armatura, ognuna delle quali fornisce 10 Resistenza. Ogni 25% di Salute persa fa perdere una piastra. Le piastre sono ripristinate solo usando Ali di Drago, a seconda della Salute di Alamorte all'atterraggio.  Alamorte è un potente Aspetto del Drago perennemente inarrestabile, e infligge il 100% di danni da abilità aggiuntivi agli eroi. Il suo disprezzo verso gli alleati lo porta a ignorarne gli effetti.",
+          "fullTooltip": "Alamorte è coperto di 4 Piastre di Armatura, ognuna delle quali fornisce 10 Resistenza. Ogni 25% di Salute persa fa perdere una piastra. Le piastre sono ripristinate solo usando Ali di Drago, a seconda della Salute di Alamorte all'atterraggio.<n/><n/>Alamorte è un potente Aspetto del Drago perennemente inarrestabile, e infligge il 100% di danni da abilità aggiuntivi agli eroi. Il suo disprezzo verso gli alleati lo porta a ignorarne gli effetti.",
           "abilityType": "Hidden"
         }
       ]
@@ -4298,7 +4298,7 @@
               "energyTooltip": "Energia: 25",
               "cooldownTooltip": "Recupero: 12 s",
               "shortTooltip": "Danneggia e stordisce i nemici lungo due traiettorie.",
-              "fullTooltip": "Spacca la terra, infliggendo 80 (+4% per level) danni ai nemici colpiti e stordendoli per 0.75 s.  Distruttore: Strage Alamorte scatta in una direzione.",
+              "fullTooltip": "Spacca la terra, infliggendo 80 (+4% per level) danni ai nemici colpiti e stordendoli per 0.75 s.<n/><n/>Distruttore: Strage<n/>Alamorte scatta in una direzione.",
               "abilityType": "E"
             }
           ]
@@ -5495,7 +5495,7 @@
             "countUse": 1
           },
           "shortTooltip": "Uccidere i servitori permette di corrompere un mercenario.",
-          "fullTooltip": "I servitori uccisi e i mercenari sconfitti vicino ai Vichinghi Sperduti forniscono accumuli di Mazzetta. Servono 40 accumuli per corrompere un mercenario, sconfiggendolo istantaneamente. Non funziona sui mercenari d'élite. Accumuli massimi: 200. I campi conquistati in questo modo ricompaiono nel 50% del tempo.  Accumuli attuali: 0",
+          "fullTooltip": "I servitori uccisi e i mercenari sconfitti vicino ai Vichinghi Sperduti forniscono accumuli di Mazzetta. Servono 40 accumuli per corrompere un mercenario, sconfiggendolo istantaneamente. Non funziona sui mercenari d'élite. Accumuli massimi: 200. I campi conquistati in questo modo ricompaiono nel 50% del tempo.<n/><n/>Accumuli attuali: 0",
           "abilityType": "E"
         }
       ],
@@ -5507,7 +5507,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Recupero: 80 s",
           "shortTooltip": "Resuscita ed evoca i Vichinghi.",
-          "fullTooltip": "Evoca, cura completamente o resuscita i Vichinghi Sperduti nel punto selezionato dopo che uno di essi incanala l'abilità per 2 s.   Solo un Vichingo alla volta può tentare l'evocazione.",
+          "fullTooltip": "Evoca, cura completamente o resuscita i Vichinghi Sperduti nel punto selezionato dopo che uno di essi incanala l'abilità per 2 s. <n/><n/>Solo un Vichingo alla volta può tentare l'evocazione.",
           "abilityType": "Heroic"
         },
         {
@@ -5517,7 +5517,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Recupero: 90 s",
           "shortTooltip": "I Vichinghi saltano a bordo di un drakkar che colpisce i nemici.",
-          "fullTooltip": "I Vichinghi saltano a bordo di un inarrestabile drakkar che colpisce i nemici vicini, infliggendo 112 (+4% per level) danni al secondo. L'imbarcazione dispone anche di un mortaio che infligge 228 (+4% per level) danni ad area. Ogni Vichingo a bordo aumenta la Salute del drakkar. Se l'imbarcazione viene distrutta dai nemici, i Vichinghi rimangono storditi per 1 s. Dura 15 s.  Tutti i Vichinghi in vita devono essere nelle vicinanze.",
+          "fullTooltip": "I Vichinghi saltano a bordo di un inarrestabile drakkar che colpisce i nemici vicini, infliggendo 112 (+4% per level) danni al secondo. L'imbarcazione dispone anche di un mortaio che infligge 228 (+4% per level) danni ad area. Ogni Vichingo a bordo aumenta la Salute del drakkar. Se l'imbarcazione viene distrutta dai nemici, i Vichinghi rimangono storditi per 1 s. Dura 15 s.<n/><n/>Tutti i Vichinghi in vita devono essere nelle vicinanze.",
           "abilityType": "Heroic"
         }
       ],
@@ -5528,7 +5528,7 @@
           "name": "Scorta Vichinga",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Raccogliere globi rigeneranti aumenta la rigenerazione di Salute.",
-          "fullTooltip": "Se un Vichingo raccoglie un Globo Rigenerante, la rigenerazione vitale di tutti aumenta di 0.5 al secondo.  Bonus attuale: 0 rigenerazione al secondo",
+          "fullTooltip": "Se un Vichingo raccoglie un Globo Rigenerante, la rigenerazione vitale di tutti aumenta di 0.5 al secondo.<n/><n/>Bonus attuale: 0 rigenerazione al secondo",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -5746,7 +5746,7 @@
           "name": "Chiazza d'Olio",
           "icon": "storm_ui_icon_blaze_oil.png",
           "cooldownTooltip": "Recupero: 6 s",
-          "fullTooltip": "Puntamento vettoriale Rilascia una Chiazza d'Olio che rallenta i nemici e può essere incendiata da Blaze.",
+          "fullTooltip": "Puntamento vettoriale<n/>Rilascia una Chiazza d'Olio che rallenta i nemici e può essere incendiata da Blaze.",
           "abilityType": "W"
         }
       ],
@@ -7121,7 +7121,7 @@
           "nameId": "TerroroftheGarden",
           "buttonId": "TerroroftheGarden",
           "icon": "storm_ui_icon_gardenterror_terrorofthegarden.png",
-          "fullTooltip": "Terrore dei Giardini (tratto)  Rende inarrestabili.",
+          "fullTooltip": "Terrore dei Giardini (tratto)<n/><n/>Rende inarrestabili.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -9327,7 +9327,7 @@
           "name": "Punizione",
           "icon": "storm_btn_d3_barbarian_leap.png",
           "shortTooltip": "Stordisce i nemici in un'area.",
-          "fullTooltip": "Balza sulla posizione bersaglio, infliggendo 1 danni e stordendo i bersagli per 1 s nel punto d'impatto.",
+          "fullTooltip": "Balza sulla posizione bersaglio, infliggendo 1 danni e stordendo i bersagli per 1 s nel punto d'impatto.<n/><n/>",
           "abilityType": "Q"
         },
         {
@@ -9336,7 +9336,7 @@
           "name": "Fissazione",
           "icon": "storm_temp_war3_btnundeadunload.png",
           "cooldownTooltip": "Recupero: 10 s",
-          "fullTooltip": "Si concentra sul bersaglio, entrando in uno stato di furia e aumentando la velocità di movimento del 100% e la velocità d'attacco del 0% per 4 s. Durante questo periodo, il Punitore non può ricevere ordini.  Stordisce il Punitore per 1 s al termine dell'effetto.",
+          "fullTooltip": "Si concentra sul bersaglio, entrando in uno stato di furia e aumentando la velocità di movimento del 100% e la velocità d'attacco del 0% per 4 s. Durante questo periodo, il Punitore non può ricevere ordini.<n/><n/>Stordisce il Punitore per 1 s al termine dell'effetto.",
           "abilityType": "W"
         }
       ]
@@ -10730,7 +10730,7 @@
             "countUse": 1
           },
           "shortTooltip": "Uccidere i servitori permette di corrompere un mercenario.",
-          "fullTooltip": "I servitori uccisi e i mercenari sconfitti vicino ai Vichinghi Sperduti forniscono accumuli di Mazzetta. Servono 40 accumuli per corrompere un mercenario, sconfiggendolo istantaneamente. Non funziona sui mercenari d'élite. Accumuli massimi: 200. I campi conquistati in questo modo ricompaiono nel 50% del tempo.  Accumuli attuali: 0",
+          "fullTooltip": "I servitori uccisi e i mercenari sconfitti vicino ai Vichinghi Sperduti forniscono accumuli di Mazzetta. Servono 40 accumuli per corrompere un mercenario, sconfiggendolo istantaneamente. Non funziona sui mercenari d'élite. Accumuli massimi: 200. I campi conquistati in questo modo ricompaiono nel 50% del tempo.<n/><n/>Accumuli attuali: 0",
           "abilityType": "E"
         }
       ],
@@ -10742,7 +10742,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Recupero: 80 s",
           "shortTooltip": "Resuscita ed evoca i Vichinghi.",
-          "fullTooltip": "Evoca, cura completamente o resuscita i Vichinghi Sperduti nel punto selezionato dopo che uno di essi incanala l'abilità per 2 s.   Solo un Vichingo alla volta può tentare l'evocazione.",
+          "fullTooltip": "Evoca, cura completamente o resuscita i Vichinghi Sperduti nel punto selezionato dopo che uno di essi incanala l'abilità per 2 s. <n/><n/>Solo un Vichingo alla volta può tentare l'evocazione.",
           "abilityType": "Heroic"
         },
         {
@@ -10752,7 +10752,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Recupero: 90 s",
           "shortTooltip": "I Vichinghi saltano a bordo di un drakkar che colpisce i nemici.",
-          "fullTooltip": "I Vichinghi saltano a bordo di un inarrestabile drakkar che colpisce i nemici vicini, infliggendo 112 (+4% per level) danni al secondo. L'imbarcazione dispone anche di un mortaio che infligge 228 (+4% per level) danni ad area. Ogni Vichingo a bordo aumenta la Salute del drakkar. Se l'imbarcazione viene distrutta dai nemici, i Vichinghi rimangono storditi per 1 s. Dura 15 s.  Tutti i Vichinghi in vita devono essere nelle vicinanze.",
+          "fullTooltip": "I Vichinghi saltano a bordo di un inarrestabile drakkar che colpisce i nemici vicini, infliggendo 112 (+4% per level) danni al secondo. L'imbarcazione dispone anche di un mortaio che infligge 228 (+4% per level) danni ad area. Ogni Vichingo a bordo aumenta la Salute del drakkar. Se l'imbarcazione viene distrutta dai nemici, i Vichinghi rimangono storditi per 1 s. Dura 15 s.<n/><n/>Tutti i Vichinghi in vita devono essere nelle vicinanze.",
           "abilityType": "Heroic"
         }
       ],
@@ -10763,7 +10763,7 @@
           "name": "Scorta Vichinga",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Raccogliere globi rigeneranti aumenta la rigenerazione di Salute.",
-          "fullTooltip": "Se un Vichingo raccoglie un Globo Rigenerante, la rigenerazione vitale di tutti aumenta di 0.5 al secondo.  Bonus attuale: 0 rigenerazione al secondo",
+          "fullTooltip": "Se un Vichingo raccoglie un Globo Rigenerante, la rigenerazione vitale di tutti aumenta di 0.5 al secondo.<n/><n/>Bonus attuale: 0 rigenerazione al secondo",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -12499,7 +12499,7 @@
           "energyTooltip": "Mana: 50",
           "cooldownTooltip": "Recupero: 6 s",
           "shortTooltip": "Spara un colpo e infligge ingenti danni al primo nemico colpito.",
-          "fullTooltip": "Infligge 230 (+4% per level) danni al primo nemico colpito.  Passiva: Colpire un eroe nemico con Tiro di Precisione ne aumenta permanentemente i danni del 6%, fino a un massimo del 30%. Al massimo di accumuli, fornisce un ulteriore bonus ai danni del 25%. Se Tiro di Precisione non colpisce alcun nemico, tutti gli accumuli sono persi.",
+          "fullTooltip": "Infligge 230 (+4% per level) danni al primo nemico colpito.<n/><n/>Passiva: Colpire un eroe nemico con Tiro di Precisione ne aumenta permanentemente i danni del 6%, fino a un massimo del 30%. Al massimo di accumuli, fornisce un ulteriore bonus ai danni del 25%. Se Tiro di Precisione non colpisce alcun nemico, tutti gli accumuli sono persi.",
           "abilityType": "Q"
         },
         {
@@ -12544,7 +12544,7 @@
           "icon": "storm_ui_icon_nova_personalcloaking.png",
           "cooldownTooltip": "Recupero: 3 s",
           "shortTooltip": "Consente di occultarsi e aumenta la velocità di movimento se non si attacca o non si subiscono danni.",
-          "fullTooltip": "Fornisce occultamento dopo aver trascorso 3 s fuori dal combattimento. Subire danni, attaccare, usare abilità o azioni di incanalamento interrompe l'occultamento. Rimanere fermi per 1.5 s durante l'occultamento rende invisibili.  Passiva: Fornisce un bonus del 15% alla velocità di movimento durante l'occultamento.",
+          "fullTooltip": "Fornisce occultamento dopo aver trascorso 3 s fuori dal combattimento. Subire danni, attaccare, usare abilità o azioni di incanalamento interrompe l'occultamento. Rimanere fermi per 1.5 s durante l'occultamento rende invisibili.<n/><n/>Passiva: Fornisce un bonus del 15% alla velocità di movimento durante l'occultamento.",
           "abilityType": "Hidden",
           "isActive": false
         }
@@ -12657,7 +12657,7 @@
             "countUse": 1
           },
           "shortTooltip": "Uccidere i servitori permette di corrompere un mercenario.",
-          "fullTooltip": "I servitori uccisi e i mercenari sconfitti vicino ai Vichinghi Sperduti forniscono accumuli di Mazzetta. Servono 40 accumuli per corrompere un mercenario, sconfiggendolo istantaneamente. Non funziona sui mercenari d'élite. Accumuli massimi: 200. I campi conquistati in questo modo ricompaiono nel 50% del tempo.  Accumuli attuali: 0",
+          "fullTooltip": "I servitori uccisi e i mercenari sconfitti vicino ai Vichinghi Sperduti forniscono accumuli di Mazzetta. Servono 40 accumuli per corrompere un mercenario, sconfiggendolo istantaneamente. Non funziona sui mercenari d'élite. Accumuli massimi: 200. I campi conquistati in questo modo ricompaiono nel 50% del tempo.<n/><n/>Accumuli attuali: 0",
           "abilityType": "E"
         }
       ],
@@ -12669,7 +12669,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Recupero: 80 s",
           "shortTooltip": "Resuscita ed evoca i Vichinghi.",
-          "fullTooltip": "Evoca, cura completamente o resuscita i Vichinghi Sperduti nel punto selezionato dopo che uno di essi incanala l'abilità per 2 s.   Solo un Vichingo alla volta può tentare l'evocazione.",
+          "fullTooltip": "Evoca, cura completamente o resuscita i Vichinghi Sperduti nel punto selezionato dopo che uno di essi incanala l'abilità per 2 s. <n/><n/>Solo un Vichingo alla volta può tentare l'evocazione.",
           "abilityType": "Heroic"
         },
         {
@@ -12679,7 +12679,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Recupero: 90 s",
           "shortTooltip": "I Vichinghi saltano a bordo di un drakkar che colpisce i nemici.",
-          "fullTooltip": "I Vichinghi saltano a bordo di un inarrestabile drakkar che colpisce i nemici vicini, infliggendo 112 (+4% per level) danni al secondo. L'imbarcazione dispone anche di un mortaio che infligge 228 (+4% per level) danni ad area. Ogni Vichingo a bordo aumenta la Salute del drakkar. Se l'imbarcazione viene distrutta dai nemici, i Vichinghi rimangono storditi per 1 s. Dura 15 s.  Tutti i Vichinghi in vita devono essere nelle vicinanze.",
+          "fullTooltip": "I Vichinghi saltano a bordo di un inarrestabile drakkar che colpisce i nemici vicini, infliggendo 112 (+4% per level) danni al secondo. L'imbarcazione dispone anche di un mortaio che infligge 228 (+4% per level) danni ad area. Ogni Vichingo a bordo aumenta la Salute del drakkar. Se l'imbarcazione viene distrutta dai nemici, i Vichinghi rimangono storditi per 1 s. Dura 15 s.<n/><n/>Tutti i Vichinghi in vita devono essere nelle vicinanze.",
           "abilityType": "Heroic"
         }
       ],
@@ -12690,7 +12690,7 @@
           "name": "Scorta Vichinga",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Raccogliere globi rigeneranti aumenta la rigenerazione di Salute.",
-          "fullTooltip": "Se un Vichingo raccoglie un Globo Rigenerante, la rigenerazione vitale di tutti aumenta di 0.5 al secondo.  Bonus attuale: 0 rigenerazione al secondo",
+          "fullTooltip": "Se un Vichingo raccoglie un Globo Rigenerante, la rigenerazione vitale di tutti aumenta di 0.5 al secondo.<n/><n/>Bonus attuale: 0 rigenerazione al secondo",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -13589,7 +13589,7 @@
           "icon": "storm_ui_icon_ragnaros_moltenswing.png",
           "cooldownTooltip": "Recupero: 6 s",
           "shortTooltip": "Stordisce e danneggia i nemici vicini.",
-          "fullTooltip": "Ragnaros attacca con Sulfuras in un ampio arco, infliggendo 161 (+4% per level) danni e stordendo i nemici per 1 s.  Infligge il 25% di danni aggiuntivi a servitori, mercenari e mostri.",
+          "fullTooltip": "Ragnaros attacca con Sulfuras in un ampio arco, infliggendo 161 (+4% per level) danni e stordendo i nemici per 1 s.<n/><n/>Infligge il 25% di danni aggiuntivi a servitori, mercenari e mostri.",
           "abilityType": "Q"
         },
         {
@@ -13599,7 +13599,7 @@
           "icon": "storm_ui_icon_ragnaros_meteorshower.png",
           "cooldownTooltip": "Recupero: 2.5 s",
           "shortTooltip": "Evoca una pioggia di meteore.",
-          "fullTooltip": "Puntamento vettoriale Evoca nel punto bersaglio 3 meteore che si spostano nella direzione selezionata. Ogni meteora infligge 151 (+4% per level) danni e rallenta i nemici del 25% per 2 s.  Infligge il 25% di danni aggiuntivi a servitori, mercenari e mostri.",
+          "fullTooltip": "Puntamento vettoriale<n/>Evoca nel punto bersaglio 3 meteore che si spostano nella direzione selezionata. Ogni meteora infligge 151 (+4% per level) danni e rallenta i nemici del 25% per 2 s.<n/><n/>Infligge il 25% di danni aggiuntivi a servitori, mercenari e mostri.",
           "abilityType": "W"
         },
         {
@@ -13609,7 +13609,7 @@
           "icon": "storm_ui_icon_ragnaros_explosiverune.png",
           "cooldownTooltip": "Recupero: 4 s",
           "shortTooltip": "Dopo un breve ritardo, provoca un'esplosione in un'ampia area.",
-          "fullTooltip": "Crea una runa che infligge 285 (+4% per level) danni alle unità nemiche dopo 1.5 s.  Infligge il 25% di danni aggiuntivi a servitori, mercenari e mostri.",
+          "fullTooltip": "Crea una runa che infligge 285 (+4% per level) danni alle unità nemiche dopo 1.5 s.<n/><n/>Infligge il 25% di danni aggiuntivi a servitori, mercenari e mostri.",
           "abilityType": "E"
         }
       ],
@@ -14124,7 +14124,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Recupero: 14 s",
           "shortTooltip": "Crea Immagini Speculari che confondono e attaccano i nemici.",
-          "fullTooltip": "Samuro si teletrasporta a breve distanza nella direzione del cursore del mouse, creando 2 Immagini Speculari che durano 8 s e hanno il 100% della sua Salute attuale. Le Immagini Speculari attaccano i nemici, infliggendo 11 (+4% per level) danni, e la loro durata aumenta di 1 s ogni volta che loro o Samuro colpiscono un eroe nemico con un attacco base. I danni subiti dalle Immagini Speculari sono raddoppiati.  Massimo 2 Immagini Speculari attive per volta. Attivare Immagine Speculare rimuove quasi tutti gli effetti debilitanti da Samuro.",
+          "fullTooltip": "Samuro si teletrasporta a breve distanza nella direzione del cursore del mouse, creando 2 Immagini Speculari che durano 8 s e hanno il 100% della sua Salute attuale. Le Immagini Speculari attaccano i nemici, infliggendo 11 (+4% per level) danni, e la loro durata aumenta di 1 s ogni volta che loro o Samuro colpiscono un eroe nemico con un attacco base. I danni subiti dalle Immagini Speculari sono raddoppiati.<n/><n/>Massimo 2 Immagini Speculari attive per volta. Attivare Immagine Speculare rimuove quasi tutti gli effetti debilitanti da Samuro.",
           "abilityType": "Q"
         }
       ],
@@ -14146,7 +14146,7 @@
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
           "cooldownTooltip": "Recupero: 8 s",
           "shortTooltip": "Consente di controllare le Immagini Speculari.",
-          "fullTooltip": "Consente di controllare le Immagini Speculari separatamente o in gruppo, e aumenta i loro danni del 100%.   Passiva: Il tempo di recupero di Proiezione d'Immagine è ridotto a 8 s.",
+          "fullTooltip": "Consente di controllare le Immagini Speculari separatamente o in gruppo, e aumenta i loro danni del 100%. <n/><n/>Passiva: Il tempo di recupero di Proiezione d'Immagine è ridotto a 8 s.",
           "abilityType": "Heroic"
         }
       ],
@@ -14158,7 +14158,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Recupero: 14 s",
           "shortTooltip": "Aumenta la velocità di movimento quando si attaccano eroi.",
-          "fullTooltip": "All'attivazione Samuro si scambia di posto con l'Immagine Speculare selezionata e rimuove quasi tutti gli effetti debilitanti da entrambi.  Attacchi Progressivi  Gli attacchi base contro gli eroi nemici aumentano la velocità di movimento di Samuro del 25% per 2 s.",
+          "fullTooltip": "All'attivazione Samuro si scambia di posto con l'Immagine Speculare selezionata e rimuove quasi tutti gli effetti debilitanti da entrambi.<n/><n/>Attacchi Progressivi<n/><n/>Gli attacchi base contro gli eroi nemici aumentano la velocità di movimento di Samuro del 25% per 2 s.",
           "abilityType": "Trait"
         }
       ],
@@ -14180,7 +14180,7 @@
           "name": "Seleziona Immagine Speculare",
           "icon": "storm_temp_war3_btnmirrorimage.png",
           "shortTooltip": "Seleziona Immagine Speculare",
-          "fullTooltip": "Seleziona Immagine Speculare  Impartisce ordini a una singola Immagine Speculare.",
+          "fullTooltip": "Seleziona Immagine Speculare<n/><n/>Impartisce ordini a una singola Immagine Speculare.",
           "abilityType": "Active"
         },
         {
@@ -14189,7 +14189,7 @@
           "name": "Seleziona tutto",
           "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
           "shortTooltip": "Seleziona tutto",
-          "fullTooltip": "Seleziona tutto  Impartisce ordini a Samuro e alle Immagini Speculari.",
+          "fullTooltip": "Seleziona tutto<n/><n/>Impartisce ordini a Samuro e alle Immagini Speculari.",
           "abilityType": "Active"
         }
       ],
@@ -14323,7 +14323,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Recupero: 14 s",
           "shortTooltip": "Aumenta la velocità di movimento quando si attaccano eroi.",
-          "fullTooltip": "All'attivazione Samuro si scambia di posto con l'Immagine Speculare selezionata e rimuove quasi tutti gli effetti debilitanti da entrambi.  Attacchi Progressivi  Gli attacchi base contro gli eroi nemici aumentano la velocità di movimento di Samuro del 25% per 2 s.",
+          "fullTooltip": "All'attivazione Samuro si scambia di posto con l'Immagine Speculare selezionata e rimuove quasi tutti gli effetti debilitanti da entrambi.<n/><n/>Attacchi Progressivi<n/><n/>Gli attacchi base contro gli eroi nemici aumentano la velocità di movimento di Samuro del 25% per 2 s.",
           "abilityType": "Hidden"
         },
         {
@@ -14333,7 +14333,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Recupero: 18 s",
           "shortTooltip": "Crea Immagini Speculari che confondono e attaccano i nemici.",
-          "fullTooltip": "Samuro si teletrasporta a breve distanza nella direzione del cursore del mouse, creando 2 Immagini Speculari che durano 8 s e hanno il 100% della sua Salute attuale. Le Immagini Speculari attaccano i nemici, infliggendo 11 (+4% per level) danni, e la loro durata aumenta di 1 s ogni volta che loro o Samuro colpiscono un eroe nemico con un attacco base. I danni subiti dalle Immagini Speculari sono raddoppiati.  Massimo 2 Immagini Speculari attive per volta. Attivare Immagine Speculare rimuove quasi tutti gli effetti debilitanti da Samuro.",
+          "fullTooltip": "Samuro si teletrasporta a breve distanza nella direzione del cursore del mouse, creando 2 Immagini Speculari che durano 8 s e hanno il 100% della sua Salute attuale. Le Immagini Speculari attaccano i nemici, infliggendo 11 (+4% per level) danni, e la loro durata aumenta di 1 s ogni volta che loro o Samuro colpiscono un eroe nemico con un attacco base. I danni subiti dalle Immagini Speculari sono raddoppiati.<n/><n/>Massimo 2 Immagini Speculari attive per volta. Attivare Immagine Speculare rimuove quasi tutti gli effetti debilitanti da Samuro.",
           "abilityType": "Hidden"
         },
         {
@@ -14350,7 +14350,7 @@
           },
           "cooldownTooltip": "Recupero: 10 s",
           "shortTooltip": "Attacco Critico infligge danni aggiuntivi.",
-          "fullTooltip": "Il primo attacco base di Samuro entro 8 s è un Attacco Critico, e infligge il 50% di danni aggiuntivi. Si applica anche alle Immagini Speculari e non interrompe Passo del Vento.  Passiva: Ogni 4° attacco base di Samuro e delle Immagini Speculari è un Attacco Critico.",
+          "fullTooltip": "Il primo attacco base di Samuro entro 8 s è un Attacco Critico, e infligge il 50% di danni aggiuntivi. Si applica anche alle Immagini Speculari e non interrompe Passo del Vento.<n/><n/>Passiva: Ogni 4° attacco base di Samuro e delle Immagini Speculari è un Attacco Critico.",
           "abilityType": "Hidden"
         },
         {
@@ -14360,7 +14360,7 @@
           "icon": "storm_ui_icon_samuro_windwalk.png",
           "cooldownTooltip": "Recupero: 15 s",
           "shortTooltip": "Samuro si occulta e si muove più rapidamente.",
-          "fullTooltip": "Fornisce occultamento a Samuro per un massimo di 10 s o fino a che attacca, usa un'abilità o subisce danni.  Durante l'occultamento, Samuro rigenera il 1% della Salute massima, la sua velocità di movimento aumenta del 25% e può oltrepassare le unità. Rimanere fermi per 1.5 s durante l'occultamento rende invisibili.  Samuro non può essere rivelato per 1 s dopo l'attivazione di Passo del Vento.",
+          "fullTooltip": "Fornisce occultamento a Samuro per un massimo di 10 s o fino a che attacca, usa un'abilità o subisce danni.<n/><n/>Durante l'occultamento, Samuro rigenera il 1% della Salute massima, la sua velocità di movimento aumenta del 25% e può oltrepassare le unità. Rimanere fermi per 1.5 s durante l'occultamento rende invisibili.<n/><n/>Samuro non può essere rivelato per 1 s dopo l'attivazione di Passo del Vento.",
           "abilityType": "Hidden"
         },
         {
@@ -14387,7 +14387,7 @@
           },
           "cooldownTooltip": "Recupero: 10 s",
           "shortTooltip": "Attacco Critico infligge danni aggiuntivi.",
-          "fullTooltip": "Il primo attacco base di Samuro entro 8 s è un Attacco Critico, e infligge il 50% di danni aggiuntivi. Si applica anche alle Immagini Speculari e non interrompe Passo del Vento.  Passiva: Ogni 4° attacco base di Samuro e delle Immagini Speculari è un Attacco Critico.",
+          "fullTooltip": "Il primo attacco base di Samuro entro 8 s è un Attacco Critico, e infligge il 50% di danni aggiuntivi. Si applica anche alle Immagini Speculari e non interrompe Passo del Vento.<n/><n/>Passiva: Ogni 4° attacco base di Samuro e delle Immagini Speculari è un Attacco Critico.",
           "abilityType": "Hidden"
         },
         {
@@ -14398,7 +14398,7 @@
           "toggleCooldown": 0.5,
           "cooldownTooltip": "Recupero: 8 s",
           "shortTooltip": "Consente di controllare le Immagini Speculari.",
-          "fullTooltip": "Consente di controllare le Immagini Speculari separatamente o in gruppo, e aumenta i loro danni del 100%.   Passiva: Il tempo di recupero di Proiezione d'Immagine è ridotto a 8 s.",
+          "fullTooltip": "Consente di controllare le Immagini Speculari separatamente o in gruppo, e aumenta i loro danni del 100%. <n/><n/>Passiva: Il tempo di recupero di Proiezione d'Immagine è ridotto a 8 s.",
           "abilityType": "Hidden"
         }
       ]
@@ -15962,7 +15962,7 @@
           "energyTooltip": "Mana: 45",
           "cooldownTooltip": "Recupero: 10 s",
           "shortTooltip": "Lancia un martello, infliggendo danni al primo bersaglio colpito e stordendolo.",
-          "fullTooltip": "Scaglia un martello, infliggendo 110 (+4% per level) danni al primo nemico colpito e stordendolo per 1.25 s.  Missione: Colpisci 25 eroi con Dardo della Tempesta. Gli eroi che muoiono entro 2.5 s dall'essere stati colpiti contano come 3 eroi aggiuntivi.  Ricompensa: Dardo della Tempesta colpisce un bersaglio aggiuntivo, e gli attacchi base di Muradin ne riducono il tempo di recupero di 1 s.",
+          "fullTooltip": "Scaglia un martello, infliggendo 110 (+4% per level) danni al primo nemico colpito e stordendolo per 1.25 s.<n/><n/>Missione: Colpisci 25 eroi con Dardo della Tempesta. Gli eroi che muoiono entro 2.5 s dall'essere stati colpiti contano come 3 eroi aggiuntivi.<n/><n/>Ricompensa: Dardo della Tempesta colpisce un bersaglio aggiuntivo, e gli attacchi base di Muradin ne riducono il tempo di recupero di 1 s.",
           "abilityType": "Q"
         },
         {
@@ -16097,7 +16097,7 @@
           "energyTooltip": "Mana: 70",
           "cooldownTooltip": "Recupero: 80 s",
           "shortTooltip": "Divora i nemici a portata.",
-          "fullTooltip": "Evoca un Baco Vorace che divora i nemici per 4 s. I nemici divorati non possono combattere e subiscono 94 (+4% per level) danni al secondo.  Può essere usato su nemici inarrestabili.",
+          "fullTooltip": "Evoca un Baco Vorace che divora i nemici per 4 s. I nemici divorati non possono combattere e subiscono 94 (+4% per level) danni al secondo.<n/><n/>Può essere usato su nemici inarrestabili.",
           "abilityType": "W"
         },
         {
@@ -16160,7 +16160,7 @@
           "energyTooltip": "Mana: 20",
           "cooldownTooltip": "Recupero: 16 s",
           "shortTooltip": "Fornisce Salute.Costringe un eroe nemico ad attaccare Varian.",
-          "fullTooltip": "Silenzia un eroe nemico, costringendolo ad attaccare Varian per 1.25 s.  Passiva: Aumenta del 40% la Salute massima e la sua rigenerazione.",
+          "fullTooltip": "Silenzia un eroe nemico, costringendolo ad attaccare Varian per 1.25 s.<n/><n/>Passiva: Aumenta del 40% la Salute massima e la sua rigenerazione.",
           "abilityType": "B"
         }
       ]
@@ -16175,7 +16175,7 @@
               "name": "Annulla Prigione del Vuoto",
               "icon": "hud_btn_bg_ability_cancel.png",
               "cooldownTooltip": "Recupero: 1.5 s",
-              "fullTooltip": "Annulla Prigione del Vuoto.",
+              "fullTooltip": "<n/>Annulla Prigione del Vuoto.",
               "abilityType": "Q"
             }
           ]
@@ -24493,7 +24493,7 @@
           "buttonId": "DragonKnightRubbleMaker",
           "name": "Demolizione",
           "icon": "storm_ui_icon_dragonknight_rubblemaker.png",
-          "fullTooltip": "Aumenta del 100% i danni inflitti a strutture e servitori. Riduce del 60% i danni subiti dalle strutture. Rende inarrestabili. Il Drago Cavaliere esplode alla morte, respingendo i nemici vicini.",
+          "fullTooltip": "Aumenta del 100% i danni inflitti a strutture e servitori.<n/>Riduce del 60% i danni subiti dalle strutture.<n/>Rende inarrestabili.<n/>Il Drago Cavaliere esplode alla morte, respingendo i nemici vicini.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -24710,7 +24710,7 @@
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Recupero: 8 s",
           "shortTooltip": "Carica un bersaglio e infligge danni ad area.",
-          "fullTooltip": "Carica il bersaglio, infliggendo 160 danni ad area.  Le unità non eroiche subiscono il 500% di danni aggiuntivi.",
+          "fullTooltip": "Carica il bersaglio, infliggendo 160 danni ad area.<n/><n/>Le unità non eroiche subiscono il 500% di danni aggiuntivi.",
           "abilityType": "Q"
         },
         {
@@ -24720,7 +24720,7 @@
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Recupero: 14 s",
           "shortTooltip": "Scaglia un pugno che infligge danni, immobilizza gli eroi e disattiva le torri.",
-          "fullTooltip": "Scaglia un Pugno Meccanico che infligge 150 danni al primo eroe o struttura sulla sua traiettoria. Il pugno immobilizza gli eroi per 2 s e disattiva le strutture per 4 s.  Uccide all'istante i servitori sulla traiettoria.",
+          "fullTooltip": "Scaglia un Pugno Meccanico che infligge 150 danni al primo eroe o struttura sulla sua traiettoria. Il pugno immobilizza gli eroi per 2 s e disattiva le strutture per 4 s.<n/><n/>Uccide all'istante i servitori sulla traiettoria.",
           "abilityType": "W"
         },
         {
@@ -24808,7 +24808,7 @@
           "name": "Carica",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Carica un bersaglio e infligge danni ad area.",
-          "fullTooltip": "Carica il bersaglio, infliggendo 160 danni ad area.  Le unità non eroiche subiscono il 500% di danni aggiuntivi.",
+          "fullTooltip": "Carica il bersaglio, infliggendo 160 danni ad area.<n/><n/>Le unità non eroiche subiscono il 500% di danni aggiuntivi.",
           "abilityType": "Hidden"
         },
         {
@@ -24817,7 +24817,7 @@
           "name": "Carica",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Carica un bersaglio e infligge danni ad area.",
-          "fullTooltip": "Carica il bersaglio, infliggendo 160 danni ad area.  Le unità non eroiche subiscono il 500% di danni aggiuntivi.",
+          "fullTooltip": "Carica il bersaglio, infliggendo 160 danni ad area.<n/><n/>Le unità non eroiche subiscono il 500% di danni aggiuntivi.",
           "abilityType": "Hidden"
         },
         {
@@ -24826,7 +24826,7 @@
           "name": "Carica",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Carica un bersaglio e infligge danni ad area.",
-          "fullTooltip": "Carica il bersaglio, infliggendo 160 danni ad area.  Le unità non eroiche subiscono il 500% di danni aggiuntivi.",
+          "fullTooltip": "Carica il bersaglio, infliggendo 160 danni ad area.<n/><n/>Le unità non eroiche subiscono il 500% di danni aggiuntivi.",
           "abilityType": "Hidden"
         }
       ]
@@ -24877,7 +24877,7 @@
           "icon": "storm_ui_icon_volskayarobot_tacticalstrikes.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Scaglia una raffica di missili.",
-          "fullTooltip": "All'attivazione scaglia dei missili nella posizione del puntatore del mouse. Ogni missile infligge 38 danni, ma consuma 1 Energia. Riattivare l'abilità consente di cessare il fuoco.  Infligge il 50% di danni in meno alle strutture.",
+          "fullTooltip": "All'attivazione scaglia dei missili nella posizione del puntatore del mouse. Ogni missile infligge 38 danni, ma consuma 1 Energia. Riattivare l'abilità consente di cessare il fuoco.<n/><n/>Infligge il 50% di danni in meno alle strutture.",
           "abilityType": "W"
         },
         {
@@ -24887,7 +24887,7 @@
           "icon": "storm_ui_icon_volskayarobot_skylaser.png",
           "cooldownTooltip": "Recupero: 10 s",
           "shortTooltip": "Infligge danni in una linea retta dopo un intervallo.",
-          "fullTooltip": "Puntamento vettoriale Traccia una linea sul terreno, infliggendo 60 danni. Dopo 1 s, esplode infliggendo 380 danni.",
+          "fullTooltip": "Puntamento vettoriale<n/>Traccia una linea sul terreno, infliggendo 60 danni. Dopo 1 s, esplode infliggendo 380 danni.",
           "abilityType": "E"
         }
       ],
@@ -25142,7 +25142,7 @@
           "name": "Carica",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Recupero: 8 s",
-          "fullTooltip": "Carica il bersaglio, infliggendo 225 danni ad area.  Le unità non eroiche subiscono il 200% di danni aggiuntivi.",
+          "fullTooltip": "Carica il bersaglio, infliggendo 225 danni ad area.<n/><n/>Le unità non eroiche subiscono il 200% di danni aggiuntivi.",
           "abilityType": "Q"
         },
         {
@@ -25151,7 +25151,7 @@
           "name": "Pugno Meccanico",
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Recupero: 14 s",
-          "fullTooltip": "Scaglia un Pugno Meccanico che infligge 200 danni al primo eroe o struttura sulla sua traiettoria. Il pugno respinge e stordisce gli eroi per 1,5 s e disattiva le strutture per 4 s.  Uccide all'istante i servitori sulla traiettoria.",
+          "fullTooltip": "Scaglia un Pugno Meccanico che infligge 200 danni al primo eroe o struttura sulla sua traiettoria. Il pugno respinge e stordisce gli eroi per 1,5 s e disattiva le strutture per 4 s.<n/><n/>Uccide all'istante i servitori sulla traiettoria.",
           "abilityType": "W"
         },
         {
@@ -25237,7 +25237,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Carica",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Carica il bersaglio, infliggendo 225 danni ad area.  Le unità non eroiche subiscono il 200% di danni aggiuntivi.",
+          "fullTooltip": "Carica il bersaglio, infliggendo 225 danni ad area.<n/><n/>Le unità non eroiche subiscono il 200% di danni aggiuntivi.",
           "abilityType": "Hidden"
         },
         {
@@ -25245,7 +25245,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Carica",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Carica il bersaglio, infliggendo 225 danni ad area.  Le unità non eroiche subiscono il 200% di danni aggiuntivi.",
+          "fullTooltip": "Carica il bersaglio, infliggendo 225 danni ad area.<n/><n/>Le unità non eroiche subiscono il 200% di danni aggiuntivi.",
           "abilityType": "Hidden"
         },
         {
@@ -25253,7 +25253,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Carica",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Carica il bersaglio, infliggendo 225 danni ad area.  Le unità non eroiche subiscono il 200% di danni aggiuntivi.",
+          "fullTooltip": "Carica il bersaglio, infliggendo 225 danni ad area.<n/><n/>Le unità non eroiche subiscono il 200% di danni aggiuntivi.",
           "abilityType": "Hidden"
         }
       ]

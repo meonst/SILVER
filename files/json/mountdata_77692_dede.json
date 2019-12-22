@@ -379,7 +379,7 @@
     "releaseDate": "2017-10-17",
     "sortName": "1HeroHeadlessVar0",
     "searchText": "Headless Horseman's Charger Pferd Schlotternächte",
-    "description": "Wer reitet so spät durch Flut und Feuer? Bald seid Ihr's, das Pferd ist Euer! HAHA-HAHAHAHA!"
+    "description": "Wer reitet so spät durch Flut und Feuer?<n/>Bald seid Ihr's, das Pferd ist Euer!<n/>HAHA-HAHAHAHA!"
   },
   "ChoGallRunHeadlessHorsemanHorseBlue": {
     "name": "Frostiges Ross des kopflosen Reiters (getragen)",
@@ -391,7 +391,7 @@
     "event": "HallowsEnd",
     "releaseDate": "2017-10-17",
     "sortName": "1HeroHeadlessVar1",
-    "description": "Wer reitet so spät durch Flut und Feuer? Bald seid Ihr's, das Pferd ist Euer! HAHA-HAHAHAHA!"
+    "description": "Wer reitet so spät durch Flut und Feuer?<n/>Bald seid Ihr's, das Pferd ist Euer!<n/>HAHA-HAHAHAHA!"
   },
   "ChoGallRunHeadlessHorsemanHorseRed": {
     "name": "Feuriges Ross des kopflosen Reiters (getragen)",
@@ -403,7 +403,7 @@
     "event": "HallowsEnd",
     "releaseDate": "2017-10-17",
     "sortName": "1HeroHeadlessVar1",
-    "description": "Wer reitet so spät durch Flut und Feuer? Bald seid Ihr's, das Pferd ist Euer! HAHA-HAHAHAHA!"
+    "description": "Wer reitet so spät durch Flut und Feuer?<n/>Bald seid Ihr's, das Pferd ist Euer!<n/>HAHA-HAHAHAHA!"
   },
   "ChoGallRunHorseAlmond": {
     "name": "Falbe (getragen)",
@@ -1490,7 +1490,7 @@
     "releaseDate": "2015-06-02",
     "sortName": "Billie1BaseVar0",
     "searchText": "Böckchen Billie the Kid billy Ziege Weiß Weiss",
-    "description": "In einer WG mit drei Bären musste sich Goldböckchen einiges anhören. Es waren immer die gleichen Klagen: \"Jemand hat meinen Brei gegessen! Jemand hat auf meinem Stuhl gesessen!\" Kurz gesagt, die Luft war raus. Es war eine ganz willkommene Abwechslung, als sie in den Nexus gezogen wurde."
+    "description": "In einer WG mit drei Bären musste sich Goldböckchen einiges anhören. Es waren immer die gleichen Klagen: \"Jemand hat meinen Brei gegessen! Jemand hat auf meinem Stuhl gesessen!\" Kurz gesagt, die Luft war raus.<n/>Es war eine ganz willkommene Abwechslung, als sie in den Nexus gezogen wurde."
   },
   "GoatBlack": {
     "name": "Schwarzgeflecktes Böckchen",
@@ -1502,7 +1502,7 @@
     "releaseDate": "2015-06-02",
     "sortName": "Billie1BaseVar1",
     "searchText": "Goldböckchen Billie the Kid Ziege Schwarz",
-    "description": "In einer WG mit drei Bären musste sich Goldböckchen einiges anhören. Es waren immer die gleichen Klagen: \"Jemand hat meinen Brei gegessen! Jemand hat auf meinem Stuhl gesessen!\" Kurz gesagt, die Luft war raus. Es war eine ganz willkommene Abwechslung, als sie in den Nexus gezogen wurde."
+    "description": "In einer WG mit drei Bären musste sich Goldböckchen einiges anhören. Es waren immer die gleichen Klagen: \"Jemand hat meinen Brei gegessen! Jemand hat auf meinem Stuhl gesessen!\" Kurz gesagt, die Luft war raus.<n/>Es war eine ganz willkommene Abwechslung, als sie in den Nexus gezogen wurde."
   },
   "GoatBrown": {
     "name": "Braungeschecktes Böckchen",
@@ -1514,7 +1514,7 @@
     "releaseDate": "2015-06-02",
     "sortName": "Billie1BaseVar1",
     "searchText": "Goldböckchen Billie the Kid Ziege Braun",
-    "description": "In einer WG mit drei Bären musste sich Goldböckchen einiges anhören. Es waren immer die gleichen Klagen: \"Jemand hat meinen Brei gegessen! Jemand hat auf meinem Stuhl gesessen!\" Kurz gesagt, die Luft war raus. Es war eine ganz willkommene Abwechslung, als sie in den Nexus gezogen wurde."
+    "description": "In einer WG mit drei Bären musste sich Goldböckchen einiges anhören. Es waren immer die gleichen Klagen: \"Jemand hat meinen Brei gegessen! Jemand hat auf meinem Stuhl gesessen!\" Kurz gesagt, die Luft war raus.<n/>Es war eine ganz willkommene Abwechslung, als sie in den Nexus gezogen wurde."
   },
   "HeadlessHorsemanHorse": {
     "name": "Ross des kopflosen Reiters",
@@ -1527,7 +1527,7 @@
     "releaseDate": "2017-10-17",
     "sortName": "3HallowHeadlessVar0",
     "searchText": "Halloween Schlotternacht Headless Horseman's Charger Pferd Schlotternächte Schwarz Rot Grün",
-    "description": "Wer reitet so spät durch Flut und Feuer? Bald seid Ihr's, das Pferd ist Euer! HAHA-HAHAHAHA!"
+    "description": "Wer reitet so spät durch Flut und Feuer?<n/>Bald seid Ihr's, das Pferd ist Euer!<n/>HAHA-HAHAHAHA!"
   },
   "HeadlessHorsemanHorseBlue": {
     "name": "Frostiges Ross des kopflosen Reiters",
@@ -1540,7 +1540,7 @@
     "releaseDate": "2017-10-17",
     "sortName": "3HallowHeadlessVar1",
     "searchText": "Halloween Schlotternacht Headless Horseman's Charger Pferd Schlotternächte Blau Violett Lila",
-    "description": "Wer reitet so spät durch Flut und Feuer? Bald seid Ihr's, das Pferd ist Euer! HAHA-HAHAHAHA!"
+    "description": "Wer reitet so spät durch Flut und Feuer?<n/>Bald seid Ihr's, das Pferd ist Euer!<n/>HAHA-HAHAHAHA!"
   },
   "HeadlessHorsemanHorseRed": {
     "name": "Feuriges Ross des kopflosen Reiters",
@@ -1553,7 +1553,7 @@
     "releaseDate": "2017-10-17",
     "sortName": "3HallowHeadlessVar1",
     "searchText": "Halloween Schlotternacht Headless Horseman's Charger Pferd Schlotternächte Orange Braun",
-    "description": "Wer reitet so spät durch Flut und Feuer? Bald seid Ihr's, das Pferd ist Euer! HAHA-HAHAHAHA!"
+    "description": "Wer reitet so spät durch Flut und Feuer?<n/>Bald seid Ihr's, das Pferd ist Euer!<n/>HAHA-HAHAHAHA!"
   },
   "HearthstoneCard": {
     "name": "Hearthstone-Karte",

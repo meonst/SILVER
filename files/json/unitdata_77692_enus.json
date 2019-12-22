@@ -1372,7 +1372,7 @@
           "icon": "storm_ui_icon_azmodan_generalofhell.png",
           "cooldownTooltip": "Cooldown: 7 seconds",
           "shortTooltip": "Azmodan summons a Demon Lieutenant to assist Minions, Mercenaries, and Summons",
-          "fullTooltip": "Summon a Demon Lieutenant at any allied Mercenary, Minion, or Azmodan Demon. The Lieutenant will cast Demonic Smite every 7 seconds, instantly killing an enemy Minion. Lasts 20 seconds.  Usable while Channeling All Shall Burn.",
+          "fullTooltip": "Summon a Demon Lieutenant at any allied Mercenary, Minion, or Azmodan Demon. The Lieutenant will cast Demonic Smite every 7 seconds, instantly killing an enemy Minion. Lasts 20 seconds.<n/><n/>Usable while Channeling All Shall Burn.",
           "abilityType": "Hidden"
         }
       ]
@@ -1503,7 +1503,7 @@
             "countUse": 1
           },
           "shortTooltip": "Kill Minions to bribe a Mercenary",
-          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
+          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.<n/><n/>Current number of Bribe stacks: 0",
           "abilityType": "E"
         }
       ],
@@ -1515,7 +1515,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Cooldown: 80 seconds",
           "shortTooltip": "Revive and summon Vikings",
-          "fullTooltip": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
+          "fullTooltip": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds. <n/><n/>Only one Viking may attempt to summon at a time.",
           "abilityType": "Heroic"
         },
         {
@@ -1525,7 +1525,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Cooldown: 90 seconds",
           "shortTooltip": "Load into a Longboat to attack enemies",
-          "fullTooltip": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
+          "fullTooltip": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.<n/><n/>Requires all surviving Vikings to be nearby.",
           "abilityType": "Heroic"
         }
       ],
@@ -1536,7 +1536,7 @@
           "name": "Viking Hoard",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Gather Regen Globes to increase Health Regen",
-          "fullTooltip": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
+          "fullTooltip": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.<n/><n/>Current Bonus: 0 Regen per second",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -3681,7 +3681,7 @@
           "energyTooltip": "Mana: 0",
           "cooldownTooltip": "Cooldown: 3 seconds",
           "shortTooltip": "Fire a long range blast that damages an enemy",
-          "fullTooltip": "After 0.5 seconds, fire a missile that deals 305 (+4% per level) damage to the first enemy hit. Deals 50% damage to Structures.  Casting Sand Blast leaves an Echo behind that mimics Chromie's Sand Blast and Basic Attack, dealing 40% damage. Maximum of 1 Echo active at a time.",
+          "fullTooltip": "After 0.5 seconds, fire a missile that deals 305 (+4% per level) damage to the first enemy hit. Deals 50% damage to Structures.<n/><n/>Casting Sand Blast leaves an Echo behind that mimics Chromie's Sand Blast and Basic Attack, dealing 40% damage. Maximum of 1 Echo active at a time.",
           "abilityType": "Q"
         }
       ]
@@ -3978,7 +3978,7 @@
           "energyTooltip": "Energy: 15",
           "cooldownTooltip": "Cooldown: 4 seconds",
           "shortTooltip": "Damage enemies near Deathwing",
-          "fullTooltip": "After 0.75 seconds, Deathwing flaps his wings, dealing 80 (+4% per level) damage to nearby enemies.  World Breaker: Lava Burst Create a lava pool that damages and Slows",
+          "fullTooltip": "After 0.75 seconds, Deathwing flaps his wings, dealing 80 (+4% per level) damage to nearby enemies.<n/><n/>World Breaker: Lava Burst<n/>Create a lava pool that damages and Slows",
           "abilityType": "W"
         },
         {
@@ -3994,7 +3994,7 @@
           },
           "cooldownTooltip": "Charge Cooldown: 10 seconds",
           "shortTooltip": "Deathwing can drop meteors while in Dragonflight",
-          "fullTooltip": "After 0.8 seconds, a meteor falls from the sky, dealing 58 (+4% per level) damage to enemies in the area.  If a Hero is hit, Deathwing heals for 3% of his maximum Health and reduces his landing cooldowns by 1.5 seconds.",
+          "fullTooltip": "After 0.8 seconds, a meteor falls from the sky, dealing 58 (+4% per level) damage to enemies in the area.<n/><n/>If a Hero is hit, Deathwing heals for 3% of his maximum Health and reduces his landing cooldowns by 1.5 seconds.",
           "abilityType": "E"
         },
         {
@@ -4005,7 +4005,7 @@
           "energyTooltip": "Energy: 20",
           "cooldownTooltip": "Cooldown: 5 seconds",
           "shortTooltip": "Lunge in a direction",
-          "fullTooltip": "After 0.5 seconds, Deathwing lunges in a direction dealing 40 (+4% per level) damage to enemies and Slowing them by 35% for 2 seconds. Deathwing bites enemies at the end of the lunge, dealing an additional 75 (+4% per level) damage.  World Breaker: Earth Shatter Damage and Stun enemies in two lines",
+          "fullTooltip": "After 0.5 seconds, Deathwing lunges in a direction dealing 40 (+4% per level) damage to enemies and Slowing them by 35% for 2 seconds. Deathwing bites enemies at the end of the lunge, dealing an additional 75 (+4% per level) damage.<n/><n/>World Breaker: Earth Shatter<n/>Damage and Stun enemies in two lines",
           "abilityType": "E"
         }
       ],
@@ -4028,7 +4028,7 @@
           "name": "Aspect of Death",
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "shortTooltip": "Deathwing is especially powerful, but ignores friendly effects",
-          "fullTooltip": "Deathwing is fitted with 4 Armor Plates which grant 10 Armor each. Every 25% Health lost causes Deathwing to lose a plate. Plates are only restored when Dragonflight is used, based on the amount of Health Deathwing has when landing.  Deathwing is also a mighty Dragon Aspect who is permanently Unstoppable and deals 100% additional Spell Damage to Heroes, but views his allies with contempt and ignores any of their friendly effects.",
+          "fullTooltip": "Deathwing is fitted with 4 Armor Plates which grant 10 Armor each. Every 25% Health lost causes Deathwing to lose a plate. Plates are only restored when Dragonflight is used, based on the amount of Health Deathwing has when landing.<n/><n/>Deathwing is also a mighty Dragon Aspect who is permanently Unstoppable and deals 100% additional Spell Damage to Heroes, but views his allies with contempt and ignores any of their friendly effects.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -4053,7 +4053,7 @@
           "name": "Form Switch",
           "icon": "storm_ui_icon_deathwing_deathdrop.png",
           "cooldownTooltip": "Cooldown: 20 seconds",
-          "fullTooltip": "Switches Deathwing between Destroyer and World Breaker forms, each granting access to two unique Basic Abilities.  Incinerate damages enemies around Deathwing and Onslaught allows him to lunge at enemies.  Lava Burst creates a Slowing area and Earth Shatter Stuns enemies in two lines.",
+          "fullTooltip": "Switches Deathwing between Destroyer and World Breaker forms, each granting access to two unique Basic Abilities.<n/><n/>Incinerate damages enemies around Deathwing and Onslaught allows him to lunge at enemies.<n/><n/>Lava Burst creates a Slowing area and Earth Shatter Stuns enemies in two lines.",
           "abilityType": "Active"
         }
       ],
@@ -4194,7 +4194,7 @@
           "energyTooltip": "Energy: 20",
           "cooldownTooltip": "Cooldown: 6 seconds",
           "shortTooltip": "Create a lava pool that damages and Slows",
-          "fullTooltip": "After a 1 second delay, deal 30 (+4% per level) damage to all enemies in an area and create a pool of magma that deals 16 (+4% per level) damage per second and Slows enemies by 35%. Lasts 6 seconds.  Destroyer: Incinerate Damage enemies near Deathwing",
+          "fullTooltip": "After a 1 second delay, deal 30 (+4% per level) damage to all enemies in an area and create a pool of magma that deals 16 (+4% per level) damage per second and Slows enemies by 35%. Lasts 6 seconds.<n/><n/>Destroyer: Incinerate<n/>Damage enemies near Deathwing",
           "abilityType": "Hidden"
         },
         {
@@ -4219,7 +4219,7 @@
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "cooldownTooltip": "Cooldown: 20 seconds",
           "shortTooltip": "Deathwing is especially powerful, but ignores friendly effects",
-          "fullTooltip": "Deathwing is fitted with 4 Armor Plates which grant 10 Armor each. Every 25% Health lost causes Deathwing to lose a plate. Plates are only restored when Dragonflight is used, based on the amount of Health Deathwing has when landing.  Deathwing is also a mighty Dragon Aspect who is permanently Unstoppable and deals 100% additional Spell Damage to Heroes, but views his allies with contempt and ignores any of their friendly effects.",
+          "fullTooltip": "Deathwing is fitted with 4 Armor Plates which grant 10 Armor each. Every 25% Health lost causes Deathwing to lose a plate. Plates are only restored when Dragonflight is used, based on the amount of Health Deathwing has when landing.<n/><n/>Deathwing is also a mighty Dragon Aspect who is permanently Unstoppable and deals 100% additional Spell Damage to Heroes, but views his allies with contempt and ignores any of their friendly effects.",
           "abilityType": "Hidden"
         }
       ]
@@ -4298,7 +4298,7 @@
               "energyTooltip": "Energy: 25",
               "cooldownTooltip": "Cooldown: 12 seconds",
               "shortTooltip": "Damage and Stun enemies in two lines",
-              "fullTooltip": "Create a fissure of earth that deals 80 (+4% per level) damage to enemies hit and Stuns them for 0.75 seconds.  Destroyer: Onslaught Lunge in a direction",
+              "fullTooltip": "Create a fissure of earth that deals 80 (+4% per level) damage to enemies hit and Stuns them for 0.75 seconds.<n/><n/>Destroyer: Onslaught<n/>Lunge in a direction",
               "abilityType": "E"
             }
           ]
@@ -5495,7 +5495,7 @@
             "countUse": 1
           },
           "shortTooltip": "Kill Minions to bribe a Mercenary",
-          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
+          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.<n/><n/>Current number of Bribe stacks: 0",
           "abilityType": "E"
         }
       ],
@@ -5507,7 +5507,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Cooldown: 80 seconds",
           "shortTooltip": "Revive and summon Vikings",
-          "fullTooltip": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
+          "fullTooltip": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds. <n/><n/>Only one Viking may attempt to summon at a time.",
           "abilityType": "Heroic"
         },
         {
@@ -5517,7 +5517,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Cooldown: 90 seconds",
           "shortTooltip": "Load into a Longboat to attack enemies",
-          "fullTooltip": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
+          "fullTooltip": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.<n/><n/>Requires all surviving Vikings to be nearby.",
           "abilityType": "Heroic"
         }
       ],
@@ -5528,7 +5528,7 @@
           "name": "Viking Hoard",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Gather Regen Globes to increase Health Regen",
-          "fullTooltip": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
+          "fullTooltip": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.<n/><n/>Current Bonus: 0 Regen per second",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -5746,7 +5746,7 @@
           "name": "Oil Spill",
           "icon": "storm_ui_icon_blaze_oil.png",
           "cooldownTooltip": "Cooldown: 6 seconds",
-          "fullTooltip": "Vector Targeting Dispense an Oil Spill that Slows enemies and can be set on fire by Blaze.",
+          "fullTooltip": "Vector Targeting<n/>Dispense an Oil Spill that Slows enemies and can be set on fire by Blaze.",
           "abilityType": "W"
         }
       ],
@@ -7121,7 +7121,7 @@
           "nameId": "TerroroftheGarden",
           "buttonId": "TerroroftheGarden",
           "icon": "storm_ui_icon_gardenterror_terrorofthegarden.png",
-          "fullTooltip": "Terror of the Garden (Trait)  Permanently Unstoppable.",
+          "fullTooltip": "Terror of the Garden (Trait)<n/><n/>Permanently Unstoppable.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -9328,7 +9328,7 @@
           "name": "Punish",
           "icon": "storm_btn_d3_barbarian_leap.png",
           "shortTooltip": "Stun enemies in an area",
-          "fullTooltip": "Leaps to the targeted location, dealing 1 damage and stunning targets for 1 seconds at the impact location.",
+          "fullTooltip": "Leaps to the targeted location, dealing 1 damage and stunning targets for 1 seconds at the impact location.<n/><n/>",
           "abilityType": "Q"
         },
         {
@@ -9337,7 +9337,7 @@
           "name": "Fixate",
           "icon": "storm_temp_war3_btnundeadunload.png",
           "cooldownTooltip": "Cooldown: 10 seconds",
-          "fullTooltip": "Fixate on the target, becoming enraged and increasing movement speed by 100% and attack speed by 0%  for 4 seconds. During this time the Punisher may not receive any orders.  Stuns the Punisher for 1 seconds when the effect ends.",
+          "fullTooltip": "Fixate on the target, becoming enraged and increasing movement speed by 100% and attack speed by 0%  for 4 seconds. During this time the Punisher may not receive any orders.<n/><n/>Stuns the Punisher for 1 seconds when the effect ends.",
           "abilityType": "W"
         }
       ]
@@ -10731,7 +10731,7 @@
             "countUse": 1
           },
           "shortTooltip": "Kill Minions to bribe a Mercenary",
-          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
+          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.<n/><n/>Current number of Bribe stacks: 0",
           "abilityType": "E"
         }
       ],
@@ -10743,7 +10743,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Cooldown: 80 seconds",
           "shortTooltip": "Revive and summon Vikings",
-          "fullTooltip": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
+          "fullTooltip": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds. <n/><n/>Only one Viking may attempt to summon at a time.",
           "abilityType": "Heroic"
         },
         {
@@ -10753,7 +10753,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Cooldown: 90 seconds",
           "shortTooltip": "Load into a Longboat to attack enemies",
-          "fullTooltip": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
+          "fullTooltip": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.<n/><n/>Requires all surviving Vikings to be nearby.",
           "abilityType": "Heroic"
         }
       ],
@@ -10764,7 +10764,7 @@
           "name": "Viking Hoard",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Gather Regen Globes to increase Health Regen",
-          "fullTooltip": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
+          "fullTooltip": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.<n/><n/>Current Bonus: 0 Regen per second",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -12500,7 +12500,7 @@
           "energyTooltip": "Mana: 50",
           "cooldownTooltip": "Cooldown: 6 seconds",
           "shortTooltip": "Fire a shot and deal a large amount of damage to the first enemy hit",
-          "fullTooltip": "Deal 230 (+4% per level) damage to the first enemy hit.  Passive: Hitting an enemy Hero with Snipe permanently increases the damage of Snipe by 6%, stacking up to 30%. Gain an additional 25% damage bonus at maximum stacks. All stacks are lost if Snipe fails to hit an enemy.",
+          "fullTooltip": "Deal 230 (+4% per level) damage to the first enemy hit.<n/><n/>Passive: Hitting an enemy Hero with Snipe permanently increases the damage of Snipe by 6%, stacking up to 30%. Gain an additional 25% damage bonus at maximum stacks. All stacks are lost if Snipe fails to hit an enemy.",
           "abilityType": "Q"
         },
         {
@@ -12545,7 +12545,7 @@
           "icon": "storm_ui_icon_nova_personalcloaking.png",
           "cooldownTooltip": "Cooldown: 3 seconds",
           "shortTooltip": "Stealth and gain Move Speed while not attacking or taking damage",
-          "fullTooltip": "Gain Stealth when out of combat for 3 seconds. Taking damage, attacking, using Abilities, or Channeling ends Stealth. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  Passive: Gain 15% Movement Speed while Stealthed.",
+          "fullTooltip": "Gain Stealth when out of combat for 3 seconds. Taking damage, attacking, using Abilities, or Channeling ends Stealth. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.<n/><n/>Passive: Gain 15% Movement Speed while Stealthed.",
           "abilityType": "Hidden",
           "isActive": false
         }
@@ -12658,7 +12658,7 @@
             "countUse": 1
           },
           "shortTooltip": "Kill Minions to bribe a Mercenary",
-          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
+          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.<n/><n/>Current number of Bribe stacks: 0",
           "abilityType": "E"
         }
       ],
@@ -12670,7 +12670,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Cooldown: 80 seconds",
           "shortTooltip": "Revive and summon Vikings",
-          "fullTooltip": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
+          "fullTooltip": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds. <n/><n/>Only one Viking may attempt to summon at a time.",
           "abilityType": "Heroic"
         },
         {
@@ -12680,7 +12680,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Cooldown: 90 seconds",
           "shortTooltip": "Load into a Longboat to attack enemies",
-          "fullTooltip": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
+          "fullTooltip": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.<n/><n/>Requires all surviving Vikings to be nearby.",
           "abilityType": "Heroic"
         }
       ],
@@ -12691,7 +12691,7 @@
           "name": "Viking Hoard",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Gather Regen Globes to increase Health Regen",
-          "fullTooltip": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
+          "fullTooltip": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.<n/><n/>Current Bonus: 0 Regen per second",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -13590,7 +13590,7 @@
           "icon": "storm_ui_icon_ragnaros_moltenswing.png",
           "cooldownTooltip": "Cooldown: 6 seconds",
           "shortTooltip": "Stun and damage nearby enemies",
-          "fullTooltip": "Swing Sulfuras in a wide arc, dealing 161 (+4% per level) damage and Stunning enemies for 1 second.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
+          "fullTooltip": "Swing Sulfuras in a wide arc, dealing 161 (+4% per level) damage and Stunning enemies for 1 second.<n/><n/>Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
           "abilityType": "Q"
         },
         {
@@ -13600,7 +13600,7 @@
           "icon": "storm_ui_icon_ragnaros_meteorshower.png",
           "cooldownTooltip": "Cooldown: 2.5 seconds",
           "shortTooltip": "Summon a line of meteors",
-          "fullTooltip": "Vector Targeting Summon 3 meteors at the target point that fall in the target direction. Each meteor deals 151 (+4% per level) damage and slows enemies by 25% for 2 seconds.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
+          "fullTooltip": "Vector Targeting<n/>Summon 3 meteors at the target point that fall in the target direction. Each meteor deals 151 (+4% per level) damage and slows enemies by 25% for 2 seconds.<n/><n/>Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
           "abilityType": "W"
         },
         {
@@ -13610,7 +13610,7 @@
           "icon": "storm_ui_icon_ragnaros_explosiverune.png",
           "cooldownTooltip": "Cooldown: 4 seconds",
           "shortTooltip": "Cause a delayed explosion in a large area",
-          "fullTooltip": "Create a rune that deals 285 (+4% per level) damage to non-Structure enemies after 1.5 seconds.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
+          "fullTooltip": "Create a rune that deals 285 (+4% per level) damage to non-Structure enemies after 1.5 seconds.<n/><n/>Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
           "abilityType": "E"
         }
       ],
@@ -14125,7 +14125,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Cooldown: 14 seconds",
           "shortTooltip": "Create Mirror Images to confuse and attack enemies",
-          "fullTooltip": "Teleport a short distance in the direction of the mouse cursor, creating 2 Mirror Images for 8 seconds with 100% of Samuro's current Health that Basic Attack enemies for 11 (+4% per level) damage. Images have their duration increased by 1 second each time they or Samuro use a Basic Attack against an enemy Hero. Whenever an Image takes damage, it deals that amount of damage to itself, effectively doubling the damage it takes.  Maximum 2 Mirror Images can be active at at time. Using Mirror Image removes most negative effects from Samuro.",
+          "fullTooltip": "Teleport a short distance in the direction of the mouse cursor, creating 2 Mirror Images for 8 seconds with 100% of Samuro's current Health that Basic Attack enemies for 11 (+4% per level) damage. Images have their duration increased by 1 second each time they or Samuro use a Basic Attack against an enemy Hero. Whenever an Image takes damage, it deals that amount of damage to itself, effectively doubling the damage it takes.<n/><n/>Maximum 2 Mirror Images can be active at at time. Using Mirror Image removes most negative effects from Samuro.",
           "abilityType": "Q"
         }
       ],
@@ -14147,7 +14147,7 @@
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
           "cooldownTooltip": "Cooldown: 8 seconds",
           "shortTooltip": "Mirror Images can be controlled",
-          "fullTooltip": "Mirror Images can be controlled individually or as a group and their damage is increased by 100%.   Passive: Image Transmission's cooldown is reduced to 8 seconds.",
+          "fullTooltip": "Mirror Images can be controlled individually or as a group and their damage is increased by 100%. <n/><n/>Passive: Image Transmission's cooldown is reduced to 8 seconds.",
           "abilityType": "Heroic"
         }
       ],
@@ -14159,7 +14159,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Cooldown: 14 seconds",
           "shortTooltip": "Increase Movement Speed when attacking Heroes",
-          "fullTooltip": "Activate to switch places with a target Mirror Image, removing most negative effects from Samuro and the Mirror Image.  Advancing Strikes  Basic Attacks against enemy Heroes increase Samuro's Movement Speed by 25% for 2 seconds.",
+          "fullTooltip": "Activate to switch places with a target Mirror Image, removing most negative effects from Samuro and the Mirror Image.<n/><n/>Advancing Strikes<n/><n/>Basic Attacks against enemy Heroes increase Samuro's Movement Speed by 25% for 2 seconds.",
           "abilityType": "Trait"
         }
       ],
@@ -14181,7 +14181,7 @@
           "name": "Select Mirror Image",
           "icon": "storm_temp_war3_btnmirrorimage.png",
           "shortTooltip": "Select Mirror Image",
-          "fullTooltip": "Select Mirror Image  Issue orders to a single Mirror Image.",
+          "fullTooltip": "Select Mirror Image<n/><n/>Issue orders to a single Mirror Image.",
           "abilityType": "Active"
         },
         {
@@ -14190,7 +14190,7 @@
           "name": "Select All",
           "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
           "shortTooltip": "Select All",
-          "fullTooltip": "Select All  Issue orders to Samuro and all Mirror Images.",
+          "fullTooltip": "Select All<n/><n/>Issue orders to Samuro and all Mirror Images.",
           "abilityType": "Active"
         }
       ],
@@ -14324,7 +14324,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Cooldown: 14 seconds",
           "shortTooltip": "Increase Movement Speed when attacking Heroes",
-          "fullTooltip": "Activate to switch places with a target Mirror Image, removing most negative effects from Samuro and the Mirror Image.  Advancing Strikes  Basic Attacks against enemy Heroes increase Samuro's Movement Speed by 25% for 2 seconds.",
+          "fullTooltip": "Activate to switch places with a target Mirror Image, removing most negative effects from Samuro and the Mirror Image.<n/><n/>Advancing Strikes<n/><n/>Basic Attacks against enemy Heroes increase Samuro's Movement Speed by 25% for 2 seconds.",
           "abilityType": "Hidden"
         },
         {
@@ -14334,7 +14334,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Cooldown: 18 seconds",
           "shortTooltip": "Create Mirror Images to confuse and attack enemies",
-          "fullTooltip": "Teleport a short distance in the direction of the mouse cursor, creating 2 Mirror Images for 8 seconds with 100% of Samuro's current Health that Basic Attack enemies for 11 (+4% per level) damage. Images have their duration increased by 1 second each time they or Samuro use a Basic Attack against an enemy Hero. Whenever an Image takes damage, it deals that amount of damage to itself, effectively doubling the damage it takes.  Maximum 2 Mirror Images can be active at at time. Using Mirror Image removes most negative effects from Samuro.",
+          "fullTooltip": "Teleport a short distance in the direction of the mouse cursor, creating 2 Mirror Images for 8 seconds with 100% of Samuro's current Health that Basic Attack enemies for 11 (+4% per level) damage. Images have their duration increased by 1 second each time they or Samuro use a Basic Attack against an enemy Hero. Whenever an Image takes damage, it deals that amount of damage to itself, effectively doubling the damage it takes.<n/><n/>Maximum 2 Mirror Images can be active at at time. Using Mirror Image removes most negative effects from Samuro.",
           "abilityType": "Hidden"
         },
         {
@@ -14351,7 +14351,7 @@
           },
           "cooldownTooltip": "Cooldown: 10 seconds",
           "shortTooltip": "Critically Strike for increased damage.",
-          "fullTooltip": "Samuro's next Basic Attack within 8 seconds will be a Critical Strike, dealing 50% increased damage. This also applies to Images, and does not break Wind Walk.  Passive: Samuro and his Images deal a Critical Strike on every 4th Basic Attack.",
+          "fullTooltip": "Samuro's next Basic Attack within 8 seconds will be a Critical Strike, dealing 50% increased damage. This also applies to Images, and does not break Wind Walk.<n/><n/>Passive: Samuro and his Images deal a Critical Strike on every 4th Basic Attack.",
           "abilityType": "Hidden"
         },
         {
@@ -14361,7 +14361,7 @@
           "icon": "storm_ui_icon_samuro_windwalk.png",
           "cooldownTooltip": "Cooldown: 15 seconds",
           "shortTooltip": "Become Stealthed and gain Movement Speed",
-          "fullTooltip": "Grant Samuro Stealth for up to 10 seconds or until he attacks, uses an Ability, or takes damage.  While Stealthed, Samuro heals for 1% of his maximum health every second, his Movement Speed is increased by 25% and he can pass through other units. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  Samuro is Unrevealable for the first 1 second of Wind Walk.",
+          "fullTooltip": "Grant Samuro Stealth for up to 10 seconds or until he attacks, uses an Ability, or takes damage.<n/><n/>While Stealthed, Samuro heals for 1% of his maximum health every second, his Movement Speed is increased by 25% and he can pass through other units. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.<n/><n/>Samuro is Unrevealable for the first 1 second of Wind Walk.",
           "abilityType": "Hidden"
         },
         {
@@ -14388,7 +14388,7 @@
           },
           "cooldownTooltip": "Cooldown: 10 seconds",
           "shortTooltip": "Critically Strike for increased damage.",
-          "fullTooltip": "Samuro's next Basic Attack within 8 seconds will be a Critical Strike, dealing 50% increased damage. This also applies to Images, and does not break Wind Walk.  Passive: Samuro and his Images deal a Critical Strike on every 4th Basic Attack.",
+          "fullTooltip": "Samuro's next Basic Attack within 8 seconds will be a Critical Strike, dealing 50% increased damage. This also applies to Images, and does not break Wind Walk.<n/><n/>Passive: Samuro and his Images deal a Critical Strike on every 4th Basic Attack.",
           "abilityType": "Hidden"
         },
         {
@@ -14399,7 +14399,7 @@
           "toggleCooldown": 0.5,
           "cooldownTooltip": "Cooldown: 8 seconds",
           "shortTooltip": "Mirror Images can be controlled",
-          "fullTooltip": "Mirror Images can be controlled individually or as a group and their damage is increased by 100%.   Passive: Image Transmission's cooldown is reduced to 8 seconds.",
+          "fullTooltip": "Mirror Images can be controlled individually or as a group and their damage is increased by 100%. <n/><n/>Passive: Image Transmission's cooldown is reduced to 8 seconds.",
           "abilityType": "Hidden"
         }
       ]
@@ -15963,7 +15963,7 @@
           "energyTooltip": "Mana: 45",
           "cooldownTooltip": "Cooldown: 10 seconds",
           "shortTooltip": "Throw a hammer, stunning and damaging the first enemy hit",
-          "fullTooltip": "Throw a hammer, dealing 110 (+4% per level) damage to the first enemy hit and Stunning them for 1.25 seconds.  Quest: Hit 25 Heroes with Storm Bolt. Heroes who die within 2.5 seconds of being hit by Storm Bolt count as hitting 3 additional Heroes.  Reward: Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by 1 second.",
+          "fullTooltip": "Throw a hammer, dealing 110 (+4% per level) damage to the first enemy hit and Stunning them for 1.25 seconds.<n/><n/>Quest: Hit 25 Heroes with Storm Bolt. Heroes who die within 2.5 seconds of being hit by Storm Bolt count as hitting 3 additional Heroes.<n/><n/>Reward: Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by 1 second.",
           "abilityType": "Q"
         },
         {
@@ -16098,7 +16098,7 @@
           "energyTooltip": "Mana: 70",
           "cooldownTooltip": "Cooldown: 80 seconds",
           "shortTooltip": "Eats enemies in area",
-          "fullTooltip": "Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 94 (+4% per level) damage per second.  Usable on Unstoppable enemies.",
+          "fullTooltip": "Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 94 (+4% per level) damage per second.<n/><n/>Usable on Unstoppable enemies.",
           "abilityType": "W"
         },
         {
@@ -16161,7 +16161,7 @@
           "energyTooltip": "Mana: 20",
           "cooldownTooltip": "Cooldown: 16 seconds",
           "shortTooltip": "Gain HealthForce a Hero to attack Varian",
-          "fullTooltip": "Silence a target Hero and force them to attack Varian for 1.25 seconds.  Passive: Maximum Health and Health Regeneration increased by 40%.",
+          "fullTooltip": "Silence a target Hero and force them to attack Varian for 1.25 seconds.<n/><n/>Passive: Maximum Health and Health Regeneration increased by 40%.",
           "abilityType": "B"
         }
       ]
@@ -16176,7 +16176,7 @@
               "name": "Void Prison Cancel",
               "icon": "hud_btn_bg_ability_cancel.png",
               "cooldownTooltip": "Cooldown: 1.5 seconds",
-              "fullTooltip": "Cancels the Void Prison ability.",
+              "fullTooltip": "<n/>Cancels the Void Prison ability.",
               "abilityType": "Q"
             }
           ]
@@ -24494,7 +24494,7 @@
           "buttonId": "DragonKnightRubbleMaker",
           "name": "Rubble Maker",
           "icon": "storm_ui_icon_dragonknight_rubblemaker.png",
-          "fullTooltip": "Increases damage to Structures and Minions by 100%. Reduces damage from Structures by 60%. Permanently Unstoppable. The Dragon Knight explodes on death, knocking back nearby enemies.",
+          "fullTooltip": "Increases damage to Structures and Minions by 100%.<n/>Reduces damage from Structures by 60%.<n/>Permanently Unstoppable.<n/>The Dragon Knight explodes on death, knocking back nearby enemies.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -24711,7 +24711,7 @@
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Cooldown: 8 seconds",
           "shortTooltip": "Charge a target and deal damage in an area",
-          "fullTooltip": "Charge a target and deal 160 damage in an area.   Non-Heroes take 500% increased damage.",
+          "fullTooltip": "Charge a target and deal 160 damage in an area. <n/><n/>Non-Heroes take 500% increased damage.",
           "abilityType": "Q"
         },
         {
@@ -24721,7 +24721,7 @@
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Cooldown: 14 seconds",
           "shortTooltip": "Launch a fist that deals damage, roots Heroes, and disables towers",
-          "fullTooltip": "Launch a Rocket Fist that deals 150 damage to the first Hero or Structure in its path. The fist pushes Heroes for up to 2 seconds and disables Structures for 4 seconds.  Instantly kills Minions in its path.",
+          "fullTooltip": "Launch a Rocket Fist that deals 150 damage to the first Hero or Structure in its path. The fist pushes Heroes for up to 2 seconds and disables Structures for 4 seconds.<n/><n/>Instantly kills Minions in its path.",
           "abilityType": "W"
         },
         {
@@ -24809,7 +24809,7 @@
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Charge a target and deal damage in an area",
-          "fullTooltip": "Charge a target and deal 160 damage in an area.   Non-Heroes take 500% increased damage.",
+          "fullTooltip": "Charge a target and deal 160 damage in an area. <n/><n/>Non-Heroes take 500% increased damage.",
           "abilityType": "Hidden"
         },
         {
@@ -24818,7 +24818,7 @@
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Charge a target and deal damage in an area",
-          "fullTooltip": "Charge a target and deal 160 damage in an area.   Non-Heroes take 500% increased damage.",
+          "fullTooltip": "Charge a target and deal 160 damage in an area. <n/><n/>Non-Heroes take 500% increased damage.",
           "abilityType": "Hidden"
         },
         {
@@ -24827,7 +24827,7 @@
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Charge a target and deal damage in an area",
-          "fullTooltip": "Charge a target and deal 160 damage in an area.   Non-Heroes take 500% increased damage.",
+          "fullTooltip": "Charge a target and deal 160 damage in an area. <n/><n/>Non-Heroes take 500% increased damage.",
           "abilityType": "Hidden"
         }
       ]
@@ -24878,7 +24878,7 @@
           "icon": "storm_ui_icon_volskayarobot_tacticalstrikes.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Fire a series of missiles",
-          "fullTooltip": "Toggle to fire missiles at the cursor's location. Each missile deals 38 damage but drains 1 Energy. Reactivate to stop firing.  Deals 50% less damage to Structures.",
+          "fullTooltip": "Toggle to fire missiles at the cursor's location. Each missile deals 38 damage but drains 1 Energy. Reactivate to stop firing.<n/><n/>Deals 50% less damage to Structures.",
           "abilityType": "W"
         },
         {
@@ -24888,7 +24888,7 @@
           "icon": "storm_ui_icon_volskayarobot_skylaser.png",
           "cooldownTooltip": "Cooldown: 10 seconds",
           "shortTooltip": "Deal delayed damage in a line",
-          "fullTooltip": "Vector Targeting Draw a line on the ground, dealing 60 damage. After 1 second, it explodes for 380 damage.",
+          "fullTooltip": "Vector Targeting<n/>Draw a line on the ground, dealing 60 damage. After 1 second, it explodes for 380 damage.",
           "abilityType": "E"
         }
       ],
@@ -25143,7 +25143,7 @@
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Cooldown: 8 seconds",
-          "fullTooltip": "Charge a target and deal 225 damage in an area.   Non-Heroes take 200% increased damage.",
+          "fullTooltip": "Charge a target and deal 225 damage in an area. <n/><n/>Non-Heroes take 200% increased damage.",
           "abilityType": "Q"
         },
         {
@@ -25152,7 +25152,7 @@
           "name": "Rocket Fist",
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Cooldown: 14 seconds",
-          "fullTooltip": "Launch a Rocket Fist that deals 200 damage to the first Hero or Structure in its path. The pushes away and stuns Heroes for 1.5 seconds and disables Structures for 4 seconds.  Instantly kills Minions in its path.",
+          "fullTooltip": "Launch a Rocket Fist that deals 200 damage to the first Hero or Structure in its path. The pushes away and stuns Heroes for 1.5 seconds and disables Structures for 4 seconds.<n/><n/>Instantly kills Minions in its path.",
           "abilityType": "W"
         },
         {
@@ -25238,7 +25238,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Charge a target and deal 225 damage in an area.   Non-Heroes take 200% increased damage.",
+          "fullTooltip": "Charge a target and deal 225 damage in an area. <n/><n/>Non-Heroes take 200% increased damage.",
           "abilityType": "Hidden"
         },
         {
@@ -25246,7 +25246,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Charge a target and deal 225 damage in an area.   Non-Heroes take 200% increased damage.",
+          "fullTooltip": "Charge a target and deal 225 damage in an area. <n/><n/>Non-Heroes take 200% increased damage.",
           "abilityType": "Hidden"
         },
         {
@@ -25254,7 +25254,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Charge a target and deal 225 damage in an area.   Non-Heroes take 200% increased damage.",
+          "fullTooltip": "Charge a target and deal 225 damage in an area. <n/><n/>Non-Heroes take 200% increased damage.",
           "abilityType": "Hidden"
         }
       ]

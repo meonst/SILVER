@@ -93,7 +93,7 @@ class HeroPage extends React.Component {
         lang = this.props.language
         var fetchurl ='http://localhost:8000/heroesapi/' + this.props.link + '?lang=' + lang;
         await fetch(fetchurl).then(value => value.json()).then(value => {herodat = value['herodata']})
-        console.log(herodat)
+        //console.log(herodat)
         if (herodat['unitId'] === 'HeroDeathwing' || herodat['unitId'] === 'HeroTracer') {singleHeroic = true} else {singleHeroic = false}
         if (herodat['abilities']['activable'] === undefined) {hasActivable = false} else {hasActivable = true}
         if (herodat['abilities']['mount'][0]['nameId'] !== 'Mount') {specialMount = true} else {specialMount = false}
@@ -513,6 +513,9 @@ class Description extends React.Component {
     render() {
         if (this.props.energycost === undefined && this.props.lifecost === undefined && this.props.cooldown === undefined) {
             necessityStyle = {'display': 'none'}} else {necessityStyle = {'display': 'block'}}
+        console.log(this.props.value)
+        var lineBreaked = []
+        for (let line in this.props.value.split("<n/>")) {lineBreaked.push(this.props.value.split("<n/>")[line], <br/>)}
         return(
             
             <div>
@@ -528,7 +531,7 @@ class Description extends React.Component {
                         {this.props.cooldown}
                     </div>
                 </div>
-                {this.props.value}
+                {lineBreaked}
                 
             </div>
             )

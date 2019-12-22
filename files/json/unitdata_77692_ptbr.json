@@ -1372,7 +1372,7 @@
           "icon": "storm_ui_icon_azmodan_generalofhell.png",
           "cooldownTooltip": "Recarga: 7 segundos",
           "shortTooltip": "Azmodan evoca um Tenente Demoníaco para ajudar Tropas, Mercenários e Evocações",
-          "fullTooltip": "Evoca um Tenente Demoníaco ao lado de qualquer Tropa ou Mercenário aliado ou de um Demônio evocado por Azmodan. O Tenente usará Castigo Demoníaco a cada 7 s, matando instantaneamente uma Tropa inimiga. Dura 20 s.  Pode ser usado enquanto canaliza Todos Queimarão.",
+          "fullTooltip": "Evoca um Tenente Demoníaco ao lado de qualquer Tropa ou Mercenário aliado ou de um Demônio evocado por Azmodan. O Tenente usará Castigo Demoníaco a cada 7 s, matando instantaneamente uma Tropa inimiga. Dura 20 s.<n/><n/>Pode ser usado enquanto canaliza Todos Queimarão.",
           "abilityType": "Hidden"
         }
       ]
@@ -1503,7 +1503,7 @@
             "countUse": 1
           },
           "shortTooltip": "Mate Tropas para subornar um Mercenário",
-          "fullTooltip": "Tropas inimigas ou Mercenários capturados mortos perto dos Vikings Perdidos concedem aplicações de Suborno. Use 40 aplicações para subornar um Mercenário, derrotando-o instantaneamente. Não funciona com Mercenários de Elite. Máximo de aplicações disponíveis: 200. Se um acampamento for completamente derrotado com Suborno, ele ressurgirá 50% mais rápido.  Quantidade atual de aplicações de Suborno: 0",
+          "fullTooltip": "Tropas inimigas ou Mercenários capturados mortos perto dos Vikings Perdidos concedem aplicações de Suborno. Use 40 aplicações para subornar um Mercenário, derrotando-o instantaneamente. Não funciona com Mercenários de Elite. Máximo de aplicações disponíveis: 200. Se um acampamento for completamente derrotado com Suborno, ele ressurgirá 50% mais rápido.<n/><n/>Quantidade atual de aplicações de Suborno: 0",
           "abilityType": "E"
         }
       ],
@@ -1515,7 +1515,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Recarga: 80 segundos",
           "shortTooltip": "Revive e evoca os Vikings",
-          "fullTooltip": "Evoca, cura completamente e revive todos os Vikings Perdidos no local-alvo depois de um Viking canalizar por 2 segundos.   Somente um Viking pode tentar a evocação por vez.",
+          "fullTooltip": "Evoca, cura completamente e revive todos os Vikings Perdidos no local-alvo depois de um Viking canalizar por 2 segundos. <n/><n/>Somente um Viking pode tentar a evocação por vez.",
           "abilityType": "Heroic"
         },
         {
@@ -1525,7 +1525,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Recarga: 90 segundos",
           "shortTooltip": "Embarca em uma galé para atacar os inimigos",
-          "fullTooltip": "Salta em uma Galé Irrefreável que atira nos inimigos próximos, causando 112 (+4% per level) de dano por segundo, e pode lançar um morteiro que causa 228 (+4% per level) de dano de área. Quanto mais Vikings a bordo, maior a vida do barco. Se ele for destruído pelos inimigos, todos os Vikings ficarão atordoados por 1 s. Dura 15 s.  Requer que todos os Vikings vivos estejam próximos.",
+          "fullTooltip": "Salta em uma Galé Irrefreável que atira nos inimigos próximos, causando 112 (+4% per level) de dano por segundo, e pode lançar um morteiro que causa 228 (+4% per level) de dano de área. Quanto mais Vikings a bordo, maior a vida do barco. Se ele for destruído pelos inimigos, todos os Vikings ficarão atordoados por 1 s. Dura 15 s.<n/><n/>Requer que todos os Vikings vivos estejam próximos.",
           "abilityType": "Heroic"
         }
       ],
@@ -1536,7 +1536,7 @@
           "name": "Reserva Viking",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Colete Globos de Regeneração para aumentar a Regeneração de Vida",
-          "fullTooltip": "Coletar um Globo de Regeneração com um Viking aumenta permanentemente toda a Regeneração de Vida deles em 0.5 por segundo.  Bônus atual: 0 Regeneração por segundo",
+          "fullTooltip": "Coletar um Globo de Regeneração com um Viking aumenta permanentemente toda a Regeneração de Vida deles em 0.5 por segundo.<n/><n/>Bônus atual: 0 Regeneração por segundo",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -3681,7 +3681,7 @@
           "energyTooltip": "Mana: 0",
           "cooldownTooltip": "Recarga: 3 segundos",
           "shortTooltip": "Dispara uma rajada de longo alcance que causa dano a um inimigo",
-          "fullTooltip": "Depois de 0.5 s, dispara um míssil que causa 305 (+4% per level) de dano ao primeiro inimigo atingido. Causa 50% de dano a Estruturas.  Ao lançar Impacto de Areia, Crona deixa um Eco que imita o Impacto de Areia e o Ataque Básico dela, causando 40% de dano. Máximo de 1 Eco(s) ativo(s) por vez.",
+          "fullTooltip": "Depois de 0.5 s, dispara um míssil que causa 305 (+4% per level) de dano ao primeiro inimigo atingido. Causa 50% de dano a Estruturas.<n/><n/>Ao lançar Impacto de Areia, Crona deixa um Eco que imita o Impacto de Areia e o Ataque Básico dela, causando 40% de dano. Máximo de 1 Eco(s) ativo(s) por vez.",
           "abilityType": "Q"
         }
       ]
@@ -3978,7 +3978,7 @@
           "energyTooltip": "Energia: 15",
           "cooldownTooltip": "Recarga: 4 segundos",
           "shortTooltip": "Causa dano aos inimigos perto de Asa da Morte",
-          "fullTooltip": "Após 0.75 s, Asa da Morte bate as asas, causando 80 (+4% per level) de dano aos inimigos próximos.  Quebramundo: Estouro de Lava Cria uma poça de lava que causa dano e desacelera",
+          "fullTooltip": "Após 0.75 s, Asa da Morte bate as asas, causando 80 (+4% per level) de dano aos inimigos próximos.<n/><n/>Quebramundo: Estouro de Lava<n/>Cria uma poça de lava que causa dano e desacelera",
           "abilityType": "W"
         },
         {
@@ -3994,7 +3994,7 @@
           },
           "cooldownTooltip": "Recarga da carga: 10 segundos",
           "shortTooltip": "Asa da Morte lança meteoros na Revoada Dragônica",
-          "fullTooltip": "Após 0.8 s, um meteoro cai dos céus, causando 58 (+4% per level) de dano aos inimigos na área.  Se um Herói for atingido, Asa da Morte recuperará 3% do máximo de Vida e terá a recarga de seus pousos reduzida em 1.5 s.",
+          "fullTooltip": "Após 0.8 s, um meteoro cai dos céus, causando 58 (+4% per level) de dano aos inimigos na área.<n/><n/>Se um Herói for atingido, Asa da Morte recuperará 3% do máximo de Vida e terá a recarga de seus pousos reduzida em 1.5 s.",
           "abilityType": "E"
         },
         {
@@ -4005,7 +4005,7 @@
           "energyTooltip": "Energia: 20",
           "cooldownTooltip": "Recarga: 5 segundos",
           "shortTooltip": "Investe em uma direção",
-          "fullTooltip": "Após 0.5 s, Asa da Morte mergulha em uma direção, causando 40 (+4% per level) de dano aos inimigos e desacelerando-os em 35% por 2 s. Asa da Morte morde os inimigos no fim do mergulho, causando um adicional de 75 (+4% per level) de dano.  Quebramundo: Estilhaçar Terra Causa dano e atordoa os inimigos em duas linhas",
+          "fullTooltip": "Após 0.5 s, Asa da Morte mergulha em uma direção, causando 40 (+4% per level) de dano aos inimigos e desacelerando-os em 35% por 2 s. Asa da Morte morde os inimigos no fim do mergulho, causando um adicional de 75 (+4% per level) de dano.<n/><n/>Quebramundo: Estilhaçar Terra<n/>Causa dano e atordoa os inimigos em duas linhas",
           "abilityType": "E"
         }
       ],
@@ -4028,7 +4028,7 @@
           "name": "Aspecto da Morte",
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "shortTooltip": "Asa da Morte é poderosíssimo, mas ignora efeitos de aliados",
-          "fullTooltip": "Asa da Morte ganha 4 Placas de Armadura. Cada uma concede 10 de Armadura. A cada 25% de Vida perdida, Asa da Morte perde uma placa. As placas só são restauradas com o uso de Revoada Dragônica, com base na quantidade de Vida que Asa da Morte tem ao pousar.  Asa da Morte também é um poderoso Aspecto Dragônico permanentemente Irrefreável e causa 100% de Dano Mágico adicional a Heróis, mas despreza os aliados e ignora todos os efeitos provenientes deles.",
+          "fullTooltip": "Asa da Morte ganha 4 Placas de Armadura. Cada uma concede 10 de Armadura. A cada 25% de Vida perdida, Asa da Morte perde uma placa. As placas só são restauradas com o uso de Revoada Dragônica, com base na quantidade de Vida que Asa da Morte tem ao pousar.<n/><n/>Asa da Morte também é um poderoso Aspecto Dragônico permanentemente Irrefreável e causa 100% de Dano Mágico adicional a Heróis, mas despreza os aliados e ignora todos os efeitos provenientes deles.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -4053,7 +4053,7 @@
           "name": "Mudar de Forma",
           "icon": "storm_ui_icon_deathwing_deathdrop.png",
           "cooldownTooltip": "Recarga: 20 segundos",
-          "fullTooltip": "Asa da Morte muda de forma entre Destruidor e Quebramundo. Cada forma dá acesso a duas Habilidades Básicas.  Incinerar causa dano aos inimigos ao redor de Asa da Morte e Massacre permite que ele invista contra os inimigos.  Estouro de Lava cria uma área desaceleradora e Estilhaçar Terra atordoa os inimigos em duas linhas.",
+          "fullTooltip": "Asa da Morte muda de forma entre Destruidor e Quebramundo. Cada forma dá acesso a duas Habilidades Básicas.<n/><n/>Incinerar causa dano aos inimigos ao redor de Asa da Morte e Massacre permite que ele invista contra os inimigos.<n/><n/>Estouro de Lava cria uma área desaceleradora e Estilhaçar Terra atordoa os inimigos em duas linhas.",
           "abilityType": "Active"
         }
       ],
@@ -4194,7 +4194,7 @@
           "energyTooltip": "Energia: 20",
           "cooldownTooltip": "Recarga: 6 segundos",
           "shortTooltip": "Cria uma poça de lava que causa dano e desacelera",
-          "fullTooltip": "Após um atraso de 1 s, causa 30 (+4% per level) de dano a todos os inimigos na área e cria uma poça de magma que causa 16 (+4% per level) de dano por segundo e desacelera os inimigos em 35%. Dura 6 s.  Destruidor: Incinerar Causa dano aos inimigos perto de Asa da Morte",
+          "fullTooltip": "Após um atraso de 1 s, causa 30 (+4% per level) de dano a todos os inimigos na área e cria uma poça de magma que causa 16 (+4% per level) de dano por segundo e desacelera os inimigos em 35%. Dura 6 s.<n/><n/>Destruidor: Incinerar<n/>Causa dano aos inimigos perto de Asa da Morte",
           "abilityType": "Hidden"
         },
         {
@@ -4219,7 +4219,7 @@
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "cooldownTooltip": "Recarga: 20 segundos",
           "shortTooltip": "Asa da Morte é poderosíssimo, mas ignora efeitos de aliados",
-          "fullTooltip": "Asa da Morte ganha 4 Placas de Armadura. Cada uma concede 10 de Armadura. A cada 25% de Vida perdida, Asa da Morte perde uma placa. As placas só são restauradas com o uso de Revoada Dragônica, com base na quantidade de Vida que Asa da Morte tem ao pousar.  Asa da Morte também é um poderoso Aspecto Dragônico permanentemente Irrefreável e causa 100% de Dano Mágico adicional a Heróis, mas despreza os aliados e ignora todos os efeitos provenientes deles.",
+          "fullTooltip": "Asa da Morte ganha 4 Placas de Armadura. Cada uma concede 10 de Armadura. A cada 25% de Vida perdida, Asa da Morte perde uma placa. As placas só são restauradas com o uso de Revoada Dragônica, com base na quantidade de Vida que Asa da Morte tem ao pousar.<n/><n/>Asa da Morte também é um poderoso Aspecto Dragônico permanentemente Irrefreável e causa 100% de Dano Mágico adicional a Heróis, mas despreza os aliados e ignora todos os efeitos provenientes deles.",
           "abilityType": "Hidden"
         }
       ]
@@ -4298,7 +4298,7 @@
               "energyTooltip": "Energia: 25",
               "cooldownTooltip": "Recarga: 12 segundos",
               "shortTooltip": "Causa dano e atordoa os inimigos em duas linhas",
-              "fullTooltip": "Cria uma fissura na terra que causa 80 (+4% per level) de dano aos inimigos atingidos e os atordoa por 0.75 s.  Destruidor: Massacre Investe em uma direção",
+              "fullTooltip": "Cria uma fissura na terra que causa 80 (+4% per level) de dano aos inimigos atingidos e os atordoa por 0.75 s.<n/><n/>Destruidor: Massacre<n/>Investe em uma direção",
               "abilityType": "E"
             }
           ]
@@ -5495,7 +5495,7 @@
             "countUse": 1
           },
           "shortTooltip": "Mate Tropas para subornar um Mercenário",
-          "fullTooltip": "Tropas inimigas ou Mercenários capturados mortos perto dos Vikings Perdidos concedem aplicações de Suborno. Use 40 aplicações para subornar um Mercenário, derrotando-o instantaneamente. Não funciona com Mercenários de Elite. Máximo de aplicações disponíveis: 200. Se um acampamento for completamente derrotado com Suborno, ele ressurgirá 50% mais rápido.  Quantidade atual de aplicações de Suborno: 0",
+          "fullTooltip": "Tropas inimigas ou Mercenários capturados mortos perto dos Vikings Perdidos concedem aplicações de Suborno. Use 40 aplicações para subornar um Mercenário, derrotando-o instantaneamente. Não funciona com Mercenários de Elite. Máximo de aplicações disponíveis: 200. Se um acampamento for completamente derrotado com Suborno, ele ressurgirá 50% mais rápido.<n/><n/>Quantidade atual de aplicações de Suborno: 0",
           "abilityType": "E"
         }
       ],
@@ -5507,7 +5507,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Recarga: 80 segundos",
           "shortTooltip": "Revive e evoca os Vikings",
-          "fullTooltip": "Evoca, cura completamente e revive todos os Vikings Perdidos no local-alvo depois de um Viking canalizar por 2 segundos.   Somente um Viking pode tentar a evocação por vez.",
+          "fullTooltip": "Evoca, cura completamente e revive todos os Vikings Perdidos no local-alvo depois de um Viking canalizar por 2 segundos. <n/><n/>Somente um Viking pode tentar a evocação por vez.",
           "abilityType": "Heroic"
         },
         {
@@ -5517,7 +5517,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Recarga: 90 segundos",
           "shortTooltip": "Embarca em uma galé para atacar os inimigos",
-          "fullTooltip": "Salta em uma Galé Irrefreável que atira nos inimigos próximos, causando 112 (+4% per level) de dano por segundo, e pode lançar um morteiro que causa 228 (+4% per level) de dano de área. Quanto mais Vikings a bordo, maior a vida do barco. Se ele for destruído pelos inimigos, todos os Vikings ficarão atordoados por 1 s. Dura 15 s.  Requer que todos os Vikings vivos estejam próximos.",
+          "fullTooltip": "Salta em uma Galé Irrefreável que atira nos inimigos próximos, causando 112 (+4% per level) de dano por segundo, e pode lançar um morteiro que causa 228 (+4% per level) de dano de área. Quanto mais Vikings a bordo, maior a vida do barco. Se ele for destruído pelos inimigos, todos os Vikings ficarão atordoados por 1 s. Dura 15 s.<n/><n/>Requer que todos os Vikings vivos estejam próximos.",
           "abilityType": "Heroic"
         }
       ],
@@ -5528,7 +5528,7 @@
           "name": "Reserva Viking",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Colete Globos de Regeneração para aumentar a Regeneração de Vida",
-          "fullTooltip": "Coletar um Globo de Regeneração com um Viking aumenta permanentemente toda a Regeneração de Vida deles em 0.5 por segundo.  Bônus atual: 0 Regeneração por segundo",
+          "fullTooltip": "Coletar um Globo de Regeneração com um Viking aumenta permanentemente toda a Regeneração de Vida deles em 0.5 por segundo.<n/><n/>Bônus atual: 0 Regeneração por segundo",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -5746,7 +5746,7 @@
           "name": "Poça de Óleo",
           "icon": "storm_ui_icon_blaze_oil.png",
           "cooldownTooltip": "Recarga: 6 segundos",
-          "fullTooltip": "Mira Vetorial Cria uma Poça de Óleo que desacelera inimigos e pode ser incendiada por Blaze.",
+          "fullTooltip": "Mira Vetorial<n/>Cria uma Poça de Óleo que desacelera inimigos e pode ser incendiada por Blaze.",
           "abilityType": "W"
         }
       ],
@@ -7121,7 +7121,7 @@
           "nameId": "TerroroftheGarden",
           "buttonId": "TerroroftheGarden",
           "icon": "storm_ui_icon_gardenterror_terrorofthegarden.png",
-          "fullTooltip": "Terror do Jardim (Especialização)  Permanentemente Irrefreável.",
+          "fullTooltip": "Terror do Jardim (Especialização)<n/><n/>Permanentemente Irrefreável.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -9327,7 +9327,7 @@
           "name": "Castigar",
           "icon": "storm_btn_d3_barbarian_leap.png",
           "shortTooltip": "Atordoa inimigos em uma área",
-          "fullTooltip": "Salta para o local escolhido, causando 1 de dano e atordoando os alvos por 1 segundos no local do impacto.",
+          "fullTooltip": "Salta para o local escolhido, causando 1 de dano e atordoando os alvos por 1 segundos no local do impacto.<n/><n/>",
           "abilityType": "Q"
         },
         {
@@ -9336,7 +9336,7 @@
           "name": "Fixar",
           "icon": "storm_temp_war3_btnundeadunload.png",
           "cooldownTooltip": "Recarga: 10 segundos",
-          "fullTooltip": "Fixa-se no alvo, ficando enfurecido e aumentando a velocidade de movimento em 100% e a velocidade de ataque em 0% por 4 segundos. Durante esse tempo, o Algoz não pode receber ordens.  Atordoa o Algoz por 1 segundos quando o efeito termina.",
+          "fullTooltip": "Fixa-se no alvo, ficando enfurecido e aumentando a velocidade de movimento em 100% e a velocidade de ataque em 0% por 4 segundos. Durante esse tempo, o Algoz não pode receber ordens.<n/><n/>Atordoa o Algoz por 1 segundos quando o efeito termina.",
           "abilityType": "W"
         }
       ]
@@ -10730,7 +10730,7 @@
             "countUse": 1
           },
           "shortTooltip": "Mate Tropas para subornar um Mercenário",
-          "fullTooltip": "Tropas inimigas ou Mercenários capturados mortos perto dos Vikings Perdidos concedem aplicações de Suborno. Use 40 aplicações para subornar um Mercenário, derrotando-o instantaneamente. Não funciona com Mercenários de Elite. Máximo de aplicações disponíveis: 200. Se um acampamento for completamente derrotado com Suborno, ele ressurgirá 50% mais rápido.  Quantidade atual de aplicações de Suborno: 0",
+          "fullTooltip": "Tropas inimigas ou Mercenários capturados mortos perto dos Vikings Perdidos concedem aplicações de Suborno. Use 40 aplicações para subornar um Mercenário, derrotando-o instantaneamente. Não funciona com Mercenários de Elite. Máximo de aplicações disponíveis: 200. Se um acampamento for completamente derrotado com Suborno, ele ressurgirá 50% mais rápido.<n/><n/>Quantidade atual de aplicações de Suborno: 0",
           "abilityType": "E"
         }
       ],
@@ -10742,7 +10742,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Recarga: 80 segundos",
           "shortTooltip": "Revive e evoca os Vikings",
-          "fullTooltip": "Evoca, cura completamente e revive todos os Vikings Perdidos no local-alvo depois de um Viking canalizar por 2 segundos.   Somente um Viking pode tentar a evocação por vez.",
+          "fullTooltip": "Evoca, cura completamente e revive todos os Vikings Perdidos no local-alvo depois de um Viking canalizar por 2 segundos. <n/><n/>Somente um Viking pode tentar a evocação por vez.",
           "abilityType": "Heroic"
         },
         {
@@ -10752,7 +10752,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Recarga: 90 segundos",
           "shortTooltip": "Embarca em uma galé para atacar os inimigos",
-          "fullTooltip": "Salta em uma Galé Irrefreável que atira nos inimigos próximos, causando 112 (+4% per level) de dano por segundo, e pode lançar um morteiro que causa 228 (+4% per level) de dano de área. Quanto mais Vikings a bordo, maior a vida do barco. Se ele for destruído pelos inimigos, todos os Vikings ficarão atordoados por 1 s. Dura 15 s.  Requer que todos os Vikings vivos estejam próximos.",
+          "fullTooltip": "Salta em uma Galé Irrefreável que atira nos inimigos próximos, causando 112 (+4% per level) de dano por segundo, e pode lançar um morteiro que causa 228 (+4% per level) de dano de área. Quanto mais Vikings a bordo, maior a vida do barco. Se ele for destruído pelos inimigos, todos os Vikings ficarão atordoados por 1 s. Dura 15 s.<n/><n/>Requer que todos os Vikings vivos estejam próximos.",
           "abilityType": "Heroic"
         }
       ],
@@ -10763,7 +10763,7 @@
           "name": "Reserva Viking",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Colete Globos de Regeneração para aumentar a Regeneração de Vida",
-          "fullTooltip": "Coletar um Globo de Regeneração com um Viking aumenta permanentemente toda a Regeneração de Vida deles em 0.5 por segundo.  Bônus atual: 0 Regeneração por segundo",
+          "fullTooltip": "Coletar um Globo de Regeneração com um Viking aumenta permanentemente toda a Regeneração de Vida deles em 0.5 por segundo.<n/><n/>Bônus atual: 0 Regeneração por segundo",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -12499,7 +12499,7 @@
           "energyTooltip": "Mana: 50",
           "cooldownTooltip": "Recarga: 6 segundos",
           "shortTooltip": "Dispara um projétil que causa dano elevado ao primeiro inimigo atingido",
-          "fullTooltip": "Causa 230 (+4% per level) de dano ao primeiro inimigo atingido.  Passivo: Atingir um Herói inimigo com Tiro de Precisão aumenta permanentemente o dano do Tiro de Precisão em 6%, acumulando até 30%. Com o máximo de aplicações, o dano aumenta em mais 25%. Todas as aplicações serão perdidas se o Tiro de Precisão não atingir nenhum inimigo.",
+          "fullTooltip": "Causa 230 (+4% per level) de dano ao primeiro inimigo atingido.<n/><n/>Passivo: Atingir um Herói inimigo com Tiro de Precisão aumenta permanentemente o dano do Tiro de Precisão em 6%, acumulando até 30%. Com o máximo de aplicações, o dano aumenta em mais 25%. Todas as aplicações serão perdidas se o Tiro de Precisão não atingir nenhum inimigo.",
           "abilityType": "Q"
         },
         {
@@ -12544,7 +12544,7 @@
           "icon": "storm_ui_icon_nova_personalcloaking.png",
           "cooldownTooltip": "Recarga: 3 segundos",
           "shortTooltip": "Entra em modo Furtivo e ganha Velocidade de Movimento quando não ataca ou recebe dano",
-          "fullTooltip": "Entra em modo Furtivo automaticamente após permanecer 3 s fora de combate. Receber dano, atacar, usar habilidades ou canalizar quebra a Furtividade. Permanecer imóvel por pelo menos 1.5 s enquanto está Furtivo concede Invisibilidade.  Passivo: Concede 15% de Velocidade de Movimento no modo Furtivo.",
+          "fullTooltip": "Entra em modo Furtivo automaticamente após permanecer 3 s fora de combate. Receber dano, atacar, usar habilidades ou canalizar quebra a Furtividade. Permanecer imóvel por pelo menos 1.5 s enquanto está Furtivo concede Invisibilidade.<n/><n/>Passivo: Concede 15% de Velocidade de Movimento no modo Furtivo.",
           "abilityType": "Hidden",
           "isActive": false
         }
@@ -12657,7 +12657,7 @@
             "countUse": 1
           },
           "shortTooltip": "Mate Tropas para subornar um Mercenário",
-          "fullTooltip": "Tropas inimigas ou Mercenários capturados mortos perto dos Vikings Perdidos concedem aplicações de Suborno. Use 40 aplicações para subornar um Mercenário, derrotando-o instantaneamente. Não funciona com Mercenários de Elite. Máximo de aplicações disponíveis: 200. Se um acampamento for completamente derrotado com Suborno, ele ressurgirá 50% mais rápido.  Quantidade atual de aplicações de Suborno: 0",
+          "fullTooltip": "Tropas inimigas ou Mercenários capturados mortos perto dos Vikings Perdidos concedem aplicações de Suborno. Use 40 aplicações para subornar um Mercenário, derrotando-o instantaneamente. Não funciona com Mercenários de Elite. Máximo de aplicações disponíveis: 200. Se um acampamento for completamente derrotado com Suborno, ele ressurgirá 50% mais rápido.<n/><n/>Quantidade atual de aplicações de Suborno: 0",
           "abilityType": "E"
         }
       ],
@@ -12669,7 +12669,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Recarga: 80 segundos",
           "shortTooltip": "Revive e evoca os Vikings",
-          "fullTooltip": "Evoca, cura completamente e revive todos os Vikings Perdidos no local-alvo depois de um Viking canalizar por 2 segundos.   Somente um Viking pode tentar a evocação por vez.",
+          "fullTooltip": "Evoca, cura completamente e revive todos os Vikings Perdidos no local-alvo depois de um Viking canalizar por 2 segundos. <n/><n/>Somente um Viking pode tentar a evocação por vez.",
           "abilityType": "Heroic"
         },
         {
@@ -12679,7 +12679,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Recarga: 90 segundos",
           "shortTooltip": "Embarca em uma galé para atacar os inimigos",
-          "fullTooltip": "Salta em uma Galé Irrefreável que atira nos inimigos próximos, causando 112 (+4% per level) de dano por segundo, e pode lançar um morteiro que causa 228 (+4% per level) de dano de área. Quanto mais Vikings a bordo, maior a vida do barco. Se ele for destruído pelos inimigos, todos os Vikings ficarão atordoados por 1 s. Dura 15 s.  Requer que todos os Vikings vivos estejam próximos.",
+          "fullTooltip": "Salta em uma Galé Irrefreável que atira nos inimigos próximos, causando 112 (+4% per level) de dano por segundo, e pode lançar um morteiro que causa 228 (+4% per level) de dano de área. Quanto mais Vikings a bordo, maior a vida do barco. Se ele for destruído pelos inimigos, todos os Vikings ficarão atordoados por 1 s. Dura 15 s.<n/><n/>Requer que todos os Vikings vivos estejam próximos.",
           "abilityType": "Heroic"
         }
       ],
@@ -12690,7 +12690,7 @@
           "name": "Reserva Viking",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Colete Globos de Regeneração para aumentar a Regeneração de Vida",
-          "fullTooltip": "Coletar um Globo de Regeneração com um Viking aumenta permanentemente toda a Regeneração de Vida deles em 0.5 por segundo.  Bônus atual: 0 Regeneração por segundo",
+          "fullTooltip": "Coletar um Globo de Regeneração com um Viking aumenta permanentemente toda a Regeneração de Vida deles em 0.5 por segundo.<n/><n/>Bônus atual: 0 Regeneração por segundo",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -13589,7 +13589,7 @@
           "icon": "storm_ui_icon_ragnaros_moltenswing.png",
           "cooldownTooltip": "Recarga: 6 segundos",
           "shortTooltip": "Atordoa e causa dano a inimigos próximos",
-          "fullTooltip": "Desfere um golpe de ampla extensão com Sulfuras, causando 161 (+4% per level) de dano e atordoando os inimigos por 1 s.  Dano aumentado em 25% contra Tropas, Mercenários e Monstros.",
+          "fullTooltip": "Desfere um golpe de ampla extensão com Sulfuras, causando 161 (+4% per level) de dano e atordoando os inimigos por 1 s.<n/><n/>Dano aumentado em 25% contra Tropas, Mercenários e Monstros.",
           "abilityType": "Q"
         },
         {
@@ -13599,7 +13599,7 @@
           "icon": "storm_ui_icon_ragnaros_meteorshower.png",
           "cooldownTooltip": "Recarga: 2.5 segundos",
           "shortTooltip": "Evoca uma série de meteoros",
-          "fullTooltip": "Mira Vetorial Evoca 3 meteoros que caem na direção selecionada. Cada meteoro causa 151 (+4% per level) de dano e desacelera os inimigos em 25% por 2 s.  Dano aumentado em 25% contra Tropas, Mercenários e Monstros.",
+          "fullTooltip": "Mira Vetorial<n/>Evoca 3 meteoros que caem na direção selecionada. Cada meteoro causa 151 (+4% per level) de dano e desacelera os inimigos em 25% por 2 s.<n/><n/>Dano aumentado em 25% contra Tropas, Mercenários e Monstros.",
           "abilityType": "W"
         },
         {
@@ -13609,7 +13609,7 @@
           "icon": "storm_ui_icon_ragnaros_explosiverune.png",
           "cooldownTooltip": "Recarga: 4 segundos",
           "shortTooltip": "Causa uma explosão após um tempo que afeta uma área extensa",
-          "fullTooltip": "Cria uma runa que causa 285 (+4% per level) de dano aos inimigos após 1.5 s, exceto a Estruturas.  Dano aumentado em 25% contra Tropas, Mercenários e Monstros.",
+          "fullTooltip": "Cria uma runa que causa 285 (+4% per level) de dano aos inimigos após 1.5 s, exceto a Estruturas.<n/><n/>Dano aumentado em 25% contra Tropas, Mercenários e Monstros.",
           "abilityType": "E"
         }
       ],
@@ -14124,7 +14124,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Recarga: 14 segundos",
           "shortTooltip": "Cria Imagens Espelhadas para confundir e atacar inimigos",
-          "fullTooltip": "Teleporta-se a uma curta distância na direção do cursor do mouse, criando 2 Imagens Espelhadas por 8 s com 100% da Vida atual de Samuro que desferem Ataques Básicos contra inimigos, causando 11 (+4% per level) de dano. A duração das Imagens aumenta em 1 s quando elas ou Samuro desfere um Ataque Básico contra um Herói inimigo. Sempre que uma Imagem recebe dano, ela causa a mesma quantidade a si mesma, ou seja, recebe o dobro de dano.  Máximo de 2 Imagens Espelhadas ativas ao mesmo tempo. Usar Imagem Espelhada remove a maioria das penalidades presentes em Samuro.",
+          "fullTooltip": "Teleporta-se a uma curta distância na direção do cursor do mouse, criando 2 Imagens Espelhadas por 8 s com 100% da Vida atual de Samuro que desferem Ataques Básicos contra inimigos, causando 11 (+4% per level) de dano. A duração das Imagens aumenta em 1 s quando elas ou Samuro desfere um Ataque Básico contra um Herói inimigo. Sempre que uma Imagem recebe dano, ela causa a mesma quantidade a si mesma, ou seja, recebe o dobro de dano.<n/><n/>Máximo de 2 Imagens Espelhadas ativas ao mesmo tempo. Usar Imagem Espelhada remove a maioria das penalidades presentes em Samuro.",
           "abilityType": "Q"
         }
       ],
@@ -14146,7 +14146,7 @@
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
           "cooldownTooltip": "Recarga: 8 s",
           "shortTooltip": "Imagens Espelhadas podem ser controladas",
-          "fullTooltip": "As Imagens Espelhadas podem ser controladas individualmente ou em grupo. Aumenta em 100% o dano que elas causam.   Passivo: A recarga de Transmissão Imagética é reduzida para 8 s.",
+          "fullTooltip": "As Imagens Espelhadas podem ser controladas individualmente ou em grupo. Aumenta em 100% o dano que elas causam. <n/><n/>Passivo: A recarga de Transmissão Imagética é reduzida para 8 s.",
           "abilityType": "Heroic"
         }
       ],
@@ -14158,7 +14158,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Recarga: 14 s",
           "shortTooltip": "Aumenta a Velocidade de Movimento ao atacar Heróis",
-          "fullTooltip": "Ative para trocar de lugar com uma Imagem Espelhada, removendo a maioria dos efeitos negativos dela e de Samuro.  Ataques Impetuosos  Ataques Básicos contra Heróis inimigos aumentam a Velocidade de Movimento de Samuro em 25% por 2 s.",
+          "fullTooltip": "Ative para trocar de lugar com uma Imagem Espelhada, removendo a maioria dos efeitos negativos dela e de Samuro.<n/><n/>Ataques Impetuosos<n/><n/>Ataques Básicos contra Heróis inimigos aumentam a Velocidade de Movimento de Samuro em 25% por 2 s.",
           "abilityType": "Trait"
         }
       ],
@@ -14180,7 +14180,7 @@
           "name": "Selecionar Imagem Espelhada",
           "icon": "storm_temp_war3_btnmirrorimage.png",
           "shortTooltip": "Selecionar Imagem Espelhada",
-          "fullTooltip": "Selecionar Imagem Espelhada  Dá ordens a uma Imagem Espelhada específica.",
+          "fullTooltip": "Selecionar Imagem Espelhada<n/><n/>Dá ordens a uma Imagem Espelhada específica.",
           "abilityType": "Active"
         },
         {
@@ -14189,7 +14189,7 @@
           "name": "Selecionar todos",
           "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
           "shortTooltip": "Selecionar Todos",
-          "fullTooltip": "Selecionar Todos  Dá ordens a Samuro e a todas as Imagens Espelhadas.",
+          "fullTooltip": "Selecionar Todos<n/><n/>Dá ordens a Samuro e a todas as Imagens Espelhadas.",
           "abilityType": "Active"
         }
       ],
@@ -14323,7 +14323,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Recarga: 14 s",
           "shortTooltip": "Aumenta a Velocidade de Movimento ao atacar Heróis",
-          "fullTooltip": "Ative para trocar de lugar com uma Imagem Espelhada, removendo a maioria dos efeitos negativos dela e de Samuro.  Ataques Impetuosos  Ataques Básicos contra Heróis inimigos aumentam a Velocidade de Movimento de Samuro em 25% por 2 s.",
+          "fullTooltip": "Ative para trocar de lugar com uma Imagem Espelhada, removendo a maioria dos efeitos negativos dela e de Samuro.<n/><n/>Ataques Impetuosos<n/><n/>Ataques Básicos contra Heróis inimigos aumentam a Velocidade de Movimento de Samuro em 25% por 2 s.",
           "abilityType": "Hidden"
         },
         {
@@ -14333,7 +14333,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Recarga: 18 segundos",
           "shortTooltip": "Cria Imagens Espelhadas para confundir e atacar inimigos",
-          "fullTooltip": "Teleporta-se a uma curta distância na direção do cursor do mouse, criando 2 Imagens Espelhadas por 8 s com 100% da Vida atual de Samuro que desferem Ataques Básicos contra inimigos, causando 11 (+4% per level) de dano. A duração das Imagens aumenta em 1 s quando elas ou Samuro desfere um Ataque Básico contra um Herói inimigo. Sempre que uma Imagem recebe dano, ela causa a mesma quantidade a si mesma, ou seja, recebe o dobro de dano.  Máximo de 2 Imagens Espelhadas ativas ao mesmo tempo. Usar Imagem Espelhada remove a maioria das penalidades presentes em Samuro.",
+          "fullTooltip": "Teleporta-se a uma curta distância na direção do cursor do mouse, criando 2 Imagens Espelhadas por 8 s com 100% da Vida atual de Samuro que desferem Ataques Básicos contra inimigos, causando 11 (+4% per level) de dano. A duração das Imagens aumenta em 1 s quando elas ou Samuro desfere um Ataque Básico contra um Herói inimigo. Sempre que uma Imagem recebe dano, ela causa a mesma quantidade a si mesma, ou seja, recebe o dobro de dano.<n/><n/>Máximo de 2 Imagens Espelhadas ativas ao mesmo tempo. Usar Imagem Espelhada remove a maioria das penalidades presentes em Samuro.",
           "abilityType": "Hidden"
         },
         {
@@ -14350,7 +14350,7 @@
           },
           "cooldownTooltip": "Recarga: 10 segundos",
           "shortTooltip": "Ataque Crítico que causa mais dano.",
-          "fullTooltip": "O próximo Ataque Básico do Samuro desferido nos próximos 8 s será um Acerto Crítico, causando 50% a mais de dano. Isso também vale para as Imagens e não cancela Andavento.  Passivo: Você e suas Imagens causam Acerto Crítico a cada 4 Ataques Básicos.",
+          "fullTooltip": "O próximo Ataque Básico do Samuro desferido nos próximos 8 s será um Acerto Crítico, causando 50% a mais de dano. Isso também vale para as Imagens e não cancela Andavento.<n/><n/>Passivo: Você e suas Imagens causam Acerto Crítico a cada 4 Ataques Básicos.",
           "abilityType": "Hidden"
         },
         {
@@ -14360,7 +14360,7 @@
           "icon": "storm_ui_icon_samuro_windwalk.png",
           "cooldownTooltip": "Recarga: 15 segundos",
           "shortTooltip": "Entra em modo furtivo e ganha velocidade de movimento",
-          "fullTooltip": "Concede Furtividade a Samuro por até 10 s ou até ele atacar, usar uma habilidade ou receber dano.  Quando Samuro está Furtivo, ele recupera 1% do máximo de Vida a cada segundo, sua Velocidade de Movimento aumenta em 25% e ele pode atravessar outras unidades. Permanecer imóvel por pelo menos 1.5 s durante a Furtividade concede Invisibilidade.  Samuro fica Irrevelável durante o 1º segundo de Andavento.",
+          "fullTooltip": "Concede Furtividade a Samuro por até 10 s ou até ele atacar, usar uma habilidade ou receber dano.<n/><n/>Quando Samuro está Furtivo, ele recupera 1% do máximo de Vida a cada segundo, sua Velocidade de Movimento aumenta em 25% e ele pode atravessar outras unidades. Permanecer imóvel por pelo menos 1.5 s durante a Furtividade concede Invisibilidade.<n/><n/>Samuro fica Irrevelável durante o 1º segundo de Andavento.",
           "abilityType": "Hidden"
         },
         {
@@ -14387,7 +14387,7 @@
           },
           "cooldownTooltip": "Recarga: 10 segundos",
           "shortTooltip": "Ataque Crítico que causa mais dano.",
-          "fullTooltip": "O próximo Ataque Básico do Samuro desferido nos próximos 8 s será um Acerto Crítico, causando 50% a mais de dano. Isso também vale para as Imagens e não cancela Andavento.  Passivo: Você e suas Imagens causam Acerto Crítico a cada 4 Ataques Básicos.",
+          "fullTooltip": "O próximo Ataque Básico do Samuro desferido nos próximos 8 s será um Acerto Crítico, causando 50% a mais de dano. Isso também vale para as Imagens e não cancela Andavento.<n/><n/>Passivo: Você e suas Imagens causam Acerto Crítico a cada 4 Ataques Básicos.",
           "abilityType": "Hidden"
         },
         {
@@ -14398,7 +14398,7 @@
           "toggleCooldown": 0.5,
           "cooldownTooltip": "Recarga: 8 s",
           "shortTooltip": "Imagens Espelhadas podem ser controladas",
-          "fullTooltip": "As Imagens Espelhadas podem ser controladas individualmente ou em grupo. Aumenta em 100% o dano que elas causam.   Passivo: A recarga de Transmissão Imagética é reduzida para 8 s.",
+          "fullTooltip": "As Imagens Espelhadas podem ser controladas individualmente ou em grupo. Aumenta em 100% o dano que elas causam. <n/><n/>Passivo: A recarga de Transmissão Imagética é reduzida para 8 s.",
           "abilityType": "Hidden"
         }
       ]
@@ -15962,7 +15962,7 @@
           "energyTooltip": "Mana: 45",
           "cooldownTooltip": "Recarga: 10 segundos",
           "shortTooltip": "Arremessa um martelo, atordoando e causando dano ao primeiro inimigo atingido",
-          "fullTooltip": "Arremessa um martelo que causa 110 (+4% per level) de dano ao primeiro inimigo atingido, atordoando-o por 1.25 s.  Missão: Atingir 25 Heróis com a Seta Tempestuosa. Heróis que morrerem até 2.5 s depois de serem atingidos pela Seta Tempestuosa contam como se Muradin tivesse atingido mais 3 Heróis.  Recompensa: Seta Tempestuosa passa a atingir outro alvo, e os Ataques Básicos de Muradin reduzem a recarga dela em 1 s.",
+          "fullTooltip": "Arremessa um martelo que causa 110 (+4% per level) de dano ao primeiro inimigo atingido, atordoando-o por 1.25 s.<n/><n/>Missão: Atingir 25 Heróis com a Seta Tempestuosa. Heróis que morrerem até 2.5 s depois de serem atingidos pela Seta Tempestuosa contam como se Muradin tivesse atingido mais 3 Heróis.<n/><n/>Recompensa: Seta Tempestuosa passa a atingir outro alvo, e os Ataques Básicos de Muradin reduzem a recarga dela em 1 s.",
           "abilityType": "Q"
         },
         {
@@ -16097,7 +16097,7 @@
           "energyTooltip": "Mana: 70",
           "cooldownTooltip": "Recarga: 80 segundos",
           "shortTooltip": "Devora os inimigos na área",
-          "fullTooltip": "Evoca uma Gorja Devoradora que devora os inimigos por 4 segundos. Os inimigos devorados não podem lutar e recebem 94 (+4% per level) de dano por segundo.  Pode ser usada em inimigos Irrefreáveis.",
+          "fullTooltip": "Evoca uma Gorja Devoradora que devora os inimigos por 4 segundos. Os inimigos devorados não podem lutar e recebem 94 (+4% per level) de dano por segundo.<n/><n/>Pode ser usada em inimigos Irrefreáveis.",
           "abilityType": "W"
         },
         {
@@ -16160,7 +16160,7 @@
           "energyTooltip": "Mana: 20",
           "cooldownTooltip": "Recarga: 16 segundos",
           "shortTooltip": "Ganha VidaForça um Herói a atacar Varian",
-          "fullTooltip": "Silencia um Herói inimigo, obrigando-o a atacar Varian por 1.25 s.  Passivo: Máximo de Vida e Regeneração de Vida aumentados em 40%.",
+          "fullTooltip": "Silencia um Herói inimigo, obrigando-o a atacar Varian por 1.25 s.<n/><n/>Passivo: Máximo de Vida e Regeneração de Vida aumentados em 40%.",
           "abilityType": "B"
         }
       ]
@@ -16175,7 +16175,7 @@
               "name": "Prisão Destruidora - Cancelar",
               "icon": "hud_btn_bg_ability_cancel.png",
               "cooldownTooltip": "Recarga: 1.5 segundos",
-              "fullTooltip": "Cancela a habilidade Prisão Destruidora.",
+              "fullTooltip": "<n/>Cancela a habilidade Prisão Destruidora.",
               "abilityType": "Q"
             }
           ]
@@ -24493,7 +24493,7 @@
           "buttonId": "DragonKnightRubbleMaker",
           "name": "Destroçador",
           "icon": "storm_ui_icon_dragonknight_rubblemaker.png",
-          "fullTooltip": "Aumenta em 100% o dano causado a Tropas e Estruturas. Reduz em 60% o dano recebido de Estruturas. Permanentemente Irrefreável. O Cavaleiro Dragão explode ao morrer, repelindo os inimigos próximos.",
+          "fullTooltip": "Aumenta em 100% o dano causado a Tropas e Estruturas.<n/>Reduz em 60% o dano recebido de Estruturas.<n/>Permanentemente Irrefreável.<n/>O Cavaleiro Dragão explode ao morrer, repelindo os inimigos próximos.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -24710,7 +24710,7 @@
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Recarga: 8 segundos",
           "shortTooltip": "Investe contra um alvo e causa dano em área",
-          "fullTooltip": "Investe contra um alvo e causa 160 de dano em área.   Unidades não Heroicas recebem 500% a mais de dano.",
+          "fullTooltip": "Investe contra um alvo e causa 160 de dano em área. <n/><n/>Unidades não Heroicas recebem 500% a mais de dano.",
           "abilityType": "Q"
         },
         {
@@ -24720,7 +24720,7 @@
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Recarga: 14 segundos",
           "shortTooltip": "Lança um punho que causa dano, enraíza Heróis e desativa torres.",
-          "fullTooltip": "Dispara um Punho-Foguete que causa 150 de dano ao primeiro Herói ou Estrutura que encontrar. O punho empurra os Heróis por até 2 s e desativa as Estruturas por 4 s.  Mata instantaneamente as Tropas no caminho.",
+          "fullTooltip": "Dispara um Punho-Foguete que causa 150 de dano ao primeiro Herói ou Estrutura que encontrar. O punho empurra os Heróis por até 2 s e desativa as Estruturas por 4 s.<n/><n/>Mata instantaneamente as Tropas no caminho.",
           "abilityType": "W"
         },
         {
@@ -24808,7 +24808,7 @@
           "name": "Carga",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Investe contra um alvo e causa dano em área",
-          "fullTooltip": "Investe contra um alvo e causa 160 de dano em área.   Unidades não Heroicas recebem 500% a mais de dano.",
+          "fullTooltip": "Investe contra um alvo e causa 160 de dano em área. <n/><n/>Unidades não Heroicas recebem 500% a mais de dano.",
           "abilityType": "Hidden"
         },
         {
@@ -24817,7 +24817,7 @@
           "name": "Carga",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Investe contra um alvo e causa dano em área",
-          "fullTooltip": "Investe contra um alvo e causa 160 de dano em área.   Unidades não Heroicas recebem 500% a mais de dano.",
+          "fullTooltip": "Investe contra um alvo e causa 160 de dano em área. <n/><n/>Unidades não Heroicas recebem 500% a mais de dano.",
           "abilityType": "Hidden"
         },
         {
@@ -24826,7 +24826,7 @@
           "name": "Carga",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Investe contra um alvo e causa dano em área",
-          "fullTooltip": "Investe contra um alvo e causa 160 de dano em área.   Unidades não Heroicas recebem 500% a mais de dano.",
+          "fullTooltip": "Investe contra um alvo e causa 160 de dano em área. <n/><n/>Unidades não Heroicas recebem 500% a mais de dano.",
           "abilityType": "Hidden"
         }
       ]
@@ -24877,7 +24877,7 @@
           "icon": "storm_ui_icon_volskayarobot_tacticalstrikes.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Dispara vários projéteis",
-          "fullTooltip": "Ative para disparar mísseis no local selecionado. Cada míssil causa 38 de dano, mas consome 1 de Energia. Reative para cessar os disparos.  Causa 50% a menos de dano a Estruturas.",
+          "fullTooltip": "Ative para disparar mísseis no local selecionado. Cada míssil causa 38 de dano, mas consome 1 de Energia. Reative para cessar os disparos.<n/><n/>Causa 50% a menos de dano a Estruturas.",
           "abilityType": "W"
         },
         {
@@ -24887,7 +24887,7 @@
           "icon": "storm_ui_icon_volskayarobot_skylaser.png",
           "cooldownTooltip": "Recarga: 10 segundos",
           "shortTooltip": "Causa dano em linha reta após certo tempo",
-          "fullTooltip": "Mira Vetorial Traça uma linha no chão, causando 60 de dano. Após 1 s, ela explode e causa 380 de dano.",
+          "fullTooltip": "Mira Vetorial<n/>Traça uma linha no chão, causando 60 de dano. Após 1 s, ela explode e causa 380 de dano.",
           "abilityType": "E"
         }
       ],
@@ -25142,7 +25142,7 @@
           "name": "Investida",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Recarga: 8 segundos",
-          "fullTooltip": "Investe contra um alvo e causa 225 de dano em área.   Unidades não Heroicas recebem 200% a mais de dano.",
+          "fullTooltip": "Investe contra um alvo e causa 225 de dano em área. <n/><n/>Unidades não Heroicas recebem 200% a mais de dano.",
           "abilityType": "Q"
         },
         {
@@ -25151,7 +25151,7 @@
           "name": "Punho-Foguete",
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Recarga: 14 segundos",
-          "fullTooltip": "Dispara um Punho-Foguete que causa 200 de dano ao primeiro Herói ou Estrutura que encontrar. O punho empurra e atordoa os Heróis por 1,5 s e desativa as Estruturas por 4 s.  Mata instantaneamente as Tropas no caminho.",
+          "fullTooltip": "Dispara um Punho-Foguete que causa 200 de dano ao primeiro Herói ou Estrutura que encontrar. O punho empurra e atordoa os Heróis por 1,5 s e desativa as Estruturas por 4 s.<n/><n/>Mata instantaneamente as Tropas no caminho.",
           "abilityType": "W"
         },
         {
@@ -25237,7 +25237,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Investida",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Investe contra um alvo e causa 225 de dano em área.   Unidades não Heroicas recebem 200% a mais de dano.",
+          "fullTooltip": "Investe contra um alvo e causa 225 de dano em área. <n/><n/>Unidades não Heroicas recebem 200% a mais de dano.",
           "abilityType": "Hidden"
         },
         {
@@ -25245,7 +25245,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Investida",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Investe contra um alvo e causa 225 de dano em área.   Unidades não Heroicas recebem 200% a mais de dano.",
+          "fullTooltip": "Investe contra um alvo e causa 225 de dano em área. <n/><n/>Unidades não Heroicas recebem 200% a mais de dano.",
           "abilityType": "Hidden"
         },
         {
@@ -25253,7 +25253,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Investida",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Investe contra um alvo e causa 225 de dano em área.   Unidades não Heroicas recebem 200% a mais de dano.",
+          "fullTooltip": "Investe contra um alvo e causa 225 de dano em área. <n/><n/>Unidades não Heroicas recebem 200% a mais de dano.",
           "abilityType": "Hidden"
         }
       ]

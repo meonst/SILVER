@@ -1372,7 +1372,7 @@
           "icon": "storm_ui_icon_azmodan_generalofhell.png",
           "cooldownTooltip": "Tiempo de reutilización: 7 s",
           "shortTooltip": "Invocas a un teniente demoníaco para que ayude a esbirros, mercenarios e invocaciones.",
-          "fullTooltip": "Invocas a un teniente demoníaco junto a cualquiera de tus demonios o junto a un mercenario o esbirro aliado. El teniente lanzará Fulminación demoníaca cada 7 s, lo que matará al instante a un esbirro enemigo. Dura 20 s.  Se puede usar mientras se canaliza Todo arderá.",
+          "fullTooltip": "Invocas a un teniente demoníaco junto a cualquiera de tus demonios o junto a un mercenario o esbirro aliado. El teniente lanzará Fulminación demoníaca cada 7 s, lo que matará al instante a un esbirro enemigo. Dura 20 s.<n/><n/>Se puede usar mientras se canaliza Todo arderá.",
           "abilityType": "Hidden"
         }
       ]
@@ -1503,7 +1503,7 @@
             "countUse": 1
           },
           "shortTooltip": "Mata esbirros para sobornar a un mercenario.",
-          "fullTooltip": "Los esbirros enemigos o mercenarios capturados que mueren cerca de ti otorgan acumulaciones de soborno. Usa 40 acumulaciones para sobornar al mercenario seleccionado, lo que lo derrota al instante. No funciona con mercenarios de élite. Acumulaciones máximas disponibles: 200. Si se derrota un campamento entero usando únicamente Søbørnø vikingø, este volverá a aparecer un 50% más rápido.  Acumulaciones actuales de soborno: 0",
+          "fullTooltip": "Los esbirros enemigos o mercenarios capturados que mueren cerca de ti otorgan acumulaciones de soborno. Usa 40 acumulaciones para sobornar al mercenario seleccionado, lo que lo derrota al instante. No funciona con mercenarios de élite. Acumulaciones máximas disponibles: 200. Si se derrota un campamento entero usando únicamente Søbørnø vikingø, este volverá a aparecer un 50% más rápido.<n/><n/>Acumulaciones actuales de soborno: 0",
           "abilityType": "E"
         }
       ],
@@ -1515,7 +1515,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Tiempo de reutilización: 80 s",
           "shortTooltip": "Un vikingo revive e invoca al resto de vikingos.",
-          "fullTooltip": "Un vikingo cura completamente o revive a los otros vikingos y los invoca en la ubicación seleccionada después de una canalización de 2 s.   Solo un vikingo a la vez puede intentar la invocación.",
+          "fullTooltip": "Un vikingo cura completamente o revive a los otros vikingos y los invoca en la ubicación seleccionada después de una canalización de 2 s. <n/><n/>Solo un vikingo a la vez puede intentar la invocación.",
           "abilityType": "Heroic"
         },
         {
@@ -1525,7 +1525,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Los vikingos se suben a un barco y atacan a los enemigos.",
-          "fullTooltip": "Os subís a un barco vikingo imparable que dispara a los enemigos cercanos, lo que les inflige 112 (+4% per level) de daño por segundo. El barco puede disparar con un mortero que inflige 228 (+4% per level) de daño en un área. Además, tiene más salud por cada vikingo en su interior. Si los enemigos destruyen el barco, quedáis aturdidos 1 s. Dura 15 s.  Requiere que todos los vikingos supervivientes estén cerca.",
+          "fullTooltip": "Os subís a un barco vikingo imparable que dispara a los enemigos cercanos, lo que les inflige 112 (+4% per level) de daño por segundo. El barco puede disparar con un mortero que inflige 228 (+4% per level) de daño en un área. Además, tiene más salud por cada vikingo en su interior. Si los enemigos destruyen el barco, quedáis aturdidos 1 s. Dura 15 s.<n/><n/>Requiere que todos los vikingos supervivientes estén cerca.",
           "abilityType": "Heroic"
         }
       ],
@@ -1536,7 +1536,7 @@
           "name": "Såqueø vikingø",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Recoge esferas de regeneración para aumentar la regeneración de salud.",
-          "fullTooltip": "Reunir esferas de regeneración con un vikingo aumenta permanentemente la regeneración de salud 0.5 por segundo.  Bonificación actual: 0 de regeneración por segundo.",
+          "fullTooltip": "Reunir esferas de regeneración con un vikingo aumenta permanentemente la regeneración de salud 0.5 por segundo.<n/><n/>Bonificación actual: 0 de regeneración por segundo.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -3681,7 +3681,7 @@
           "energyTooltip": "Maná: 0",
           "cooldownTooltip": "Tiempo de reutilización: 3 s",
           "shortTooltip": "Disparas un misil de larga distancia que inflige daño a un enemigo.",
-          "fullTooltip": "Tras 0.5 s, disparas un misil que inflige 305 (+4% per level) de daño al primer enemigo golpeado. Inflige un 50% de daño a estructuras.  Al lanzar Explosión de arena, dejas un eco que imita tus lanzamientos de Explosión de arena y tus ataques básicos e inflige un 40% de daño. Puedes tener un máximo de 1 eco activo a la vez.",
+          "fullTooltip": "Tras 0.5 s, disparas un misil que inflige 305 (+4% per level) de daño al primer enemigo golpeado. Inflige un 50% de daño a estructuras.<n/><n/>Al lanzar Explosión de arena, dejas un eco que imita tus lanzamientos de Explosión de arena y tus ataques básicos e inflige un 40% de daño. Puedes tener un máximo de 1 eco activo a la vez.",
           "abilityType": "Q"
         }
       ]
@@ -3978,7 +3978,7 @@
           "energyTooltip": "Energía: 15",
           "cooldownTooltip": "Tiempo de reutilización: 4 s",
           "shortTooltip": "Dañas a los enemigos cercanos.",
-          "fullTooltip": "Después de 0.75 s, bates las alas e infliges 80 (+4% per level) de daño a los enemigos cercanos.  Rompemundos: Ráfaga de lava Creas un charco de lava que inflige daño y ralentiza.",
+          "fullTooltip": "Después de 0.75 s, bates las alas e infliges 80 (+4% per level) de daño a los enemigos cercanos.<n/><n/>Rompemundos: Ráfaga de lava<n/>Creas un charco de lava que inflige daño y ralentiza.",
           "abilityType": "W"
         },
         {
@@ -3994,7 +3994,7 @@
           },
           "cooldownTooltip": "Tiempo de reutilización de carga: 10 s",
           "shortTooltip": "Puedes lanzar meteoritos mientras estás usando El Vuelo.",
-          "fullTooltip": "Tras 0.8 s, cae un meteorito del cielo que inflige 58 (+4% per level) de daño a los enemigos en el área.  Si golpea a un héroe, te curas un 3% de tu salud máxima y el tiempo de reutilización de los aterrizajes se reduce 1.5 s.",
+          "fullTooltip": "Tras 0.8 s, cae un meteorito del cielo que inflige 58 (+4% per level) de daño a los enemigos en el área.<n/><n/>Si golpea a un héroe, te curas un 3% de tu salud máxima y el tiempo de reutilización de los aterrizajes se reduce 1.5 s.",
           "abilityType": "E"
         },
         {
@@ -4005,7 +4005,7 @@
           "energyTooltip": "Energía: 20",
           "cooldownTooltip": "Tiempo de reutilización: 5 s",
           "shortTooltip": "Te lanzas en una dirección.",
-          "fullTooltip": "Después de 0.5 s, te lanzas en una dirección, lo que inflige 40 (+4% per level) de daño a los enemigos y los ralentiza un 35% durante 2 s. Al acabar la embestida, muerdes a los enemigos y les infliges 75 (+4% per level) más de daño.  Rompemundos: Reventar la tierra Infliges daño y aturdes a los enemigos en dos líneas.",
+          "fullTooltip": "Después de 0.5 s, te lanzas en una dirección, lo que inflige 40 (+4% per level) de daño a los enemigos y los ralentiza un 35% durante 2 s. Al acabar la embestida, muerdes a los enemigos y les infliges 75 (+4% per level) más de daño.<n/><n/>Rompemundos: Reventar la tierra<n/>Infliges daño y aturdes a los enemigos en dos líneas.",
           "abilityType": "E"
         }
       ],
@@ -4028,7 +4028,7 @@
           "name": "Aspecto de la Muerte",
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "shortTooltip": "Eres muy poderoso, pero ignoras los efectos de tus aliados.",
-          "fullTooltip": "Posees 4 placas que te otorgan 10 de armadura cada una. Con cada 25% de salud perdida, pierdes una placa. Las placas solo se recuperan usando El Vuelo y dependen de la salud que tengas cuando aterrices.  Además, eres un poderoso dragón Aspecto permanentemente imparable e infliges un 100% más de daño de habilidad a héroes, pero miras a tus aliados con desprecio e ignoras todos sus efectos.",
+          "fullTooltip": "Posees 4 placas que te otorgan 10 de armadura cada una. Con cada 25% de salud perdida, pierdes una placa. Las placas solo se recuperan usando El Vuelo y dependen de la salud que tengas cuando aterrices.<n/><n/>Además, eres un poderoso dragón Aspecto permanentemente imparable e infliges un 100% más de daño de habilidad a héroes, pero miras a tus aliados con desprecio e ignoras todos sus efectos.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -4053,7 +4053,7 @@
           "name": "Cambio de forma",
           "icon": "storm_ui_icon_deathwing_deathdrop.png",
           "cooldownTooltip": "Tiempo de reutilización: 20 s",
-          "fullTooltip": "Cambias entre las formas de Destructor y Rompemundos, que otorgan acceso a dos habilidades básicas únicas cada una.  Incinerar inflige daño a los enemigos que te rodean y Embestida te permite cargar contra ellos.  Estallido de lava crea un área ralentizadora y Reventar la tierra aturde a los enemigos en dos líneas.",
+          "fullTooltip": "Cambias entre las formas de Destructor y Rompemundos, que otorgan acceso a dos habilidades básicas únicas cada una.<n/><n/>Incinerar inflige daño a los enemigos que te rodean y Embestida te permite cargar contra ellos.<n/><n/>Estallido de lava crea un área ralentizadora y Reventar la tierra aturde a los enemigos en dos líneas.",
           "abilityType": "Active"
         }
       ],
@@ -4194,7 +4194,7 @@
           "energyTooltip": "Energía: 20",
           "cooldownTooltip": "Tiempo de reutilización: 6 s",
           "shortTooltip": "Creas un charco de lava que inflige daño y ralentiza.",
-          "fullTooltip": "Tras una demora de 1 s, infliges 30 (+4% per level) de daño a todos los enemigos en un área y dejas un charco de magma que inflige 16 (+4% per level) de daño por segundo y ralentiza a los enemigos un 35%. Dura 6 s.  Destructor: Incinerar Infliges daño a los enemigos cercanos.",
+          "fullTooltip": "Tras una demora de 1 s, infliges 30 (+4% per level) de daño a todos los enemigos en un área y dejas un charco de magma que inflige 16 (+4% per level) de daño por segundo y ralentiza a los enemigos un 35%. Dura 6 s.<n/><n/>Destructor: Incinerar<n/>Infliges daño a los enemigos cercanos.",
           "abilityType": "Hidden"
         },
         {
@@ -4219,7 +4219,7 @@
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "cooldownTooltip": "Tiempo de reutilización: 20 s",
           "shortTooltip": "Eres muy poderoso, pero ignoras los efectos de tus aliados.",
-          "fullTooltip": "Posees 4 placas que te otorgan 10 de armadura cada una. Con cada 25% de salud perdida, pierdes una placa. Las placas solo se recuperan usando El Vuelo y dependen de la salud que tengas cuando aterrices.  Además, eres un poderoso dragón Aspecto permanentemente imparable e infliges un 100% más de daño de habilidad a héroes, pero miras a tus aliados con desprecio e ignoras todos sus efectos.",
+          "fullTooltip": "Posees 4 placas que te otorgan 10 de armadura cada una. Con cada 25% de salud perdida, pierdes una placa. Las placas solo se recuperan usando El Vuelo y dependen de la salud que tengas cuando aterrices.<n/><n/>Además, eres un poderoso dragón Aspecto permanentemente imparable e infliges un 100% más de daño de habilidad a héroes, pero miras a tus aliados con desprecio e ignoras todos sus efectos.",
           "abilityType": "Hidden"
         }
       ]
@@ -4298,7 +4298,7 @@
               "energyTooltip": "Energía: 25",
               "cooldownTooltip": "Tiempo de reutilización: 12 s",
               "shortTooltip": "Dañas y aturdes a los enemigos en dos líneas.",
-              "fullTooltip": "Creas una fisura de tierra que inflige 80 (+4% per level) de daño a los enemigos golpeados y los aturde durante 0.75 s.  Destructor: Embestida Cargas en una dirección.",
+              "fullTooltip": "Creas una fisura de tierra que inflige 80 (+4% per level) de daño a los enemigos golpeados y los aturde durante 0.75 s.<n/><n/>Destructor: Embestida<n/>Cargas en una dirección.",
               "abilityType": "E"
             }
           ]
@@ -5495,7 +5495,7 @@
             "countUse": 1
           },
           "shortTooltip": "Mata esbirros para sobornar a un mercenario.",
-          "fullTooltip": "Los esbirros enemigos o mercenarios capturados que mueren cerca de ti otorgan acumulaciones de soborno. Usa 40 acumulaciones para sobornar al mercenario seleccionado, lo que lo derrota al instante. No funciona con mercenarios de élite. Acumulaciones máximas disponibles: 200. Si se derrota un campamento entero usando únicamente Søbørnø vikingø, este volverá a aparecer un 50% más rápido.  Acumulaciones actuales de soborno: 0",
+          "fullTooltip": "Los esbirros enemigos o mercenarios capturados que mueren cerca de ti otorgan acumulaciones de soborno. Usa 40 acumulaciones para sobornar al mercenario seleccionado, lo que lo derrota al instante. No funciona con mercenarios de élite. Acumulaciones máximas disponibles: 200. Si se derrota un campamento entero usando únicamente Søbørnø vikingø, este volverá a aparecer un 50% más rápido.<n/><n/>Acumulaciones actuales de soborno: 0",
           "abilityType": "E"
         }
       ],
@@ -5507,7 +5507,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Tiempo de reutilización: 80 s",
           "shortTooltip": "Un vikingo revive e invoca al resto de vikingos.",
-          "fullTooltip": "Un vikingo cura completamente o revive a los otros vikingos y los invoca en la ubicación seleccionada después de una canalización de 2 s.   Solo un vikingo a la vez puede intentar la invocación.",
+          "fullTooltip": "Un vikingo cura completamente o revive a los otros vikingos y los invoca en la ubicación seleccionada después de una canalización de 2 s. <n/><n/>Solo un vikingo a la vez puede intentar la invocación.",
           "abilityType": "Heroic"
         },
         {
@@ -5517,7 +5517,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Los vikingos se suben a un barco y atacan a los enemigos.",
-          "fullTooltip": "Os subís a un barco vikingo imparable que dispara a los enemigos cercanos, lo que les inflige 112 (+4% per level) de daño por segundo. El barco puede disparar con un mortero que inflige 228 (+4% per level) de daño en un área. Además, tiene más salud por cada vikingo en su interior. Si los enemigos destruyen el barco, quedáis aturdidos 1 s. Dura 15 s.  Requiere que todos los vikingos supervivientes estén cerca.",
+          "fullTooltip": "Os subís a un barco vikingo imparable que dispara a los enemigos cercanos, lo que les inflige 112 (+4% per level) de daño por segundo. El barco puede disparar con un mortero que inflige 228 (+4% per level) de daño en un área. Además, tiene más salud por cada vikingo en su interior. Si los enemigos destruyen el barco, quedáis aturdidos 1 s. Dura 15 s.<n/><n/>Requiere que todos los vikingos supervivientes estén cerca.",
           "abilityType": "Heroic"
         }
       ],
@@ -5528,7 +5528,7 @@
           "name": "Såqueø vikingø",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Recoge esferas de regeneración para aumentar la regeneración de salud.",
-          "fullTooltip": "Reunir esferas de regeneración con un vikingo aumenta permanentemente la regeneración de salud 0.5 por segundo.  Bonificación actual: 0 de regeneración por segundo.",
+          "fullTooltip": "Reunir esferas de regeneración con un vikingo aumenta permanentemente la regeneración de salud 0.5 por segundo.<n/><n/>Bonificación actual: 0 de regeneración por segundo.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -5746,7 +5746,7 @@
           "name": "Charco de petróleo",
           "icon": "storm_ui_icon_blaze_oil.png",
           "cooldownTooltip": "Tiempo de reutilización: 6 s",
-          "fullTooltip": "Lanzamiento vectorial Lanzas un charco de petróleo que ralentiza a los enemigos y que puedes prender.",
+          "fullTooltip": "Lanzamiento vectorial<n/>Lanzas un charco de petróleo que ralentiza a los enemigos y que puedes prender.",
           "abilityType": "W"
         }
       ],
@@ -7121,7 +7121,7 @@
           "nameId": "TerroroftheGarden",
           "buttonId": "TerroroftheGarden",
           "icon": "storm_ui_icon_gardenterror_terrorofthegarden.png",
-          "fullTooltip": "Terror de jardín (rasgo)  Imparable de forma permanente.",
+          "fullTooltip": "Terror de jardín (rasgo)<n/><n/>Imparable de forma permanente.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -9327,7 +9327,7 @@
           "name": "Castigo",
           "icon": "storm_btn_d3_barbarian_leap.png",
           "shortTooltip": "Aturde a los enemigos en un área.",
-          "fullTooltip": "Salta a la ubicación seleccionada, lo que inflige 1 de daño y aturde a los objetivos durante 1 s en la ubicación del impacto.",
+          "fullTooltip": "Salta a la ubicación seleccionada, lo que inflige 1 de daño y aturde a los objetivos durante 1 s en la ubicación del impacto.<n/><n/>",
           "abilityType": "Q"
         },
         {
@@ -9336,7 +9336,7 @@
           "name": "Fijar",
           "icon": "storm_temp_war3_btnundeadunload.png",
           "cooldownTooltip": "Tiempo de reutilización: 10 s",
-          "fullTooltip": "Se fija en el objetivo, lo que hace que monte en cólera y que aumente la velocidad de movimiento un 100% y la velocidad de ataque un 0% durante 4 s. Durante este tiempo, el castigador no puede recibir órdenes.  Aturde al purificador durante 1 s al acabar el efecto.",
+          "fullTooltip": "Se fija en el objetivo, lo que hace que monte en cólera y que aumente la velocidad de movimiento un 100% y la velocidad de ataque un 0% durante 4 s. Durante este tiempo, el castigador no puede recibir órdenes.<n/><n/>Aturde al purificador durante 1 s al acabar el efecto.",
           "abilityType": "W"
         }
       ]
@@ -10730,7 +10730,7 @@
             "countUse": 1
           },
           "shortTooltip": "Mata esbirros para sobornar a un mercenario.",
-          "fullTooltip": "Los esbirros enemigos o mercenarios capturados que mueren cerca de ti otorgan acumulaciones de soborno. Usa 40 acumulaciones para sobornar al mercenario seleccionado, lo que lo derrota al instante. No funciona con mercenarios de élite. Acumulaciones máximas disponibles: 200. Si se derrota un campamento entero usando únicamente Søbørnø vikingø, este volverá a aparecer un 50% más rápido.  Acumulaciones actuales de soborno: 0",
+          "fullTooltip": "Los esbirros enemigos o mercenarios capturados que mueren cerca de ti otorgan acumulaciones de soborno. Usa 40 acumulaciones para sobornar al mercenario seleccionado, lo que lo derrota al instante. No funciona con mercenarios de élite. Acumulaciones máximas disponibles: 200. Si se derrota un campamento entero usando únicamente Søbørnø vikingø, este volverá a aparecer un 50% más rápido.<n/><n/>Acumulaciones actuales de soborno: 0",
           "abilityType": "E"
         }
       ],
@@ -10742,7 +10742,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Tiempo de reutilización: 80 s",
           "shortTooltip": "Un vikingo revive e invoca al resto de vikingos.",
-          "fullTooltip": "Un vikingo cura completamente o revive a los otros vikingos y los invoca en la ubicación seleccionada después de una canalización de 2 s.   Solo un vikingo a la vez puede intentar la invocación.",
+          "fullTooltip": "Un vikingo cura completamente o revive a los otros vikingos y los invoca en la ubicación seleccionada después de una canalización de 2 s. <n/><n/>Solo un vikingo a la vez puede intentar la invocación.",
           "abilityType": "Heroic"
         },
         {
@@ -10752,7 +10752,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Los vikingos se suben a un barco y atacan a los enemigos.",
-          "fullTooltip": "Os subís a un barco vikingo imparable que dispara a los enemigos cercanos, lo que les inflige 112 (+4% per level) de daño por segundo. El barco puede disparar con un mortero que inflige 228 (+4% per level) de daño en un área. Además, tiene más salud por cada vikingo en su interior. Si los enemigos destruyen el barco, quedáis aturdidos 1 s. Dura 15 s.  Requiere que todos los vikingos supervivientes estén cerca.",
+          "fullTooltip": "Os subís a un barco vikingo imparable que dispara a los enemigos cercanos, lo que les inflige 112 (+4% per level) de daño por segundo. El barco puede disparar con un mortero que inflige 228 (+4% per level) de daño en un área. Además, tiene más salud por cada vikingo en su interior. Si los enemigos destruyen el barco, quedáis aturdidos 1 s. Dura 15 s.<n/><n/>Requiere que todos los vikingos supervivientes estén cerca.",
           "abilityType": "Heroic"
         }
       ],
@@ -10763,7 +10763,7 @@
           "name": "Såqueø vikingø",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Recoge esferas de regeneración para aumentar la regeneración de salud.",
-          "fullTooltip": "Reunir esferas de regeneración con un vikingo aumenta permanentemente la regeneración de salud 0.5 por segundo.  Bonificación actual: 0 de regeneración por segundo.",
+          "fullTooltip": "Reunir esferas de regeneración con un vikingo aumenta permanentemente la regeneración de salud 0.5 por segundo.<n/><n/>Bonificación actual: 0 de regeneración por segundo.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -12499,7 +12499,7 @@
           "energyTooltip": "Maná: 50",
           "cooldownTooltip": "Tiempo de reutilización: 6 s",
           "shortTooltip": "Disparas un proyectil e infliges gran cantidad de daño al primer enemigo alcanzado.",
-          "fullTooltip": "Infliges 230 (+4% per level) de daño al primer enemigo golpeado.  Pasiva: Golpear a un héroe enemigo con Disparo de precisión aumenta el daño de la habilidad un 6%, que se acumula hasta un 30%. Cuando tienes las acumulaciones al máximo, el daño aumenta un 25% adicional. Se pierden todas las acumulaciones si Disparo de precisión no alcanza a un enemigo.",
+          "fullTooltip": "Infliges 230 (+4% per level) de daño al primer enemigo golpeado.<n/><n/>Pasiva: Golpear a un héroe enemigo con Disparo de precisión aumenta el daño de la habilidad un 6%, que se acumula hasta un 30%. Cuando tienes las acumulaciones al máximo, el daño aumenta un 25% adicional. Se pierden todas las acumulaciones si Disparo de precisión no alcanza a un enemigo.",
           "abilityType": "Q"
         },
         {
@@ -12544,7 +12544,7 @@
           "icon": "storm_ui_icon_nova_personalcloaking.png",
           "cooldownTooltip": "Tiempo de reutilización: 3 s",
           "shortTooltip": "Entras en sigilo y te mueves más rápido mientras no atacas ni sufres daño.",
-          "fullTooltip": "Entras en sigilo al estar 3 s sin luchar. Si recibes daño, atacas, y usas o canalizas habilidades, dejas de estar en sigilo. Si permaneces inmóvil mientras estás en sigilo durante al menos 1.5 s, te vuelves invisible.  Pasiva: Obtienes un 15% de velocidad de movimiento mientras estás en sigilo.",
+          "fullTooltip": "Entras en sigilo al estar 3 s sin luchar. Si recibes daño, atacas, y usas o canalizas habilidades, dejas de estar en sigilo. Si permaneces inmóvil mientras estás en sigilo durante al menos 1.5 s, te vuelves invisible.<n/><n/>Pasiva: Obtienes un 15% de velocidad de movimiento mientras estás en sigilo.",
           "abilityType": "Hidden",
           "isActive": false
         }
@@ -12657,7 +12657,7 @@
             "countUse": 1
           },
           "shortTooltip": "Mata esbirros para sobornar a un mercenario.",
-          "fullTooltip": "Los esbirros enemigos o mercenarios capturados que mueren cerca de ti otorgan acumulaciones de soborno. Usa 40 acumulaciones para sobornar al mercenario seleccionado, lo que lo derrota al instante. No funciona con mercenarios de élite. Acumulaciones máximas disponibles: 200. Si se derrota un campamento entero usando únicamente Søbørnø vikingø, este volverá a aparecer un 50% más rápido.  Acumulaciones actuales de soborno: 0",
+          "fullTooltip": "Los esbirros enemigos o mercenarios capturados que mueren cerca de ti otorgan acumulaciones de soborno. Usa 40 acumulaciones para sobornar al mercenario seleccionado, lo que lo derrota al instante. No funciona con mercenarios de élite. Acumulaciones máximas disponibles: 200. Si se derrota un campamento entero usando únicamente Søbørnø vikingø, este volverá a aparecer un 50% más rápido.<n/><n/>Acumulaciones actuales de soborno: 0",
           "abilityType": "E"
         }
       ],
@@ -12669,7 +12669,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Tiempo de reutilización: 80 s",
           "shortTooltip": "Un vikingo revive e invoca al resto de vikingos.",
-          "fullTooltip": "Un vikingo cura completamente o revive a los otros vikingos y los invoca en la ubicación seleccionada después de una canalización de 2 s.   Solo un vikingo a la vez puede intentar la invocación.",
+          "fullTooltip": "Un vikingo cura completamente o revive a los otros vikingos y los invoca en la ubicación seleccionada después de una canalización de 2 s. <n/><n/>Solo un vikingo a la vez puede intentar la invocación.",
           "abilityType": "Heroic"
         },
         {
@@ -12679,7 +12679,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Los vikingos se suben a un barco y atacan a los enemigos.",
-          "fullTooltip": "Os subís a un barco vikingo imparable que dispara a los enemigos cercanos, lo que les inflige 112 (+4% per level) de daño por segundo. El barco puede disparar con un mortero que inflige 228 (+4% per level) de daño en un área. Además, tiene más salud por cada vikingo en su interior. Si los enemigos destruyen el barco, quedáis aturdidos 1 s. Dura 15 s.  Requiere que todos los vikingos supervivientes estén cerca.",
+          "fullTooltip": "Os subís a un barco vikingo imparable que dispara a los enemigos cercanos, lo que les inflige 112 (+4% per level) de daño por segundo. El barco puede disparar con un mortero que inflige 228 (+4% per level) de daño en un área. Además, tiene más salud por cada vikingo en su interior. Si los enemigos destruyen el barco, quedáis aturdidos 1 s. Dura 15 s.<n/><n/>Requiere que todos los vikingos supervivientes estén cerca.",
           "abilityType": "Heroic"
         }
       ],
@@ -12690,7 +12690,7 @@
           "name": "Såqueø vikingø",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Recoge esferas de regeneración para aumentar la regeneración de salud.",
-          "fullTooltip": "Reunir esferas de regeneración con un vikingo aumenta permanentemente la regeneración de salud 0.5 por segundo.  Bonificación actual: 0 de regeneración por segundo.",
+          "fullTooltip": "Reunir esferas de regeneración con un vikingo aumenta permanentemente la regeneración de salud 0.5 por segundo.<n/><n/>Bonificación actual: 0 de regeneración por segundo.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -13589,7 +13589,7 @@
           "icon": "storm_ui_icon_ragnaros_moltenswing.png",
           "cooldownTooltip": "Tiempo de reutilización: 6 s",
           "shortTooltip": "Aturdes y dañas a los enemigos cercanos.",
-          "fullTooltip": "Blandes a Sulfuras en un amplio arco, lo que inflige 161 (+4% per level) de daño y aturde a los enemigos durante 1 s.  Daño aumentado un 25% contra esbirros, mercenarios y monstruos.",
+          "fullTooltip": "Blandes a Sulfuras en un amplio arco, lo que inflige 161 (+4% per level) de daño y aturde a los enemigos durante 1 s.<n/><n/>Daño aumentado un 25% contra esbirros, mercenarios y monstruos.",
           "abilityType": "Q"
         },
         {
@@ -13599,7 +13599,7 @@
           "icon": "storm_ui_icon_ragnaros_meteorshower.png",
           "cooldownTooltip": "Tiempo de reutilización: 2.5 s",
           "shortTooltip": "Invocas una línea de meteoritos.",
-          "fullTooltip": "Lanzamiento vectorial Invocas 3 meteoritos en el punto seleccionado que caen hacia la dirección elegida. Cada meteorito inflige 151 (+4% per level) de daño y ralentiza un 25% a los enemigos durante 2 s.  Daño aumentado un 25% contra esbirros, mercenarios y monstruos.",
+          "fullTooltip": "Lanzamiento vectorial<n/>Invocas 3 meteoritos en el punto seleccionado que caen hacia la dirección elegida. Cada meteorito inflige 151 (+4% per level) de daño y ralentiza un 25% a los enemigos durante 2 s.<n/><n/>Daño aumentado un 25% contra esbirros, mercenarios y monstruos.",
           "abilityType": "W"
         },
         {
@@ -13609,7 +13609,7 @@
           "icon": "storm_ui_icon_ragnaros_explosiverune.png",
           "cooldownTooltip": "Tiempo de reutilización: 4 s",
           "shortTooltip": "Provocas una explosión con demora en una gran zona.",
-          "fullTooltip": "Creas una runa que inflige 285 (+4% per level) de daño a los enemigos que no sean estructuras tras 1.5 s.  Daño aumentado un 25% contra esbirros, mercenarios y monstruos.",
+          "fullTooltip": "Creas una runa que inflige 285 (+4% per level) de daño a los enemigos que no sean estructuras tras 1.5 s.<n/><n/>Daño aumentado un 25% contra esbirros, mercenarios y monstruos.",
           "abilityType": "E"
         }
       ],
@@ -14124,7 +14124,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Tiempo de reutilización: 14 s",
           "shortTooltip": "Creas reflejos para confundir y atacar a los enemigos.",
-          "fullTooltip": "Te teletransportas una corta distancia en la dirección del cursor y creas 2 reflejos que duran 8 s con un 100% de tu salud actual. Los reflejos usan ataques básicos contra los enemigos e infligen 11 (+4% per level) de daño. La duración de los reflejos aumenta 1 s cada vez que tú o ellos usáis un ataque básico contra un héroe enemigo. Los reflejos sufren el doble de daño.  Máximo de reflejos activos a la vez: 2. Usar Reflejos elimina la mayoría de los efectos negativos.",
+          "fullTooltip": "Te teletransportas una corta distancia en la dirección del cursor y creas 2 reflejos que duran 8 s con un 100% de tu salud actual. Los reflejos usan ataques básicos contra los enemigos e infligen 11 (+4% per level) de daño. La duración de los reflejos aumenta 1 s cada vez que tú o ellos usáis un ataque básico contra un héroe enemigo. Los reflejos sufren el doble de daño.<n/><n/>Máximo de reflejos activos a la vez: 2. Usar Reflejos elimina la mayoría de los efectos negativos.",
           "abilityType": "Q"
         }
       ],
@@ -14146,7 +14146,7 @@
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
           "cooldownTooltip": "Tiempo de reutilización: 8 s",
           "shortTooltip": "Puedes controlar a los reflejos.",
-          "fullTooltip": "Los reflejos pueden controlarse individualmente o en grupo. Su daño aumenta un 100%.   Pasiva: Se reduce el tiempo de reutilización de Transmisión de reflejo a 8 s.",
+          "fullTooltip": "Los reflejos pueden controlarse individualmente o en grupo. Su daño aumenta un 100%. <n/><n/>Pasiva: Se reduce el tiempo de reutilización de Transmisión de reflejo a 8 s.",
           "abilityType": "Heroic"
         }
       ],
@@ -14158,7 +14158,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Tiempo de reutilización: 14 s",
           "shortTooltip": "Tu velocidad de movimiento aumenta al atacar a héroes.",
-          "fullTooltip": "Actívalo para intercambiar tu posición con la del reflejo seleccionado, lo que elimina la mayor parte de los efectos negativos que os afectan a ti y al reflejo.  Golpes de avance  Los ataques básicos contra héroes enemigos aumentan tu velocidad de movimiento un 25% durante 2 s.",
+          "fullTooltip": "Actívalo para intercambiar tu posición con la del reflejo seleccionado, lo que elimina la mayor parte de los efectos negativos que os afectan a ti y al reflejo.<n/><n/>Golpes de avance<n/><n/>Los ataques básicos contra héroes enemigos aumentan tu velocidad de movimiento un 25% durante 2 s.",
           "abilityType": "Trait"
         }
       ],
@@ -14180,7 +14180,7 @@
           "name": "Seleccionar reflejo",
           "icon": "storm_temp_war3_btnmirrorimage.png",
           "shortTooltip": "Seleccionas un reflejo.",
-          "fullTooltip": "Seleccionar un reflejo  Das órdenes a un solo reflejo.",
+          "fullTooltip": "Seleccionar un reflejo<n/><n/>Das órdenes a un solo reflejo.",
           "abilityType": "Active"
         },
         {
@@ -14189,7 +14189,7 @@
           "name": "Seleccionar todos",
           "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
           "shortTooltip": "Seleccionar todos",
-          "fullTooltip": "Seleccionar todos  Das órdenes a Samuro y a todos los reflejos.",
+          "fullTooltip": "Seleccionar todos<n/><n/>Das órdenes a Samuro y a todos los reflejos.",
           "abilityType": "Active"
         }
       ],
@@ -14323,7 +14323,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Tiempo de reutilización: 14 s",
           "shortTooltip": "Tu velocidad de movimiento aumenta al atacar a héroes.",
-          "fullTooltip": "Actívalo para intercambiar tu posición con la del reflejo seleccionado, lo que elimina la mayor parte de los efectos negativos que os afectan a ti y al reflejo.  Golpes de avance  Los ataques básicos contra héroes enemigos aumentan tu velocidad de movimiento un 25% durante 2 s.",
+          "fullTooltip": "Actívalo para intercambiar tu posición con la del reflejo seleccionado, lo que elimina la mayor parte de los efectos negativos que os afectan a ti y al reflejo.<n/><n/>Golpes de avance<n/><n/>Los ataques básicos contra héroes enemigos aumentan tu velocidad de movimiento un 25% durante 2 s.",
           "abilityType": "Hidden"
         },
         {
@@ -14333,7 +14333,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Tiempo de reutilización: 18 s",
           "shortTooltip": "Creas reflejos para confundir y atacar a los enemigos.",
-          "fullTooltip": "Te teletransportas una corta distancia en la dirección del cursor y creas 2 reflejos que duran 8 s con un 100% de tu salud actual. Los reflejos usan ataques básicos contra los enemigos e infligen 11 (+4% per level) de daño. La duración de los reflejos aumenta 1 s cada vez que tú o ellos usáis un ataque básico contra un héroe enemigo. Los reflejos sufren el doble de daño.  Máximo de reflejos activos a la vez: 2. Usar Reflejos elimina la mayoría de los efectos negativos.",
+          "fullTooltip": "Te teletransportas una corta distancia en la dirección del cursor y creas 2 reflejos que duran 8 s con un 100% de tu salud actual. Los reflejos usan ataques básicos contra los enemigos e infligen 11 (+4% per level) de daño. La duración de los reflejos aumenta 1 s cada vez que tú o ellos usáis un ataque básico contra un héroe enemigo. Los reflejos sufren el doble de daño.<n/><n/>Máximo de reflejos activos a la vez: 2. Usar Reflejos elimina la mayoría de los efectos negativos.",
           "abilityType": "Hidden"
         },
         {
@@ -14350,7 +14350,7 @@
           },
           "cooldownTooltip": "Tiempo de reutilización: 10 s",
           "shortTooltip": "Los golpes críticos infligen más daño.",
-          "fullTooltip": "Tu siguiente ataque básico en los próximos 8 s será un golpe crítico, lo que infligirá un 50% más de daño. Esta habilidad también se aplica a los reflejos y no interrumpe Andar del viento.  Pasiva: Cada 4.º ataque realizado por ti o por tus reflejos será un golpe crítico.",
+          "fullTooltip": "Tu siguiente ataque básico en los próximos 8 s será un golpe crítico, lo que infligirá un 50% más de daño. Esta habilidad también se aplica a los reflejos y no interrumpe Andar del viento.<n/><n/>Pasiva: Cada 4.º ataque realizado por ti o por tus reflejos será un golpe crítico.",
           "abilityType": "Hidden"
         },
         {
@@ -14360,7 +14360,7 @@
           "icon": "storm_ui_icon_samuro_windwalk.png",
           "cooldownTooltip": "Tiempo de reutilización: 15 s",
           "shortTooltip": "Entras en sigilo y obtienes velocidad de movimiento.",
-          "fullTooltip": "Entras en sigilo durante un máximo de 10 s o hasta que atacas, usas una habilidad o recibes daño.  Mientras estás en sigilo, te curas un 1% de tu salud máxima por segundo, tu velocidad de movimiento aumenta un 25% y puedes atravesar a otras unidades. Si permaneces inmóvil mientras estás en sigilo durante al menos 1.5 s, te vuelves invisible.  Durante el primer segundo de Andar del viento no se te puede revelar.",
+          "fullTooltip": "Entras en sigilo durante un máximo de 10 s o hasta que atacas, usas una habilidad o recibes daño.<n/><n/>Mientras estás en sigilo, te curas un 1% de tu salud máxima por segundo, tu velocidad de movimiento aumenta un 25% y puedes atravesar a otras unidades. Si permaneces inmóvil mientras estás en sigilo durante al menos 1.5 s, te vuelves invisible.<n/><n/>Durante el primer segundo de Andar del viento no se te puede revelar.",
           "abilityType": "Hidden"
         },
         {
@@ -14387,7 +14387,7 @@
           },
           "cooldownTooltip": "Tiempo de reutilización: 10 s",
           "shortTooltip": "Los golpes críticos infligen más daño.",
-          "fullTooltip": "Tu siguiente ataque básico en los próximos 8 s será un golpe crítico, lo que infligirá un 50% más de daño. Esta habilidad también se aplica a los reflejos y no interrumpe Andar del viento.  Pasiva: Cada 4.º ataque realizado por ti o por tus reflejos será un golpe crítico.",
+          "fullTooltip": "Tu siguiente ataque básico en los próximos 8 s será un golpe crítico, lo que infligirá un 50% más de daño. Esta habilidad también se aplica a los reflejos y no interrumpe Andar del viento.<n/><n/>Pasiva: Cada 4.º ataque realizado por ti o por tus reflejos será un golpe crítico.",
           "abilityType": "Hidden"
         },
         {
@@ -14398,7 +14398,7 @@
           "toggleCooldown": 0.5,
           "cooldownTooltip": "Tiempo de reutilización: 8 s",
           "shortTooltip": "Puedes controlar a los reflejos.",
-          "fullTooltip": "Los reflejos pueden controlarse individualmente o en grupo. Su daño aumenta un 100%.   Pasiva: Se reduce el tiempo de reutilización de Transmisión de reflejo a 8 s.",
+          "fullTooltip": "Los reflejos pueden controlarse individualmente o en grupo. Su daño aumenta un 100%. <n/><n/>Pasiva: Se reduce el tiempo de reutilización de Transmisión de reflejo a 8 s.",
           "abilityType": "Hidden"
         }
       ]
@@ -15962,7 +15962,7 @@
           "energyTooltip": "Maná: 45",
           "cooldownTooltip": "Tiempo de reutilización: 10 s",
           "shortTooltip": "Arrojas un martillo que aturde y daña al primer enemigo al que golpea.",
-          "fullTooltip": "Lanzas un martillo que inflige 110 (+4% per level) de daño al primer enemigo golpeado y lo aturde durante 1.25 s.  Misión: Golpea a 25 héroes con Descarga tormentosa. Si un héroe muere durante los primeros 2.5 s tras haber sido golpeado por Descarga tormentosa, contará como si se hubiera golpeado a 3 héroes más.  Recompensa: Descarga tormentosa perfora, por lo que golpea a un objetivo adicional. Además, tus ataques básicos reducen su tiempo de reutilización 1 s.",
+          "fullTooltip": "Lanzas un martillo que inflige 110 (+4% per level) de daño al primer enemigo golpeado y lo aturde durante 1.25 s.<n/><n/>Misión: Golpea a 25 héroes con Descarga tormentosa. Si un héroe muere durante los primeros 2.5 s tras haber sido golpeado por Descarga tormentosa, contará como si se hubiera golpeado a 3 héroes más.<n/><n/>Recompensa: Descarga tormentosa perfora, por lo que golpea a un objetivo adicional. Además, tus ataques básicos reducen su tiempo de reutilización 1 s.",
           "abilityType": "Q"
         },
         {
@@ -16097,7 +16097,7 @@
           "energyTooltip": "Maná: 70",
           "cooldownTooltip": "Tiempo de reutilización: 80 s",
           "shortTooltip": "Se comen a los enemigos de un área.",
-          "fullTooltip": "Invocas unas fauces devoradoras que devoran a los enemigos durante 4 s. Los enemigos devorados no pueden luchar y sufren 94 (+4% per level) de daño por segundo.   Se puede usar contra enemigos imparables.",
+          "fullTooltip": "Invocas unas fauces devoradoras que devoran a los enemigos durante 4 s. Los enemigos devorados no pueden luchar y sufren 94 (+4% per level) de daño por segundo. <n/><n/>Se puede usar contra enemigos imparables.",
           "abilityType": "W"
         },
         {
@@ -16160,7 +16160,7 @@
           "energyTooltip": "Maná: 20",
           "cooldownTooltip": "Tiempo de reutilización: 16 s",
           "shortTooltip": "Obtienes salud.Obligas a un héroe a atacarte.",
-          "fullTooltip": "Silencias al héroe seleccionado y lo obligas a que te ataque durante 1.25 s.  Pasiva: Salud máxima y regeneración de salud aumentadas un 40%.",
+          "fullTooltip": "Silencias al héroe seleccionado y lo obligas a que te ataque durante 1.25 s.<n/><n/>Pasiva: Salud máxima y regeneración de salud aumentadas un 40%.",
           "abilityType": "B"
         }
       ]
@@ -16175,7 +16175,7 @@
               "name": "Cancelar Prisión de vacío",
               "icon": "hud_btn_bg_ability_cancel.png",
               "cooldownTooltip": "Tiempo de reutilización: 1.5 s",
-              "fullTooltip": "Cancela la habilidad Prisión de vacío.",
+              "fullTooltip": "<n/>Cancela la habilidad Prisión de vacío.",
               "abilityType": "Q"
             }
           ]
@@ -24493,7 +24493,7 @@
           "buttonId": "DragonKnightRubbleMaker",
           "name": "Demolición",
           "icon": "storm_ui_icon_dragonknight_rubblemaker.png",
-          "fullTooltip": "Aumenta un 100% el daño contra estructuras y esbirros. Reduce un 60% el daño que sufres de las estructuras. Imparable de forma permanente. El caballero dragón explota cuando muere, lo que repele a los enemigos cercanos.",
+          "fullTooltip": "Aumenta un 100% el daño contra estructuras y esbirros.<n/>Reduce un 60% el daño que sufres de las estructuras.<n/>Imparable de forma permanente.<n/>El caballero dragón explota cuando muere, lo que repele a los enemigos cercanos.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -24710,7 +24710,7 @@
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Tiempo de reutilización: 8 s",
           "shortTooltip": "Cargas contra el objetivo e infliges daño en un área.",
-          "fullTooltip": "Cargas contra el objetivo e infliges 160 de daño en un área.   Los objetivos que no son héroes sufren un 500% más de daño.",
+          "fullTooltip": "Cargas contra el objetivo e infliges 160 de daño en un área. <n/><n/>Los objetivos que no son héroes sufren un 500% más de daño.",
           "abilityType": "Q"
         },
         {
@@ -24720,7 +24720,7 @@
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Tiempo de reutilización: 14 s",
           "shortTooltip": "Lanzas un puño que inflige daño, inmoviliza a los héroes y deshabilita las torres.",
-          "fullTooltip": "Disparas un puño cohete que inflige 150 de daño al primer héroe o estructura en su camino. El puño empuja a los héroes durante un máximo de 2 s y deshabilita las estructuras durante 4 s.  El puño mata al instante a los esbirros a su paso.",
+          "fullTooltip": "Disparas un puño cohete que inflige 150 de daño al primer héroe o estructura en su camino. El puño empuja a los héroes durante un máximo de 2 s y deshabilita las estructuras durante 4 s.<n/><n/>El puño mata al instante a los esbirros a su paso.",
           "abilityType": "W"
         },
         {
@@ -24808,7 +24808,7 @@
           "name": "Carga",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Cargas contra el objetivo e infliges daño en un área.",
-          "fullTooltip": "Cargas contra el objetivo e infliges 160 de daño en un área.   Los objetivos que no son héroes sufren un 500% más de daño.",
+          "fullTooltip": "Cargas contra el objetivo e infliges 160 de daño en un área. <n/><n/>Los objetivos que no son héroes sufren un 500% más de daño.",
           "abilityType": "Hidden"
         },
         {
@@ -24817,7 +24817,7 @@
           "name": "Carga",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Cargas contra el objetivo e infliges daño en un área.",
-          "fullTooltip": "Cargas contra el objetivo e infliges 160 de daño en un área.   Los objetivos que no son héroes sufren un 500% más de daño.",
+          "fullTooltip": "Cargas contra el objetivo e infliges 160 de daño en un área. <n/><n/>Los objetivos que no son héroes sufren un 500% más de daño.",
           "abilityType": "Hidden"
         },
         {
@@ -24826,7 +24826,7 @@
           "name": "Carga",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Cargas contra el objetivo e infliges daño en un área.",
-          "fullTooltip": "Cargas contra el objetivo e infliges 160 de daño en un área.   Los objetivos que no son héroes sufren un 500% más de daño.",
+          "fullTooltip": "Cargas contra el objetivo e infliges 160 de daño en un área. <n/><n/>Los objetivos que no son héroes sufren un 500% más de daño.",
           "abilityType": "Hidden"
         }
       ]
@@ -24877,7 +24877,7 @@
           "icon": "storm_ui_icon_volskayarobot_tacticalstrikes.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Disparas una serie de misiles.",
-          "fullTooltip": "Activa la habilidad para disparar misiles a la ubicación del cursor. Cada misil inflige 38 de daño, pero gasta 1 de energía. Vuelve a activarla para dejar de disparar.  Inflige un 50% menos de daño a estructuras.",
+          "fullTooltip": "Activa la habilidad para disparar misiles a la ubicación del cursor. Cada misil inflige 38 de daño, pero gasta 1 de energía. Vuelve a activarla para dejar de disparar.<n/><n/>Inflige un 50% menos de daño a estructuras.",
           "abilityType": "W"
         },
         {
@@ -24887,7 +24887,7 @@
           "icon": "storm_ui_icon_volskayarobot_skylaser.png",
           "cooldownTooltip": "Tiempo de reutilización: 10 s",
           "shortTooltip": "Infliges daño con demora en una línea.",
-          "fullTooltip": "Lanzamiento vectorial Trazas una línea en el suelo que inflige 60 de daño. Tras 1 s, explota e inflige 380 de daño.",
+          "fullTooltip": "Lanzamiento vectorial<n/>Trazas una línea en el suelo que inflige 60 de daño. Tras 1 s, explota e inflige 380 de daño.",
           "abilityType": "E"
         }
       ],
@@ -25142,7 +25142,7 @@
           "name": "Cargar",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Tiempo de reutilización: 8 s",
-          "fullTooltip": "Cargas contra un objetivo e infliges 225 de daño en un área.  Los objetivos que no sean héroes sufren un 200% más de daño.",
+          "fullTooltip": "Cargas contra un objetivo e infliges 225 de daño en un área.<n/><n/>Los objetivos que no sean héroes sufren un 200% más de daño.",
           "abilityType": "Q"
         },
         {
@@ -25151,7 +25151,7 @@
           "name": "Puño cohete",
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Tiempo de reutilización: 14 s",
-          "fullTooltip": "Disparas un puño cohete que inflige 200 de daño al primer héroe o estructura en su camino. El puño empuja y aturde a los héroes durante 1,5 s y deshabilita las estructuras durante 4 s.  Mata al instante a los esbirros a su paso.",
+          "fullTooltip": "Disparas un puño cohete que inflige 200 de daño al primer héroe o estructura en su camino. El puño empuja y aturde a los héroes durante 1,5 s y deshabilita las estructuras durante 4 s.<n/><n/>Mata al instante a los esbirros a su paso.",
           "abilityType": "W"
         },
         {
@@ -25237,7 +25237,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Cargar",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Cargas contra un objetivo e infliges 225 de daño en un área.  Los objetivos que no sean héroes sufren un 200% más de daño.",
+          "fullTooltip": "Cargas contra un objetivo e infliges 225 de daño en un área.<n/><n/>Los objetivos que no sean héroes sufren un 200% más de daño.",
           "abilityType": "Hidden"
         },
         {
@@ -25245,7 +25245,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Cargar",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Cargas contra un objetivo e infliges 225 de daño en un área.  Los objetivos que no sean héroes sufren un 200% más de daño.",
+          "fullTooltip": "Cargas contra un objetivo e infliges 225 de daño en un área.<n/><n/>Los objetivos que no sean héroes sufren un 200% más de daño.",
           "abilityType": "Hidden"
         },
         {
@@ -25253,7 +25253,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Cargar",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Cargas contra un objetivo e infliges 225 de daño en un área.  Los objetivos que no sean héroes sufren un 200% más de daño.",
+          "fullTooltip": "Cargas contra un objetivo e infliges 225 de daño en un área.<n/><n/>Los objetivos que no sean héroes sufren un 200% más de daño.",
           "abilityType": "Hidden"
         }
       ]

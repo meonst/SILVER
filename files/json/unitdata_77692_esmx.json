@@ -1372,7 +1372,7 @@
           "icon": "storm_ui_icon_azmodan_generalofhell.png",
           "cooldownTooltip": "Tiempo de reutilización: 7 segundos",
           "shortTooltip": "Azmodán invoca a un Teniente demoníaco para ayudar a esbirros, mercenarios e invocaciones",
-          "fullTooltip": "Invoca a un Teniente demoníaco junto a cualquier unidad demoníaca invocada por Azmodán, mercenario o esbirro aliado. El Teniente lanzará Azote demoníaco cada 7 segundos, lo que mata a un esbirro enemigo de forma instantánea. Dura 20 segundos.  Puede usarse durante la canalización de Fuego devastador.",
+          "fullTooltip": "Invoca a un Teniente demoníaco junto a cualquier unidad demoníaca invocada por Azmodán, mercenario o esbirro aliado. El Teniente lanzará Azote demoníaco cada 7 segundos, lo que mata a un esbirro enemigo de forma instantánea. Dura 20 segundos.<n/><n/>Puede usarse durante la canalización de Fuego devastador.",
           "abilityType": "Hidden"
         }
       ]
@@ -1503,7 +1503,7 @@
             "countUse": 1
           },
           "shortTooltip": "Mata esbirros para sobornar a un mercenario",
-          "fullTooltip": "Los esbirros enemigos y mercenarios capturados que mueren cerca de los Vikingos perdidos otorgan acumulaciones de Soborno. Usa 40 acumulaciones para sobornar a un mercenario objetivo y derrotarlo de inmediato. No funciona con los mercenarios de élite. Máximo de acumulaciones disponibles: 200. Si se derrota un campamento exclusivamente con Sobornos, el campamento se regenera un 50% más rápido.  Cantidad actual de acumulaciones de Soborno: 0",
+          "fullTooltip": "Los esbirros enemigos y mercenarios capturados que mueren cerca de los Vikingos perdidos otorgan acumulaciones de Soborno. Usa 40 acumulaciones para sobornar a un mercenario objetivo y derrotarlo de inmediato. No funciona con los mercenarios de élite. Máximo de acumulaciones disponibles: 200. Si se derrota un campamento exclusivamente con Sobornos, el campamento se regenera un 50% más rápido.<n/><n/>Cantidad actual de acumulaciones de Soborno: 0",
           "abilityType": "E"
         }
       ],
@@ -1515,7 +1515,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Tiempo de reutilización: 80 segundos",
           "shortTooltip": "Revive e invoca vikingos",
-          "fullTooltip": "Invoca, sana por completo y revive a todos los Vikingos perdidos en la ubicación objetivo después de que un vikingo canaliza la habilidad durante 2 segundos.   Solo un vikingo puede intentar canalizar la invocación a la vez.",
+          "fullTooltip": "Invoca, sana por completo y revive a todos los Vikingos perdidos en la ubicación objetivo después de que un vikingo canaliza la habilidad durante 2 segundos. <n/><n/>Solo un vikingo puede intentar canalizar la invocación a la vez.",
           "abilityType": "Heroic"
         },
         {
@@ -1525,7 +1525,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Tiempo de reutilización: 90 segundos",
           "shortTooltip": "Sube a un drakkar para atacar a los enemigos",
-          "fullTooltip": "Salta a un drakkar imparable que dispara a los enemigos cercanos y les inflige 112 (+4% per level) de daño por segundo. El barco dispara un mortero que inflige 228 (+4% per level) de daño en un área.  El barco tiene más salud por cada Vikingo que lleva dentro. Si los enemigos destruyen el barco, los Vikingos quedan aturdidos durante 1 segundo. Dura 15 segundos.  Requiere que todos los vikingos sobrevivientes estén cerca.",
+          "fullTooltip": "Salta a un drakkar imparable que dispara a los enemigos cercanos y les inflige 112 (+4% per level) de daño por segundo. El barco dispara un mortero que inflige 228 (+4% per level) de daño en un área.  El barco tiene más salud por cada Vikingo que lleva dentro. Si los enemigos destruyen el barco, los Vikingos quedan aturdidos durante 1 segundo. Dura 15 segundos.<n/><n/>Requiere que todos los vikingos sobrevivientes estén cerca.",
           "abilityType": "Heroic"
         }
       ],
@@ -1536,7 +1536,7 @@
           "name": "Botín vikingo",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Recoge esferas de regeneración para aumentar la regeneración de salud",
-          "fullTooltip": "Si recoges una esfera de regeneración con un Vikingo, la regeneración de salud de todos los Vikingos aumenta en 0.5 por segundo.  Bonificación actual: 0 Regeneración por segundo",
+          "fullTooltip": "Si recoges una esfera de regeneración con un Vikingo, la regeneración de salud de todos los Vikingos aumenta en 0.5 por segundo.<n/><n/>Bonificación actual: 0 Regeneración por segundo",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -3681,7 +3681,7 @@
           "energyTooltip": "Maná: 0",
           "cooldownTooltip": "Tiempo de reutilización: 3 segundos",
           "shortTooltip": "Dispara una explosión de largo alcance que daña a un enemigo",
-          "fullTooltip": "Después de 0.5 segundos, dispara un misil que inflige 305 (+4% per level) de daño al primer enemigo al que golpea. Inflige un 50% de daño a estructuras.  El lanzamiento de Explosión de arena deja un eco detrás que imita los ataques básicos y la Explosión de arena de Cromi, e inflige un 40% de daño. Máximo de 1 eco activo a la vez.",
+          "fullTooltip": "Después de 0.5 segundos, dispara un misil que inflige 305 (+4% per level) de daño al primer enemigo al que golpea. Inflige un 50% de daño a estructuras.<n/><n/>El lanzamiento de Explosión de arena deja un eco detrás que imita los ataques básicos y la Explosión de arena de Cromi, e inflige un 40% de daño. Máximo de 1 eco activo a la vez.",
           "abilityType": "Q"
         }
       ]
@@ -3978,7 +3978,7 @@
           "energyTooltip": "Energía: 15",
           "cooldownTooltip": "Tiempo de reutilización: 4 segundos",
           "shortTooltip": "Inflige daño a los enemigos cerca de Alamuerte",
-          "fullTooltip": "Después de 0.75 segundos, Alamuerte agita sus alas para infligir 80 (+4% per level) de daño a los enemigos cercanos.  Rompemundos: Ráfaga de lava Crea un charco de lava que inflige daño y ralentiza.",
+          "fullTooltip": "Después de 0.75 segundos, Alamuerte agita sus alas para infligir 80 (+4% per level) de daño a los enemigos cercanos.<n/><n/>Rompemundos: Ráfaga de lava<n/>Crea un charco de lava que inflige daño y ralentiza.",
           "abilityType": "W"
         },
         {
@@ -3994,7 +3994,7 @@
           },
           "cooldownTooltip": "Tiempo de reutilización de carga: 10 segundos",
           "shortTooltip": "Alamuerte puede soltar meteoros en Vuelo",
-          "fullTooltip": "Después de 0.8 segundos, un meteoro cae del cielo, lo que inflige 58 (+4% per level) de daño a los enemigos en el área.  Si un héroe es golpeado, Alamuerte recupera un 3% de su salud máxima y se reducen los tiempos de reutilización de aterrizaje 1.5 segundos.",
+          "fullTooltip": "Después de 0.8 segundos, un meteoro cae del cielo, lo que inflige 58 (+4% per level) de daño a los enemigos en el área.<n/><n/>Si un héroe es golpeado, Alamuerte recupera un 3% de su salud máxima y se reducen los tiempos de reutilización de aterrizaje 1.5 segundos.",
           "abilityType": "E"
         },
         {
@@ -4005,7 +4005,7 @@
           "energyTooltip": "Energía: 20",
           "cooldownTooltip": "Tiempo de reutilización: 5 segundos",
           "shortTooltip": "Se lanza en una dirección",
-          "fullTooltip": "Después de 0.5 segundos, Alamuerte se lanza en una dirección e inflige 40 (+4% per level) de daño a los enemigos y los ralentiza un 35% durante 2 segundos. Alamuerte muerde a los enemigos al finalizar la embestida, lo que inflige un 75 (+4% per level) más de daño.  Rompemundos: Devastación Inflige daño y aturde a los enemigos en dos líneas.",
+          "fullTooltip": "Después de 0.5 segundos, Alamuerte se lanza en una dirección e inflige 40 (+4% per level) de daño a los enemigos y los ralentiza un 35% durante 2 segundos. Alamuerte muerde a los enemigos al finalizar la embestida, lo que inflige un 75 (+4% per level) más de daño.<n/><n/>Rompemundos: Devastación<n/>Inflige daño y aturde a los enemigos en dos líneas.",
           "abilityType": "E"
         }
       ],
@@ -4028,7 +4028,7 @@
           "name": "Aspecto de la Muerte",
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "shortTooltip": "Alamuerte es especialmente poderoso, pero ignora los efectos de aliados",
-          "fullTooltip": "Alamuerte está equipado con 4 placas de armadura que le otorgan 10 de Armadura cada una. Cada vez que Alamuerte pierde un 25% de salud, pierde una placa. Las placas solo se recuperan cuando se utiliza Vuelo, según la cantidad de salud que tiene Alamuerte al aterrizar.  Alamuerte también es un dragón Aspecto que tiene el estado Imparable permanentemente e inflige un 100% más de daño de habilidad especial a los héroes, pero ve a sus aliados con desprecio e ignora cualquiera de los efectos de sus compañeros.",
+          "fullTooltip": "Alamuerte está equipado con 4 placas de armadura que le otorgan 10 de Armadura cada una. Cada vez que Alamuerte pierde un 25% de salud, pierde una placa. Las placas solo se recuperan cuando se utiliza Vuelo, según la cantidad de salud que tiene Alamuerte al aterrizar.<n/><n/>Alamuerte también es un dragón Aspecto que tiene el estado Imparable permanentemente e inflige un 100% más de daño de habilidad especial a los héroes, pero ve a sus aliados con desprecio e ignora cualquiera de los efectos de sus compañeros.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -4053,7 +4053,7 @@
           "name": "Cambio de forma",
           "icon": "storm_ui_icon_deathwing_deathdrop.png",
           "cooldownTooltip": "Tiempo de reutilización: 20 segundos",
-          "fullTooltip": "Alamuerte alterna entre las formas Destructor y Rompemundos, cada una da acceso a dos habilidades básicas únicas.  Incinerar inflige daño a los enemigos alrededor de Alamuerte y Embate le permite lanzarse contra los enemigos.  Ráfaga de lava crea un área de ralentización y Devastación aturde a los enemigos en dos líneas.",
+          "fullTooltip": "Alamuerte alterna entre las formas Destructor y Rompemundos, cada una da acceso a dos habilidades básicas únicas.<n/><n/>Incinerar inflige daño a los enemigos alrededor de Alamuerte y Embate le permite lanzarse contra los enemigos.<n/><n/>Ráfaga de lava crea un área de ralentización y Devastación aturde a los enemigos en dos líneas.",
           "abilityType": "Active"
         }
       ],
@@ -4194,7 +4194,7 @@
           "energyTooltip": "Energía: 20",
           "cooldownTooltip": "Tiempo de reutilización: 6 segundos",
           "shortTooltip": "Crea un charco de lava que inflige daño y ralentiza",
-          "fullTooltip": "Después de una demora de 1 segundo, inflige 30 (+4% per level) de daño a todos los enemigos en un área y crea un charco de magma que inflige 16 (+4% per level) de daño por segundo y ralentiza a los enemigos un 35%. Dura 6 segundos.  Destructor: Incinerar Inflige daño a los enemigos cerca de Alamuerte.",
+          "fullTooltip": "Después de una demora de 1 segundo, inflige 30 (+4% per level) de daño a todos los enemigos en un área y crea un charco de magma que inflige 16 (+4% per level) de daño por segundo y ralentiza a los enemigos un 35%. Dura 6 segundos.<n/><n/>Destructor: Incinerar<n/>Inflige daño a los enemigos cerca de Alamuerte.",
           "abilityType": "Hidden"
         },
         {
@@ -4219,7 +4219,7 @@
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "cooldownTooltip": "Tiempo de reutilización: 20 segundos",
           "shortTooltip": "Alamuerte es especialmente poderoso, pero ignora los efectos de aliados",
-          "fullTooltip": "Alamuerte está equipado con 4 placas de armadura que le otorgan 10 de Armadura cada una. Cada vez que Alamuerte pierde un 25% de salud, pierde una placa. Las placas solo se recuperan cuando se utiliza Vuelo, según la cantidad de salud que tiene Alamuerte al aterrizar.  Alamuerte también es un dragón Aspecto que tiene el estado Imparable permanentemente e inflige un 100% más de daño de habilidad especial a los héroes, pero ve a sus aliados con desprecio e ignora cualquiera de los efectos de sus compañeros.",
+          "fullTooltip": "Alamuerte está equipado con 4 placas de armadura que le otorgan 10 de Armadura cada una. Cada vez que Alamuerte pierde un 25% de salud, pierde una placa. Las placas solo se recuperan cuando se utiliza Vuelo, según la cantidad de salud que tiene Alamuerte al aterrizar.<n/><n/>Alamuerte también es un dragón Aspecto que tiene el estado Imparable permanentemente e inflige un 100% más de daño de habilidad especial a los héroes, pero ve a sus aliados con desprecio e ignora cualquiera de los efectos de sus compañeros.",
           "abilityType": "Hidden"
         }
       ]
@@ -4298,7 +4298,7 @@
               "energyTooltip": "Energía: 25",
               "cooldownTooltip": "Tiempo de reutilización: 12 segundos",
               "shortTooltip": "Inflige daño y aturde a los enemigos en dos líneas",
-              "fullTooltip": "Crea una fisura de tierra que inflige 80 (+4% per level) de daño a los enemigos golpeados y los aturde durante 0.75 segundos.  Destructor: Embate Se lanza en una dirección.",
+              "fullTooltip": "Crea una fisura de tierra que inflige 80 (+4% per level) de daño a los enemigos golpeados y los aturde durante 0.75 segundos.<n/><n/>Destructor: Embate<n/>Se lanza en una dirección.",
               "abilityType": "E"
             }
           ]
@@ -5495,7 +5495,7 @@
             "countUse": 1
           },
           "shortTooltip": "Mata esbirros para sobornar a un mercenario",
-          "fullTooltip": "Los esbirros enemigos y mercenarios capturados que mueren cerca de los Vikingos perdidos otorgan acumulaciones de Soborno. Usa 40 acumulaciones para sobornar a un mercenario objetivo y derrotarlo de inmediato. No funciona con los mercenarios de élite. Máximo de acumulaciones disponibles: 200. Si se derrota un campamento exclusivamente con Sobornos, el campamento se regenera un 50% más rápido.  Cantidad actual de acumulaciones de Soborno: 0",
+          "fullTooltip": "Los esbirros enemigos y mercenarios capturados que mueren cerca de los Vikingos perdidos otorgan acumulaciones de Soborno. Usa 40 acumulaciones para sobornar a un mercenario objetivo y derrotarlo de inmediato. No funciona con los mercenarios de élite. Máximo de acumulaciones disponibles: 200. Si se derrota un campamento exclusivamente con Sobornos, el campamento se regenera un 50% más rápido.<n/><n/>Cantidad actual de acumulaciones de Soborno: 0",
           "abilityType": "E"
         }
       ],
@@ -5507,7 +5507,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Tiempo de reutilización: 80 segundos",
           "shortTooltip": "Revive e invoca vikingos",
-          "fullTooltip": "Invoca, sana por completo y revive a todos los Vikingos perdidos en la ubicación objetivo después de que un vikingo canaliza la habilidad durante 2 segundos.   Solo un vikingo puede intentar canalizar la invocación a la vez.",
+          "fullTooltip": "Invoca, sana por completo y revive a todos los Vikingos perdidos en la ubicación objetivo después de que un vikingo canaliza la habilidad durante 2 segundos. <n/><n/>Solo un vikingo puede intentar canalizar la invocación a la vez.",
           "abilityType": "Heroic"
         },
         {
@@ -5517,7 +5517,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Tiempo de reutilización: 90 segundos",
           "shortTooltip": "Sube a un drakkar para atacar a los enemigos",
-          "fullTooltip": "Salta a un drakkar imparable que dispara a los enemigos cercanos y les inflige 112 (+4% per level) de daño por segundo. El barco dispara un mortero que inflige 228 (+4% per level) de daño en un área.  El barco tiene más salud por cada Vikingo que lleva dentro. Si los enemigos destruyen el barco, los Vikingos quedan aturdidos durante 1 segundo. Dura 15 segundos.  Requiere que todos los vikingos sobrevivientes estén cerca.",
+          "fullTooltip": "Salta a un drakkar imparable que dispara a los enemigos cercanos y les inflige 112 (+4% per level) de daño por segundo. El barco dispara un mortero que inflige 228 (+4% per level) de daño en un área.  El barco tiene más salud por cada Vikingo que lleva dentro. Si los enemigos destruyen el barco, los Vikingos quedan aturdidos durante 1 segundo. Dura 15 segundos.<n/><n/>Requiere que todos los vikingos sobrevivientes estén cerca.",
           "abilityType": "Heroic"
         }
       ],
@@ -5528,7 +5528,7 @@
           "name": "Botín vikingo",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Recoge esferas de regeneración para aumentar la regeneración de salud",
-          "fullTooltip": "Si recoges una esfera de regeneración con un Vikingo, la regeneración de salud de todos los Vikingos aumenta en 0.5 por segundo.  Bonificación actual: 0 Regeneración por segundo",
+          "fullTooltip": "Si recoges una esfera de regeneración con un Vikingo, la regeneración de salud de todos los Vikingos aumenta en 0.5 por segundo.<n/><n/>Bonificación actual: 0 Regeneración por segundo",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -5746,7 +5746,7 @@
           "name": "Derrame de petróleo",
           "icon": "storm_ui_icon_blaze_oil.png",
           "cooldownTooltip": "Tiempo de reutilización: 6 segundos",
-          "fullTooltip": "Selección de objetivos con vector Lanza un Derrame de petróleo que ralentiza a los enemigos y que Blaze puede prender fuego.",
+          "fullTooltip": "Selección de objetivos con vector<n/>Lanza un Derrame de petróleo que ralentiza a los enemigos y que Blaze puede prender fuego.",
           "abilityType": "W"
         }
       ],
@@ -7121,7 +7121,7 @@
           "nameId": "TerroroftheGarden",
           "buttonId": "TerroroftheGarden",
           "icon": "storm_ui_icon_gardenterror_terrorofthegarden.png",
-          "fullTooltip": "Terror del jardín (atributo)  Imparable permanentemente.",
+          "fullTooltip": "Terror del jardín (atributo)<n/><n/>Imparable permanentemente.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -9327,7 +9327,7 @@
           "name": "Castigo",
           "icon": "storm_btn_d3_barbarian_leap.png",
           "shortTooltip": "Aturde a los enemigos que están en un área",
-          "fullTooltip": "Salta hacia la ubicación objetivo, inflige 1 de daño y aturde a los objetivos que están en el área del impacto durante 1 segundos.",
+          "fullTooltip": "Salta hacia la ubicación objetivo, inflige 1 de daño y aturde a los objetivos que están en el área del impacto durante 1 segundos.<n/><n/>",
           "abilityType": "Q"
         },
         {
@@ -9336,7 +9336,7 @@
           "name": "Obsesión",
           "icon": "storm_temp_war3_btnundeadunload.png",
           "cooldownTooltip": "Tiempo de reutilización: 10 segundos",
-          "fullTooltip": "Se obsesiona con el objetivo y monta en cólera. Aumenta la velocidad de movimiento un 100% y la velocidad de ataque un 0% durante 4 segundos. Durante este tiempo, el Castigador no puede recibir órdenes.  El Castigador queda aturdido durante 1 segundos cuando termina el efecto.",
+          "fullTooltip": "Se obsesiona con el objetivo y monta en cólera. Aumenta la velocidad de movimiento un 100% y la velocidad de ataque un 0% durante 4 segundos. Durante este tiempo, el Castigador no puede recibir órdenes.<n/><n/>El Castigador queda aturdido durante 1 segundos cuando termina el efecto.",
           "abilityType": "W"
         }
       ]
@@ -10730,7 +10730,7 @@
             "countUse": 1
           },
           "shortTooltip": "Mata esbirros para sobornar a un mercenario",
-          "fullTooltip": "Los esbirros enemigos y mercenarios capturados que mueren cerca de los Vikingos perdidos otorgan acumulaciones de Soborno. Usa 40 acumulaciones para sobornar a un mercenario objetivo y derrotarlo de inmediato. No funciona con los mercenarios de élite. Máximo de acumulaciones disponibles: 200. Si se derrota un campamento exclusivamente con Sobornos, el campamento se regenera un 50% más rápido.  Cantidad actual de acumulaciones de Soborno: 0",
+          "fullTooltip": "Los esbirros enemigos y mercenarios capturados que mueren cerca de los Vikingos perdidos otorgan acumulaciones de Soborno. Usa 40 acumulaciones para sobornar a un mercenario objetivo y derrotarlo de inmediato. No funciona con los mercenarios de élite. Máximo de acumulaciones disponibles: 200. Si se derrota un campamento exclusivamente con Sobornos, el campamento se regenera un 50% más rápido.<n/><n/>Cantidad actual de acumulaciones de Soborno: 0",
           "abilityType": "E"
         }
       ],
@@ -10742,7 +10742,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Tiempo de reutilización: 80 segundos",
           "shortTooltip": "Revive e invoca vikingos",
-          "fullTooltip": "Invoca, sana por completo y revive a todos los Vikingos perdidos en la ubicación objetivo después de que un vikingo canaliza la habilidad durante 2 segundos.   Solo un vikingo puede intentar canalizar la invocación a la vez.",
+          "fullTooltip": "Invoca, sana por completo y revive a todos los Vikingos perdidos en la ubicación objetivo después de que un vikingo canaliza la habilidad durante 2 segundos. <n/><n/>Solo un vikingo puede intentar canalizar la invocación a la vez.",
           "abilityType": "Heroic"
         },
         {
@@ -10752,7 +10752,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Tiempo de reutilización: 90 segundos",
           "shortTooltip": "Sube a un drakkar para atacar a los enemigos",
-          "fullTooltip": "Salta a un drakkar imparable que dispara a los enemigos cercanos y les inflige 112 (+4% per level) de daño por segundo. El barco dispara un mortero que inflige 228 (+4% per level) de daño en un área.  El barco tiene más salud por cada Vikingo que lleva dentro. Si los enemigos destruyen el barco, los Vikingos quedan aturdidos durante 1 segundo. Dura 15 segundos.  Requiere que todos los vikingos sobrevivientes estén cerca.",
+          "fullTooltip": "Salta a un drakkar imparable que dispara a los enemigos cercanos y les inflige 112 (+4% per level) de daño por segundo. El barco dispara un mortero que inflige 228 (+4% per level) de daño en un área.  El barco tiene más salud por cada Vikingo que lleva dentro. Si los enemigos destruyen el barco, los Vikingos quedan aturdidos durante 1 segundo. Dura 15 segundos.<n/><n/>Requiere que todos los vikingos sobrevivientes estén cerca.",
           "abilityType": "Heroic"
         }
       ],
@@ -10763,7 +10763,7 @@
           "name": "Botín vikingo",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Recoge esferas de regeneración para aumentar la regeneración de salud",
-          "fullTooltip": "Si recoges una esfera de regeneración con un Vikingo, la regeneración de salud de todos los Vikingos aumenta en 0.5 por segundo.  Bonificación actual: 0 Regeneración por segundo",
+          "fullTooltip": "Si recoges una esfera de regeneración con un Vikingo, la regeneración de salud de todos los Vikingos aumenta en 0.5 por segundo.<n/><n/>Bonificación actual: 0 Regeneración por segundo",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -12499,7 +12499,7 @@
           "energyTooltip": "Maná: 50",
           "cooldownTooltip": "Tiempo de reutilización: 6 segundos",
           "shortTooltip": "Efectúa un disparo e inflige una gran cantidad de daño al primer enemigo impactado",
-          "fullTooltip": "Inflige 230 (+4% per level) de daño al primer enemigo que golpea.  Pasivo: Siempre que golpeas a un héroe enemigo con Francotirar, el daño de la habilidad aumenta un 6%. Se acumula hasta un 30%. El daño se incrementa un 25% más cuando alcanzas el máximo de acumulaciones. Si Francotirar no impacta sobre un héroe enemigo, pierdes todas las acumulaciones.",
+          "fullTooltip": "Inflige 230 (+4% per level) de daño al primer enemigo que golpea.<n/><n/>Pasivo: Siempre que golpeas a un héroe enemigo con Francotirar, el daño de la habilidad aumenta un 6%. Se acumula hasta un 30%. El daño se incrementa un 25% más cuando alcanzas el máximo de acumulaciones. Si Francotirar no impacta sobre un héroe enemigo, pierdes todas las acumulaciones.",
           "abilityType": "Q"
         },
         {
@@ -12544,7 +12544,7 @@
           "icon": "storm_ui_icon_nova_personalcloaking.png",
           "cooldownTooltip": "Tiempo de reutilización: 3 segundos",
           "shortTooltip": "Entras en sigilo y te mueves más rápido mientras no estés atacando ni recibiendo daño.",
-          "fullTooltip": "Entras en sigilo cuando estás fuera de combate durante 3 segundos. Si recibes daño, atacas, utilizas o canalizas una habilidad, el sigilo se interrumpe. Permanecer inmóvil durante al menos 1.5 segundos en sigilo otorga invisibilidad.  Pasivo: Obtienes un 15% de velocidad de movimiento en sigilo.",
+          "fullTooltip": "Entras en sigilo cuando estás fuera de combate durante 3 segundos. Si recibes daño, atacas, utilizas o canalizas una habilidad, el sigilo se interrumpe. Permanecer inmóvil durante al menos 1.5 segundos en sigilo otorga invisibilidad.<n/><n/>Pasivo: Obtienes un 15% de velocidad de movimiento en sigilo.",
           "abilityType": "Hidden",
           "isActive": false
         }
@@ -12657,7 +12657,7 @@
             "countUse": 1
           },
           "shortTooltip": "Mata esbirros para sobornar a un mercenario",
-          "fullTooltip": "Los esbirros enemigos y mercenarios capturados que mueren cerca de los Vikingos perdidos otorgan acumulaciones de Soborno. Usa 40 acumulaciones para sobornar a un mercenario objetivo y derrotarlo de inmediato. No funciona con los mercenarios de élite. Máximo de acumulaciones disponibles: 200. Si se derrota un campamento exclusivamente con Sobornos, el campamento se regenera un 50% más rápido.  Cantidad actual de acumulaciones de Soborno: 0",
+          "fullTooltip": "Los esbirros enemigos y mercenarios capturados que mueren cerca de los Vikingos perdidos otorgan acumulaciones de Soborno. Usa 40 acumulaciones para sobornar a un mercenario objetivo y derrotarlo de inmediato. No funciona con los mercenarios de élite. Máximo de acumulaciones disponibles: 200. Si se derrota un campamento exclusivamente con Sobornos, el campamento se regenera un 50% más rápido.<n/><n/>Cantidad actual de acumulaciones de Soborno: 0",
           "abilityType": "E"
         }
       ],
@@ -12669,7 +12669,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Tiempo de reutilización: 80 segundos",
           "shortTooltip": "Revive e invoca vikingos",
-          "fullTooltip": "Invoca, sana por completo y revive a todos los Vikingos perdidos en la ubicación objetivo después de que un vikingo canaliza la habilidad durante 2 segundos.   Solo un vikingo puede intentar canalizar la invocación a la vez.",
+          "fullTooltip": "Invoca, sana por completo y revive a todos los Vikingos perdidos en la ubicación objetivo después de que un vikingo canaliza la habilidad durante 2 segundos. <n/><n/>Solo un vikingo puede intentar canalizar la invocación a la vez.",
           "abilityType": "Heroic"
         },
         {
@@ -12679,7 +12679,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Tiempo de reutilización: 90 segundos",
           "shortTooltip": "Sube a un drakkar para atacar a los enemigos",
-          "fullTooltip": "Salta a un drakkar imparable que dispara a los enemigos cercanos y les inflige 112 (+4% per level) de daño por segundo. El barco dispara un mortero que inflige 228 (+4% per level) de daño en un área.  El barco tiene más salud por cada Vikingo que lleva dentro. Si los enemigos destruyen el barco, los Vikingos quedan aturdidos durante 1 segundo. Dura 15 segundos.  Requiere que todos los vikingos sobrevivientes estén cerca.",
+          "fullTooltip": "Salta a un drakkar imparable que dispara a los enemigos cercanos y les inflige 112 (+4% per level) de daño por segundo. El barco dispara un mortero que inflige 228 (+4% per level) de daño en un área.  El barco tiene más salud por cada Vikingo que lleva dentro. Si los enemigos destruyen el barco, los Vikingos quedan aturdidos durante 1 segundo. Dura 15 segundos.<n/><n/>Requiere que todos los vikingos sobrevivientes estén cerca.",
           "abilityType": "Heroic"
         }
       ],
@@ -12690,7 +12690,7 @@
           "name": "Botín vikingo",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Recoge esferas de regeneración para aumentar la regeneración de salud",
-          "fullTooltip": "Si recoges una esfera de regeneración con un Vikingo, la regeneración de salud de todos los Vikingos aumenta en 0.5 por segundo.  Bonificación actual: 0 Regeneración por segundo",
+          "fullTooltip": "Si recoges una esfera de regeneración con un Vikingo, la regeneración de salud de todos los Vikingos aumenta en 0.5 por segundo.<n/><n/>Bonificación actual: 0 Regeneración por segundo",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -13589,7 +13589,7 @@
           "icon": "storm_ui_icon_ragnaros_moltenswing.png",
           "cooldownTooltip": "Tiempo de reutilización: 6 segundos",
           "shortTooltip": "Aturde y daña a los enemigos cercanos",
-          "fullTooltip": "Blandes Sulfuras en un arco amplio. Inflige 161 (+4% per level) de daño y aturde a los enemigos durante 1 segundo.  El daño aumenta un 25% contra esbirros, mercenarios y monstruos.",
+          "fullTooltip": "Blandes Sulfuras en un arco amplio. Inflige 161 (+4% per level) de daño y aturde a los enemigos durante 1 segundo.<n/><n/>El daño aumenta un 25% contra esbirros, mercenarios y monstruos.",
           "abilityType": "Q"
         },
         {
@@ -13599,7 +13599,7 @@
           "icon": "storm_ui_icon_ragnaros_meteorshower.png",
           "cooldownTooltip": "Tiempo de reutilización: 2.5 segundos",
           "shortTooltip": "Invoca una línea de meteoritos",
-          "fullTooltip": "Selección de objetivos con vector Invoca 3 meteoritos en la ubicación objetivo que ruedan en la dirección seleccionada. Cada meteorito inflige 151 (+4% per level) de daño y ralentiza a los enemigos un 25% durante 2 segundos.  El daño aumenta un 25% contra esbirros, mercenarios y monstruos.",
+          "fullTooltip": "Selección de objetivos con vector<n/>Invoca 3 meteoritos en la ubicación objetivo que ruedan en la dirección seleccionada. Cada meteorito inflige 151 (+4% per level) de daño y ralentiza a los enemigos un 25% durante 2 segundos.<n/><n/>El daño aumenta un 25% contra esbirros, mercenarios y monstruos.",
           "abilityType": "W"
         },
         {
@@ -13609,7 +13609,7 @@
           "icon": "storm_ui_icon_ragnaros_explosiverune.png",
           "cooldownTooltip": "Tiempo de reutilización: 4 segundos",
           "shortTooltip": "Provoca una explosión demorada en un área grande",
-          "fullTooltip": "Crea una runa que inflige 285 (+4% per level) de daño a los enemigos que no son estructuras después de 1.5 segundos.  El daño aumenta un 25% contra esbirros, mercenarios y monstruos.",
+          "fullTooltip": "Crea una runa que inflige 285 (+4% per level) de daño a los enemigos que no son estructuras después de 1.5 segundos.<n/><n/>El daño aumenta un 25% contra esbirros, mercenarios y monstruos.",
           "abilityType": "E"
         }
       ],
@@ -14124,7 +14124,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Tiempo de reutilización: 14 segundos",
           "shortTooltip": "Crea Reflejos exactos para confundir y atacar a los enemigos",
-          "fullTooltip": "Samuro se teletransporta una corta distancia en la dirección del cursor del mouse, crea 2 Reflejos exactos durante 8 segundos con un 100% de la salud actual de Samuro que infligen 11 (+4% per level) de daño a los enemigos con ataques básicos. La duración de los Reflejos se incrementa 1 segundo cada vez que estos o Samuro infligen daño a un héroe enemigo con ataques básicos. Siempre que un Reflejo reciba daño, este se infligirá esa cantidad de daño a sí mismo, lo que duplica efectivamente el daño que recibe.  Un máximo de 2 Reflejos exactos pueden estar activos al mismo tiempo. Usar Reflejo exacto elimina la mayoría de los efectos negativos de Samuro.",
+          "fullTooltip": "Samuro se teletransporta una corta distancia en la dirección del cursor del mouse, crea 2 Reflejos exactos durante 8 segundos con un 100% de la salud actual de Samuro que infligen 11 (+4% per level) de daño a los enemigos con ataques básicos. La duración de los Reflejos se incrementa 1 segundo cada vez que estos o Samuro infligen daño a un héroe enemigo con ataques básicos. Siempre que un Reflejo reciba daño, este se infligirá esa cantidad de daño a sí mismo, lo que duplica efectivamente el daño que recibe.<n/><n/>Un máximo de 2 Reflejos exactos pueden estar activos al mismo tiempo. Usar Reflejo exacto elimina la mayoría de los efectos negativos de Samuro.",
           "abilityType": "Q"
         }
       ],
@@ -14146,7 +14146,7 @@
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
           "cooldownTooltip": "Tiempo de reutilización: 8 segundos",
           "shortTooltip": "Los Reflejos exactos pueden controlarse",
-          "fullTooltip": "Los Reflejos exactos pueden controlarse de a uno o en grupo, y su daño se incrementa un 100%.   Pasivo: Se reduce el tiempo de reutilización de Transmisión de imagen a 8 segundos.",
+          "fullTooltip": "Los Reflejos exactos pueden controlarse de a uno o en grupo, y su daño se incrementa un 100%. <n/><n/>Pasivo: Se reduce el tiempo de reutilización de Transmisión de imagen a 8 segundos.",
           "abilityType": "Heroic"
         }
       ],
@@ -14158,7 +14158,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Tiempo de reutilización: 14 segundos",
           "shortTooltip": "Aumenta la velocidad de movimiento cuando atacas héroes",
-          "fullTooltip": "Activar para cambiar de posición con un Reflejo exacto objetivo y eliminar la mayoría de los efectos negativos de Samuro y del Reflejo exacto.  Avance ofensivo  Los ataques básicos contra héroes enemigos aumentan un 25% la velocidad de movimiento de Samuro durante 2 segundos.",
+          "fullTooltip": "Activar para cambiar de posición con un Reflejo exacto objetivo y eliminar la mayoría de los efectos negativos de Samuro y del Reflejo exacto.<n/><n/>Avance ofensivo<n/><n/>Los ataques básicos contra héroes enemigos aumentan un 25% la velocidad de movimiento de Samuro durante 2 segundos.",
           "abilityType": "Trait"
         }
       ],
@@ -14180,7 +14180,7 @@
           "name": "Seleccionar Reflejo exacto",
           "icon": "storm_temp_war3_btnmirrorimage.png",
           "shortTooltip": "Selecciona el Reflejo exacto",
-          "fullTooltip": "Selecciona el Reflejo exacto  Emite órdenes a un solo Reflejo exacto.",
+          "fullTooltip": "Selecciona el Reflejo exacto<n/><n/>Emite órdenes a un solo Reflejo exacto.",
           "abilityType": "Active"
         },
         {
@@ -14189,7 +14189,7 @@
           "name": "Seleccionar todo",
           "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
           "shortTooltip": "Selecciona a todos",
-          "fullTooltip": "Selecciona a todos  Emite órdenes para Samuro y todos los Reflejos exactos.",
+          "fullTooltip": "Selecciona a todos<n/><n/>Emite órdenes para Samuro y todos los Reflejos exactos.",
           "abilityType": "Active"
         }
       ],
@@ -14323,7 +14323,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Tiempo de reutilización: 14 segundos",
           "shortTooltip": "Aumenta la velocidad de movimiento cuando atacas héroes",
-          "fullTooltip": "Activar para cambiar de posición con un Reflejo exacto objetivo y eliminar la mayoría de los efectos negativos de Samuro y del Reflejo exacto.  Avance ofensivo  Los ataques básicos contra héroes enemigos aumentan un 25% la velocidad de movimiento de Samuro durante 2 segundos.",
+          "fullTooltip": "Activar para cambiar de posición con un Reflejo exacto objetivo y eliminar la mayoría de los efectos negativos de Samuro y del Reflejo exacto.<n/><n/>Avance ofensivo<n/><n/>Los ataques básicos contra héroes enemigos aumentan un 25% la velocidad de movimiento de Samuro durante 2 segundos.",
           "abilityType": "Hidden"
         },
         {
@@ -14333,7 +14333,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Tiempo de reutilización: 18 segundos",
           "shortTooltip": "Crea Reflejos exactos para confundir y atacar a los enemigos",
-          "fullTooltip": "Samuro se teletransporta una corta distancia en la dirección del cursor del mouse, crea 2 Reflejos exactos durante 8 segundos con un 100% de la salud actual de Samuro que infligen 11 (+4% per level) de daño a los enemigos con ataques básicos. La duración de los Reflejos se incrementa 1 segundo cada vez que estos o Samuro infligen daño a un héroe enemigo con ataques básicos. Siempre que un Reflejo reciba daño, este se infligirá esa cantidad de daño a sí mismo, lo que duplica efectivamente el daño que recibe.  Un máximo de 2 Reflejos exactos pueden estar activos al mismo tiempo. Usar Reflejo exacto elimina la mayoría de los efectos negativos de Samuro.",
+          "fullTooltip": "Samuro se teletransporta una corta distancia en la dirección del cursor del mouse, crea 2 Reflejos exactos durante 8 segundos con un 100% de la salud actual de Samuro que infligen 11 (+4% per level) de daño a los enemigos con ataques básicos. La duración de los Reflejos se incrementa 1 segundo cada vez que estos o Samuro infligen daño a un héroe enemigo con ataques básicos. Siempre que un Reflejo reciba daño, este se infligirá esa cantidad de daño a sí mismo, lo que duplica efectivamente el daño que recibe.<n/><n/>Un máximo de 2 Reflejos exactos pueden estar activos al mismo tiempo. Usar Reflejo exacto elimina la mayoría de los efectos negativos de Samuro.",
           "abilityType": "Hidden"
         },
         {
@@ -14350,7 +14350,7 @@
           },
           "cooldownTooltip": "Tiempo de reutilización: 10 segundos",
           "shortTooltip": "Inflige Golpes críticos con más daño",
-          "fullTooltip": "Si Samuro realiza un ataque básico en los siguientes 8 segundos, el ataque se convertirá en un Golpe crítico que inflige un 50% más de daño. Esto también se aplica a los Reflejos y no interrumpe Caminaviento.  Pasivo: Samuro y sus Reflejos infligen un Golpe crítico cada 4 ataques básicos.",
+          "fullTooltip": "Si Samuro realiza un ataque básico en los siguientes 8 segundos, el ataque se convertirá en un Golpe crítico que inflige un 50% más de daño. Esto también se aplica a los Reflejos y no interrumpe Caminaviento.<n/><n/>Pasivo: Samuro y sus Reflejos infligen un Golpe crítico cada 4 ataques básicos.",
           "abilityType": "Hidden"
         },
         {
@@ -14360,7 +14360,7 @@
           "icon": "storm_ui_icon_samuro_windwalk.png",
           "cooldownTooltip": "Tiempo de reutilización: 15 segundos",
           "shortTooltip": "Entras en sigilo y obtienes velocidad de movimiento",
-          "fullTooltip": "Otorga sigilo a Samuro durante un máximo de 10 segundos o hasta que él ataque, use una habilidad o reciba daño.  En sigilo, Samuro recupera un 1% de su salud máxima cada segundo, y su velocidad de movimiento se incrementa un 25% y él puede atravesar otras unidades. Permanecer inmóvil durante al menos 1.5 segundos en sigilo otorga invisibilidad.  Samuro no puede ser revelado durante el primer segundo tras el lanzamiento de Caminaviento.",
+          "fullTooltip": "Otorga sigilo a Samuro durante un máximo de 10 segundos o hasta que él ataque, use una habilidad o reciba daño.<n/><n/>En sigilo, Samuro recupera un 1% de su salud máxima cada segundo, y su velocidad de movimiento se incrementa un 25% y él puede atravesar otras unidades. Permanecer inmóvil durante al menos 1.5 segundos en sigilo otorga invisibilidad.<n/><n/>Samuro no puede ser revelado durante el primer segundo tras el lanzamiento de Caminaviento.",
           "abilityType": "Hidden"
         },
         {
@@ -14387,7 +14387,7 @@
           },
           "cooldownTooltip": "Tiempo de reutilización: 10 segundos",
           "shortTooltip": "Inflige Golpes críticos con más daño",
-          "fullTooltip": "Si Samuro realiza un ataque básico en los siguientes 8 segundos, el ataque se convertirá en un Golpe crítico que inflige un 50% más de daño. Esto también se aplica a los Reflejos y no interrumpe Caminaviento.  Pasivo: Samuro y sus Reflejos infligen un Golpe crítico cada 4 ataques básicos.",
+          "fullTooltip": "Si Samuro realiza un ataque básico en los siguientes 8 segundos, el ataque se convertirá en un Golpe crítico que inflige un 50% más de daño. Esto también se aplica a los Reflejos y no interrumpe Caminaviento.<n/><n/>Pasivo: Samuro y sus Reflejos infligen un Golpe crítico cada 4 ataques básicos.",
           "abilityType": "Hidden"
         },
         {
@@ -14398,7 +14398,7 @@
           "toggleCooldown": 0.5,
           "cooldownTooltip": "Tiempo de reutilización: 8 segundos",
           "shortTooltip": "Los Reflejos exactos pueden controlarse",
-          "fullTooltip": "Los Reflejos exactos pueden controlarse de a uno o en grupo, y su daño se incrementa un 100%.   Pasivo: Se reduce el tiempo de reutilización de Transmisión de imagen a 8 segundos.",
+          "fullTooltip": "Los Reflejos exactos pueden controlarse de a uno o en grupo, y su daño se incrementa un 100%. <n/><n/>Pasivo: Se reduce el tiempo de reutilización de Transmisión de imagen a 8 segundos.",
           "abilityType": "Hidden"
         }
       ]
@@ -15962,7 +15962,7 @@
           "energyTooltip": "Maná: 45",
           "cooldownTooltip": "Tiempo de reutilización: 10 segundos",
           "shortTooltip": "Lanza un martillo que aturde y daña al primer enemigo que golpea",
-          "fullTooltip": "Lanza un martillo que inflige 110 (+4% per level) de daño al primer enemigo golpeado y lo aturde durante 1.25 segundos.  Misión: Golpea a 25 héroes con Descarga tormentosa. Los héroes que mueren en un lapso de 2.5 segundos tras ser golpeados por Descarga tormentosa cuentan como 3 héroes adicionales golpeados.  Recompensa: Descarga tormentosa perfora para golpear a un objetivo adicional, y los ataques básicos de Muradin reducen el tiempo de reutilización de Descarga tormentosa 1 segundo.",
+          "fullTooltip": "Lanza un martillo que inflige 110 (+4% per level) de daño al primer enemigo golpeado y lo aturde durante 1.25 segundos.<n/><n/>Misión: Golpea a 25 héroes con Descarga tormentosa. Los héroes que mueren en un lapso de 2.5 segundos tras ser golpeados por Descarga tormentosa cuentan como 3 héroes adicionales golpeados.<n/><n/>Recompensa: Descarga tormentosa perfora para golpear a un objetivo adicional, y los ataques básicos de Muradin reducen el tiempo de reutilización de Descarga tormentosa 1 segundo.",
           "abilityType": "Q"
         },
         {
@@ -16097,7 +16097,7 @@
           "energyTooltip": "Maná: 70",
           "cooldownTooltip": "Tiempo de reutilización: 80 segundos",
           "shortTooltip": "Comen a los enemigos que están en el área",
-          "fullTooltip": "Invoca unas Fauces devoradoras que mastican a los enemigos durante 4 segundos. Los enemigos devorados no pueden pelear y reciben 94 (+4% per level) de daño por segundo.  Puede usarse en enemigos imparables.",
+          "fullTooltip": "Invoca unas Fauces devoradoras que mastican a los enemigos durante 4 segundos. Los enemigos devorados no pueden pelear y reciben 94 (+4% per level) de daño por segundo.<n/><n/>Puede usarse en enemigos imparables.",
           "abilityType": "W"
         },
         {
@@ -16160,7 +16160,7 @@
           "energyTooltip": "Maná: 20",
           "cooldownTooltip": "Tiempo de reutilización: 16 segundos",
           "shortTooltip": "Obtienes salud Obliga a un héroe a que ataque a Varian",
-          "fullTooltip": "Silencia a un héroe objetivo y lo obliga a atacar a Varian durante 1.25 segundos.  Pasivo: Aumenta un 40% la salud máxima y la regeneración de salud.",
+          "fullTooltip": "Silencia a un héroe objetivo y lo obliga a atacar a Varian durante 1.25 segundos.<n/><n/>Pasivo: Aumenta un 40% la salud máxima y la regeneración de salud.",
           "abilityType": "B"
         }
       ]
@@ -16175,7 +16175,7 @@
               "name": "Prisión del vacío - Cancelar",
               "icon": "hud_btn_bg_ability_cancel.png",
               "cooldownTooltip": "Tiempo de reutilización: 1.5 segundos",
-              "fullTooltip": "Cancela la habilidad Prisión del vacío.",
+              "fullTooltip": "<n/>Cancela la habilidad Prisión del vacío.",
               "abilityType": "Q"
             }
           ]
@@ -24493,7 +24493,7 @@
           "buttonId": "DragonKnightRubbleMaker",
           "name": "Escombrador",
           "icon": "storm_ui_icon_dragonknight_rubblemaker.png",
-          "fullTooltip": "Aumenta un 100% el daño a estructuras y esbirros. Reduce un 60% el daño que infligen las estructuras. Imparable permanentemente. El Caballero dragón explota cuando muere y repele a los enemigos cercanos.",
+          "fullTooltip": "Aumenta un 100% el daño a estructuras y esbirros.<n/>Reduce un 60% el daño que infligen las estructuras.<n/>Imparable permanentemente.<n/>El Caballero dragón explota cuando muere y repele a los enemigos cercanos.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -24710,7 +24710,7 @@
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Tiempo de reutilización: 8 segundos",
           "shortTooltip": "Arremete hacia un objetivo e inflige daño en un área",
-          "fullTooltip": "Arremete hacia un objetivo e inflige 160 de daño en un área.   Las unidades que no son héroes reciben un 500% más de daño.",
+          "fullTooltip": "Arremete hacia un objetivo e inflige 160 de daño en un área. <n/><n/>Las unidades que no son héroes reciben un 500% más de daño.",
           "abilityType": "Q"
         },
         {
@@ -24720,7 +24720,7 @@
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Tiempo de reutilización: 14 segundos",
           "shortTooltip": "Lanza un puño que inflige daño, arraiga a los héroes y deshabilita las torres",
-          "fullTooltip": "Lanza un Puño cohete que inflige 150 de daño al primer héroe o estructura en su camino. El puño empuja a los héroes durante un máximo de 2 segundos y desactiva estructuras durante 4 segundos.  Mata instantáneamente a los esbirros que encuentra en su camino.",
+          "fullTooltip": "Lanza un Puño cohete que inflige 150 de daño al primer héroe o estructura en su camino. El puño empuja a los héroes durante un máximo de 2 segundos y desactiva estructuras durante 4 segundos.<n/><n/>Mata instantáneamente a los esbirros que encuentra en su camino.",
           "abilityType": "W"
         },
         {
@@ -24808,7 +24808,7 @@
           "name": "Cargar",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Arremete hacia un objetivo e inflige daño en un área",
-          "fullTooltip": "Arremete hacia un objetivo e inflige 160 de daño en un área.   Las unidades que no son héroes reciben un 500% más de daño.",
+          "fullTooltip": "Arremete hacia un objetivo e inflige 160 de daño en un área. <n/><n/>Las unidades que no son héroes reciben un 500% más de daño.",
           "abilityType": "Hidden"
         },
         {
@@ -24817,7 +24817,7 @@
           "name": "Cargar",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Arremete hacia un objetivo e inflige daño en un área",
-          "fullTooltip": "Arremete hacia un objetivo e inflige 160 de daño en un área.   Las unidades que no son héroes reciben un 500% más de daño.",
+          "fullTooltip": "Arremete hacia un objetivo e inflige 160 de daño en un área. <n/><n/>Las unidades que no son héroes reciben un 500% más de daño.",
           "abilityType": "Hidden"
         },
         {
@@ -24826,7 +24826,7 @@
           "name": "Cargar",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Arremete hacia un objetivo e inflige daño en un área",
-          "fullTooltip": "Arremete hacia un objetivo e inflige 160 de daño en un área.   Las unidades que no son héroes reciben un 500% más de daño.",
+          "fullTooltip": "Arremete hacia un objetivo e inflige 160 de daño en un área. <n/><n/>Las unidades que no son héroes reciben un 500% más de daño.",
           "abilityType": "Hidden"
         }
       ]
@@ -24877,7 +24877,7 @@
           "icon": "storm_ui_icon_volskayarobot_tacticalstrikes.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Dispara una serie de proyectiles",
-          "fullTooltip": "Activa esta opción para disparar misiles en la ubicación del cursor. Cada misil inflige 38 de daño pero consume 1 de Energía. Vuelve a activar esta opción para dejar de disparar.  Inflige un 50% menos de daño a las estructuras.",
+          "fullTooltip": "Activa esta opción para disparar misiles en la ubicación del cursor. Cada misil inflige 38 de daño pero consume 1 de Energía. Vuelve a activar esta opción para dejar de disparar.<n/><n/>Inflige un 50% menos de daño a las estructuras.",
           "abilityType": "W"
         },
         {
@@ -24887,7 +24887,7 @@
           "icon": "storm_ui_icon_volskayarobot_skylaser.png",
           "cooldownTooltip": "Tiempo de reutilización: 10 segundos",
           "shortTooltip": "Inflige daño demorado en una línea",
-          "fullTooltip": "Selección de objetivos con vector Marca una línea en el terreno e inflige 60 de daño. Después de 1 segundo, explota e inflige 380 de daño.",
+          "fullTooltip": "Selección de objetivos con vector<n/>Marca una línea en el terreno e inflige 60 de daño. Después de 1 segundo, explota e inflige 380 de daño.",
           "abilityType": "E"
         }
       ],
@@ -25142,7 +25142,7 @@
           "name": "Carga",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Tiempo de reutilización: 8 segundos",
-          "fullTooltip": "Arremete hacia un objetivo e inflige 225 de daño en un área.   Las unidades que no son héroes reciben un 200% más de daño.",
+          "fullTooltip": "Arremete hacia un objetivo e inflige 225 de daño en un área. <n/><n/>Las unidades que no son héroes reciben un 200% más de daño.",
           "abilityType": "Q"
         },
         {
@@ -25151,7 +25151,7 @@
           "name": "Puño cohete",
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Tiempo de reutilización: 14 segundos",
-          "fullTooltip": "Lanza un Puño cohete que inflige 200 de daño al primer héroe o estructura en su camino. Repele y aturde a héroes durante 1.5 segundos y desactiva estructuras durante 4 segundos.  Mata instantáneamente a los esbirros que encuentra en su camino.",
+          "fullTooltip": "Lanza un Puño cohete que inflige 200 de daño al primer héroe o estructura en su camino. Repele y aturde a héroes durante 1.5 segundos y desactiva estructuras durante 4 segundos.<n/><n/>Mata instantáneamente a los esbirros que encuentra en su camino.",
           "abilityType": "W"
         },
         {
@@ -25237,7 +25237,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Carga",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Arremete hacia un objetivo e inflige 225 de daño en un área.   Las unidades que no son héroes reciben un 200% más de daño.",
+          "fullTooltip": "Arremete hacia un objetivo e inflige 225 de daño en un área. <n/><n/>Las unidades que no son héroes reciben un 200% más de daño.",
           "abilityType": "Hidden"
         },
         {
@@ -25245,7 +25245,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Carga",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Arremete hacia un objetivo e inflige 225 de daño en un área.   Las unidades que no son héroes reciben un 200% más de daño.",
+          "fullTooltip": "Arremete hacia un objetivo e inflige 225 de daño en un área. <n/><n/>Las unidades que no son héroes reciben un 200% más de daño.",
           "abilityType": "Hidden"
         },
         {
@@ -25253,7 +25253,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Carga",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Arremete hacia un objetivo e inflige 225 de daño en un área.   Las unidades que no son héroes reciben un 200% más de daño.",
+          "fullTooltip": "Arremete hacia un objetivo e inflige 225 de daño en un área. <n/><n/>Las unidades que no son héroes reciben un 200% más de daño.",
           "abilityType": "Hidden"
         }
       ]

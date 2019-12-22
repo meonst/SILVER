@@ -1372,7 +1372,7 @@
           "icon": "storm_ui_icon_azmodan_generalofhell.png",
           "cooldownTooltip": "Czas odnowienia: 7 sek.",
           "shortTooltip": "Przyzywa Porucznika Demonów dla stronników, najemników lub przywołańców",
-          "fullTooltip": "Azmodan przywołuje Porucznika Demonów przy sojuszniczym najemniku, stronniku lub innym przywołanym przez siebie demonie. Porucznik Demonów będzie co 7 sek. korzystać z Demonicznego Uderzenia, które zabija natychmiast wrogiego stronnika. Czas działania: 20 sek.  Z tej zdolności można korzystać w czasie podtrzymywania zdolności Wszyscy Spłoną.",
+          "fullTooltip": "Azmodan przywołuje Porucznika Demonów przy sojuszniczym najemniku, stronniku lub innym przywołanym przez siebie demonie. Porucznik Demonów będzie co 7 sek. korzystać z Demonicznego Uderzenia, które zabija natychmiast wrogiego stronnika. Czas działania: 20 sek.<n/><n/>Z tej zdolności można korzystać w czasie podtrzymywania zdolności Wszyscy Spłoną.",
           "abilityType": "Hidden"
         }
       ]
@@ -1503,7 +1503,7 @@
             "countUse": 1
           },
           "shortTooltip": "Zabijaj stronników, aby przekupić najemników",
-          "fullTooltip": "Wrodzy stronnicy oraz przejęci najemnicy zabici w pobliżu Zaginionych Wikingów zapewniają poziomy kumulacji Łapówki. Można użyć 40 poziomów kumulacji, aby przekupić najemnika i natychmiast go pokonać. Nie działa na najemników elitarnych. Maksymalna liczba poziomów kumulacji to 200. Jeśli obóz najemników zostanie przejęty wyłącznie z użyciem Łapówki, pojawi się ponownie o 50% szybciej.  Aktualna liczba poziomów kumulacji Łapówki: 0.",
+          "fullTooltip": "Wrodzy stronnicy oraz przejęci najemnicy zabici w pobliżu Zaginionych Wikingów zapewniają poziomy kumulacji Łapówki. Można użyć 40 poziomów kumulacji, aby przekupić najemnika i natychmiast go pokonać. Nie działa na najemników elitarnych. Maksymalna liczba poziomów kumulacji to 200. Jeśli obóz najemników zostanie przejęty wyłącznie z użyciem Łapówki, pojawi się ponownie o 50% szybciej.<n/><n/>Aktualna liczba poziomów kumulacji Łapówki: 0.",
           "abilityType": "E"
         }
       ],
@@ -1515,7 +1515,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Czas odnowienia: 80 sek.",
           "shortTooltip": "Ożywia i przyzywa Wikingów",
-          "fullTooltip": "Podtrzymanie zdolności przez 2 sek., przywraca do życia wszystkich Zaginionych Wikingów, leczy ich do pełni zdrowia i przyzywa ich w wybrane miejsce.   Tylko jeden Wiking może w danym momencie podjąć próbę przyzwania.",
+          "fullTooltip": "Podtrzymanie zdolności przez 2 sek., przywraca do życia wszystkich Zaginionych Wikingów, leczy ich do pełni zdrowia i przyzywa ich w wybrane miejsce. <n/><n/>Tylko jeden Wiking może w danym momencie podjąć próbę przyzwania.",
           "abilityType": "Heroic"
         },
         {
@@ -1525,7 +1525,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Czas odnowienia: 90 sek.",
           "shortTooltip": "Wikingowie atakują wrogów z pokładu drakkara",
-          "fullTooltip": "Wikingowie wskakują na pokład nieustępliwego drakkara, który otwiera ogień do pobliskich wrogów, zadając im 112 (+4% per level) pkt. obrażeń na sek. oraz może wystrzelić pocisk moździerzowy, który zadaje 228 (+4% per level) pkt. obrażeń obszarowych. Wytrzymałość drakkara zwiększa się za każdego Wikinga znajdującego się na pokładzie. Jeśli wrogom uda się zniszczyć drakkar, wszyscy Wikingowie zostają ogłuszeni na 1 sek. Czas działania: 15 sek.  Wymaga obecności w pobliżu wszystkich pozostających przy życiu Wikingów.",
+          "fullTooltip": "Wikingowie wskakują na pokład nieustępliwego drakkara, który otwiera ogień do pobliskich wrogów, zadając im 112 (+4% per level) pkt. obrażeń na sek. oraz może wystrzelić pocisk moździerzowy, który zadaje 228 (+4% per level) pkt. obrażeń obszarowych. Wytrzymałość drakkara zwiększa się za każdego Wikinga znajdującego się na pokładzie. Jeśli wrogom uda się zniszczyć drakkar, wszyscy Wikingowie zostają ogłuszeni na 1 sek. Czas działania: 15 sek.<n/><n/>Wymaga obecności w pobliżu wszystkich pozostających przy życiu Wikingów.",
           "abilityType": "Heroic"
         }
       ],
@@ -1536,7 +1536,7 @@
           "name": "Skarb Wikingów",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Kule Regeneracji zwiększają regenerację zdrowia",
-          "fullTooltip": "Zebranie Kuli Regeneracji Wikingiem zapewnia stałą premię 0.5 pkt. na sekundę do regeneracji zdrowia całej trójki.  Aktualna premia: 0 pkt. na sekundę",
+          "fullTooltip": "Zebranie Kuli Regeneracji Wikingiem zapewnia stałą premię 0.5 pkt. na sekundę do regeneracji zdrowia całej trójki.<n/><n/>Aktualna premia: 0 pkt. na sekundę",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -3681,7 +3681,7 @@
           "energyTooltip": "Mana: 0",
           "cooldownTooltip": "Czas odnowienia: 3 sek.",
           "shortTooltip": "Wyzwala długodystansowy podmuch, który rani przeciwnika",
-          "fullTooltip": "Po upływie 0.5 sek. Chronia wystrzeliwuje pocisk, który zadaje pierwszemu trafionemu przeciwnikowi 305 (+4% per level) pkt. obrażeń. Zadaje 50% obrażeń budowlom.  Użycie Piaskowego Podmuchu powoduje powstanie Echa, które będzie naśladować Chronię podczas korzystania z Piaskowego Podmuchu i wykonywania ataków podstawowych, zadając przy tym 40% obrażeń. Jednocześnie może być aktywne maksymalnie 1 Echo.",
+          "fullTooltip": "Po upływie 0.5 sek. Chronia wystrzeliwuje pocisk, który zadaje pierwszemu trafionemu przeciwnikowi 305 (+4% per level) pkt. obrażeń. Zadaje 50% obrażeń budowlom.<n/><n/>Użycie Piaskowego Podmuchu powoduje powstanie Echa, które będzie naśladować Chronię podczas korzystania z Piaskowego Podmuchu i wykonywania ataków podstawowych, zadając przy tym 40% obrażeń. Jednocześnie może być aktywne maksymalnie 1 Echo.",
           "abilityType": "Q"
         }
       ]
@@ -3978,7 +3978,7 @@
           "energyTooltip": "Energia: 15",
           "cooldownTooltip": "Czas odnowienia: 4 sek.",
           "shortTooltip": "Zadaje obrażenia wrogom w pobliżu Śmiercioskrzydłego",
-          "fullTooltip": "Po upływie 0.75 sek. Śmiercioskrzydły uderza skrzydłami i zadaje pobliskim przeciwnikom 80 (+4% per level) pkt. obrażeń.  Pustoszyciel Światów: Eksplozja Lawy Tworzy jezioro lawy, które zadaje przeciwnikom obrażenia i spowalnia ich",
+          "fullTooltip": "Po upływie 0.75 sek. Śmiercioskrzydły uderza skrzydłami i zadaje pobliskim przeciwnikom 80 (+4% per level) pkt. obrażeń.<n/><n/>Pustoszyciel Światów: Eksplozja Lawy<n/>Tworzy jezioro lawy, które zadaje przeciwnikom obrażenia i spowalnia ich",
           "abilityType": "W"
         },
         {
@@ -3994,7 +3994,7 @@
           },
           "cooldownTooltip": "Czas odnowienia ładunku: 10 sek.",
           "shortTooltip": "Ciskanie meteorytami jest możliwe podczas Smoczego Lotu",
-          "fullTooltip": "Po upływie 0.8 sek. z nieba spada meteoryt, który zadaje 58 (+4% per level) pkt. obrażeń przeciwnikom znajdującym się na danym obszarze.  Jeśli trafiony zostanie bohater, Śmiercioskrzydły odzyska 3% maksymalnego zdrowia, a czasy odnowienia przy lądowaniu zostają skrócone o 1.5 sek.",
+          "fullTooltip": "Po upływie 0.8 sek. z nieba spada meteoryt, który zadaje 58 (+4% per level) pkt. obrażeń przeciwnikom znajdującym się na danym obszarze.<n/><n/>Jeśli trafiony zostanie bohater, Śmiercioskrzydły odzyska 3% maksymalnego zdrowia, a czasy odnowienia przy lądowaniu zostają skrócone o 1.5 sek.",
           "abilityType": "E"
         },
         {
@@ -4005,7 +4005,7 @@
           "energyTooltip": "Energia: 20",
           "cooldownTooltip": "Czas odnowienia: 5 sek.",
           "shortTooltip": "Śmiercioskrzydły rzuca się do boju",
-          "fullTooltip": "Po upływie 0.5 sek. Śmiercioskrzydły rzuca się w wybranym kierunku i zadaje przeciwnikom 40 (+4% per level) pkt. obrażeń, a także spowalnia ich o 35% na 2 sek. Po wykonaniu natarcia Śmiercioskrzydły gryzie przeciwników i zadaje im dodatkowo 75 (+4% per level) pkt. obrażeń.  Pustoszyciel Światów: Strzaskana Ziemia Rani przeciwników w dwóch liniach i ogłusza ich",
+          "fullTooltip": "Po upływie 0.5 sek. Śmiercioskrzydły rzuca się w wybranym kierunku i zadaje przeciwnikom 40 (+4% per level) pkt. obrażeń, a także spowalnia ich o 35% na 2 sek. Po wykonaniu natarcia Śmiercioskrzydły gryzie przeciwników i zadaje im dodatkowo 75 (+4% per level) pkt. obrażeń.<n/><n/>Pustoszyciel Światów: Strzaskana Ziemia<n/>Rani przeciwników w dwóch liniach i ogłusza ich",
           "abilityType": "E"
         }
       ],
@@ -4028,7 +4028,7 @@
           "name": "Aspekt Śmierci",
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "shortTooltip": "Śmiercioskrzydły jest przepotężny, ale ignoruje wszystkie przyjazne efekty",
-          "fullTooltip": "Śmiercioskrzydły posiada płyty pancerza (4), z których każda zapewnia 10 pkt. pancerza. Za każdym razem, gdy zdrowie Śmiercioskrzydłego spadnie o 25%, traci on jedną płytę pancerza. Płyty można odzyskać wyłącznie po użyciu Smoczego Lotu (w oparciu o ilość zdrowia, którą dysponuje Śmiercioskrzydły przy lądowaniu).  Śmiercioskrzydły to również potężny Smoczy Aspekt, który dysponuje na stałe nieustępliwością i zadaje bohaterom dodatkowo 100% obrażeń od zaklęć, lecz pogardza on swoimi sojusznikami, dlatego też ignoruje wszystkie przyjazne efekty.",
+          "fullTooltip": "Śmiercioskrzydły posiada płyty pancerza (4), z których każda zapewnia 10 pkt. pancerza. Za każdym razem, gdy zdrowie Śmiercioskrzydłego spadnie o 25%, traci on jedną płytę pancerza. Płyty można odzyskać wyłącznie po użyciu Smoczego Lotu (w oparciu o ilość zdrowia, którą dysponuje Śmiercioskrzydły przy lądowaniu).<n/><n/>Śmiercioskrzydły to również potężny Smoczy Aspekt, który dysponuje na stałe nieustępliwością i zadaje bohaterom dodatkowo 100% obrażeń od zaklęć, lecz pogardza on swoimi sojusznikami, dlatego też ignoruje wszystkie przyjazne efekty.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -4053,7 +4053,7 @@
           "name": "Zmiana Postaci",
           "icon": "storm_ui_icon_deathwing_deathdrop.png",
           "cooldownTooltip": "Czas odnowienia: 20 sek.",
-          "fullTooltip": "Śmiercioskrzydły może przybrać postać Niszczyciela lub Pustoszyciela Światów. Każda z nich zapewnia mu dostęp do dwóch niepowtarzalnych zdolności podstawowych.  Palący Podmuch rani przeciwników wokół Śmiercioskrzydłego, a Natarcie umożliwia mu rzucenie się do ataku na wrogów.  Eksplozja Lawy tworzy na ziemi strefę spowolnienia, zaś Strzaskana Ziemia ogłusza przeciwników ustawionych wzdłuż dwóch linii.",
+          "fullTooltip": "Śmiercioskrzydły może przybrać postać Niszczyciela lub Pustoszyciela Światów. Każda z nich zapewnia mu dostęp do dwóch niepowtarzalnych zdolności podstawowych.<n/><n/>Palący Podmuch rani przeciwników wokół Śmiercioskrzydłego, a Natarcie umożliwia mu rzucenie się do ataku na wrogów.<n/><n/>Eksplozja Lawy tworzy na ziemi strefę spowolnienia, zaś Strzaskana Ziemia ogłusza przeciwników ustawionych wzdłuż dwóch linii.",
           "abilityType": "Active"
         }
       ],
@@ -4194,7 +4194,7 @@
           "energyTooltip": "Energia: 20",
           "cooldownTooltip": "Czas odnowienia: 6 sek.",
           "shortTooltip": "Tworzy jezioro lawy, które zadaje przeciwnikom obrażenia i ich spowalnia",
-          "fullTooltip": "Po upływie 1 sek. Śmiercioskrzydły zadaje wszystkim przeciwnikom znajdującym się na wskazanym obszarze 30 (+4% per level) pkt. obrażeń i tworzy jezioro lawy, które zadaje 16 (+4% per level) pkt. obrażeń na sekundę i spowalnia wrogów o 35%. Czas działania: 6 sek.  Niszczyciel: Palący Podmuch Zadaje obrażenia przeciwnikom w pobliżu Śmiercioskrzydłego",
+          "fullTooltip": "Po upływie 1 sek. Śmiercioskrzydły zadaje wszystkim przeciwnikom znajdującym się na wskazanym obszarze 30 (+4% per level) pkt. obrażeń i tworzy jezioro lawy, które zadaje 16 (+4% per level) pkt. obrażeń na sekundę i spowalnia wrogów o 35%. Czas działania: 6 sek.<n/><n/>Niszczyciel: Palący Podmuch<n/>Zadaje obrażenia przeciwnikom w pobliżu Śmiercioskrzydłego",
           "abilityType": "Hidden"
         },
         {
@@ -4219,7 +4219,7 @@
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "cooldownTooltip": "Czas odnowienia: 20 sek.",
           "shortTooltip": "Śmiercioskrzydły jest przepotężny, ale ignoruje wszystkie przyjazne efekty",
-          "fullTooltip": "Śmiercioskrzydły posiada płyty pancerza (4), z których każda zapewnia 10 pkt. pancerza. Za każdym razem, gdy zdrowie Śmiercioskrzydłego spadnie o 25%, traci on jedną płytę pancerza. Płyty można odzyskać wyłącznie po użyciu Smoczego Lotu (w oparciu o ilość zdrowia, którą dysponuje Śmiercioskrzydły przy lądowaniu).  Śmiercioskrzydły to również potężny Smoczy Aspekt, który dysponuje na stałe nieustępliwością i zadaje bohaterom dodatkowo 100% obrażeń od zaklęć, lecz pogardza on swoimi sojusznikami, dlatego też ignoruje wszystkie przyjazne efekty.",
+          "fullTooltip": "Śmiercioskrzydły posiada płyty pancerza (4), z których każda zapewnia 10 pkt. pancerza. Za każdym razem, gdy zdrowie Śmiercioskrzydłego spadnie o 25%, traci on jedną płytę pancerza. Płyty można odzyskać wyłącznie po użyciu Smoczego Lotu (w oparciu o ilość zdrowia, którą dysponuje Śmiercioskrzydły przy lądowaniu).<n/><n/>Śmiercioskrzydły to również potężny Smoczy Aspekt, który dysponuje na stałe nieustępliwością i zadaje bohaterom dodatkowo 100% obrażeń od zaklęć, lecz pogardza on swoimi sojusznikami, dlatego też ignoruje wszystkie przyjazne efekty.",
           "abilityType": "Hidden"
         }
       ]
@@ -4298,7 +4298,7 @@
               "energyTooltip": "Energia: 25",
               "cooldownTooltip": "Czas odnowienia: 12 sek.",
               "shortTooltip": "Rani przeciwników w dwóch liniach i ogłusza ich",
-              "fullTooltip": "Tworzy w ziemi rozpadlinę, która zadaje trafionym przeciwnikom 80 (+4% per level) pkt. obrażeń i ogłusza ich na 0.75 sek.  Niszczyciel: Natarcie Śmiercioskrzydły rzuca się w wybranym kierunku.",
+              "fullTooltip": "Tworzy w ziemi rozpadlinę, która zadaje trafionym przeciwnikom 80 (+4% per level) pkt. obrażeń i ogłusza ich na 0.75 sek.<n/><n/>Niszczyciel: Natarcie<n/>Śmiercioskrzydły rzuca się w wybranym kierunku.",
               "abilityType": "E"
             }
           ]
@@ -5495,7 +5495,7 @@
             "countUse": 1
           },
           "shortTooltip": "Zabijaj stronników, aby przekupić najemników",
-          "fullTooltip": "Wrodzy stronnicy oraz przejęci najemnicy zabici w pobliżu Zaginionych Wikingów zapewniają poziomy kumulacji Łapówki. Można użyć 40 poziomów kumulacji, aby przekupić najemnika i natychmiast go pokonać. Nie działa na najemników elitarnych. Maksymalna liczba poziomów kumulacji to 200. Jeśli obóz najemników zostanie przejęty wyłącznie z użyciem Łapówki, pojawi się ponownie o 50% szybciej.  Aktualna liczba poziomów kumulacji Łapówki: 0.",
+          "fullTooltip": "Wrodzy stronnicy oraz przejęci najemnicy zabici w pobliżu Zaginionych Wikingów zapewniają poziomy kumulacji Łapówki. Można użyć 40 poziomów kumulacji, aby przekupić najemnika i natychmiast go pokonać. Nie działa na najemników elitarnych. Maksymalna liczba poziomów kumulacji to 200. Jeśli obóz najemników zostanie przejęty wyłącznie z użyciem Łapówki, pojawi się ponownie o 50% szybciej.<n/><n/>Aktualna liczba poziomów kumulacji Łapówki: 0.",
           "abilityType": "E"
         }
       ],
@@ -5507,7 +5507,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Czas odnowienia: 80 sek.",
           "shortTooltip": "Ożywia i przyzywa Wikingów",
-          "fullTooltip": "Podtrzymanie zdolności przez 2 sek., przywraca do życia wszystkich Zaginionych Wikingów, leczy ich do pełni zdrowia i przyzywa ich w wybrane miejsce.   Tylko jeden Wiking może w danym momencie podjąć próbę przyzwania.",
+          "fullTooltip": "Podtrzymanie zdolności przez 2 sek., przywraca do życia wszystkich Zaginionych Wikingów, leczy ich do pełni zdrowia i przyzywa ich w wybrane miejsce. <n/><n/>Tylko jeden Wiking może w danym momencie podjąć próbę przyzwania.",
           "abilityType": "Heroic"
         },
         {
@@ -5517,7 +5517,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Czas odnowienia: 90 sek.",
           "shortTooltip": "Wikingowie atakują wrogów z pokładu drakkara",
-          "fullTooltip": "Wikingowie wskakują na pokład nieustępliwego drakkara, który otwiera ogień do pobliskich wrogów, zadając im 112 (+4% per level) pkt. obrażeń na sek. oraz może wystrzelić pocisk moździerzowy, który zadaje 228 (+4% per level) pkt. obrażeń obszarowych. Wytrzymałość drakkara zwiększa się za każdego Wikinga znajdującego się na pokładzie. Jeśli wrogom uda się zniszczyć drakkar, wszyscy Wikingowie zostają ogłuszeni na 1 sek. Czas działania: 15 sek.  Wymaga obecności w pobliżu wszystkich pozostających przy życiu Wikingów.",
+          "fullTooltip": "Wikingowie wskakują na pokład nieustępliwego drakkara, który otwiera ogień do pobliskich wrogów, zadając im 112 (+4% per level) pkt. obrażeń na sek. oraz może wystrzelić pocisk moździerzowy, który zadaje 228 (+4% per level) pkt. obrażeń obszarowych. Wytrzymałość drakkara zwiększa się za każdego Wikinga znajdującego się na pokładzie. Jeśli wrogom uda się zniszczyć drakkar, wszyscy Wikingowie zostają ogłuszeni na 1 sek. Czas działania: 15 sek.<n/><n/>Wymaga obecności w pobliżu wszystkich pozostających przy życiu Wikingów.",
           "abilityType": "Heroic"
         }
       ],
@@ -5528,7 +5528,7 @@
           "name": "Skarb Wikingów",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Kule Regeneracji zwiększają regenerację zdrowia",
-          "fullTooltip": "Zebranie Kuli Regeneracji Wikingiem zapewnia stałą premię 0.5 pkt. na sekundę do regeneracji zdrowia całej trójki.  Aktualna premia: 0 pkt. na sekundę",
+          "fullTooltip": "Zebranie Kuli Regeneracji Wikingiem zapewnia stałą premię 0.5 pkt. na sekundę do regeneracji zdrowia całej trójki.<n/><n/>Aktualna premia: 0 pkt. na sekundę",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -5746,7 +5746,7 @@
           "name": "Plama Oleju",
           "icon": "storm_ui_icon_blaze_oil.png",
           "cooldownTooltip": "Czas odnowienia: 6 sek.",
-          "fullTooltip": "Celowanie wektorowe Rozlewa plamę oleju, która spowalnia wrogów i którą Pożarsky może podpalić.",
+          "fullTooltip": "Celowanie wektorowe<n/>Rozlewa plamę oleju, która spowalnia wrogów i którą Pożarsky może podpalić.",
           "abilityType": "W"
         }
       ],
@@ -7121,7 +7121,7 @@
           "nameId": "TerroroftheGarden",
           "buttonId": "TerroroftheGarden",
           "icon": "storm_ui_icon_gardenterror_terrorofthegarden.png",
-          "fullTooltip": "Koszmar z Ogrodu (Cecha)  Stała nieustępliwość.",
+          "fullTooltip": "Koszmar z Ogrodu (Cecha)<n/><n/>Stała nieustępliwość.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -9327,7 +9327,7 @@
           "name": "Kara",
           "icon": "storm_btn_d3_barbarian_leap.png",
           "shortTooltip": "Ogłuszasz wrogów na danym obszarze",
-          "fullTooltip": "Pogromca skacze w wybrane miejsce, zadając 1 pkt. obrażeń i ogłuszając cele w polu rażenia na 1 sek.",
+          "fullTooltip": "Pogromca skacze w wybrane miejsce, zadając 1 pkt. obrażeń i ogłuszając cele w polu rażenia na 1 sek.<n/><n/>",
           "abilityType": "Q"
         },
         {
@@ -9336,7 +9336,7 @@
           "name": "Wyznacz cel",
           "icon": "storm_temp_war3_btnundeadunload.png",
           "cooldownTooltip": "Czas odnowienia: 10 sek.",
-          "fullTooltip": "Pogromca skupia się na wyznaczonym celu, wpada w szał i otrzymuje premie 100% do szybkości ruchu oraz 0% do szybkości ataku na 4 sek. W tym czasie nie można wydawać Pogromcy żadnych rozkazów.  Po zakończeniu tego efektu Pogromca zostaje ogłuszony na 1 sek.",
+          "fullTooltip": "Pogromca skupia się na wyznaczonym celu, wpada w szał i otrzymuje premie 100% do szybkości ruchu oraz 0% do szybkości ataku na 4 sek. W tym czasie nie można wydawać Pogromcy żadnych rozkazów.<n/><n/>Po zakończeniu tego efektu Pogromca zostaje ogłuszony na 1 sek.",
           "abilityType": "W"
         }
       ]
@@ -10730,7 +10730,7 @@
             "countUse": 1
           },
           "shortTooltip": "Zabijaj stronników, aby przekupić najemników",
-          "fullTooltip": "Wrodzy stronnicy oraz przejęci najemnicy zabici w pobliżu Zaginionych Wikingów zapewniają poziomy kumulacji Łapówki. Można użyć 40 poziomów kumulacji, aby przekupić najemnika i natychmiast go pokonać. Nie działa na najemników elitarnych. Maksymalna liczba poziomów kumulacji to 200. Jeśli obóz najemników zostanie przejęty wyłącznie z użyciem Łapówki, pojawi się ponownie o 50% szybciej.  Aktualna liczba poziomów kumulacji Łapówki: 0.",
+          "fullTooltip": "Wrodzy stronnicy oraz przejęci najemnicy zabici w pobliżu Zaginionych Wikingów zapewniają poziomy kumulacji Łapówki. Można użyć 40 poziomów kumulacji, aby przekupić najemnika i natychmiast go pokonać. Nie działa na najemników elitarnych. Maksymalna liczba poziomów kumulacji to 200. Jeśli obóz najemników zostanie przejęty wyłącznie z użyciem Łapówki, pojawi się ponownie o 50% szybciej.<n/><n/>Aktualna liczba poziomów kumulacji Łapówki: 0.",
           "abilityType": "E"
         }
       ],
@@ -10742,7 +10742,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Czas odnowienia: 80 sek.",
           "shortTooltip": "Ożywia i przyzywa Wikingów",
-          "fullTooltip": "Podtrzymanie zdolności przez 2 sek., przywraca do życia wszystkich Zaginionych Wikingów, leczy ich do pełni zdrowia i przyzywa ich w wybrane miejsce.   Tylko jeden Wiking może w danym momencie podjąć próbę przyzwania.",
+          "fullTooltip": "Podtrzymanie zdolności przez 2 sek., przywraca do życia wszystkich Zaginionych Wikingów, leczy ich do pełni zdrowia i przyzywa ich w wybrane miejsce. <n/><n/>Tylko jeden Wiking może w danym momencie podjąć próbę przyzwania.",
           "abilityType": "Heroic"
         },
         {
@@ -10752,7 +10752,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Czas odnowienia: 90 sek.",
           "shortTooltip": "Wikingowie atakują wrogów z pokładu drakkara",
-          "fullTooltip": "Wikingowie wskakują na pokład nieustępliwego drakkara, który otwiera ogień do pobliskich wrogów, zadając im 112 (+4% per level) pkt. obrażeń na sek. oraz może wystrzelić pocisk moździerzowy, który zadaje 228 (+4% per level) pkt. obrażeń obszarowych. Wytrzymałość drakkara zwiększa się za każdego Wikinga znajdującego się na pokładzie. Jeśli wrogom uda się zniszczyć drakkar, wszyscy Wikingowie zostają ogłuszeni na 1 sek. Czas działania: 15 sek.  Wymaga obecności w pobliżu wszystkich pozostających przy życiu Wikingów.",
+          "fullTooltip": "Wikingowie wskakują na pokład nieustępliwego drakkara, który otwiera ogień do pobliskich wrogów, zadając im 112 (+4% per level) pkt. obrażeń na sek. oraz może wystrzelić pocisk moździerzowy, który zadaje 228 (+4% per level) pkt. obrażeń obszarowych. Wytrzymałość drakkara zwiększa się za każdego Wikinga znajdującego się na pokładzie. Jeśli wrogom uda się zniszczyć drakkar, wszyscy Wikingowie zostają ogłuszeni na 1 sek. Czas działania: 15 sek.<n/><n/>Wymaga obecności w pobliżu wszystkich pozostających przy życiu Wikingów.",
           "abilityType": "Heroic"
         }
       ],
@@ -10763,7 +10763,7 @@
           "name": "Skarb Wikingów",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Kule Regeneracji zwiększają regenerację zdrowia",
-          "fullTooltip": "Zebranie Kuli Regeneracji Wikingiem zapewnia stałą premię 0.5 pkt. na sekundę do regeneracji zdrowia całej trójki.  Aktualna premia: 0 pkt. na sekundę",
+          "fullTooltip": "Zebranie Kuli Regeneracji Wikingiem zapewnia stałą premię 0.5 pkt. na sekundę do regeneracji zdrowia całej trójki.<n/><n/>Aktualna premia: 0 pkt. na sekundę",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -12499,7 +12499,7 @@
           "energyTooltip": "Mana: 50",
           "cooldownTooltip": "Czas odnowienia: 6 sek.",
           "shortTooltip": "Wystrzeliwuje pocisk, który zadaje dotkliwe obrażenia pierwszemu trafionemu przeciwnikowi",
-          "fullTooltip": "Zadaje pierwszemu trafionemu przeciwnikowi 230 (+4% per level) pkt. obrażeń.  Działanie pasywne: Każde trafienie wrogiego bohatera Strzałem Snajperskim na stałe zwiększa obrażenia Strzału Snajperskiego o 6%, maksymalnie do 30%. Kiedy Nova osiągnie maksymalny poziom kumulacji, obrażenia te wzrastają dodatkowo o 25%. Jeśli Strzał Snajperski nie trafi wroga, Nova straci wszystkie poziomy kumulacji.",
+          "fullTooltip": "Zadaje pierwszemu trafionemu przeciwnikowi 230 (+4% per level) pkt. obrażeń.<n/><n/>Działanie pasywne: Każde trafienie wrogiego bohatera Strzałem Snajperskim na stałe zwiększa obrażenia Strzału Snajperskiego o 6%, maksymalnie do 30%. Kiedy Nova osiągnie maksymalny poziom kumulacji, obrażenia te wzrastają dodatkowo o 25%. Jeśli Strzał Snajperski nie trafi wroga, Nova straci wszystkie poziomy kumulacji.",
           "abilityType": "Q"
         },
         {
@@ -12544,7 +12544,7 @@
           "icon": "storm_ui_icon_nova_personalcloaking.png",
           "cooldownTooltip": "Czas odnowienia: 3 sek.",
           "shortTooltip": "Nova zyskuje ukrycie oraz premię do szybkości ruchu, kiedy nie atakuje ani nie otrzymuje obrażeń",
-          "fullTooltip": "Gdy Nova nie uczestniczy w walce przez 3 sek., zyskuje ukrycie. Otrzymanie obrażeń, wykonanie ataku, użycie zdolności lub rozpoczęcie jej przygotowywania kończy działanie ukrycia. Pozostawanie w bezruchu w czasie działania ukrycia przez co najmniej 1.5 sek. zapewnia niewidzialność.  Działanie pasywne: W czasie działania ukrycia Nova zyskuje premię 15% do szybkości ruchu.",
+          "fullTooltip": "Gdy Nova nie uczestniczy w walce przez 3 sek., zyskuje ukrycie. Otrzymanie obrażeń, wykonanie ataku, użycie zdolności lub rozpoczęcie jej przygotowywania kończy działanie ukrycia. Pozostawanie w bezruchu w czasie działania ukrycia przez co najmniej 1.5 sek. zapewnia niewidzialność.<n/><n/>Działanie pasywne: W czasie działania ukrycia Nova zyskuje premię 15% do szybkości ruchu.",
           "abilityType": "Hidden",
           "isActive": false
         }
@@ -12657,7 +12657,7 @@
             "countUse": 1
           },
           "shortTooltip": "Zabijaj stronników, aby przekupić najemników",
-          "fullTooltip": "Wrodzy stronnicy oraz przejęci najemnicy zabici w pobliżu Zaginionych Wikingów zapewniają poziomy kumulacji Łapówki. Można użyć 40 poziomów kumulacji, aby przekupić najemnika i natychmiast go pokonać. Nie działa na najemników elitarnych. Maksymalna liczba poziomów kumulacji to 200. Jeśli obóz najemników zostanie przejęty wyłącznie z użyciem Łapówki, pojawi się ponownie o 50% szybciej.  Aktualna liczba poziomów kumulacji Łapówki: 0.",
+          "fullTooltip": "Wrodzy stronnicy oraz przejęci najemnicy zabici w pobliżu Zaginionych Wikingów zapewniają poziomy kumulacji Łapówki. Można użyć 40 poziomów kumulacji, aby przekupić najemnika i natychmiast go pokonać. Nie działa na najemników elitarnych. Maksymalna liczba poziomów kumulacji to 200. Jeśli obóz najemników zostanie przejęty wyłącznie z użyciem Łapówki, pojawi się ponownie o 50% szybciej.<n/><n/>Aktualna liczba poziomów kumulacji Łapówki: 0.",
           "abilityType": "E"
         }
       ],
@@ -12669,7 +12669,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Czas odnowienia: 80 sek.",
           "shortTooltip": "Ożywia i przyzywa Wikingów",
-          "fullTooltip": "Podtrzymanie zdolności przez 2 sek., przywraca do życia wszystkich Zaginionych Wikingów, leczy ich do pełni zdrowia i przyzywa ich w wybrane miejsce.   Tylko jeden Wiking może w danym momencie podjąć próbę przyzwania.",
+          "fullTooltip": "Podtrzymanie zdolności przez 2 sek., przywraca do życia wszystkich Zaginionych Wikingów, leczy ich do pełni zdrowia i przyzywa ich w wybrane miejsce. <n/><n/>Tylko jeden Wiking może w danym momencie podjąć próbę przyzwania.",
           "abilityType": "Heroic"
         },
         {
@@ -12679,7 +12679,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Czas odnowienia: 90 sek.",
           "shortTooltip": "Wikingowie atakują wrogów z pokładu drakkara",
-          "fullTooltip": "Wikingowie wskakują na pokład nieustępliwego drakkara, który otwiera ogień do pobliskich wrogów, zadając im 112 (+4% per level) pkt. obrażeń na sek. oraz może wystrzelić pocisk moździerzowy, który zadaje 228 (+4% per level) pkt. obrażeń obszarowych. Wytrzymałość drakkara zwiększa się za każdego Wikinga znajdującego się na pokładzie. Jeśli wrogom uda się zniszczyć drakkar, wszyscy Wikingowie zostają ogłuszeni na 1 sek. Czas działania: 15 sek.  Wymaga obecności w pobliżu wszystkich pozostających przy życiu Wikingów.",
+          "fullTooltip": "Wikingowie wskakują na pokład nieustępliwego drakkara, który otwiera ogień do pobliskich wrogów, zadając im 112 (+4% per level) pkt. obrażeń na sek. oraz może wystrzelić pocisk moździerzowy, który zadaje 228 (+4% per level) pkt. obrażeń obszarowych. Wytrzymałość drakkara zwiększa się za każdego Wikinga znajdującego się na pokładzie. Jeśli wrogom uda się zniszczyć drakkar, wszyscy Wikingowie zostają ogłuszeni na 1 sek. Czas działania: 15 sek.<n/><n/>Wymaga obecności w pobliżu wszystkich pozostających przy życiu Wikingów.",
           "abilityType": "Heroic"
         }
       ],
@@ -12690,7 +12690,7 @@
           "name": "Skarb Wikingów",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Kule Regeneracji zwiększają regenerację zdrowia",
-          "fullTooltip": "Zebranie Kuli Regeneracji Wikingiem zapewnia stałą premię 0.5 pkt. na sekundę do regeneracji zdrowia całej trójki.  Aktualna premia: 0 pkt. na sekundę",
+          "fullTooltip": "Zebranie Kuli Regeneracji Wikingiem zapewnia stałą premię 0.5 pkt. na sekundę do regeneracji zdrowia całej trójki.<n/><n/>Aktualna premia: 0 pkt. na sekundę",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -13589,7 +13589,7 @@
           "icon": "storm_ui_icon_ragnaros_moltenswing.png",
           "cooldownTooltip": "Czas odnowienia: 6 sek.",
           "shortTooltip": "Ogłusza i rani pobliskich przeciwników",
-          "fullTooltip": "Ragnaros wykonuje zamaszysty cios Sulfurasem, który zadaje 161 (+4% per level) pkt. obrażeń i ogłusza przeciwników na 1 sek.  Obrażenia wzrastają o 25% przeciwko stronnikom, najemnikom i potworom.",
+          "fullTooltip": "Ragnaros wykonuje zamaszysty cios Sulfurasem, który zadaje 161 (+4% per level) pkt. obrażeń i ogłusza przeciwników na 1 sek.<n/><n/>Obrażenia wzrastają o 25% przeciwko stronnikom, najemnikom i potworom.",
           "abilityType": "Q"
         },
         {
@@ -13599,7 +13599,7 @@
           "icon": "storm_ui_icon_ragnaros_meteorshower.png",
           "cooldownTooltip": "Czas odnowienia: 2.5 sek.",
           "shortTooltip": "Przywołuje szereg meteorytów",
-          "fullTooltip": "Celowanie wektorowe Ragnaros przywołuje w wybrane miejsce meteoryty (3), które spadają we wskazanym kierunku. Każdy meteoryt zadaje 151 (+4% per level) pkt. obrażeń i spowalnia wrogów o 25% na 2 sek.  Obrażenia wzrastają o 25% przeciwko stronnikom, najemnikom i potworom.",
+          "fullTooltip": "Celowanie wektorowe<n/>Ragnaros przywołuje w wybrane miejsce meteoryty (3), które spadają we wskazanym kierunku. Każdy meteoryt zadaje 151 (+4% per level) pkt. obrażeń i spowalnia wrogów o 25% na 2 sek.<n/><n/>Obrażenia wzrastają o 25% przeciwko stronnikom, najemnikom i potworom.",
           "abilityType": "W"
         },
         {
@@ -13609,7 +13609,7 @@
           "icon": "storm_ui_icon_ragnaros_explosiverune.png",
           "cooldownTooltip": "Czas odnowienia: 4 sek.",
           "shortTooltip": "Wywołuje opóźnioną eksplozję na dużym obszarze",
-          "fullTooltip": "Ragnaros tworzy runę, która po upływie 1.5 sek. zadaje 285 (+4% per level) pkt. obrażeń przeciwnikom niebędącym budowlami.  Obrażenia wzrastają o 25% przeciwko stronnikom, najemnikom i potworom.",
+          "fullTooltip": "Ragnaros tworzy runę, która po upływie 1.5 sek. zadaje 285 (+4% per level) pkt. obrażeń przeciwnikom niebędącym budowlami.<n/><n/>Obrażenia wzrastają o 25% przeciwko stronnikom, najemnikom i potworom.",
           "abilityType": "E"
         }
       ],
@@ -14124,7 +14124,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Czas odnowienia: 14 sek.",
           "shortTooltip": "Tworzysz Lustrzane Odbicia, które zwodzą wrogów i atakują ich",
-          "fullTooltip": "Samuro teleportuje się na niewielką odległość w kierunku kursora myszy i tworzy 2 Lustrzane Odbicia na 8 sek. Odbicia dysponują 100% obecnego zdrowia Samuro i wykonują ataki podstawowe, zadając 11 (+4% per level) pkt. obrażeń. Odbicia utrzymują się o 1 sek. dłużej za każdy wykonany przez siebie lub Samuro atak podstawowy wymierzony we wrogiego bohatera. Kiedy Lustrzane Odbicie otrzymuje obrażenia, zadaje sobie taką samą ich wartość, co sprawia, że otrzymuje podwójne obrażenia.  W danym momencie mogą być aktywne 2 odbicia. Wezwanie Lustrzanych Odbić usuwa większość efektów negatywnych działających na Samuro.",
+          "fullTooltip": "Samuro teleportuje się na niewielką odległość w kierunku kursora myszy i tworzy 2 Lustrzane Odbicia na 8 sek. Odbicia dysponują 100% obecnego zdrowia Samuro i wykonują ataki podstawowe, zadając 11 (+4% per level) pkt. obrażeń. Odbicia utrzymują się o 1 sek. dłużej za każdy wykonany przez siebie lub Samuro atak podstawowy wymierzony we wrogiego bohatera. Kiedy Lustrzane Odbicie otrzymuje obrażenia, zadaje sobie taką samą ich wartość, co sprawia, że otrzymuje podwójne obrażenia.<n/><n/>W danym momencie mogą być aktywne 2 odbicia. Wezwanie Lustrzanych Odbić usuwa większość efektów negatywnych działających na Samuro.",
           "abilityType": "Q"
         }
       ],
@@ -14146,7 +14146,7 @@
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
           "cooldownTooltip": "Czas odnowienia: 8 sek.",
           "shortTooltip": "Można kontrolować Lustrzane Odbicia",
-          "fullTooltip": "Lustrzane Odbicia można kontrolować pojedynczo bądź grupowo, a zadawane przez nie obrażenia wzrastają o 100%.   Działanie pasywne: Czas odnowienia Projekcji Odbić zostaje skrócony do 8 sek.",
+          "fullTooltip": "Lustrzane Odbicia można kontrolować pojedynczo bądź grupowo, a zadawane przez nie obrażenia wzrastają o 100%. <n/><n/>Działanie pasywne: Czas odnowienia Projekcji Odbić zostaje skrócony do 8 sek.",
           "abilityType": "Heroic"
         }
       ],
@@ -14158,7 +14158,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Czas odnowienia: 14 sek.",
           "shortTooltip": "Gdy atakujesz bohaterów, Samuro porusza się szybciej",
-          "fullTooltip": "Aktywuj, aby Samuro zamienił się miejscami z wybranym Lustrzanym Odbiciem. Usuwa to większość negatywnych efektów działających na niego oraz dane Lustrzane Odbicie.  Nacierające Cięcia  Ataki podstawowe wymierzone we wrogich bohaterów zwiększają szybkość ruchu Samuro o 25% na 2 sek.",
+          "fullTooltip": "Aktywuj, aby Samuro zamienił się miejscami z wybranym Lustrzanym Odbiciem. Usuwa to większość negatywnych efektów działających na niego oraz dane Lustrzane Odbicie.<n/><n/>Nacierające Cięcia<n/><n/>Ataki podstawowe wymierzone we wrogich bohaterów zwiększają szybkość ruchu Samuro o 25% na 2 sek.",
           "abilityType": "Trait"
         }
       ],
@@ -14180,7 +14180,7 @@
           "name": "Wybierz Lustrzane Odbicie",
           "icon": "storm_temp_war3_btnmirrorimage.png",
           "shortTooltip": "Wybierz Lustrzane Odbicie",
-          "fullTooltip": "Wybierz Lustrzane Odbicie  Wydajesz komendy pojedynczemu Lustrzanemu Odbiciu.",
+          "fullTooltip": "Wybierz Lustrzane Odbicie<n/><n/>Wydajesz komendy pojedynczemu Lustrzanemu Odbiciu.",
           "abilityType": "Active"
         },
         {
@@ -14189,7 +14189,7 @@
           "name": "Wybierz wszystkich",
           "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
           "shortTooltip": "Wybierz wszystkich",
-          "fullTooltip": "Wybierz wszystkich  Wydajesz komendy Samuro i wszystkim Lustrzanym Odbiciom.",
+          "fullTooltip": "Wybierz wszystkich<n/><n/>Wydajesz komendy Samuro i wszystkim Lustrzanym Odbiciom.",
           "abilityType": "Active"
         }
       ],
@@ -14323,7 +14323,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Czas odnowienia: 14 sek.",
           "shortTooltip": "Gdy atakujesz bohaterów, Samuro porusza się szybciej",
-          "fullTooltip": "Aktywuj, aby Samuro zamienił się miejscami z wybranym Lustrzanym Odbiciem. Usuwa to większość negatywnych efektów działających na niego oraz dane Lustrzane Odbicie.  Nacierające Cięcia  Ataki podstawowe wymierzone we wrogich bohaterów zwiększają szybkość ruchu Samuro o 25% na 2 sek.",
+          "fullTooltip": "Aktywuj, aby Samuro zamienił się miejscami z wybranym Lustrzanym Odbiciem. Usuwa to większość negatywnych efektów działających na niego oraz dane Lustrzane Odbicie.<n/><n/>Nacierające Cięcia<n/><n/>Ataki podstawowe wymierzone we wrogich bohaterów zwiększają szybkość ruchu Samuro o 25% na 2 sek.",
           "abilityType": "Hidden"
         },
         {
@@ -14333,7 +14333,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Czas odnowienia: 18 sek.",
           "shortTooltip": "Tworzysz Lustrzane Odbicia, które zwodzą wrogów i atakują ich",
-          "fullTooltip": "Samuro teleportuje się na niewielką odległość w kierunku kursora myszy i tworzy 2 Lustrzane Odbicia na 8 sek. Odbicia dysponują 100% obecnego zdrowia Samuro i wykonują ataki podstawowe, zadając 11 (+4% per level) pkt. obrażeń. Odbicia utrzymują się o 1 sek. dłużej za każdy wykonany przez siebie lub Samuro atak podstawowy wymierzony we wrogiego bohatera. Kiedy Lustrzane Odbicie otrzymuje obrażenia, zadaje sobie taką samą ich wartość, co sprawia, że otrzymuje podwójne obrażenia.  W danym momencie mogą być aktywne 2 odbicia. Wezwanie Lustrzanych Odbić usuwa większość efektów negatywnych działających na Samuro.",
+          "fullTooltip": "Samuro teleportuje się na niewielką odległość w kierunku kursora myszy i tworzy 2 Lustrzane Odbicia na 8 sek. Odbicia dysponują 100% obecnego zdrowia Samuro i wykonują ataki podstawowe, zadając 11 (+4% per level) pkt. obrażeń. Odbicia utrzymują się o 1 sek. dłużej za każdy wykonany przez siebie lub Samuro atak podstawowy wymierzony we wrogiego bohatera. Kiedy Lustrzane Odbicie otrzymuje obrażenia, zadaje sobie taką samą ich wartość, co sprawia, że otrzymuje podwójne obrażenia.<n/><n/>W danym momencie mogą być aktywne 2 odbicia. Wezwanie Lustrzanych Odbić usuwa większość efektów negatywnych działających na Samuro.",
           "abilityType": "Hidden"
         },
         {
@@ -14350,7 +14350,7 @@
           },
           "cooldownTooltip": "Czas odnowienia: 10 sek.",
           "shortTooltip": "Wykonujesz Krytyczne Uderzenie i zadajesz zwiększone obrażenia.",
-          "fullTooltip": "Kolejny atak podstawowy Samuro wykonany w ciągu 8 sek. będzie Krytycznym Uderzeniem, które zada obrażenia zwiększone o 50%. Efekt ten ma również zastosowanie do Lustrzanych Odbić i nie przerywa Lekkości Wiatru.  Działanie pasywne: Samuro i jego odbicia wykonują Krytyczne Uderzenie co 4 atak podstawowy.",
+          "fullTooltip": "Kolejny atak podstawowy Samuro wykonany w ciągu 8 sek. będzie Krytycznym Uderzeniem, które zada obrażenia zwiększone o 50%. Efekt ten ma również zastosowanie do Lustrzanych Odbić i nie przerywa Lekkości Wiatru.<n/><n/>Działanie pasywne: Samuro i jego odbicia wykonują Krytyczne Uderzenie co 4 atak podstawowy.",
           "abilityType": "Hidden"
         },
         {
@@ -14360,7 +14360,7 @@
           "icon": "storm_ui_icon_samuro_windwalk.png",
           "cooldownTooltip": "Czas odnowienia: 15 sek.",
           "shortTooltip": "Zyskujesz Ukrycie oraz premię do szybkości ruchu",
-          "fullTooltip": "Samuro otrzymuje ukrycie na maksymalnie 10 sek. lub do momentu wykonania ataku, użycia zdolności lub otrzymania obrażeń.  W czasie trwania ukrycia Samuro odzyskuje co sekundę równowartość 1% maksymalnego zdrowia, a jego szybkość ruchu wzrasta o 25%. Może on również przenikać przez jednostki. Pozostawanie w bezruchu w czasie działania ukrycia przez co najmniej 1.5 sek. zapewnia niewidzialność.  Samuro staje się nieujawnialny na 1 sekundę działania Lekkości Wiatru.",
+          "fullTooltip": "Samuro otrzymuje ukrycie na maksymalnie 10 sek. lub do momentu wykonania ataku, użycia zdolności lub otrzymania obrażeń.<n/><n/>W czasie trwania ukrycia Samuro odzyskuje co sekundę równowartość 1% maksymalnego zdrowia, a jego szybkość ruchu wzrasta o 25%. Może on również przenikać przez jednostki. Pozostawanie w bezruchu w czasie działania ukrycia przez co najmniej 1.5 sek. zapewnia niewidzialność.<n/><n/>Samuro staje się nieujawnialny na 1 sekundę działania Lekkości Wiatru.",
           "abilityType": "Hidden"
         },
         {
@@ -14387,7 +14387,7 @@
           },
           "cooldownTooltip": "Czas odnowienia: 10 sek.",
           "shortTooltip": "Wykonujesz Krytyczne Uderzenie i zadajesz zwiększone obrażenia.",
-          "fullTooltip": "Kolejny atak podstawowy Samuro wykonany w ciągu 8 sek. będzie Krytycznym Uderzeniem, które zada obrażenia zwiększone o 50%. Efekt ten ma również zastosowanie do Lustrzanych Odbić i nie przerywa Lekkości Wiatru.  Działanie pasywne: Samuro i jego odbicia wykonują Krytyczne Uderzenie co 4 atak podstawowy.",
+          "fullTooltip": "Kolejny atak podstawowy Samuro wykonany w ciągu 8 sek. będzie Krytycznym Uderzeniem, które zada obrażenia zwiększone o 50%. Efekt ten ma również zastosowanie do Lustrzanych Odbić i nie przerywa Lekkości Wiatru.<n/><n/>Działanie pasywne: Samuro i jego odbicia wykonują Krytyczne Uderzenie co 4 atak podstawowy.",
           "abilityType": "Hidden"
         },
         {
@@ -14398,7 +14398,7 @@
           "toggleCooldown": 0.5,
           "cooldownTooltip": "Czas odnowienia: 8 sek.",
           "shortTooltip": "Można kontrolować Lustrzane Odbicia",
-          "fullTooltip": "Lustrzane Odbicia można kontrolować pojedynczo bądź grupowo, a zadawane przez nie obrażenia wzrastają o 100%.   Działanie pasywne: Czas odnowienia Projekcji Odbić zostaje skrócony do 8 sek.",
+          "fullTooltip": "Lustrzane Odbicia można kontrolować pojedynczo bądź grupowo, a zadawane przez nie obrażenia wzrastają o 100%. <n/><n/>Działanie pasywne: Czas odnowienia Projekcji Odbić zostaje skrócony do 8 sek.",
           "abilityType": "Hidden"
         }
       ]
@@ -15962,7 +15962,7 @@
           "energyTooltip": "Mana: 45",
           "cooldownTooltip": "Czas odnowienia: 10 sek.",
           "shortTooltip": "Ciska młotem, ogłuszając pierwszego trafionego przeciwnika i zadając mu obrażenia",
-          "fullTooltip": "Muradin ciska młotem, który zadaje pierwszemu trafionemu przeciwnikowi 110 (+4% per level) pkt. obrażeń i ogłusza go na 1.25 sek.  Zadanie: Traf 25 bohaterów Pociskiem Burzy. Bohaterowie, którzy zginą w ciągu 2.5 sek. po trafieniu Pociskiem Burzy liczą się jako dodatkowe trafienia bohaterów (3).  Nagroda: Pocisk Burzy przebija i trafia dodatkowy cel. Ataki podstawowe Muradina skracają czas odnowienia Pocisku Burzy o 1 sek.",
+          "fullTooltip": "Muradin ciska młotem, który zadaje pierwszemu trafionemu przeciwnikowi 110 (+4% per level) pkt. obrażeń i ogłusza go na 1.25 sek.<n/><n/>Zadanie: Traf 25 bohaterów Pociskiem Burzy. Bohaterowie, którzy zginą w ciągu 2.5 sek. po trafieniu Pociskiem Burzy liczą się jako dodatkowe trafienia bohaterów (3).<n/><n/>Nagroda: Pocisk Burzy przebija i trafia dodatkowy cel. Ataki podstawowe Muradina skracają czas odnowienia Pocisku Burzy o 1 sek.",
           "abilityType": "Q"
         },
         {
@@ -16097,7 +16097,7 @@
           "energyTooltip": "Mana: 70",
           "cooldownTooltip": "Czas odnowienia: 80 sek.",
           "shortTooltip": "Przyzywa stwora, który pożera wrogów na wskazanym obszarze",
-          "fullTooltip": "Przyzywa Pożeracza, który pożera wrogów na 4 sek. Pożarci wrogowie nie mogą walczyć i otrzymują 94 (+4% per level) pkt. obrażeń na sekundę.  Zdolności tej można używać przeciwko nieustępliwym wrogom.",
+          "fullTooltip": "Przyzywa Pożeracza, który pożera wrogów na 4 sek. Pożarci wrogowie nie mogą walczyć i otrzymują 94 (+4% per level) pkt. obrażeń na sekundę.<n/><n/>Zdolności tej można używać przeciwko nieustępliwym wrogom.",
           "abilityType": "W"
         },
         {
@@ -16160,7 +16160,7 @@
           "energyTooltip": "Mana: 20",
           "cooldownTooltip": "Czas odnowienia: 16 sek.",
           "shortTooltip": "Zapewnia zdrowie.Zmusza bohatera, by atakował Variana",
-          "fullTooltip": "Wycisza wskazanego bohatera i zmusza go, by atakował Variana przez 1.25 sek.  Działanie pasywne: Maksymalne zdrowie oraz regeneracja zdrowia wzrastają o 40%.",
+          "fullTooltip": "Wycisza wskazanego bohatera i zmusza go, by atakował Variana przez 1.25 sek.<n/><n/>Działanie pasywne: Maksymalne zdrowie oraz regeneracja zdrowia wzrastają o 40%.",
           "abilityType": "B"
         }
       ]
@@ -16175,7 +16175,7 @@
               "name": "Anuluj Więzienie Otchłani",
               "icon": "hud_btn_bg_ability_cancel.png",
               "cooldownTooltip": "Czas odnowienia: 1.5 sek.",
-              "fullTooltip": "Anuluje użycie Więzienie Otchłani.",
+              "fullTooltip": "<n/>Anuluje użycie Więzienie Otchłani.",
               "abilityType": "Q"
             }
           ]
@@ -24493,7 +24493,7 @@
           "buttonId": "DragonKnightRubbleMaker",
           "name": "Kamień na Kamieniu",
           "icon": "storm_ui_icon_dragonknight_rubblemaker.png",
-          "fullTooltip": "Zwiększa obrażenia zadawane budowlom i stronnikom o 100%. Obrażenia od budowli zostają zmniejszone o 60%. Stała Nieustępliwość. Smoczy Rycerz eksploduje w chwili śmierci, odrzucając w tył znajdujących się w pobliżu przeciwników.",
+          "fullTooltip": "Zwiększa obrażenia zadawane budowlom i stronnikom o 100%.<n/>Obrażenia od budowli zostają zmniejszone o 60%.<n/>Stała Nieustępliwość.<n/>Smoczy Rycerz eksploduje w chwili śmierci, odrzucając w tył znajdujących się w pobliżu przeciwników.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -24710,7 +24710,7 @@
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Czas odnowienia: 8 sek.",
           "shortTooltip": "Szarżuje na cel i zadaje obrażenia obszarowe",
-          "fullTooltip": "Mech szarżuje na cel, zadając 160 pkt. obrażeń na danym obszarze.   Cele niebędące bohaterami otrzymują obrażenia zwiększone o 500%.",
+          "fullTooltip": "Mech szarżuje na cel, zadając 160 pkt. obrażeń na danym obszarze. <n/><n/>Cele niebędące bohaterami otrzymują obrażenia zwiększone o 500%.",
           "abilityType": "Q"
         },
         {
@@ -24720,7 +24720,7 @@
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Czas odnowienia: 14 sek.",
           "shortTooltip": "Wystrzeliwuje pięść, która zadaje obrażenia, unieruchamia bohaterów oraz dezaktywuje wieże",
-          "fullTooltip": "Mech wystrzeliwuje Odrzutową Pięść, która zadaje 150 pkt. obrażeń pierwszemu trafionemu bohaterowi lub budowli na swojej drodze. Pięść odpycha bohaterów przez maksymalnie 2 sek. i unieszkodliwia budowle na 4 sek.  Natychmiast zabija stronników na swojej drodze.",
+          "fullTooltip": "Mech wystrzeliwuje Odrzutową Pięść, która zadaje 150 pkt. obrażeń pierwszemu trafionemu bohaterowi lub budowli na swojej drodze. Pięść odpycha bohaterów przez maksymalnie 2 sek. i unieszkodliwia budowle na 4 sek.<n/><n/>Natychmiast zabija stronników na swojej drodze.",
           "abilityType": "W"
         },
         {
@@ -24808,7 +24808,7 @@
           "name": "Szarża",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Szarżuje na cel i zadaje obrażenia obszarowe",
-          "fullTooltip": "Mech szarżuje na cel, zadając 160 pkt. obrażeń na danym obszarze.   Cele niebędące bohaterami otrzymują obrażenia zwiększone o 500%.",
+          "fullTooltip": "Mech szarżuje na cel, zadając 160 pkt. obrażeń na danym obszarze. <n/><n/>Cele niebędące bohaterami otrzymują obrażenia zwiększone o 500%.",
           "abilityType": "Hidden"
         },
         {
@@ -24817,7 +24817,7 @@
           "name": "Szarża",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Szarżuje na cel i zadaje obrażenia obszarowe",
-          "fullTooltip": "Mech szarżuje na cel, zadając 160 pkt. obrażeń na danym obszarze.   Cele niebędące bohaterami otrzymują obrażenia zwiększone o 500%.",
+          "fullTooltip": "Mech szarżuje na cel, zadając 160 pkt. obrażeń na danym obszarze. <n/><n/>Cele niebędące bohaterami otrzymują obrażenia zwiększone o 500%.",
           "abilityType": "Hidden"
         },
         {
@@ -24826,7 +24826,7 @@
           "name": "Szarża",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Szarżuje na cel i zadaje obrażenia obszarowe",
-          "fullTooltip": "Mech szarżuje na cel, zadając 160 pkt. obrażeń na danym obszarze.   Cele niebędące bohaterami otrzymują obrażenia zwiększone o 500%.",
+          "fullTooltip": "Mech szarżuje na cel, zadając 160 pkt. obrażeń na danym obszarze. <n/><n/>Cele niebędące bohaterami otrzymują obrażenia zwiększone o 500%.",
           "abilityType": "Hidden"
         }
       ]
@@ -24877,7 +24877,7 @@
           "icon": "storm_ui_icon_volskayarobot_tacticalstrikes.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Wystrzeliwuje serię pocisków",
-          "fullTooltip": "Przełącz, aby wystrzelić pociski w pozycję kursora. Każdy pocisk zadaje 38 pkt. obrażeń, ale zużywa 1 pkt. energii. Aktywuj ponownie, aby zatrzymać ostrzał.  Zadaje budowlom obrażenia zmniejszone o 50%.",
+          "fullTooltip": "Przełącz, aby wystrzelić pociski w pozycję kursora. Każdy pocisk zadaje 38 pkt. obrażeń, ale zużywa 1 pkt. energii. Aktywuj ponownie, aby zatrzymać ostrzał.<n/><n/>Zadaje budowlom obrażenia zmniejszone o 50%.",
           "abilityType": "W"
         },
         {
@@ -24887,7 +24887,7 @@
           "icon": "storm_ui_icon_volskayarobot_skylaser.png",
           "cooldownTooltip": "Czas odnowienia: 10 sek.",
           "shortTooltip": "Zadaje opóźnione obrażenia w linii prostej",
-          "fullTooltip": "Celowanie wektorowe Narysuj na ziemi linię, zadając 60 pkt. obrażeń. Po upływie 1 sek., linia wybucha, zadając 380 pkt. obrażeń.",
+          "fullTooltip": "Celowanie wektorowe<n/>Narysuj na ziemi linię, zadając 60 pkt. obrażeń. Po upływie 1 sek., linia wybucha, zadając 380 pkt. obrażeń.",
           "abilityType": "E"
         }
       ],
@@ -25142,7 +25142,7 @@
           "name": "Szarża",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Czas odnowienia: 8 sek.",
-          "fullTooltip": "Mech szarżuje na cel, zadając 225 pkt. obrażeń na danym obszarze.   Cele niebędące bohaterami otrzymują obrażenia zwiększone o 200%.",
+          "fullTooltip": "Mech szarżuje na cel, zadając 225 pkt. obrażeń na danym obszarze. <n/><n/>Cele niebędące bohaterami otrzymują obrażenia zwiększone o 200%.",
           "abilityType": "Q"
         },
         {
@@ -25151,7 +25151,7 @@
           "name": "Odrzutowa Pięść",
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Czas odnowienia: 14 sek.",
-          "fullTooltip": "Mech wystrzeliwuje Odrzutową Pięść, która zadaje 200 pkt. obrażeń pierwszemu trafionemu bohaterowi lub budowli na swojej drodze. Pięść odpycha i ogłusza bohaterów na 1,5 sek. i unieszkodliwia budowle na 4 sek.  Natychmiast zabija stronników na swojej drodze.",
+          "fullTooltip": "Mech wystrzeliwuje Odrzutową Pięść, która zadaje 200 pkt. obrażeń pierwszemu trafionemu bohaterowi lub budowli na swojej drodze. Pięść odpycha i ogłusza bohaterów na 1,5 sek. i unieszkodliwia budowle na 4 sek.<n/><n/>Natychmiast zabija stronników na swojej drodze.",
           "abilityType": "W"
         },
         {
@@ -25237,7 +25237,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Szarża",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Mech szarżuje na cel, zadając 225 pkt. obrażeń na danym obszarze.   Cele niebędące bohaterami otrzymują obrażenia zwiększone o 200%.",
+          "fullTooltip": "Mech szarżuje na cel, zadając 225 pkt. obrażeń na danym obszarze. <n/><n/>Cele niebędące bohaterami otrzymują obrażenia zwiększone o 200%.",
           "abilityType": "Hidden"
         },
         {
@@ -25245,7 +25245,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Szarża",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Mech szarżuje na cel, zadając 225 pkt. obrażeń na danym obszarze.   Cele niebędące bohaterami otrzymują obrażenia zwiększone o 200%.",
+          "fullTooltip": "Mech szarżuje na cel, zadając 225 pkt. obrażeń na danym obszarze. <n/><n/>Cele niebędące bohaterami otrzymują obrażenia zwiększone o 200%.",
           "abilityType": "Hidden"
         },
         {
@@ -25253,7 +25253,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Szarża",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Mech szarżuje na cel, zadając 225 pkt. obrażeń na danym obszarze.   Cele niebędące bohaterami otrzymują obrażenia zwiększone o 200%.",
+          "fullTooltip": "Mech szarżuje na cel, zadając 225 pkt. obrażeń na danym obszarze. <n/><n/>Cele niebędące bohaterami otrzymują obrażenia zwiększone o 200%.",
           "abilityType": "Hidden"
         }
       ]

@@ -1372,7 +1372,7 @@
           "icon": "storm_ui_icon_azmodan_generalofhell.png",
           "cooldownTooltip": "冷却时间：7秒",
           "shortTooltip": "阿兹莫丹召唤一名地狱大将来协助小兵、雇佣兵和召唤生物",
-          "fullTooltip": "在任意友方雇佣兵、小兵或阿兹莫丹的召唤恶魔身边召唤一员地狱大将。地狱大将每隔7秒释放一次恶魔打击，立即消灭一名敌方小兵。持续20秒。  可以在引导燃尽万物时使用。",
+          "fullTooltip": "在任意友方雇佣兵、小兵或阿兹莫丹的召唤恶魔身边召唤一员地狱大将。地狱大将每隔7秒释放一次恶魔打击，立即消灭一名敌方小兵。持续20秒。<n/><n/>可以在引导燃尽万物时使用。",
           "abilityType": "Hidden"
         }
       ]
@@ -1503,7 +1503,7 @@
             "countUse": 1
           },
           "shortTooltip": "消灭小兵来贿赂雇佣兵",
-          "fullTooltip": "在失落的维京人附近被击杀的敌方小兵或雇佣兵提供获得贿赂层数。消耗40层可以贿赂目标雇佣兵，立即击败他们。对精英雇佣兵无效。最大层数：200。如果用贿赂击败整个营地，则该营地的刷新速度加快50%。  目前贿赂层数：0",
+          "fullTooltip": "在失落的维京人附近被击杀的敌方小兵或雇佣兵提供获得贿赂层数。消耗40层可以贿赂目标雇佣兵，立即击败他们。对精英雇佣兵无效。最大层数：200。如果用贿赂击败整个营地，则该营地的刷新速度加快50%。<n/><n/>目前贿赂层数：0",
           "abilityType": "E"
         }
       ],
@@ -1515,7 +1515,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "冷却时间：80秒",
           "shortTooltip": "复活并召唤维京人",
-          "fullTooltip": "2秒后在目标位置召唤、恢复所有生命值并复活所有失落的维京人。  一次只能由一名维京人进行召唤。",
+          "fullTooltip": "2秒后在目标位置召唤、恢复所有生命值并复活所有失落的维京人。<n/><n/>一次只能由一名维京人进行召唤。",
           "abilityType": "Heroic"
         },
         {
@@ -1525,7 +1525,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "冷却时间：90秒",
           "shortTooltip": "登上战船攻击敌人",
-          "fullTooltip": "跳上一艘不可阻挡的战船朝附近敌人开火，每秒造成112 (+4% per level)点伤害，并且能够发射迫击炮对范围内的敌人造成228 (+4% per level)点伤害。船上的每一个维京人都会提高战船的生命值。如果战船被敌人摧毁，所有维京人将昏迷1秒。战船持续15秒。  需要所有存活的维京人在附近。",
+          "fullTooltip": "跳上一艘不可阻挡的战船朝附近敌人开火，每秒造成112 (+4% per level)点伤害，并且能够发射迫击炮对范围内的敌人造成228 (+4% per level)点伤害。船上的每一个维京人都会提高战船的生命值。如果战船被敌人摧毁，所有维京人将昏迷1秒。战船持续15秒。<n/><n/>需要所有存活的维京人在附近。",
           "abilityType": "Heroic"
         }
       ],
@@ -1536,7 +1536,7 @@
           "name": "维京宝藏",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "收集恢复之球可提高生命恢复速度",
-          "fullTooltip": "维京人收集恢复之球后，所有维京人的每秒生命恢复永久提高0.5点。  当前加成：每秒恢复0点",
+          "fullTooltip": "维京人收集恢复之球后，所有维京人的每秒生命恢复永久提高0.5点。<n/><n/>当前加成：每秒恢复0点",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -3681,7 +3681,7 @@
           "energyTooltip": "法力值：0",
           "cooldownTooltip": "冷却时间：3秒",
           "shortTooltip": "射出远距离冲击对一名敌人造成伤害",
-          "fullTooltip": "0.5秒后发射一个飞弹，对击中的第一个敌人造成305 (+4% per level)点伤害。对建筑造成50%的伤害。  施放沙尘爆裂会留下一个回响，它会模仿克罗米使用沙尘爆裂和普通攻击，造成40% 的伤害。同时最多可以拥有1个回响。",
+          "fullTooltip": "0.5秒后发射一个飞弹，对击中的第一个敌人造成305 (+4% per level)点伤害。对建筑造成50%的伤害。<n/><n/>施放沙尘爆裂会留下一个回响，它会模仿克罗米使用沙尘爆裂和普通攻击，造成40% 的伤害。同时最多可以拥有1个回响。",
           "abilityType": "Q"
         }
       ]
@@ -3978,7 +3978,7 @@
           "energyTooltip": "能量：15",
           "cooldownTooltip": "冷却时间：4秒",
           "shortTooltip": "对死亡之翼附近的敌人造成伤害",
-          "fullTooltip": "在0.75秒后，死亡之翼拍打翅膀，对周围的敌人造成80 (+4% per level)点伤害。  灭世者：熔岩爆裂 制造一片岩浆池，造成伤害和减速",
+          "fullTooltip": "在0.75秒后，死亡之翼拍打翅膀，对周围的敌人造成80 (+4% per level)点伤害。<n/><n/>灭世者：熔岩爆裂<n/>制造一片岩浆池，造成伤害和减速",
           "abilityType": "W"
         },
         {
@@ -3994,7 +3994,7 @@
           },
           "cooldownTooltip": "充能时间：10秒",
           "shortTooltip": "死亡之翼可以在飞行期间投下陨石",
-          "fullTooltip": "在0.8秒后从天空降下一颗陨石，对范围内的敌人造成58 (+4% per level)点伤害。  如果击中英雄，死亡之翼恢复3%的最大生命值，并使着陆的冷却时间缩短1.5秒。",
+          "fullTooltip": "在0.8秒后从天空降下一颗陨石，对范围内的敌人造成58 (+4% per level)点伤害。<n/><n/>如果击中英雄，死亡之翼恢复3%的最大生命值，并使着陆的冷却时间缩短1.5秒。",
           "abilityType": "E"
         },
         {
@@ -4005,7 +4005,7 @@
           "energyTooltip": "能量：20",
           "cooldownTooltip": "冷却时间：5秒",
           "shortTooltip": "朝一个方向猛扑",
-          "fullTooltip": "在0.5秒后，死亡之翼朝一个方向猛扑，对敌人造成40 (+4% per level)点伤害并使其减速35%，持续2秒。死亡之翼会在突进结束时撕咬敌人，额外造成75 (+4% per level)点伤害。  灭世者：撕裂大地 伤害并击晕两条直线上的敌人",
+          "fullTooltip": "在0.5秒后，死亡之翼朝一个方向猛扑，对敌人造成40 (+4% per level)点伤害并使其减速35%，持续2秒。死亡之翼会在突进结束时撕咬敌人，额外造成75 (+4% per level)点伤害。<n/><n/>灭世者：撕裂大地<n/>伤害并击晕两条直线上的敌人",
           "abilityType": "E"
         }
       ],
@@ -4028,7 +4028,7 @@
           "name": "死亡的化身",
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "shortTooltip": "死亡之翼极为强大，但无视友方效果",
-          "fullTooltip": "死亡之翼身上嵌入了4层装甲板，每层给予他10点护甲。每损失25%的生命值，死亡之翼就会损失一层装甲板。装甲板只能在使用巨龙升空时得到恢复，层数取决于死亡之翼着陆时拥有的生命值。  死亡之翼是一头强大的守护巨龙，永久处于不可阻挡的状态，并能对英雄造成100%的额外法术伤害，但由于对盟友的轻蔑，他也会忽略所有友方效果。",
+          "fullTooltip": "死亡之翼身上嵌入了4层装甲板，每层给予他10点护甲。每损失25%的生命值，死亡之翼就会损失一层装甲板。装甲板只能在使用巨龙升空时得到恢复，层数取决于死亡之翼着陆时拥有的生命值。<n/><n/>死亡之翼是一头强大的守护巨龙，永久处于不可阻挡的状态，并能对英雄造成100%的额外法术伤害，但由于对盟友的轻蔑，他也会忽略所有友方效果。",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -4053,7 +4053,7 @@
           "name": "形态转换",
           "icon": "storm_ui_icon_deathwing_deathdrop.png",
           "cooldownTooltip": "冷却时间：20秒",
-          "fullTooltip": "使死亡之翼在毁灭巨龙和灭世者形态之间切换，每种形态各拥有两个独特的基本技能。  万物尽焚对死亡之翼周围的敌人造成伤害，巨颚强袭扑向敌人进行攻击。  熔岩爆裂制造一片减速区域，撕裂大地击晕两条直线上的敌人。",
+          "fullTooltip": "使死亡之翼在毁灭巨龙和灭世者形态之间切换，每种形态各拥有两个独特的基本技能。<n/><n/>万物尽焚对死亡之翼周围的敌人造成伤害，巨颚强袭扑向敌人进行攻击。<n/><n/>熔岩爆裂制造一片减速区域，撕裂大地击晕两条直线上的敌人。",
           "abilityType": "Active"
         }
       ],
@@ -4194,7 +4194,7 @@
           "energyTooltip": "能量：20",
           "cooldownTooltip": "冷却时间：6秒",
           "shortTooltip": "制造一片岩浆池，造成伤害和减速",
-          "fullTooltip": "在1秒后，对一片区域内的所有敌人造成30 (+4% per level)点伤害，并制造一个岩浆池，每秒对其中的敌人造成16 (+4% per level)点伤害，并使其减速35%，持续6秒。  毁灭巨龙：万物尽焚 对死亡之翼附近的敌人造成伤害",
+          "fullTooltip": "在1秒后，对一片区域内的所有敌人造成30 (+4% per level)点伤害，并制造一个岩浆池，每秒对其中的敌人造成16 (+4% per level)点伤害，并使其减速35%，持续6秒。<n/><n/>毁灭巨龙：万物尽焚<n/>对死亡之翼附近的敌人造成伤害",
           "abilityType": "Hidden"
         },
         {
@@ -4219,7 +4219,7 @@
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "cooldownTooltip": "冷却时间：20秒",
           "shortTooltip": "死亡之翼极为强大，但无视友方效果",
-          "fullTooltip": "死亡之翼身上嵌入了4层装甲板，每层给予他10点护甲。每损失25%的生命值，死亡之翼就会损失一层装甲板。装甲板只能在使用巨龙升空时得到恢复，层数取决于死亡之翼着陆时拥有的生命值。  死亡之翼是一头强大的守护巨龙，永久处于不可阻挡的状态，并能对英雄造成100%的额外法术伤害，但由于对盟友的轻蔑，他也会忽略所有友方效果。",
+          "fullTooltip": "死亡之翼身上嵌入了4层装甲板，每层给予他10点护甲。每损失25%的生命值，死亡之翼就会损失一层装甲板。装甲板只能在使用巨龙升空时得到恢复，层数取决于死亡之翼着陆时拥有的生命值。<n/><n/>死亡之翼是一头强大的守护巨龙，永久处于不可阻挡的状态，并能对英雄造成100%的额外法术伤害，但由于对盟友的轻蔑，他也会忽略所有友方效果。",
           "abilityType": "Hidden"
         }
       ]
@@ -4298,7 +4298,7 @@
               "energyTooltip": "能量：25",
               "cooldownTooltip": "冷却时间：12秒",
               "shortTooltip": "伤害并击晕两条直线上的敌人",
-              "fullTooltip": "制造两道大地裂隙，对击中的敌人造成80 (+4% per level)点伤害并使其昏迷0.75秒。  毁灭巨龙：巨颚强袭 朝一个方向猛扑",
+              "fullTooltip": "制造两道大地裂隙，对击中的敌人造成80 (+4% per level)点伤害并使其昏迷0.75秒。<n/><n/>毁灭巨龙：巨颚强袭<n/>朝一个方向猛扑",
               "abilityType": "E"
             }
           ]
@@ -5495,7 +5495,7 @@
             "countUse": 1
           },
           "shortTooltip": "消灭小兵来贿赂雇佣兵",
-          "fullTooltip": "在失落的维京人附近被击杀的敌方小兵或雇佣兵提供获得贿赂层数。消耗40层可以贿赂目标雇佣兵，立即击败他们。对精英雇佣兵无效。最大层数：200。如果用贿赂击败整个营地，则该营地的刷新速度加快50%。  目前贿赂层数：0",
+          "fullTooltip": "在失落的维京人附近被击杀的敌方小兵或雇佣兵提供获得贿赂层数。消耗40层可以贿赂目标雇佣兵，立即击败他们。对精英雇佣兵无效。最大层数：200。如果用贿赂击败整个营地，则该营地的刷新速度加快50%。<n/><n/>目前贿赂层数：0",
           "abilityType": "E"
         }
       ],
@@ -5507,7 +5507,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "冷却时间：80秒",
           "shortTooltip": "复活并召唤维京人",
-          "fullTooltip": "2秒后在目标位置召唤、恢复所有生命值并复活所有失落的维京人。  一次只能由一名维京人进行召唤。",
+          "fullTooltip": "2秒后在目标位置召唤、恢复所有生命值并复活所有失落的维京人。<n/><n/>一次只能由一名维京人进行召唤。",
           "abilityType": "Heroic"
         },
         {
@@ -5517,7 +5517,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "冷却时间：90秒",
           "shortTooltip": "登上战船攻击敌人",
-          "fullTooltip": "跳上一艘不可阻挡的战船朝附近敌人开火，每秒造成112 (+4% per level)点伤害，并且能够发射迫击炮对范围内的敌人造成228 (+4% per level)点伤害。船上的每一个维京人都会提高战船的生命值。如果战船被敌人摧毁，所有维京人将昏迷1秒。战船持续15秒。  需要所有存活的维京人在附近。",
+          "fullTooltip": "跳上一艘不可阻挡的战船朝附近敌人开火，每秒造成112 (+4% per level)点伤害，并且能够发射迫击炮对范围内的敌人造成228 (+4% per level)点伤害。船上的每一个维京人都会提高战船的生命值。如果战船被敌人摧毁，所有维京人将昏迷1秒。战船持续15秒。<n/><n/>需要所有存活的维京人在附近。",
           "abilityType": "Heroic"
         }
       ],
@@ -5528,7 +5528,7 @@
           "name": "维京宝藏",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "收集恢复之球可提高生命恢复速度",
-          "fullTooltip": "维京人收集恢复之球后，所有维京人的每秒生命恢复永久提高0.5点。  当前加成：每秒恢复0点",
+          "fullTooltip": "维京人收集恢复之球后，所有维京人的每秒生命恢复永久提高0.5点。<n/><n/>当前加成：每秒恢复0点",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -5746,7 +5746,7 @@
           "name": "浮油",
           "icon": "storm_ui_icon_blaze_oil.png",
           "cooldownTooltip": "冷却时间：6秒",
-          "fullTooltip": "选择方向 喷洒一团浮油来减速敌人，可以被布雷泽点燃。",
+          "fullTooltip": "选择方向<n/>喷洒一团浮油来减速敌人，可以被布雷泽点燃。",
           "abilityType": "W"
         }
       ],
@@ -7121,7 +7121,7 @@
           "nameId": "TerroroftheGarden",
           "buttonId": "TerroroftheGarden",
           "icon": "storm_ui_icon_gardenterror_terrorofthegarden.png",
-          "fullTooltip": "花园恐魔（特质）  永久不可阻挡。",
+          "fullTooltip": "花园恐魔（特质）<n/><n/>永久不可阻挡。",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -9327,7 +9327,7 @@
           "name": "Punish",
           "icon": "storm_btn_d3_barbarian_leap.png",
           "shortTooltip": "击晕范围内的敌人",
-          "fullTooltip": "Leaps to the targeted location, dealing 1 damage and stunning targets for 1 seconds at the impact location.",
+          "fullTooltip": "Leaps to the targeted location, dealing 1 damage and stunning targets for 1 seconds at the impact location.<n/><n/>",
           "abilityType": "Q"
         },
         {
@@ -9336,7 +9336,7 @@
           "name": "Fixate",
           "icon": "storm_temp_war3_btnundeadunload.png",
           "cooldownTooltip": "冷却时间：10秒",
-          "fullTooltip": "Fixate on the target, becoming enraged and increasing movement speed by 100% and attack speed by 0%  for 4 seconds. During this time the Punisher may not receive any orders.  Stuns the Punisher for 1 seconds when the effect ends.",
+          "fullTooltip": "Fixate on the target, becoming enraged and increasing movement speed by 100% and attack speed by 0%  for 4 seconds. During this time the Punisher may not receive any orders.<n/><n/>Stuns the Punisher for 1 seconds when the effect ends.",
           "abilityType": "W"
         }
       ]
@@ -10730,7 +10730,7 @@
             "countUse": 1
           },
           "shortTooltip": "消灭小兵来贿赂雇佣兵",
-          "fullTooltip": "在失落的维京人附近被击杀的敌方小兵或雇佣兵提供获得贿赂层数。消耗40层可以贿赂目标雇佣兵，立即击败他们。对精英雇佣兵无效。最大层数：200。如果用贿赂击败整个营地，则该营地的刷新速度加快50%。  目前贿赂层数：0",
+          "fullTooltip": "在失落的维京人附近被击杀的敌方小兵或雇佣兵提供获得贿赂层数。消耗40层可以贿赂目标雇佣兵，立即击败他们。对精英雇佣兵无效。最大层数：200。如果用贿赂击败整个营地，则该营地的刷新速度加快50%。<n/><n/>目前贿赂层数：0",
           "abilityType": "E"
         }
       ],
@@ -10742,7 +10742,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "冷却时间：80秒",
           "shortTooltip": "复活并召唤维京人",
-          "fullTooltip": "2秒后在目标位置召唤、恢复所有生命值并复活所有失落的维京人。  一次只能由一名维京人进行召唤。",
+          "fullTooltip": "2秒后在目标位置召唤、恢复所有生命值并复活所有失落的维京人。<n/><n/>一次只能由一名维京人进行召唤。",
           "abilityType": "Heroic"
         },
         {
@@ -10752,7 +10752,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "冷却时间：90秒",
           "shortTooltip": "登上战船攻击敌人",
-          "fullTooltip": "跳上一艘不可阻挡的战船朝附近敌人开火，每秒造成112 (+4% per level)点伤害，并且能够发射迫击炮对范围内的敌人造成228 (+4% per level)点伤害。船上的每一个维京人都会提高战船的生命值。如果战船被敌人摧毁，所有维京人将昏迷1秒。战船持续15秒。  需要所有存活的维京人在附近。",
+          "fullTooltip": "跳上一艘不可阻挡的战船朝附近敌人开火，每秒造成112 (+4% per level)点伤害，并且能够发射迫击炮对范围内的敌人造成228 (+4% per level)点伤害。船上的每一个维京人都会提高战船的生命值。如果战船被敌人摧毁，所有维京人将昏迷1秒。战船持续15秒。<n/><n/>需要所有存活的维京人在附近。",
           "abilityType": "Heroic"
         }
       ],
@@ -10763,7 +10763,7 @@
           "name": "维京宝藏",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "收集恢复之球可提高生命恢复速度",
-          "fullTooltip": "维京人收集恢复之球后，所有维京人的每秒生命恢复永久提高0.5点。  当前加成：每秒恢复0点",
+          "fullTooltip": "维京人收集恢复之球后，所有维京人的每秒生命恢复永久提高0.5点。<n/><n/>当前加成：每秒恢复0点",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -12499,7 +12499,7 @@
           "energyTooltip": "法力值：50",
           "cooldownTooltip": "冷却时间：6秒",
           "shortTooltip": "射出子弹对击中的第一个敌人造成大量伤害",
-          "fullTooltip": "对击中的第一个敌人造成230 (+4% per level)点伤害。  被动：使用狙击击中一名敌方英雄可使狙击的伤害提高6%，最高可叠加至30%。当你获得最高叠加层数，该伤害还会额外提高25%。一旦狙击未命中敌人则失去所有叠加层数。",
+          "fullTooltip": "对击中的第一个敌人造成230 (+4% per level)点伤害。<n/><n/>被动：使用狙击击中一名敌方英雄可使狙击的伤害提高6%，最高可叠加至30%。当你获得最高叠加层数，该伤害还会额外提高25%。一旦狙击未命中敌人则失去所有叠加层数。",
           "abilityType": "Q"
         },
         {
@@ -12544,7 +12544,7 @@
           "icon": "storm_ui_icon_nova_personalcloaking.png",
           "cooldownTooltip": "冷却时间：3秒",
           "shortTooltip": "进入隐身状态，并在未进行攻击或受到伤害时，移动速度提高",
-          "fullTooltip": "诺娃脱离战斗3秒后进入潜行状态。受到伤害、进行攻击、使用技能或者进行引导都会结束潜行效果。在潜行状态下保持静止至少1.5秒后进入隐形。  被动：潜行时获得15%移动速度。",
+          "fullTooltip": "诺娃脱离战斗3秒后进入潜行状态。受到伤害、进行攻击、使用技能或者进行引导都会结束潜行效果。在潜行状态下保持静止至少1.5秒后进入隐形。<n/><n/>被动：潜行时获得15%移动速度。",
           "abilityType": "Hidden",
           "isActive": false
         }
@@ -12657,7 +12657,7 @@
             "countUse": 1
           },
           "shortTooltip": "消灭小兵来贿赂雇佣兵",
-          "fullTooltip": "在失落的维京人附近被击杀的敌方小兵或雇佣兵提供获得贿赂层数。消耗40层可以贿赂目标雇佣兵，立即击败他们。对精英雇佣兵无效。最大层数：200。如果用贿赂击败整个营地，则该营地的刷新速度加快50%。  目前贿赂层数：0",
+          "fullTooltip": "在失落的维京人附近被击杀的敌方小兵或雇佣兵提供获得贿赂层数。消耗40层可以贿赂目标雇佣兵，立即击败他们。对精英雇佣兵无效。最大层数：200。如果用贿赂击败整个营地，则该营地的刷新速度加快50%。<n/><n/>目前贿赂层数：0",
           "abilityType": "E"
         }
       ],
@@ -12669,7 +12669,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "冷却时间：80秒",
           "shortTooltip": "复活并召唤维京人",
-          "fullTooltip": "2秒后在目标位置召唤、恢复所有生命值并复活所有失落的维京人。  一次只能由一名维京人进行召唤。",
+          "fullTooltip": "2秒后在目标位置召唤、恢复所有生命值并复活所有失落的维京人。<n/><n/>一次只能由一名维京人进行召唤。",
           "abilityType": "Heroic"
         },
         {
@@ -12679,7 +12679,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "冷却时间：90秒",
           "shortTooltip": "登上战船攻击敌人",
-          "fullTooltip": "跳上一艘不可阻挡的战船朝附近敌人开火，每秒造成112 (+4% per level)点伤害，并且能够发射迫击炮对范围内的敌人造成228 (+4% per level)点伤害。船上的每一个维京人都会提高战船的生命值。如果战船被敌人摧毁，所有维京人将昏迷1秒。战船持续15秒。  需要所有存活的维京人在附近。",
+          "fullTooltip": "跳上一艘不可阻挡的战船朝附近敌人开火，每秒造成112 (+4% per level)点伤害，并且能够发射迫击炮对范围内的敌人造成228 (+4% per level)点伤害。船上的每一个维京人都会提高战船的生命值。如果战船被敌人摧毁，所有维京人将昏迷1秒。战船持续15秒。<n/><n/>需要所有存活的维京人在附近。",
           "abilityType": "Heroic"
         }
       ],
@@ -12690,7 +12690,7 @@
           "name": "维京宝藏",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "收集恢复之球可提高生命恢复速度",
-          "fullTooltip": "维京人收集恢复之球后，所有维京人的每秒生命恢复永久提高0.5点。  当前加成：每秒恢复0点",
+          "fullTooltip": "维京人收集恢复之球后，所有维京人的每秒生命恢复永久提高0.5点。<n/><n/>当前加成：每秒恢复0点",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -13589,7 +13589,7 @@
           "icon": "storm_ui_icon_ragnaros_moltenswing.png",
           "cooldownTooltip": "冷却时间：6秒",
           "shortTooltip": "击晕并对附近敌人造成伤害",
-          "fullTooltip": "挥动萨弗拉斯，对大范围内的敌人造成161 (+4% per level)点伤害并使其昏迷1秒。  对小兵、雇佣兵和怪物的伤害提高25%。",
+          "fullTooltip": "挥动萨弗拉斯，对大范围内的敌人造成161 (+4% per level)点伤害并使其昏迷1秒。<n/><n/>对小兵、雇佣兵和怪物的伤害提高25%。",
           "abilityType": "Q"
         },
         {
@@ -13599,7 +13599,7 @@
           "icon": "storm_ui_icon_ragnaros_meteorshower.png",
           "cooldownTooltip": "冷却时间：2.5秒",
           "shortTooltip": "在一条直线上召唤陨石",
-          "fullTooltip": "选择方向 在目标位置召唤3颗流星，并沿着指定方向坠落。每颗流星造成151 (+4% per level)点伤害，并使敌人减速25%，持续2秒。  对小兵、雇佣兵和怪物的伤害提高25%。",
+          "fullTooltip": "选择方向<n/>在目标位置召唤3颗流星，并沿着指定方向坠落。每颗流星造成151 (+4% per level)点伤害，并使敌人减速25%，持续2秒。<n/><n/>对小兵、雇佣兵和怪物的伤害提高25%。",
           "abilityType": "W"
         },
         {
@@ -13609,7 +13609,7 @@
           "icon": "storm_ui_icon_ragnaros_explosiverune.png",
           "cooldownTooltip": "冷却时间：4秒",
           "shortTooltip": "在大范围内引发延迟爆炸",
-          "fullTooltip": "召唤一个符文，1.5秒后对非建筑敌人造成285 (+4% per level)点伤害。  对小兵、雇佣兵和怪物的伤害提高25%。",
+          "fullTooltip": "召唤一个符文，1.5秒后对非建筑敌人造成285 (+4% per level)点伤害。<n/><n/>对小兵、雇佣兵和怪物的伤害提高25%。",
           "abilityType": "E"
         }
       ],
@@ -14124,7 +14124,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "冷却时间：14秒",
           "shortTooltip": "生成镜像迷惑并攻击敌人",
-          "fullTooltip": "朝鼠标指针方向传送一小段距离，生成2个持续8秒的镜像，并且拥有萨穆罗当前生命值100%的生命，普通攻击对敌人造成11 (+4% per level)点伤害。镜像或萨穆罗每对敌方英雄进行一次普通攻击，就能延长镜像的持续时间1秒。每当镜像受到伤害时，它将对自身造成等量伤害，使其受到的伤害加倍。  同一时间只能激活最多2个镜像。使用镜像会移除萨穆罗身上的大多数负面效果。",
+          "fullTooltip": "朝鼠标指针方向传送一小段距离，生成2个持续8秒的镜像，并且拥有萨穆罗当前生命值100%的生命，普通攻击对敌人造成11 (+4% per level)点伤害。镜像或萨穆罗每对敌方英雄进行一次普通攻击，就能延长镜像的持续时间1秒。每当镜像受到伤害时，它将对自身造成等量伤害，使其受到的伤害加倍。<n/><n/>同一时间只能激活最多2个镜像。使用镜像会移除萨穆罗身上的大多数负面效果。",
           "abilityType": "Q"
         }
       ],
@@ -14146,7 +14146,7 @@
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
           "cooldownTooltip": "冷却时间：8秒",
           "shortTooltip": "镜像可以被控制",
-          "fullTooltip": "镜像可以单个或一起控制，它们的伤害提高100%。  被动：镜像转移的冷却时间缩短至8秒。",
+          "fullTooltip": "镜像可以单个或一起控制，它们的伤害提高100%。<n/><n/>被动：镜像转移的冷却时间缩短至8秒。",
           "abilityType": "Heroic"
         }
       ],
@@ -14158,7 +14158,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "冷却时间：14秒",
           "shortTooltip": "攻击英雄时提高移动速度",
-          "fullTooltip": "激活后与目标镜像交换位置，移除萨穆罗和镜像身上的大部分负面效果。  步步紧逼  对敌方英雄的普通攻击使萨穆罗的移动速度提高25%，持续2秒。",
+          "fullTooltip": "激活后与目标镜像交换位置，移除萨穆罗和镜像身上的大部分负面效果。<n/><n/>步步紧逼<n/><n/>对敌方英雄的普通攻击使萨穆罗的移动速度提高25%，持续2秒。",
           "abilityType": "Trait"
         }
       ],
@@ -14180,7 +14180,7 @@
           "name": "选择镜像",
           "icon": "storm_temp_war3_btnmirrorimage.png",
           "shortTooltip": "选择镜像",
-          "fullTooltip": "选择镜像  控制单个镜像。",
+          "fullTooltip": "选择镜像<n/><n/>控制单个镜像。",
           "abilityType": "Active"
         },
         {
@@ -14189,7 +14189,7 @@
           "name": "全选",
           "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
           "shortTooltip": "全选",
-          "fullTooltip": "选择全部  控制萨穆罗和全部镜像。",
+          "fullTooltip": "选择全部<n/><n/>控制萨穆罗和全部镜像。",
           "abilityType": "Active"
         }
       ],
@@ -14323,7 +14323,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "冷却时间：14秒",
           "shortTooltip": "攻击英雄时提高移动速度",
-          "fullTooltip": "激活后与目标镜像交换位置，移除萨穆罗和镜像身上的大部分负面效果。  步步紧逼  对敌方英雄的普通攻击使萨穆罗的移动速度提高25%，持续2秒。",
+          "fullTooltip": "激活后与目标镜像交换位置，移除萨穆罗和镜像身上的大部分负面效果。<n/><n/>步步紧逼<n/><n/>对敌方英雄的普通攻击使萨穆罗的移动速度提高25%，持续2秒。",
           "abilityType": "Hidden"
         },
         {
@@ -14333,7 +14333,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "冷却时间：18秒",
           "shortTooltip": "生成镜像迷惑并攻击敌人",
-          "fullTooltip": "朝鼠标指针方向传送一小段距离，生成2个持续8秒的镜像，并且拥有萨穆罗当前生命值100%的生命，普通攻击对敌人造成11 (+4% per level)点伤害。镜像或萨穆罗每对敌方英雄进行一次普通攻击，就能延长镜像的持续时间1秒。每当镜像受到伤害时，它将对自身造成等量伤害，使其受到的伤害加倍。  同一时间只能激活最多2个镜像。使用镜像会移除萨穆罗身上的大多数负面效果。",
+          "fullTooltip": "朝鼠标指针方向传送一小段距离，生成2个持续8秒的镜像，并且拥有萨穆罗当前生命值100%的生命，普通攻击对敌人造成11 (+4% per level)点伤害。镜像或萨穆罗每对敌方英雄进行一次普通攻击，就能延长镜像的持续时间1秒。每当镜像受到伤害时，它将对自身造成等量伤害，使其受到的伤害加倍。<n/><n/>同一时间只能激活最多2个镜像。使用镜像会移除萨穆罗身上的大多数负面效果。",
           "abilityType": "Hidden"
         },
         {
@@ -14350,7 +14350,7 @@
           },
           "cooldownTooltip": "冷却时间：10秒",
           "shortTooltip": "致命一击造成更高伤害",
-          "fullTooltip": "萨穆罗在接下来8秒内的下一次普通攻击为致命一击，造成50%的额外伤害。该效果也作用于镜像，并且不会打破疾风步效果。  被动：萨穆罗和他的镜像每第4次普通攻击可以造成致命一击。",
+          "fullTooltip": "萨穆罗在接下来8秒内的下一次普通攻击为致命一击，造成50%的额外伤害。该效果也作用于镜像，并且不会打破疾风步效果。<n/><n/>被动：萨穆罗和他的镜像每第4次普通攻击可以造成致命一击。",
           "abilityType": "Hidden"
         },
         {
@@ -14360,7 +14360,7 @@
           "icon": "storm_ui_icon_samuro_windwalk.png",
           "cooldownTooltip": "冷却时间：15秒",
           "shortTooltip": "变为潜行，并提高移动速度",
-          "fullTooltip": "萨穆罗进入潜行状态，最多持续10秒或直到萨穆罗攻击、使用技能或受到伤害。  潜行时，萨穆罗每秒恢复1%的最大生命值，移动速度提高25%，并可以穿过其他单位。潜行状态下保持静止至少1.5秒后进入隐形。  疾风步的第1秒内萨穆罗无法被暴露。",
+          "fullTooltip": "萨穆罗进入潜行状态，最多持续10秒或直到萨穆罗攻击、使用技能或受到伤害。<n/><n/>潜行时，萨穆罗每秒恢复1%的最大生命值，移动速度提高25%，并可以穿过其他单位。潜行状态下保持静止至少1.5秒后进入隐形。<n/><n/>疾风步的第1秒内萨穆罗无法被暴露。",
           "abilityType": "Hidden"
         },
         {
@@ -14387,7 +14387,7 @@
           },
           "cooldownTooltip": "冷却时间：10秒",
           "shortTooltip": "致命一击造成更高伤害",
-          "fullTooltip": "萨穆罗在接下来8秒内的下一次普通攻击为致命一击，造成50%的额外伤害。该效果也作用于镜像，并且不会打破疾风步效果。  被动：萨穆罗和他的镜像每第4次普通攻击可以造成致命一击。",
+          "fullTooltip": "萨穆罗在接下来8秒内的下一次普通攻击为致命一击，造成50%的额外伤害。该效果也作用于镜像，并且不会打破疾风步效果。<n/><n/>被动：萨穆罗和他的镜像每第4次普通攻击可以造成致命一击。",
           "abilityType": "Hidden"
         },
         {
@@ -14398,7 +14398,7 @@
           "toggleCooldown": 0.5,
           "cooldownTooltip": "冷却时间：8秒",
           "shortTooltip": "镜像可以被控制",
-          "fullTooltip": "镜像可以单个或一起控制，它们的伤害提高100%。  被动：镜像转移的冷却时间缩短至8秒。",
+          "fullTooltip": "镜像可以单个或一起控制，它们的伤害提高100%。<n/><n/>被动：镜像转移的冷却时间缩短至8秒。",
           "abilityType": "Hidden"
         }
       ]
@@ -15962,7 +15962,7 @@
           "energyTooltip": "法力值：45",
           "cooldownTooltip": "冷却时间：10秒",
           "shortTooltip": "扔出飞锤对击中的第一名敌人造成伤害并使其昏迷",
-          "fullTooltip": "扔出一把锤子，对击中的第一个敌人造成110 (+4% per level)点伤害，并使其昏迷1.25秒。  任务：使用风暴之锤命中25名英雄。英雄在被风暴之锤击中后的2.5秒内死亡算作击中3个英雄。  奖励：风暴之锤可以穿透击中一个额外的目标，而且穆拉丁的普通攻击使风暴之锤的冷却时间降低1秒。",
+          "fullTooltip": "扔出一把锤子，对击中的第一个敌人造成110 (+4% per level)点伤害，并使其昏迷1.25秒。<n/><n/>任务：使用风暴之锤命中25名英雄。英雄在被风暴之锤击中后的2.5秒内死亡算作击中3个英雄。<n/><n/>奖励：风暴之锤可以穿透击中一个额外的目标，而且穆拉丁的普通攻击使风暴之锤的冷却时间降低1秒。",
           "abilityType": "Q"
         },
         {
@@ -16097,7 +16097,7 @@
           "energyTooltip": "法力值：70",
           "cooldownTooltip": "冷却时间：80秒",
           "shortTooltip": "吞食区域内的敌人",
-          "fullTooltip": "召唤吞噬巨口吞噬敌人，持续4秒。被吞噬的敌人无法战斗并且每秒受到94 (+4% per level)点伤害。  可以对不可阻挡的英雄使用。",
+          "fullTooltip": "召唤吞噬巨口吞噬敌人，持续4秒。被吞噬的敌人无法战斗并且每秒受到94 (+4% per level)点伤害。<n/><n/>可以对不可阻挡的英雄使用。",
           "abilityType": "W"
         },
         {
@@ -16160,7 +16160,7 @@
           "energyTooltip": "法力值：20",
           "cooldownTooltip": "冷却时间：16秒",
           "shortTooltip": "提高生命值强迫一名英雄攻击瓦里安",
-          "fullTooltip": "沉默目标英雄并强迫他们攻击瓦里安，持续1.25秒。  被动：最大生命值和生命恢复速度提高40%。",
+          "fullTooltip": "沉默目标英雄并强迫他们攻击瓦里安，持续1.25秒。<n/><n/>被动：最大生命值和生命恢复速度提高40%。",
           "abilityType": "B"
         }
       ]
@@ -16175,7 +16175,7 @@
               "name": "虚空禁锢 取消",
               "icon": "hud_btn_bg_ability_cancel.png",
               "cooldownTooltip": "冷却时间：1.5秒",
-              "fullTooltip": "取消虚空禁锢技能。",
+              "fullTooltip": "<n/>取消虚空禁锢技能。",
               "abilityType": "Q"
             }
           ]
@@ -24493,7 +24493,7 @@
           "buttonId": "DragonKnightRubbleMaker",
           "name": "废墟制造者",
           "icon": "storm_ui_icon_dragonknight_rubblemaker.png",
-          "fullTooltip": "对建筑和小兵造成的伤害提高100%。 受到建筑物的伤害降低60%。 永久不可阻挡。 龙骑士在死亡时发生爆炸，击退附近的敌人。",
+          "fullTooltip": "对建筑和小兵造成的伤害提高100%。<n/>受到建筑物的伤害降低60%。<n/>永久不可阻挡。<n/>龙骑士在死亡时发生爆炸，击退附近的敌人。",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -24710,7 +24710,7 @@
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "冷却时间：8秒",
           "shortTooltip": "向一个目标冲锋并对一个区域造成伤害",
-          "fullTooltip": "向一个目标冲锋并对一个区域造成160点伤害。  对非英雄目标额外造成500%伤害。",
+          "fullTooltip": "向一个目标冲锋并对一个区域造成160点伤害。<n/><n/>对非英雄目标额外造成500%伤害。",
           "abilityType": "Q"
         },
         {
@@ -24720,7 +24720,7 @@
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "冷却时间：14秒",
           "shortTooltip": "发射火箭拳造成伤害，定身英雄，使塔楼瘫痪",
-          "fullTooltip": "发射火箭拳，对路径上第一个英雄或建筑造成150点伤害。拳头会击退和使英雄定身2秒，并使建筑瘫痪4秒。  立即杀死路径上的小兵。",
+          "fullTooltip": "发射火箭拳，对路径上第一个英雄或建筑造成150点伤害。拳头会击退和使英雄定身2秒，并使建筑瘫痪4秒。<n/><n/>立即杀死路径上的小兵。",
           "abilityType": "W"
         },
         {
@@ -24808,7 +24808,7 @@
           "name": "冲锋",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "向一个目标冲锋并对一个区域造成伤害",
-          "fullTooltip": "向一个目标冲锋并对一个区域造成160点伤害。  对非英雄目标额外造成500%伤害。",
+          "fullTooltip": "向一个目标冲锋并对一个区域造成160点伤害。<n/><n/>对非英雄目标额外造成500%伤害。",
           "abilityType": "Hidden"
         },
         {
@@ -24817,7 +24817,7 @@
           "name": "冲锋",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "向一个目标冲锋并对一个区域造成伤害",
-          "fullTooltip": "向一个目标冲锋并对一个区域造成160点伤害。  对非英雄目标额外造成500%伤害。",
+          "fullTooltip": "向一个目标冲锋并对一个区域造成160点伤害。<n/><n/>对非英雄目标额外造成500%伤害。",
           "abilityType": "Hidden"
         },
         {
@@ -24826,7 +24826,7 @@
           "name": "冲锋",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "向一个目标冲锋并对一个区域造成伤害",
-          "fullTooltip": "向一个目标冲锋并对一个区域造成160点伤害。  对非英雄目标额外造成500%伤害。",
+          "fullTooltip": "向一个目标冲锋并对一个区域造成160点伤害。<n/><n/>对非英雄目标额外造成500%伤害。",
           "abilityType": "Hidden"
         }
       ]
@@ -24877,7 +24877,7 @@
           "icon": "storm_ui_icon_volskayarobot_tacticalstrikes.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "发射一串飞弹",
-          "fullTooltip": "开启后，向鼠标指针的位置发射导弹。每枚导弹造成38点伤害，但消耗1点能量。重新激活可停止发射。  对建筑造成的伤害降低50%。",
+          "fullTooltip": "开启后，向鼠标指针的位置发射导弹。每枚导弹造成38点伤害，但消耗1点能量。重新激活可停止发射。<n/><n/>对建筑造成的伤害降低50%。",
           "abilityType": "W"
         },
         {
@@ -24887,7 +24887,7 @@
           "icon": "storm_ui_icon_volskayarobot_skylaser.png",
           "cooldownTooltip": "冷却时间：10秒",
           "shortTooltip": "对一条直线上的敌人造成延迟伤害",
-          "fullTooltip": "选择方向 在地上划一条线，造成60点伤害。1秒后爆炸，造成380点伤害。",
+          "fullTooltip": "选择方向<n/>在地上划一条线，造成60点伤害。1秒后爆炸，造成380点伤害。",
           "abilityType": "E"
         }
       ],
@@ -25142,7 +25142,7 @@
           "name": "冲锋",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "冷却时间：8秒",
-          "fullTooltip": "冲锋一个目标并造成225点范围伤害。  非英雄单位受到的伤害提高200%。",
+          "fullTooltip": "冲锋一个目标并造成225点范围伤害。<n/><n/>非英雄单位受到的伤害提高200%。",
           "abilityType": "Q"
         },
         {
@@ -25151,7 +25151,7 @@
           "name": "火箭拳",
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "冷却时间：14秒",
-          "fullTooltip": "发射一枚火箭拳，对沿途的第一个英雄或建筑造成200点伤害。可击退和击晕英雄1.5秒或瘫痪建筑4 秒。  立即消灭沿途的所有小兵。",
+          "fullTooltip": "发射一枚火箭拳，对沿途的第一个英雄或建筑造成200点伤害。可击退和击晕英雄1.5秒或瘫痪建筑4 秒。<n/><n/>立即消灭沿途的所有小兵。",
           "abilityType": "W"
         },
         {
@@ -25237,7 +25237,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "冲锋",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "冲锋一个目标并造成225点范围伤害。  非英雄单位受到的伤害提高200%。",
+          "fullTooltip": "冲锋一个目标并造成225点范围伤害。<n/><n/>非英雄单位受到的伤害提高200%。",
           "abilityType": "Hidden"
         },
         {
@@ -25245,7 +25245,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "冲锋",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "冲锋一个目标并造成225点范围伤害。  非英雄单位受到的伤害提高200%。",
+          "fullTooltip": "冲锋一个目标并造成225点范围伤害。<n/><n/>非英雄单位受到的伤害提高200%。",
           "abilityType": "Hidden"
         },
         {
@@ -25253,7 +25253,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "冲锋",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "冲锋一个目标并造成225点范围伤害。  非英雄单位受到的伤害提高200%。",
+          "fullTooltip": "冲锋一个目标并造成225点范围伤害。<n/><n/>非英雄单位受到的伤害提高200%。",
           "abilityType": "Hidden"
         }
       ]

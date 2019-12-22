@@ -1372,7 +1372,7 @@
           "icon": "storm_ui_icon_azmodan_generalofhell.png",
           "cooldownTooltip": "Temps de recharge : 7 secondes",
           "shortTooltip": "Invoque un lieutenant démoniaque qui aide les serviteurs, les mercenaires et les créatures invoquées.",
-          "fullTooltip": "Invoque un lieutenant démoniaque auprès d’un mercenaire allié, d’un serviteur allié ou d’un démon invoqué par Asmodan. Le lieutenant lance Châtiment démoniaque toutes les 7 secondes, ce qui tue instantanément un serviteur adversaire. Dure 20 secondes.  Peut être utilisé pendant la canalisation de Tout doit brûler.",
+          "fullTooltip": "Invoque un lieutenant démoniaque auprès d’un mercenaire allié, d’un serviteur allié ou d’un démon invoqué par Asmodan. Le lieutenant lance Châtiment démoniaque toutes les 7 secondes, ce qui tue instantanément un serviteur adversaire. Dure 20 secondes.<n/><n/>Peut être utilisé pendant la canalisation de Tout doit brûler.",
           "abilityType": "Hidden"
         }
       ]
@@ -1503,7 +1503,7 @@
             "countUse": 1
           },
           "shortTooltip": "Tuer des serviteurs permet de recruter des mercenaires.",
-          "fullTooltip": "Les serviteurs ou mercenaires adverses tués près des Vikings perdus confèrent des charges de Graissage de patte. Utiliser 40 charges permet d’acheter des mercenaires au lieu d’avoir à les vaincre. Ne fonctionne pas sur les mercenaires élite. Maximum de charges : 200. Si un camp est entièrement soumis par Graissage de patte, son temps de réapparition est réduit de 50%.  Nombre de charges : 0",
+          "fullTooltip": "Les serviteurs ou mercenaires adverses tués près des Vikings perdus confèrent des charges de Graissage de patte. Utiliser 40 charges permet d’acheter des mercenaires au lieu d’avoir à les vaincre. Ne fonctionne pas sur les mercenaires élite. Maximum de charges : 200. Si un camp est entièrement soumis par Graissage de patte, son temps de réapparition est réduit de 50%.<n/><n/>Nombre de charges : 0",
           "abilityType": "E"
         }
       ],
@@ -1515,7 +1515,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Temps de recharge : 80 secondes",
           "shortTooltip": "Ranime et invoque les Vikings",
-          "fullTooltip": "Invoque et ranime les Vikings perdus avec la totalité de leurs points de vie à l’emplacement ciblé après 2 secondes de concentration d’un Viking.   Un seul Viking peut tenter d’invoquer les autres à la fois.",
+          "fullTooltip": "Invoque et ranime les Vikings perdus avec la totalité de leurs points de vie à l’emplacement ciblé après 2 secondes de concentration d’un Viking. <n/><n/>Un seul Viking peut tenter d’invoquer les autres à la fois.",
           "abilityType": "Heroic"
         },
         {
@@ -1525,7 +1525,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Temps de recharge : 90 secondes",
           "shortTooltip": "Fait monter dans un drakkar pour attaquer les ennemis.",
-          "fullTooltip": "Les Vikings montent à bord d’un drakkar insensible aux effets de contrôle qui inflige 112 (+4% per level) points de dégâts par seconde en tirant sur les ennemis proches et qui dispose d’un mortier pouvant infliger 228 (+4% per level) points de dégâts dans une zone. Le navire dispose de points de vie supplémentaires pour chaque Viking à son bord. Si le drakkar est détruit, tous les Vikings sont étourdis pendant 1 seconde. Dure 15 secondes.  Requiert la proximité de tous les Vikings en vie.",
+          "fullTooltip": "Les Vikings montent à bord d’un drakkar insensible aux effets de contrôle qui inflige 112 (+4% per level) points de dégâts par seconde en tirant sur les ennemis proches et qui dispose d’un mortier pouvant infliger 228 (+4% per level) points de dégâts dans une zone. Le navire dispose de points de vie supplémentaires pour chaque Viking à son bord. Si le drakkar est détruit, tous les Vikings sont étourdis pendant 1 seconde. Dure 15 secondes.<n/><n/>Requiert la proximité de tous les Vikings en vie.",
           "abilityType": "Heroic"
         }
       ],
@@ -1536,7 +1536,7 @@
           "name": "Butin viking",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Collecter des globes de régénération augmente la récupération de vie.",
-          "fullTooltip": "Chaque globe de récupération collecté confère aux trois Vikings une augmentation permanente de leur récupération de vie de 0.5 point par seconde.  Bonus : 0 points de vie par seconde.",
+          "fullTooltip": "Chaque globe de récupération collecté confère aux trois Vikings une augmentation permanente de leur récupération de vie de 0.5 point par seconde.<n/><n/>Bonus : 0 points de vie par seconde.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -3681,7 +3681,7 @@
           "energyTooltip": "Mana : 0",
           "cooldownTooltip": "Temps de recharge : 3 secondes",
           "shortTooltip": "Lance une attaque à longue portée qui inflige des dégâts à un ennemi.",
-          "fullTooltip": "Après 0.5 seconde, envoie un projectile qui inflige 305 (+4% per level) points de dégâts au premier ennemi touché. Inflige 50% de dégâts aux bâtiments.  Souffle de sable crée un écho qui reproduit les attaques de base et les Souffles de sable de Chromie en infligeant 40% des dégâts de l’original. Maximum de 1 écho actif à la fois.",
+          "fullTooltip": "Après 0.5 seconde, envoie un projectile qui inflige 305 (+4% per level) points de dégâts au premier ennemi touché. Inflige 50% de dégâts aux bâtiments.<n/><n/>Souffle de sable crée un écho qui reproduit les attaques de base et les Souffles de sable de Chromie en infligeant 40% des dégâts de l’original. Maximum de 1 écho actif à la fois.",
           "abilityType": "Q"
         }
       ]
@@ -3978,7 +3978,7 @@
           "energyTooltip": "Énergie : 15",
           "cooldownTooltip": "Temps de recharge : 4 secondes",
           "shortTooltip": "Inflige des dégâts aux ennemis proches d’Aile de mort.",
-          "fullTooltip": "Après 0.75 seconde, Aile de mort bat des ailes et inflige 80 (+4% per level) points de dégâts aux ennemis proches.  Brise-monde : Explosion de lave Génère une flaque de lave qui inflige des dégâts aux ennemis et les ralentit.",
+          "fullTooltip": "Après 0.75 seconde, Aile de mort bat des ailes et inflige 80 (+4% per level) points de dégâts aux ennemis proches.<n/><n/>Brise-monde : Explosion de lave<n/>Génère une flaque de lave qui inflige des dégâts aux ennemis et les ralentit.",
           "abilityType": "W"
         },
         {
@@ -3994,7 +3994,7 @@
           },
           "cooldownTooltip": "Temps de recharge : 10 secondes",
           "shortTooltip": "Sous forme de Vol draconique, Aile de mort peut faire pleuvoir des météores.",
-          "fullTooltip": "Après 0.8 secondes, un météore tombe du ciel, infligeant ainsi 58 (+4% per level) points de dégâts aux ennemis situés dans la zone.  Si un héros est touché, Aile de mort récupère 3% de ses points de vie maximum et le temps de recharge de ses atterrissages est réduit de 1.5 seconde.",
+          "fullTooltip": "Après 0.8 secondes, un météore tombe du ciel, infligeant ainsi 58 (+4% per level) points de dégâts aux ennemis situés dans la zone.<n/><n/>Si un héros est touché, Aile de mort récupère 3% de ses points de vie maximum et le temps de recharge de ses atterrissages est réduit de 1.5 seconde.",
           "abilityType": "E"
         },
         {
@@ -4005,7 +4005,7 @@
           "energyTooltip": "Énergie : 20",
           "cooldownTooltip": "Temps de recharge : 5 secondes",
           "shortTooltip": "Plonge dans une direction.",
-          "fullTooltip": "Après 0.5 seconde, Aile de mort plonge dans une direction pour infliger 40 (+4% per level) points de dégâts aux ennemis et les ralentir de 35% pendant 2 secondes. Aile de mort mord les ennemis à la fin de son attaque pour infliger 75 (+4% per level) points de dégâts supplémentaires.  Brise-monde : Brise-terre Inflige des dégâts et étourdit les ennemis sur deux lignes.",
+          "fullTooltip": "Après 0.5 seconde, Aile de mort plonge dans une direction pour infliger 40 (+4% per level) points de dégâts aux ennemis et les ralentir de 35% pendant 2 secondes. Aile de mort mord les ennemis à la fin de son attaque pour infliger 75 (+4% per level) points de dégâts supplémentaires.<n/><n/>Brise-monde : Brise-terre<n/>Inflige des dégâts et étourdit les ennemis sur deux lignes.",
           "abilityType": "E"
         }
       ],
@@ -4028,7 +4028,7 @@
           "name": "Aspect de la Mort",
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "shortTooltip": "Aile de mort est extrêmement puissant, mais insensible aux effets des alliés.",
-          "fullTooltip": "Aile de mort est équipé de 4 plaques d’armure qui lui confèrent 10 points d’armure chacune. Une plaque est arrachée à chaque fois qu’Aile de mort perd 25% de points de vie. Les plaques d’armure ne sont restaurées que pendant Vol draconique, en fonction du nombre de points de vie d’Aile de mort à son atterrissage.  En outre, Aile de mort est un puissant Aspect dragon qui bénéficie en permanence de l’effet Insensible et inflige 100% de dégâts supplémentaires aux héros, mais il méprise ses alliés et est immunisé contre leurs effets bénéfiques.",
+          "fullTooltip": "Aile de mort est équipé de 4 plaques d’armure qui lui confèrent 10 points d’armure chacune. Une plaque est arrachée à chaque fois qu’Aile de mort perd 25% de points de vie. Les plaques d’armure ne sont restaurées que pendant Vol draconique, en fonction du nombre de points de vie d’Aile de mort à son atterrissage.<n/><n/>En outre, Aile de mort est un puissant Aspect dragon qui bénéficie en permanence de l’effet Insensible et inflige 100% de dégâts supplémentaires aux héros, mais il méprise ses alliés et est immunisé contre leurs effets bénéfiques.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -4053,7 +4053,7 @@
           "name": "Permutation de forme",
           "icon": "storm_ui_icon_deathwing_deathdrop.png",
           "cooldownTooltip": "Temps de recharge : 20 secondes",
-          "fullTooltip": "Alterne entre les formes du Destructeur et du Brise-monde, qui offrent chacune deux capacités de base uniques.  Incinération inflige des dégâts aux ennemis autour d’Aile de mort et Offensive lui permet de plonger sur ses ennemis.  Explosion de lave crée une zone de ralentissement et Brise-terre étourdit les ennemis sur deux lignes.",
+          "fullTooltip": "Alterne entre les formes du Destructeur et du Brise-monde, qui offrent chacune deux capacités de base uniques.<n/><n/>Incinération inflige des dégâts aux ennemis autour d’Aile de mort et Offensive lui permet de plonger sur ses ennemis.<n/><n/>Explosion de lave crée une zone de ralentissement et Brise-terre étourdit les ennemis sur deux lignes.",
           "abilityType": "Active"
         }
       ],
@@ -4194,7 +4194,7 @@
           "energyTooltip": "Énergie : 20",
           "cooldownTooltip": "Temps de recharge : 6 secondes",
           "shortTooltip": "Génère une flaque de lave qui inflige des dégâts et ralentit.",
-          "fullTooltip": "Après un délai de 1 secondes, inflige 30 (+4% per level) points de dégâts à tous les ennemis dans la zone et crée une flaque de lave qui inflige 16 (+4% per level) points de dégâts par seconde aux ennemis et les ralentit de 35%. Dure 6 secondes.  Destructeur : Incinération Inflige des dégâts aux ennemis proches d’Aile de mort.",
+          "fullTooltip": "Après un délai de 1 secondes, inflige 30 (+4% per level) points de dégâts à tous les ennemis dans la zone et crée une flaque de lave qui inflige 16 (+4% per level) points de dégâts par seconde aux ennemis et les ralentit de 35%. Dure 6 secondes.<n/><n/>Destructeur : Incinération<n/>Inflige des dégâts aux ennemis proches d’Aile de mort.",
           "abilityType": "Hidden"
         },
         {
@@ -4219,7 +4219,7 @@
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "cooldownTooltip": "Temps de recharge : 20 secondes",
           "shortTooltip": "Aile de mort est extrêmement puissant, mais insensible aux effets des alliés.",
-          "fullTooltip": "Aile de mort est équipé de 4 plaques d’armure qui lui confèrent 10 points d’armure chacune. Une plaque est arrachée à chaque fois qu’Aile de mort perd 25% de points de vie. Les plaques d’armure ne sont restaurées que pendant Vol draconique, en fonction du nombre de points de vie d’Aile de mort à son atterrissage.  En outre, Aile de mort est un puissant Aspect dragon qui bénéficie en permanence de l’effet Insensible et inflige 100% de dégâts supplémentaires aux héros, mais il méprise ses alliés et est immunisé contre leurs effets bénéfiques.",
+          "fullTooltip": "Aile de mort est équipé de 4 plaques d’armure qui lui confèrent 10 points d’armure chacune. Une plaque est arrachée à chaque fois qu’Aile de mort perd 25% de points de vie. Les plaques d’armure ne sont restaurées que pendant Vol draconique, en fonction du nombre de points de vie d’Aile de mort à son atterrissage.<n/><n/>En outre, Aile de mort est un puissant Aspect dragon qui bénéficie en permanence de l’effet Insensible et inflige 100% de dégâts supplémentaires aux héros, mais il méprise ses alliés et est immunisé contre leurs effets bénéfiques.",
           "abilityType": "Hidden"
         }
       ]
@@ -4298,7 +4298,7 @@
               "energyTooltip": "Énergie : 25",
               "cooldownTooltip": "Temps de recharge : 12 secondes",
               "shortTooltip": "Inflige des dégâts et étourdit les ennemis sur deux lignes.",
-              "fullTooltip": "Crée une fissure qui inflige 80 (+4% per level) points de dégâts aux ennemis touchés et qui les étourdit pendant 0.75 seconde.  Destructeur : Offensive Plonge dans une direction.",
+              "fullTooltip": "Crée une fissure qui inflige 80 (+4% per level) points de dégâts aux ennemis touchés et qui les étourdit pendant 0.75 seconde.<n/><n/>Destructeur : Offensive<n/>Plonge dans une direction.",
               "abilityType": "E"
             }
           ]
@@ -5495,7 +5495,7 @@
             "countUse": 1
           },
           "shortTooltip": "Tuer des serviteurs permet de recruter des mercenaires.",
-          "fullTooltip": "Les serviteurs ou mercenaires adverses tués près des Vikings perdus confèrent des charges de Graissage de patte. Utiliser 40 charges permet d’acheter des mercenaires au lieu d’avoir à les vaincre. Ne fonctionne pas sur les mercenaires élite. Maximum de charges : 200. Si un camp est entièrement soumis par Graissage de patte, son temps de réapparition est réduit de 50%.  Nombre de charges : 0",
+          "fullTooltip": "Les serviteurs ou mercenaires adverses tués près des Vikings perdus confèrent des charges de Graissage de patte. Utiliser 40 charges permet d’acheter des mercenaires au lieu d’avoir à les vaincre. Ne fonctionne pas sur les mercenaires élite. Maximum de charges : 200. Si un camp est entièrement soumis par Graissage de patte, son temps de réapparition est réduit de 50%.<n/><n/>Nombre de charges : 0",
           "abilityType": "E"
         }
       ],
@@ -5507,7 +5507,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Temps de recharge : 80 secondes",
           "shortTooltip": "Ranime et invoque les Vikings",
-          "fullTooltip": "Invoque et ranime les Vikings perdus avec la totalité de leurs points de vie à l’emplacement ciblé après 2 secondes de concentration d’un Viking.   Un seul Viking peut tenter d’invoquer les autres à la fois.",
+          "fullTooltip": "Invoque et ranime les Vikings perdus avec la totalité de leurs points de vie à l’emplacement ciblé après 2 secondes de concentration d’un Viking. <n/><n/>Un seul Viking peut tenter d’invoquer les autres à la fois.",
           "abilityType": "Heroic"
         },
         {
@@ -5517,7 +5517,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Temps de recharge : 90 secondes",
           "shortTooltip": "Fait monter dans un drakkar pour attaquer les ennemis.",
-          "fullTooltip": "Les Vikings montent à bord d’un drakkar insensible aux effets de contrôle qui inflige 112 (+4% per level) points de dégâts par seconde en tirant sur les ennemis proches et qui dispose d’un mortier pouvant infliger 228 (+4% per level) points de dégâts dans une zone. Le navire dispose de points de vie supplémentaires pour chaque Viking à son bord. Si le drakkar est détruit, tous les Vikings sont étourdis pendant 1 seconde. Dure 15 secondes.  Requiert la proximité de tous les Vikings en vie.",
+          "fullTooltip": "Les Vikings montent à bord d’un drakkar insensible aux effets de contrôle qui inflige 112 (+4% per level) points de dégâts par seconde en tirant sur les ennemis proches et qui dispose d’un mortier pouvant infliger 228 (+4% per level) points de dégâts dans une zone. Le navire dispose de points de vie supplémentaires pour chaque Viking à son bord. Si le drakkar est détruit, tous les Vikings sont étourdis pendant 1 seconde. Dure 15 secondes.<n/><n/>Requiert la proximité de tous les Vikings en vie.",
           "abilityType": "Heroic"
         }
       ],
@@ -5528,7 +5528,7 @@
           "name": "Butin viking",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Collecter des globes de régénération augmente la récupération de vie.",
-          "fullTooltip": "Chaque globe de récupération collecté confère aux trois Vikings une augmentation permanente de leur récupération de vie de 0.5 point par seconde.  Bonus : 0 points de vie par seconde.",
+          "fullTooltip": "Chaque globe de récupération collecté confère aux trois Vikings une augmentation permanente de leur récupération de vie de 0.5 point par seconde.<n/><n/>Bonus : 0 points de vie par seconde.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -5746,7 +5746,7 @@
           "name": "Flaque d’huile",
           "icon": "storm_ui_icon_blaze_oil.png",
           "cooldownTooltip": "Temps de recharge : 6 secondes",
-          "fullTooltip": "Ciblage vectoriel Répand une flaque d’huile qui ralentit les ennemis et qui peut être enflammée par Kramer.",
+          "fullTooltip": "Ciblage vectoriel<n/>Répand une flaque d’huile qui ralentit les ennemis et qui peut être enflammée par Kramer.",
           "abilityType": "W"
         }
       ],
@@ -7121,7 +7121,7 @@
           "nameId": "TerroroftheGarden",
           "buttonId": "TerroroftheGarden",
           "icon": "storm_ui_icon_gardenterror_terrorofthegarden.png",
-          "fullTooltip": "Terreur des jardins (Trait)  Insensible aux effets de contrôle.",
+          "fullTooltip": "Terreur des jardins (Trait)<n/><n/>Insensible aux effets de contrôle.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -9327,7 +9327,7 @@
           "name": "Supplice",
           "icon": "storm_btn_d3_barbarian_leap.png",
           "shortTooltip": "Étourdit les ennemis dans une zone.",
-          "fullTooltip": "Bondit vers la zone ciblée, inflige 1 points de dégâts aux cibles, qui sont étourdies pendant 1 secondes au point d’impact.",
+          "fullTooltip": "Bondit vers la zone ciblée, inflige 1 points de dégâts aux cibles, qui sont étourdies pendant 1 secondes au point d’impact. <n/><n/>",
           "abilityType": "Q"
         },
         {
@@ -9336,7 +9336,7 @@
           "name": "Focalisation",
           "icon": "storm_temp_war3_btnundeadunload.png",
           "cooldownTooltip": "Temps de recharge : 10 secondes",
-          "fullTooltip": "Se focalise sur la cible, devient enragé, augmente de 100% sa vitesse de déplacement et de 0% sa vitesse d’attaque pendant 4 secondes. Pendant ce temps, le dominateur ne peut recevoir aucun autre ordre.  Lorsque l’effet prend fin, étourdit le dominateur pendant 1 secondes.",
+          "fullTooltip": "Se focalise sur la cible, devient enragé, augmente de 100% sa vitesse de déplacement et de 0% sa vitesse d’attaque pendant 4 secondes. Pendant ce temps, le dominateur ne peut recevoir aucun autre ordre.<n/><n/>Lorsque l’effet prend fin, étourdit le dominateur pendant 1 secondes.",
           "abilityType": "W"
         }
       ]
@@ -10730,7 +10730,7 @@
             "countUse": 1
           },
           "shortTooltip": "Tuer des serviteurs permet de recruter des mercenaires.",
-          "fullTooltip": "Les serviteurs ou mercenaires adverses tués près des Vikings perdus confèrent des charges de Graissage de patte. Utiliser 40 charges permet d’acheter des mercenaires au lieu d’avoir à les vaincre. Ne fonctionne pas sur les mercenaires élite. Maximum de charges : 200. Si un camp est entièrement soumis par Graissage de patte, son temps de réapparition est réduit de 50%.  Nombre de charges : 0",
+          "fullTooltip": "Les serviteurs ou mercenaires adverses tués près des Vikings perdus confèrent des charges de Graissage de patte. Utiliser 40 charges permet d’acheter des mercenaires au lieu d’avoir à les vaincre. Ne fonctionne pas sur les mercenaires élite. Maximum de charges : 200. Si un camp est entièrement soumis par Graissage de patte, son temps de réapparition est réduit de 50%.<n/><n/>Nombre de charges : 0",
           "abilityType": "E"
         }
       ],
@@ -10742,7 +10742,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Temps de recharge : 80 secondes",
           "shortTooltip": "Ranime et invoque les Vikings",
-          "fullTooltip": "Invoque et ranime les Vikings perdus avec la totalité de leurs points de vie à l’emplacement ciblé après 2 secondes de concentration d’un Viking.   Un seul Viking peut tenter d’invoquer les autres à la fois.",
+          "fullTooltip": "Invoque et ranime les Vikings perdus avec la totalité de leurs points de vie à l’emplacement ciblé après 2 secondes de concentration d’un Viking. <n/><n/>Un seul Viking peut tenter d’invoquer les autres à la fois.",
           "abilityType": "Heroic"
         },
         {
@@ -10752,7 +10752,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Temps de recharge : 90 secondes",
           "shortTooltip": "Fait monter dans un drakkar pour attaquer les ennemis.",
-          "fullTooltip": "Les Vikings montent à bord d’un drakkar insensible aux effets de contrôle qui inflige 112 (+4% per level) points de dégâts par seconde en tirant sur les ennemis proches et qui dispose d’un mortier pouvant infliger 228 (+4% per level) points de dégâts dans une zone. Le navire dispose de points de vie supplémentaires pour chaque Viking à son bord. Si le drakkar est détruit, tous les Vikings sont étourdis pendant 1 seconde. Dure 15 secondes.  Requiert la proximité de tous les Vikings en vie.",
+          "fullTooltip": "Les Vikings montent à bord d’un drakkar insensible aux effets de contrôle qui inflige 112 (+4% per level) points de dégâts par seconde en tirant sur les ennemis proches et qui dispose d’un mortier pouvant infliger 228 (+4% per level) points de dégâts dans une zone. Le navire dispose de points de vie supplémentaires pour chaque Viking à son bord. Si le drakkar est détruit, tous les Vikings sont étourdis pendant 1 seconde. Dure 15 secondes.<n/><n/>Requiert la proximité de tous les Vikings en vie.",
           "abilityType": "Heroic"
         }
       ],
@@ -10763,7 +10763,7 @@
           "name": "Butin viking",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Collecter des globes de régénération augmente la récupération de vie.",
-          "fullTooltip": "Chaque globe de récupération collecté confère aux trois Vikings une augmentation permanente de leur récupération de vie de 0.5 point par seconde.  Bonus : 0 points de vie par seconde.",
+          "fullTooltip": "Chaque globe de récupération collecté confère aux trois Vikings une augmentation permanente de leur récupération de vie de 0.5 point par seconde.<n/><n/>Bonus : 0 points de vie par seconde.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -12499,7 +12499,7 @@
           "energyTooltip": "Mana : 50",
           "cooldownTooltip": "Temps de recharge : 6 secondes",
           "shortTooltip": "Tire une balle qui inflige d’importants dégâts au premier ennemi touché.",
-          "fullTooltip": "Inflige 230 (+4% per level) points de dégâts au premier ennemi touché.  Effet passif : toucher un héros adverse avec Tir de précision augmente les dégâts de cette capacité de 6%, cumulables jusqu’à 30%. Une fois ce maximum atteint, les dégâts augmentent encore de 25%. Tous les cumuls sont perdus si Tir de précision ne touche aucun ennemi.",
+          "fullTooltip": "Inflige 230 (+4% per level) points de dégâts au premier ennemi touché.<n/><n/>Effet passif : toucher un héros adverse avec Tir de précision augmente les dégâts de cette capacité de 6%, cumulables jusqu’à 30%. Une fois ce maximum atteint, les dégâts augmentent encore de 25%. Tous les cumuls sont perdus si Tir de précision ne touche aucun ennemi.",
           "abilityType": "Q"
         },
         {
@@ -12544,7 +12544,7 @@
           "icon": "storm_ui_icon_nova_personalcloaking.png",
           "cooldownTooltip": "Temps de recharge : 3 secondes",
           "shortTooltip": "Camoufle et augmente la vitesse de déplacement tant qu’aucun point de dégâts n’est infligé ou subi.",
-          "fullTooltip": "Camoufle Nova après 3  secondes passées sans combattre. Subir des dégâts, attaquer, utiliser ou canaliser une capacité dissipe le camouflage. Si elle reste immobile un minimum de 1.5 seconde en étant camouflée, Nova devient invisible.  Effet passif : augmente la vitesse de déplacement de Nova de 15% tant qu’elle est camouflée.",
+          "fullTooltip": "Camoufle Nova après 3  secondes passées sans combattre. Subir des dégâts, attaquer, utiliser ou canaliser une capacité dissipe le camouflage. Si elle reste immobile un minimum de 1.5 seconde en étant camouflée, Nova devient invisible.<n/><n/>Effet passif : augmente la vitesse de déplacement de Nova de 15% tant qu’elle est camouflée.",
           "abilityType": "Hidden",
           "isActive": false
         }
@@ -12657,7 +12657,7 @@
             "countUse": 1
           },
           "shortTooltip": "Tuer des serviteurs permet de recruter des mercenaires.",
-          "fullTooltip": "Les serviteurs ou mercenaires adverses tués près des Vikings perdus confèrent des charges de Graissage de patte. Utiliser 40 charges permet d’acheter des mercenaires au lieu d’avoir à les vaincre. Ne fonctionne pas sur les mercenaires élite. Maximum de charges : 200. Si un camp est entièrement soumis par Graissage de patte, son temps de réapparition est réduit de 50%.  Nombre de charges : 0",
+          "fullTooltip": "Les serviteurs ou mercenaires adverses tués près des Vikings perdus confèrent des charges de Graissage de patte. Utiliser 40 charges permet d’acheter des mercenaires au lieu d’avoir à les vaincre. Ne fonctionne pas sur les mercenaires élite. Maximum de charges : 200. Si un camp est entièrement soumis par Graissage de patte, son temps de réapparition est réduit de 50%.<n/><n/>Nombre de charges : 0",
           "abilityType": "E"
         }
       ],
@@ -12669,7 +12669,7 @@
           "icon": "storm_ui_icon_lostvikings_playagain.png",
           "cooldownTooltip": "Temps de recharge : 80 secondes",
           "shortTooltip": "Ranime et invoque les Vikings",
-          "fullTooltip": "Invoque et ranime les Vikings perdus avec la totalité de leurs points de vie à l’emplacement ciblé après 2 secondes de concentration d’un Viking.   Un seul Viking peut tenter d’invoquer les autres à la fois.",
+          "fullTooltip": "Invoque et ranime les Vikings perdus avec la totalité de leurs points de vie à l’emplacement ciblé après 2 secondes de concentration d’un Viking. <n/><n/>Un seul Viking peut tenter d’invoquer les autres à la fois.",
           "abilityType": "Heroic"
         },
         {
@@ -12679,7 +12679,7 @@
           "icon": "storm_ui_icon_lostvikings_longboatraid.png",
           "cooldownTooltip": "Temps de recharge : 90 secondes",
           "shortTooltip": "Fait monter dans un drakkar pour attaquer les ennemis.",
-          "fullTooltip": "Les Vikings montent à bord d’un drakkar insensible aux effets de contrôle qui inflige 112 (+4% per level) points de dégâts par seconde en tirant sur les ennemis proches et qui dispose d’un mortier pouvant infliger 228 (+4% per level) points de dégâts dans une zone. Le navire dispose de points de vie supplémentaires pour chaque Viking à son bord. Si le drakkar est détruit, tous les Vikings sont étourdis pendant 1 seconde. Dure 15 secondes.  Requiert la proximité de tous les Vikings en vie.",
+          "fullTooltip": "Les Vikings montent à bord d’un drakkar insensible aux effets de contrôle qui inflige 112 (+4% per level) points de dégâts par seconde en tirant sur les ennemis proches et qui dispose d’un mortier pouvant infliger 228 (+4% per level) points de dégâts dans une zone. Le navire dispose de points de vie supplémentaires pour chaque Viking à son bord. Si le drakkar est détruit, tous les Vikings sont étourdis pendant 1 seconde. Dure 15 secondes.<n/><n/>Requiert la proximité de tous les Vikings en vie.",
           "abilityType": "Heroic"
         }
       ],
@@ -12690,7 +12690,7 @@
           "name": "Butin viking",
           "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
           "shortTooltip": "Collecter des globes de régénération augmente la récupération de vie.",
-          "fullTooltip": "Chaque globe de récupération collecté confère aux trois Vikings une augmentation permanente de leur récupération de vie de 0.5 point par seconde.  Bonus : 0 points de vie par seconde.",
+          "fullTooltip": "Chaque globe de récupération collecté confère aux trois Vikings une augmentation permanente de leur récupération de vie de 0.5 point par seconde.<n/><n/>Bonus : 0 points de vie par seconde.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -13589,7 +13589,7 @@
           "icon": "storm_ui_icon_ragnaros_moltenswing.png",
           "cooldownTooltip": "Temps de recharge : 6 secondes",
           "shortTooltip": "Étourdit les ennemis proches et leur inflige des dégâts.",
-          "fullTooltip": "Balaye une large zone d’un grand coup avec Sulfuras qui inflige 161 (+4% per level) points de dégâts et étourdit les ennemis pendant 1 seconde.  Dégâts aux serviteurs, mercenaires et monstres augmentés de 25%.",
+          "fullTooltip": "Balaye une large zone d’un grand coup avec Sulfuras qui inflige 161 (+4% per level) points de dégâts et étourdit les ennemis pendant 1 seconde.<n/><n/>Dégâts aux serviteurs, mercenaires et monstres augmentés de 25%.",
           "abilityType": "Q"
         },
         {
@@ -13599,7 +13599,7 @@
           "icon": "storm_ui_icon_ragnaros_meteorshower.png",
           "cooldownTooltip": "Temps de recharge : 2.5 secondes",
           "shortTooltip": "Invoque une ligne de météores.",
-          "fullTooltip": "Ciblage vectoriel Invoque 3 météores, qui s’abattent au point puis dans la direction ciblés. Chacun d’eux inflige 151 (+4% per level) points de dégâts et ralentit les ennemis de 25% pendant 2 secondes.  Dégâts aux serviteurs, mercenaires et monstres augmentés de 25%.",
+          "fullTooltip": "Ciblage vectoriel<n/>Invoque 3 météores, qui s’abattent au point puis dans la direction ciblés. Chacun d’eux inflige 151 (+4% per level) points de dégâts et ralentit les ennemis de 25% pendant 2 secondes.<n/><n/>Dégâts aux serviteurs, mercenaires et monstres augmentés de 25%.",
           "abilityType": "W"
         },
         {
@@ -13609,7 +13609,7 @@
           "icon": "storm_ui_icon_ragnaros_explosiverune.png",
           "cooldownTooltip": "Temps de recharge : 4 secondes",
           "shortTooltip": "Provoque une explosion à retardement dans une large zone.",
-          "fullTooltip": "Crée une rune qui inflige 285 (+4% per level) points de dégâts aux ennemis autres que les bâtiments après 1.5 seconde.  Dégâts aux serviteurs, mercenaires et monstres augmentés de 25%.",
+          "fullTooltip": "Crée une rune qui inflige 285 (+4% per level) points de dégâts aux ennemis autres que les bâtiments après 1.5 seconde.<n/><n/>Dégâts aux serviteurs, mercenaires et monstres augmentés de 25%.",
           "abilityType": "E"
         }
       ],
@@ -14124,7 +14124,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Temps de recharge : 14 secondes",
           "shortTooltip": "Crée des images miroir qui désorientent et attaquent les ennemis.",
-          "fullTooltip": "Téléporte à une faible distance dans la direction du pointeur et crée 2 images miroir pendant 8 secondes. Elles disposent de 100% des points de vie actuels de Samuro et portent aux adversaires des attaques de base qui infligent 11 (+4% per level) points de dégâts. La durée des images est augmentée de 1 seconde chaque fois qu’elles ou Samuro utilisent une attaque de base contre un héros adverse. Tous les dégâts subis par les images sont doublés.  2 images miroir seulement peuvent être actives à la fois. Image miroir annule la plupart des effets négatifs qui affectent Samuro.",
+          "fullTooltip": "Téléporte à une faible distance dans la direction du pointeur et crée 2 images miroir pendant 8 secondes. Elles disposent de 100% des points de vie actuels de Samuro et portent aux adversaires des attaques de base qui infligent 11 (+4% per level) points de dégâts. La durée des images est augmentée de 1 seconde chaque fois qu’elles ou Samuro utilisent une attaque de base contre un héros adverse. Tous les dégâts subis par les images sont doublés.<n/><n/>2 images miroir seulement peuvent être actives à la fois. Image miroir annule la plupart des effets négatifs qui affectent Samuro.",
           "abilityType": "Q"
         }
       ],
@@ -14146,7 +14146,7 @@
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
           "cooldownTooltip": "Temps de recharge :8 secondes",
           "shortTooltip": "Permet de contrôler les images miroir.",
-          "fullTooltip": "Permet de contrôler les images miroir individuellement ou en groupe, et augmente les dégâts qu’elles infligent de 100%.   Effet passif : abaisse le temps de recharge de Transfert d’image à 8 secondes.",
+          "fullTooltip": "Permet de contrôler les images miroir individuellement ou en groupe, et augmente les dégâts qu’elles infligent de 100%. <n/><n/>Effet passif : abaisse le temps de recharge de Transfert d’image à 8 secondes.",
           "abilityType": "Heroic"
         }
       ],
@@ -14158,7 +14158,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Temps de recharge :14 secondes",
           "shortTooltip": "Les attaques de base portées aux héros augmentent la vitesse de déplacement.",
-          "fullTooltip": "Activer permet de changer de place avec l’image miroir ciblée et dissipe la plupart des effets négatifs qui affectent Samuro et l’image miroir.  Discipline du maître-lame  Les attaques de base portées aux héros adverses augmentent la vitesse de déplacement de 25% pendant 2 secondes.",
+          "fullTooltip": "Activer permet de changer de place avec l’image miroir ciblée et dissipe la plupart des effets négatifs qui affectent Samuro et l’image miroir.<n/><n/>Discipline du maître-lame<n/><n/>Les attaques de base portées aux héros adverses augmentent la vitesse de déplacement de 25% pendant 2 secondes.",
           "abilityType": "Trait"
         }
       ],
@@ -14180,7 +14180,7 @@
           "name": "Sélectionner l’image miroir",
           "icon": "storm_temp_war3_btnmirrorimage.png",
           "shortTooltip": "Sélectionner l’image miroir",
-          "fullTooltip": "Sélectionner l’image miroir  Contrôle une seule image miroir.",
+          "fullTooltip": "Sélectionner l’image miroir<n/><n/>Contrôle une seule image miroir.",
           "abilityType": "Active"
         },
         {
@@ -14189,7 +14189,7 @@
           "name": "Tout sélect.",
           "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
           "shortTooltip": "Tout sélectionner",
-          "fullTooltip": "Tout sélectionner  Contrôle Samuro et toutes ses images miroir.",
+          "fullTooltip": "Tout sélectionner<n/><n/>Contrôle Samuro et toutes ses images miroir.",
           "abilityType": "Active"
         }
       ],
@@ -14323,7 +14323,7 @@
           "icon": "storm_ui_icon_samuro_flowingstrikes.png",
           "cooldownTooltip": "Temps de recharge :14 secondes",
           "shortTooltip": "Les attaques de base portées aux héros augmentent la vitesse de déplacement.",
-          "fullTooltip": "Activer permet de changer de place avec l’image miroir ciblée et dissipe la plupart des effets négatifs qui affectent Samuro et l’image miroir.  Discipline du maître-lame  Les attaques de base portées aux héros adverses augmentent la vitesse de déplacement de 25% pendant 2 secondes.",
+          "fullTooltip": "Activer permet de changer de place avec l’image miroir ciblée et dissipe la plupart des effets négatifs qui affectent Samuro et l’image miroir.<n/><n/>Discipline du maître-lame<n/><n/>Les attaques de base portées aux héros adverses augmentent la vitesse de déplacement de 25% pendant 2 secondes.",
           "abilityType": "Hidden"
         },
         {
@@ -14333,7 +14333,7 @@
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "cooldownTooltip": "Temps de recharge : 18 secondes",
           "shortTooltip": "Crée des images miroir qui désorientent et attaquent les ennemis.",
-          "fullTooltip": "Téléporte à une faible distance dans la direction du pointeur et crée 2 images miroir pendant 8 secondes. Elles disposent de 100% des points de vie actuels de Samuro et portent aux adversaires des attaques de base qui infligent 11 (+4% per level) points de dégâts. La durée des images est augmentée de 1 seconde chaque fois qu’elles ou Samuro utilisent une attaque de base contre un héros adverse. Tous les dégâts subis par les images sont doublés.  2 images miroir seulement peuvent être actives à la fois. Image miroir annule la plupart des effets négatifs qui affectent Samuro.",
+          "fullTooltip": "Téléporte à une faible distance dans la direction du pointeur et crée 2 images miroir pendant 8 secondes. Elles disposent de 100% des points de vie actuels de Samuro et portent aux adversaires des attaques de base qui infligent 11 (+4% per level) points de dégâts. La durée des images est augmentée de 1 seconde chaque fois qu’elles ou Samuro utilisent une attaque de base contre un héros adverse. Tous les dégâts subis par les images sont doublés.<n/><n/>2 images miroir seulement peuvent être actives à la fois. Image miroir annule la plupart des effets négatifs qui affectent Samuro.",
           "abilityType": "Hidden"
         },
         {
@@ -14350,7 +14350,7 @@
           },
           "cooldownTooltip": "Temps de recharge :10 secondes",
           "shortTooltip": "Inflige un coup critique qui augmente les dégâts.",
-          "fullTooltip": "La prochaine attaque de base dans les 8 secondes inflige 50% de dégâts supplémentaires. S’applique aussi aux images et n’interrompt pas Marche du vent.  Effet passif : Samuro et ses images infligent un coup critique toutes les 4 attaques de base.",
+          "fullTooltip": "La prochaine attaque de base dans les 8 secondes inflige 50% de dégâts supplémentaires. S’applique aussi aux images et n’interrompt pas Marche du vent.<n/><n/>Effet passif : Samuro et ses images infligent un coup critique toutes les 4 attaques de base.",
           "abilityType": "Hidden"
         },
         {
@@ -14360,7 +14360,7 @@
           "icon": "storm_ui_icon_samuro_windwalk.png",
           "cooldownTooltip": "Temps de recharge : 15 secondes",
           "shortTooltip": "Camoufle et augmente la vitesse de déplacement.",
-          "fullTooltip": "Camoufle Samuro pendant 10 secondes ou jusqu’à ce qu’il attaque, utilise une capacité ou subisse des dégâts.  Tant qu’il reste camouflé, Samuro récupère 1% de son maximum de points de vie toutes les secondes, peut traverser les autres unités et voit sa vitesse de déplacement augmenter de 25%. S’il reste immobile un minimum de 1.5 seconde en étant camouflé, Samuro devient invisible.  Samuro est indécelable pendant 1 seconde après le début de Marche du vent.",
+          "fullTooltip": "Camoufle Samuro pendant 10 secondes ou jusqu’à ce qu’il attaque, utilise une capacité ou subisse des dégâts.<n/><n/>Tant qu’il reste camouflé, Samuro récupère 1% de son maximum de points de vie toutes les secondes, peut traverser les autres unités et voit sa vitesse de déplacement augmenter de 25%. S’il reste immobile un minimum de 1.5 seconde en étant camouflé, Samuro devient invisible.<n/><n/>Samuro est indécelable pendant 1 seconde après le début de Marche du vent.",
           "abilityType": "Hidden"
         },
         {
@@ -14387,7 +14387,7 @@
           },
           "cooldownTooltip": "Temps de recharge :10 secondes",
           "shortTooltip": "Inflige un coup critique qui augmente les dégâts.",
-          "fullTooltip": "La prochaine attaque de base dans les 8 secondes inflige 50% de dégâts supplémentaires. S’applique aussi aux images et n’interrompt pas Marche du vent.  Effet passif : Samuro et ses images infligent un coup critique toutes les 4 attaques de base.",
+          "fullTooltip": "La prochaine attaque de base dans les 8 secondes inflige 50% de dégâts supplémentaires. S’applique aussi aux images et n’interrompt pas Marche du vent.<n/><n/>Effet passif : Samuro et ses images infligent un coup critique toutes les 4 attaques de base.",
           "abilityType": "Hidden"
         },
         {
@@ -14398,7 +14398,7 @@
           "toggleCooldown": 0.5,
           "cooldownTooltip": "Temps de recharge :8 secondes",
           "shortTooltip": "Permet de contrôler les images miroir.",
-          "fullTooltip": "Permet de contrôler les images miroir individuellement ou en groupe, et augmente les dégâts qu’elles infligent de 100%.   Effet passif : abaisse le temps de recharge de Transfert d’image à 8 secondes.",
+          "fullTooltip": "Permet de contrôler les images miroir individuellement ou en groupe, et augmente les dégâts qu’elles infligent de 100%. <n/><n/>Effet passif : abaisse le temps de recharge de Transfert d’image à 8 secondes.",
           "abilityType": "Hidden"
         }
       ]
@@ -15962,7 +15962,7 @@
           "energyTooltip": "Mana : 45",
           "cooldownTooltip": "Temps de recharge : 10 secondes",
           "shortTooltip": "Lance un marteau qui frappe et étourdit le premier ennemi sur sa trajectoire.",
-          "fullTooltip": "Lance un marteau qui inflige 110 (+4% per level) points de dégâts au premier ennemi touché et l’étourdit pendant 1.25 seconde.  Quête : toucher 25 héros avec Éclair de tempête. Les héros qui meurent moins de 2.5 secondes après avoir été touchés par l’éclair comptent pour 3 touches supplémentaires.  Récompense : Éclair de tempête transperce sa cible et en frappe une deuxième, et les attaques de base de Muradin réduisent son temps de recharge de 1 seconde.",
+          "fullTooltip": "Lance un marteau qui inflige 110 (+4% per level) points de dégâts au premier ennemi touché et l’étourdit pendant 1.25 seconde.<n/><n/>Quête : toucher 25 héros avec Éclair de tempête. Les héros qui meurent moins de 2.5 secondes après avoir été touchés par l’éclair comptent pour 3 touches supplémentaires.<n/><n/>Récompense : Éclair de tempête transperce sa cible et en frappe une deuxième, et les attaques de base de Muradin réduisent son temps de recharge de 1 seconde.",
           "abilityType": "Q"
         },
         {
@@ -16097,7 +16097,7 @@
           "energyTooltip": "Mana : 70",
           "cooldownTooltip": "Temps de recharge : 80 secondes",
           "shortTooltip": "Mange les ennemis dans une zone.",
-          "fullTooltip": "Invoque une Gueule vorace qui dévore les ennemis pendant 4 secondes. Les ennemis dévorés ne peuvent pas se battre et subissent 94 (+4% per level) points de dégâts par seconde.  Fonctionne sur les ennemis insensibles aux effets de contrôle.",
+          "fullTooltip": "Invoque une Gueule vorace qui dévore les ennemis pendant 4 secondes. Les ennemis dévorés ne peuvent pas se battre et subissent 94 (+4% per level) points de dégâts par seconde.<n/><n/>Fonctionne sur les ennemis insensibles aux effets de contrôle.",
           "abilityType": "W"
         },
         {
@@ -16160,7 +16160,7 @@
           "energyTooltip": "Mana : 20",
           "cooldownTooltip": "Temps de recharge : 16 secondes",
           "shortTooltip": "Augmente les points de vie.Contraint un héros à attaquer Varian.",
-          "fullTooltip": "Réduit le héros ciblé au silence et le contraint à attaquer Varian pendant 1.25 seconde.  Effet passif : augmente le maximum de points de vie et leur récupération de 40%.",
+          "fullTooltip": "Réduit le héros ciblé au silence et le contraint à attaquer Varian pendant 1.25 seconde.<n/><n/>Effet passif : augmente le maximum de points de vie et leur récupération de 40%.",
           "abilityType": "B"
         }
       ]
@@ -16175,7 +16175,7 @@
               "name": "Annuler Prison du Vide",
               "icon": "hud_btn_bg_ability_cancel.png",
               "cooldownTooltip": "Temps de recharge : 1.5 secondes",
-              "fullTooltip": "Annule la capacité Prison du Vide.",
+              "fullTooltip": "<n/>Annule la capacité Prison du Vide.",
               "abilityType": "Q"
             }
           ]
@@ -24493,7 +24493,7 @@
           "buttonId": "DragonKnightRubbleMaker",
           "name": "Faiseur de décombres",
           "icon": "storm_ui_icon_dragonknight_rubblemaker.png",
-          "fullTooltip": "Augmente de 100% les dégâts infligés aux bâtiments et aux serviteurs. Réduit de 60% les dégâts infligés par les bâtiments. Insensible aux effets de contrôle. À sa mort, le Chevalier dragon explose en repoussant les ennemis proches.",
+          "fullTooltip": "Augmente de 100% les dégâts infligés aux bâtiments et aux serviteurs.<n/>Réduit de 60% les dégâts infligés par les bâtiments.<n/>Insensible aux effets de contrôle.<n/>À sa mort, le Chevalier dragon explose en repoussant les ennemis proches.",
           "abilityType": "Heroic",
           "isActive": false,
           "isPassive": true
@@ -24710,7 +24710,7 @@
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Temps de recharge : 8 secondes",
           "shortTooltip": "Charge une cible et inflige des dégâts dans une zone.",
-          "fullTooltip": "Charge une cible et inflige 160 points de dégâts dans une zone.  Les unités non héroïques subissent 500% de dégâts supplémentaires.",
+          "fullTooltip": "Charge une cible et inflige 160 points de dégâts dans une zone.<n/><n/>Les unités non héroïques subissent 500% de dégâts supplémentaires.",
           "abilityType": "Q"
         },
         {
@@ -24720,7 +24720,7 @@
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Temps de recharge : 14 secondes",
           "shortTooltip": "Lance un poing qui inflige des dégâts, immobilise les héros et neutralise les tours.",
-          "fullTooltip": "Lance un poing balistique qui inflige 150 points de dégâts au premier héros ou bâtiment sur sa trajectoire. Le poing étourdit les héros pour un maximum de 2 secondes et neutralise les bâtiments pendant 4 secondes.  Tue instantanément tous les serviteurs sur sa trajectoire.",
+          "fullTooltip": "Lance un poing balistique qui inflige 150 points de dégâts au premier héros ou bâtiment sur sa trajectoire. Le poing étourdit les héros pour un maximum de 2 secondes et neutralise les bâtiments pendant 4 secondes.<n/><n/>Tue instantanément tous les serviteurs sur sa trajectoire.",
           "abilityType": "W"
         },
         {
@@ -24808,7 +24808,7 @@
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Charge une cible et inflige des dégâts dans une zone.",
-          "fullTooltip": "Charge une cible et inflige 160 points de dégâts dans une zone.  Les unités non héroïques subissent 500% de dégâts supplémentaires.",
+          "fullTooltip": "Charge une cible et inflige 160 points de dégâts dans une zone.<n/><n/>Les unités non héroïques subissent 500% de dégâts supplémentaires.",
           "abilityType": "Hidden"
         },
         {
@@ -24817,7 +24817,7 @@
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Charge une cible et inflige des dégâts dans une zone.",
-          "fullTooltip": "Charge une cible et inflige 160 points de dégâts dans une zone.  Les unités non héroïques subissent 500% de dégâts supplémentaires.",
+          "fullTooltip": "Charge une cible et inflige 160 points de dégâts dans une zone.<n/><n/>Les unités non héroïques subissent 500% de dégâts supplémentaires.",
           "abilityType": "Hidden"
         },
         {
@@ -24826,7 +24826,7 @@
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "shortTooltip": "Charge une cible et inflige des dégâts dans une zone.",
-          "fullTooltip": "Charge une cible et inflige 160 points de dégâts dans une zone.  Les unités non héroïques subissent 500% de dégâts supplémentaires.",
+          "fullTooltip": "Charge une cible et inflige 160 points de dégâts dans une zone.<n/><n/>Les unités non héroïques subissent 500% de dégâts supplémentaires.",
           "abilityType": "Hidden"
         }
       ]
@@ -24877,7 +24877,7 @@
           "icon": "storm_ui_icon_volskayarobot_tacticalstrikes.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Tire une volée de projectiles.",
-          "fullTooltip": "Tire des missiles à l’emplacement du curseur. Chacun d’eux inflige 38 points de dégâts mais draine 1 points d’énergie. Réactiver fait cesser le tir.  Les bâtiments subissent 50% de dégâts en moins.",
+          "fullTooltip": "Tire des missiles à l’emplacement du curseur. Chacun d’eux inflige 38 points de dégâts mais draine 1 points d’énergie. Réactiver fait cesser le tir.<n/><n/>Les bâtiments subissent 50% de dégâts en moins.",
           "abilityType": "W"
         },
         {
@@ -24887,7 +24887,7 @@
           "icon": "storm_ui_icon_volskayarobot_skylaser.png",
           "cooldownTooltip": "Temps de recharge : 10 secondes",
           "shortTooltip": "Inflige des dégâts différés sur une ligne.",
-          "fullTooltip": "Ciblage vectoriel Trace une ligne sur le sol et inflige 60 points de dégâts. Après 1 secondes, la ligne explose et inflige 380 points de dégâts.",
+          "fullTooltip": "Ciblage vectoriel<n/>Trace une ligne sur le sol et inflige 60 points de dégâts. Après 1 secondes, la ligne explose et inflige 380 points de dégâts.",
           "abilityType": "E"
         }
       ],
@@ -25142,7 +25142,7 @@
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
           "cooldownTooltip": "Temps de recharge : 8 secondes",
-          "fullTooltip": "Charge une cible et inflige 225 points de dégâts dans une zone.   Les unités non héroïques subissent des dégâts augmentés de 200%.",
+          "fullTooltip": "Charge une cible et inflige 225 points de dégâts dans une zone. <n/><n/>Les unités non héroïques subissent des dégâts augmentés de 200%.",
           "abilityType": "Q"
         },
         {
@@ -25151,7 +25151,7 @@
           "name": "Poing balistique",
           "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
           "cooldownTooltip": "Temps de recharge : 14 secondes",
-          "fullTooltip": "Lance un poing balistique qui inflige 200 points de dégâts au premier héros ou bâtiment sur sa trajectoire. Le poing repousse et étourdit les héros pendant 1,5 seconde et neutralise les bâtiments pendant 4 secondes.  Tue instantanément tous les serviteurs sur sa trajectoire.",
+          "fullTooltip": "Lance un poing balistique qui inflige 200 points de dégâts au premier héros ou bâtiment sur sa trajectoire. Le poing repousse et étourdit les héros pendant 1,5 seconde et neutralise les bâtiments pendant 4 secondes.<n/><n/>Tue instantanément tous les serviteurs sur sa trajectoire.",
           "abilityType": "W"
         },
         {
@@ -25237,7 +25237,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Charge une cible et inflige 225 points de dégâts dans une zone.   Les unités non héroïques subissent des dégâts augmentés de 200%.",
+          "fullTooltip": "Charge une cible et inflige 225 points de dégâts dans une zone. <n/><n/>Les unités non héroïques subissent des dégâts augmentés de 200%.",
           "abilityType": "Hidden"
         },
         {
@@ -25245,7 +25245,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Charge une cible et inflige 225 points de dégâts dans une zone.   Les unités non héroïques subissent des dégâts augmentés de 200%.",
+          "fullTooltip": "Charge une cible et inflige 225 points de dégâts dans une zone. <n/><n/>Les unités non héroïques subissent des dégâts augmentés de 200%.",
           "abilityType": "Hidden"
         },
         {
@@ -25253,7 +25253,7 @@
           "buttonId": "VolskayaVehicleCharge",
           "name": "Charge",
           "icon": "storm_ui_icon_volskayarobot_charge.png",
-          "fullTooltip": "Charge une cible et inflige 225 points de dégâts dans une zone.   Les unités non héroïques subissent des dégâts augmentés de 200%.",
+          "fullTooltip": "Charge une cible et inflige 225 points de dégâts dans une zone. <n/><n/>Les unités non héroïques subissent des dégâts augmentés de 200%.",
           "abilityType": "Hidden"
         }
       ]
