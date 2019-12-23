@@ -11,6 +11,7 @@ body {
     width: 100%;
     height: 50px;
     background-color: #e7dbdb;
+    z-index: 100000;
 }
 #HomeButton {
     width: 200px;
@@ -82,16 +83,29 @@ img {
 
 
 
-
+#HeroTitle {
+    margin-left: 3px;
+    font-size: 20pt;
+}
 #skills {
-    height: 120px;
+    height: 130px;
     width: 100%;
     border: 3px;
     border-style: solid;
     border-color: whitesmoke;
 }
+#showAlternativeSkills {
+    height: 30px;
+    width: auto;
+    border: 3px;
+    border-style: butt;
+    border-color: wheat;
+    background-color: wheat;
+    margin-top: 103px;
+    
+}
 #alternativeSkills {
-    height: 120px;
+    height: 130px;
     width: 100%;
     border: 3px;
     border-style: solid;
@@ -112,7 +126,7 @@ img {
 }
 #skill {
     float: left;
-    height: 100px;
+    height: 10px;
     width: 100px;
     border: 3px;
     border-style: solid;

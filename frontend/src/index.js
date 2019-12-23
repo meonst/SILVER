@@ -8,7 +8,6 @@ import {
     Link,
     useParams,
   } from "react-router-dom";
-
 var lang = 'enus'
 var cooldown, energycost, lifecost, necessityStyle, specialMount, singleHeroic, hasActivable, isViking, hasAlternative, qAlt, wAlt, eAlt
 //MainPage is the default page
@@ -88,6 +87,11 @@ function Heroes(heroes_data) {
 //HeroPage is the page for a certain Hero
 class HeroPage extends React.Component {
     
+    constructor(props) {
+        super(props)
+        this.state = {page: undefined, showAlternativeSkills: false}
+    }
+
     async componentDidMount() {
         var herodat;
         lang = this.props.language
@@ -103,7 +107,6 @@ class HeroPage extends React.Component {
         if (herodat['unitId'] === 'HeroSamuro') {hasActivable = false}
         //Alternative Skills
         hasAlternative = false
-
         //Abathur
         if (herodat['unitId'] === 'HeroAbathur') {
             hasAlternative = true
@@ -172,57 +175,82 @@ class HeroPage extends React.Component {
                 <div id='skills'>             
                     <HeroSkill
                         value={herodat['abilities']['trait'][0]}
+                        button='D'
                     />
 
                     <HeroSkill
                         value={herodat['abilities']['basic'][0]}
+                        button='Q'
                     />
 
                     <HeroSkill
                         value={herodat['abilities']['basic'][1]}
+                        button='W'
                     />
 
                     <HeroSkill
                         value={herodat['abilities']['basic'][2]}
+                        button='E'
                     />
 
                     <HeroSkill
                         value={herodat['abilities']['heroic'][0]}
                         style={{'display': singleHeroic ? 'block' : 'none'}}
+                        button='R'
                     />
                     <HeroSkill
                         value={hasActivable ? herodat['abilities']['activable'][0] : undefined}
                         style={{'display': hasActivable ? 'block' : 'none'}}
+                        button='1'
                     />
                     <HeroSkill
                         value={isViking ? herodat['abilities']['activable'][1] : undefined}
                         style={{'display': isViking ? 'block' : 'none'}}
+                        button='2'
                     />
                     <HeroSkill
                         value={isViking ? herodat['abilities']['activable'][2] : undefined}
                         style={{'display': isViking ? 'block' : 'none'}}
+                        button='3'
                     />
                     <HeroSkill
                         value={isViking ? herodat['abilities']['activable'][3] : undefined}
                         style={{'display': isViking ? 'block' : 'none'}}
+                        button='4'
                     />
                     <Mount
                         value={herodat['abilities']['mount'][0]}
                         style={{'display': specialMount ? 'block' : 'none'}}
+                        button='Z'
                     />
+                    <button
+                        id='showAlternativeSkills'
+                        style={{'display': hasAlternative ? 'inline-block' : 'none'}}
+                        onClick={() => {this.setState({showAlternativeSkills: !this.state.showAlternativeSkills})}}
+                    >
+                        ↓
+                    </button>
+
                 </div>
-                <div id='alternativeSkills'>
+                <div
+                id='alternativeSkills'
+                style={{'display': this.state.showAlternativeSkills ? 'block' : 'none'}}
+                >
+                    
                     <HeroSkill
                         value='empty'
                     />
                     <HeroSkill
                         value={qAlt}
+                        button='Q'
                     />
                     <HeroSkill
                         value={wAlt}
+                        button='W'
                     />
                     <HeroSkill
                         value={eAlt}
+                        button='E'
                     />
                 </div>
             </div>
@@ -265,22 +293,25 @@ class HeroPage extends React.Component {
                     />
                 </div>
             </div>
+        
+        console.log(herodat)
+
         var All = 
             <div>
+                <div id='HeroTitle'>{herodat['name']}, {herodat['title']}</div>
                 {Abilities}
                 {Talents}
             </div>
         
             
-        this.setState(All)
+        this.setState({page: All})
+        console.log(this.state)
     }
     
     render() {
         return (
             <div>
-                <div>
-                    {this.state}
-                </div>
+                {this.state.page}
             </div>
         )
     }
@@ -332,6 +363,7 @@ class Mount extends React.Component{
                     />
                 
                 </span>
+                {this.props.button}
             </div>
         )
     }
@@ -352,7 +384,7 @@ class HeroSkill extends React.Component{
                 lifecost = this.props.value['lifeTooltip']
             } else {lifecost = undefined}
             if (this.props.value.hasOwnProperty('cooldownTooltip')) {
-                cooldown = this.props.value['cooldownTooltip']
+                cooldown = this.props.value['cooldownTooltip'].replace('<n/>', ', ')
             } else {cooldown = undefined}
         }
 
@@ -360,7 +392,7 @@ class HeroSkill extends React.Component{
             'display': this.state.hover ? 'block' : 'none',
             'position': 'absolute',
             'backgroundColor': 'white',
-            'width': '400px',
+            'width': '450px',
             'borderStyle': 'solid',
             'borderColor': 'grey',
             'padding': '3px',
@@ -388,7 +420,6 @@ class HeroSkill extends React.Component{
             )
         }
         else {
-           
             return(
                 <div 
                     id="skill"
@@ -415,6 +446,7 @@ class HeroSkill extends React.Component{
                         />
                     
                     </span>
+                    {this.props.button}
                 </div>
             )
         }
@@ -472,7 +504,7 @@ class Talent extends React.Component {
 
         const Tooltip = {
             'display': this.state.hover ? 'block' : 'none',
-            'position' : 'absolute',
+            'position': 'absolute',
             'backgroundColor': 'white',
             'width': '400px',
             'borderStyle': 'solid',
@@ -513,7 +545,6 @@ class Description extends React.Component {
     render() {
         if (this.props.energycost === undefined && this.props.lifecost === undefined && this.props.cooldown === undefined) {
             necessityStyle = {'display': 'none'}} else {necessityStyle = {'display': 'block'}}
-        console.log(this.props.value)
         var lineBreaked = []
         for (let line in this.props.value.split("<n/>")) {lineBreaked.push(this.props.value.split("<n/>")[line], <br/>)}
         return(
