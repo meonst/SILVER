@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SILVER/static/css/main.44d6a248.chunk.css",
-    "main.js": "/SILVER/static/js/main.1a1d13ed.chunk.js",
-    "main.js.map": "/SILVER/static/js/main.1a1d13ed.chunk.js.map",
+    "main.js": "/SILVER/static/js/main.5c401a03.chunk.js",
+    "main.js.map": "/SILVER/static/js/main.5c401a03.chunk.js.map",
     "runtime-main.js": "/SILVER/static/js/runtime-main.ab25b5ea.js",
     "runtime-main.js.map": "/SILVER/static/js/runtime-main.ab25b5ea.js.map",
     "static/js/2.8d99b68a.chunk.js": "/SILVER/static/js/2.8d99b68a.chunk.js",
     "static/js/2.8d99b68a.chunk.js.map": "/SILVER/static/js/2.8d99b68a.chunk.js.map",
     "index.html": "/SILVER/index.html",
-    "precache-manifest.3c44c8cb61e2e07cb474df6107a52790.js": "/SILVER/precache-manifest.3c44c8cb61e2e07cb474df6107a52790.js",
+    "precache-manifest.a17bf49816acd01cc725369ccc57e983.js": "/SILVER/precache-manifest.a17bf49816acd01cc725369ccc57e983.js",
     "service-worker.js": "/SILVER/service-worker.js",
     "static/css/main.44d6a248.chunk.css.map": "/SILVER/static/css/main.44d6a248.chunk.css.map",
     "static/js/2.8d99b68a.chunk.js.LICENSE": "/SILVER/static/js/2.8d99b68a.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ab25b5ea.js",
     "static/js/2.8d99b68a.chunk.js",
     "static/css/main.44d6a248.chunk.css",
-    "static/js/main.1a1d13ed.chunk.js"
+    "static/js/main.5c401a03.chunk.js"
   ]
 }
