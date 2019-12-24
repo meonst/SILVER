@@ -1,0 +1,2 @@
+data parsed with 'https://github.com/HeroesToolChest/HeroesDataParser'
+using command line 'dotnet heroes-data "C:\Program Files (x86)\Heroes of the Storm" -e all -l all -i all -d 3'
