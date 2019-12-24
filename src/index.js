@@ -52,7 +52,7 @@ class MainPage extends React.Component {
 class HeroPortrait extends React.Component {
     
     render() {
-        var imagesource='http://localhost:3000/files/images/heroportraits/' + this.props.value
+        var imagesource='https://min.hyeok.org/SILVER/files/images/heroportraits/' + this.props.value
         return(
             <h1 className="Portrait">
                 <img
@@ -138,7 +138,7 @@ class HeroPage extends React.Component {
         else {
             lang = this.props.language
         }
-        await fetch('http://localhost:3000/files/json/herodata_' + version + '_' + lang + '.json').then(value => value.json()).then(value => {herodat = value[this.props.link]})
+        await fetch('https://min.hyeok.org/SILVER/files/json/herodata_' + version + '_' + lang + '.json').then(value => value.json()).then(value => {herodat = value[this.props.link]})
         this.setState({data: herodat})
         if (herodat['unitId'] === 'HeroDeathwing' || herodat['unitId'] === 'HeroTracer') {this.setState({singleHeroic: true})}
         if (herodat['abilities']['activable'] === undefined) {this.setState({hasActivable: false})}
@@ -482,7 +482,7 @@ class SkillImage extends React.Component {
 
 
     render() {
-        var imagesource='http://localhost:3000/files/images/abilitytalents/' + this.props.value
+        var imagesource='https://min.hyeok.org/SILVER/files/images/abilitytalents/' + this.props.value
         return (
             <img
                 src={imagesource}
@@ -621,7 +621,7 @@ class TopBar extends React.Component {
                 id='TopBar'
             >
                 <Link
-                    to={'/'}
+                    to={'/SILVER'}
                     id='HomeButton'
                 >
                     <div
@@ -630,7 +630,7 @@ class TopBar extends React.Component {
                         <img
                             id='Bunker'
                             alt='Go Home'
-                            src='http://localhost:3000/files/images/units/storm_temp_btn-building-terran-bunker.png'
+                            src='https://min.hyeok.org/SILVER/files/images/units/storm_temp_btn-building-terran-bunker.png'
                         />
                     </div>
                     Silver City
