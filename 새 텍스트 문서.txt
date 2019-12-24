@@ -1,2 +1,0 @@
-C:\Windows\System32\cmd.exe /k cd ../../Users\smh21\Desktop\prog\SILVER & virt\scripts\activate & cd backend & py manage.py runserver
-C:\Windows\System32\cmd.exe /k cd ../../Users\smh21\Desktop\prog\SILVER\frontend & npm start
