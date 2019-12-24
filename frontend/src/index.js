@@ -8,8 +8,11 @@ import {
     Link,
     useParams,
   } from "react-router-dom";
+
 var lang = 'enus'
-var cooldown, energycost, lifecost, necessityStyle, specialMount, singleHeroic, hasActivable, isViking, hasAlternative, qAlt, wAlt, eAlt
+var dat
+const version = '77692'
+var cooldown, energycost, lifecost, necessityStyle
 //MainPage is the default page
 class MainPage extends React.Component {
     
@@ -20,8 +23,7 @@ class MainPage extends React.Component {
         else {
             lang = this.props.language
         }
-        var dat
-        await fetch('http://localhost:8000/heroesapi/?lang=' + lang).then(value => value.json()).then(value => {dat = value})
+        await fetch('files/json/herodata_' + version + '_' + lang + '.json').then((value) => value.json()).then(value => {dat = value})
         this.setState(Heroes(dat))
     }
 
@@ -35,7 +37,7 @@ class MainPage extends React.Component {
 class HeroPortrait extends React.Component {
     
     render() {
-        var imagesource='http://localhost:8000/heroesapi/image/portrait/' + this.props.value
+        var imagesource='http://localhost:3000/files/images/heroportraits/' + this.props.value
         return(
             <h1 className="Portrait">
                 <img
@@ -69,9 +71,12 @@ function Heroes(heroes_data) {
         if(heroes_data.hasOwnProperty(hero)){
             heroes_render.push(
                 <Hero
-                key={hero}
-                value={heroes_data[hero]}
-                name={hero}
+                key={heroes_data[hero]['name']}
+                value={{
+                    'herolink': hero,
+                    'portraitlink': heroes_data[hero]['portraits']['target']
+                }}
+                name={heroes_data[hero]['name']}
                 />
             )
         } 
@@ -89,148 +94,162 @@ class HeroPage extends React.Component {
     
     constructor(props) {
         super(props)
-        this.state = {page: undefined, showAlternativeSkills: false}
+        this.state = {
+            data: undefined,
+            singleHeroic: false,
+            hasActivable: true,
+            specialMount: false,
+            isViking: false,
+            hasAlternative: false,
+            qAlt: 'empty',
+            wAlt: 'empty',
+            eAlt: 'empty',
+            showAlternativeSkills: false,
+            component: false,
+        }
     }
 
     async componentDidMount() {
         var herodat;
         lang = this.props.language
-        var fetchurl ='http://localhost:8000/heroesapi/' + this.props.link + '?lang=' + lang;
-        await fetch(fetchurl).then(value => value.json()).then(value => {herodat = value['herodata']})
-        //console.log(herodat)
-        if (herodat['unitId'] === 'HeroDeathwing' || herodat['unitId'] === 'HeroTracer') {singleHeroic = true} else {singleHeroic = false}
-        if (herodat['abilities']['activable'] === undefined) {hasActivable = false} else {hasActivable = true}
-        if (herodat['abilities']['mount'][0]['nameId'] !== 'Mount') {specialMount = true} else {specialMount = false}
-        if (herodat['unitId'] === 'HeroLostVikingsController') {isViking = true} else {isViking = false}
-        qAlt = 'empty'; wAlt = 'empty'; eAlt = 'empty'
-        
-        if (herodat['unitId'] === 'HeroSamuro') {hasActivable = false}
+        await fetch('http://localhost:3000/files/json/herodata_77692_enus.json').then(value => value.json()).then(value => {herodat = value[this.props.link]})
+        this.setState({data: herodat})
+        if (herodat['unitId'] === 'HeroDeathwing' || herodat['unitId'] === 'HeroTracer') {this.setState({singleHeroic: true})}
+        if (herodat['abilities']['activable'] === undefined) {this.setState({hasActivable: false})}
+        if (herodat['abilities']['mount'][0]['nameId'] !== 'Mount') {this.setState({specialMount: true})}
+        if (herodat['unitId'] === 'HeroLostVikingsController') {this.setState({isViking: true})}
+        if (herodat['unitId'] === 'HeroSamuro') {this.setState({hasActivable: false})}
         //Alternative Skills
-        hasAlternative = false
         //Abathur
         if (herodat['unitId'] === 'HeroAbathur') {
-            hasAlternative = true
-            qAlt = herodat['heroUnits'][0]['AbathurSymbiote']['abilities']['basic'][0]
-            wAlt = herodat['heroUnits'][0]['AbathurSymbiote']['abilities']['basic'][1]
-            eAlt = herodat['heroUnits'][0]['AbathurSymbiote']['abilities']['basic'][2]
+            this.setState({hasAlternative: true})
+            this.setState({qAlt: herodat['heroUnits'][0]['AbathurSymbiote']['abilities']['basic'][0]})
+            this.setState({wAlt: herodat['heroUnits'][0]['AbathurSymbiote']['abilities']['basic'][1]})
+            this.setState({eAlt: herodat['heroUnits'][0]['AbathurSymbiote']['abilities']['basic'][2]})
         }
         //Alexstrasza
         if (herodat['unitId'] === 'HeroAlexstrasza') {
-            hasAlternative = true
-            qAlt = herodat['heroUnits'][0]['HeroAlexstraszaDragon']['abilities']['basic'][0]
-            wAlt = herodat['heroUnits'][0]['HeroAlexstraszaDragon']['abilities']['basic'][1]
-            eAlt = herodat['heroUnits'][0]['HeroAlexstraszaDragon']['abilities']['basic'][2]
+            this.setState({hasAlternative: true})
+            this.setState({qAlt: herodat['heroUnits'][0]['HeroAlexstraszaDragon']['abilities']['basic'][0]})
+            this.setState({wAlt: herodat['heroUnits'][0]['HeroAlexstraszaDragon']['abilities']['basic'][1]})
+            this.setState({eAlt: herodat['heroUnits'][0]['HeroAlexstraszaDragon']['abilities']['basic'][2]})
         }
         //Chen
         if (herodat['unitId'] === 'HeroChen') {
-            hasAlternative = true
-            qAlt = herodat['subAbilities'][0]['ChenStormEarthFire|ChenStormEarthFire|Heroic']['basic'][0]
-            wAlt = herodat['subAbilities'][0]['ChenStormEarthFire|ChenStormEarthFire|Heroic']['basic'][1]
-            eAlt = herodat['subAbilities'][0]['ChenStormEarthFire|ChenStormEarthFire|Heroic']['basic'][2]
+            this.setState({hasAlternative: true})
+            this.setState({qAlt: herodat['subAbilities'][0]['ChenStormEarthFire|ChenStormEarthFire|Heroic']['basic'][0]})
+            this.setState({wAlt: herodat['subAbilities'][0]['ChenStormEarthFire|ChenStormEarthFire|Heroic']['basic'][1]})
+            this.setState({eAlt: herodat['subAbilities'][0]['ChenStormEarthFire|ChenStormEarthFire|Heroic']['basic'][2]})
         }
         //Deathwing
         if (herodat['unitId'] === 'HeroDeathwing') {
-            hasAlternative = true
-            wAlt = herodat['subAbilities'][0]['DeathwingFormSwitch|DeathwingFormSwitch|Active']['basic'][0]
-            eAlt = herodat['subAbilities'][0]['DeathwingFormSwitch|DeathwingFormSwitch|Active']['basic'][1]
+            this.setState({hasAlternative: true})
+            this.setState({wAlt: herodat['subAbilities'][0]['DeathwingFormSwitch|DeathwingFormSwitch|Active']['basic'][0]})
+            this.setState({eAlt: herodat['subAbilities'][0]['DeathwingFormSwitch|DeathwingFormSwitch|Active']['basic'][1]})
         }
         //D.Va
         if (herodat['unitId'] === 'HeroDVaMech') {
-            hasAlternative = true
-            eAlt = herodat['heroUnits'][0]['HeroDVaPilot']['abilities']['basic'][2]
+            this.setState({hasAlternative: true})
+            this.setState({eAlt: herodat['heroUnits'][0]['HeroDVaPilot']['abilities']['basic'][2]})
         }
         //Greymane
         if (herodat['unitId'] === 'HeroGreymane') {
-            hasAlternative = true
-            qAlt = herodat['subAbilities'][0]['GreymaneWorgenForm|GreymaneWorgenForm|Trait|True']['basic'][0]
-            eAlt = herodat['subAbilities'][0]['GreymaneWorgenForm|GreymaneWorgenForm|Trait|True']['basic'][1]
+            this.setState({hasAlternative: true})
+            this.setState({qAlt: herodat['subAbilities'][0]['GreymaneWorgenForm|GreymaneWorgenForm|Trait|True']['basic'][0]})
+            this.setState({eAlt: herodat['subAbilities'][0]['GreymaneWorgenForm|GreymaneWorgenForm|Trait|True']['basic'][1]})
         }
         //Leoric
         if (herodat['unitId'] === 'HeroLeoric') {
-            hasAlternative = true
-            qAlt = herodat['subAbilities'][0]['LeoricUndyingTrait|LeoricUndyingTrait|Trait|True']['basic'][0]
-            wAlt = herodat['subAbilities'][0]['LeoricUndyingTrait|LeoricUndyingTrait|Trait|True']['basic'][1]
+            this.setState({hasAlternative: true})
+            this.setState({qAlt: herodat['subAbilities'][0]['LeoricUndyingTrait|LeoricUndyingTrait|Trait|True']['basic'][0]})
+            this.setState({wAlt: herodat['subAbilities'][0]['LeoricUndyingTrait|LeoricUndyingTrait|Trait|True']['basic'][1]})
         }
         //Ragnaros
         if (herodat['unitId'] === 'HeroRagnaros') {
-            hasAlternative = true
-            qAlt = herodat['heroUnits'][0]['RagnarosBigRag']['abilities']['basic'][0]
-            wAlt = herodat['heroUnits'][0]['RagnarosBigRag']['abilities']['basic'][1]
-            eAlt = herodat['heroUnits'][0]['RagnarosBigRag']['abilities']['basic'][2]
+            this.setState({hasAlternative: true})
+            this.setState({qAlt: herodat['heroUnits'][0]['RagnarosBigRag']['abilities']['basic'][0]})
+            this.setState({wAlt: herodat['heroUnits'][0]['RagnarosBigRag']['abilities']['basic'][1]})
+            this.setState({eAlt: herodat['heroUnits'][0]['RagnarosBigRag']['abilities']['basic'][2]})
         }
         //Uther
         if (herodat['unitId'] === 'HeroUther') {
-            hasAlternative = true
-            qAlt = herodat['subAbilities'][0]['UtherEternalDevotion|UtherEternalDevotion|Trait']['basic'][0]
+            this.setState({hasAlternative: true})
+            this.setState({qAlt: herodat['subAbilities'][0]['UtherEternalDevotion|UtherEternalDevotion|Trait']['basic'][0]})
         }
         //Valeera
         if (herodat['unitId'] === 'HeroValeera') {
-            hasAlternative = true
-            qAlt = herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][0]
-            wAlt = herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][1]
-            eAlt = herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][2]
+            this.setState({hasAlternative: true})
+            this.setState({qAlt: herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][0]})
+            this.setState({wAlt: herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][1]})
+            this.setState({wAlt: herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][2]})
         }
-        var Abilities = 
+
+        this.setState({component: true})
+    }
+    
+    render() {
+        return (
+            this.state.component ?
             <div>
+                <div id='HeroTitle'>{this.state.data['name']}, {this.state.data['title']}</div>
                 <div id='skills'>             
                     <HeroSkill
-                        value={herodat['abilities']['trait'][0]}
+                        value={this.state.data['abilities']['trait'][0]}
                         button='D'
                     />
 
                     <HeroSkill
-                        value={herodat['abilities']['basic'][0]}
+                        value={this.state.data['abilities']['basic'][0]}
                         button='Q'
                     />
 
                     <HeroSkill
-                        value={herodat['abilities']['basic'][1]}
+                        value={this.state.data['abilities']['basic'][1]}
                         button='W'
                     />
 
                     <HeroSkill
-                        value={herodat['abilities']['basic'][2]}
+                        value={this.state.data['abilities']['basic'][2]}
                         button='E'
                     />
 
                     <HeroSkill
-                        value={herodat['abilities']['heroic'][0]}
-                        style={{'display': singleHeroic ? 'block' : 'none'}}
+                        value={this.state.data['abilities']['heroic'][0]}
+                        style={{'display': this.state.singleHeroic ? 'block' : 'none'}}
                         button='R'
                     />
                     <HeroSkill
-                        value={hasActivable ? herodat['abilities']['activable'][0] : undefined}
-                        style={{'display': hasActivable ? 'block' : 'none'}}
+                        value={this.state.hasActivable ? this.state.data['abilities']['activable'][0] : undefined}
+                        style={{'display': this.state.hasActivable ? 'block' : 'none'}}
                         button='1'
                     />
                     <HeroSkill
-                        value={isViking ? herodat['abilities']['activable'][1] : undefined}
-                        style={{'display': isViking ? 'block' : 'none'}}
+                        value={this.state.isViking ? this.state.data['abilities']['activable'][1] : undefined}
+                        style={{'display': this.state.isViking ? 'block' : 'none'}}
                         button='2'
                     />
                     <HeroSkill
-                        value={isViking ? herodat['abilities']['activable'][2] : undefined}
-                        style={{'display': isViking ? 'block' : 'none'}}
+                        value={this.state.isViking ? this.state.data['abilities']['activable'][2] : undefined}
+                        style={{'display': this.state.isViking ? 'block' : 'none'}}
                         button='3'
                     />
                     <HeroSkill
-                        value={isViking ? herodat['abilities']['activable'][3] : undefined}
-                        style={{'display': isViking ? 'block' : 'none'}}
+                        value={this.state.isViking ? this.state.data['abilities']['activable'][3] : undefined}
+                        style={{'display': this.state.isViking ? 'block' : 'none'}}
                         button='4'
                     />
                     <Mount
-                        value={herodat['abilities']['mount'][0]}
-                        style={{'display': specialMount ? 'block' : 'none'}}
+                        value={this.state.data['abilities']['mount'][0]}
+                        style={{'display': this.state.specialMount ? 'block' : 'none'}}
                         button='Z'
                     />
                     <button
                         id='showAlternativeSkills'
-                        style={{'display': hasAlternative ? 'inline-block' : 'none'}}
+                        style={{'display': this.state.hasAlternative ? 'inline-block' : 'none'}}
                         onClick={() => {this.setState({showAlternativeSkills: !this.state.showAlternativeSkills})}}
                     >
                         ↓
                     </button>
-
                 </div>
                 <div
                 id='alternativeSkills'
@@ -241,78 +260,58 @@ class HeroPage extends React.Component {
                         value='empty'
                     />
                     <HeroSkill
-                        value={qAlt}
+                        value={this.state.qAlt}
                         button='Q'
                     />
                     <HeroSkill
-                        value={wAlt}
+                        value={this.state.wAlt}
                         button='W'
                     />
                     <HeroSkill
-                        value={eAlt}
+                        value={this.state.eAlt}
                         button='E'
                     />
                 </div>
+                <div id='talents'>
+                <div id='column'>
+                    <Column
+                        value={this.state.data['talents']['level1']}
+                    />
+                </div>
+                <div id='column'>
+                    <Column
+                        value={this.state.data['talents']['level4']}
+                    />
+                </div>
+                <div id='column'>
+                    <Column
+                        value={this.state.data['talents']['level7']}
+                    />
+                </div>
+                <div id='column'>
+                    <Column
+                        value={this.state.data['talents']['level10']}
+                    />
+                </div>
+                <div id='column'>
+                    <Column
+                        value={this.state.data['talents']['level13']}
+                    />
+                </div>
+                <div id='column'>
+                    <Column
+                        value={this.state.data['talents']['level16']}
+                    />
+                </div>
+                <div id='column'>
+                    <Column
+                        value={this.state.data['talents']['level20']}
+                    />
+                </div>
+            </div>
             </div>
 
-        var Talents = 
-            <div id='talents'>
-                <div id='column'>
-                    <Column
-                        value={herodat['talents']['level1']}
-                    />
-                </div>
-                <div id='column'>
-                    <Column
-                        value={herodat['talents']['level4']}
-                    />
-                </div>
-                <div id='column'>
-                    <Column
-                        value={herodat['talents']['level7']}
-                    />
-                </div>
-                <div id='column'>
-                    <Column
-                        value={herodat['talents']['level10']}
-                    />
-                </div>
-                <div id='column'>
-                    <Column
-                        value={herodat['talents']['level13']}
-                    />
-                </div>
-                <div id='column'>
-                    <Column
-                        value={herodat['talents']['level16']}
-                    />
-                </div>
-                <div id='column'>
-                    <Column
-                        value={herodat['talents']['level20']}
-                    />
-                </div>
-            </div>
-        
-        console.log(herodat)
-
-        var All = 
-            <div>
-                <div id='HeroTitle'>{herodat['name']}, {herodat['title']}</div>
-                {Abilities}
-                {Talents}
-            </div>
-        
-            
-        this.setState({page: All})
-        console.log(this.state)
-    }
-    
-    render() {
-        return (
-            <div>
-                {this.state.page}
-            </div>
+            : <div></div>
         )
     }
 }
@@ -457,7 +456,7 @@ class SkillImage extends React.Component {
 
 
     render() {
-        var imagesource='http://localhost:8000/heroesapi/image/abilitytalent/' + this.props.value
+        var imagesource='http://localhost:3000/files/images/abilitytalents/' + this.props.value
         return (
             <img
                 src={imagesource}
@@ -603,7 +602,7 @@ class TopBar extends React.Component {
                         <img
                             id='Bunker'
                             alt='Go Home'
-                            src='http://localhost:8000/heroesapi/image/unit/storm_temp_btn-building-terran-bunker.png'
+                            src='http://localhost:3000/files/images/units/storm_temp_btn-building-terran-bunker.png'
                         />
                     </div>
                     Silver City
