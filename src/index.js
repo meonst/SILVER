@@ -9,8 +9,8 @@ import {
     useParams,
   } from "react-router-dom";
 
-var lang = (navigator.language || navigator.userLanguage).toLowerCase().replace('-', '');
-console.log(lang)
+//var lang = (navigator.language || navigator.userLanguage).toLowerCase().replace('-', '');
+var lang = 'enus'
 const version = '77692'
 var cooldown, energycost, lifecost, necessityStyle
 //MainPage is the default page
