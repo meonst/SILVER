@@ -9,28 +9,43 @@ import {
     useParams,
   } from "react-router-dom";
 
-var lang = 'enus'
-var dat
+var lang = (navigator.language || navigator.userLanguage).toLowerCase().replace('-', '');
+console.log(lang)
 const version = '77692'
 var cooldown, energycost, lifecost, necessityStyle
 //MainPage is the default page
 class MainPage extends React.Component {
-    
+    constructor(props) {
+        super(props)
+        this.state = {
+            language: undefined,
+            page: undefined
+        }
+    }
     async componentDidMount() {
+        var dat
         if (this.props.language === undefined) {
-            lang = 'enus'
+            lang = (navigator.language || navigator.userLanguage).toLowerCase().replace('-', '')
         }
         else {
             lang = this.props.language
         }
+        this.setState({language: lang})
         await fetch('files/json/herodata_' + version + '_' + lang + '.json').then((value) => value.json()).then(value => {dat = value})
-        this.setState(Heroes(dat))
+        this.setState({page: Heroes(dat)})
+    }
+    componentDidUpdate() {
+        if (lang !== this.props.language) {
+            this.componentDidMount()
+            this.render()
+        }
     }
 
 
     render() {
-        
-        return this.state
+        var mustRender
+        if (this.state.page === undefined) {mustRender = false} else {mustRender = true}
+        return mustRender ? this.state.page : null
     }
 }
 //HeroPortrait is the target image of said Hero 
@@ -56,7 +71,7 @@ class Hero extends React.Component {
     render() {
         return(
             <button className="Hero">
-                <Link to={'/' + lang + '/' + this.props.value['herolink'] + '/0000000'}>
+                <Link to={'/' + this.props.value['herolink'] + '/0000000'}>
                     <HeroPortrait value={this.props.value['portraitlink']}></HeroPortrait>
                     {this.props.name}
                 </Link>
@@ -108,11 +123,22 @@ class HeroPage extends React.Component {
             component: false,
         }
     }
+    componentDidUpdate() {
+        if (lang !== this.props.language) {
+            this.componentDidMount()
+            this.render()
+        }
+    }
 
     async componentDidMount() {
         var herodat;
-        lang = this.props.language
-        await fetch('http://localhost:3000/files/json/herodata_77692_enus.json').then(value => value.json()).then(value => {herodat = value[this.props.link]})
+        if (this.props.language === undefined) {
+            lang = (navigator.language || navigator.userLanguage).toLowerCase().replace('-', '')
+        }
+        else {
+            lang = this.props.language
+        }
+        await fetch('http://localhost:3000/files/json/herodata_' + version + '_' + lang + '.json').then(value => value.json()).then(value => {herodat = value[this.props.link]})
         this.setState({data: herodat})
         if (herodat['unitId'] === 'HeroDeathwing' || herodat['unitId'] === 'HeroTracer') {this.setState({singleHeroic: true})}
         if (herodat['abilities']['activable'] === undefined) {this.setState({hasActivable: false})}
@@ -572,7 +598,10 @@ class Description extends React.Component {
 class TopBar extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {hover: false}
+        this.state = {
+            hover: false,
+            language: lang,
+        }
     }
 
     render() {
@@ -587,13 +616,12 @@ class TopBar extends React.Component {
             'zIndex': '99999',
         }
         
-        const sliced = window.location.pathname.slice(5)
         return(
             <div
                 id='TopBar'
             >
                 <Link
-                    to={'/' + lang}
+                    to={'/'}
                     id='HomeButton'
                 >
                     <div
@@ -614,18 +642,18 @@ class TopBar extends React.Component {
                 >
                     LANG
                     <span style={LanguageBar}>
-                        <Link to={'/refresh/dede' + sliced} id='Langs'>Deutsch</Link><br/>
-                        <Link to={'/refresh/enus' + sliced} id='Langs'>English</Link><br/>
-                        <Link to={'/refresh/eses' + sliced} id='Langs'>Español(EU)</Link><br/>
-                        <Link to={'/refresh/esmx' + sliced} id='Langs'>Español(AL)</Link><br/>
-                        <Link to={'/refresh/frfr' + sliced} id='Langs'>Français</Link><br/>
-                        <Link to={'/refresh/itit' + sliced} id='Langs'>Italiano</Link><br/>
-                        <Link to={'/refresh/kokr' + sliced} id='Langs'>한국어</Link><br/>
-                        <Link to={'/refresh/plpl' + sliced} id='Langs'>Polski</Link><br/>
-                        <Link to={'/refresh/ptbr' + sliced} id='Langs'>Português</Link><br/>
-                        <Link to={'/refresh/ruru' + sliced} id='Langs'>Русский</Link><br/>
-                        <Link to={'/refresh/zhcn' + sliced} id='Langs'>简体中文</Link><br/>
-                        <Link to={'/refresh/zhtw' + sliced} id='Langs'>繁體中文</Link><br/>
+                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeDEDE}>Deutsch</Link><br/>
+                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeENUS}>English</Link><br/>
+                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeESES}>Español(EU)</Link><br/>
+                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeESMX}>Español(AL)</Link><br/>
+                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeFRFR}>Français</Link><br/>
+                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeITIT}>Italiano</Link><br/>
+                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeKOKR}>한국어</Link><br/>
+                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changePLPL}>Polski</Link><br/>
+                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changePTBR}>Português</Link><br/>
+                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeRURU}>Русский</Link><br/>
+                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeZHCN}>简体中文</Link><br/>
+                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeZHTW}>繁體中文</Link><br/>
                     </span>
                 
                 </div>
@@ -640,8 +668,7 @@ class TopBar extends React.Component {
 
 
 //getHeroLink will get which hero to show
-function GetHeroLink() {
-    let { language } = useParams();
+function GetHeroLink(props) {
     let { herolink } = useParams();
     let { talents } = useParams();
     if (talents === undefined) {talents = '0000000';}
@@ -649,15 +676,7 @@ function GetHeroLink() {
         <HeroPage 
         id='HeroPage'
         link={herolink}
-        language={language}
-        />
-    )
-}
-function MainPageLanguage() {
-    let { language } = useParams();
-    return (
-        <MainPage
-            language={language}
+        language={props.language}
         />
     )
 }
@@ -666,21 +685,110 @@ function MainPageLanguage() {
 
 //RealPage will be the rendered page through react router
 class RealPage extends React.Component {
-    
+    constructor(props) {
+        super(props)
+        this.state = {
+            language: lang,
+        }
+        this.changeDEDE = this.changeDEDE.bind(this)
+        this.changeENUS = this.changeENUS.bind(this)
+        this.changeESES = this.changeESES.bind(this)
+        this.changeESMX = this.changeESMX.bind(this)
+        this.changeFRFR = this.changeFRFR.bind(this)
+        this.changeITIT = this.changeITIT.bind(this)
+        this.changeKOKR = this.changeKOKR.bind(this)
+        this.changePLPL = this.changePLPL.bind(this)
+        this.changePTBR = this.changePTBR.bind(this)
+        this.changeRURU = this.changeRURU.bind(this)
+        this.changeZHCN = this.changeZHCN.bind(this)
+        this.changeZHTW = this.changeZHTW.bind(this)
+    }
+    changeDEDE() {
+        this.setState({
+            language: 'dede'
+        })
+    }
+    changeENUS() {
+        this.setState({
+            language: 'enus'
+        })
+    }
+    changeESES() {
+        this.setState({
+            language: 'eses'
+        })
+    }
+    changeESMX() {
+        this.setState({
+            language: 'esmx'
+        })
+    }
+    changeFRFR() {
+        this.setState({
+            language: 'frfr'
+        })
+    }
+    changeITIT() {
+        this.setState({
+            language: 'itit'
+        })
+    }
+    changeKOKR() {
+        this.setState({
+            language: 'kokr'
+        })
+    }
+    changePLPL() {
+        this.setState({
+            language: 'plpl'
+        })
+    }
+    changePTBR() {
+        this.setState({
+            language: 'ptbr'
+        })
+    }
+    changeRURU() {
+        this.setState({
+            language: 'ruru'
+        })
+    }
+    changeZHCN() {
+        this.setState({
+            language: 'zhcn'
+        })
+    }
+    changeZHTW() {
+        this.setState({
+            language: 'zhtw'
+        })
+    }
+
     render() {
         return (
             <Router>
                 <div>
-                    <TopBar/>
+                    <TopBar 
+                        changeDEDE={this.changeDEDE}
+                        changeENUS={this.changeENUS}
+                        changeESES={this.changeESES}
+                        changeESMX={this.changeESMX}
+                        changeFRFR={this.changeFRFR}
+                        changeITIT={this.changeITIT}
+                        changeKOKR={this.changeKOKR}
+                        changePLPL={this.changePLPL}
+                        changePTBR={this.changePTBR}
+                        changeRURU={this.changeRURU}
+                        changeZHCN={this.changeZHCN}
+                        changeZHTW={this.changeZHTW}
+                        />
                     <Switch>
-                        <Route path="/refresh" children={<Refresh/>}/>
                         <Route exact path="/">
-                            <MainPage/>
+                            <MainPage
+                            language={this.state.language}
+                            />
                         </Route>
-                        <Route exact path="/:language" children={<MainPageLanguage/>}/>
-                        <Route path="/:language/:herolink/:talents" children={<GetHeroLink/>}/>
-
-                    
+                        <Route exact path="/:herolink/:talents" children={<GetHeroLink language={this.state.language}/>}/>
                     </Switch>
                 </div>
             </Router>
@@ -688,11 +796,6 @@ class RealPage extends React.Component {
     }
 }
 
-function Refresh() {
-    var new_path = window.location.pathname.slice(8)
-    window.location.pathname = new_path
-    return(<div/>)
-}
 
 //Rendering the RealPage
 ReactDOM.render(
