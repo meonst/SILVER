@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import {
+    HashRouter,
     BrowserRouter as Router,
     Switch,
     Route,
@@ -31,7 +32,7 @@ class MainPage extends React.Component {
             lang = this.props.language
         }
         this.setState({language: lang})
-        await fetch('files/json/herodata_' + version + '_' + lang + '.json').then((value) => value.json()).then(value => {dat = value})
+        await fetch('https://min.hyeok.org/SILVER/files/json/herodata_' + version + '_' + lang + '.json').then((value) => value.json()).then(value => {dat = value})
         this.setState({page: Heroes(dat)})
     }
     componentDidUpdate() {
@@ -207,7 +208,7 @@ class HeroPage extends React.Component {
             this.setState({hasAlternative: true})
             this.setState({qAlt: herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][0]})
             this.setState({wAlt: herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][1]})
-            this.setState({wAlt: herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][2]})
+            this.setState({eAlt: herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][2]})
         }
 
         this.setState({component: true})
@@ -621,7 +622,7 @@ class TopBar extends React.Component {
                 id='TopBar'
             >
                 <Link
-                    to={'/SILVER'}
+                    to={'/'}
                     id='HomeButton'
                 >
                     <div
@@ -642,18 +643,18 @@ class TopBar extends React.Component {
                 >
                     LANG
                     <span style={LanguageBar}>
-                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeDEDE}>Deutsch</Link><br/>
-                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeENUS}>English</Link><br/>
-                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeESES}>Español(EU)</Link><br/>
-                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeESMX}>Español(AL)</Link><br/>
-                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeFRFR}>Français</Link><br/>
-                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeITIT}>Italiano</Link><br/>
-                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeKOKR}>한국어</Link><br/>
-                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changePLPL}>Polski</Link><br/>
-                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changePTBR}>Português</Link><br/>
-                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeRURU}>Русский</Link><br/>
-                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeZHCN}>简体中文</Link><br/>
-                        <Link to={window.location.pathname} id='Langs' onClick={this.props.changeZHTW}>繁體中文</Link><br/>
+                        <button id='Langs' onClick={this.props.changeDEDE}>Deutsch</button><br/>
+                        <button id='Langs' onClick={this.props.changeENUS}>English</button><br/>
+                        <button id='Langs' onClick={this.props.changeESES}>Español(EU)</button><br/>
+                        <button id='Langs' onClick={this.props.changeESMX}>Español(AL)</button><br/>
+                        <button id='Langs' onClick={this.props.changeFRFR}>Français</button><br/>
+                        <button id='Langs' onClick={this.props.changeITIT}>Italiano</button><br/>
+                        <button id='Langs' onClick={this.props.changeKOKR}>한국어</button><br/>
+                        <button id='Langs' onClick={this.props.changePLPL}>Polski</button><br/>
+                        <button id='Langs' onClick={this.props.changePTBR}>Português</button><br/>
+                        <button id='Langs' onClick={this.props.changeRURU}>Русский</button><br/>
+                        <button id='Langs' onClick={this.props.changeZHCN}>简体中文</button><br/>
+                        <button id='Langs' onClick={this.props.changeZHTW}>繁體中文</button><br/>
                     </span>
                 
                 </div>
@@ -766,7 +767,7 @@ class RealPage extends React.Component {
 
     render() {
         return (
-            <Router>
+            <HashRouter basename='/'>
                 <div>
                     <TopBar 
                         changeDEDE={this.changeDEDE}
@@ -791,7 +792,7 @@ class RealPage extends React.Component {
                         <Route exact path="/:herolink/:talents" children={<GetHeroLink language={this.state.language}/>}/>
                     </Switch>
                 </div>
-            </Router>
+            </HashRouter>
         )
     }
 }
