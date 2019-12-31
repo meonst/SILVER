@@ -16,7 +16,7 @@ var cooldown, energycost, lifecost, necessityStyle, sharedTalent
 const talentShareColor = []
 talentShareColor[0] = {borderColor: 'whitesmoke'}
 talentShareColor[1] = {borderColor: 'gold'}
-talentShareColor[2] = {borderColor: 'green'}
+talentShareColor[2] = {borderColor: 'silver'}
 talentShareColor[3] = {borderColor: 'red'}
 //MainPage is the default page
 class MainPage extends React.Component {
