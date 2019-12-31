@@ -14,7 +14,7 @@ var lang = 'enus'
 const version = '77692'
 var cooldown, energycost, lifecost, necessityStyle, sharedTalent
 const talentShareColor = []
-talentShareColor[0] = {borderColor: 'whitesmoke'}
+talentShareColor[0] = {borderColor: '#cd7f32'}
 talentShareColor[1] = {borderColor: 'gold'}
 talentShareColor[2] = {borderColor: 'silver'}
 talentShareColor[3] = {borderColor: 'red'}
@@ -134,7 +134,15 @@ class HeroPage extends React.Component {
             this.render()
         }
     }
-
+    copylink() {
+        const sharelink = document.createElement('textarea');
+        sharelink.value = 'https://min.hyeok.org/SILVER/#/' + this.props.link + '/' + sharedTalent.join('')
+        document.body.appendChild(sharelink);
+        sharelink.select();
+        document.execCommand('copy');
+        document.body.removeChild(sharelink);
+        console.log('copied')
+    }
     async componentDidMount() {
         var herodat;
         if (this.props.language === undefined) {
@@ -143,8 +151,10 @@ class HeroPage extends React.Component {
         else {
             lang = this.props.language
         }
+        
         await fetch('https://min.hyeok.org/SILVER/files/json/herodata_' + version + '_' + lang + '.json').then(value => value.json()).then(value => {herodat = value[this.props.link]})
         this.setState({data: herodat})
+        console.log(this.state)
         if (herodat['unitId'] === 'HeroDeathwing' || herodat['unitId'] === 'HeroTracer') {this.setState({singleHeroic: true})}
         if (herodat['abilities']['activable'] === undefined) {this.setState({hasActivable: false})}
         if (herodat['abilities']['mount'][0]['nameId'] !== 'Mount') {this.setState({specialMount: true})}
@@ -348,7 +358,7 @@ class HeroPage extends React.Component {
                     </div>
                     <button 
                         id='copyLink'
-                        onClick={() => alert(window.location + '/' + sharedTalent.join(''))}
+                        onClick={() => this.copylink()}
                     >Copy Link</button>
                 </div>
             </div>
@@ -536,10 +546,8 @@ class Talent extends React.Component {
     }
     changeState() {
         sharedTalent[5 * this.props.tier + this.props.value['sort'] - 6] = String((parseInt(sharedTalent[5 * this.props.tier + this.props.value['sort'] - 6], 10) + 1) % 4)
-        console.log(sharedTalent)
     }
     render() {
-        console.log(this.props.tier, this.props.value['sort'])
         if (this.props.value.hasOwnProperty('energyTooltip')) {
             energycost = this.props.value['energyTooltip']
         } else {energycost = undefined}
@@ -700,7 +708,6 @@ function GetHeroLink(props) {
     if (givenTalent === undefined) {sharedTalent = '00000000000000000000000000000000000'.split('')}
     else if (givenTalent.length !== 35 || isNaN(givenTalent)) {sharedTalent = '00000000000000000000000000000000000'.split('')}
     else sharedTalent = givenTalent.split('')
-    console.log(sharedTalent)
     return (
         <HeroPage 
         id='HeroPage'
