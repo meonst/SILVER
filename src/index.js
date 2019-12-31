@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import {
     HashRouter,
-    BrowserRouter as Router,
     Switch,
     Route,
     Link,
@@ -13,7 +12,12 @@ import {
 //var lang = (navigator.language || navigator.userLanguage).toLowerCase().replace('-', '');
 var lang = 'enus'
 const version = '77692'
-var cooldown, energycost, lifecost, necessityStyle
+var cooldown, energycost, lifecost, necessityStyle, sharedTalent
+const talentShareColor = []
+talentShareColor[0] = {borderColor: 'whitesmoke'}
+talentShareColor[1] = {borderColor: 'gold'}
+talentShareColor[2] = {borderColor: 'green'}
+talentShareColor[3] = {borderColor: 'red'}
 //MainPage is the default page
 class MainPage extends React.Component {
     constructor(props) {
@@ -72,7 +76,7 @@ class Hero extends React.Component {
     render() {
         return(
             <button className="Hero">
-                <Link to={'/' + this.props.value['herolink'] + '/0000000'}>
+                <Link to={'/' + this.props.value['herolink']}>
                     <HeroPortrait value={this.props.value['portraitlink']}></HeroPortrait>
                     {this.props.name}
                 </Link>
@@ -300,42 +304,53 @@ class HeroPage extends React.Component {
                     />
                 </div>
                 <div id='talents'>
-                <div id='column'>
-                    <Column
-                        value={this.state.data['talents']['level1']}
-                    />
+                    <div id='column'>
+                        <Column
+                            value={this.state.data['talents']['level1']}
+                            tier={1}
+                        />
+                    </div>
+                    <div id='column'>
+                        <Column
+                            value={this.state.data['talents']['level4']}
+                            tier={2}
+                        />
+                    </div>
+                    <div id='column'>
+                        <Column
+                            value={this.state.data['talents']['level7']}
+                            tier={3}
+                        />
+                    </div>
+                    <div id='column'>
+                        <Column
+                            value={this.state.data['talents']['level10']}
+                            tier={4}
+                        />
+                    </div>
+                    <div id='column'>
+                        <Column
+                            value={this.state.data['talents']['level13']}
+                            tier={5}
+                        />
+                    </div>
+                    <div id='column'>
+                        <Column
+                            value={this.state.data['talents']['level16']}
+                            tier={6}
+                        />
+                    </div>
+                    <div id='column'>
+                        <Column
+                            value={this.state.data['talents']['level20']}
+                            tier={7}
+                        />
+                    </div>
+                    <button 
+                        id='copyLink'
+                        onClick={() => alert(window.location + '/' + sharedTalent.join(''))}
+                    >Copy Link</button>
                 </div>
-                <div id='column'>
-                    <Column
-                        value={this.state.data['talents']['level4']}
-                    />
-                </div>
-                <div id='column'>
-                    <Column
-                        value={this.state.data['talents']['level7']}
-                    />
-                </div>
-                <div id='column'>
-                    <Column
-                        value={this.state.data['talents']['level10']}
-                    />
-                </div>
-                <div id='column'>
-                    <Column
-                        value={this.state.data['talents']['level13']}
-                    />
-                </div>
-                <div id='column'>
-                    <Column
-                        value={this.state.data['talents']['level16']}
-                    />
-                </div>
-                <div id='column'>
-                    <Column
-                        value={this.state.data['talents']['level20']}
-                    />
-                </div>
-            </div>
             </div>
 
             : <div></div>
@@ -401,6 +416,7 @@ class HeroSkill extends React.Component{
         super(props)
         this.state = {hover: false}
     }
+
     render() {
         if (this.props.value !== undefined) {
             if (this.props.value.hasOwnProperty('energyTooltip')) {
@@ -504,6 +520,7 @@ class Column extends React.Component {
                 <Talent
                     key={this.props.value[i]['nameId']}
                     value={this.props.value[i]}
+                    tier={this.props.tier}
                 />
             )
             
@@ -517,7 +534,12 @@ class Talent extends React.Component {
         super(props)
         this.state = {hover: false}
     }
+    changeState() {
+        sharedTalent[5 * this.props.tier + this.props.value['sort'] - 6] = String((parseInt(sharedTalent[5 * this.props.tier + this.props.value['sort'] - 6], 10) + 1) % 4)
+        console.log(sharedTalent)
+    }
     render() {
+        console.log(this.props.tier, this.props.value['sort'])
         if (this.props.value.hasOwnProperty('energyTooltip')) {
             energycost = this.props.value['energyTooltip']
         } else {energycost = undefined}
@@ -527,7 +549,6 @@ class Talent extends React.Component {
         if (this.props.value.hasOwnProperty('cooldownTooltip')) {
             cooldown = this.props.value['cooldownTooltip']
         } else {cooldown = undefined}
-
         const Tooltip = {
             'display': this.state.hover ? 'block' : 'none',
             'position': 'absolute',
@@ -544,6 +565,9 @@ class Talent extends React.Component {
                 id='talent'
                 onMouseOver={() => this.setState({hover: true})}
                 onMouseOut={() => this.setState({hover: false})}
+                onClick={() => this.changeState()}
+                style={talentShareColor[sharedTalent[5 * this.props.tier + this.props.value['sort'] - 6]]}
+            
             >
                 <SkillImage  
                     value={this.props.value["icon"]}
@@ -571,12 +595,13 @@ class Description extends React.Component {
     render() {
         if (this.props.energycost === undefined && this.props.lifecost === undefined && this.props.cooldown === undefined) {
             necessityStyle = {'display': 'none'}} else {necessityStyle = {'display': 'block'}}
-        var lineBreaked = []
+        var lineBreaked = [];
         for (let line in this.props.value.split("<n/>")) {lineBreaked.push(this.props.value.split("<n/>")[line], <br/>)}
+
         return(
             
             <div>
-                <div id="discriptionTitle">
+                <div id='discriptionTitle'>
                     {this.props.name}
                 </div>
                 <div id='necessity' style={necessityStyle}>
@@ -671,8 +696,11 @@ class TopBar extends React.Component {
 //getHeroLink will get which hero to show
 function GetHeroLink(props) {
     let { herolink } = useParams();
-    let { talents } = useParams();
-    if (talents === undefined) {talents = '0000000';}
+    let { givenTalent } = useParams();
+    if (givenTalent === undefined) {sharedTalent = '00000000000000000000000000000000000'.split('')}
+    else if (givenTalent.length !== 35 || isNaN(givenTalent)) {sharedTalent = '00000000000000000000000000000000000'.split('')}
+    else sharedTalent = givenTalent.split('')
+    console.log(sharedTalent)
     return (
         <HeroPage 
         id='HeroPage'
@@ -789,7 +817,8 @@ class RealPage extends React.Component {
                             language={this.state.language}
                             />
                         </Route>
-                        <Route exact path="/:herolink/:talents" children={<GetHeroLink language={this.state.language}/>}/>
+                        <Route exact path="/:herolink/:givenTalent" children={<GetHeroLink language={this.state.language}/>}/>
+                        <Route exact path="/:herolink/" children={<GetHeroLink language={this.state.language}/>}/>
                     </Switch>
                 </div>
             </HashRouter>
