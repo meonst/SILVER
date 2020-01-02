@@ -18,6 +18,15 @@ talentShareColor[0] = {borderColor: '#cd7f32'}
 talentShareColor[1] = {borderColor: 'gold'}
 talentShareColor[2] = {borderColor: 'silver'}
 talentShareColor[3] = {borderColor: 'red'}
+function TALENTTIER(n) {
+    if (n === 0) {return('level1')}
+    if (n === 1) {return('level4')}
+    if (n === 2) {return('level7')}
+    if (n === 3) {return('level10')}
+    if (n === 4) {return('level13')}
+    if (n === 5) {return('level16')}
+    if (n === 6) {return('level20')}
+}
 //MainPage is the default page
 class MainPage extends React.Component {
     constructor(props) {
@@ -141,7 +150,29 @@ class HeroPage extends React.Component {
         sharelink.select();
         document.execCommand('copy');
         document.body.removeChild(sharelink);
-        console.log('copied')
+        alert('copied')
+    }
+    saveImage() {
+        const Image = document.getElementById('Image');
+        const ImageContext = Image.getContext('2d');
+        var i
+        console.log('asdf')
+        for (i=0; i < 7; i++) {
+            var j
+            for (j=0; j < 5; j++) {
+                if (sharedTalent[i * 5 + j] === '1') {
+                    console.log(sharedTalent[i *  5 + j])
+                    console.log(this.state.data['talents'][TALENTTIER(i)][j])
+                    console.log(this.state.data['talents'][TALENTTIER(i)][j]['icon'])
+                    var discreteTier = document.createElement('img')
+                    discreteTier.src=('https://min.hyeok.org/SILVER/files/images/abilitytalents/' + this.state.data['talents'][TALENTTIER(i)][j]['icon'])
+                    ImageContext.drawImage(discreteTier, 0, 0, 128, 128, 128 * i, 0, 128, 128)
+                    console.log(discreteTier)
+                    break
+                }
+                
+            }
+        }
     }
     async componentDidMount() {
         var herodat;
@@ -154,7 +185,6 @@ class HeroPage extends React.Component {
         
         await fetch('https://min.hyeok.org/SILVER/files/json/herodata_' + version + '_' + lang + '.json').then(value => value.json()).then(value => {herodat = value[this.props.link]})
         this.setState({data: herodat})
-        console.log(this.state)
         if (herodat['unitId'] === 'HeroDeathwing' || herodat['unitId'] === 'HeroTracer') {this.setState({singleHeroic: true})}
         if (herodat['abilities']['activable'] === undefined) {this.setState({hasActivable: false})}
         if (herodat['abilities']['mount'][0]['nameId'] !== 'Mount') {this.setState({specialMount: true})}
@@ -359,7 +389,25 @@ class HeroPage extends React.Component {
                     <button 
                         id='copyLink'
                         onClick={() => this.copylink()}
-                    >Copy Link</button>
+                    >Share Link</button>
+                    <button
+                        id='saveImage'
+                        onClick={() => this.saveImage()}
+                    >
+                        Save as Image
+                        <canvas
+                            id="Image"
+                            style={
+                                {
+                                    'display': 'block',
+                                    'width': '896',
+                                    'height': '128'
+                                }
+                            }
+                        >
+                        </canvas>
+                    
+                    </button>
                 </div>
             </div>
 
