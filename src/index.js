@@ -163,8 +163,6 @@ class HeroPage extends React.Component {
             talentImages[i] = document.createElement('img')
             talentImages[i].src = 'https://min.hyeok.org/SILVER/files/images/abilitytalents/storm_ui_icon_monk_trait1.png'
         }
-        console.log(talentImages)
-        console.log(this.state)
         
         for (i=0; i < 7; i++) {
             var j
