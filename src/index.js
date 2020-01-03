@@ -153,26 +153,38 @@ class HeroPage extends React.Component {
         alert('copied')
     }
     saveImage() {
-        const Image = document.getElementById('Image');
+        const Image = document.getElementById('canvasImage');
         const ImageContext = Image.getContext('2d');
+        ImageContext.canvas.width = 896
+        ImageContext.canvas.height = 128
         var i
-        console.log('asdf')
+        var talentImages = []
+        for (i=0; i < 7; i++) {
+            talentImages[i] = document.createElement('img')
+            talentImages[i].src = 'https://min.hyeok.org/SILVER/files/images/abilitytalents/storm_ui_icon_monk_trait1.png'
+        }
+        console.log(talentImages)
+        console.log(this.state)
+        
         for (i=0; i < 7; i++) {
             var j
             for (j=0; j < 5; j++) {
                 if (sharedTalent[i * 5 + j] === '1') {
-                    console.log(sharedTalent[i *  5 + j])
-                    console.log(this.state.data['talents'][TALENTTIER(i)][j])
-                    console.log(this.state.data['talents'][TALENTTIER(i)][j]['icon'])
-                    var discreteTier = document.createElement('img')
-                    discreteTier.src=('https://min.hyeok.org/SILVER/files/images/abilitytalents/' + this.state.data['talents'][TALENTTIER(i)][j]['icon'])
-                    ImageContext.drawImage(discreteTier, 0, 0, 128, 128, 128 * i, 0, 128, 128)
-                    console.log(discreteTier)
+                    talentImages[i].src = 'https://min.hyeok.org/SILVER/files/images/abilitytalents/' + this.state.data['talents'][TALENTTIER(i)][j]['icon']
                     break
                 }
-                
             }
+            ImageContext.drawImage(talentImages[i], 0, 0, 128, 128, 128 * i, 0, 128, 128)
         }
+        
+        ImageContext.font = 'Comic Sans'
+        ImageContext.fillStyle = 'white'
+        ImageContext.fillText("min.hyeok.org/SILVER", 790, 120 )
+        var donwloadLink = document.createElement('a')
+        donwloadLink.href = Image.toDataURL();
+        donwloadLink.download = sharedTalent.join('') + '.png';
+        donwloadLink.click();
+        
     }
     async componentDidMount() {
         var herodat;
@@ -396,12 +408,10 @@ class HeroPage extends React.Component {
                     >
                         Save as Image
                         <canvas
-                            id="Image"
+                            id="canvasImage"
                             style={
                                 {
-                                    'display': 'block',
-                                    'width': '896',
-                                    'height': '128'
+                                    'display': 'none',
                                 }
                             }
                         >
