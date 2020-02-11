@@ -143,7 +143,7 @@ class HeroPage extends React.Component {
             this.render()
         }
     }
-    copylink() {
+    copyLink() {
         const sharelink = document.createElement('textarea');
         function parseToString(n) {
             return(parseInt(sharedTalent.slice(n, n + 5).join(''), 4).toString(32))
@@ -153,6 +153,25 @@ class HeroPage extends React.Component {
         sharelink.select();
         document.execCommand('copy');
         document.body.removeChild(sharelink);
+        alert('copied')
+    }
+    copyAsText() {
+        const copyText = document.createElement('textarea');
+        copyText.value = ''
+        var i
+        for (i=0; i < 7; i++) {
+            var j
+            for (j=0; j < 5; j++) {
+                if (sharedTalent[i * 5 + j] === '1') {
+                    copyText.value += this.state.data['talents'][TALENTTIER(i)][j]['name']
+                    if (i !== 6) {copyText.value += ', '}
+                }
+            }
+        }
+        document.body.appendChild(copyText);
+        copyText.select();
+        document.execCommand('copy');
+        document.body.removeChild(copyText);
         alert('copied')
     }
     saveImage() {
@@ -166,7 +185,6 @@ class HeroPage extends React.Component {
             talentImages[i] = document.createElement('img')
             talentImages[i].src = 'https://min.hyeok.org/SILVER/files/images/abilitytalents/storm_ui_icon_monk_trait1.png'
         }
-        
         for (i=0; i < 7; i++) {
             var j
             for (j=0; j < 5; j++) {
@@ -177,7 +195,7 @@ class HeroPage extends React.Component {
             }
             ImageContext.drawImage(talentImages[i], 0, 0, 128, 128, 128 * i, 0, 128, 128)
         }
-        
+
         ImageContext.font = 'Comic Sans'
         ImageContext.fillStyle = 'white'
         ImageContext.fillText("min.hyeok.org/SILVER", 790, 120 )
@@ -401,8 +419,12 @@ class HeroPage extends React.Component {
                     </div>
                     <button 
                         id='copyLink'
-                        onClick={() => this.copylink()}
+                        onClick={() => this.copyLink()}
                     >Share Link</button>
+                    <button 
+                        id='copyAsText'
+                        onClick={() => this.copyAsText()}
+                    >Copy as Text</button>
                     <button
                         id='saveImage'
                         onClick={() => this.saveImage()}
