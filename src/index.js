@@ -58,6 +58,7 @@ class MainPage extends React.Component {
 
     render() {
         var mustRender
+        sharedTalent = '00000000000000000000000000000000000'.split('')
         if (this.state.page === undefined) {mustRender = false} else {mustRender = true}
         return mustRender ? this.state.page : null
     }
@@ -424,7 +425,7 @@ class HeroPage extends React.Component {
                     <button 
                         id='copyAsText'
                         onClick={() => this.copyAsText()}
-                    >Copy as Text</button>
+                    >Share as Text</button>
                     <button
                         id='saveImage'
                         onClick={() => this.saveImage()}
@@ -623,10 +624,14 @@ class Column extends React.Component {
 class Talent extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {hover: false}
+        this.state = {
+            hover: false,
+            color: sharedTalent[5 * this.props.tier + this.props.value['sort'] - 6]
+        }
     }
     changeState() {
         sharedTalent[5 * this.props.tier + this.props.value['sort'] - 6] = String((parseInt(sharedTalent[5 * this.props.tier + this.props.value['sort'] - 6], 10) + 1) % 4)
+        this.setState({color: String((parseInt(sharedTalent[5 * this.props.tier + this.props.value['sort'] - 6], 10) + 1) % 4)})
     }
     render() {
         if (this.props.value.hasOwnProperty('energyTooltip')) {
@@ -786,16 +791,18 @@ class TopBar extends React.Component {
 function GetHeroLink(props) {
     let { herolink } = useParams();
     let { givenTalent } = useParams();
-    if (givenTalent === undefined) {sharedTalent = '00000000000000000000000000000000000'.split('')}
-    else if (givenTalent.length === 14) {
-        function stringParse(n) {
-            return(parseInt(givenTalent[n] + givenTalent[n + 1], 32).toString(4))
+    if (sharedTalent === undefined) {
+        if (givenTalent === undefined) {sharedTalent = '00000000000000000000000000000000000'.split('')}
+        else if (givenTalent.length === 14) {
+            function stringParse(n) {
+                return(parseInt(givenTalent[n] + givenTalent[n + 1], 32).toString(4))
+            }
+            sharedTalent = (stringParse(0) + stringParse(2) + stringParse(4) + stringParse(6) + stringParse(8) + stringParse(10) + stringParse(12)).split('')
+            console.log(sharedTalent)
         }
-        sharedTalent = (stringParse(0) + stringParse(2) + stringParse(4) + stringParse(6) + stringParse(8) + stringParse(10) + stringParse(12)).split('')
-        console.log(sharedTalent)
+        else if (givenTalent.length !== 35 || isNaN(givenTalent)) {sharedTalent = '00000000000000000000000000000000000'.split('')}
+        else sharedTalent = givenTalent.split('')  
     }
-    else if (givenTalent.length !== 35 || isNaN(givenTalent)) {sharedTalent = '00000000000000000000000000000000000'.split('')}
-    else sharedTalent = givenTalent.split('')
     return (
         <HeroPage 
         id='HeroPage'
@@ -905,7 +912,7 @@ class RealPage extends React.Component {
                         changeRURU={this.changeRURU}
                         changeZHCN={this.changeZHCN}
                         changeZHTW={this.changeZHTW}
-                        />
+                    />
                     <Switch>
                         <Route exact path="/">
                             <MainPage
