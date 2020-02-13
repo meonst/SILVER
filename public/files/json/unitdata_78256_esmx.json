@@ -175,7 +175,7 @@
           "icon": "storm_ui_icon_abathur_spawnlocust.png",
           "cooldownTooltip": "Tiempo de reutilización: 15 segundos",
           "shortTooltip": "Engendra langostas que atacan en la vía más próxima",
-          "fullTooltip": "Engendra una langosta para atacar por la vía más cercana cada 15 segundos. Las langostas duran 16 segundos, tienen 350 (+4% per level) de vida e infligen 46 (+4% per level) de daño con cada ataque básico. Además, infligen un 50% de daño adicional a las estructuras enemigas.",
+          "fullTooltip": "Engendra una langosta para atacar por la vía más cercana cada 15 segundos. Las langostas duran 16 segundos, tienen 350 (+4% per level) de vida e infligen 46 (+4% per level) de daño con cada ataque básico. Además, infligen un 25% de daño adicional a las estructuras enemigas.",
           "abilityType": "Q",
           "isActive": false
         }
@@ -211,7 +211,7 @@
           "icon": "storm_ui_icon_abathur_spawnlocust.png",
           "cooldownTooltip": "Tiempo de reutilización: 15 segundos",
           "shortTooltip": "Engendra langostas que atacan en la vía más próxima",
-          "fullTooltip": "Engendra una langosta para atacar por la vía más cercana cada 15 segundos. Las langostas duran 16 segundos, tienen 350 (+4% per level) de vida e infligen 46 (+4% per level) de daño con cada ataque básico. Además, infligen un 50% de daño adicional a las estructuras enemigas.",
+          "fullTooltip": "Engendra una langosta para atacar por la vía más cercana cada 15 segundos. Las langostas duran 16 segundos, tienen 350 (+4% per level) de vida e infligen 46 (+4% per level) de daño con cada ataque básico. Además, infligen un 25% de daño adicional a las estructuras enemigas.",
           "abilityType": "Q",
           "isActive": false
         }
@@ -3978,7 +3978,7 @@
           "energyTooltip": "Energía: 15",
           "cooldownTooltip": "Tiempo de reutilización: 4 segundos",
           "shortTooltip": "Inflige daño a los enemigos cerca de Alamuerte",
-          "fullTooltip": "Después de 0.75 segundos, Alamuerte agita sus alas para infligir 75 (+4% per level) de daño a los enemigos cercanos.  Rompemundos: Ráfaga de lava Crea un charco de lava que inflige daño y ralentiza.",
+          "fullTooltip": "Después de 0.75 segundos, Alamuerte agita sus alas para infligir 70 (+4% per level) de daño a los enemigos cercanos.  Rompemundos: Ráfaga de lava Crea un charco de lava que inflige daño y ralentiza.",
           "abilityType": "W"
         },
         {
@@ -3994,7 +3994,7 @@
           },
           "cooldownTooltip": "Tiempo de reutilización de carga: 10 segundos",
           "shortTooltip": "Alamuerte puede soltar meteoros en Vuelo",
-          "fullTooltip": "Después de 0.8 segundos, un meteoro cae del cielo, lo que inflige 58 (+4% per level) de daño a los enemigos en el área.  Si un héroe es golpeado, Alamuerte recupera un 3% de su salud máxima y se reducen los tiempos de reutilización de aterrizaje 1 segundos.",
+          "fullTooltip": "Después de 0.8 segundos, un meteoro cae del cielo, lo que inflige 58 (+4% per level) de daño a los enemigos en el área.  Si un héroe es golpeado, Alamuerte recupera un 2.5% de su salud máxima y se reducen los tiempos de reutilización de aterrizaje 1 segundos.",
           "abilityType": "E"
         },
         {
@@ -4017,7 +4017,7 @@
           "icon": "storm_ui_icon_deathwing_cataclysm.png",
           "cooldownTooltip": "Tiempo de reutilización: 90 segundos",
           "shortTooltip": "Alamuerte sobrevuela un área y causa devastación a su paso.",
-          "fullTooltip": "Después de 2 segundos, Alamuerte vuela en la dirección objetivo, inflige 90 (+4% per level) de daño al impactar y deja el terreno abrasado, lo que inflige 44 (+4% per level) de daño por segundo. Dura 6 segundos.",
+          "fullTooltip": "Después de 2 segundos, Alamuerte vuela en la dirección objetivo, inflige 90 (+4% per level) de daño al impactar y deja el terreno abrasado, lo que inflige 40 (+4% per level) de daño por segundo. Dura 6 segundos.",
           "abilityType": "Heroic"
         }
       ],
