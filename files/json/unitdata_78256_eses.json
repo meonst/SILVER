@@ -175,7 +175,7 @@
           "icon": "storm_ui_icon_abathur_spawnlocust.png",
           "cooldownTooltip": "Tiempo de reutilización: 15 s",
           "shortTooltip": "Engendras langostas que atacan por el camino más cercano.",
-          "fullTooltip": "Engendras una langosta para que ataque por el camino más cercano cada 15 s. Las langostas duran 16 s, tienen 350 (+4% per level) de salud e infligen 46 (+4% per level) de daño con cada ataque básico. Infligen un 50% de daño adicional a las estructuras enemigas.",
+          "fullTooltip": "Engendras una langosta para que ataque por el camino más cercano cada 15 s. Las langostas duran 16 s, tienen 350 (+4% per level) de salud e infligen 46 (+4% per level) de daño con cada ataque básico. Infligen un 25% de daño adicional a las estructuras enemigas.",
           "abilityType": "Q",
           "isActive": false
         }
@@ -211,7 +211,7 @@
           "icon": "storm_ui_icon_abathur_spawnlocust.png",
           "cooldownTooltip": "Tiempo de reutilización: 15 s",
           "shortTooltip": "Engendras langostas que atacan por el camino más cercano.",
-          "fullTooltip": "Engendras una langosta para que ataque por el camino más cercano cada 15 s. Las langostas duran 16 s, tienen 350 (+4% per level) de salud e infligen 46 (+4% per level) de daño con cada ataque básico. Infligen un 50% de daño adicional a las estructuras enemigas.",
+          "fullTooltip": "Engendras una langosta para que ataque por el camino más cercano cada 15 s. Las langostas duran 16 s, tienen 350 (+4% per level) de salud e infligen 46 (+4% per level) de daño con cada ataque básico. Infligen un 25% de daño adicional a las estructuras enemigas.",
           "abilityType": "Q",
           "isActive": false
         }
@@ -3978,7 +3978,7 @@
           "energyTooltip": "Energía: 15",
           "cooldownTooltip": "Tiempo de reutilización: 4 s",
           "shortTooltip": "Dañas a los enemigos cercanos.",
-          "fullTooltip": "Después de 0.75 s, bates las alas e infliges 75 (+4% per level) de daño a los enemigos cercanos.  Rompemundos: Ráfaga de lava Creas un charco de lava que inflige daño y ralentiza.",
+          "fullTooltip": "Después de 0.75 s, bates las alas e infliges 70 (+4% per level) de daño a los enemigos cercanos.  Rompemundos: Ráfaga de lava Creas un charco de lava que inflige daño y ralentiza.",
           "abilityType": "W"
         },
         {
@@ -3994,7 +3994,7 @@
           },
           "cooldownTooltip": "Tiempo de reutilización de carga: 10 s",
           "shortTooltip": "Puedes lanzar meteoritos mientras estás usando El Vuelo.",
-          "fullTooltip": "Tras 0.8 s, cae un meteorito del cielo que inflige 58 (+4% per level) de daño a los enemigos en el área.  Si golpea a un héroe, te curas un 3% de tu salud máxima y el tiempo de reutilización de los aterrizajes se reduce 1 s.",
+          "fullTooltip": "Tras 0.8 s, cae un meteorito del cielo que inflige 58 (+4% per level) de daño a los enemigos en el área.  Si golpea a un héroe, te curas un 2.5% de tu salud máxima y el tiempo de reutilización de los aterrizajes se reduce 1 s.",
           "abilityType": "E"
         },
         {
@@ -4017,7 +4017,7 @@
           "icon": "storm_ui_icon_deathwing_cataclysm.png",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Sobrevuelas un área y lo dejas todo devastado.",
-          "fullTooltip": "Tras 2 s, vuelas en la dirección seleccionada, infliges 90 (+4% per level) de daño al impactar y dejas un reguero de terreno abrasado que inflige 44 (+4% per level) de daño por segundo. Dura 6 s.",
+          "fullTooltip": "Tras 2 s, vuelas en la dirección seleccionada, infliges 90 (+4% per level) de daño al impactar y dejas un reguero de terreno abrasado que inflige 40 (+4% per level) de daño por segundo. Dura 6 s.",
           "abilityType": "Heroic"
         }
       ],
