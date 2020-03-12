@@ -12353,9 +12353,9 @@
       "targetInfo": "storm_ui_ingame_targetinfopanel_unit_xul_skeletalwarrior.png"
     },
     "life": {
-      "amount": 225.0,
+      "amount": 240.0,
       "scale": 0.04,
-      "regenRate": -15.0,
+      "regenRate": -20.0,
       "regenScale": 0.04
     },
     "weapons": [
@@ -12383,9 +12383,9 @@
       "targetInfo": "storm_ui_ingame_targetinfopanel_unit_xul_skeletalwarrior.png"
     },
     "life": {
-      "amount": 225.0,
+      "amount": 240.0,
       "scale": 0.04,
-      "regenRate": -15.0,
+      "regenRate": -20.0,
       "regenScale": 0.04
     },
     "weapons": [
@@ -13980,10 +13980,10 @@
       "minimap": "storm_ui_minimapicon_misha.png"
     },
     "life": {
-      "amount": 1620.0,
+      "amount": 1520.0,
       "scale": 0.0475,
       "type": "Salud",
-      "regenRate": 3.375,
+      "regenRate": 3.1718,
       "regenScale": 0.0475
     },
     "weapons": [

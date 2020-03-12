@@ -2861,7 +2861,7 @@
           "name": "악몽의 여파",
           "icon": "storm_ui_icon_ana_sleep_dart.png",
           "shortTooltip": "수면총 강화",
-          "fullTooltip": "수면총이 적중한 적 영웅 하나당 이동 속도가 2초 동안 25% 증가합니다. 수면총의 수면 효과가 만료되면 대상의 최대 생명력의 10%만큼 피해를 줍니다.",
+          "fullTooltip": "수면총이 적중한 적 영웅 하나당 이동 속도가 25% 증가합니다. 2초 동안 지속됩니다. 수면총의 수면 효과가 만료되면 대상의 최대 생명력의 10%만큼 피해를 줍니다.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -3168,7 +3168,7 @@
           "energyTooltip": "마나: 40",
           "cooldownTooltip": "재사용 대기시간: 10초",
           "shortTooltip": "이동 불가 상태로 만드는 빛을 내보냄",
-          "fullTooltip": "회오리치는 빛의 물결을 전방으로 내보내 처음 적중하는 적 영웅에게 145 (+4% per level)의 피해를 주고 1.25초 동안 이동 불가 상태로 만듭니다.",
+          "fullTooltip": "회오리치는 빛의 물결을 전방으로 내보내 처음 적중하는 적 영웅에게 155 (+4% per level)의 피해를 주고 1.25초 동안 이동 불가 상태로 만듭니다.",
           "abilityType": "E"
         }
       ],
@@ -3311,7 +3311,7 @@
           "name": "뒤따르는 은총",
           "icon": "storm_ui_icon_anduin_varians_legacy.png",
           "shortTooltip": "적 영웅 공격 시 주위 아군 치유",
-          "fullTooltip": "적 영웅에게 피해를 주면 주위에서 생명력이 가장 낮은 아군의 생명력을 33 (+4% per level) 회복시킵니다.",
+          "fullTooltip": "적 영웅에게 피해를 주면 주위에서 생명력이 가장 낮은 아군의 생명력을 35 (+4% per level) 회복시킵니다.",
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -3380,7 +3380,7 @@
           "name": "결속의 치유",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "순간 치유가 자신도 치유",
-          "fullTooltip": "다른 아군 영웅에게 순간 치유를 사용하면 자신 또한 생명력을 104 (+4% per level) 회복합니다.",
+          "fullTooltip": "다른 아군 영웅에게 순간 치유를 사용하면 자신 또한 생명력을 115 (+4% per level) 회복합니다.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3393,7 +3393,7 @@
           "name": "신의 권능: 보호막",
           "icon": "storm_ui_icon_anduin_divine_star.png",
           "shortTooltip": "천상의 별로 보호막 획득",
-          "fullTooltip": "천상의 별이 적 영웅에게 적중하면 4초 동안 172 (+4% per level)의 피해를 흡수하는 보호막을 얻습니다.",
+          "fullTooltip": "천상의 별이 적 영웅에게 적중하면 4초 동안 185 (+4% per level)의 피해를 흡수하는 보호막을 얻습니다.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -3493,7 +3493,7 @@
           "name": "공평한 축복",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "새로운 대상에게 순간 치유 사용 시 재사용 대기시간 감소",
-          "fullTooltip": "순간 치유를 이전과 다른 대상에게 사용하면 재사용 대기시간이 50% 감소합니다.",
+          "fullTooltip": "순간 치유를 이전과 다른 대상에게 사용하면 치유량이 20% 증가하고 재사용 대기시간이 50% 감소합니다.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3544,8 +3544,8 @@
           "buttonId": "AnduinHolyWordSalvationLightOfStormwind",
           "name": "스톰윈드의 빛",
           "icon": "storm_ui_icon_anduin_holy_word_salvation.png",
-          "shortTooltip": "빛의 권능: 구원이 아군의 이동 속도를 증가시킴",
-          "fullTooltip": "빛의 권능: 구원의 치유량이 증가하여 최대 생명력의 30%까지 치유하고, 정신 집중이 끝나면 아군 영웅들의 이동속도를 3초 동안 40% 증가시킵니다.",
+          "shortTooltip": "빛의 권능: 구원이 아군을 무적 상태로 만듦",
+          "fullTooltip": "빛의 권능: 구원이 아군 영웅을 보호 상태가 아닌 무적 상태로 만듭니다. 단, 자신에게는 적용되지 않습니다.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -4729,10 +4729,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_arthas.png"
     },
     "life": {
-      "amount": 2782.0,
+      "amount": 2860.0,
       "scale": 0.04,
       "type": "생명력",
-      "regenRate": 5.8007,
+      "regenRate": 5.957,
       "regenScale": 0.04
     },
     "energy": {
@@ -4804,7 +4804,7 @@
           "energyTooltip": "마나: 80",
           "cooldownTooltip": "재사용 대기시간: 80초",
           "shortTooltip": "구울을 일으켜 함께 싸우거나, 희생시켜 생명력 회복",
-          "fullTooltip": "15초 동안 유지되는 구울들을 소환합니다. 구울을 희생시키면 267 (+4% per level)의 생명력을 회복합니다.",
+          "fullTooltip": "15초 동안 유지되며 일반 공격으로 20 (+4% per level)의 피해를 주는 구울들을 소환합니다. 구울을 희생시키면 267 (+4% per level)의 생명력을 회복합니다.",
           "abilityType": "Heroic"
         },
         {
@@ -5038,7 +5038,7 @@
           "name": "룬 전환",
           "icon": "storm_ui_icon_arthas_runetap.png",
           "shortTooltip": "연속 일반 공격 시 생명력 회복",
-          "fullTooltip": "3번째 일반 공격마다 최대 생명력의 4%를 회복합니다.",
+          "fullTooltip": "3번째 일반 공격마다 최대 생명력의 5%를 회복합니다.",
           "abilityType": "Passive",
           "sort": 2
         },
@@ -5064,7 +5064,7 @@
           "energyTooltip": "마나: 80",
           "cooldownTooltip": "재사용 대기시간: 80초",
           "shortTooltip": "구울을 일으켜 함께 싸우거나, 희생시켜 생명력 회복",
-          "fullTooltip": "15초 동안 유지되는 구울들을 소환합니다. 구울을 희생시키면 267 (+4% per level)의 생명력을 회복합니다.",
+          "fullTooltip": "15초 동안 유지되며 일반 공격으로 20 (+4% per level)의 피해를 주는 구울들을 소환합니다. 구울을 희생시키면 267 (+4% per level)의 생명력을 회복합니다.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -5182,7 +5182,7 @@
           "name": "노스렌드의 대군",
           "icon": "storm_ui_icon_arthas_armyofthedead.png",
           "shortTooltip": "생성되는 구울 수 및 지속 시간 증가",
-          "fullTooltip": "3마리의 구울을 추가로 소환합니다. 구울로 회복하는 생명력이 50% 증가하고, 구울의 지속 시간이 5초 증가합니다.",
+          "fullTooltip": "3마리의 구울을 추가로 소환합니다. 구울의 공격력이 50% 증가하고 구울로 회복하는 생명력이 50% 증가하며, 구울의 지속 시간이 5초 증가합니다.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -5199,7 +5199,7 @@
           "name": "절대 영점",
           "icon": "storm_ui_icon_arthas_summonsindragosa.png",
           "shortTooltip": "신드라고사 이동 거리 및 무력화 효과 지속 시간 증가",
-          "fullTooltip": "신드라고사가 두 배 멀리 날아갑니다. 적 영웅들은 2초 동안 이동 불가 상태가 된 후, 3.5초 동안 60% 느려집니다.",
+          "fullTooltip": "신드라고사가 두 배 멀리 날아갑니다. 적 영웅들은 2.5초 동안 이동 불가 상태가 된 후, 4초 동안 60% 느려집니다.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -5216,7 +5216,7 @@
           "icon": "storm_ui_icon_talent_deaths_advance.png",
           "cooldownTooltip": "재사용 대기시간: 50초",
           "shortTooltip": "사용 시 이동 속도 증가",
-          "fullTooltip": "사용하면 이동 속도가 3초 동안 30% 증가합니다.  지속 효과: 이동 속도가 10% 증가합니다.",
+          "fullTooltip": "사용하면 이동 속도가 5초 동안 30% 증가합니다.  지속 효과: 이동 속도가 10% 증가합니다.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -5228,7 +5228,7 @@
           "icon": "storm_temp_war3_btnantimagicshell.png",
           "cooldownTooltip": "재사용 대기시간: 60초",
           "shortTooltip": "사용 시 기술 피해에 면역",
-          "fullTooltip": "사용하면 3초 동안 기술 피해에 면역이 되고 방지한 피해의 25%만큼 생명력을 회복합니다.",
+          "fullTooltip": "사용하면 4초 동안 기술 피해에 면역이 되고 방지한 피해의 25%만큼 생명력을 회복합니다.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4
@@ -7062,7 +7062,7 @@
               "buttonId": "ButcherRuthlessOnslaughtCancel",
               "name": "무자비한 돌진 취소",
               "icon": "hud_btn_bg_ability_cancel.png",
-              "cooldownTooltip": "재사용 대기시간: 1초",
+              "toggleCooldown": 0.75,
               "fullTooltip": "무자비한 돌진을 취소합니다.",
               "abilityType": "E"
             }
@@ -8505,7 +8505,7 @@
           "name": "단련된 가죽",
           "icon": "storm_ui_icon_cho_ogrehide.png",
           "shortTooltip": "생명력이 낮으면 받는 치유량 및 이동 속도 증가",
-          "fullTooltip": "최대 생명력이 60% 미만일 때 이동 속도와 받는 치유량이 15% 증가합니다.",
+          "fullTooltip": "생명력이 최대 생명력의 60% 미만일 때 이동 속도와 받는 치유량이 15% 증가합니다.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -12136,7 +12136,7 @@
           "energyTooltip": "마나: 70",
           "cooldownTooltip": "재사용 대기시간: 13초",
           "shortTooltip": "대상에게 돌진하여 밀쳐냄",
-          "fullTooltip": "적에게 돌진해 밀쳐내며 40 (+4% per level)의 피해를 주고 이동 속도가 2초 동안 15% 증가합니다. 대상이 지형에 부딪히면 1초 동안 기절하고 120 (+4% per level)의 피해를 추가로 받습니다.",
+          "fullTooltip": "적에게 돌진해 밀쳐내며 40 (+4% per level)의 피해를 주고 이동 속도가 2초 동안 15% 증가합니다. 대상이 지형에 부딪히면 1초 동안 기절하고 130 (+4% per level)의 피해를 추가로 받습니다.",
           "abilityType": "Q"
         },
         {
@@ -12396,7 +12396,7 @@
           "name": "대악마의 여세",
           "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
           "shortTooltip": "일반 공격 시 기술 재사용 대기시간 감소",
-          "fullTooltip": "일반 공격으로 적에게 피해를 줄 때마다 일반 기술의 재사용 대기시간이 1.25초 감소합니다.",
+          "fullTooltip": "일반 공격으로 적에게 피해를 줄 때마다 일반 기술의 재사용 대기시간이 1.5초 감소합니다.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -20138,7 +20138,7 @@
           "name": "꿰뚫는 빛줄기",
           "icon": "storm_ui_icon_imperius_q.png",
           "shortTooltip": "용기의 낙인으로 천공의 돌진 강화",
-          "fullTooltip": "대상에게 찍혀 있는 용기의 낙인 하나당 천공의 돌진의 마지막 피해량이 100% 증가하고 재사용 대기시간이 1.25초 감소합니다.",
+          "fullTooltip": "대상에게 찍혀 있는 용기의 낙인 하나당 천공의 돌진의 마지막 피해량이 125% 증가하고 재사용 대기시간이 1.25초 감소합니다.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -20192,7 +20192,7 @@
           "name": "전투의 갈망",
           "icon": "storm_ui_icon_imperius_trait.png",
           "shortTooltip": "용기의 낙인 치유량 증가",
-          "fullTooltip": "용기의 낙인의 치유량이 60% 증가합니다.",
+          "fullTooltip": "용기의 낙인의 치유량이 70% 증가합니다.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -20205,7 +20205,7 @@
           "name": "진군",
           "icon": "storm_ui_icon_imperius_globe.png",
           "shortTooltip": "적 영웅 공격 시 재생의 구슬 지속 시간 갱신",
-          "fullTooltip": "적 영웅에게 피해를 주면 활성화된 재생의 구슬의 지속 시간이 8초로 갱신됩니다. 최고치에 도달하면 더는 적용되지 않습니다.",
+          "fullTooltip": "재생의 구슬의 효과가 활성화된 동안 방어력이 10 증가하고, 적 영웅에게 피해를 주면 활성화된 재생의 구슬의 지속 시간이 8초로 갱신됩니다. 최고치에 도달하면 더는 적용되지 않습니다.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -20233,7 +20233,7 @@
           "name": "영광의 불꽃",
           "icon": "storm_ui_icon_imperius_w.png",
           "shortTooltip": "솔라리온의 불길이 일정 시간 후 폭발",
-          "fullTooltip": "솔라리온의 불길이 중심부를 따라 이글거리는 대지를 남깁니다. 이글거리는 대지는 2초 후에 폭발하며 125 (+4% per level)의 피해를 줍니다. 폭발은 용기의 낙인이 많이 찍혀 있을수록 강한 피해를 주며 낙인을 불태웁니다.",
+          "fullTooltip": "솔라리온의 불길이 중심부를 따라 이글거리는 대지를 남깁니다. 이글거리는 대지는 2초 후에 폭발하며 135 (+4% per level)의 피해를 줍니다. 폭발은 용기의 낙인이 많이 찍혀 있을수록 강한 피해를 주며 낙인을 불태웁니다.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -20294,7 +20294,7 @@
           "name": "필멸자의 한계",
           "icon": "storm_ui_icon_imperius_q.png",
           "shortTooltip": "천공의 돌진이 공격력을 감소시킴",
-          "fullTooltip": "천공의 돌진으로 적 영웅을 기절시키면 대상의 공격력이 4초 동안 40% 감소합니다.",
+          "fullTooltip": "천공의 돌진으로 적 영웅을 기절시키면 대상의 공격력이 4초 동안 50% 감소합니다.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -20391,7 +20391,7 @@
           "name": "무자비한 강림",
           "icon": "storm_ui_icon_imperius_r2.png",
           "shortTooltip": "용기의 낙인으로 재사용 대기시간 감소",
-          "fullTooltip": "용기의 낙인을 불태우면 앙기리스의 분노의 재사용 대기시간이 5초 감소합니다.",
+          "fullTooltip": "용기의 낙인을 불태우면 앙기리스의 분노의 재사용 대기시간이 10초 감소합니다.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -20407,7 +20407,7 @@
           "name": "솔라리온의 낙인",
           "icon": "storm_ui_icon_imperius_trait.png",
           "shortTooltip": "용기의 낙인이 사라지지 않음",
-          "fullTooltip": "용기의 낙인의 지속 시간이 3초로 줄어들지만, 한번 찍힌 낙인은 공격을 해도 사라지지 않습니다.",
+          "fullTooltip": "용기의 낙인의 지속 시간이 5초로 줄어들지만, 한번 찍힌 낙인은 공격을 해도 사라지지 않습니다.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -23099,8 +23099,8 @@
           "buttonId": "KerriganPrimalGraspPsionicBarrier",
           "name": "사이오닉 방벽",
           "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
-          "shortTooltip": "원시 손아귀가 기술 방어력을 증가시킴",
-          "fullTooltip": "원시 손아귀가 적중한 적 영웅 하나당 기술 방어력이 4초 동안 20 증가합니다.",
+          "shortTooltip": "원시 손아귀가 기술 방어력 및 이동 속도 증가",
+          "fullTooltip": "원시 손아귀가 적중한 적 영웅 하나당 기술 방어력이 20 증가하고, 이동 속도가 4% 증가하여 최대 20% 증가합니다. 4초 동안 지속됩니다.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -23125,6 +23125,7 @@
           "buttonId": "KerriganChrysalis",
           "name": "번데기",
           "icon": "storm_ui_icon_kerrigan_chrysalis.png",
+          "toggleCooldown": 0.5,
           "cooldownTooltip": "재사용 대기시간: 90초",
           "shortTooltip": "사용 시 정지 및 생명력 회복",
           "fullTooltip": "사용하면 생명력이 750 (+4% per level)인 번데기로 자신을 5초 동안 감쌉니다. 번데기 내부에 있는 동안 매초 최대 생명력의 5%를 회복합니다.  적은 고치를 공격하여 효과를 일찍 끝낼 수 있습니다.",
@@ -30113,7 +30114,7 @@
           "name": "악독한 의도",
           "icon": "storm_ui_icon_mephisto_shade.png",
           "shortTooltip": "메피스토의 그림자가 기술 위력을 증가시킴",
-          "fullTooltip": "메피스토의 그림자가 활성화된 동안 기술 위력이 25% 증가하고 그림자가 사라진 후에도 2.5초 동안 효과가 유지됩니다.  메피스토의 그림자가 활성화된 동안 일반 기술이 적 영웅에게 20회 이상 적중하면, 기술 위력 증가 효과가 그림자가 사라진 후에도 10초 동안 유지됩니다.",
+          "fullTooltip": "메피스토의 그림자가 활성화된 동안 기술 위력이 25% 증가하고 그림자가 사라진 후에도 2.5초 동안 효과가 유지됩니다.  메피스토의 그림자가 활성화된 동안 일반 기술이 적 영웅에게 18회 이상 적중하면, 기술 위력 증가 효과가 그림자가 사라진 후에도 10초 동안 유지됩니다.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30195,7 +30196,7 @@
           "name": "계략",
           "icon": "storm_ui_icon_mephisto_shade_c.png",
           "shortTooltip": "메피스토의 그림자가 이동 속도를 증가시킴",
-          "fullTooltip": "메피스토의 그림자가 활성화된 동안 이동 속도가 20% 증가하고, 만료된 후에도 2.5초 동안 지속됩니다.  메피스토의 그림자가 활성화된 동안 일반 기술이 적 영웅에게 20회 이상 적중하면 메피스토의 그림자의 재사용 대기시간이 초기화됩니다.",
+          "fullTooltip": "메피스토의 그림자가 활성화된 동안 이동 속도가 20% 증가하고, 만료된 후에도 2.5초 동안 지속됩니다.  메피스토의 그림자가 활성화된 동안 일반 기술이 적 영웅에게 18회 이상 적중하면 메피스토의 그림자의 재사용 대기시간이 초기화됩니다.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30905,7 +30906,7 @@
           "name": "평화로운 휴식",
           "icon": "storm_ui_icon_monk_divinepalm.png",
           "shortTooltip": "대상이 죽음에 이르지 않으면 신성 장법 재사용 대기시간 감소",
-          "fullTooltip": "대상이 죽음에 이르는 피해를 받지 않으면 신성 장법의 재사용 대기시간이 5초로 감소합니다.",
+          "fullTooltip": "신성 장법의 치유량이 75% 증가합니다. 대상이 죽음에 이르는 피해를 받지 않으면 신성 장법의 재사용 대기시간이 5초로 감소합니다.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -32060,10 +32061,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_necromancer.png"
     },
     "life": {
-      "amount": 2000.0,
+      "amount": 2200.0,
       "scale": 0.04,
       "type": "생명력",
-      "regenRate": 4.168,
+      "regenRate": 4.582,
       "regenScale": 0.04
     },
     "energy": {
@@ -32086,7 +32087,7 @@
         "nameId": "NecromancerHeroWeapon",
         "range": 1.5,
         "period": 0.8332,
-        "damage": 110.0,
+        "damage": 100.0,
         "damageScale": 0.04
       }
     ],
@@ -32100,7 +32101,7 @@
           "energyTooltip": "마나: 55",
           "cooldownTooltip": "재사용 대기시간: 8초",
           "shortTooltip": "되돌아오면서 적에게 피해를 주는 낫 투척",
-          "fullTooltip": "1초 후에 자신에게 돌아오는 낫을 소환합니다. 낫은 돌아오면서 적들에게 240 (+4% per level)의 피해를 줍니다.",
+          "fullTooltip": "1초 후에 자신에게 돌아오는 낫을 소환합니다. 낫은 돌아오면서 적들에게 210 (+4% per level)의 피해를 주고, 적 영웅에게 적중하면 해골 전사를 1명 소환합니다. 이 효과는 자신이 최대로 부릴 수 있는 해골 전사의 수에 영향을 받지 않습니다.",
           "abilityType": "Q"
         },
         {
@@ -32146,7 +32147,7 @@
           "energyTooltip": "마나: 100",
           "cooldownTooltip": "재사용 대기시간: 90초",
           "shortTooltip": "넓은 지역 안의 적들을 중독시킴",
-          "fullTooltip": "0.5초 후, 사방으로 맹독을 발사하여 적중한 적에게 10초에 걸쳐 570 (+4% per level)의 피해를 줍니다.",
+          "fullTooltip": "0.5초 후, 사방으로 맹독을 발사하여 적중한 적에게 10초에 걸쳐 630 (+4% per level)의 피해를 줍니다.",
           "abilityType": "Heroic"
         }
       ],
@@ -32157,10 +32158,10 @@
           "name": "해골 되살리기",
           "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
           "charges": {
-            "countMax": 4
+            "countMax": 3
           },
           "shortTooltip": "죽은 돌격병을 해골 전사로 되살림",
-          "fullTooltip": "주위에서 죽은 적 돌격병을 225 (+4% per level)의 생명력을 가진 해골 전사로 되살립니다. 해골 전사는 일반 공격으로 21 (+4% per level)의 피해를 주고, 15초 동안 지속됩니다. 최대 4명의 해골 전사를 동시에 부릴 수 있습니다.",
+          "fullTooltip": "주위에서 죽은 적 돌격병을 240 (+4% per level)의 생명력을 가진 해골 전사로 되살립니다. 해골 전사는 12초 동안 지속되며 일반 공격으로 21 (+4% per level)의 피해를 주고, 죽을 때 폭발하여 주위 적들에게 50 (+4% per level)의 피해를 줍니다. 이 방식으로 되살아난 해골 전사는 최대 3명까지 동시에 부릴 수 있습니다.",
           "abilityType": "Trait",
           "isActive": false
         }
@@ -32244,7 +32245,7 @@
               "name": "유령의 낫",
               "icon": "storm_ui_icon_necromancer_reap.png",
               "shortTooltip": "되돌아오면서 적에게 피해를 주는 낫 투척",
-              "fullTooltip": "1초 후에 자신에게 돌아오는 낫을 소환합니다. 낫은 돌아오면서 적들에게 240 (+4% per level)의 피해를 줍니다.",
+              "fullTooltip": "1초 후에 자신에게 돌아오는 낫을 소환합니다. 낫은 돌아오면서 적들에게 210 (+4% per level)의 피해를 주고, 적 영웅에게 적중하면 해골 전사를 1명 소환합니다. 이 효과는 자신이 최대로 부릴 수 있는 해골 전사의 수에 영향을 받지 않습니다.",
               "abilityType": "Q",
               "isActive": false,
               "isPassive": true
@@ -32302,7 +32303,7 @@
           "name": "그림자",
           "icon": "storm_ui_icon_necromancer_bonearmor.png",
           "shortTooltip": "뼈 갑옷 사용 시 적 일반 공격 회피",
-          "fullTooltip": "뼈 갑옷이 활성화된 동안 적의 일반 공격을 모두 회피하지만, 뼈 갑옷의 재사용 대기시간이 20초 증가합니다.",
+          "fullTooltip": "뼈 갑옷이 활성화된 동안 적의 일반 공격을 모두 회피하지만, 뼈 갑옷의 재사용 대기시간이 10초 증가합니다.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -32316,10 +32317,9 @@
           "buttonId": "NecromancerReapersTollTalent",
           "name": "서슬낫",
           "icon": "storm_ui_icon_necromancer_reap.png",
-          "shortTooltip": "퀘스트: 유령의 낫 재사용 대기시간 감소",
-          "fullTooltip": "퀘스트: 유령의 낫이 적 영웅에게 적중해야 합니다.  보상: 유령의 낫이 적 영웅에게 16회 적중하면 유령의 낫의 재사용 대기시간이 3초 감소하고 마나 소모량이 20 감소합니다.",
+          "shortTooltip": "유령의 낫 재사용 대기시간, 마나 소모량 감소",
+          "fullTooltip": "유령의 낫의 재사용 대기시간이 2초 감소하고 마나 소모량이 15 감소합니다.",
           "abilityType": "Q",
-          "isQuest": true,
           "sort": 1,
           "abilityTalentLinkIds": [
             "NecromancerSpectralScythe"
@@ -32331,7 +32331,7 @@
           "name": "사신의 낫",
           "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
           "shortTooltip": "저주의 수확 재사용 대기시간 감소",
-          "fullTooltip": "저주의 수확이 적중한 적 하나당 재사용 대기시간이 1초 감소하여 최대 12초 감소합니다.",
+          "fullTooltip": "일반 공격력이 15% 증가합니다. 저주의 수확이 적중한 적 하나당 재사용 대기시간이 1초 감소하여 최대 12초 감소합니다.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -32345,7 +32345,7 @@
           "name": "간수",
           "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
           "charges": {
-            "countMax": 4
+            "countMax": 3
           },
           "shortTooltip": "퀘스트: 뼈 감옥이 해골 전사 생성",
           "fullTooltip": "뼈 감옥이 완성되면 해골 전사를 2명 소환합니다. 이 효과는 자신이 최대로 부릴 수 있는 해골 전사의 수에 영향을 받지 않습니다.  퀘스트: 적 돌격병을 해골 전사로 80회 되살려야 합니다.  보상: 해골 전사가 뼈 감옥의 대상에게 공격을 집중하는 동안 해골 전사의 이동 속도와 공격 속도가 40% 증가합니다.",
@@ -32373,20 +32373,6 @@
           ]
         },
         {
-          "nameId": "NecromancerTalentWeaken",
-          "buttonId": "NecromancerWeaken",
-          "name": "약화",
-          "icon": "storm_ui_icon_necromancer_cursedstrikes_b.png",
-          "shortTooltip": "저주의 수확 공격 속도 감소 효과 증가",
-          "fullTooltip": "저주의 수확의 공격 속도 감소 효과가 35% 증가하고 지속 시간이 1초 증가합니다.",
-          "abilityType": "W",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "NecromancerCursedStrikesPassive",
-            "NecromancerCursedStrikes"
-          ]
-        },
-        {
           "nameId": "NecromancerTalentTragOulsEssence",
           "buttonId": "NecromancerTragOulsEssence",
           "name": "트래그울의 정수",
@@ -32394,9 +32380,22 @@
           "shortTooltip": "해골 전사 공격 시 생명력 및 마나 회복",
           "fullTooltip": "해골 전사가 일반 공격을 할 때마다 최대 생명력의 0.5%와 최대 마나의 0.2%를 회복합니다.",
           "abilityType": "Trait",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "NecromancerRaiseSkeletonDisplayAbility"
+          ]
+        },
+        {
+          "nameId": "NecromancerBoneArmorWallOfBonesTalent",
+          "buttonId": "NecromancerWallOfBonesBoneArmorTalent",
+          "name": "뼈의 장벽",
+          "icon": "storm_ui_icon_necromancer_bonearmor.png",
+          "shortTooltip": "뼈 갑옷 보호막 흡수량 증가",
+          "fullTooltip": "뼈 갑옷의 보호막 흡수량이 최대 생명력의 35%로 증가하며, 보호막의 지속 시간 동안 기술 방어력이 20 증가합니다.",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "NecromancerBoneArmor"
           ]
         }
       ],
@@ -32409,7 +32408,7 @@
           "energyTooltip": "마나: 100",
           "cooldownTooltip": "재사용 대기시간: 90초",
           "shortTooltip": "주위 적들을 중독시킴",
-          "fullTooltip": "0.5초 후, 사방으로 맹독을 발사하여 적중한 적에게 10초에 걸쳐 570 (+4% per level)의 피해를 줍니다.",
+          "fullTooltip": "0.5초 후, 사방으로 맹독을 발사하여 적중한 적에게 10초에 걸쳐 630 (+4% per level)의 피해를 줍니다.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -32463,41 +32462,45 @@
           ]
         },
         {
-          "nameId": "HeroGenericExecutionerPassive",
-          "buttonId": "GenericExecutionerTalent",
-          "name": "집행자",
-          "icon": "storm_ui_icon_talent_autoattack_damage.png",
-          "shortTooltip": "무력화된 영웅 공격 시 일반 공격력 증가",
-          "fullTooltip": "감속, 이동 불가, 기절 상태인 적 영웅에게 일반 공격을 하면 일반 공격력이 3초 동안 30% 증가합니다.",
-          "abilityType": "Passive",
-          "sort": 3
-        }
-      ],
-      "level16": [
-        {
           "nameId": "NecromancerTalentAmplifyDamage",
           "buttonId": "NecromancerAmplifyDamage",
           "name": "피해 증폭",
           "icon": "storm_ui_icon_necromancer_boneprison.png",
           "shortTooltip": "뼈 감옥이 방어력을 감소시킴",
-          "fullTooltip": "뼈 감옥 안에 갇힌 적은 방어력이 1.75초 동안 25 감소합니다.",
+          "fullTooltip": "뼈 감옥의 이동 불가 지속 시간이 0.25초 증가합니다. 뼈 감옥 안에 갇힌 적은 방어력이 2초 동안 25 감소합니다.",
           "abilityType": "E",
-          "sort": 1,
+          "sort": 3,
           "abilityTalentLinkIds": [
             "NecromancerBonePrison"
           ]
-        },
+        }
+      ],
+      "level16": [
         {
-          "nameId": "NecromancerTalentCorpseExplosion",
-          "buttonId": "NecromancerTalentCorpseExplosion",
-          "name": "시체 폭발",
-          "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
-          "shortTooltip": "해골 전사 사망 시 폭발",
-          "fullTooltip": "해골 전사가 죽으면 폭발하여 좁은 지역에 55 (+4% per level)의 피해를 줍니다. 영웅이 아닌 대상에게는 100%의 추가 피해를 줍니다.",
-          "abilityType": "Trait",
-          "sort": 2,
+          "nameId": "NecromancerTalentDecrepify",
+          "buttonId": "NecromancerDecrepifyTalent",
+          "name": "노화",
+          "icon": "storm_ui_icon_necromancer_reap.png",
+          "shortTooltip": "유령의 낫, 해골 전사가 적을 느려지게 함",
+          "fullTooltip": "유령의 낫과 해골 전사의 일반 공격이 적 영웅을 2.5초 동안 40% 느려지게 합니다.",
+          "abilityType": "Q",
+          "sort": 1,
           "abilityTalentLinkIds": [
             "NecromancerRaiseSkeletonDisplayAbility"
+          ]
+        },
+        {
+          "nameId": "NecromancerTalentWeaken",
+          "buttonId": "NecromancerWeaken",
+          "name": "약화",
+          "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
+          "shortTooltip": "저주의 수확, 해골 전사가 적 공격력을 감소시킴",
+          "fullTooltip": "저주의 수확과 해골 전사의 공격에 적중당한 적 영웅의 공격력이 3초 동안 40% 감소합니다.",
+          "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "NecromancerCursedStrikesPassive",
+            "NecromancerCursedStrikes"
           ]
         },
         {
@@ -32519,8 +32522,8 @@
           "buttonId": "NecromancerAndarielsVisage",
           "name": "안다리엘의 두개골",
           "icon": "storm_ui_icon_necromancer_poisonnova.png",
-          "shortTooltip": "맹독 확산으로 생명력 회복 및 해골 전사 공격력 증가",
-          "fullTooltip": "맹독 확산으로 준 피해의 50%만큼 생명력을 회복합니다.  지속 효과: 해골 전사의 공격력이 50% 증가합니다.",
+          "shortTooltip": "맹독 확산 지속 시간 증가 및 생명력 회복",
+          "fullTooltip": "맹독 확산으로 준 피해의 50%만큼 생명력을 회복하고 맹독 확산의 지속 시간이 50% 증가합니다.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -32535,8 +32538,8 @@
           "buttonId": "NecromancerColdHandOfDeath",
           "name": "차가운 죽음의 손",
           "icon": "storm_ui_icon_necromancer_skeletalmages.png",
-          "shortTooltip": "해골 마법사 감속 효과 증가 및 해골 전사 공격 시 적을 감속시킴",
-          "fullTooltip": "해골 마법사의 감속 효과가 20% 증가합니다.  지속 효과: 해골 전사의 일반 공격이 적을 2초 동안 30% 느려지게 합니다.",
+          "shortTooltip": "유령의 낫이 해골 마법학자 소환",
+          "fullTooltip": "해골 마법학자의 감속 효과가 20% 증가합니다.    유령의 낫이 적 영웅에게 5번 적중할 때마다 주위에서 죽은 적 돌격병을 해골 전사가 아닌 해골 마법학자로 되살립니다.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -32565,7 +32568,7 @@
           "name": "칼란의 칙령",
           "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
           "shortTooltip": "해골 전사 공격 시 궁극기 재사용 대기시간 감소",
-          "fullTooltip": "해골 전사가 일반 공격을 할 때마다 궁극기의 재사용 대기시간이 1% 감소합니다.",
+          "fullTooltip": "해골 전사가 적에게 피해를 줄 때마다 뼈 갑옷과 궁극기의 재사용 대기시간이 1.5% 감소합니다.",
           "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -35679,7 +35682,7 @@
           "name": "회심의 일격",
           "icon": "storm_ui_icon_raynor_acardtoplay.png",
           "shortTooltip": "무력화된 영웅들에게 추가 피해",
-          "fullTooltip": "지속 효과: 기절, 감속 상태인 영웅에게 15%의 추가 피해를 줍니다.  뜨거운 맛을 보여주지에 적중당한 적 영웅은 이동 속도가 2.5초 동안 10% 감소합니다.",
+          "fullTooltip": "지속 효과: 기절, 감속 상태인 영웅에게 10%의 추가 피해를 줍니다.  뜨거운 맛을 보여주지에 적중당한 적 영웅은 이동 속도가 2.5초 동안 10% 감소합니다.",
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -36092,7 +36095,7 @@
           "energyTooltip": "마나: 70",
           "cooldownTooltip": "재사용 대기시간: 90초",
           "shortTooltip": "아군 영웅들의 이동 속도 및 공격 속도 증가, 생명력 흡수 효과 부여",
-          "fullTooltip": "주위 아군 영웅들의 공격 속도를 40%, 이동 속도를 35% 증가시키고 일반 공격으로 주 대상에게 준 피해의 30%만큼 생명력을 회복하게 합니다. 8초 동안 지속됩니다.",
+          "fullTooltip": "주위 아군 영웅들의 공격 속도를 40%, 이동 속도를 35% 증가시키고 일반 공격으로 주 대상에게 준 피해의 40%만큼 생명력을 회복하게 합니다. 8초 동안 지속됩니다.",
           "abilityType": "Heroic"
         },
         {
@@ -36271,7 +36274,7 @@
           "name": "야생의 심장",
           "icon": "storm_ui_icon_rehgar_ghostwolf.png",
           "shortTooltip": "늑대 정령 형상으로 생명력 및 마나 회복",
-          "fullTooltip": "늑대 정령 형상일 때 생명력 재생량이 75% 증가합니다. 늑대 정령으로 일반 공격을 하면 최대 마나의 1%를 회복하며, 영웅을 대상으로는 4% 회복합니다.",
+          "fullTooltip": "늑대 정령 형상일 때 생명력 재생량이 75% 증가합니다. 늑대 정령으로 일반 공격을 하면 최대 마나의 1%를 회복하며, 영웅을 대상으로는 5% 회복합니다.",
           "abilityType": "Z",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -36355,7 +36358,7 @@
           "energyTooltip": "마나: 70",
           "cooldownTooltip": "재사용 대기시간: 90초",
           "shortTooltip": "아군 영웅들의 이동 속도 및 공격 속도 증가, 생명력 흡수 효과 부여",
-          "fullTooltip": "주위 아군 영웅들의 공격 속도를 40%, 이동 속도를 35% 증가시키고 일반 공격으로 주 대상에게 준 피해의 30%만큼 생명력을 회복하게 합니다. 8초 동안 지속됩니다.",
+          "fullTooltip": "주위 아군 영웅들의 공격 속도를 40%, 이동 속도를 35% 증가시키고 일반 공격으로 주 대상에게 준 피해의 40%만큼 생명력을 회복하게 합니다. 8초 동안 지속됩니다.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -36469,8 +36472,8 @@
           "buttonId": "RehgarBloodlustGladiatorsWarShout",
           "name": "검투사의 전쟁 고함",
           "icon": "storm_ui_icon_rehgar_bloodlust.png",
-          "shortTooltip": "피의 욕망 생명력 흡수 효과 증가",
-          "fullTooltip": "피의 욕망의 치유량이 일반 공격으로 준 피해의 30%에서 60%로 증가합니다.",
+          "shortTooltip": "피의 욕망 지속 시간 및 사거리 증가",
+          "fullTooltip": "피의 욕망의 지속 시간과 사거리가 100% 증가합니다.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -36577,14 +36580,14 @@
         "nameId": "RexxarMeleeWeapon",
         "range": 1.5,
         "period": 1.15,
-        "damage": 125.0,
+        "damage": 134.0,
         "damageScale": 0.04
       },
       {
         "nameId": "RexxarRangedWeapon",
         "range": 5.5,
         "period": 1.15,
-        "damage": 125.0,
+        "damage": 134.0,
         "damageScale": 0.04
       }
     ],
@@ -36617,7 +36620,7 @@
           "buttonId": "RexxarMendPet",
           "name": "야수 치료",
           "icon": "storm_ui_icon_rexxar_mendpet.png",
-          "energyTooltip": "마나: 60",
+          "energyTooltip": "마나: 70",
           "cooldownTooltip": "재사용 대기시간: 10초",
           "shortTooltip": "미샤 지속 치유",
           "fullTooltip": "미샤의 생명력을 5초에 걸쳐 714 (+4% per level) 회복시킵니다.",
@@ -37025,10 +37028,10 @@
             "minimap": "storm_ui_minimapicon_misha.png"
           },
           "life": {
-            "amount": 1620.0,
+            "amount": 1520.0,
             "scale": 0.0475,
             "type": "생명력",
-            "regenRate": 3.375,
+            "regenRate": 3.1718,
             "regenScale": 0.0475
           },
           "weapons": [
@@ -37571,7 +37574,7 @@
           "name": "죽음의 춤",
           "icon": "storm_ui_icon_samuro_bladestorm.png",
           "shortTooltip": "환영이 칼날폭풍 사용, 재사용 대기시간 초기화 가능",
-          "fullTooltip": "칼날폭풍을 사용하면 환영도 칼날폭풍을 사용하여 30%의 피해를 줍니다. 칼날폭풍이 적 영웅에게 25회 이상 적중하면 칼날폭풍의 재사용 대기시간이 초기화됩니다.",
+          "fullTooltip": "칼날폭풍을 사용하면 환영도 칼날폭풍을 사용하여 30%의 피해를 줍니다. 칼날폭풍이 적 영웅에게 20회 이상 적중하면 칼날폭풍의 재사용 대기시간이 초기화됩니다.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38782,10 +38785,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_stukov.png"
     },
     "life": {
-      "amount": 1765.0,
+      "amount": 1850.0,
       "scale": 0.04,
       "type": "생명력",
-      "regenRate": 3.6757,
+      "regenRate": 3.8554,
       "regenScale": 0.04
     },
     "energy": {
@@ -38833,7 +38836,7 @@
           "energyTooltip": "마나: 50",
           "cooldownTooltip": "재사용 대기시간: 10초",
           "shortTooltip": "적에게 피해를 주고 감속시키는 감염체 발사",
-          "fullTooltip": "일직선상의 모든 적 영웅들에게 적중하는 고름을 발사합니다. 고름은 적중한 적 영웅에게 20 (+4% per level)의 피해를 주고 5% 느려지게 하여 3초에 걸쳐 최대 50% 느려지게 합니다. 고름이 만료되거나 제거되면 추가로 80 (+4% per level)의 피해를 줍니다.",
+          "fullTooltip": "일직선상의 모든 적 영웅들에게 적중하는 고름을 발사합니다. 고름은 적중한 적 영웅에게 20 (+4% per level)의 피해를 주고 5% 느려지게 하여 3초에 걸쳐 최대 50% 느려지게 합니다. 고름이 만료되거나 제거되면 추가로 88 (+4% per level)의 피해를 줍니다.",
           "abilityType": "W"
         },
         {
@@ -43337,9 +43340,9 @@
           "buttonId": "TyraelDefenseOfTheAngels",
           "name": "천사들의 가호",
           "icon": "storm_ui_icon_talent_hardenedshield.png",
-          "cooldownTooltip": "재사용 대기시간: 120초",
+          "cooldownTooltip": "재사용 대기시간: 60초",
           "shortTooltip": "사용 시 방어력 증가",
-          "fullTooltip": "사용하면 방어력이 5초 동안 50 증가합니다.  적 영웅에게 일반 공격 및 일반 기술로 피해를 줄 때마다 증가한 방어력의 지속 시간이 0.5초 증가합니다.",
+          "fullTooltip": "사용하면 방어력이 3초 동안 50 증가합니다.  적 영웅에게 일반 공격 및 일반 기술로 피해를 줄 때마다 증가한 방어력의 지속 시간이 0.5초 증가합니다.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4
