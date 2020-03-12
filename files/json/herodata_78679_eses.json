@@ -3168,7 +3168,7 @@
           "energyTooltip": "Maná: 40",
           "cooldownTooltip": "Tiempo de reutilización: 10 s",
           "shortTooltip": "Proyectas una luz que inmoviliza.",
-          "fullTooltip": "Proyectas una ola de luz hacia delante que inflige 145 (+4% per level) de daño al primer héroe enemigo al que golpea y lo inmoviliza durante 1.25 s.",
+          "fullTooltip": "Proyectas una ola de luz hacia delante que inflige 155 (+4% per level) de daño al primer héroe enemigo al que golpea y lo inmoviliza durante 1.25 s.",
           "abilityType": "E"
         }
       ],
@@ -3311,7 +3311,7 @@
           "name": "Rastro de gracia",
           "icon": "storm_ui_icon_anduin_varians_legacy.png",
           "shortTooltip": "Dañas a los héroes para curar a los aliados cercanos.",
-          "fullTooltip": "Infligir daño a un héroe enemigo cura 33 (+4% per level) de salud al héroe aliado con menos salud que tengas cerca.",
+          "fullTooltip": "Infligir daño a un héroe enemigo cura 35 (+4% per level) de salud al héroe aliado con menos salud que tengas cerca.",
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -3380,7 +3380,7 @@
           "name": "Sanación conjunta",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "Sanación relámpago también te cura a ti.",
-          "fullTooltip": "Lanzar Sanación relámpago sobre un aliado te cura 104 (+4% per level) de salud.",
+          "fullTooltip": "Lanzar Sanación relámpago sobre un aliado te cura 115 (+4% per level) de salud.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3393,7 +3393,7 @@
           "name": "Palabra de poder: escudo",
           "icon": "storm_ui_icon_anduin_divine_star.png",
           "shortTooltip": "Estrella divina te puede otorgar un escudo.",
-          "fullTooltip": "Si Estrella divina golpea a un héroe enemigo, obtienes un escudo que absorbe 172 (+4% per level) de daño durante 4 s.",
+          "fullTooltip": "Si Estrella divina golpea a un héroe enemigo, obtienes un escudo que absorbe 185 (+4% per level) de daño durante 4 s.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -3493,7 +3493,7 @@
           "name": "Bendiciones ecuánimes",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "Reduce la reutilización de Sanación relámpago al lanzarla a un nuevo objetivo.",
-          "fullTooltip": "Si Sanación relámpago se lanza a un objetivo distinto al de la última vez, reduce un 50% su tiempo de reutilización.",
+          "fullTooltip": "Si Sanación relámpago se lanza a un objetivo distinto al de la última vez, mejora su curación un 20% y reduce un 50% su tiempo de reutilización.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3544,8 +3544,8 @@
           "buttonId": "AnduinHolyWordSalvationLightOfStormwind",
           "name": "Luz de Ventormenta",
           "icon": "storm_ui_icon_anduin_holy_word_salvation.png",
-          "shortTooltip": "Palabra sagrada: salvación otorga velocidad de movimiento a los aliados.",
-          "fullTooltip": "La curación de Palabra sagrada: salvación aumenta hasta un 30% de la salud máxima y, al terminar, los héroes aliados obtienen un 40% de velocidad de movimiento durante 3 s.",
+          "shortTooltip": "Palabra sagrada: salvación otorga invulnerabilidad a los aliados.",
+          "fullTooltip": "Ahora Palabra sagrada: salvación otorga invulnerabilidad a los héroes aliados en lugar del estado de Protegido. Este cambio no te afecta a ti.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -4729,10 +4729,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_arthas.png"
     },
     "life": {
-      "amount": 2782.0,
+      "amount": 2860.0,
       "scale": 0.04,
       "type": "Salud",
-      "regenRate": 5.8007,
+      "regenRate": 5.957,
       "regenScale": 0.04
     },
     "energy": {
@@ -4804,7 +4804,7 @@
           "energyTooltip": "Maná: 80",
           "cooldownTooltip": "Tiempo de reutilización: 80 s",
           "shortTooltip": "Invocas necrófagos que luchan por ti o te curan.",
-          "fullTooltip": "Invocas necrófagos que duran 15 s. Sacrifica necrófagos para curarte 267 (+4% per level) de salud.",
+          "fullTooltip": "Invocas necrófagos que duran 15 s e infligen 20 (+4% per level) de daño con sus ataques. Sacrifica necrófagos para curarte 267 (+4% per level) de salud.",
           "abilityType": "Heroic"
         },
         {
@@ -5038,7 +5038,7 @@
           "name": "Transfusión de runa",
           "icon": "storm_ui_icon_arthas_runetap.png",
           "shortTooltip": "Los ataques básicos consecutivos te curan.",
-          "fullTooltip": "Cada 3er ataque básico te cura un 4% de tu salud máxima.",
+          "fullTooltip": "Cada 3er ataque básico te cura un 5% de tu salud máxima.",
           "abilityType": "Passive",
           "sort": 2
         },
@@ -5064,7 +5064,7 @@
           "energyTooltip": "Maná: 80",
           "cooldownTooltip": "Tiempo de reutilización: 80 s",
           "shortTooltip": "Invocas necrófagos que luchan por ti o te curan.",
-          "fullTooltip": "Invocas necrófagos que duran 15 s. Sacrifica necrófagos para curarte 267 (+4% per level) de salud.",
+          "fullTooltip": "Invocas necrófagos que duran 15 s e infligen 20 (+4% per level) de daño con sus ataques. Sacrifica necrófagos para curarte 267 (+4% per level) de salud.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -5182,7 +5182,7 @@
           "name": "Legión de Rasganorte",
           "icon": "storm_ui_icon_arthas_armyofthedead.png",
           "shortTooltip": "Se crean necrófagos adicionales y duran más.",
-          "fullTooltip": "Se crean 3 necrófagos adicionales. Los necrófagos curan un 50% adicional y duran 5 s más.",
+          "fullTooltip": "Se crean 3 necrófagos adicionales. Los necrófagos infligen un 50% más de daño, curan un 50% adicional y duran 5 s más.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -5199,7 +5199,7 @@
           "name": "Cero absoluto",
           "icon": "storm_ui_icon_arthas_summonsindragosa.png",
           "shortTooltip": "Aumenta el alcance de Sindragosa y la duración de sus efectos de pérdida de control.",
-          "fullTooltip": "La distancia que recorre el vuelo de Sindragosa se duplica. Inmoviliza a los héroes enemigos durante 2 s, y luego los ralentiza un 60% durante 3.5 s.",
+          "fullTooltip": "La distancia que recorre el vuelo de Sindragosa se duplica. Inmoviliza a los héroes enemigos durante 2.5 s, y luego los ralentiza un 60% durante 4 s.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -5216,7 +5216,7 @@
           "icon": "storm_ui_icon_talent_deaths_advance.png",
           "cooldownTooltip": "Tiempo de reutilización: 50 s",
           "shortTooltip": "Actívalo para aumentar la velocidad de movimiento.",
-          "fullTooltip": "Actívalo para aumentar la velocidad de movimiento un 30% durante 3 s.  Pasiva: Aumenta la velocidad de movimiento un 10%.",
+          "fullTooltip": "Actívalo para aumentar la velocidad de movimiento un 30% durante 5 s.  Pasiva: Aumenta la velocidad de movimiento un 10%.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -5228,7 +5228,7 @@
           "icon": "storm_temp_war3_btnantimagicshell.png",
           "cooldownTooltip": "Tiempo de reutilización: 60 s",
           "shortTooltip": "Actívalo para volverte invulnerable al daño de habilidades.",
-          "fullTooltip": "Actívalo para volverte inmune al daño de habilidades durante 3 s y curarte una cantidad equivalente al 25% del daño evitado.",
+          "fullTooltip": "Actívalo para volverte inmune al daño de habilidades durante 4 s y curarte una cantidad equivalente al 25% del daño evitado.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4
@@ -7062,7 +7062,7 @@
               "buttonId": "ButcherRuthlessOnslaughtCancel",
               "name": "Cancelar Arremetida implacable",
               "icon": "hud_btn_bg_ability_cancel.png",
-              "cooldownTooltip": "Tiempo de reutilización: 1 s",
+              "toggleCooldown": 0.75,
               "fullTooltip": "Cancela la habilidad Arremetida implacable.",
               "abilityType": "E"
             }
@@ -12136,7 +12136,7 @@
           "energyTooltip": "Maná: 70",
           "cooldownTooltip": "Tiempo de reutilización: 13 s",
           "shortTooltip": "Cargas contra un objetivo enemigo y lo haces retroceder.",
-          "fullTooltip": "Cargas contra un enemigo, lo que lo repele, le inflige 40 (+4% per level) de daño y te otorga un 15% de velocidad de movimiento durante 2 s. Si el enemigo choca contra algún elemento del terreno, queda aturdido durante 1 s y sufre 120 (+4% per level) más de daño.",
+          "fullTooltip": "Cargas contra un enemigo, lo que lo repele, le inflige 40 (+4% per level) de daño y te otorga un 15% de velocidad de movimiento durante 2 s. Si el enemigo choca contra algún elemento del terreno, queda aturdido durante 1 s y sufre 130 (+4% per level) más de daño.",
           "abilityType": "Q"
         },
         {
@@ -12396,7 +12396,7 @@
           "name": "Inercia diabólica",
           "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
           "shortTooltip": "Los ataques básicos reducen el tiempo de reutilización de las habilidades.",
-          "fullTooltip": "Cuando tus ataques básicos infligen daño a algún enemigo, se reduce el tiempo de reutilización de tus habilidades básicas 1.25 s.",
+          "fullTooltip": "Cuando tus ataques básicos infligen daño a algún enemigo, se reduce el tiempo de reutilización de tus habilidades básicas 1.5 s.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -20138,7 +20138,7 @@
           "name": "Luz empaladora",
           "icon": "storm_ui_icon_imperius_q.png",
           "shortTooltip": "Potencia Carga celestial con Estigma del valor.",
-          "fullTooltip": "El daño final de Carga celestial aumenta un 100% y su tiempo de reutilización se reduce 1.25 s por cada Estigma del valor en el objetivo al completarse el aturdimiento.",
+          "fullTooltip": "El daño final de Carga celestial aumenta un 125% y su tiempo de reutilización se reduce 1.25 s por cada Estigma del valor en el objetivo al completarse el aturdimiento.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -20192,7 +20192,7 @@
           "name": "Ansia de batalla",
           "icon": "storm_ui_icon_imperius_trait.png",
           "shortTooltip": "Aumenta la curación de Estigma del valor.",
-          "fullTooltip": "Aumenta la curación de Estigma del valor un 60%.",
+          "fullTooltip": "Aumenta la curación de Estigma del valor un 70%.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -20205,7 +20205,7 @@
           "name": "Empuje",
           "icon": "storm_ui_icon_imperius_globe.png",
           "shortTooltip": "Daña a héroes para restablecer la sanación en el tiempo de las esferas de regeneración.",
-          "fullTooltip": "Infligir daño a un héroe enemigo establece la duración de una esfera de regeneración activa en Imperius a 8 s (a menos que ya sea más alta).",
+          "fullTooltip": "Obtienes 10 de armadura cuando te cura una esfera de regeneración. Infligir daño a un héroe enemigo establece la duración de una esfera de regeneración activa en Imperius a 8 s (a menos que ya sea más alta).",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -20233,7 +20233,7 @@
           "name": "Llamarada de gloria",
           "icon": "storm_ui_icon_imperius_w.png",
           "shortTooltip": "Fuego de Solarion provoca una explosión con demora.",
-          "fullTooltip": "Fuego de Solarion deja una línea de tierra abrasada en su centro que explota al cabo de 2 s e inflige 125 (+4% per level) de daño. Esta explosión consume marcas de Estigma del valor y se beneficia de ellas.",
+          "fullTooltip": "Fuego de Solarion deja una línea de tierra abrasada en su centro que explota al cabo de 2 s e inflige 135 (+4% per level) de daño. Esta explosión consume marcas de Estigma del valor y se beneficia de ellas.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -20294,7 +20294,7 @@
           "name": "Patéticos mortales",
           "icon": "storm_ui_icon_imperius_q.png",
           "shortTooltip": "Carga celestial reduce el daño.",
-          "fullTooltip": "Aturdir a héroes enemigos con Carga celestial reduce un 40% el daño que infligen durante 4 s.",
+          "fullTooltip": "Aturdir a héroes enemigos con Carga celestial reduce un 50% el daño que infligen durante 4 s.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -20391,7 +20391,7 @@
           "name": "Descenso imparable",
           "icon": "storm_ui_icon_imperius_r2.png",
           "shortTooltip": "Estigma del valor reduce el tiempo de reutilización.",
-          "fullTooltip": "Consumir una marca de Estigma del valor reduce 5 s el tiempo de reutilización de Cólera de Angiris.",
+          "fullTooltip": "Consumir una marca de Estigma del valor reduce 10 s el tiempo de reutilización de Cólera de Angiris.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -20407,7 +20407,7 @@
           "name": "Estigma de Solarion",
           "icon": "storm_ui_icon_imperius_trait.png",
           "shortTooltip": "Estigma del valor ya no se consume.",
-          "fullTooltip": "Reduce la duración de Estigma del valor a 3 s, pero ya no se consume al activarse.",
+          "fullTooltip": "Reduce la duración de Estigma del valor a 5 s, pero ya no se consume al activarse.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -23099,8 +23099,8 @@
           "buttonId": "KerriganPrimalGraspPsionicBarrier",
           "name": "Barrera psiónica",
           "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
-          "shortTooltip": "Atracción primigenia otorga armadura antihabilidades.",
-          "fullTooltip": "Cada héroe enemigo golpeado por Atracción primigenia otorga 20 de armadura antihabilidades durante 4 s.",
+          "shortTooltip": "Atracción primigenia otorga armadura antihabilidades y velocidad de movimiento.",
+          "fullTooltip": "Cada héroe enemigo golpeado por Atracción primigenia otorga 20 de armadura antihabilidades y un 4% de velocidad de movimiento durante 4 s. Puede acumularse hasta un máximo de un 20% de velocidad de movimiento.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -23125,6 +23125,7 @@
           "buttonId": "KerriganChrysalis",
           "name": "Crisálida",
           "icon": "storm_ui_icon_kerrigan_chrysalis.png",
+          "toggleCooldown": 0.5,
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Actívalo para entrar en estasis y curarte.",
           "fullTooltip": "Actívalo para meterte en una crisálida que tiene 750 (+4% per level) de salud durante 5 s. Mientras estás dentro, regeneras un 5% de tu salud máxima por segundo.  Los enemigos pueden destruir la crisálida para que su efecto termine antes de tiempo.",
@@ -30113,7 +30114,7 @@
           "name": "Intenciones malignas",
           "icon": "storm_ui_icon_mephisto_shade.png",
           "shortTooltip": "Sombra de Mefisto otorga poder de habilidad.",
-          "fullTooltip": "Sombra de Mefisto otorga un 25% de poder de habilidad mientras está activa y durante 2.5 s después de expirar.  Si golpeas a héroes enemigos al menos 20 veces con habilidades básicas mientras Sombra de Mefisto está activa, la duración de la bonificación al poder de habilidad después de expirar aumenta a 10 s.",
+          "fullTooltip": "Sombra de Mefisto otorga un 25% de poder de habilidad mientras está activa y durante 2.5 s después de expirar.  Si golpeas a héroes enemigos al menos 18 veces con habilidades básicas mientras Sombra de Mefisto está activa, la duración de la bonificación al poder de habilidad después de expirar aumenta a 10 s.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30195,7 +30196,7 @@
           "name": "Artimaña",
           "icon": "storm_ui_icon_mephisto_shade_c.png",
           "shortTooltip": "Sombra de Mefisto otorga velocidad de movimiento.",
-          "fullTooltip": "Sombra de Mefisto otorga un 20% de velocidad de movimiento mientras está activa y durante 2.5 s después de expirar.  Si golpeas a héroes enemigos al menos 20 veces con habilidades básicas mientras Sombra de Mefisto está activa, se restablece su tiempo de reutilización.",
+          "fullTooltip": "Sombra de Mefisto otorga un 20% de velocidad de movimiento mientras está activa y durante 2.5 s después de expirar.  Si golpeas a héroes enemigos al menos 18 veces con habilidades básicas mientras Sombra de Mefisto está activa, se restablece su tiempo de reutilización.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30905,7 +30906,7 @@
           "name": "Reposo pacífico",
           "icon": "storm_ui_icon_monk_divinepalm.png",
           "shortTooltip": "Si el objetivo no muere, reduce el tiempo de reutilización de Palma divina.",
-          "fullTooltip": "El tiempo de reutilización de Palma divina pasa a ser de 5 s si el héroe no muere.",
+          "fullTooltip": "La cantidad de curación de Palma divina aumenta un75%, y el tiempo de reutilización pasa a ser de 5 s si el héroe no muere.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -32060,10 +32061,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_necromancer.png"
     },
     "life": {
-      "amount": 2000.0,
+      "amount": 2200.0,
       "scale": 0.04,
       "type": "Salud",
-      "regenRate": 4.168,
+      "regenRate": 4.582,
       "regenScale": 0.04
     },
     "energy": {
@@ -32086,7 +32087,7 @@
         "nameId": "NecromancerHeroWeapon",
         "range": 1.5,
         "period": 0.8332,
-        "damage": 110.0,
+        "damage": 100.0,
         "damageScale": 0.04
       }
     ],
@@ -32100,7 +32101,7 @@
           "energyTooltip": "Maná: 55",
           "cooldownTooltip": "Tiempo de reutilización: 8 s",
           "shortTooltip": "Lanzas una guadaña que inflige daño a los enemigos al volver a ti.",
-          "fullTooltip": "Invocas una guadaña que se desplaza hasta ti tras 1 s, e inflige 240 (+4% per level) de daño a los enemigos.",
+          "fullTooltip": "Invocas una guadaña que se desplaza hasta ti tras 1 s, inflige 210 (+4% per level) de daño a los enemigos y engendra un guerrero esquelético al golpear a héroes enemigos. Estos guerreros no afectan al número máximo de esqueletos de Resucitar esqueleto.",
           "abilityType": "Q"
         },
         {
@@ -32146,7 +32147,7 @@
           "energyTooltip": "Maná: 100",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Envenenas a los enemigos en una gran área.",
-          "fullTooltip": "Tras 0.5 s, lanzas misiles envenenados que infligen 570 (+4% per level) de daño a todos los enemigos golpeados durante 10 s.",
+          "fullTooltip": "Tras 0.5 s, lanzas misiles envenenados que infligen 630 (+4% per level) de daño a todos los enemigos golpeados durante 10 s.",
           "abilityType": "Heroic"
         }
       ],
@@ -32157,10 +32158,10 @@
           "name": "Resucitar esqueleto",
           "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
           "charges": {
-            "countMax": 4
+            "countMax": 3
           },
           "shortTooltip": "Engendras guerreros esqueléticos a partir de esbirros.",
-          "fullTooltip": "Cuando un esbirro enemigo cercano muere, se convierte en un guerrero esquelético con 225 (+4% per level) de salud que ataca e inflige 21 (+4% per level) de daño y dura hasta 15 s. Puede haber hasta 4 guerreros esqueléticos activos a la vez.",
+          "fullTooltip": "Cuando un esbirro enemigo cercano muere, se convierte en un guerrero esquelético con 240 (+4% per level) de salud que ataca e inflige 21 (+4% per level) de daño y dura hasta 12 s. Al morir, los guerreros esqueléticos infligen 50 (+4% per level) de daño a los enemigos cercanos. Puede haber hasta 3 guerreros esqueléticos activos a la vez cuando se engendran de esta forma.",
           "abilityType": "Trait",
           "isActive": false
         }
@@ -32244,7 +32245,7 @@
               "name": "Guadaña espectral",
               "icon": "storm_ui_icon_necromancer_reap.png",
               "shortTooltip": "Lanzas una guadaña que inflige daño a los enemigos al volver a ti.",
-              "fullTooltip": "Invocas una guadaña que se desplaza hasta ti tras 1 s, e inflige 240 (+4% per level) de daño a los enemigos.",
+              "fullTooltip": "Invocas una guadaña que se desplaza hasta ti tras 1 s, inflige 210 (+4% per level) de daño a los enemigos y engendra un guerrero esquelético al golpear a héroes enemigos. Estos guerreros no afectan al número máximo de esqueletos de Resucitar esqueleto.",
               "abilityType": "Q",
               "isActive": false,
               "isPassive": true
@@ -32302,7 +32303,7 @@
           "name": "Sombra",
           "icon": "storm_ui_icon_necromancer_bonearmor.png",
           "shortTooltip": "Armadura de hueso esquiva los ataques básicos.",
-          "fullTooltip": "Mientras Armadura de hueso está activa, esquivas todos los ataques básicos, pero aumenta 20 s el tiempo de reutilización de Armadura de hueso.",
+          "fullTooltip": "Mientras Armadura de hueso está activa, esquivas todos los ataques básicos, pero aumenta 10 s el tiempo de reutilización de Armadura de hueso.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -32316,10 +32317,9 @@
           "buttonId": "NecromancerReapersTollTalent",
           "name": "Tributo de la Parca",
           "icon": "storm_ui_icon_necromancer_reap.png",
-          "shortTooltip": "Misión: Reduce el tiempo de reutilización de Guadaña espectral.",
-          "fullTooltip": "Misión: Golpea a 16 héroes con Guadaña espectral.  Recompensa: El tiempo de reutilización de Guadaña espectral se reduce 3 s y su coste de maná se reduce en 20.",
+          "shortTooltip": "Reduce el tiempo de reutilización y el coste de maná de Guadaña espectral.",
+          "fullTooltip": "El tiempo de reutilización de Guadaña espectral se reduce 2 s y su coste de maná se reduce en 15.",
           "abilityType": "Q",
-          "isQuest": true,
           "sort": 1,
           "abilityTalentLinkIds": [
             "NecromancerSpectralScythe"
@@ -32331,7 +32331,7 @@
           "name": "Guadaña espectral",
           "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
           "shortTooltip": "Reduce el tiempo de reutilización de Golpes malditos.",
-          "fullTooltip": "Cada enemigo alcanzado por Golpes malditos reduce su tiempo de reutilización 1 s, hasta un máximo de 12 s.",
+          "fullTooltip": "Aumenta el daño de tus ataques básicos un 15%. Cada enemigo alcanzado por Golpes malditos reduce su tiempo de reutilización en 1 s, hasta un máximo de 12 s.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -32345,7 +32345,7 @@
           "name": "Carceleros",
           "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
           "charges": {
-            "countMax": 4
+            "countMax": 3
           },
           "shortTooltip": "Misión: Engendra guerreros esqueléticos con Prisión ósea.",
           "fullTooltip": "Prisión ósea engendra 2 guerreros esqueléticos. Estos guerreros no afectan al número máximo de esqueletos de Resucitar esqueleto.  Misión: Engendra 80 guerreros esqueléticos.  Recompensa: Mientras los guerreros esqueléticos atacan a un enemigo, obtienen un 40% de velocidad de movimiento y de ataque.",
@@ -32373,20 +32373,6 @@
           ]
         },
         {
-          "nameId": "NecromancerTalentWeaken",
-          "buttonId": "NecromancerWeaken",
-          "name": "Debilitante",
-          "icon": "storm_ui_icon_necromancer_cursedstrikes_b.png",
-          "shortTooltip": "Aumenta la reducción de la velocidad de ataque de Golpes malditos.",
-          "fullTooltip": "Aumenta un 35% la reducción de la velocidad de ataque de Golpes malditos y 1 s su duración.",
-          "abilityType": "W",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "NecromancerCursedStrikesPassive",
-            "NecromancerCursedStrikes"
-          ]
-        },
-        {
           "nameId": "NecromancerTalentTragOulsEssence",
           "buttonId": "NecromancerTragOulsEssence",
           "name": "Esencia de Trag'Oul",
@@ -32394,9 +32380,22 @@
           "shortTooltip": "Los ataques de los guerreros esqueléticos restauran salud y maná.",
           "fullTooltip": "Cada vez que un guerrero esquelético ataca a un enemigo, se restaura un 0.5% de tu salud máxima y un 0.2% de tu maná máximo.",
           "abilityType": "Trait",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "NecromancerRaiseSkeletonDisplayAbility"
+          ]
+        },
+        {
+          "nameId": "NecromancerBoneArmorWallOfBonesTalent",
+          "buttonId": "NecromancerWallOfBonesBoneArmorTalent",
+          "name": "Muro de huesos",
+          "icon": "storm_ui_icon_necromancer_bonearmor.png",
+          "shortTooltip": "Aumenta la cantidad de escudo de Armadura de hueso.",
+          "fullTooltip": "Aumenta la cantidad de escudo de Armadura de hueso a un 35% de tu salud máxima. Obtienes 20 de armadura antihabilidades mientras dura el efecto.",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "NecromancerBoneArmor"
           ]
         }
       ],
@@ -32409,7 +32408,7 @@
           "energyTooltip": "Maná: 100",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Envenenas a los enemigos cercanos.",
-          "fullTooltip": "Tras 0.5 s, lanzas misiles envenenados que infligen 570 (+4% per level) de daño a todos los enemigos golpeados durante 10 s.",
+          "fullTooltip": "Tras 0.5 s, lanzas misiles envenenados que infligen 630 (+4% per level) de daño a todos los enemigos golpeados durante 10 s.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -32463,41 +32462,45 @@
           ]
         },
         {
-          "nameId": "HeroGenericExecutionerPassive",
-          "buttonId": "GenericExecutionerTalent",
-          "name": "Verdugo",
-          "icon": "storm_ui_icon_talent_autoattack_damage.png",
-          "shortTooltip": "Atacar a héroes incapacitados aumenta el daño.",
-          "fullTooltip": "Atacar a un héroe ralentizado, inmovilizado o aturdido aumenta tu daño de ataque básico un 30% durante 3 s.",
-          "abilityType": "Passive",
-          "sort": 3
-        }
-      ],
-      "level16": [
-        {
           "nameId": "NecromancerTalentAmplifyDamage",
           "buttonId": "NecromancerAmplifyDamage",
           "name": "Aumento de daño",
           "icon": "storm_ui_icon_necromancer_boneprison.png",
           "shortTooltip": "Prisión ósea reduce la armadura.",
-          "fullTooltip": "Cuando Prisión ósea inmoviliza a los enemigos, estos pierden 25 de armadura durante 1.75 s.",
+          "fullTooltip": "Aumenta la duración de la inmovilización de Prisión ósea en 0.25 s. Cuando Prisión ósea inmoviliza a los enemigos, estos pierden 25 de armadura durante 2 s.",
           "abilityType": "E",
-          "sort": 1,
+          "sort": 3,
           "abilityTalentLinkIds": [
             "NecromancerBonePrison"
           ]
-        },
+        }
+      ],
+      "level16": [
         {
-          "nameId": "NecromancerTalentCorpseExplosion",
-          "buttonId": "NecromancerTalentCorpseExplosion",
-          "name": "Explosión de cadáveres",
-          "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
-          "shortTooltip": "Los guerreros esqueléticos explotan al morir.",
-          "fullTooltip": "Cuando los guerreros esqueléticos mueren, explotan, lo que inflige 55 (+4% per level) de daño en un área pequeña. La explosión inflige un 100% más de daño a objetivos que no son héroes.",
-          "abilityType": "Trait",
-          "sort": 2,
+          "nameId": "NecromancerTalentDecrepify",
+          "buttonId": "NecromancerDecrepifyTalent",
+          "name": "Decrepitación",
+          "icon": "storm_ui_icon_necromancer_reap.png",
+          "shortTooltip": "Guadaña espectral y los guerreros esqueléticos ralentizan.",
+          "fullTooltip": "Los héroes enemigos que reciben daño de Guadaña espectral o de los guerreros esqueléticos quedan ralentizados un 40% durante 2.5 s.",
+          "abilityType": "Q",
+          "sort": 1,
           "abilityTalentLinkIds": [
             "NecromancerRaiseSkeletonDisplayAbility"
+          ]
+        },
+        {
+          "nameId": "NecromancerTalentWeaken",
+          "buttonId": "NecromancerWeaken",
+          "name": "Debilitante",
+          "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
+          "shortTooltip": "Golpes malditos y los guerreros esqueléticos reducen el daño infligido.",
+          "fullTooltip": "Los héroes enemigos que reciben daño de Golpes malditos o de los guerreros esqueléticos infligen un 40% menos de daño durante 3 s.",
+          "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "NecromancerCursedStrikesPassive",
+            "NecromancerCursedStrikes"
           ]
         },
         {
@@ -32519,8 +32522,8 @@
           "buttonId": "NecromancerAndarielsVisage",
           "name": "Visor de Andariel",
           "icon": "storm_ui_icon_necromancer_poisonnova.png",
-          "shortTooltip": "Nova de veneno cura y el daño de los esqueletos aumenta.",
-          "fullTooltip": "Nova de veneno cura un 50% del daño infligido.  Pasiva: Los guerreros esqueléticos infligen un 50% más de daño.",
+          "shortTooltip": "Aumenta la duración de Nova de veneno, que ahora cura.",
+          "fullTooltip": "Nova de veneno cura un 50% del daño infligido y su duración aumenta un 50%.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -32535,8 +32538,8 @@
           "buttonId": "NecromancerColdHandOfDeath",
           "name": "Mano helada de la muerte",
           "icon": "storm_ui_icon_necromancer_skeletalmages.png",
-          "shortTooltip": "Más ralentización de los magos esqueléticos; los ataques de los esqueletos ralentizan.",
-          "fullTooltip": "Aumenta la ralentización de los magos de escarcha un 20%.  Pasiva: Los ataques de los guerreros esqueléticos ralentizan a los enemigos un 30% durante 2 s.",
+          "shortTooltip": "Guadaña espectral engendra magos esqueléticos.",
+          "fullTooltip": "Aumenta la ralentización de los magos de escarcha un 20%.   Por cada 5 veces que Guadaña espectral golpee a héroes enemigos, se engendra un mago de escarcha en lugar de un guerrero esquelético en su posición.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -32564,8 +32567,8 @@
           "buttonId": "NecromancerTalentKalansEdict",
           "name": "Edicto de Kalan",
           "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
-          "shortTooltip": "Los ataques de los guerreros esqueléticos reducen el tiempo de reutilización de tu habilidad heroica.",
-          "fullTooltip": "Cada ataque de los guerreros esqueléticos reduce el tiempo de reutilización de tu habilidad heroica un 1%.",
+          "shortTooltip": "Los guerreros esqueléticos reducen el tiempo de reutilización de la habilidad heroica.",
+          "fullTooltip": "Cada vez que los guerreros esqueléticos infligen daño, se reduce el tiempo de reutilización de Armadura de hueso y de tu habilidad heroica un 1.5%.",
           "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -35679,7 +35682,7 @@
           "name": "As en la manga",
           "icon": "storm_ui_icon_raynor_acardtoplay.png",
           "shortTooltip": "Infliges más daño a héroes incapacitados.",
-          "fullTooltip": "Pasiva: Infliges un 15% más de daño a héroes aturdidos o ralentizados.  Los héroes enemigos golpeados por Dale caña quedan ralentizados un 10% durante 2.5 s.",
+          "fullTooltip": "Pasiva: Infliges un 10% más de daño a héroes aturdidos o ralentizados.  Los héroes enemigos golpeados por Dale caña quedan ralentizados un 10% durante 2.5 s.",
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -36092,7 +36095,7 @@
           "energyTooltip": "Maná: 70",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Otorgas velocidad de movimiento, velocidad de ataque y robo de vida a los aliados.",
-          "fullTooltip": "Otorgas a los héroes aliados cercanos un 40% de velocidad de ataque y un 35% de velocidad de movimiento, y haces que se curen un 30% del daño de los ataques básicos que inflijan a su objetivo principal. Dura 8 s.",
+          "fullTooltip": "Otorgas a los héroes aliados cercanos un 40% de velocidad de ataque y un 35% de velocidad de movimiento, y haces que se curen un 40% del daño de los ataques básicos que inflijan a su objetivo principal. Dura 8 s.",
           "abilityType": "Heroic"
         },
         {
@@ -36271,7 +36274,7 @@
           "name": "Corazón feral",
           "icon": "storm_ui_icon_rehgar_ghostwolf.png",
           "shortTooltip": "Lobo fantasmal restaura salud y maná.",
-          "fullTooltip": "Aumenta tu regeneración de salud un 75% mientras estás en forma de lobo fantasmal. Los ataques en forma de lobo fantasmal también restauran un 1% de tu maná máximo, o un 4% si golpeas a héroes.",
+          "fullTooltip": "Aumenta tu regeneración de salud un 75% mientras estás en forma de lobo fantasmal. Los ataques en forma de lobo fantasmal también restauran un 1% de tu maná máximo, o un 5% si golpeas a héroes.",
           "abilityType": "Z",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -36355,7 +36358,7 @@
           "energyTooltip": "Maná: 70",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Otorgas velocidad de movimiento, velocidad de ataque y robo de vida a los aliados.",
-          "fullTooltip": "Otorgas a los héroes aliados cercanos un 40% de velocidad de ataque y un 35% de velocidad de movimiento, y haces que se curen un 30% del daño de los ataques básicos que inflijan a su objetivo principal. Dura 8 s.",
+          "fullTooltip": "Otorgas a los héroes aliados cercanos un 40% de velocidad de ataque y un 35% de velocidad de movimiento, y haces que se curen un 40% del daño de los ataques básicos que inflijan a su objetivo principal. Dura 8 s.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -36469,8 +36472,8 @@
           "buttonId": "RehgarBloodlustGladiatorsWarShout",
           "name": "Grito de guerra de gladiador",
           "icon": "storm_ui_icon_rehgar_bloodlust.png",
-          "shortTooltip": "Aumenta el robo de vida de Ansia de sangre.",
-          "fullTooltip": "Aumenta la curación de Ansia de sangre de un 30% a un 60% del daño que infligen los aliados con sus ataques básicos.",
+          "shortTooltip": "Aumenta la duración y el alcance de Ansia de sangre.",
+          "fullTooltip": "Aumenta la duración y el alcance de Ansia de sangre un 100%.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -36577,14 +36580,14 @@
         "nameId": "RexxarMeleeWeapon",
         "range": 1.5,
         "period": 1.15,
-        "damage": 125.0,
+        "damage": 134.0,
         "damageScale": 0.04
       },
       {
         "nameId": "RexxarRangedWeapon",
         "range": 5.5,
         "period": 1.15,
-        "damage": 125.0,
+        "damage": 134.0,
         "damageScale": 0.04
       }
     ],
@@ -36617,7 +36620,7 @@
           "buttonId": "RexxarMendPet",
           "name": "Aliviar mascota",
           "icon": "storm_ui_icon_rexxar_mendpet.png",
-          "energyTooltip": "Maná: 60",
+          "energyTooltip": "Maná: 70",
           "cooldownTooltip": "Tiempo de reutilización: 10 s",
           "shortTooltip": "Curas a Misha en el tiempo.",
           "fullTooltip": "Curas 714 (+4% per level) de salud a Misha durante 5 s.",
@@ -37025,10 +37028,10 @@
             "minimap": "storm_ui_minimapicon_misha.png"
           },
           "life": {
-            "amount": 1620.0,
+            "amount": 1520.0,
             "scale": 0.0475,
             "type": "Salud",
-            "regenRate": 3.375,
+            "regenRate": 3.1718,
             "regenScale": 0.0475
           },
           "weapons": [
@@ -37571,7 +37574,7 @@
           "name": "Baile de la muerte",
           "icon": "storm_ui_icon_samuro_bladestorm.png",
           "shortTooltip": "Los reflejos usan Torbellino de cuchillas y se puede reiniciar su tiempo de reutilización.",
-          "fullTooltip": "Tus reflejos usarán Torbellino de cuchillas cuando tú lo hagas, pero infligirán un 30% de su daño. Si golpeas al menos a 25 héroes enemigos con Torbellino de cuchillas, se reinicia su tiempo de reutilización.",
+          "fullTooltip": "Tus reflejos usarán Torbellino de cuchillas cuando tú lo hagas, pero infligirán un 30% de su daño. Si golpeas al menos a 20 héroes enemigos con Torbellino de cuchillas, se reinicia su tiempo de reutilización.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38782,10 +38785,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_stukov.png"
     },
     "life": {
-      "amount": 1765.0,
+      "amount": 1850.0,
       "scale": 0.04,
       "type": "Salud",
-      "regenRate": 3.6757,
+      "regenRate": 3.8554,
       "regenScale": 0.04
     },
     "energy": {
@@ -38833,7 +38836,7 @@
           "energyTooltip": "Maná: 50",
           "cooldownTooltip": "Tiempo de reutilización: 10 s",
           "shortTooltip": "Infliges daño a los enemigos y los infestas con un virus ralentizador.",
-          "fullTooltip": "Lanzas una pústula que golpea a todos los héroes enemigos a su paso, lo que les inflige 20 (+4% per level) de daño y los ralentiza un 5%. Esta ralentización va aumentando a lo largo de 3 s hasta llegar a un 50%. Cuando la pústula expira o desaparece, inflige 80 (+4% per level) de daño adicional.",
+          "fullTooltip": "Lanzas una pústula que golpea a todos los héroes enemigos a su paso, lo que les inflige 20 (+4% per level) de daño y los ralentiza un 5%. Esta ralentización va aumentando a lo largo de 3 s hasta llegar a un 50%. Cuando la pústula expira o desaparece, inflige 88 (+4% per level) de daño adicional.",
           "abilityType": "W"
         },
         {
@@ -43337,9 +43340,9 @@
           "buttonId": "TyraelDefenseOfTheAngels",
           "name": "Defensa de los ángeles",
           "icon": "storm_ui_icon_talent_hardenedshield.png",
-          "cooldownTooltip": "Tiempo de reutilización: 120 s",
+          "cooldownTooltip": "Tiempo de reutilización: 60 s",
           "shortTooltip": "Actívalo para obtener armadura.",
-          "fullTooltip": "Actívalo para obtener 50 de armadura durante 5 s.  Cada vez que infliges daño a un héroe enemigo con un ataque básico o con una habilidad básica, la duración de esta armadura extra aumenta 0.5 s.",
+          "fullTooltip": "Actívalo para obtener 50 de armadura durante 3 s.  Cada vez que infliges daño a un héroe enemigo con un ataque básico o con una habilidad básica, la duración de esta armadura extra aumenta 0.5 s.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4
