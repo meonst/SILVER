@@ -750,7 +750,7 @@ class TopBar extends React.Component {
                         <img
                             id='Bunker'
                             alt='Go Home'
-                            src='https://min.hyeok.org/SILVER/files/images/units/storm_temp_btn-building-terran-bunker.png'
+                            src='https://min.hyeok.org/SILVER/files/storm_temp_btn-building-terran-bunker.png'
                         />
                     </div>
                     Silver City
