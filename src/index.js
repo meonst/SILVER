@@ -11,7 +11,7 @@ import {
 
 //var lang = (navigator.language || navigator.userLanguage).toLowerCase().replace('-', '');
 var lang = 'enus'
-const version = '78679'
+const version = '79155'
 var cooldown, energycost, lifecost, necessityStyle, sharedTalent
 const talentShareColor = []
 talentShareColor[0] = {borderColor: '#cd7f32'}
@@ -812,7 +812,9 @@ function GetHeroLink(props) {
     )
 }
 
-
+class Statistics extends React.Component {
+    
+}
 
 //RealPage will be the rendered page through react router
 class RealPage extends React.Component {

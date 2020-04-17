@@ -1,5 +1,5 @@
 data parsed with 'https://github.com/HeroesToolChest/HeroesDataParser'
-using command line 'dotnet heroes-data "D:\Games\Heroes of the Storm" -e all -l all -i all -d 3 -o "C:\Users\smh21\Downloads"'
+dotnet heroes-data "D:\Games\Heroes of the Storm" -e all -l all -i all -d 3 -o "C:\Users\smh21\Downloads"
 
 
 dotnet heroes-data "D:\Games\Heroes of the Storm" -e all -l all -i all -d 3 -o "C:\Users\smh21\Downloads"
