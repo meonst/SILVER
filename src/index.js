@@ -166,6 +166,7 @@ class HeroPage extends React.Component {
                 if (sharedTalent[i * 5 + j] === '1') {
                     copyText.value += this.state.data['talents'][TALENTTIER(i)][j]['name']
                     if (i !== 6) {copyText.value += ', '}
+                    break
                 }
             }
         }
@@ -203,8 +204,32 @@ class HeroPage extends React.Component {
         var donwloadLink = document.createElement('a')
         donwloadLink.href = Image.toDataURL();
         donwloadLink.download = sharedTalent.join('') + '.png';
-        donwloadLink.click();
-        
+        donwloadLink.click();   
+    }
+    ingameShare() {
+        const copyText = document.createElement('textarea');
+        copyText.value = '[T'
+        var i
+        for (i=0; i < 7; i++) {
+            var j
+            var checkChoice = true;
+            for (j=0; j < 5; j++) {
+                if (sharedTalent[i * 5 + j] === '1') {
+                    copyText.value += this.state.data['talents'][TALENTTIER(i)][j]['sort']
+                    checkChoice = false
+                    break
+                }
+            }
+            if (checkChoice) {copyText.value += '0'}
+        }
+        copyText.value += ',' + this.state.data['hyperlinkId'] + ']'
+        document.body.appendChild(copyText);
+        copyText.select();
+        document.execCommand('copy');
+        document.body.removeChild(copyText);
+        alert('copied')
+        console.log(this.state.data)
+
     }
     async componentDidMount() {
         var herodat;
@@ -429,8 +454,7 @@ class HeroPage extends React.Component {
                     <button
                         id='saveImage'
                         onClick={() => this.saveImage()}
-                    >
-                        Save as Image
+                    >Save as Image
                         <canvas
                             id="canvasImage"
                             style={
@@ -440,8 +464,12 @@ class HeroPage extends React.Component {
                             }
                         >
                         </canvas>
-                    
                     </button>
+                    <button
+                        id='ingameShare'
+                        onClick={() => this.ingameShare()}
+                    >Share Ingame</button>
+
                 </div>
             </div>
 
