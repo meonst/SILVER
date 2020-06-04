@@ -1478,7 +1478,7 @@
           "icon": "storm_ui_icon_lostvikings_spintowin.png",
           "cooldownTooltip": "Cooldown: 10 seconds",
           "shortTooltip": "Deals damage around each Viking",
-          "fullTooltip": "Activate to have each Viking deal 101 (+4% per level) damage to nearby enemies.",
+          "fullTooltip": "Activate to have each Viking deal 85 (+4% per level) damage to nearby enemies.  Deals 100% bonus damage to enemy Heroes.",
           "abilityType": "Q"
         },
         {
@@ -1486,7 +1486,7 @@
           "buttonId": "LostVikingsNorseForce",
           "name": "Norse Force!",
           "icon": "storm_ui_icon_lostvikings_norseforce.png",
-          "cooldownTooltip": "Cooldown: 30 seconds",
+          "cooldownTooltip": "Cooldown: 15 seconds",
           "shortTooltip": "All Vikings gain a Shield",
           "fullTooltip": "All Vikings gain a 130 (+4% per level) to 260 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
           "abilityType": "Q"
@@ -1507,8 +1507,8 @@
           "name": "Nordic Attack Squad",
           "icon": "storm_ui_icon_talent_autoattack_damage.png",
           "cooldownTooltip": "Cooldown: 20 seconds",
-          "shortTooltip": "Increases Viking Basic Attacks to Heroes",
-          "fullTooltip": "Activate to have all Viking Basic Attacks deal bonus damage equal to 1.25% of a Hero's maximum Health for 5 seconds.",
+          "shortTooltip": "Vikings deal bonus damage when together",
+          "fullTooltip": "While Olaf, Baleog, and Erik are near each of the other two Vikings, their Basic Attacks deal bonus damage equal to 1.25% maximum Health to enemy Heroes.",
           "abilityType": "W"
         },
         {
@@ -1521,7 +1521,7 @@
             "countUse": 1
           },
           "shortTooltip": "Kill Minions to bribe a Mercenary",
-          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
+          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200.  Current number of Bribe stacks: 0",
           "abilityType": "E"
         }
       ],
@@ -1531,7 +1531,7 @@
           "buttonId": "LostVikingsPlayAgain",
           "name": "Play Again!",
           "icon": "storm_ui_icon_lostvikings_playagain.png",
-          "cooldownTooltip": "Cooldown: 80 seconds",
+          "cooldownTooltip": "Cooldown: 100 seconds",
           "shortTooltip": "Revive and summon Vikings",
           "fullTooltip": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
           "abilityType": "Heroic"
@@ -2948,6 +2948,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5,
           "mapcreature": 0.75
         }
@@ -3030,6 +3031,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5,
           "mapcreature": 0.75
         }
@@ -3112,6 +3114,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5,
           "mapcreature": 0.75
         }
@@ -3168,6 +3171,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5,
           "mapcreature": 0.75
         }
@@ -4838,7 +4842,7 @@
           "minion": 1.0,
           "merc": 1.0,
           "structure": 1.0,
-          "heroic": 0.5,
+          "heroic": 0.4,
           "mapcreature": 1.0
         }
       }
@@ -4912,6 +4916,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -4993,6 +4998,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -5074,6 +5080,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -5155,6 +5162,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -5236,6 +5244,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -5291,6 +5300,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -5735,7 +5745,7 @@
           "icon": "storm_ui_icon_lostvikings_spintowin.png",
           "cooldownTooltip": "Cooldown: 10 seconds",
           "shortTooltip": "Deals damage around each Viking",
-          "fullTooltip": "Activate to have each Viking deal 101 (+4% per level) damage to nearby enemies.",
+          "fullTooltip": "Activate to have each Viking deal 85 (+4% per level) damage to nearby enemies.  Deals 100% bonus damage to enemy Heroes.",
           "abilityType": "Q"
         },
         {
@@ -5743,7 +5753,7 @@
           "buttonId": "LostVikingsNorseForce",
           "name": "Norse Force!",
           "icon": "storm_ui_icon_lostvikings_norseforce.png",
-          "cooldownTooltip": "Cooldown: 30 seconds",
+          "cooldownTooltip": "Cooldown: 15 seconds",
           "shortTooltip": "All Vikings gain a Shield",
           "fullTooltip": "All Vikings gain a 130 (+4% per level) to 260 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
           "abilityType": "Q"
@@ -5764,8 +5774,8 @@
           "name": "Nordic Attack Squad",
           "icon": "storm_ui_icon_talent_autoattack_damage.png",
           "cooldownTooltip": "Cooldown: 20 seconds",
-          "shortTooltip": "Increases Viking Basic Attacks to Heroes",
-          "fullTooltip": "Activate to have all Viking Basic Attacks deal bonus damage equal to 1.25% of a Hero's maximum Health for 5 seconds.",
+          "shortTooltip": "Vikings deal bonus damage when together",
+          "fullTooltip": "While Olaf, Baleog, and Erik are near each of the other two Vikings, their Basic Attacks deal bonus damage equal to 1.25% maximum Health to enemy Heroes.",
           "abilityType": "W"
         },
         {
@@ -5778,7 +5788,7 @@
             "countUse": 1
           },
           "shortTooltip": "Kill Minions to bribe a Mercenary",
-          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
+          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200.  Current number of Bribe stacks: 0",
           "abilityType": "E"
         }
       ],
@@ -5788,7 +5798,7 @@
           "buttonId": "LostVikingsPlayAgain",
           "name": "Play Again!",
           "icon": "storm_ui_icon_lostvikings_playagain.png",
-          "cooldownTooltip": "Cooldown: 80 seconds",
+          "cooldownTooltip": "Cooldown: 100 seconds",
           "shortTooltip": "Revive and summon Vikings",
           "fullTooltip": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
           "abilityType": "Heroic"
@@ -6980,7 +6990,7 @@
           "minion": 1.0,
           "merc": 1.0,
           "structure": 1.0,
-          "heroic": 0.5,
+          "heroic": 0.4,
           "mapcreature": 1.0
         }
       }
@@ -7054,6 +7064,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -7135,6 +7146,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -7216,6 +7228,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -7297,6 +7310,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -7378,6 +7392,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -7433,6 +7448,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -7784,6 +7800,23 @@
     "hyperlinkId": "GlowingSteppingStones",
     "radius": 0.5,
     "attributes": [
+      "ImmuneToAOE",
+      "ImmuneToFriendlyAbilities",
+      "ImmuneToSkillshots",
+      "NoMinionAggro"
+    ],
+    "life": {
+      "amount": 1.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "GPUTest": {
+    "hyperlinkId": "GPUTest",
+    "radius": 0.5,
+    "attributes": [
+      "IgnoredByTowerAI",
       "ImmuneToAOE",
       "ImmuneToFriendlyAbilities",
       "ImmuneToSkillshots",
@@ -9513,6 +9546,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -11139,7 +11173,7 @@
       "minimap": "storm_ui_minimapicon_longboatraid.png"
     },
     "life": {
-      "amount": 685.0,
+      "amount": 750.0,
       "scale": 0.04,
       "type": "Health",
       "regenRate": 0.0,
@@ -11253,7 +11287,7 @@
           "icon": "storm_ui_icon_lostvikings_spintowin.png",
           "cooldownTooltip": "Cooldown: 10 seconds",
           "shortTooltip": "Deals damage around each Viking",
-          "fullTooltip": "Activate to have each Viking deal 101 (+4% per level) damage to nearby enemies.",
+          "fullTooltip": "Activate to have each Viking deal 85 (+4% per level) damage to nearby enemies.  Deals 100% bonus damage to enemy Heroes.",
           "abilityType": "Q"
         },
         {
@@ -11261,7 +11295,7 @@
           "buttonId": "LostVikingsNorseForce",
           "name": "Norse Force!",
           "icon": "storm_ui_icon_lostvikings_norseforce.png",
-          "cooldownTooltip": "Cooldown: 30 seconds",
+          "cooldownTooltip": "Cooldown: 15 seconds",
           "shortTooltip": "All Vikings gain a Shield",
           "fullTooltip": "All Vikings gain a 130 (+4% per level) to 260 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
           "abilityType": "Q"
@@ -11282,8 +11316,8 @@
           "name": "Nordic Attack Squad",
           "icon": "storm_ui_icon_talent_autoattack_damage.png",
           "cooldownTooltip": "Cooldown: 20 seconds",
-          "shortTooltip": "Increases Viking Basic Attacks to Heroes",
-          "fullTooltip": "Activate to have all Viking Basic Attacks deal bonus damage equal to 1.25% of a Hero's maximum Health for 5 seconds.",
+          "shortTooltip": "Vikings deal bonus damage when together",
+          "fullTooltip": "While Olaf, Baleog, and Erik are near each of the other two Vikings, their Basic Attacks deal bonus damage equal to 1.25% maximum Health to enemy Heroes.",
           "abilityType": "W"
         },
         {
@@ -11296,7 +11330,7 @@
             "countUse": 1
           },
           "shortTooltip": "Kill Minions to bribe a Mercenary",
-          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
+          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200.  Current number of Bribe stacks: 0",
           "abilityType": "E"
         }
       ],
@@ -11306,7 +11340,7 @@
           "buttonId": "LostVikingsPlayAgain",
           "name": "Play Again!",
           "icon": "storm_ui_icon_lostvikings_playagain.png",
-          "cooldownTooltip": "Cooldown: 80 seconds",
+          "cooldownTooltip": "Cooldown: 100 seconds",
           "shortTooltip": "Revive and summon Vikings",
           "fullTooltip": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
           "abilityType": "Heroic"
@@ -13180,7 +13214,7 @@
           "icon": "storm_ui_icon_lostvikings_spintowin.png",
           "cooldownTooltip": "Cooldown: 10 seconds",
           "shortTooltip": "Deals damage around each Viking",
-          "fullTooltip": "Activate to have each Viking deal 101 (+4% per level) damage to nearby enemies.",
+          "fullTooltip": "Activate to have each Viking deal 85 (+4% per level) damage to nearby enemies.  Deals 100% bonus damage to enemy Heroes.",
           "abilityType": "Q"
         },
         {
@@ -13188,7 +13222,7 @@
           "buttonId": "LostVikingsNorseForce",
           "name": "Norse Force!",
           "icon": "storm_ui_icon_lostvikings_norseforce.png",
-          "cooldownTooltip": "Cooldown: 30 seconds",
+          "cooldownTooltip": "Cooldown: 15 seconds",
           "shortTooltip": "All Vikings gain a Shield",
           "fullTooltip": "All Vikings gain a 130 (+4% per level) to 260 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
           "abilityType": "Q"
@@ -13209,8 +13243,8 @@
           "name": "Nordic Attack Squad",
           "icon": "storm_ui_icon_talent_autoattack_damage.png",
           "cooldownTooltip": "Cooldown: 20 seconds",
-          "shortTooltip": "Increases Viking Basic Attacks to Heroes",
-          "fullTooltip": "Activate to have all Viking Basic Attacks deal bonus damage equal to 1.25% of a Hero's maximum Health for 5 seconds.",
+          "shortTooltip": "Vikings deal bonus damage when together",
+          "fullTooltip": "While Olaf, Baleog, and Erik are near each of the other two Vikings, their Basic Attacks deal bonus damage equal to 1.25% maximum Health to enemy Heroes.",
           "abilityType": "W"
         },
         {
@@ -13223,7 +13257,7 @@
             "countUse": 1
           },
           "shortTooltip": "Kill Minions to bribe a Mercenary",
-          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
+          "fullTooltip": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200.  Current number of Bribe stacks: 0",
           "abilityType": "E"
         }
       ],
@@ -13233,7 +13267,7 @@
           "buttonId": "LostVikingsPlayAgain",
           "name": "Play Again!",
           "icon": "storm_ui_icon_lostvikings_playagain.png",
-          "cooldownTooltip": "Cooldown: 80 seconds",
+          "cooldownTooltip": "Cooldown: 100 seconds",
           "shortTooltip": "Revive and summon Vikings",
           "fullTooltip": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
           "abilityType": "Heroic"
@@ -14185,7 +14219,7 @@
           "buttonId": "RagnarosSulfurasSmash",
           "name": "Sulfuras Smash",
           "icon": "storm_ui_icon_ragnaros_sulfurassmash.png",
-          "cooldownTooltip": "Cooldown: 80 seconds",
+          "cooldownTooltip": "Cooldown: 60 seconds",
           "shortTooltip": "Damage and Stun enemies in an area",
           "fullTooltip": "Hurl Sulfuras at the target area, landing after 0.75 seconds, dealing 250 (+4% per level) damage. Enemies in the center take 594 (+4% per level) damage instead and are Stunned for 0.5 seconds.",
           "abilityType": "Heroic"
@@ -18777,6 +18811,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -18858,6 +18893,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -18939,6 +18975,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -19020,6 +19057,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -19101,6 +19139,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -19156,6 +19195,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -19824,6 +19864,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -20147,6 +20188,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -20228,6 +20270,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -20313,6 +20356,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -20394,6 +20438,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -20562,6 +20607,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -20624,6 +20670,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -20745,7 +20792,7 @@
           "minion": 1.0,
           "merc": 1.0,
           "structure": 1.0,
-          "heroic": 0.5,
+          "heroic": 0.4,
           "mapcreature": 1.0
         }
       }
@@ -20848,6 +20895,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -20929,6 +20977,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -21007,6 +21056,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -21088,6 +21138,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -22162,6 +22213,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -22216,6 +22268,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -26360,6 +26413,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
@@ -26415,6 +26469,7 @@
         "damageScale": 0.0,
         "damageFactor": {
           "structure": 1.0,
+          "heroic": -0.1,
           "summoned": -0.5
         }
       }
