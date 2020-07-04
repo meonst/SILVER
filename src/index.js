@@ -147,7 +147,7 @@ class HeroPage extends React.Component {
     copyLink() {
         const sharelink = document.createElement('textarea');
         function parseToString(n) {
-            return(parseInt(sharedTalent.slice(n, n + 5).join(''), 4).toString(32))
+            return(("00" + parseInt(sharedTalent.slice(n, n + 5).join(''), 4).toString(32)).slice(-2))
         }
         sharelink.value = 'https://min.hyeok.org/SILVER/#/' + this.props.link + '/' + parseToString(0) + parseToString(5) + parseToString(10) + parseToString(15) + parseToString(20) + parseToString(25) + parseToString(30)
         document.body.appendChild(sharelink);
@@ -228,7 +228,6 @@ class HeroPage extends React.Component {
         document.execCommand('copy');
         document.body.removeChild(copyText);
         alert('copied')
-        console.log(this.state.data)
 
     }
     async componentDidMount() {
@@ -823,10 +822,9 @@ function GetHeroLink(props) {
         if (givenTalent === undefined) {sharedTalent = '00000000000000000000000000000000000'.split('')}
         else if (givenTalent.length === 14) {
             function stringParse(n) {
-                return(parseInt(givenTalent[n] + givenTalent[n + 1], 32).toString(4))
+                return(("00000" + parseInt(givenTalent[n] + givenTalent[n + 1], 32).toString(4)).slice(-5))
             }
             sharedTalent = (stringParse(0) + stringParse(2) + stringParse(4) + stringParse(6) + stringParse(8) + stringParse(10) + stringParse(12)).split('')
-            console.log(sharedTalent)
         }
         else if (givenTalent.length !== 35 || isNaN(givenTalent)) {sharedTalent = '00000000000000000000000000000000000'.split('')}
         else sharedTalent = givenTalent.split('')  
