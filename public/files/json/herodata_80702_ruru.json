@@ -1968,10 +1968,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_d2amazonf.png"
     },
     "life": {
-      "amount": 1700.0,
+      "amount": 1660.0,
       "scale": 0.04,
       "type": "Здоровье",
-      "regenRate": 3.539,
+      "regenRate": 3.457,
       "regenScale": 0.04
     },
     "energy": {
@@ -1994,14 +1994,14 @@
         "nameId": "AmazonHeroWeaponMelee",
         "range": 2.0,
         "period": 0.9,
-        "damage": 130.0,
+        "damage": 125.0,
         "damageScale": 0.04
       },
       {
         "nameId": "AmazonHeroWeaponRanged",
         "range": 4.5,
         "period": 0.9,
-        "damage": 130.0,
+        "damage": 125.0,
         "damageScale": 0.04
       }
     ],
@@ -2213,7 +2213,7 @@
           "name": "Усиленные удары",
           "icon": "storm_ui_icon_cassia_new_chargedstrikes.png",
           "shortTooltip": "Повышает скорость атаки. Автоатаки могут рикошетить.",
-          "fullTooltip": "Повышает скорость атаки на 20%. Каждая 3-я автоатака наносит на 20% больше урона и рикошетит в героев рядом с целью.",
+          "fullTooltip": "Повышает скорость атаки на 15%. Каждая 3-я автоатака наносит на 15% больше урона и рикошетит в героев рядом с целью.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -2225,7 +2225,7 @@
           "name": "Китовая броня",
           "icon": "storm_ui_icon_cassia_avoidance_b.png",
           "shortTooltip": "«Ускользание» восполняет здоровье.",
-          "fullTooltip": "Пока действует «Ускользание», оно восполняет 7 (+4% per level) ед. здоровья в секунду, а при максимальном заряде – еще 14 (+4% per level) ед. здоровья в секунду.",
+          "fullTooltip": "Пока действует «Ускользание», оно восполняет 6 (+4% per level) ед. здоровья в секунду, а при максимальном заряде – еще 12 (+4% per level) ед. здоровья в секунду.",
           "abilityType": "Trait",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -2247,7 +2247,7 @@
           "nameId": "AmazonInnerLight",
           "buttonId": "AmazonLightningFuryInnerLight",
           "name": "Внутренний свет",
-          "icon": "storm_ui_icon_cassia_lightningfury.png",
+          "icon": "storm_ui_icon_cassia_innerlight.png",
           "cooldownTooltip": "Время восстановления: 70 сек.",
           "shortTooltip": "Исцеляет Кассию.",
           "fullTooltip": "При использовании Кассия восполняет 25% своего максимального запаса здоровья в течение 5 сек. За каждого героя, пораженного «Неистовством молний», время восстановления этой способности уменьшается на 10 сек.",
@@ -2300,7 +2300,7 @@
           "icon": "storm_ui_icon_cassia_avoidance_b.png",
           "toggleCooldown": 0.25,
           "shortTooltip": "«Ускользание» наносит урон при использовании.",
-          "fullTooltip": "Получив во время действия «Ускользания» 500 (+4% per level) ед. урона, Кассия может использовать умение, чтобы нанести 300 (+4% per level) ед. урона находящимся рядом противникам.",
+          "fullTooltip": "Получив во время действия «Ускользания» 500 (+4% per level) ед. урона, Кассия может использовать умение, чтобы нанести 285 (+4% per level) ед. урона находящимся рядом противникам.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -8512,20 +8512,6 @@
           ]
         },
         {
-          "nameId": "ChoFuelForTheFlame",
-          "buttonId": "ChoFuelForTheFlameTalent",
-          "name": "Масло в огонь",
-          "icon": "storm_ui_icon_cho_consumingflame_var1.png",
-          "shortTooltip": "Задача: убивайте врагов, чтобы усилить «Всепоглощающий жар».",
-          "fullTooltip": "Задача: каждый раз, когда рядом с Чо погибает воин, эффективность исцеления «Всепоглощающим жаром» повышается на 0.3%.  Задача: каждое убийство героя повышает эффективность исцеления «Всепоглощающим жаром» на 3%.",
-          "abilityType": "W",
-          "isQuest": true,
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "ChoConsumingBlaze"
-          ]
-        },
-        {
           "nameId": "ChoCallousedHide",
           "buttonId": "ChoCallousedHide",
           "name": "Огрубевшая шкура",
@@ -8533,6 +8519,21 @@
           "shortTooltip": "Усиливает исцеление и ускоряет передвижение при низком уровне здоровья.",
           "fullTooltip": "Когда у Чо остается менее 60% максимального запаса здоровья, он получает бонус к скорости передвижения и эффективности получаемого исцеления в 15%.",
           "abilityType": "Trait",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ChoOgreHidePassive",
+            "ChoOgreHide"
+          ]
+        },
+        {
+          "nameId": "ChoTheWillofCho",
+          "buttonId": "ChoTheWillofCho",
+          "name": "Воля Чо",
+          "icon": "storm_ui_icon_cho_ogrehide_var1.png",
+          "shortTooltip": "Убийства воинов и героев дают броню.",
+          "fullTooltip": "Задача: каждое убийство воина дает 1 эффект «Воли Чо», а убийство героя – 10. Каждые 30 эффектов «Воли Чо» дают 1 ед. брони, вплоть до 10 ед.  Дополнительная броня прибавляется к эффекту «Шкуры огра».",
+          "abilityType": "Trait",
+          "isQuest": true,
           "sort": 3,
           "abilityTalentLinkIds": [
             "ChoOgreHidePassive",
@@ -8547,7 +8548,7 @@
           "name": "Апперкот",
           "icon": "storm_ui_icon_cho_moltensurge_a.png",
           "shortTooltip": "«Взрывной удар» наносит больше урона.",
-          "fullTooltip": "«Взрывной удар» наносит героям дополнительный урон в объеме 7% их максимального запаса здоровья.",
+          "fullTooltip": "Поражая героев, «Взрывной удар» наносит им дополнительный урон в объеме 5% их максимального запаса здоровья и восстанавливается на 5 сек. быстрее.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -8574,7 +8575,7 @@
           "name": "Опаленная плоть",
           "icon": "storm_ui_icon_talent_autoattack_damage.png",
           "shortTooltip": "Последовательные автоатаки наносят больше урона.",
-          "fullTooltip": "Каждая последующая автоатака по одному и тому же герою наносит на 20% больше урона, вплоть до 60%. Время действия – 5 сек. или до выбора другой цели.",
+          "fullTooltip": "Каждая последующая автоатака по героям наносит на 20% больше урона, вплоть до 60%. Время действия – 5 сек. или до выбора цели, не являющейся героем.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -8585,8 +8586,8 @@
           "buttonId": "ChoPowerSurgeTalent",
           "name": "Выброс энергии",
           "icon": "storm_ui_icon_cho_moltensurge_a.png",
-          "shortTooltip": "«Взрывной удар» восстанавливается быстрее, поражая героев.",
-          "fullTooltip": "Сокращает время восстановления «Взрывного удара» на 5 сек. за каждого пораженного им героя.",
+          "shortTooltip": "«Взрывной удар» замедляет героев.",
+          "fullTooltip": "Поражая героев, «Взрывной удар» замедляет их на 30% на 2.5 сек. Повышает скорость передвижения на 15% на время замаха и еще на 2.5 сек. после применения «Взрывного удара».",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -8729,7 +8730,7 @@
           "name": "Рунная перчатка",
           "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
           "shortTooltip": "Автоатаки ускоряют восстановление героических способностей.",
-          "fullTooltip": "Автоатаки сокращают время восстановления героических способностей Чо'Галла на 5%.",
+          "fullTooltip": "Автоатаки сокращают время восстановления героических способностей Чо'Галла на 6%.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -8768,17 +8769,16 @@
           ]
         },
         {
-          "nameId": "ChoTheWillofCho",
-          "buttonId": "ChoTheWillofCho",
-          "name": "Воля Чо",
-          "icon": "storm_ui_icon_cho_ogrehide.png",
-          "shortTooltip": "Убийства усиливают броню от «Шкуры огра».",
-          "fullTooltip": "Убивая героев, Чо'Галл получает до конца матча бонус к броне от «Шкуры огра» в 2 ед., вплоть до 50 ед.",
-          "abilityType": "Trait",
+          "nameId": "ChoFuelForTheFlame",
+          "buttonId": "ChoFuelForTheFlameTalent",
+          "name": "Масло в огонь",
+          "icon": "storm_ui_icon_talent_autoattack_damage.png",
+          "shortTooltip": "Автоатаки вызывают взрыв, нанося дополнительный урон.",
+          "fullTooltip": "Автоатаки вызывают взрывы, нанося 21 (+4% per level) ед. урона целям и 45 (+4% per level) ед. урона находящимся рядом противникам. Герои получают вдвое больше урона.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChoOgreHidePassive",
-            "ChoOgreHide"
+            "ChoOgreHidePassive"
           ]
         },
         {
@@ -9503,7 +9503,7 @@
           "buttonId": "CrusaderIronSkin",
           "name": "Железная кожа",
           "icon": "storm_ui_icon_johanna_iron_skin.png",
-          "cooldownTooltip": "Время восстановления: 20 сек.",
+          "cooldownTooltip": "Время восстановления: 25 сек.",
           "shortTooltip": "Становится неудержимой и получает щит.",
           "fullTooltip": "При использовании Джоанна получает щит, поглощающий 674 (+4% per level) ед. урона в течение 4 сек. Джоанна становится неудержимой на время действия щита.",
           "abilityType": "Trait"
@@ -9825,7 +9825,7 @@
           "name": "Сияние веры",
           "icon": "storm_ui_icon_johanna_blessed_shield.png",
           "shortTooltip": "Увеличивает время оглушения и максимальное количество целей.",
-          "fullTooltip": "Увеличивает время действия эффекта оглушения от «Освященного щита» до 2 сек., а максимальное количество поражаемых целей – на 2, при этом эффект оглушения всегда действует максимальное время.",
+          "fullTooltip": "Увеличивает время действия оглушения от «Освященного щита» до 1.75 сек., а максимальное количество поражаемых целей – на 2. Оглушение всегда действует максимальное время.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -12167,8 +12167,8 @@
           "buttonId": "DiabloShadowCharge",
           "name": "Натиск Тени",
           "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
-          "energyTooltip": "Мана: 70",
-          "cooldownTooltip": "Время восстановления: 13 сек.",
+          "energyTooltip": "Мана: 65",
+          "cooldownTooltip": "Время восстановления: 12 сек.",
           "shortTooltip": "Устремляется к указанному противнику и отбрасывает его назад.",
           "fullTooltip": "Диабло совершает рывок к противнику, отбрасывает его и наносит 40 (+4% per level) ед. урона, при этом получая бонус к скорости передвижения в 15% на 2 сек. Если при отбрасывании противник ударяется о препятствие, «Натиск тени» оглушает его на 1 сек. и дополнительно наносит 130 (+4% per level) ед. урона.",
           "abilityType": "Q"
@@ -12189,7 +12189,7 @@
           "buttonId": "DiabloOverpower",
           "name": "Сверхсила",
           "icon": "storm_ui_icon_diablo_overpower_var1.png",
-          "energyTooltip": "Мана: 40",
+          "energyTooltip": "Мана: 35",
           "charges": {
             "countMax": 1,
             "countUse": 1,
@@ -12197,7 +12197,7 @@
             "hideCount": true,
             "recastCooldown": 2.0
           },
-          "cooldownTooltip": "Время восстановления: 13 сек.",
+          "cooldownTooltip": "Время восстановления: 12 сек.",
           "shortTooltip": "Хватает цель и швыряет ее оземь позади себя, оглушая ее и нанося урон.",
           "fullTooltip": "Диабло хватает цель и швыряет ее оземь позади себя, нанося ей 73 (+4% per level) ед. урона и оглушая на 0.25 сек.",
           "abilityType": "E"
@@ -12389,7 +12389,7 @@
           "name": "Вытягивание жизни",
           "icon": "storm_ui_icon_talent_autoattack_heal.png",
           "shortTooltip": "Автоатаки дают души и восполняют здоровье.",
-          "fullTooltip": "Каждая автоатака по герою дает 1 душу и восполняет 1.5% максимального запаса здоровья. Когда Диабло накапливает 100 душ, объем исцеления увеличивается до 3% максимального запаса здоровья.",
+          "fullTooltip": "Каждая автоатака по герою дает 1 душу и восполняет 2% максимального запаса здоровья. Когда Диабло накапливает 100 душ, объем исцеления увеличивается до 4% максимального запаса здоровья.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -12493,7 +12493,7 @@
           "name": "Адское пламя",
           "icon": "storm_ui_icon_diablo_firestomp.png",
           "shortTooltip": "«Огненный топот» усиливает способности.",
-          "fullTooltip": "За каждого героя, пораженного «Огненным топотом», сила способностей увеличивается на 2% на 10 сек., вплоть до 30%. При максимальном количестве эффектов Диабло наносит находящимся рядом противникам 15 (+4% per level) ед. урона в секунду.",
+          "fullTooltip": "За каждого героя, пораженного «Огненным топотом», сила способностей увеличивается на 2% на 10 сек., вплоть до 30%. При максимальном количестве эффектов Диабло наносит находящимся рядом противникам 17 (+4% per level) ед. урона в секунду.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -15796,7 +15796,7 @@
           "icon": "storm_ui_icon_blaze_stim_2.png",
           "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Повышает скорость атаки и передвижения.",
-          "fullTooltip": "При использовании повышает скорость атаки на 100%, а скорость передвижения – на 25%. Время действия – 5 сек.",
+          "fullTooltip": "Пассивный эффект: при уровне здоровья выше 80% повышает скорость атаки на 25%, а скорость передвижения – на 10%.  При использовании повышает скорость атаки на 100%, а скорость передвижения – на 25%. Время действия – 5 сек.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 1
@@ -15806,9 +15806,9 @@
           "buttonId": "FirebatEnduranceStimpack",
           "name": "Стимуляторы выносливости",
           "icon": "storm_ui_icon_blaze_stim_1.png",
-          "cooldownTooltip": "Время восстановления: 40 сек.",
+          "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Дает щит.",
-          "fullTooltip": "При использовании дает щит, который поглощает 480 (+4% per level) ед. урона в течение 5 сек.",
+          "fullTooltip": "При использовании дает щит, который поглощает 480 (+4% per level) ед. урона за 5 сек.  При получении урона при уровне здоровья ниже 30% «Стимуляторы выносливости» срабатывают автоматически, если не восстанавливаются.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 2
@@ -15820,7 +15820,7 @@
           "icon": "storm_ui_icon_blaze_stim_3.png",
           "cooldownTooltip": "Время восстановления: 40 сек.",
           "shortTooltip": "Ускоряет восстановление способностей.",
-          "fullTooltip": "При использовании дает 30 ед. маны и ускоряет восстановление базовых способностей на 100% в течение 5 сек.",
+          "fullTooltip": "При использовании дает 40 ед. маны и ускоряет восстановление базовых способностей на 100% в течение 5 сек.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -15842,29 +15842,10 @@
       ],
       "level4": [
         {
-          "nameId": "FirebatOilSpillAdhesivePetroleum",
-          "buttonId": "FirebatOilSpillAdhesivePetroleum",
-          "name": "Липкое горючее",
-          "icon": "storm_ui_icon_blaze_oil.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "В момент поджога «Лужи мазута» замедляют противников.",
-          "fullTooltip": "При первоначальном воспламенении «Лужа мазута» замедляет пораженных противников на 30% на 2.5 сек.",
-          "abilityType": "W",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "FirebatOilSpill"
-          ]
-        },
-        {
           "nameId": "FirebatOilSpillOilDispersal",
           "buttonId": "FirebatOilSpillOilDispersal",
           "name": "Обширный разлив",
-          "icon": "storm_ui_icon_blaze_oil_b.png",
+          "icon": "storm_ui_icon_blaze_oil.png",
           "charges": {
             "countMax": 2,
             "countUse": 1,
@@ -15874,7 +15855,7 @@
           "shortTooltip": "Увеличивает область действия «Лужи мазута».",
           "fullTooltip": "Увеличивает область действия «Лужи мазута» на 20%. За каждого пораженного «Струей пламени» героя время восстановления «Лужи мазута» сокращается на 1 сек., а Блэйз восполняет 5 ед. маны.",
           "abilityType": "W",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "FirebatOilSpill"
           ]
@@ -15885,12 +15866,22 @@
           "name": "Плавление",
           "icon": "storm_ui_icon_blaze_pyromania.png",
           "shortTooltip": "«Пиромания» уменьшает наносимый противниками урон.",
-          "fullTooltip": "Каждое попадание «Пироманией» по героям уменьшает наносимый ими урон на 7% на 2.5 сек., вплоть до 35%.",
+          "fullTooltip": "Каждое попадание «Пироманией» по героям уменьшает наносимый ими урон на 8% на 2.5 сек., вплоть до 40%.",
           "abilityType": "Trait",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "FirebatIgnite"
           ]
+        },
+        {
+          "nameId": "FirebatWeaponIncineratorGauntlets",
+          "buttonId": "FirebatWeaponIncineratorGauntlets",
+          "name": "Интегрированные огнеметы",
+          "icon": "storm_ui_icon_talent_autoattack_slow.png",
+          "shortTooltip": "Автоатаки наносят больше урона всем, кроме героев.",
+          "fullTooltip": "Увеличивает область поражения автоатак на 15%. Автоатаки наносят воинам, наемникам и монстрам на 70% больше урона.",
+          "abilityType": "Passive",
+          "sort": 3
         }
       ],
       "level7": [
@@ -15928,14 +15919,23 @@
           ]
         },
         {
-          "nameId": "FirebatWeaponIncineratorGauntlets",
-          "buttonId": "FirebatWeaponIncineratorGauntlets",
-          "name": "Интегрированные огнеметы",
-          "icon": "storm_ui_icon_talent_autoattack_slow.png",
-          "shortTooltip": "Увеличивает область поражения автоатак. Автоатаки поджигают «Лужи мазута».",
-          "fullTooltip": "Увеличивает область поражения автоатак на 15%. Автоатаки наносят воинам, наемникам и монстрам на 70% больше урона, а также воспламеняют «Лужи мазута» рядом с целями.",
-          "abilityType": "Passive",
-          "sort": 3
+          "nameId": "FirebatOilSpillAdhesivePetroleum",
+          "buttonId": "FirebatOilSpillAdhesivePetroleum",
+          "name": "Липкое горючее",
+          "icon": "storm_ui_icon_blaze_oil_b.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 1.0
+          },
+          "shortTooltip": "В момент поджога «Лужи мазута» замедляют противников.",
+          "fullTooltip": "При воспламенении «Лужа мазута» замедляет пораженных противников на 35% на 3 сек. Автоатаки поджигают «Лужи мазута».",
+          "abilityType": "W",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "FirebatOilSpill"
+          ]
         }
       ],
       "level10": [
@@ -16169,6 +16169,16 @@
           "abilityType": "Q"
         },
         {
+          "nameId": "GallDoubleBack",
+          "buttonId": "GallDoubleBackAbility",
+          "name": "Обратный ход",
+          "icon": "storm_ui_icon_gall_chaoscollision.png",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "При использовании «Сфера Ужаса» совершает третий отскок назад.",
+          "fullTooltip": "При использовании «Сфера Ужаса» совершит третий отскок в обратном направлении.",
+          "abilityType": "W"
+        },
+        {
           "nameId": "GallDreadOrb",
           "buttonId": "GallDreadOrb",
           "name": "Сфера Ужаса",
@@ -16304,20 +16314,6 @@
             }
           ]
         },
-        "GallDoubleBack|GallDoubleBackTalent": {
-          "basic": [
-            {
-              "nameId": "GallDoubleBack",
-              "buttonId": "GallDoubleBackAbility",
-              "name": "Обратный ход",
-              "icon": "storm_ui_icon_gall_chaoscollision.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "При использовании «Сфера Ужаса» совершает третий отскок назад.",
-              "fullTooltip": "При использовании «Сфера Ужаса» совершит третий отскок в обратном направлении.",
-              "abilityType": "W"
-            }
-          ]
-        },
         "GallOgreRage|GallOgreRageActivated|Trait": {
           "trait": [
             {
@@ -16379,12 +16375,12 @@
       ],
       "level4": [
         {
-          "nameId": "GallDoubleBack",
-          "buttonId": "GallDoubleBackTalent",
-          "name": "Обратный ход",
+          "nameId": "GallRisingDread",
+          "buttonId": "GallRisingDreadTalent",
+          "name": "Наплыв ужаса",
           "icon": "storm_ui_icon_gall_chaoscollision.png",
-          "shortTooltip": "При использовании «Сфера Ужаса» совершает третий отскок назад.",
-          "fullTooltip": "При использовании до завершения второго скачка сферы она совершит третий скачок в противоположную сторону.  Пассивный эффект: третий отскок «Сферы Ужаса» наносит на 50% больше урона героям и на 200% больше урона всем, кроме героев.",
+          "shortTooltip": "Увеличивает урон и область действия «Сферы Ужаса».",
+          "fullTooltip": "При каждом прыжке область действия «Сферы Ужаса» увеличивается на 25%, а урон – на 25%. При повторном применении «Сферы Ужаса» в воздухе до второго прыжка она совершит третий прыжок в обратную сторону.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -16511,16 +16507,16 @@
           ]
         },
         {
-          "nameId": "GallRisingDread",
-          "buttonId": "GallRisingDreadTalent",
-          "name": "Наплыв ужаса",
-          "icon": "storm_ui_icon_gall_chaoscollision.png",
-          "shortTooltip": "Увеличивает урон и область действия «Сферы Ужаса».",
-          "fullTooltip": "При каждом прыжке область действия «Сферы Ужаса» увеличивается на 25%, а урон – на 25% .",
-          "abilityType": "W",
+          "nameId": "GallPsychoticBreak",
+          "buttonId": "GallPsychoticBreakTalent",
+          "name": "Амок",
+          "icon": "storm_ui_icon_gall_psychoticbreak.png",
+          "shortTooltip": "Галл наносит больше урона героям и применяет способности после смерти.",
+          "fullTooltip": "Увеличивает урон Галла по героям на 10%. После смерти Галл получает «Ярость огра» и может применять способности в течение 10 сек.",
+          "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "GallDreadOrb"
+            "GallOgreRagePassive"
           ]
         },
         {
@@ -16625,13 +16621,15 @@
           ]
         },
         {
-          "nameId": "GallPsychoticBreak",
-          "buttonId": "GallPsychoticBreakTalent",
-          "name": "Амок",
+          "nameId": "GallTwilightFrenzy",
+          "buttonId": "GallTwilightFrenzy",
+          "name": "Сумеречное безумие",
           "icon": "storm_ui_icon_gall_psychoticbreak.png",
-          "shortTooltip": "Галл использует способности после смерти.",
-          "fullTooltip": "При смерти Галл получает эффект «Ярости огра» и может применять способности в течение следующих 10 сек.",
-          "abilityType": "Passive",
+          "cooldownTooltip": "Время восстановления: 30 сек.",
+          "shortTooltip": "Ускоряет восстановление способностей.",
+          "fullTooltip": "При использовании сокращает время восстановления «Пламени Тьмы» и «Сферы Ужаса» до 2 сек. в течение следующих 6 сек.",
+          "abilityType": "Active",
+          "isActive": true,
           "sort": 4
         }
       ]
@@ -16727,6 +16725,13 @@
           "name": "Кровожадность",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
           "energyTooltip": "Мана: 55",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "cooldownTooltip": "Время восстановления: 12 сек.",
           "shortTooltip": "Наносит урон и восполняет часть недостающего здоровья.",
           "fullTooltip": "Наносит противнику 156 (+4% per level) ед. урона и восполняет Гаррошу 10% недостающего здоровья. Если цель – герой, объем исцеления увеличивается на 100%.",
@@ -16903,9 +16908,9 @@
             "hideCount": true,
             "recastCooldown": 1.0
           },
-          "cooldownTooltip": "Время восстановления: 16 сек.",
+          "cooldownTooltip": "Время восстановления: 15 сек.",
           "shortTooltip": "Наносит урон противнику и замедляет его.",
-          "fullTooltip": "При использовании наносит цели 111 (+4% per level) ед. урона и замедляет ее на 35% на 2 сек. Снижает эффективность получаемого пораженным героем исцеления на 30% на 3 сек.",
+          "fullTooltip": "При использовании наносит цели 111 (+4% per level) ед. урона и замедляет ее на 35% на 3 сек. Ослабляет получаемое пораженными героями исцеление на 30% на 3 сек.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -16917,6 +16922,13 @@
           "buttonId": "GarroshBloodthirstInFortheKill",
           "name": "Добивание",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "shortTooltip": "При убийстве «Кровожадностью» она восстанавливается и дает ману.",
           "fullTooltip": "Увеличивает урон от «Кровожадности» по всем, кроме героев, на 70%. При убийстве «Кровожадностью» Гаррош мгновенно восстанавливает эту способность и восполняет затраченную на нее ману.",
           "abilityType": "W",
@@ -16930,8 +16942,15 @@
           "buttonId": "GarroshBloodthirstThirstforBattle",
           "name": "Жажда битвы",
           "icon": "storm_ui_icon_garrosh_bloodthirst_var1.png",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "shortTooltip": "Автоатаки ускоряют восстановление «Кровожадности».",
-          "fullTooltip": "Автоатаки по героям сокращают время восстановления «Кровожадности» на 2 сек.",
+          "fullTooltip": "Каждая автоатака по герою сокращает время восстановления «Кровожадности» на 2 сек.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -17047,6 +17066,13 @@
           "buttonId": "GarroshBloodthirstBloodcraze",
           "name": "Кровавое безумие",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "shortTooltip": "«Кровожадность» также восполняет здоровье со временем.",
           "fullTooltip": "Восполняет еще 15% максимального запаса здоровья в течение 3 сек. при попадании «Кровожадностью» по герою.",
           "abilityType": "W",
@@ -17073,42 +17099,44 @@
       ],
       "level16": [
         {
-          "nameId": "GarroshGroundbreakerRoughLanding",
-          "buttonId": "GarroshGroundbreakerRoughLanding",
-          "name": "Жесткая посадка",
-          "icon": "storm_ui_icon_garrosh_groundbreaker.png",
-          "shortTooltip": "Усиливает замедление от «Землелома».",
-          "fullTooltip": "Усиливает эффект замедления от «Землелома» на 10% и увеличивает время действия этого эффекта на 1 сек.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "GarroshGroundbreaker"
-          ]
-        },
-        {
           "nameId": "GarroshGroundbreakerMortalCombo",
           "buttonId": "GarroshGroundbreakerMortalCombo",
           "name": "Смертельный прием",
-          "icon": "storm_ui_icon_garrosh_groundbreaker_var1.png",
+          "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
           "shortTooltip": "Ускоряет восстановление «Живого снаряда», если цель была оглушена.",
           "fullTooltip": "Если Гаррош в течение 3 сек. в любом порядке применяет «Землелом» и «Живой снаряд» к одному герою, время восстановления «Живого снаряда» сокращается на 10 сек.",
-          "abilityType": "Q",
-          "sort": 2,
+          "abilityType": "E",
+          "sort": 1,
           "abilityTalentLinkIds": [
-            "GarroshGroundbreaker"
+            "GarroshWreckingBall"
           ]
         },
         {
           "nameId": "GarroshWreckingBallEarthshaker",
           "buttonId": "GarroshWreckingBallEarthshaker",
           "name": "Землетряс",
-          "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
+          "icon": "storm_ui_icon_garrosh_intothefray.png",
           "shortTooltip": "«Живой снаряд» оглушает врагов в области приземления.",
           "fullTooltip": "«Живой снаряд» оглушает противников в области приземления на 0.5 сек.",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "GarroshWreckingBall"
+          ]
+        },
+        {
+          "nameId": "GarroshArmorUpSeasonedSoldier",
+          "buttonId": "GarroshArmorUpSeasonedSoldier",
+          "name": "Бывалый солдат",
+          "icon": "storm_ui_icon_garrosh_armor_up.png",
+          "shortTooltip": "Дает несколько бонусов.",
+          "fullTooltip": "До конца матча увеличивает максимальный запас здоровья на 5%, увеличивает время действия замедления от «Землелома» на 1 сек. и дает еще один заряд «Кровожадности».",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "GarroshArmorUpDoubleUp",
+            "GarroshArmorUp"
           ]
         }
       ],
@@ -17119,7 +17147,7 @@
           "name": "Инстинкт смерти",
           "icon": "storm_ui_icon_garrosh_warlords_challenge.png",
           "shortTooltip": "Убийства героев ускоряют восстановление «Вызова вождя».",
-          "fullTooltip": "Сокращает время восстановления «Вызова вождя» на 45 сек., если спровоцированный герой умирает во время его действия.",
+          "fullTooltip": "Увеличивает время действия «Вызова вождя» на 0.5 сек. Сокращает время восстановления «Вызова вождя» на 45 сек., если спровоцированный герой умирает во время его действия.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -17141,7 +17169,7 @@
             "recastCooldown": 1.0
           },
           "shortTooltip": "«Истребление» снижает урон цели.",
-          "fullTooltip": "Уменьшает наносимый пораженными «Истреблением» героями урон на 25% на 3 сек.",
+          "fullTooltip": "Уменьшает наносимый пораженными «Истреблением» героями урон на 40% на 3 сек.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -17177,7 +17205,7 @@
             "recastCooldown": 1.0
           },
           "shortTooltip": "«Силовой прием» получает дополнительный заряд.",
-          "fullTooltip": "«Силовой прием» получает второй заряд. Пока бонус к броне от умения составляет не менее 25 ед., «Силовой прием» восстанавливается на 100% быстрее.",
+          "fullTooltip": "«Силовой прием» получает еще один заряд и ослабляет получаемое исцеление еще на 45%.",
           "abilityType": "Active",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -17898,7 +17926,7 @@
           "energyTooltip": "Мана: 50",
           "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Наносит урон в зависимости от уровня здоровья цели.",
-          "fullTooltip": "Седогрив превращается в человека и стреляет. Пуля поражает первого вражеского героя на своем пути, нанося ему урон в объеме 40% текущего запаса здоровья.  Не действует на управляемых боссов.",
+          "fullTooltip": "Седогрив превращается в человека и стреляет. Пуля поражает первого вражеского героя на своем пути, нанося ему урон в объеме 35% текущего запаса здоровья.  Не действует на управляемых боссов.",
           "abilityType": "Heroic"
         }
       ],
@@ -18169,7 +18197,7 @@
           "energyTooltip": "Мана: 50",
           "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Наносит урон в зависимости от уровня здоровья цели.",
-          "fullTooltip": "Седогрив превращается в человека и стреляет. Пуля поражает первого вражеского героя на своем пути, нанося ему урон в объеме 40% текущего запаса здоровья.  Не действует на управляемых боссов.",
+          "fullTooltip": "Седогрив превращается в человека и стреляет. Пуля поражает первого вражеского героя на своем пути, нанося ему урон в объеме 35% текущего запаса здоровья.  Не действует на управляемых боссов.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -23349,8 +23377,8 @@
           "buttonId": "L90ETCFaceMelt",
           "name": "Вынос мозга",
           "icon": "storm_ui_icon_etc_facemelt.png",
-          "energyTooltip": "Мана: 50",
-          "cooldownTooltip": "Время восстановления: 10 сек.",
+          "energyTooltip": "Мана: 55",
+          "cooldownTooltip": "Время восстановления: 12 сек.",
           "shortTooltip": "Отбрасывает противников поблизости и наносит им урон.",
           "fullTooltip": "Наносит противникам поблизости 68 (+4% per level) ед. урона и отбрасывает их.",
           "abilityType": "W"
@@ -26710,8 +26738,8 @@
           "buttonId": "MaievContainmentDisc",
           "name": "Диск удержания",
           "icon": "storm_ui_icon_maiev_heroic_1_a.png",
-          "energyTooltip": "Мана: 60",
-          "cooldownTooltip": "Время восстановления: 50 сек.",
+          "energyTooltip": "Мана: 50",
+          "cooldownTooltip": "Время восстановления: 40 сек.",
           "shortTooltip": "Останавливает время для героя и лишает его обзора.",
           "fullTooltip": "Бросает глефу в указанном направлении. Если она попадает в героя, эту способность можно применить повторно, чтобы лишить цель обзора и остановить для нее время на 4 сек.  «Диск удержания» автоматически срабатывает через 6 сек. после попадания в героя.",
           "abilityType": "Heroic"
@@ -26864,8 +26892,8 @@
           "buttonId": "MaievUmbralBindPursuitOfVengeance",
           "name": "Жажда мести",
           "icon": "storm_ui_icon_maiev_pursuit_vengeance.png",
-          "shortTooltip": "«Темные узы» ускоряют восстановление «Духа отмщения».",
-          "fullTooltip": "Сокращает время восстановления «Духа отмщения» на 2.5 сек. за каждого героя, связанного «Темными узами».",
+          "shortTooltip": "Ускоряет восстановление «Духа отмщения» и «Темных уз».",
+          "fullTooltip": "Сокращает время восстановления «Духа отмщения» на 2.5 сек. за каждого героя, связанного «Темными узами». Сокращает время восстановления «Темных уз» на 1 сек. за каждого героя, пораженного «Духом отмщения».",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -26956,8 +26984,8 @@
           "buttonId": "MaievUmbralBindBondsOfCorruption",
           "name": "Узы слабости",
           "icon": "storm_ui_icon_maiev_orb_corruption.png",
-          "shortTooltip": "«Темные узы» ослабляют броню притянутых героев.",
-          "fullTooltip": "Притягивание героя «Темными узами» ослабляет его броню на 10 ед. на 4 сек.",
+          "shortTooltip": "«Темные узы» ослабляют броню и снижают скорость передвижения.",
+          "fullTooltip": "Притягивая героя, «Темные узы» ослабляют его броню на 10 ед. и замедляют его на 20% на 4 сек.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -26986,8 +27014,8 @@
           "buttonId": "MaievContainmentDisc",
           "name": "Диск удержания",
           "icon": "storm_ui_icon_maiev_heroic_1_a.png",
-          "energyTooltip": "Мана: 60",
-          "cooldownTooltip": "Время восстановления: 50 сек.",
+          "energyTooltip": "Мана: 50",
+          "cooldownTooltip": "Время восстановления: 40 сек.",
           "shortTooltip": "Останавливает время для героя и лишает его обзора.",
           "fullTooltip": "Бросает глефу в указанном направлении. Если она попадает в героя, эту способность можно применить повторно, чтобы лишить цель обзора и остановить для нее время на 4 сек.  «Диск удержания» автоматически срабатывает через 6 сек. после попадания в героя.",
           "abilityType": "Heroic",
@@ -27059,6 +27087,19 @@
       ],
       "level16": [
         {
+          "nameId": "MaievSpiritOfVengeanceVengefulKnives",
+          "buttonId": "MaievSpiritOfVengeanceVengefulKnives",
+          "name": "Клинки возмездия",
+          "icon": "storm_ui_icon_maiev_knives.png",
+          "shortTooltip": "Увеличивает урон от «Веера клинков» при нанесении урона.",
+          "fullTooltip": "При нанесении урона героям следующий «Веер клинков» наносит героям дополнительный урон в объеме 1% их максимального запаса здоровья, вплоть до 5%.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "MaievFanOfKnives"
+          ]
+        },
+        {
           "nameId": "MaievUmbralBindCruelChain",
           "buttonId": "MaievUmbralBindCruelChain",
           "name": "Жестокие узы",
@@ -27066,24 +27107,10 @@
           "shortTooltip": "Урон по связанным «Темными узами» целям увеличивает урон от притягивания.",
           "fullTooltip": "При использовании «Темных уз» повышает скорость передвижения на 25% на 2.5 сек. Каждый раз, когда Майев наносит урон связанным «Темными узами» целям, урон от притягивания по всем целям увеличивается на 30%, вплоть до 150%.",
           "abilityType": "W",
-          "sort": 1,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "MaievUmbralBindPrimed",
             "MaievUmbralBind"
-          ]
-        },
-        {
-          "nameId": "MaievSpiritOfVengeanceVengefulKnives",
-          "buttonId": "MaievSpiritOfVengeanceVengefulKnives",
-          "name": "Клинки возмездия",
-          "icon": "storm_ui_icon_maiev_vengeful_knives.png",
-          "shortTooltip": "«Дух отмщения» увеличивает урон от «Веера клинков».",
-          "fullTooltip": "В течение 5 сек. после телепортации с помощью «Духа отмщения» «Веер клинков» наносит героям дополнительный урон в объеме 1% их максимального запаса здоровья. Бонус к урону увеличивается на 1% за каждого героя, пораженного «Духом отмщения».",
-          "abilityType": "E",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "MaievSpiritOfVengeanceBlink",
-            "MaievSpiritOfVengeance"
           ]
         },
         {
@@ -27780,8 +27807,8 @@
           "buttonId": "MalGanisDarkConversion",
           "name": "Темный обмен",
           "icon": "storm_ui_icon_malganis_ult_conversion.png",
-          "energyTooltip": "Мана: 70",
-          "cooldownTooltip": "Время восстановления: 80 сек.",
+          "energyTooltip": "Мана: 60",
+          "cooldownTooltip": "Время восстановления: 60 сек.",
           "shortTooltip": "При поддержании обменивается здоровьем с героем противника.",
           "fullTooltip": "После поддержания в течение 0.75 сек. Мал'Ганис за 3 сек. обменивается уровнем здоровья с героем противника.",
           "abilityType": "Heroic"
@@ -27989,7 +28016,7 @@
           "name": "Эхо погибели",
           "icon": "storm_ui_icon_malganis_necrotic_c.png",
           "shortTooltip": "По окончании действия «Объятия смерти» вызывают взрыв.",
-          "fullTooltip": "По окончании действия «Объятия смерти» вызывают взрыв, наносящий 54 (+4% per level) ед. урона. За каждого пораженного героя Мал'ганис восполняет 5 ед. маны, а время восстановления «Объятий смерти» сокращается на 0.75 сек.  Не выводит цели из сна.",
+          "fullTooltip": "По окончании действия «Объятия смерти» вызывают взрыв, наносящий 60 (+4% per level) ед. урона. За каждого пораженного героя Мал'ганис восполняет 5 ед. маны, а время восстановления «Объятий смерти» сокращается на 0.75 сек.  Не выводит цели из сна.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -28065,8 +28092,8 @@
           "buttonId": "MalGanisDarkConversion",
           "name": "Темный обмен",
           "icon": "storm_ui_icon_malganis_ult_conversion.png",
-          "energyTooltip": "Мана: 70",
-          "cooldownTooltip": "Время восстановления: 80 сек.",
+          "energyTooltip": "Мана: 60",
+          "cooldownTooltip": "Время восстановления: 60 сек.",
           "shortTooltip": "При поддержании обменивается здоровьем с героем противника.",
           "fullTooltip": "После поддержания в течение 0.75 сек. Мал'Ганис за 3 сек. обменивается уровнем здоровья с героем противника.",
           "abilityType": "Heroic",
@@ -28097,7 +28124,7 @@
           "name": "Зов ночи",
           "icon": "storm_ui_icon_malganis_nightrush_b.png",
           "shortTooltip": "«Крылья ночи» замедляют противников.",
-          "fullTooltip": "Автоатаки наносят спящим противникам на 200% больше урона. По окончании действия эффекта сна «Крылья ночи» замедляют пораженные цели на 30% на 2.5 сек.",
+          "fullTooltip": "Автоатаки наносят спящим противникам на 200% больше урона. По окончании действия эффекта сна «Крылья ночи» замедляют пораженные цели на 30% на 3 сек.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -28843,7 +28870,7 @@
           },
           "cooldownTooltip": "Время восстановления: 11 сек.",
           "shortTooltip": "Дает цели броню.",
-          "fullTooltip": "Дает указанному союзному герою 30 ед. брони на 3 сек.",
+          "fullTooltip": "Дает указанному союзному герою 35 ед. брони на 3 сек.",
           "abilityType": "W"
         },
         {
@@ -30007,7 +30034,7 @@
           "name": "Лавина",
           "icon": "storm_ui_icon_mei_r1_avalanche.png",
           "energyTooltip": "Мана: 70",
-          "cooldownTooltip": "Время восстановления: 65 сек.",
+          "cooldownTooltip": "Время восстановления: 70 сек.",
           "shortTooltip": "Ловит героев в огромный снежный ком.",
           "fullTooltip": "После паузы в 0.5 сек. запускает огромный снежный ком, который ловит героев на своем пути. По достижении конечной точки ком рассыпается, выпуская пойманных героев, нанося им 220 (+4% per level) ед. урона и оглушая их на 0.5 сек. за каждого пойманного героя.",
           "abilityType": "Heroic"
@@ -30018,7 +30045,7 @@
           "name": "Ледяная стена",
           "icon": "storm_ui_icon_mei_r2_icewall.png",
           "energyTooltip": "Мана: 60",
-          "cooldownTooltip": "Время восстановления: 90 сек.",
+          "cooldownTooltip": "Время восстановления: 70 сек.",
           "shortTooltip": "Создает препятствие и заключает в нем противников.",
           "fullTooltip": "Векторное действие После паузы в 0.75 сек. создает непроходимую стену, заключая в ней пораженных героев на 2.5 сек. Когда стена исчезает, пораженные герои замедляются на 75%. Эффект постепенно спадает в течение 3 сек.",
           "abilityType": "Heroic"
@@ -30141,7 +30168,7 @@
             "recastCooldown": 2.0
           },
           "shortTooltip": "Усиливает замедление от «Снежной слепоты» и ускоряет ее восстановление.",
-          "fullTooltip": "Увеличивает время действия замедления от «Снежной слепоты» на 1.5 сек. Каждый раз, когда «Вьюга» наносит урон герою, время восстановления «Снежной слепоты» сокращается на 0.125 сек.",
+          "fullTooltip": "Увеличивает время действия замедления от «Снежной слепоты» на 1.5 сек. Каждый раз, когда «Вьюга» наносит урон герою, время восстановления «Снежной слепоты» сокращается на 0.25 сек.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -30212,7 +30239,7 @@
           "name": "Кристаллизация",
           "icon": "storm_ui_icon_mei_trait.png",
           "shortTooltip": "«Криостазис» дает энергетическую броню.",
-          "fullTooltip": "Уменьшает время восстановления «Криостазиса» на 15 сек. Мэй получает 50 ед. энергетической брони во время действия «Криостазиса» и в течение 2 сек. по окончании его действия.",
+          "fullTooltip": "Уменьшает время восстановления «Криостазиса» на 10 сек. Дает 50 ед. энергетической брони на время действия «Криостазиса» и еще на 1 сек. после окончания его действия.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30267,7 +30294,7 @@
           "name": "Лавина",
           "icon": "storm_ui_icon_mei_r1_avalanche.png",
           "energyTooltip": "Мана: 70",
-          "cooldownTooltip": "Время восстановления: 65 сек.",
+          "cooldownTooltip": "Время восстановления: 70 сек.",
           "shortTooltip": "Ловит героев в огромный снежный ком.",
           "fullTooltip": "После паузы в 0.5 сек. запускает огромный снежный ком, который ловит героев на своем пути. По достижении конечной точки ком рассыпается, выпуская пойманных героев, нанося им 220 (+4% per level) ед. урона и оглушая их на 0.5 сек. за каждого пойманного героя.",
           "abilityType": "Heroic",
@@ -30283,7 +30310,7 @@
           "name": "Ледяная стена",
           "icon": "storm_ui_icon_mei_r2_icewall.png",
           "energyTooltip": "Мана: 60",
-          "cooldownTooltip": "Время восстановления: 90 сек.",
+          "cooldownTooltip": "Время восстановления: 70 сек.",
           "shortTooltip": "Создает препятствие и заключает в нем противников.",
           "fullTooltip": "Векторное действие После паузы в 0.75 сек. создает непроходимую стену, заключая в ней пораженных героев на 2.5 сек. Когда стена исчезает, пораженные герои замедляются на 75%. Эффект постепенно спадает в течение 3 сек.",
           "abilityType": "Heroic",
@@ -30384,7 +30411,7 @@
           "name": "Каскад",
           "icon": "storm_ui_icon_mei_r1_avalanche.png",
           "shortTooltip": "Катящаяся «Лавина» поражает противников «Снежной слепотой».",
-          "fullTooltip": "Во время движения «Лавина» постоянно выстреливает вперед базовыми снежками «Снежной слепоты».  Пассивный эффект: уменьшает время восстановления «Лавины» на 25 сек.",
+          "fullTooltip": "Во время движения «Лавина» постоянно выстреливает вперед базовыми снежками «Снежной слепоты».  Пассивный эффект: уменьшает время восстановления «Лавины» на 30 сек.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -30540,7 +30567,7 @@
           "energyTooltip": "Мана: 50",
           "cooldownTooltip": "Время восстановления: 14 сек.",
           "shortTooltip": "Наносит возрастающий урон противникам рядом с собой.",
-          "fullTooltip": "Создает вокруг Мефисто кольцо молний, действующее 2.5 сек. Противники в кольце получают 45 (+4% per level) ед. урона раз в 0.25 сек.  Каждый раз, когда «Кольцо молний» поражает героя, урон от него увеличивается на 3%, вплоть до 30%.",
+          "fullTooltip": "Создает вокруг Мефисто кольцо молний, действующее 2.5 сек. Противники в кольце получают 43 (+4% per level) ед. урона раз в 0.25 сек.  Каждый раз, когда «Кольцо молний» поражает героя, урон от него увеличивается на 3%, вплоть до 30%.",
           "abilityType": "W"
         },
         {
@@ -30675,7 +30702,7 @@
           "name": "Искра гнева",
           "icon": "storm_ui_icon_mephisto_lightning.png",
           "shortTooltip": "«Кольцо молний» наносит больше урона.",
-          "fullTooltip": "Каждый 3-й разряд «Кольца молний» по той же цели наносит на 72 (+4% per level) ед. больше урона и восполняет Мефисто 2 ед. маны.",
+          "fullTooltip": "Каждый 3-й разряд «Кольца молний» по той же цели наносит на 65 (+4% per level) ед. больше урона и восполняет Мефисто 2 ед. маны.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -30819,7 +30846,7 @@
           "name": "Отвратительный череп",
           "icon": "storm_ui_icon_mephisto_skull.png",
           "shortTooltip": "«Призрачный череп» усиливает способности.",
-          "fullTooltip": "Когда «Призрачный череп» поражает героя, увеличивает силу способностей на 20% на 6 сек.",
+          "fullTooltip": "Когда «Призрачный череп» поражает героя, увеличивает силу способностей на 25% на 6 сек.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -31055,7 +31082,7 @@
           "energyTooltip": "Мана: 65",
           "cooldownTooltip": "Время восстановления: 10 сек.",
           "shortTooltip": "Исцеляет союзных героев и увеличивает их скорость передвижения.",
-          "fullTooltip": "Восполняет находящимся поблизости героям 276 (+4% per level) ед. здоровья и повышает скорость их передвижения на 15% на 3 сек.",
+          "fullTooltip": "Восполняет находящимся поблизости героям 285 (+4% per level) ед. здоровья и повышает скорость их передвижения на 15% на 3 сек.",
           "abilityType": "W"
         },
         {
@@ -31627,7 +31654,7 @@
           "energyTooltip": "Мана: 50",
           "cooldownTooltip": "Время восстановления: 8 сек.",
           "shortTooltip": "Замедляет находящихся рядом противников и наносит им урон.",
-          "fullTooltip": "Наносит 96 (+4% per level)  ед. урона находящимся рядом противникам и замедляет их на 25%. Снижает скорость атаки пораженных героев на 25%. Время действия – 2.5 сек.",
+          "fullTooltip": "Наносит 96 (+4% per level)  ед. урона находящимся рядом противникам и замедляет их на 30%. Снижает скорость атаки пораженных героев на 30%. Время действия – 2.5 сек.",
           "abilityType": "W"
         },
         {
@@ -31824,7 +31851,7 @@
           "name": "Отзвук",
           "icon": "storm_ui_icon_muradin_thunderclap.png",
           "shortTooltip": "Усиливает «Грозовой молот» и героическую способность.",
-          "fullTooltip": "Усиливает эффект снижения скорости атаки от «Раската грома» с 25% до 50% и увеличивает время его действия с 2.5 до 3.5 сек. При каждом попадании по герою время восстановления героической способности сокращается на 5%.",
+          "fullTooltip": "Усиливает эффект снижения скорости атаки от «Раската грома» с 30% до 50% и увеличивает время его действия с 2.5 до 3.5 сек. При каждом попадании по герою время восстановления героической способности сокращается на 5%.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -32679,7 +32706,7 @@
           "energyTooltip": "Мана: 55",
           "cooldownTooltip": "Время восстановления: 8 сек.",
           "shortTooltip": "Бросает косу, наносящую урон противникам на обратном пути.",
-          "fullTooltip": "Зул призывает косу, которая после паузы в 1 сек. летит к нему, нанося 200 (+4% per level) ед. урона противникам на своем пути и призывая воинов-скелетов при поражении героев. Эти скелеты не учитываются при подсчете максимума для «Поднятия скелетов».",
+          "fullTooltip": "Зул призывает косу, которая после паузы в 1 сек. летит к нему, нанося 190 (+4% per level) ед. урона противникам на своем пути и призывая воинов-скелетов при поражении героев. Эти скелеты не учитываются при подсчете максимума для «Поднятия скелетов».",
           "abilityType": "Q"
         },
         {
@@ -32739,7 +32766,7 @@
             "countMax": 3
           },
           "shortTooltip": "Призывает воинов-скелетов после смерти воинов.",
-          "fullTooltip": "Когда находящийся рядом вражеский воин погибает, он превращается в воина-скелета с 240 (+4% per level) ед. здоровья, который существует 12 сек. и наносит 21 (+4% per level) ед. урона каждой атакой. При гибели воины-скелеты наносят 46 (+4% per level) ед. урона находящимся рядом противникам. Одновременно может существовать не более 3 воинов-скелетов, призванных таким образом.",
+          "fullTooltip": "Когда находящийся рядом вражеский воин погибает, он превращается в воина-скелета с 240 (+4% per level) ед. здоровья, который существует 12 сек. и наносит 21 (+4% per level) ед. урона каждой атакой. При гибели воины-скелеты наносят 40 (+4% per level) ед. урона находящимся рядом противникам. Одновременно может существовать не более 3 воинов-скелетов, призванных таким образом.",
           "abilityType": "Trait",
           "isActive": false
         }
@@ -32823,7 +32850,7 @@
               "name": "Призрачная коса",
               "icon": "storm_ui_icon_necromancer_reap.png",
               "shortTooltip": "Бросает косу, наносящую урон противникам на обратном пути.",
-              "fullTooltip": "Зул призывает косу, которая после паузы в 1 сек. летит к нему, нанося 200 (+4% per level) ед. урона противникам на своем пути и призывая воинов-скелетов при поражении героев. Эти скелеты не учитываются при подсчете максимума для «Поднятия скелетов».",
+              "fullTooltip": "Зул призывает косу, которая после паузы в 1 сек. летит к нему, нанося 190 (+4% per level) ед. урона противникам на своем пути и призывая воинов-скелетов при поражении героев. Эти скелеты не учитываются при подсчете максимума для «Поднятия скелетов».",
               "abilityType": "Q",
               "isActive": false,
               "isPassive": true
@@ -32926,7 +32953,7 @@
             "countMax": 3
           },
           "shortTooltip": "Задача: при срабатывании «Костяной темницы» появляются воины-скелеты.",
-          "fullTooltip": "При срабатывании «Костяной темницы» появляются 2 воина-скелета. Призванные таким образом скелеты не учитываются при подсчете максимального количества для «Поднятия скелетов».  Задача: призовите 80 воинов-скелетов.  Награда: атакуя цель «Костяной темницы», воины-скелеты будут получать бонус к скорости передвижения и атаки в 30%.",
+          "fullTooltip": "При срабатывании «Костяной темницы» появляются 2 воина-скелета. Призванные таким образом скелеты не учитываются при подсчете максимального количества для «Поднятия скелетов».  Задача: призовите 80 воинов-скелетов.  Награда: атакуя цель «Костяной темницы», воины-скелеты будут получать бонус к скорости передвижения и атаки в 25%.",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 3,
@@ -33073,7 +33100,7 @@
           "name": "Немощность",
           "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
           "shortTooltip": "«Проклятый натиск» и воины-скелеты уменьшают наносимый урон.",
-          "fullTooltip": "Герои, пораженные «Проклятым натиском» или атаками воинов-скелетов, наносят на 40% меньше урона в течение 3 сек.",
+          "fullTooltip": "Герои, пораженные «Проклятым натиском» или атаками воинов-скелетов, наносят на 35% меньше урона в течение 3 сек.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -36681,7 +36708,7 @@
           "energyTooltip": "Мана: 70",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Союзные герои атакуют и передвигаются быстрее, а также похищают здоровье.",
-          "fullTooltip": "Повышает скорость атаки находящихся рядом союзных героев на 40%, а скорость передвижения – на 35%. Кроме того, эти герои восполняют здоровье в объеме 40% нанесенного автоатаками урона основной цели. Время действия – 8 сек.",
+          "fullTooltip": "Повышает скорость атаки находящихся рядом союзных героев на 40%, а скорость передвижения – на 35%. Кроме того, эти герои восполняют здоровье в объеме 30% нанесенного автоатаками урона основной цели. Время действия – 6 сек.",
           "abilityType": "Heroic"
         },
         {
@@ -36944,7 +36971,7 @@
           "energyTooltip": "Мана: 70",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Союзные герои атакуют и передвигаются быстрее, а также похищают здоровье.",
-          "fullTooltip": "Повышает скорость атаки находящихся рядом союзных героев на 40%, а скорость передвижения – на 35%. Кроме того, эти герои восполняют здоровье в объеме 40% нанесенного автоатаками урона основной цели. Время действия – 8 сек.",
+          "fullTooltip": "Повышает скорость атаки находящихся рядом союзных героев на 40%, а скорость передвижения – на 35%. Кроме того, эти герои восполняют здоровье в объеме 30% нанесенного автоатаками урона основной цели. Время действия – 6 сек.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -38812,10 +38839,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_stitches.png"
     },
     "life": {
-      "amount": 3150.0,
+      "amount": 3060.0,
       "scale": 0.04,
       "type": "Здоровье",
-      "regenRate": 6.5625,
+      "regenRate": 6.379,
       "regenScale": 0.04
     },
     "energy": {
@@ -38860,10 +38887,10 @@
           "buttonId": "StitchesSlam",
           "name": "Сильный удар",
           "icon": "storm_ui_icon_stitches_slam.png",
-          "energyTooltip": "Мана: 40",
+          "energyTooltip": "Мана: 35",
           "cooldownTooltip": "Время восстановления: 7 сек.",
           "shortTooltip": "Замедляет противников в области поражения и наносит им урон.",
-          "fullTooltip": "Наносит противникам в указанной области 104 (+4% per level) ед. урона. Противники во внутреннем радиусе получают на 40% больше урона и замедляются на 45% на 1.5 сек.",
+          "fullTooltip": "Наносит противникам в указанной области 104 (+4% per level) ед. урона. Противники во внутреннем радиусе получают на 40% больше урона и замедляются на 45% на 1.5 сек. Наносит на 50% больше урона воинам и наемникам.",
           "abilityType": "W"
         },
         {
@@ -39184,7 +39211,7 @@
           "name": "Рыболовный крючок",
           "icon": "storm_ui_icon_stitches_hook.png",
           "shortTooltip": "«Крюк» летит дальше.",
-          "fullTooltip": "Увеличивает дальность действия «Крюка» на 50%.",
+          "fullTooltip": "Увеличивает дальность действия «Крюка» на 40%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -40592,7 +40619,7 @@
           "energyTooltip": "Мана: 100",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Тассадар превращается в архонта.",
-          "fullTooltip": "Тассадар превращается в архонта, получает щит прочностью 40% максимального запаса здоровья и усиливает «Луч резонанса». Время действия – 12 сек.  «Луч резонанса»: наносит 150 (+4% per level) ед. урона цели и 75 (+4% per level) ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на 20 ед. на 2 сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
+          "fullTooltip": "Тассадар превращается в архонта, получает щит прочностью 30% максимального запаса здоровья и усиливает «Луч резонанса». Время действия – 12 сек.  «Луч резонанса»: наносит 150 (+4% per level) ед. урона цели и 75 (+4% per level) ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на 20 ед. на 2 сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
           "abilityType": "Heroic"
         },
         {
@@ -40687,7 +40714,7 @@
               "name": "Архонт",
               "icon": "storm_ui_icon_tassadar_archon.png",
               "shortTooltip": "Тассадар превращается в архонта.",
-              "fullTooltip": "Тассадар превращается в архонта, получает щит прочностью 40% максимального запаса здоровья и усиливает «Луч резонанса». Время действия – 12 сек.  «Луч резонанса»: наносит 150 (+4% per level) ед. урона цели и 75 (+4% per level) ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на 20 ед. на 2 сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
+              "fullTooltip": "Тассадар превращается в архонта, получает щит прочностью 30% максимального запаса здоровья и усиливает «Луч резонанса». Время действия – 12 сек.  «Луч резонанса»: наносит 150 (+4% per level) ед. урона цели и 75 (+4% per level) ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на 20 ед. на 2 сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
               "abilityType": "Heroic",
               "isActive": false,
               "isPassive": true
@@ -40818,7 +40845,7 @@
           "name": "Фокусировка лучей",
           "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
           "shortTooltip": "«Луч резонанса» ускоряет восстановление «Ударного луча».",
-          "fullTooltip": "Пока «Луч резонанса» полностью заряжен, дальность автоатак Тассадара увеличивается на 1 м, а «Ударный луч» восстанавливается на 100% быстрее.",
+          "fullTooltip": "Снижает стоимость «Ударного луча» с 55 до 45 ед. маны. Пока «Луч резонанса» полностью заряжен, «Ударный луч» восстанавливается на 100% быстрее.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -40845,7 +40872,7 @@
           "name": "Дуговой разряд",
           "icon": "storm_ui_icon_tassadar_rework_trait.png",
           "shortTooltip": "«Луч резонанса» создает «Псионный шторм».",
-          "fullTooltip": "Когда «Луч резонанса» полностью заряжен, при следующем нанесении урона он создает вокруг цели «Псионный шторм». Время восстановления – 20 сек. Пока «Луч резонанса» полностью заряжен, «Дуговой разряд» восстанавливается вдвое быстрее.",
+          "fullTooltip": "Пока «Луч резонанса» полностью заряжен, дальность действия автоатак увеличивается на 1 м, а следующее попадание создает вокруг цели «Псионный шторм».  Время восстановления – 20 сек. Восстанавливается вдвое быстрее, пока «Луч резонанса» полностью заряжен.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -40863,7 +40890,7 @@
           "energyTooltip": "Мана: 100",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Тассадар превращается в архонта.",
-          "fullTooltip": "Тассадар превращается в архонта, получает щит прочностью 40% максимального запаса здоровья и усиливает «Луч резонанса». Время действия – 12 сек.  «Луч резонанса»: наносит 150 (+4% per level) ед. урона цели и 75 (+4% per level) ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на 20 ед. на 2 сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
+          "fullTooltip": "Тассадар превращается в архонта, получает щит прочностью 30% максимального запаса здоровья и усиливает «Луч резонанса». Время действия – 12 сек.  «Луч резонанса»: наносит 150 (+4% per level) ед. урона цели и 75 (+4% per level) ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на 20 ед. на 2 сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -40895,7 +40922,7 @@
           "name": "Противодействие",
           "icon": "storm_ui_icon_tassadar_psionicstorm.png",
           "shortTooltip": "«Псионный шторм» усиливает «Луч резонанса».",
-          "fullTooltip": "Когда «Псионный шторм» поражает героя, «Луч резонанса» замедляет на 50% сильнее и ослабляет кинетическую броню на 25 ед.",
+          "fullTooltip": "Пока «Псионный шторм» действует на героя, «Луч резонанса» замедляет цели на 50% и ослабляет кинетическую броню на 25 ед.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -43286,7 +43313,7 @@
           "name": "Стойкий солдат",
           "icon": "storm_ui_icon_talent_relentless.png",
           "shortTooltip": "Дает броню при оглушении или обездвиживании.",
-          "fullTooltip": "При обездвиживании или оглушении Тайкус получает 25 ед. брони на 3 сек. Эта броня уменьшает получаемый им урон на 25%.",
+          "fullTooltip": "При обездвиживании или оглушении Тайкус получает 30 ед. брони на 3 сек. Эта броня уменьшает получаемый им урон на 30%.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -43327,6 +43354,19 @@
       ],
       "level13": [
         {
+          "nameId": "TychusMasterySprayNPray",
+          "buttonId": "TychusOverkillSprayNPrayTalent",
+          "name": "Неприцельный огонь",
+          "icon": "storm_ui_icon_tychus_overkill.png",
+          "shortTooltip": "Увеличивает дальность действия «Сверхурона», замедляет противников.",
+          "fullTooltip": "«Сверхурон» снижает скорость передвижения противников на 25%. Дальность его действия увеличивается на 25%.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TychusOverkillTargeted"
+          ]
+        },
+        {
           "nameId": "TychusThatsTheStuff",
           "buttonId": "TychusThatsTheStuff",
           "name": "Вот это по-нашему!",
@@ -43334,7 +43374,7 @@
           "shortTooltip": "«Пулемет» исцеляет Тайкуса.",
           "fullTooltip": "По истечении времени действия «Пулемет» восполняет Тайкусу здоровье в объеме 100% дополнительного урона, нанесенного героям.",
           "abilityType": "Trait",
-          "sort": 1,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "TychusMinigun",
             "TychusMinigunActive"
@@ -43347,63 +43387,51 @@
           "icon": "storm_temp_btn-upgrade-terran-neosteelframe.png",
           "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Дает энергетическую броню.",
-          "fullTooltip": "При использовании дает 75 ед. энергетической брони. Эта броня уменьшает получаемый от способностей урон на 75% в течение 3 сек.",
+          "fullTooltip": "При использовании дает 75 ед. энергетической брони. Эта броня уменьшает получаемый от способностей урон на 75% в течение 4 сек.",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 2
-        },
-        {
-          "nameId": "TychusMasterySprayNPray",
-          "buttonId": "TychusOverkillSprayNPrayTalent",
-          "name": "Неприцельный огонь",
-          "icon": "storm_ui_icon_tychus_overkill.png",
-          "shortTooltip": "Увеличивает дальность действия «Сверхурона».",
-          "fullTooltip": "Увеличивает дальность действия «Сверхурона» на 25%.",
-          "abilityType": "Q",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "TychusOverkillTargeted"
-          ]
+          "sort": 3
         }
       ],
       "level16": [
+        {
+          "nameId": "TychusMasteryOverkillArmorPiercingRounds",
+          "buttonId": "TychusOverkillArmorPiercingRoundsTalent",
+          "name": "Бронебойные патроны",
+          "icon": "storm_ui_icon_tychus_overkill.png",
+          "shortTooltip": "«Сверхурон» наносит больше урона с каждым попаданием.",
+          "fullTooltip": "За каждое попадание «Сверхурон» получает бонус к урону по пораженной цели в 15%, вплоть до 60%.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TychusOverkillTargeted"
+          ]
+        },
         {
           "nameId": "TychusMasteryFragGrenadeTitanGrenade",
           "buttonId": "TychusFragGrenadeTitanGrenadeTalent",
           "name": "Гранаты «Титан»",
           "icon": "storm_ui_icon_tychus_fraggrenade.png",
           "shortTooltip": "«Осколочная граната» наносит больше урона героям.",
-          "fullTooltip": "«Осколочная граната» наносит героям дополнительный урон в объеме 5% их максимального запаса здоровья.",
+          "fullTooltip": "«Осколочная граната» наносит героям дополнительный урон в объеме 5% их максимального запаса здоровья. За каждого героя, пораженного «Осколочной гранатой», ее время восстановления сокращается на 1 сек.",
           "abilityType": "W",
-          "sort": 1,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "TychusGrenade"
           ]
         },
         {
-          "nameId": "TychusMasteryLeadRain",
-          "buttonId": "TychusOverkillLeadRainTalent",
-          "name": "Ливень свинца",
-          "icon": "storm_ui_icon_tychus_overkill.png",
-          "shortTooltip": "«Сверхурон» замедляет противников.",
-          "fullTooltip": "«Сверхурон» также замедляет пораженных противников на 30%.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "TychusOverkillTargeted"
-          ]
-        },
-        {
-          "nameId": "TychusMasteryOverkillArmorPiercingRounds",
-          "buttonId": "TychusOverkillArmorPiercingRoundsTalent",
-          "name": "Бронебойные патроны",
-          "icon": "storm_ui_icon_tychus_overkill_a.png",
-          "shortTooltip": "«Сверхурон» наносит больше урона основной цели.",
-          "fullTooltip": "Увеличивает урон, наносимый «Сверхуроном» основной цели, на 50%.",
-          "abilityType": "Q",
+          "nameId": "TychusSizzlinAttacks",
+          "buttonId": "TychusSizzlinAttacks",
+          "name": "Патроны «Огонек»",
+          "icon": "storm_ui_icon_talent_autoattack_damage.png",
+          "shortTooltip": "Автоатаки наносят больше урона героям.",
+          "fullTooltip": "Автоатаки наносят дополнительный урон героям в объеме 1% их максимального запаса здоровья. Суммируется с эффектом «Пулемета».",
+          "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TychusOverkillTargeted"
+            "TychusMinigun",
+            "TychusMinigunActive"
           ]
         }
       ],
@@ -43442,17 +43470,16 @@
           ]
         },
         {
-          "nameId": "TychusSizzlinAttacks",
-          "buttonId": "TychusSizzlinAttacks",
-          "name": "Патроны «Огонек»",
-          "icon": "storm_ui_icon_talent_autoattack_damage.png",
-          "shortTooltip": "Автоатаки наносят больше урона героям.",
-          "fullTooltip": "Автоатаки наносят дополнительный урон героям в объеме 1% их максимального запаса здоровья. Суммируется с эффектом «Пулемета».",
-          "abilityType": "Trait",
+          "nameId": "TychusCanDoThisAllDayOverkillTalent",
+          "buttonId": "TychusOverkillCanDoThisAllDayTalent",
+          "name": "Да хоть весь день",
+          "icon": "storm_ui_icon_tychus_overkill.png",
+          "shortTooltip": "Ускоряет восстановление «Сверхурона» и дает броню.",
+          "fullTooltip": "Уменьшает время восстановления «Сверхурона» на 4 сек. На время поддержания «Сверхурона» Тайкус получает 40 ед. брони.",
+          "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TychusMinigun",
-            "TychusMinigunActive"
+            "TychusOverkillTargeted"
           ]
         },
         {
@@ -46689,7 +46716,7 @@
           "icon": "storm_ui_icon_whitemane_desperation.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "«Отчаяние» исцеляет союзников под эффектом «Рвения».",
-          "fullTooltip": "Накопив 3 эффектов «Отчаяния», Вайтмейн восполняет союзникам под действием «Рвения» 175 (+4% per level) ед. здоровья. Если действует 3 эффекта «Отчаяния», то при активации «Рвения» Вайтмейн получает10 ед. брони, а не теряет ее.",
+          "fullTooltip": "Накопив 3 эффектов «Отчаяния», Вайтмейн восполняет союзникам с «Рвением» 175 (+4% per level) ед. здоровья. Активируя «Рвение» при 3 эффектах «Отчаяния», Вайтмейн получает10 ед. брони, а не теряет ее.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -48243,7 +48270,7 @@
           "name": "Свет Карабора",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "Увеличивает радиус действия «Оправдания» и объем исцеления.",
-          "fullTooltip": "Увеличивает радиус действия «Оправдания» на 15%. Восполняет на 40% больше здоровья, если «Оправдание» поражает героя. При поражении более чем одного героя этот бонус увеличивается до 80%.",
+          "fullTooltip": "Увеличивает радиус действия «Оправдания» на 15%. Восполняет на 45% больше здоровья, если «Оправдание» поражает героя. При поражении более чем одного героя этот бонус увеличивается до 90%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -48257,7 +48284,7 @@
           "name": "Неустрашимость",
           "icon": "storm_ui_icon_talent_abilitytalent_armor.png",
           "shortTooltip": "Базовые способности дают кинетическую броню.",
-          "fullTooltip": "Когда Ирель использует базовую способность, она получает 50 ед. кинетической брони на 2.5 сек.",
+          "fullTooltip": "Когда Ирель использует базовую способность, она получает 40 ед. кинетической брони на 2.5 сек.",
           "abilityType": "Passive",
           "sort": 2
         },
@@ -48267,7 +48294,7 @@
           "name": "Прозрение Мараада",
           "icon": "storm_ui_icon_talent_autoattack_heal.png",
           "shortTooltip": "Автоатаки после использования базовых способностей лечат Ирель.",
-          "fullTooltip": "Следующая автоатака после нанесения урона герою базовой способностью восполняет 128 (+4% per level) ед. здоровья.",
+          "fullTooltip": "Следующая автоатака после нанесения урона герою базовой способностью восполняет 135 (+4% per level) ед. здоровья.",
           "abilityType": "Passive",
           "sort": 3
         }

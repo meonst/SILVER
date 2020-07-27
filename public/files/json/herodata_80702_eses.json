@@ -1968,10 +1968,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_d2amazonf.png"
     },
     "life": {
-      "amount": 1700.0,
+      "amount": 1660.0,
       "scale": 0.04,
       "type": "Salud",
-      "regenRate": 3.539,
+      "regenRate": 3.457,
       "regenScale": 0.04
     },
     "energy": {
@@ -1994,14 +1994,14 @@
         "nameId": "AmazonHeroWeaponMelee",
         "range": 2.0,
         "period": 0.9,
-        "damage": 130.0,
+        "damage": 125.0,
         "damageScale": 0.04
       },
       {
         "nameId": "AmazonHeroWeaponRanged",
         "range": 4.5,
         "period": 0.9,
-        "damage": 130.0,
+        "damage": 125.0,
         "damageScale": 0.04
       }
     ],
@@ -2213,7 +2213,7 @@
           "name": "Ataques fortalecidos",
           "icon": "storm_ui_icon_cassia_new_chargedstrikes.png",
           "shortTooltip": "Obtienes velocidad de ataque y algunos ataques rebotan.",
-          "fullTooltip": "Obtienes un 20% de velocidad de ataque. Cada 3er ataque básico inflige un 20% de daño adicional y rebota hacia héroes enemigos cercanos.",
+          "fullTooltip": "Obtienes un 15% de velocidad de ataque. Cada 3er ataque básico inflige un 15% de daño adicional y rebota hacia héroes enemigos cercanos.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -2225,7 +2225,7 @@
           "name": "Placa de la ballena",
           "icon": "storm_ui_icon_cassia_avoidance_b.png",
           "shortTooltip": "Evitar regenera salud.",
-          "fullTooltip": "Regeneras 7 (+4% per level) de salud por segundo mientras Evitar está activo. Si está cargado por completo, obtienes 14 (+4% per level) de salud adicional por segundo.",
+          "fullTooltip": "Regeneras 6 (+4% per level) de salud por segundo mientras Evitar está activo. Si está cargado por completo, obtienes 12 (+4% per level) de salud adicional por segundo.",
           "abilityType": "Trait",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -2247,7 +2247,7 @@
           "nameId": "AmazonInnerLight",
           "buttonId": "AmazonLightningFuryInnerLight",
           "name": "Luz interior",
-          "icon": "storm_ui_icon_cassia_lightningfury.png",
+          "icon": "storm_ui_icon_cassia_innerlight.png",
           "cooldownTooltip": "Tiempo de reutilización: 70 s",
           "shortTooltip": "Actívalo para curarte.",
           "fullTooltip": "Actívalo para curarte un 25% de tu salud máxima a lo largo de 5 s. Los héroes enemigos alcanzados por Furia de rayos reducen 10 s el tiempo de reutilización de este talento.",
@@ -2300,7 +2300,7 @@
           "icon": "storm_ui_icon_cassia_avoidance_b.png",
           "toggleCooldown": 0.25,
           "shortTooltip": "Activa Evitar para infligir daño.",
-          "fullTooltip": "Tras sufrir 500 (+4% per level) de daño con Evitar activo, puedes activar Evitar para infligir 300 (+4% per level) de daño a los enemigos a tu alrededor.",
+          "fullTooltip": "Tras sufrir 500 (+4% per level) de daño con Evitar activo, puedes activar Evitar para infligir 285 (+4% per level) de daño a los enemigos a tu alrededor.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -8512,20 +8512,6 @@
           ]
         },
         {
-          "nameId": "ChoFuelForTheFlame",
-          "buttonId": "ChoFuelForTheFlameTalent",
-          "name": "Leña al fuego",
-          "icon": "storm_ui_icon_cho_consumingflame_var1.png",
-          "shortTooltip": "Misión: Mata a héroes y a esbirros para potenciar Fuego devorador.",
-          "fullTooltip": "Misión: Mata a esbirros que estén cerca de ti para aumentar la curación de Fuego devorador un 0.3%.  Misión: Participa en bajas de héroes enemigos para aumentar la curación de Fuego devorador un 3%.",
-          "abilityType": "W",
-          "isQuest": true,
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "ChoConsumingBlaze"
-          ]
-        },
-        {
           "nameId": "ChoCallousedHide",
           "buttonId": "ChoCallousedHide",
           "name": "Pellejo calloso",
@@ -8533,6 +8519,21 @@
           "shortTooltip": "Aumenta la curación y la velocidad de movimiento con poca salud.",
           "fullTooltip": "Mientras tienes menos de un 60% de tu salud máxima, obtienes un 15% más de velocidad de movimiento y de curación recibida.",
           "abilityType": "Trait",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ChoOgreHidePassive",
+            "ChoOgreHide"
+          ]
+        },
+        {
+          "nameId": "ChoTheWillofCho",
+          "buttonId": "ChoTheWillofCho",
+          "name": "Voluntad de Cho",
+          "icon": "storm_ui_icon_cho_ogrehide_var1.png",
+          "shortTooltip": "Los esbirros asesinados y las bajas en las que participas te otorgan armadura.",
+          "fullTooltip": "Misión: Mata a esbirros enemigos para obtener 1 acumulación de Voluntad de Cho. Las bajas de héroes en las que participas te proporcionan 10 acumulaciones. Recibes 1 de armadura por cada 30 acumulaciones de Voluntad de Cho, hasta un máximo de 10 de armadura.  Esta bonificación a la armadura se acumula con Pellejo de ogro.",
+          "abilityType": "Trait",
+          "isQuest": true,
           "sort": 3,
           "abilityTalentLinkIds": [
             "ChoOgreHidePassive",
@@ -8547,7 +8548,7 @@
           "name": "Gancho",
           "icon": "storm_ui_icon_cho_moltensurge_a.png",
           "shortTooltip": "Aumenta el daño de Puño impetuoso.",
-          "fullTooltip": "Puño impetuoso inflige daño adicional a los héroes, equivalente a un 7% de su salud máxima.",
+          "fullTooltip": "Golpear a un héroe enemigo con Puño impetuoso inflige un daño adicional equivalente a un 5% de su salud máxima y reduce el tiempo de reutilización de Puño impetuoso 5 s.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -8574,7 +8575,7 @@
           "name": "Carne chamuscada",
           "icon": "storm_ui_icon_talent_autoattack_damage.png",
           "shortTooltip": "Los ataques básicos consecutivos infligen más daño.",
-          "fullTooltip": "Cada ataque básico consecutivo contra un héroe enemigo inflige un 20% más de daño, hasta un máximo de un 60% de daño. Esta bonificación dura 5 s o hasta que ataques a un enemigo distinto.",
+          "fullTooltip": "Cada ataque básico consecutivo contra héroes enemigos inflige un 20% más de daño, hasta un máximo de un 60% de daño. Esta bonificación dura 5 s o hasta que ataques a un enemigo que no sea un héroe.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -8585,8 +8586,8 @@
           "buttonId": "ChoPowerSurgeTalent",
           "name": "Oleada de poder",
           "icon": "storm_ui_icon_cho_moltensurge_a.png",
-          "shortTooltip": "Tiempo de reutilización de Puño impetuoso reducido al atacar a héroes.",
-          "fullTooltip": "Cada héroe golpeado por Puño impetuoso reduce 5 s su tiempo de reutilización.",
+          "shortTooltip": "Puño impetuoso ralentiza a los héroes enemigos.",
+          "fullTooltip": "Los héroes enemigos golpeados por Puño impetuoso quedan ralentizados un 30% durante 2.5 s. Obtienes un 15% de velocidad de movimiento mientras cargas Puño impetuoso y durante 2.5 s tras lanzar la habilidad.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -8729,7 +8730,7 @@
           "name": "Guantelete de runas",
           "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
           "shortTooltip": "Los ataques básicos reducen el tiempo de reutilización de las habilidades heroicas.",
-          "fullTooltip": "Los ataques básicos reducen un 5% el tiempo de reutilización de las habilidades heroicas de Cho y Gall.",
+          "fullTooltip": "Los ataques básicos reducen un 6% el tiempo de reutilización de las habilidades heroicas de Cho y Gall.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -8768,17 +8769,16 @@
           ]
         },
         {
-          "nameId": "ChoTheWillofCho",
-          "buttonId": "ChoTheWillofCho",
-          "name": "Voluntad de Cho",
-          "icon": "storm_ui_icon_cho_ogrehide.png",
-          "shortTooltip": "Las bajas en las que participes aumentan la armadura de Pellejo de ogro.",
-          "fullTooltip": "Las bajas en las que participas aumentan de forma permanente la armadura que te otorga Pellejo de ogro en 2, hasta un máximo de 50 de armadura adicional.",
-          "abilityType": "Trait",
+          "nameId": "ChoFuelForTheFlame",
+          "buttonId": "ChoFuelForTheFlameTalent",
+          "name": "Leña al fuego",
+          "icon": "storm_ui_icon_talent_autoattack_damage.png",
+          "shortTooltip": "Los ataques básicos explotan e infligen daño.",
+          "fullTooltip": "Los ataques básicos contra los enemigos los hacen explotar, lo que les inflige 21 (+4% per level) de daño a ellos y 45 (+4% per level) a otros enemigos cercanos. Este daño se duplica contra héroes.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChoOgreHidePassive",
-            "ChoOgreHide"
+            "ChoOgreHidePassive"
           ]
         },
         {
@@ -9503,7 +9503,7 @@
           "buttonId": "CrusaderIronSkin",
           "name": "Piel férrea",
           "icon": "storm_ui_icon_johanna_iron_skin.png",
-          "cooldownTooltip": "Tiempo de reutilización: 20 s",
+          "cooldownTooltip": "Tiempo de reutilización: 25 s",
           "shortTooltip": "Te vuelves imparable y obtienes un escudo.",
           "fullTooltip": "Actívalo para obtener un escudo que absorbe 674 (+4% per level) de daño durante 4 s. Mientras el escudo está activo, eres imparable.",
           "abilityType": "Trait"
@@ -9825,7 +9825,7 @@
           "name": "Fe radiante",
           "icon": "storm_ui_icon_johanna_blessed_shield.png",
           "shortTooltip": "Aumenta la duración del aturdimiento de Escudo bendito y el máximo de objetivos golpeados.",
-          "fullTooltip": "Aumenta el número de enemigos golpeados por Escudo bendito en 2. La duración de su aturdimiento aumenta a 2 s y todos los objetivos golpeados quedan aturdidos durante la máxima duración.",
+          "fullTooltip": "Aumenta el número de enemigos golpeados por Escudo bendito en 2. La duración de su aturdimiento aumenta a 1.75 s y todos los objetivos golpeados quedan aturdidos durante la máxima duración.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -12167,8 +12167,8 @@
           "buttonId": "DiabloShadowCharge",
           "name": "Carga de las sombras",
           "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
-          "energyTooltip": "Maná: 70",
-          "cooldownTooltip": "Tiempo de reutilización: 13 s",
+          "energyTooltip": "Maná: 65",
+          "cooldownTooltip": "Tiempo de reutilización: 12 s",
           "shortTooltip": "Cargas contra un objetivo enemigo y lo haces retroceder.",
           "fullTooltip": "Cargas contra un enemigo, lo que lo repele, le inflige 40 (+4% per level) de daño y te otorga un 15% de velocidad de movimiento durante 2 s. Si el enemigo choca contra algún elemento del terreno, queda aturdido durante 1 s y sufre 130 (+4% per level) más de daño.",
           "abilityType": "Q"
@@ -12189,7 +12189,7 @@
           "buttonId": "DiabloOverpower",
           "name": "Arrollar",
           "icon": "storm_ui_icon_diablo_overpower_var1.png",
-          "energyTooltip": "Maná: 40",
+          "energyTooltip": "Maná: 35",
           "charges": {
             "countMax": 1,
             "countUse": 1,
@@ -12197,7 +12197,7 @@
             "hideCount": true,
             "recastCooldown": 2.0
           },
-          "cooldownTooltip": "Tiempo de reutilización: 13 s",
+          "cooldownTooltip": "Tiempo de reutilización: 12 s",
           "shortTooltip": "Enganchas al enemigo y lo estampas detrás de ti, lo que lo aturde y le inflige daño.",
           "fullTooltip": "Agarras al objetivo y lo estampas detrás de ti, lo que le inflige 73 (+4% per level) de daño y lo aturde durante 0.25 s.",
           "abilityType": "E"
@@ -12389,7 +12389,7 @@
           "name": "Drenaje de vida",
           "icon": "storm_ui_icon_talent_autoattack_heal.png",
           "shortTooltip": "Los ataques básicos otorgan almas y te curan.",
-          "fullTooltip": "Al usar ataques básicos contra un héroe enemigo, obtienes 1 alma y te curas un 1.5% de tu salud máxima. Si tienes 100 almas, esta curación aumenta a un 3% de tu salud máxima.",
+          "fullTooltip": "Al usar ataques básicos contra un héroe enemigo, obtienes 1 alma y te curas un 2% de tu salud máxima. Si tienes 100 almas, esta curación aumenta a un 4% de tu salud máxima.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -12493,7 +12493,7 @@
           "name": "Fuego infernal",
           "icon": "storm_ui_icon_diablo_firestomp.png",
           "shortTooltip": "Pisotón de fuego otorga poder de habilidad.",
-          "fullTooltip": "Cada héroe enemigo golpeado por Pisotón de fuego te otorga un 2% de poder de habilidad durante 10 s, hasta un máximo de un 30%. Cuando tienes el máximo de acumulaciones, infliges 15 (+4% per level) de daño por segundo a los enemigos cercanos.",
+          "fullTooltip": "Cada héroe enemigo golpeado por Pisotón de fuego te otorga un 2% de poder de habilidad durante 10 s, hasta un máximo de un 30%. Cuando tienes el máximo de acumulaciones, infliges 17 (+4% per level) de daño por segundo a los enemigos cercanos.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -15796,7 +15796,7 @@
           "icon": "storm_ui_icon_blaze_stim_2.png",
           "cooldownTooltip": "Tiempo de reutilización: 30 s",
           "shortTooltip": "Actívalo para obtener velocidad de ataque y movimiento.",
-          "fullTooltip": "Actívalo para obtener un 100% de velocidad de ataque y un 25% de velocidad de movimiento durante 5 s.",
+          "fullTooltip": "Pasiva: Mientras tienes más de un 80% de salud, obtienes un 25% de velocidad de ataque adicional y un 10% de velocidad de movimiento adicional.  Actívalo para obtener un 100% de velocidad de ataque y un 25% de velocidad de movimiento durante 5 s.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 1
@@ -15806,9 +15806,9 @@
           "buttonId": "FirebatEnduranceStimpack",
           "name": "Estimulantes de resistencia",
           "icon": "storm_ui_icon_blaze_stim_1.png",
-          "cooldownTooltip": "Tiempo de reutilización: 40 s",
+          "cooldownTooltip": "Tiempo de reutilización: 30 s",
           "shortTooltip": "Actívalo para obtener un escudo.",
-          "fullTooltip": "Actívalo para obtener un escudo que absorbe 480 (+4% per level) de daño durante 5 s.",
+          "fullTooltip": "Actívalo para obtener un escudo que absorbe 480 (+4% per level) de daño durante 5 s.  Si recibes daño con menos del 30% de tu salud máxima, se lanzará Estimulantes de resistencia automáticamente si no está en tiempo de reutilización.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 2
@@ -15820,7 +15820,7 @@
           "icon": "storm_ui_icon_blaze_stim_3.png",
           "cooldownTooltip": "Tiempo de reutilización: 40 s",
           "shortTooltip": "Actívalo para aumentar el ritmo de recarga del tiempo de reutilización.",
-          "fullTooltip": "Actívalo para obtener 30 de maná y hacer que los tiempos de reutilización de las habilidades básicas se recarguen un 100% más rápido durante 5 s.",
+          "fullTooltip": "Actívalo para obtener 40 de maná y hacer que los tiempos de reutilización de las habilidades básicas se recarguen un 100% más rápido durante 5 s.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -15842,29 +15842,10 @@
       ],
       "level4": [
         {
-          "nameId": "FirebatOilSpillAdhesivePetroleum",
-          "buttonId": "FirebatOilSpillAdhesivePetroleum",
-          "name": "Petróleo adhesivo",
-          "icon": "storm_ui_icon_blaze_oil.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "Los charcos de petróleo ralentizan al prenderse.",
-          "fullTooltip": "Al prender un charco de petróleo, la velocidad de movimiento de los enemigos que se encuentran en él se reduce un 30% durante  2.5 s.",
-          "abilityType": "W",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "FirebatOilSpill"
-          ]
-        },
-        {
           "nameId": "FirebatOilSpillOilDispersal",
           "buttonId": "FirebatOilSpillOilDispersal",
           "name": "Dispersión de petróleo",
-          "icon": "storm_ui_icon_blaze_oil_b.png",
+          "icon": "storm_ui_icon_blaze_oil.png",
           "charges": {
             "countMax": 2,
             "countUse": 1,
@@ -15874,7 +15855,7 @@
           "shortTooltip": "Aumenta el área de Charco de petróleo.",
           "fullTooltip": "Aumenta un 20% el área de Charco de petróleo. Cada héroe enemigo golpeado por Carbonización reduce el tiempo de reutilización de Charco de petróleo 1 s y devuelve 5 de maná.",
           "abilityType": "W",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "FirebatOilSpill"
           ]
@@ -15885,12 +15866,22 @@
           "name": "Colapso",
           "icon": "storm_ui_icon_blaze_pyromania.png",
           "shortTooltip": "Pirómano reduce el daño de los héroes enemigos.",
-          "fullTooltip": "Golpear a un héroe enemigo con Pirómano reduce un 7% el daño que inflige durante 2.5 s, hasta un 35%.",
+          "fullTooltip": "Golpear a un héroe enemigo con Pirómano reduce un 8% el daño que inflige durante 2.5 s, hasta un 40%.",
           "abilityType": "Trait",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "FirebatIgnite"
           ]
+        },
+        {
+          "nameId": "FirebatWeaponIncineratorGauntlets",
+          "buttonId": "FirebatWeaponIncineratorGauntlets",
+          "name": "Guanteletes incineradores",
+          "icon": "storm_ui_icon_talent_autoattack_slow.png",
+          "shortTooltip": "Los ataques básicos infligen daño adicional a enemigos que no son héroes.",
+          "fullTooltip": "Aumenta el área de los ataques básicos un 15% y aumenta el daño que infligen a esbirros, mercenarios y monstruos un 70%.",
+          "abilityType": "Passive",
+          "sort": 3
         }
       ],
       "level7": [
@@ -15928,14 +15919,23 @@
           ]
         },
         {
-          "nameId": "FirebatWeaponIncineratorGauntlets",
-          "buttonId": "FirebatWeaponIncineratorGauntlets",
-          "name": "Guanteletes incineradores",
-          "icon": "storm_ui_icon_talent_autoattack_slow.png",
-          "shortTooltip": "Aumenta el área de los ataques básicos y ahora prenden el charco de petróleo.",
-          "fullTooltip": "Aumenta el área de los ataques básicos un 15% y un 70% su daño a esbirros, mercenarios y monstruos. Además, el efecto esparcido de los ataques básicos prende los charcos de petróleo.",
-          "abilityType": "Passive",
-          "sort": 3
+          "nameId": "FirebatOilSpillAdhesivePetroleum",
+          "buttonId": "FirebatOilSpillAdhesivePetroleum",
+          "name": "Petróleo adhesivo",
+          "icon": "storm_ui_icon_blaze_oil_b.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 1.0
+          },
+          "shortTooltip": "Los charcos de petróleo ralentizan al prenderse.",
+          "fullTooltip": "Al prender un charco de petróleo, la velocidad de movimiento de los enemigos que se encuentran en él se reduce un 35% durante 3 s. Además, el efecto esparcido de los ataques básicos prende los charcos de petróleo.",
+          "abilityType": "W",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "FirebatOilSpill"
+          ]
         }
       ],
       "level10": [
@@ -16169,6 +16169,16 @@
           "abilityType": "Q"
         },
         {
+          "nameId": "GallDoubleBack",
+          "buttonId": "GallDoubleBackAbility",
+          "name": "Retroceso",
+          "icon": "storm_ui_icon_gall_chaoscollision.png",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "Actívalo para que el tercer rebote de Orbe aterrador vaya hacia atrás.",
+          "fullTooltip": "Actívalo para invertir la dirección del tercer rebote.",
+          "abilityType": "W"
+        },
+        {
           "nameId": "GallDreadOrb",
           "buttonId": "GallDreadOrb",
           "name": "Orbe aterrador",
@@ -16304,20 +16314,6 @@
             }
           ]
         },
-        "GallDoubleBack|GallDoubleBackTalent": {
-          "basic": [
-            {
-              "nameId": "GallDoubleBack",
-              "buttonId": "GallDoubleBackAbility",
-              "name": "Retroceso",
-              "icon": "storm_ui_icon_gall_chaoscollision.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "Actívalo para que el tercer rebote de Orbe aterrador vaya hacia atrás.",
-              "fullTooltip": "Actívalo para invertir la dirección del tercer rebote.",
-              "abilityType": "W"
-            }
-          ]
-        },
         "GallOgreRage|GallOgreRageActivated|Trait": {
           "trait": [
             {
@@ -16379,12 +16375,12 @@
       ],
       "level4": [
         {
-          "nameId": "GallDoubleBack",
-          "buttonId": "GallDoubleBackTalent",
-          "name": "Retroceso",
+          "nameId": "GallRisingDread",
+          "buttonId": "GallRisingDreadTalent",
+          "name": "Terror creciente",
           "icon": "storm_ui_icon_gall_chaoscollision.png",
-          "shortTooltip": "Vuelve a activar Orbe aterrador para invertir el tercer rebote.",
-          "fullTooltip": "Activa Orbe aterrador antes de que termine el segundo rebote para invertir la dirección del tercero.  Pasiva: El tercer rebote de Orbe aterrador inflige un 50% más de daño a los héroes y un 200% más de daño a los objetivos que no son héroes.",
+          "shortTooltip": "Aumenta el área y el daño de Orbe aterrador.",
+          "fullTooltip": "Cada rebote de Orbe aterrador aumenta su radio un 25% y su daño un 25%. Activa Orbe aterrador antes de que termine el segundo rebote para revertir la dirección del tercero.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -16511,16 +16507,16 @@
           ]
         },
         {
-          "nameId": "GallRisingDread",
-          "buttonId": "GallRisingDreadTalent",
-          "name": "Terror creciente",
-          "icon": "storm_ui_icon_gall_chaoscollision.png",
-          "shortTooltip": "Aumenta el área y el daño de Orbe aterrador.",
-          "fullTooltip": "Cada rebote de Orbe aterrador aumenta su radio un 25% y su daño un 25%.",
-          "abilityType": "W",
+          "nameId": "GallPsychoticBreak",
+          "buttonId": "GallPsychoticBreakTalent",
+          "name": "Brote psicótico",
+          "icon": "storm_ui_icon_gall_psychoticbreak.png",
+          "shortTooltip": "Aumenta tu daño contra héroes y puedes usar habilidades después de morir.",
+          "fullTooltip": "Aumenta un 10% el daño que infliges a los héroes enemigos. Al morir, obtienes Ira de ogro y puedes usar habilidades durante 10 s.",
+          "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "GallDreadOrb"
+            "GallOgreRagePassive"
           ]
         },
         {
@@ -16625,13 +16621,15 @@
           ]
         },
         {
-          "nameId": "GallPsychoticBreak",
-          "buttonId": "GallPsychoticBreakTalent",
-          "name": "Brote psicótico",
+          "nameId": "GallTwilightFrenzy",
+          "buttonId": "GallTwilightFrenzy",
+          "name": "Frenesí crepuscular",
           "icon": "storm_ui_icon_gall_psychoticbreak.png",
-          "shortTooltip": "Puedes usar habilidades después de morir.",
-          "fullTooltip": "Al morir, obtienes Ira de ogro y puedes usar habilidades durante 10 s.",
-          "abilityType": "Passive",
+          "cooldownTooltip": "Tiempo de reutilización: 30 s",
+          "shortTooltip": "Actívalo para reducir los tiempos de reutilización.",
+          "fullTooltip": "Actívalo para reducir a 2 s los tiempos de reutilización de Llama de las sombras y Orbe aterrador durante los próximos 6 s.",
+          "abilityType": "Active",
+          "isActive": true,
           "sort": 4
         }
       ]
@@ -16727,6 +16725,13 @@
           "name": "Sed de sangre",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
           "energyTooltip": "Maná: 55",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "cooldownTooltip": "Tiempo de reutilización: 12 s",
           "shortTooltip": "Infliges daño y te curas una parte de la salud que te falta.",
           "fullTooltip": "Infliges 156 (+4% per level) de daño a un enemigo y te curas un 10% de la salud que te falta. La curación aumenta un 100% si usas esta habilidad contra héroes.",
@@ -16903,9 +16908,9 @@
             "hideCount": true,
             "recastCooldown": 1.0
           },
-          "cooldownTooltip": "Tiempo de reutilización: 16 s",
+          "cooldownTooltip": "Tiempo de reutilización: 15 s",
           "shortTooltip": "Infliges daño a un enemigo y lo ralentizas.",
-          "fullTooltip": "Actívalo para infligir 111 (+4% per level) de daño al enemigo seleccionado y ralentizarlo un 35% durante 2 s. Los héroes enemigos golpeados reciben un 30% menos de sanación durante 3 s.",
+          "fullTooltip": "Actívalo para infligir 111 (+4% per level) de daño al enemigo seleccionado y ralentizarlo un 35% durante 3 s. Los héroes enemigos golpeados reciben un 30% menos de curación durante 3 s.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -16917,6 +16922,13 @@
           "buttonId": "GarroshBloodthirstInFortheKill",
           "name": "Entrar a matar",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "shortTooltip": "Los asesinatos con Sed de sangre reinician su tiempo de reutilización y restauran maná.",
           "fullTooltip": "Aumenta un 70% el daño de Sed de sangre contra enemigos que no son héroes. Cada enemigo que matas con Sed de sangre reinicia su tiempo de reutilización y te devuelve su coste de maná.",
           "abilityType": "W",
@@ -16930,6 +16942,13 @@
           "buttonId": "GarroshBloodthirstThirstforBattle",
           "name": "Sed de batalla",
           "icon": "storm_ui_icon_garrosh_bloodthirst_var1.png",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "shortTooltip": "Los ataques básicos reducen el tiempo de reutilización de Sed de sangre.",
           "fullTooltip": "Cada ataque básico contra héroes reduce 2 s el tiempo de reutilización de Sed de sangre.",
           "abilityType": "W",
@@ -17047,6 +17066,13 @@
           "buttonId": "GarroshBloodthirstBloodcraze",
           "name": "Sanguinario",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "shortTooltip": "Sed de sangre cura en el tiempo.",
           "fullTooltip": "Al golpear a un héroe, Sed de sangre te cura un 15% adicional de tu salud máxima a lo largo de 3 s.",
           "abilityType": "W",
@@ -17073,42 +17099,44 @@
       ],
       "level16": [
         {
-          "nameId": "GarroshGroundbreakerRoughLanding",
-          "buttonId": "GarroshGroundbreakerRoughLanding",
-          "name": "Aterrizaje duro",
-          "icon": "storm_ui_icon_garrosh_groundbreaker.png",
-          "shortTooltip": "Aumenta la ralentización de Rompesuelos.",
-          "fullTooltip": "Aumenta la ralentización de Rompesuelos un 10% y su duración 1 s.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "GarroshGroundbreaker"
-          ]
-        },
-        {
           "nameId": "GarroshGroundbreakerMortalCombo",
           "buttonId": "GarroshGroundbreakerMortalCombo",
           "name": "Combo mortal",
-          "icon": "storm_ui_icon_garrosh_groundbreaker_var1.png",
+          "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
           "shortTooltip": "Catapulta infernal reduce su tiempo de reutilización al usarla contra héroes aturdidos.",
           "fullTooltip": "Golpear a un héroe con el aturdimiento de Rompesuelos y lanzarlo con Catapulta infernal, o viceversa, en menos de 3 s reduce el tiempo de reutilización de Catapulta infernal 10 s.",
-          "abilityType": "Q",
-          "sort": 2,
+          "abilityType": "E",
+          "sort": 1,
           "abilityTalentLinkIds": [
-            "GarroshGroundbreaker"
+            "GarroshWreckingBall"
           ]
         },
         {
           "nameId": "GarroshWreckingBallEarthshaker",
           "buttonId": "GarroshWreckingBallEarthshaker",
           "name": "Sacudetierra",
-          "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
+          "icon": "storm_ui_icon_garrosh_intothefray.png",
           "shortTooltip": "Catapulta infernal aturde a los enemigos cercanos al punto de impacto.",
           "fullTooltip": "Catapulta infernal aturde a los enemigos cercanos al área de impacto durante 0.5 s.",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "GarroshWreckingBall"
+          ]
+        },
+        {
+          "nameId": "GarroshArmorUpSeasonedSoldier",
+          "buttonId": "GarroshArmorUpSeasonedSoldier",
+          "name": "Soldado avezado",
+          "icon": "storm_ui_icon_garrosh_armor_up.png",
+          "shortTooltip": "Obtienes múltiples bonificaciones.",
+          "fullTooltip": "Obtienes un 5% de salud máxima, la duración de la ralentización de Rompesuelos aumenta 1 s y Sed de sangre obtiene una carga adicional.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "GarroshArmorUpDoubleUp",
+            "GarroshArmorUp"
           ]
         }
       ],
@@ -17119,7 +17147,7 @@
           "name": "Deseo de muerte",
           "icon": "storm_ui_icon_garrosh_warlords_challenge.png",
           "shortTooltip": "Las bajas en las que participas reducen el tiempo de reutilización de Desafío del guerrero.",
-          "fullTooltip": "Si un héroe enemigo muere mientras está provocado por Desafío del guerrero, su tiempo de reutilización se reduce 45 s.",
+          "fullTooltip": "Aumenta 0.5 s la duración de Desafío del guerrero. Si un héroe enemigo muere mientras está provocado por Desafío del guerrero, su tiempo de reutilización se reduce 45 s.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -17141,7 +17169,7 @@
             "recastCooldown": 1.0
           },
           "shortTooltip": "Diezmar reduce el daño que infligen los enemigos.",
-          "fullTooltip": "Los héroes golpeados por Diezmar infligen un 25% menos de daño durante 3 s.",
+          "fullTooltip": "Los héroes golpeados por Diezmar infligen un 40% menos de daño durante 3 s.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -17177,7 +17205,7 @@
             "recastCooldown": 1.0
           },
           "shortTooltip": "Placaje obtiene una carga adicional.",
-          "fullTooltip": "Placaje obtiene una carga adicional y su tiempo de reutilización se recarga un 100% más rápido mientras la bonificación de Blindaje es de 25 o más.",
+          "fullTooltip": "Placaje obtiene una carga adicional y su reducción a la sanación aumenta un 45% más.",
           "abilityType": "Active",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -17898,7 +17926,7 @@
           "energyTooltip": "Maná: 50",
           "cooldownTooltip": "Tiempo de reutilización: 30 s",
           "shortTooltip": "Infliges daño equivalente a un porcentaje de la salud actual del enemigo.",
-          "fullTooltip": "Te transformas en humano y disparas una bala que impacta en el primer héroe enemigo en su trayectoria, lo que le inflige un 40% de su salud actual como daño.  No afecta a unidades especiales controladas por héroes.",
+          "fullTooltip": "Te transformas en humano y disparas una bala que impacta en el primer héroe enemigo en su trayectoria, lo que le inflige un 35% de su salud actual como daño.  No afecta a unidades especiales controladas por héroes.",
           "abilityType": "Heroic"
         }
       ],
@@ -18169,7 +18197,7 @@
           "energyTooltip": "Maná: 50",
           "cooldownTooltip": "Tiempo de reutilización: 30 s",
           "shortTooltip": "Infliges daño equivalente a un porcentaje de la salud actual del enemigo.",
-          "fullTooltip": "Te transformas en humano y disparas una bala que impacta en el primer héroe enemigo en su trayectoria, lo que le inflige un 40% de su salud actual como daño.  No afecta a unidades especiales controladas por héroes.",
+          "fullTooltip": "Te transformas en humano y disparas una bala que impacta en el primer héroe enemigo en su trayectoria, lo que le inflige un 35% de su salud actual como daño.  No afecta a unidades especiales controladas por héroes.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -23349,8 +23377,8 @@
           "buttonId": "L90ETCFaceMelt",
           "name": "Acorde flipante",
           "icon": "storm_ui_icon_etc_facemelt.png",
-          "energyTooltip": "Maná: 50",
-          "cooldownTooltip": "Tiempo de reutilización: 10 s",
+          "energyTooltip": "Maná: 55",
+          "cooldownTooltip": "Tiempo de reutilización: 12 s",
           "shortTooltip": "Repeles y dañas a los enemigos cercanos.",
           "fullTooltip": "Infliges 68 (+4% per level) de daño a los enemigos cercanos y los repeles.",
           "abilityType": "W"
@@ -26710,8 +26738,8 @@
           "buttonId": "MaievContainmentDisc",
           "name": "Disco de contención",
           "icon": "storm_ui_icon_maiev_heroic_1_a.png",
-          "energyTooltip": "Maná: 60",
-          "cooldownTooltip": "Tiempo de reutilización: 50 s",
+          "energyTooltip": "Maná: 50",
+          "cooldownTooltip": "Tiempo de reutilización: 40 s",
           "shortTooltip": "Detienes en el tiempo a un héroe enemigo y eliminas su visión.",
           "fullTooltip": "Lanzas una guja en la dirección seleccionada. Si golpea a un héroe enemigo, Disco de contención puede reactivarse para eliminar su visión y detenerlo en el tiempo durante 4 s.  Disco de contención se activa automáticamente 6 s después de golpear a un héroe.",
           "abilityType": "Heroic"
@@ -26864,8 +26892,8 @@
           "buttonId": "MaievUmbralBindPursuitOfVengeance",
           "name": "En busca de venganza",
           "icon": "storm_ui_icon_maiev_pursuit_vengeance.png",
-          "shortTooltip": "Las ataduras de Atadura sombría pueden reducir el tiempo de reutilización de Espíritu de venganza.",
-          "fullTooltip": "Cada héroe atado con Atadura sombría reduce 2.5 s el tiempo de reutilización de Espíritu de venganza.",
+          "shortTooltip": "Reduce los tiempos de reutilización de Atadura sombría y Espíritu de venganza.",
+          "fullTooltip": "Cada héroe atado con Atadura sombría reduce 2.5 s el tiempo de reutilización de Espíritu de venganza y cada héroe golpeado por Espíritu de venganza reduce 1 s el tiempo de reutilización de Atadura sombría.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -26956,8 +26984,8 @@
           "buttonId": "MaievUmbralBindBondsOfCorruption",
           "name": "Lazos de corrupción",
           "icon": "storm_ui_icon_maiev_orb_corruption.png",
-          "shortTooltip": "La atracción de Atadura sombría reduce la armadura.",
-          "fullTooltip": "La armadura de los héroes enemigos atraídos por Atadura sombría se reduce en 10 durante 4 s.",
+          "shortTooltip": "La atracción de Atadura sombría reduce la armadura y la velocidad de movimiento.",
+          "fullTooltip": "La atracción de héroes enemigos con Atadura sombría reduce su armadura en 10 y su velocidad de movimiento un 20% durante 4 s.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -26986,8 +27014,8 @@
           "buttonId": "MaievContainmentDisc",
           "name": "Disco de contención",
           "icon": "storm_ui_icon_maiev_heroic_1_a.png",
-          "energyTooltip": "Maná: 60",
-          "cooldownTooltip": "Tiempo de reutilización: 50 s",
+          "energyTooltip": "Maná: 50",
+          "cooldownTooltip": "Tiempo de reutilización: 40 s",
           "shortTooltip": "Detienes en el tiempo a un héroe enemigo y eliminas su visión.",
           "fullTooltip": "Lanzas una guja en la dirección seleccionada. Si golpea a un héroe enemigo, Disco de contención puede reactivarse para eliminar su visión y detenerlo en el tiempo durante 4 s.  Disco de contención se activa automáticamente 6 s después de golpear a un héroe.",
           "abilityType": "Heroic",
@@ -27059,6 +27087,19 @@
       ],
       "level16": [
         {
+          "nameId": "MaievSpiritOfVengeanceVengefulKnives",
+          "buttonId": "MaievSpiritOfVengeanceVengefulKnives",
+          "name": "Cuchillos vengativos",
+          "icon": "storm_ui_icon_maiev_knives.png",
+          "shortTooltip": "Infligir daño aumenta el daño de Abanico de cuchillos.",
+          "fullTooltip": "Infligir daño a héroes enemigos hace que el próximo Abanico de cuchillos que golpee a héroes enemigos inflija un daño adicional equivalente a un 1% de su salud máxima, hasta un máximo de un 5%.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "MaievFanOfKnives"
+          ]
+        },
+        {
           "nameId": "MaievUmbralBindCruelChain",
           "buttonId": "MaievUmbralBindCruelChain",
           "name": "Cadena cruel",
@@ -27066,24 +27107,10 @@
           "shortTooltip": "Daña a objetivos de Atadura sombría para aumentar el daño de atracción.",
           "fullTooltip": "Atadura sombría otorga un 25% de velocidad de movimiento durante 2.5 s. Además, cada vez que infliges daño a objetivos atados, el daño de la atracción de Atadura sombría a todos los objetivos aumenta un 30%, hasta un máximo de un 150%.",
           "abilityType": "W",
-          "sort": 1,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "MaievUmbralBindPrimed",
             "MaievUmbralBind"
-          ]
-        },
-        {
-          "nameId": "MaievSpiritOfVengeanceVengefulKnives",
-          "buttonId": "MaievSpiritOfVengeanceVengefulKnives",
-          "name": "Cuchillos vengativos",
-          "icon": "storm_ui_icon_maiev_vengeful_knives.png",
-          "shortTooltip": "Espíritu de venganza aumenta el daño de Abanico de cuchillos.",
-          "fullTooltip": "Durante 5 s después de teletransportarte con Espíritu de venganza, Abanico de cuchillos infligirá un 1% de la salud máxima como daño adicional a los héroes enemigos. Esta bonificación al daño aumenta un 1% extra por cada héroe enemigo golpeado por Espíritu de venganza.",
-          "abilityType": "E",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "MaievSpiritOfVengeanceBlink",
-            "MaievSpiritOfVengeance"
           ]
         },
         {
@@ -27780,8 +27807,8 @@
           "buttonId": "MalGanisDarkConversion",
           "name": "Conversión oscura",
           "icon": "storm_ui_icon_malganis_ult_conversion.png",
-          "energyTooltip": "Maná: 70",
-          "cooldownTooltip": "Tiempo de reutilización: 80 s",
+          "energyTooltip": "Maná: 60",
+          "cooldownTooltip": "Tiempo de reutilización: 60 s",
           "shortTooltip": "Se canaliza para intercambiar la salud con un héroe enemigo.",
           "fullTooltip": "Seleccionas a un héroe enemigo y canalizas la habilidad durante 0.75 s. Al completar la canalización, intercambias los porcentajes de salud con el objetivo durante 3 s.",
           "abilityType": "Heroic"
@@ -27989,7 +28016,7 @@
           "name": "Eco de fatalidad",
           "icon": "storm_ui_icon_malganis_necrotic_c.png",
           "shortTooltip": "Abrazo necrótico explota al expirar.",
-          "fullTooltip": "Cuando Abrazo necrótico expira, vuelve a explotar e inflige 54 (+4% per level) de daño. Por cada héroe enemigo golpeado, obtienes 5 de maná y se reduce 0.75 s el tiempo de reutilización de Abrazo necrótico.  No despierta a los objetivos dormidos.",
+          "fullTooltip": "Cuando Abrazo necrótico expira, vuelve a explotar e inflige 60 (+4% per level) de daño. Por cada héroe enemigo golpeado, obtienes 5 de maná y se reduce 0.75 s el tiempo de reutilización de Abrazo necrótico.  No despierta a los objetivos dormidos.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -28065,8 +28092,8 @@
           "buttonId": "MalGanisDarkConversion",
           "name": "Conversión oscura",
           "icon": "storm_ui_icon_malganis_ult_conversion.png",
-          "energyTooltip": "Maná: 70",
-          "cooldownTooltip": "Tiempo de reutilización: 80 s",
+          "energyTooltip": "Maná: 60",
+          "cooldownTooltip": "Tiempo de reutilización: 60 s",
           "shortTooltip": "Se canaliza para intercambiar la salud con un héroe enemigo.",
           "fullTooltip": "Seleccionas a un héroe enemigo y canalizas la habilidad durante 0.75 s. Al completar la canalización, intercambias los porcentajes de salud con el objetivo durante 3 s.",
           "abilityType": "Heroic",
@@ -28097,7 +28124,7 @@
           "name": "La noche llama",
           "icon": "storm_ui_icon_malganis_nightrush_b.png",
           "shortTooltip": "Cae la noche ralentiza a los enemigos.",
-          "fullTooltip": "Los ataques básicos infligen un 200% de daño adicional a los enemigos dormidos. Cuando termina la duración de dormir de Cae la noche, los objetivos quedan ralentizados un 30% durante 2.5 s.",
+          "fullTooltip": "Los ataques básicos infligen un 200% de daño adicional a los enemigos dormidos. Cuando termina la duración de dormir de Cae la noche, los objetivos quedan ralentizados un 30% durante 3 s.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -28843,7 +28870,7 @@
           },
           "cooldownTooltip": "Tiempo de reutilización: 11 s",
           "shortTooltip": "Otorgas armadura al objetivo.",
-          "fullTooltip": "Otorgas 30 de armadura al héroe aliado seleccionado durante 3 s.",
+          "fullTooltip": "Otorgas 35 de armadura al héroe aliado seleccionado durante 3 s.",
           "abilityType": "W"
         },
         {
@@ -30007,7 +30034,7 @@
           "name": "Avalancha",
           "icon": "storm_ui_icon_mei_r1_avalanche.png",
           "energyTooltip": "Maná: 70",
-          "cooldownTooltip": "Tiempo de reutilización: 65 s",
+          "cooldownTooltip": "Tiempo de reutilización: 70 s",
           "shortTooltip": "Lanzas una enorme bola de nieve que engulle a los héroes.",
           "fullTooltip": "Después de 0.5 s, haces rodar una enorme bola de nieve que engulle a los héroes enemigos a su paso. Al final del recorrido, la bola de nieve se deshace, libera a los héroes engullidos, les inflige 220 (+4% per level) de daño y los aturde durante 0.5 s por cada héroe engullido.",
           "abilityType": "Heroic"
@@ -30018,7 +30045,7 @@
           "name": "Muro de hielo",
           "icon": "storm_ui_icon_mei_r2_icewall.png",
           "energyTooltip": "Maná: 60",
-          "cooldownTooltip": "Tiempo de reutilización: 90 s",
+          "cooldownTooltip": "Tiempo de reutilización: 70 s",
           "shortTooltip": "Atrapas a los enemigos dentro de un muro que corta el paso.",
           "fullTooltip": "Lanzamiento vectorial Tras una demora de 0.75 s, creas un muro infranqueable que atrapa a los héroes enemigos alcanzados durante 2.5 s. Cuando el muro se agota, los héroes atrapados sufren una ralentización de un 75% que se va agotando a lo largo de 3 s.",
           "abilityType": "Heroic"
@@ -30141,7 +30168,7 @@
             "recastCooldown": 2.0
           },
           "shortTooltip": "Aumenta la ralentización de Nieve cegadora y reduce su tiempo de reutilización.",
-          "fullTooltip": "Aumenta la duración de la ralentización de Nieve cegadora en 1.5 s. Cada vez que Ventisca inflige daño a un héroe enemigo, el tiempo de reutilización de Nieve cegadora se reduce en 0.125 s.",
+          "fullTooltip": "Aumenta la duración de la ralentización de Nieve cegadora en 1.5 s. Cada vez que Ventisca inflige daño a un héroe enemigo, el tiempo de reutilización de Nieve cegadora se reduce en 0.25 s.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -30212,7 +30239,7 @@
           "name": "Cristalizar",
           "icon": "storm_ui_icon_mei_trait.png",
           "shortTooltip": "Criónica te otorga armadura antihabilidades.",
-          "fullTooltip": "Reduce el tiempo de reutilización de Criónica en 15 s. Obtienes 50 de armadura antihabilidades mientras Criónica está activo y durante 2 s tras expirar.",
+          "fullTooltip": "Reduce el tiempo de reutilización de Criónica en 10 s. Obtienes 50 de armadura antihabilidades mientras Criónica está activo y durante 1 s tras expirar.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30267,7 +30294,7 @@
           "name": "Avalancha",
           "icon": "storm_ui_icon_mei_r1_avalanche.png",
           "energyTooltip": "Maná: 70",
-          "cooldownTooltip": "Tiempo de reutilización: 65 s",
+          "cooldownTooltip": "Tiempo de reutilización: 70 s",
           "shortTooltip": "Lanzas una enorme bola de nieve que engulle a los héroes.",
           "fullTooltip": "Después de 0.5 s, haces rodar una enorme bola de nieve que engulle a los héroes enemigos a su paso. Al final del recorrido, la bola de nieve se deshace, libera a los héroes engullidos, les inflige 220 (+4% per level) de daño y los aturde durante 0.5 s por cada héroe engullido.",
           "abilityType": "Heroic",
@@ -30283,7 +30310,7 @@
           "name": "Muro de hielo",
           "icon": "storm_ui_icon_mei_r2_icewall.png",
           "energyTooltip": "Maná: 60",
-          "cooldownTooltip": "Tiempo de reutilización: 90 s",
+          "cooldownTooltip": "Tiempo de reutilización: 70 s",
           "shortTooltip": "Atrapas a los enemigos dentro de un muro que corta el paso.",
           "fullTooltip": "Lanzamiento vectorial Tras una demora de 0.75 s, creas un muro infranqueable que atrapa a los héroes enemigos alcanzados durante 2.5 s. Cuando el muro se agota, los héroes atrapados sufren una ralentización de un 75% que se va agotando a lo largo de 3 s.",
           "abilityType": "Heroic",
@@ -30384,7 +30411,7 @@
           "name": "Torrente",
           "icon": "storm_ui_icon_mei_r1_avalanche.png",
           "shortTooltip": "Avalancha lanza Nieve cegadora durante su recorrido.",
-          "fullTooltip": "Mientras se desplaza, Avalancha va lanzando bolas de nieve de Nieve cegadora (sin bonificaciones de talento) por delante de ella.  Pasiva: Reduce el tiempo de reutilización de Avalancha en 25 s.",
+          "fullTooltip": "Mientras se desplaza, Avalancha va lanzando bolas de nieve de Nieve cegadora (sin bonificaciones de talento) por delante de ella.  Pasiva: Reduce el tiempo de reutilización de Avalancha en 30 s.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -30540,7 +30567,7 @@
           "energyTooltip": "Maná: 50",
           "cooldownTooltip": "Tiempo de reutilización: 14 s",
           "shortTooltip": "Infliges daño creciente a los enemigos cercanos.",
-          "fullTooltip": "Aparece un círculo de rayos a tu alrededor durante 2.5 s. Los enemigos que atraviesan el círculo sufren 45 (+4% per level) de daño cada 0.25 s.  Cada vez que Nova de relámpagos golpea a un héroe, su daño aumenta un 3%, hasta un máximo de un 30%.",
+          "fullTooltip": "Aparece un círculo de rayos a tu alrededor durante 2.5 s. Los enemigos que atraviesan el círculo sufren 43 (+4% per level) de daño cada 0.25 s.  Cada vez que Nova de relámpagos golpea a un héroe, su daño aumenta un 3%, hasta un máximo de un 30%.",
           "abilityType": "W"
         },
         {
@@ -30675,7 +30702,7 @@
           "name": "Chispa furiosa",
           "icon": "storm_ui_icon_mephisto_lightning.png",
           "shortTooltip": "Nova de relámpagos inflige más daño.",
-          "fullTooltip": "Cada 3 golpes de Nova de relámpagos contra el mismo objetivo, este sufre 72 (+4% per level) más de daño y tú obtienes 2 de maná.",
+          "fullTooltip": "Cada 3 golpes de Nova de relámpagos contra el mismo objetivo, este sufre 65 (+4% per level) más de daño y tú obtienes 2 de maná.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -30819,7 +30846,7 @@
           "name": "Calavera aberrante",
           "icon": "storm_ui_icon_mephisto_skull.png",
           "shortTooltip": "Misil calavera otorga poder de habilidad.",
-          "fullTooltip": "Golpear a un héroe con Misil calavera otorga un 20% de poder de habilidad durante 6 s.",
+          "fullTooltip": "Golpear a un héroe con Misil calavera otorga un 25% de poder de habilidad durante 6 s.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -31055,7 +31082,7 @@
           "energyTooltip": "Maná: 65",
           "cooldownTooltip": "Tiempo de reutilización: 10 s",
           "shortTooltip": "Curas a los héroes aliados cercanos y les otorgas velocidad de movimiento.",
-          "fullTooltip": "Curas 276 (+4% per level) a los héroes aliados cercanos, y les otorgas un 15% de velocidad de movimiento durante 3 s.",
+          "fullTooltip": "Curas 285 (+4% per level) a los héroes aliados cercanos, y les otorgas un 15% de velocidad de movimiento durante 3 s.",
           "abilityType": "W"
         },
         {
@@ -31481,7 +31508,7 @@
           "name": "Reposo pacífico",
           "icon": "storm_ui_icon_monk_divinepalm.png",
           "shortTooltip": "Si el objetivo no muere, reduce el tiempo de reutilización de Palma divina.",
-          "fullTooltip": "La cantidad de curación de Palma divina aumenta un75%, y el tiempo de reutilización pasa a ser de 5 s si el héroe no muere.",
+          "fullTooltip": "La cantidad de curación de Palma divina aumenta un 75%, y el tiempo de reutilización pasa a ser de 5 s si el héroe no muere.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -31627,7 +31654,7 @@
           "energyTooltip": "Maná: 50",
           "cooldownTooltip": "Tiempo de reutilización: 8 s",
           "shortTooltip": "Ralentizas y dañas a los enemigos cercanos.",
-          "fullTooltip": "Golpeas a los enemigos cercanos, lo que les inflige 96 (+4% per level) de daño y los ralentiza un 25% durante 2.5 s. Reduce un 25% la velocidad de ataque de los héroes golpeados mientras dura.",
+          "fullTooltip": "Golpeas a los enemigos cercanos, lo que les inflige 96 (+4% per level) de daño y los ralentiza un 30% durante 2.5 s. Reduce un 30% la velocidad de ataque de los héroes golpeados mientras dura.",
           "abilityType": "W"
         },
         {
@@ -31824,7 +31851,7 @@
           "name": "Reverberación",
           "icon": "storm_ui_icon_muradin_thunderclap.png",
           "shortTooltip": "Potencia Atronar y tu habilidad heroica.",
-          "fullTooltip": "Aumenta la reducción de la velocidad de ataque de Atronar de un 25% a un 50% y su duración de 2.5 s a 3.5 s. Cada héroe enemigo golpeado reduce el tiempo de reutilización de tu habilidad heroica un 5%.",
+          "fullTooltip": "Aumenta la reducción de la velocidad de ataque de Atronar de un 30% a un 50% y su duración de 2.5 s a 3.5 s. Cada héroe enemigo golpeado reduce el tiempo de reutilización de tu habilidad heroica un 5%.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -32679,7 +32706,7 @@
           "energyTooltip": "Maná: 55",
           "cooldownTooltip": "Tiempo de reutilización: 8 s",
           "shortTooltip": "Lanzas una guadaña que inflige daño a los enemigos al volver a ti.",
-          "fullTooltip": "Invocas una guadaña que se desplaza hasta ti tras 1 s, inflige 200 (+4% per level) de daño a los enemigos y engendra un guerrero esquelético al golpear a héroes enemigos. Estos guerreros no afectan al número máximo de esqueletos de Resucitar esqueleto.",
+          "fullTooltip": "Invocas una guadaña que se desplaza hasta ti tras 1 s, inflige 190 (+4% per level) de daño a los enemigos y engendra un guerrero esquelético al golpear a héroes enemigos. Estos guerreros no afectan al número máximo de esqueletos de Resucitar esqueleto.",
           "abilityType": "Q"
         },
         {
@@ -32739,7 +32766,7 @@
             "countMax": 3
           },
           "shortTooltip": "Engendras guerreros esqueléticos a partir de esbirros.",
-          "fullTooltip": "Cuando un esbirro enemigo cercano muere, se convierte en un guerrero esquelético con 240 (+4% per level) de salud que ataca e inflige 21 (+4% per level) de daño y dura hasta 12 s. Al morir, los guerreros esqueléticos infligen 46 (+4% per level) de daño a los enemigos cercanos. Puede haber hasta 3 guerreros esqueléticos activos a la vez cuando se engendran de esta forma.",
+          "fullTooltip": "Cuando un esbirro enemigo cercano muere, se convierte en un guerrero esquelético con 240 (+4% per level) de salud que ataca e inflige 21 (+4% per level) de daño y dura hasta 12 s. Al morir, los guerreros esqueléticos infligen 40 (+4% per level) de daño a los enemigos cercanos. Puede haber hasta 3 guerreros esqueléticos activos a la vez cuando se engendran de esta forma.",
           "abilityType": "Trait",
           "isActive": false
         }
@@ -32823,7 +32850,7 @@
               "name": "Guadaña espectral",
               "icon": "storm_ui_icon_necromancer_reap.png",
               "shortTooltip": "Lanzas una guadaña que inflige daño a los enemigos al volver a ti.",
-              "fullTooltip": "Invocas una guadaña que se desplaza hasta ti tras 1 s, inflige 200 (+4% per level) de daño a los enemigos y engendra un guerrero esquelético al golpear a héroes enemigos. Estos guerreros no afectan al número máximo de esqueletos de Resucitar esqueleto.",
+              "fullTooltip": "Invocas una guadaña que se desplaza hasta ti tras 1 s, inflige 190 (+4% per level) de daño a los enemigos y engendra un guerrero esquelético al golpear a héroes enemigos. Estos guerreros no afectan al número máximo de esqueletos de Resucitar esqueleto.",
               "abilityType": "Q",
               "isActive": false,
               "isPassive": true
@@ -32926,7 +32953,7 @@
             "countMax": 3
           },
           "shortTooltip": "Misión: Engendra guerreros esqueléticos con Prisión ósea.",
-          "fullTooltip": "Prisión ósea engendra 2 guerreros esqueléticos. Estos guerreros no afectan al número máximo de esqueletos de Resucitar esqueleto.  Misión: Engendra 80 guerreros esqueléticos.  Recompensa: Mientras los guerreros esqueléticos atacan a un enemigo, obtienen un 30% de velocidad de movimiento y de ataque.",
+          "fullTooltip": "Prisión ósea engendra 2 guerreros esqueléticos. Estos guerreros no afectan al número máximo de esqueletos de Resucitar esqueleto.  Misión: Engendra 80 guerreros esqueléticos.  Recompensa: Mientras los guerreros esqueléticos atacan a un enemigo, obtienen un 25% de velocidad de movimiento y de ataque.",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 3,
@@ -33073,7 +33100,7 @@
           "name": "Debilitante",
           "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
           "shortTooltip": "Golpes malditos y los guerreros esqueléticos reducen el daño infligido.",
-          "fullTooltip": "Los héroes enemigos que reciben daño de Golpes malditos o de los guerreros esqueléticos infligen un 40% menos de daño durante 3 s.",
+          "fullTooltip": "Los héroes enemigos que reciben daño de Golpes malditos o de los guerreros esqueléticos infligen un 35% menos de daño durante 3 s.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -33480,7 +33507,7 @@
           "buttonId": "NexusHunterBloodRageHealmonger",
           "name": "Curación sangrienta",
           "icon": "storm_ui_icon_nexushunter_w.png",
-          "shortTooltip": "Ira sangrienta cura más cuando tienes poca salud.",
+          "shortTooltip": "Ira sangrienta cura más cuando el enemigo tiene poca salud.",
           "fullTooltip": "Si Ira sangrienta inflige daño a un héroe enemigo que tenga menos de un 50% de salud, cura 190 (+4% per level) más de salud.",
           "abilityType": "W",
           "sort": 2,
@@ -36681,7 +36708,7 @@
           "energyTooltip": "Maná: 70",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Otorgas velocidad de movimiento, velocidad de ataque y robo de vida a los aliados.",
-          "fullTooltip": "Otorgas a los héroes aliados cercanos un 40% de velocidad de ataque y un 35% de velocidad de movimiento, y haces que se curen un 40% del daño de los ataques básicos que inflijan a su objetivo principal. Dura 8 s.",
+          "fullTooltip": "Otorgas a los héroes aliados cercanos un 40% de velocidad de ataque y un 35% de velocidad de movimiento, y haces que se curen un 30% del daño de los ataques básicos que inflijan a su objetivo principal. Dura 6 s.",
           "abilityType": "Heroic"
         },
         {
@@ -36944,7 +36971,7 @@
           "energyTooltip": "Maná: 70",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Otorgas velocidad de movimiento, velocidad de ataque y robo de vida a los aliados.",
-          "fullTooltip": "Otorgas a los héroes aliados cercanos un 40% de velocidad de ataque y un 35% de velocidad de movimiento, y haces que se curen un 40% del daño de los ataques básicos que inflijan a su objetivo principal. Dura 8 s.",
+          "fullTooltip": "Otorgas a los héroes aliados cercanos un 40% de velocidad de ataque y un 35% de velocidad de movimiento, y haces que se curen un 30% del daño de los ataques básicos que inflijan a su objetivo principal. Dura 6 s.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -38812,10 +38839,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_stitches.png"
     },
     "life": {
-      "amount": 3150.0,
+      "amount": 3060.0,
       "scale": 0.04,
       "type": "Salud",
-      "regenRate": 6.5625,
+      "regenRate": 6.379,
       "regenScale": 0.04
     },
     "energy": {
@@ -38860,10 +38887,10 @@
           "buttonId": "StitchesSlam",
           "name": "Embate",
           "icon": "storm_ui_icon_stitches_slam.png",
-          "energyTooltip": "Maná: 40",
+          "energyTooltip": "Maná: 35",
           "cooldownTooltip": "Tiempo de reutilización: 7 s",
           "shortTooltip": "Dañas y ralentizas a los enemigos en un área.",
-          "fullTooltip": "Infliges 104 (+4% per level) de daño a los enemigos en el área seleccionada. Los enemigos en el área de impacto interna reciben un 40% más de daño y quedan ralentizados un 45% durante 1.5 s.",
+          "fullTooltip": "Infliges 104 (+4% per level) de daño a los enemigos en el área seleccionada. Los enemigos en el área de impacto interna reciben un 40% más de daño y quedan ralentizados un 45% durante 1.5 s. Infliges un 50% de daño adicional a los esbirros y a los mercenarios.",
           "abilityType": "W"
         },
         {
@@ -39184,7 +39211,7 @@
           "name": "Anzuelo",
           "icon": "storm_ui_icon_stitches_hook.png",
           "shortTooltip": "Aumenta el alcance de Gancho.",
-          "fullTooltip": "Gancho tiene un 50% de alcance adicional.",
+          "fullTooltip": "Gancho tiene un 40% de alcance adicional.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -40592,7 +40619,7 @@
           "energyTooltip": "Maná: 100",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Te conviertes en un arconte.",
-          "fullTooltip": "Te transformas en un arconte y obtienes un escudo equivalente a un 40% de tu salud máxima, además de potenciar Haz de resonancia. Dura 12 s.  Haz de resonancia: Inflige 150 (+4% per level) de daño al objetivo y 75 (+4% per level) de daño esparcido a los enemigos cercanos. Se reduce la armadura antihabilidades de los héroes golpeados en 20 durante 2 s. Haz de resonancia está cargado por completo mientras el estado de arconte permanece activo.",
+          "fullTooltip": "Te transformas en un arconte y obtienes un escudo equivalente a un 30% de tu salud máxima, además de potenciar Haz de resonancia. Dura 12 s.  Haz de resonancia: Inflige 150 (+4% per level) de daño al objetivo y 75 (+4% per level) de daño esparcido a los enemigos cercanos. Se reduce la armadura antihabilidades de los héroes golpeados en 20 durante 2 s. Haz de resonancia está cargado por completo mientras el estado de arconte permanece activo.",
           "abilityType": "Heroic"
         },
         {
@@ -40687,7 +40714,7 @@
               "name": "Arconte",
               "icon": "storm_ui_icon_tassadar_archon.png",
               "shortTooltip": "Te conviertes en un arconte.",
-              "fullTooltip": "Te transformas en un arconte y obtienes un escudo equivalente a un 40% de tu salud máxima, además de potenciar Haz de resonancia. Dura 12 s.  Haz de resonancia: Inflige 150 (+4% per level) de daño al objetivo y 75 (+4% per level) de daño esparcido a los enemigos cercanos. Se reduce la armadura antihabilidades de los héroes golpeados en 20 durante 2 s. Haz de resonancia está cargado por completo mientras el estado de arconte permanece activo.",
+              "fullTooltip": "Te transformas en un arconte y obtienes un escudo equivalente a un 30% de tu salud máxima, además de potenciar Haz de resonancia. Dura 12 s.  Haz de resonancia: Inflige 150 (+4% per level) de daño al objetivo y 75 (+4% per level) de daño esparcido a los enemigos cercanos. Se reduce la armadura antihabilidades de los héroes golpeados en 20 durante 2 s. Haz de resonancia está cargado por completo mientras el estado de arconte permanece activo.",
               "abilityType": "Heroic",
               "isActive": false,
               "isPassive": true
@@ -40818,7 +40845,7 @@
           "name": "Alineación de haz",
           "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
           "shortTooltip": "Haz de resonancia reduce el tiempo de reutilización de Rayo de descarga.",
-          "fullTooltip": "Mientras Haz de resonancia está cargado por completo, el alcance de tus ataques básicos aumenta en 1 y el tiempo de reutilización de Rayo de descarga se recarga un 100% más rápido.",
+          "fullTooltip": "Reduce el coste de maná de Rayo de descarga de 55 a 45. Mientras Haz de resonancia está cargado por completo, el tiempo de reutilización de Rayo de descarga se recarga un 100% más rápido.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -40845,7 +40872,7 @@
           "name": "Descarga en arco",
           "icon": "storm_ui_icon_tassadar_rework_trait.png",
           "shortTooltip": "Haz de resonancia crea tormentas psiónicas.",
-          "fullTooltip": "Cuando Haz de resonancia esté cargado por completo, la próxima vez que inflija daño se generará una tormenta psiónica sobre el objetivo. Este efecto tiene un tiempo de reutilización de 20 s, que se reduce el doble de rápido mientras Haz de resonancia esté cargado por completo.",
+          "fullTooltip": "Cuando Haz de resonancia está cargado por completo, el alcance de tu ataque básico aumenta en 1, y la próxima vez que Haz de resonancia inflija daño se generará una tormenta psiónica sobre el objetivo.  Este efecto tiene un tiempo de reutilización de 20 s, que se reduce el doble de rápido mientras Haz de resonancia está cargado por completo.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -40863,7 +40890,7 @@
           "energyTooltip": "Maná: 100",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Te conviertes en un arconte.",
-          "fullTooltip": "Te transformas en un arconte y obtienes un escudo equivalente a un 40% de tu salud máxima, además de potenciar Haz de resonancia. Dura 12 s.  Haz de resonancia: Inflige 150 (+4% per level) de daño al objetivo y 75 (+4% per level) de daño esparcido a los enemigos cercanos. Se reduce la armadura antihabilidades de los héroes golpeados en 20 durante 2 s. Haz de resonancia está cargado por completo mientras el estado de arconte permanece activo.",
+          "fullTooltip": "Te transformas en un arconte y obtienes un escudo equivalente a un 30% de tu salud máxima, además de potenciar Haz de resonancia. Dura 12 s.  Haz de resonancia: Inflige 150 (+4% per level) de daño al objetivo y 75 (+4% per level) de daño esparcido a los enemigos cercanos. Se reduce la armadura antihabilidades de los héroes golpeados en 20 durante 2 s. Haz de resonancia está cargado por completo mientras el estado de arconte permanece activo.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -43286,7 +43313,7 @@
           "name": "Soldado implacable",
           "icon": "storm_ui_icon_talent_relentless.png",
           "shortTooltip": "Los aturdimientos y las inmovilizaciones otorgan armadura.",
-          "fullTooltip": "Estar aturdido o inmovilizado te otorga 25 de armadura durante 3 s, lo que reduce un 25% el daño que sufres.",
+          "fullTooltip": "Estar aturdido o inmovilizado te otorga 30 de armadura durante 3 s, lo que reduce un 30% el daño que sufres.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -43327,6 +43354,19 @@
       ],
       "level13": [
         {
+          "nameId": "TychusMasterySprayNPray",
+          "buttonId": "TychusOverkillSprayNPrayTalent",
+          "name": "Dispara y corre",
+          "icon": "storm_ui_icon_tychus_overkill.png",
+          "shortTooltip": "Exterminar tiene más alcance y ralentiza.",
+          "fullTooltip": "Exterminar tiene un 25% más de alcance y ralentiza la velocidad de movimiento del enemigo un 25%.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TychusOverkillTargeted"
+          ]
+        },
+        {
           "nameId": "TychusThatsTheStuff",
           "buttonId": "TychusThatsTheStuff",
           "name": "¡De lujo!",
@@ -43334,7 +43374,7 @@
           "shortTooltip": "El daño de Ametralladora te cura.",
           "fullTooltip": "Ametralladora te cura un 100% del daño adicional infligido tras expirar.",
           "abilityType": "Trait",
-          "sort": 1,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "TychusMinigun",
             "TychusMinigunActive"
@@ -43347,63 +43387,51 @@
           "icon": "storm_temp_btn-upgrade-terran-neosteelframe.png",
           "cooldownTooltip": "Tiempo de reutilización: 30 s",
           "shortTooltip": "Actívalo para obtener armadura antihabilidades.",
-          "fullTooltip": "Actívalo para obtener 75 de armadura antihabilidades durante 3 s, lo que reduce un 75% el daño que te infligen las habilidades.",
+          "fullTooltip": "Actívalo para obtener 75 de armadura antihabilidades durante 4 s, lo que reduce un 75% el daño que te infligen las habilidades.",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 2
-        },
-        {
-          "nameId": "TychusMasterySprayNPray",
-          "buttonId": "TychusOverkillSprayNPrayTalent",
-          "name": "Dispara y corre",
-          "icon": "storm_ui_icon_tychus_overkill.png",
-          "shortTooltip": "Aumenta el alcance de Exterminar.",
-          "fullTooltip": "Aumenta el alcance de Exterminar un 25%.",
-          "abilityType": "Q",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "TychusOverkillTargeted"
-          ]
+          "sort": 3
         }
       ],
       "level16": [
+        {
+          "nameId": "TychusMasteryOverkillArmorPiercingRounds",
+          "buttonId": "TychusOverkillArmorPiercingRoundsTalent",
+          "name": "Munición perforante",
+          "icon": "storm_ui_icon_tychus_overkill.png",
+          "shortTooltip": "Los golpes consecutivos de Exterminar aumentan su daño.",
+          "fullTooltip": "Cada vez que Exterminar golpea a un enemigo, su daño contra este aumenta un 15%, hasta un máximo de un 60% de daño adicional.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TychusOverkillTargeted"
+          ]
+        },
         {
           "nameId": "TychusMasteryFragGrenadeTitanGrenade",
           "buttonId": "TychusFragGrenadeTitanGrenadeTalent",
           "name": "Granada titánica",
           "icon": "storm_ui_icon_tychus_fraggrenade.png",
           "shortTooltip": "Aumenta el daño de Granada de fragmentación contra héroes.",
-          "fullTooltip": "Granada de fragmentación inflige un 5% de la salud máxima del héroe enemigo como daño adicional.",
+          "fullTooltip": "Granada de fragmentación inflige un 5% de la salud máxima del héroe enemigo como daño adicional. Cada héroe enemigo golpeado por Granada de fragmentación reduce su tiempo de reutilización 1 s.",
           "abilityType": "W",
-          "sort": 1,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "TychusGrenade"
           ]
         },
         {
-          "nameId": "TychusMasteryLeadRain",
-          "buttonId": "TychusOverkillLeadRainTalent",
-          "name": "Lluvia de plomo",
-          "icon": "storm_ui_icon_tychus_overkill.png",
-          "shortTooltip": "Exterminar ralentiza a los objetivos.",
-          "fullTooltip": "Exterminar también reduce la velocidad de movimiento de los enemigos un 30%.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "TychusOverkillTargeted"
-          ]
-        },
-        {
-          "nameId": "TychusMasteryOverkillArmorPiercingRounds",
-          "buttonId": "TychusOverkillArmorPiercingRoundsTalent",
-          "name": "Munición perforante",
-          "icon": "storm_ui_icon_tychus_overkill_a.png",
-          "shortTooltip": "Aumenta el daño de Exterminar contra el objetivo principal.",
-          "fullTooltip": "Aumenta el daño al objetivo principal de Exterminar un 50%.",
-          "abilityType": "Q",
+          "nameId": "TychusSizzlinAttacks",
+          "buttonId": "TychusSizzlinAttacks",
+          "name": "Ataques fulminantes",
+          "icon": "storm_ui_icon_talent_autoattack_damage.png",
+          "shortTooltip": "Los ataques básicos infligen más daño a héroes.",
+          "fullTooltip": "Los ataques básicos infligen un daño adicional a los héroes equivalente a un 1% de su salud máxima. Se acumula con Ametralladora.",
+          "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TychusOverkillTargeted"
+            "TychusMinigun",
+            "TychusMinigunActive"
           ]
         }
       ],
@@ -43442,17 +43470,16 @@
           ]
         },
         {
-          "nameId": "TychusSizzlinAttacks",
-          "buttonId": "TychusSizzlinAttacks",
-          "name": "Ataques fulminantes",
-          "icon": "storm_ui_icon_talent_autoattack_damage.png",
-          "shortTooltip": "Los ataques básicos infligen más daño a héroes.",
-          "fullTooltip": "Los ataques básicos infligen un daño adicional a los héroes equivalente a un 1% de su salud máxima. Se acumula con Ametralladora.",
-          "abilityType": "Trait",
+          "nameId": "TychusCanDoThisAllDayOverkillTalent",
+          "buttonId": "TychusOverkillCanDoThisAllDayTalent",
+          "name": "Incansable",
+          "icon": "storm_ui_icon_tychus_overkill.png",
+          "shortTooltip": "Reduce el tiempo de reutilización de Exterminar y otorga armadura.",
+          "fullTooltip": "Reduce el tiempo de reutilización de Exterminar en 4 s. Mientras canalizas Exterminar, obtienes 40 de armadura.",
+          "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TychusMinigun",
-            "TychusMinigunActive"
+            "TychusOverkillTargeted"
           ]
         },
         {
@@ -46689,7 +46716,7 @@
           "icon": "storm_ui_icon_whitemane_desperation.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Desesperación cura a los aliados con Fervor.",
-          "fullTooltip": "Al alcanzar 3 acumulaciones de Desesperación, todos los aliados con Fervor se curan 175 (+4% per level) de salud. Ahora, activar Fervor con 3 acumulaciones de Desesperación aumenta tu armadura en 10 en vez de reducirla.",
+          "fullTooltip": "Al alcanzar 3 acumulaciones de Desesperación, todos los aliados con Fervor se curan 175 (+4% per level) de salud. Ahora, activar Fervor con 3 acumulaciones de Desesperación aumenta la armadura en 10 en vez de reducirla.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -48243,7 +48270,7 @@
           "name": "Luz de Karabor",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "Aumenta el radio de Vindicación y su curación.",
-          "fullTooltip": "Aumenta el radio de Vindicación un 15%. Golpear a un héroe enemigo aumenta la curación de Vindicación un 40%. Si se golpea a más de un héroe, la bonificación aumenta a un 80%.",
+          "fullTooltip": "Aumenta el radio de Vindicación un 15%. Golpear a un héroe enemigo aumenta la curación de Vindicación un 45%. Si se golpea a más de un héroe, la bonificación aumenta a un 90%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -48257,7 +48284,7 @@
           "name": "Valerosa",
           "icon": "storm_ui_icon_talent_abilitytalent_armor.png",
           "shortTooltip": "Usar habilidades básicas te otorga armadura antiataques.",
-          "fullTooltip": "Lanzar una habilidad básica te otorga 50 de armadura antiataques durante 2.5 s.",
+          "fullTooltip": "Lanzar una habilidad básica te otorga 40 de armadura antiataques durante 2.5 s.",
           "abilityType": "Passive",
           "sort": 2
         },
@@ -48267,7 +48294,7 @@
           "name": "Perspicacia de Maraad",
           "icon": "storm_ui_icon_talent_autoattack_heal.png",
           "shortTooltip": "Los ataques básicos te curan al usarlos después de una habilidad básica.",
-          "fullTooltip": "Tras infligir daño a un héroe enemigo con una habilidad básica, tu siguiente ataque básico te cura 128 (+4% per level) de salud.",
+          "fullTooltip": "Tras infligir daño a un héroe enemigo con una habilidad básica, tu siguiente ataque básico te cura 135 (+4% per level) de salud.",
           "abilityType": "Passive",
           "sort": 3
         }

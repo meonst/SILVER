@@ -1968,10 +1968,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_d2amazonf.png"
     },
     "life": {
-      "amount": 1700.0,
+      "amount": 1660.0,
       "scale": 0.04,
       "type": "Vie",
-      "regenRate": 3.539,
+      "regenRate": 3.457,
       "regenScale": 0.04
     },
     "energy": {
@@ -1994,14 +1994,14 @@
         "nameId": "AmazonHeroWeaponMelee",
         "range": 2.0,
         "period": 0.9,
-        "damage": 130.0,
+        "damage": 125.0,
         "damageScale": 0.04
       },
       {
         "nameId": "AmazonHeroWeaponRanged",
         "range": 4.5,
         "period": 0.9,
-        "damage": 130.0,
+        "damage": 125.0,
         "damageScale": 0.04
       }
     ],
@@ -2213,7 +2213,7 @@
           "name": "Frappes survoltées",
           "icon": "storm_ui_icon_cassia_new_chargedstrikes.png",
           "shortTooltip": "Augmente la vitesse d’attaque et les dégâts des rebonds.",
-          "fullTooltip": "Augmente la vitesse d’attaque de 20%. Toutes les 3 attaques de base, inflige 20% de dégâts supplémentaires et rebondit sur les héros adverses proches.",
+          "fullTooltip": "Augmente la vitesse d’attaque de 15%. Toutes les 3 attaques de base, inflige 15% de dégâts supplémentaires et rebondit sur les héros adverses proches.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -2225,7 +2225,7 @@
           "name": "Armure de la baleine",
           "icon": "storm_ui_icon_cassia_avoidance_b.png",
           "shortTooltip": "Fluidité rend des points de vie.",
-          "fullTooltip": "Rend 7 (+4% per level) points de vie par seconde tant que Fluidité est active. Si elle est chargée au maximum, rend 14 (+4% per level) points de vie supplémentaires par seconde.",
+          "fullTooltip": "Rend 6 (+4% per level) points de vie par seconde tant que Fluidité est active. Si elle est chargée au maximum, rend 12 (+4% per level) points de vie supplémentaires par seconde.",
           "abilityType": "Trait",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -2247,7 +2247,7 @@
           "nameId": "AmazonInnerLight",
           "buttonId": "AmazonLightningFuryInnerLight",
           "name": "Radiance",
-          "icon": "storm_ui_icon_cassia_lightningfury.png",
+          "icon": "storm_ui_icon_cassia_innerlight.png",
           "cooldownTooltip": "Temps de recharge : 70 secondes",
           "shortTooltip": "Rend des points de vie.",
           "fullTooltip": "Rend 25% du maximum de points de vie en 5 secondes. Les héros adverses touchés par Javelot foudroyant réduisent le temps de recharge de cette capacité de 10 secondes.",
@@ -2300,7 +2300,7 @@
           "icon": "storm_ui_icon_cassia_avoidance_b.png",
           "toggleCooldown": 0.25,
           "shortTooltip": "Activer Fluidité inflige des dégâts.",
-          "fullTooltip": "Une fois 500 (+4% per level) points de dégâts subis alors que Fluidité est active, Cassia peut activer Fluidité pour infliger 300 (+4% per level) points de dégâts aux ennemis autour d’elle.",
+          "fullTooltip": "Une fois 500 (+4% per level) points de dégâts subis alors que Fluidité est active, Cassia peut activer Fluidité pour infliger 285 (+4% per level) points de dégâts aux ennemis autour d’elle.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -8512,20 +8512,6 @@
           ]
         },
         {
-          "nameId": "ChoFuelForTheFlame",
-          "buttonId": "ChoFuelForTheFlameTalent",
-          "name": "De l’huile sur le feu",
-          "icon": "storm_ui_icon_cho_consumingflame_var1.png",
-          "shortTooltip": "Quête : faire des victimes renforce Flambée dévorante.",
-          "fullTooltip": "Quête : chaque serviteur tué à proximité de Cho augmente le montant de points de vie rendus par Flambée dévorante de 0.3%.  Quête : chaque héros tué augmente le montant de points de vie rendu par Flambée dévorante de 3%.",
-          "abilityType": "W",
-          "isQuest": true,
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "ChoConsumingBlaze"
-          ]
-        },
-        {
           "nameId": "ChoCallousedHide",
           "buttonId": "ChoCallousedHide",
           "name": "Peau calleuse",
@@ -8533,6 +8519,21 @@
           "shortTooltip": "Augmente les soins quand les points de vie sont bas et la vitesse de déplacement.",
           "fullTooltip": "À moins de 60% de son maximum de points de vie, la vitesse de déplacement et les soins reçus par Cho augmentent de 15%.",
           "abilityType": "Trait",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ChoOgreHidePassive",
+            "ChoOgreHide"
+          ]
+        },
+        {
+          "nameId": "ChoTheWillofCho",
+          "buttonId": "ChoTheWillofCho",
+          "name": "Volonté de Cho",
+          "icon": "storm_ui_icon_cho_ogrehide_var1.png",
+          "shortTooltip": "Tuer des serviteurs et des héros confère de l’armure.",
+          "fullTooltip": "Quête : tuer des serviteurs adverses confère 1 charge de Volonté de Cho, et tuer des héros confère 10 charges. Confère 1 points d’armure toutes les 30 charges cumulées de Volonté de Cho, jusqu’à un maximum de 10 points d’armure.  Ce bonus à l’armure se cumule avec Peau d’ogre.",
+          "abilityType": "Trait",
+          "isQuest": true,
           "sort": 3,
           "abilityTalentLinkIds": [
             "ChoOgreHidePassive",
@@ -8547,7 +8548,7 @@
           "name": "Uppercut",
           "icon": "storm_ui_icon_cho_moltensurge_a.png",
           "shortTooltip": "Augmente les dégâts de Poing rageur.",
-          "fullTooltip": "Poing rageur inflige aux héros un montant de dégâts supplémentaire équivalent à 7% de leur maximum de points de vie.",
+          "fullTooltip": "Toucher un héros adverse avec Poing rageur inflige aux héros un montant de dégâts supplémentaire équivalent à 5% de leur maximum de points de vie et réduit le temps de recharge de Poing rageur de 5 secondes.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -8574,7 +8575,7 @@
           "name": "Chair à vif",
           "icon": "storm_ui_icon_talent_autoattack_damage.png",
           "shortTooltip": "Les attaques de base consécutives infligent des dégâts supplémentaires.",
-          "fullTooltip": "Chaque attaque de base consécutive portée à un héros adverse inflige 20% de dégâts supplémentaires, jusqu’à un maximum de 60%. Ce bonus dure 5 secondes ou jusqu’à ce qu’un ennemi différent soit attaqué.",
+          "fullTooltip": "Chaque attaque de base consécutive portée aux héros adverses inflige 20% de dégâts supplémentaires, jusqu’à un maximum de 60%. Ce bonus dure 5 secondes ou jusqu’à ce qu’un ennemi non héroïque soit attaqué.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -8585,8 +8586,8 @@
           "buttonId": "ChoPowerSurgeTalent",
           "name": "La rage au poing",
           "icon": "storm_ui_icon_cho_moltensurge_a.png",
-          "shortTooltip": "Réduit le temps de recharge de Poing rageur lorsqu’il touche des héros.",
-          "fullTooltip": "Réduit le temps de recharge de Poing rageur de 5 secondes pour chaque héros touché.",
+          "shortTooltip": "Poing rageur ralentit les héros adverses.",
+          "fullTooltip": "Les héros adverses touchés par Poing rageur sont ralentis de 30% pendant 2.5 secondes. La vitesse de déplacement augmente de 15% pendant la charge de Poing rageur, et durant 2.5 secondes après l’utilisation de la capacité.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -8729,7 +8730,7 @@
           "name": "Gantelet runique",
           "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
           "shortTooltip": "Les attaques de base réduisent les temps de recharge des capacités héroïques.",
-          "fullTooltip": "Les attaques de base réduisent de 5% les temps de recharge des capacités héroïques de Cho et de Gall.",
+          "fullTooltip": "Les attaques de base réduisent de 6% les temps de recharge des capacités héroïques de Cho et de Gall.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -8768,17 +8769,16 @@
           ]
         },
         {
-          "nameId": "ChoTheWillofCho",
-          "buttonId": "ChoTheWillofCho",
-          "name": "Volonté de Cho",
-          "icon": "storm_ui_icon_cho_ogrehide.png",
-          "shortTooltip": "Faire des victimes augmente l’armure conférée par Peau d’ogre.",
-          "fullTooltip": "Faire des victimes augmente de 2 points, et de manière permanente, l’armure conférée par Peau d’ogre, jusqu’à un maximum de 50 points supplémentaires.",
-          "abilityType": "Trait",
+          "nameId": "ChoFuelForTheFlame",
+          "buttonId": "ChoFuelForTheFlameTalent",
+          "name": "De l’huile sur le feu",
+          "icon": "storm_ui_icon_talent_autoattack_damage.png",
+          "shortTooltip": "Les attaques de base explosent et infligent des dégâts.",
+          "fullTooltip": "Les attaques de base portées aux ennemis les font exploser, leur infligeant 21 (+4% per level) points de dégâts et 45 (+4% per level) points de dégâts aux ennemis proches. Ce montant est doublé contre les héros adverses.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChoOgreHidePassive",
-            "ChoOgreHide"
+            "ChoOgreHidePassive"
           ]
         },
         {
@@ -9503,7 +9503,7 @@
           "buttonId": "CrusaderIronSkin",
           "name": "Galvanisation",
           "icon": "storm_ui_icon_johanna_iron_skin.png",
-          "cooldownTooltip": "Temps de recharge : 20 secondes",
+          "cooldownTooltip": "Temps de recharge : 25 secondes",
           "shortTooltip": "Rend insensible aux effets de contrôle et confère un bouclier.",
           "fullTooltip": "À l’activation, Johanna obtient un bouclier qui absorbe 674 (+4% per level) points de dégâts pendant 4 secondes. Tant que le bouclier est actif, elle est insensible aux effets de contrôle.",
           "abilityType": "Trait"
@@ -9825,7 +9825,7 @@
           "name": "Foi rayonnante",
           "icon": "storm_ui_icon_johanna_blessed_shield.png",
           "shortTooltip": "Augmente la durée d'étourdissement et le nombre maximum de cibles de Bouclier divin.",
-          "fullTooltip": "Augmente le nombre d’ennemis touchés par Bouclier divin de 2. La durée d’étourdissement du bouclier est portée à 2 secondes et toutes les cibles touchées sont étourdies pour la durée maximum.",
+          "fullTooltip": "Augmente le nombre d’ennemis touchés par Bouclier divin de 2. La durée d’étourdissement du bouclier est portée à 1.75 secondes et toutes les cibles touchées sont étourdies pour la durée maximum.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -12167,8 +12167,8 @@
           "buttonId": "DiabloShadowCharge",
           "name": "Charge d’ombre",
           "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
-          "energyTooltip": "Mana : 70",
-          "cooldownTooltip": "Temps de recharge : 13 secondes",
+          "energyTooltip": "Mana : 65",
+          "cooldownTooltip": "Temps de recharge : 12 secondes",
           "shortTooltip": "Charge sur une cible et la repousse.",
           "fullTooltip": "Charge sur un ennemi, le repousse, lui inflige 40 (+4% per level) points de dégâts et augmente la vitesse de déplacement de 15% pendant 2 secondes. Si l’ennemi chargé percute un obstacle, il est étourdi pendant 1 seconde et subit 130 (+4% per level) points de dégâts supplémentaires.",
           "abilityType": "Q"
@@ -12189,7 +12189,7 @@
           "buttonId": "DiabloOverpower",
           "name": "Correction",
           "icon": "storm_ui_icon_diablo_overpower_var1.png",
-          "energyTooltip": "Mana : 40",
+          "energyTooltip": "Mana : 35",
           "charges": {
             "countMax": 1,
             "countUse": 1,
@@ -12197,7 +12197,7 @@
             "hideCount": true,
             "recastCooldown": 2.0
           },
-          "cooldownTooltip": "Temps de recharge : 13 secondes",
+          "cooldownTooltip": "Temps de recharge : 12 secondes",
           "shortTooltip": "Saisit un ennemi et le jette au sol derrière soi pour l’étourdir et lui infliger des dégâts.",
           "fullTooltip": "Saisit la cible et l’écrase derrière Diablo, lui inflige 73 (+4% per level) points de dégâts et l’étourdit pendant 0.25 seconde.",
           "abilityType": "E"
@@ -12389,7 +12389,7 @@
           "name": "Siphon de vie",
           "icon": "storm_ui_icon_talent_autoattack_heal.png",
           "shortTooltip": "Les attaques de base confèrent des âmes et rendent des points de vie.",
-          "fullTooltip": "Diablo obtient 1 âme et récupère 1.5% de son maximum de points de vie pour chaque attaque de base portée à un héros adverse. Une fois 100 âmes collectées, ce montant est porté à 3% du maximum de points de vie de Diablo.",
+          "fullTooltip": "Diablo obtient 1 âme et récupère 2% de son maximum de points de vie pour chaque attaque de base portée à un héros adverse. Une fois 100 âmes collectées, ce montant est porté à 4% du maximum de points de vie de Diablo.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -12493,7 +12493,7 @@
           "name": "Feu de l’enfer",
           "icon": "storm_ui_icon_diablo_firestomp.png",
           "shortTooltip": "Choc infernal confère de la puissance de capacité.",
-          "fullTooltip": "Chaque fois que Diablo touche un héros adverse avec Choc infernal, sa puissance de capacité augmente de 2%, jusqu’à un maximum de 30%, pendant 10 secondes. Une fois ce maximum atteint, Diablo inflige 15 (+4% per level) points de dégâts par seconde aux ennemis proches.",
+          "fullTooltip": "Chaque fois que Diablo touche un héros adverse avec Choc infernal, sa puissance de capacité augmente de 2%, jusqu’à un maximum de 30%, pendant 10 secondes. Une fois ce maximum atteint, Diablo inflige 17 (+4% per level) points de dégâts par seconde aux ennemis proches.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -15796,7 +15796,7 @@
           "icon": "storm_ui_icon_blaze_stim_2.png",
           "cooldownTooltip": "Temps de recharge : 30 secondes",
           "shortTooltip": "Augmente les vitesses d’attaque et de déplacement.",
-          "fullTooltip": "Augmente la vitesse d’attaque de 100% et la vitesse de déplacement de 25% pendant 5 secondes.",
+          "fullTooltip": "Effet passif : lorsque les points de vie sont supérieurs à 80%, confère une augmentation de la vitesse d’attaque de 25% et de la vitesse de déplacement de 10%.  À l'activation, augmente la vitesse d’attaque de 100% et la vitesse de déplacement de 25% pendant 5 secondes.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 1
@@ -15806,9 +15806,9 @@
           "buttonId": "FirebatEnduranceStimpack",
           "name": "Stimulants bestiaux",
           "icon": "storm_ui_icon_blaze_stim_1.png",
-          "cooldownTooltip": "Temps de recharge : 40 secondes",
+          "cooldownTooltip": "Temps de recharge : 30 secondes",
           "shortTooltip": "Confère un bouclier.",
-          "fullTooltip": "Confère un bouclier capable d’absorber 480 (+4% per level) points de dégâts en 5 secondes.",
+          "fullTooltip": "Confère un bouclier capable d’absorber 480 (+4% per level) points de dégâts en 5 secondes.  Lorsque les points de vie sont inférieurs à 30% de leur maximum, Stimulants bestiaux est automatiquement utilisé s’il n’est pas en cours de recharge.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 2
@@ -15820,7 +15820,7 @@
           "icon": "storm_ui_icon_blaze_stim_3.png",
           "cooldownTooltip": "Temps de recharge : 40 secondes",
           "shortTooltip": "Activer permet d’augmenter la vitesse d’écoulement du temps de recharge.",
-          "fullTooltip": "Confère 30 points de mana et accélère l’écoulement des temps de recharge des capacités de base de 100% pendant 5 secondes.",
+          "fullTooltip": "Confère 40 points de mana et accélère l’écoulement des temps de recharge des capacités de base de 100% pendant 5 secondes.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -15842,29 +15842,10 @@
       ],
       "level4": [
         {
-          "nameId": "FirebatOilSpillAdhesivePetroleum",
-          "buttonId": "FirebatOilSpillAdhesivePetroleum",
-          "name": "Haute viscosité",
-          "icon": "storm_ui_icon_blaze_oil.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "Flaque d’huile ralentit quand elle est enflammée.",
-          "fullTooltip": "Les ennemis se trouvant dans une flaque d’huile au moment où elle est enflammée sont ralentis de 30% pendant 2.5 secondes.",
-          "abilityType": "W",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "FirebatOilSpill"
-          ]
-        },
-        {
           "nameId": "FirebatOilSpillOilDispersal",
           "buttonId": "FirebatOilSpillOilDispersal",
           "name": "Tache d’huile",
-          "icon": "storm_ui_icon_blaze_oil_b.png",
+          "icon": "storm_ui_icon_blaze_oil.png",
           "charges": {
             "countMax": 2,
             "countUse": 1,
@@ -15874,7 +15855,7 @@
           "shortTooltip": "Augmente l’étendue de Flaque d’huile.",
           "fullTooltip": "Augmente l’étendue de Flaque d’huile de 20%. Chaque héros adverse touché par Flambée réduit le temps de recharge de Flaque d’huile de 1 seconde et rend 5 points de mana.",
           "abilityType": "W",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "FirebatOilSpill"
           ]
@@ -15885,12 +15866,22 @@
           "name": "Pyrofusion",
           "icon": "storm_ui_icon_blaze_pyromania.png",
           "shortTooltip": "Mise à feu réduit les dégâts infligés par les ennemis.",
-          "fullTooltip": "Toucher un héros adverse avec Mise à feu réduit les dégâts qu’il inflige de 7% pendant 2.5 secondes, jusqu’à un maximum de 35%.",
+          "fullTooltip": "Toucher un héros adverse avec Mise à feu réduit les dégâts qu’il inflige de 8% pendant 2.5 secondes, jusqu’à un maximum de 40%.",
           "abilityType": "Trait",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "FirebatIgnite"
           ]
+        },
+        {
+          "nameId": "FirebatWeaponIncineratorGauntlets",
+          "buttonId": "FirebatWeaponIncineratorGauntlets",
+          "name": "Gants incinérateurs",
+          "icon": "storm_ui_icon_talent_autoattack_slow.png",
+          "shortTooltip": "Les attaques de base infligent des dégâts supplémentaires aux cibles non héroïques.",
+          "fullTooltip": "Augmente la zone d’effet des attaques de base de 15% et les dégâts qu’elles infligent aux serviteurs, mercenaires et monstres de 70%.",
+          "abilityType": "Passive",
+          "sort": 3
         }
       ],
       "level7": [
@@ -15928,14 +15919,23 @@
           ]
         },
         {
-          "nameId": "FirebatWeaponIncineratorGauntlets",
-          "buttonId": "FirebatWeaponIncineratorGauntlets",
-          "name": "Gants incinérateurs",
-          "icon": "storm_ui_icon_talent_autoattack_slow.png",
-          "shortTooltip": "Les attaques de base enflamment les flaques d’huile et leur zone d’impact augmente.",
-          "fullTooltip": "Augmente la zone d’effet des attaques de base de 15% et les dégâts qu’elles infligent aux serviteurs, mercenaires et monstres de 70%. Permet aux attaques de base d’enflammer les flaques d’huile.",
-          "abilityType": "Passive",
-          "sort": 3
+          "nameId": "FirebatOilSpillAdhesivePetroleum",
+          "buttonId": "FirebatOilSpillAdhesivePetroleum",
+          "name": "Haute viscosité",
+          "icon": "storm_ui_icon_blaze_oil_b.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 1.0
+          },
+          "shortTooltip": "Flaque d’huile ralentit quand elle est enflammée.",
+          "fullTooltip": "Les ennemis se trouvant dans une flaque d’huile au moment où elle est enflammée sont ralentis de 35% pendant 3 secondes. Permet aux attaques de base d’enflammer les flaques d’huile.",
+          "abilityType": "W",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "FirebatOilSpill"
+          ]
         }
       ],
       "level10": [
@@ -16169,6 +16169,16 @@
           "abilityType": "Q"
         },
         {
+          "nameId": "GallDoubleBack",
+          "buttonId": "GallDoubleBackAbility",
+          "name": "Un pas en arrière",
+          "icon": "storm_ui_icon_gall_chaoscollision.png",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "Activer pour inverser la trajectoire du troisième rebond d’Orbe funeste.",
+          "fullTooltip": "Activer pour inverser la trajectoire du troisième rebond.",
+          "abilityType": "W"
+        },
+        {
           "nameId": "GallDreadOrb",
           "buttonId": "GallDreadOrb",
           "name": "Orbe funeste",
@@ -16304,20 +16314,6 @@
             }
           ]
         },
-        "GallDoubleBack|GallDoubleBackTalent": {
-          "basic": [
-            {
-              "nameId": "GallDoubleBack",
-              "buttonId": "GallDoubleBackAbility",
-              "name": "Un pas en arrière",
-              "icon": "storm_ui_icon_gall_chaoscollision.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "Activer pour inverser la trajectoire du troisième rebond d’Orbe funeste.",
-              "fullTooltip": "Activer pour inverser la trajectoire du troisième rebond.",
-              "abilityType": "W"
-            }
-          ]
-        },
         "GallOgreRage|GallOgreRageActivated|Trait": {
           "trait": [
             {
@@ -16379,12 +16375,12 @@
       ],
       "level4": [
         {
-          "nameId": "GallDoubleBack",
-          "buttonId": "GallDoubleBackTalent",
-          "name": "Un pas en arrière",
+          "nameId": "GallRisingDread",
+          "buttonId": "GallRisingDreadTalent",
+          "name": "Rebond funeste",
           "icon": "storm_ui_icon_gall_chaoscollision.png",
-          "shortTooltip": "Réactiver Orbe funeste pour inverser la trajectoire de son troisième rebond.",
-          "fullTooltip": "Activer Orbe funeste avant la fin du second rebond inverse la trajectoire du troisième rebond.  Effet passif : le troisième rebond d’Orbe funeste inflige 50% de dégâts supplémentaires aux héros et 200% de dégâts supplémentaires aux cibles non héroïques.",
+          "shortTooltip": "Augmente les dégâts et l’aire d’effet d’Orbe funeste.",
+          "fullTooltip": "Chaque rebond d’Orbe funeste augmente son aire d’effet de 25% et ses dégâts de 25%. Activer Orbe funeste avant la fin du second rebond inverse la trajectoire du troisième rebond.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -16511,16 +16507,16 @@
           ]
         },
         {
-          "nameId": "GallRisingDread",
-          "buttonId": "GallRisingDreadTalent",
-          "name": "Rebond funeste",
-          "icon": "storm_ui_icon_gall_chaoscollision.png",
-          "shortTooltip": "Augmente les dégâts et l’aire d’effet d’Orbe funeste.",
-          "fullTooltip": "Chaque rebond d’Orbe funeste augmente son aire d’effet de 25% et ses dégâts de 25%.",
-          "abilityType": "W",
+          "nameId": "GallPsychoticBreak",
+          "buttonId": "GallPsychoticBreakTalent",
+          "name": "Acharnement psychotique",
+          "icon": "storm_ui_icon_gall_psychoticbreak.png",
+          "shortTooltip": "Augmente les dégâts contre les héros, et peut lancer des capacités après la mort.",
+          "fullTooltip": "Augmente les dégâts infligés aux héros adverses de 10%. En cas de mort, Gall obtient Rage d’ogre et peut utiliser des capacités pendant 10 secondes.",
+          "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "GallDreadOrb"
+            "GallOgreRagePassive"
           ]
         },
         {
@@ -16625,13 +16621,15 @@
           ]
         },
         {
-          "nameId": "GallPsychoticBreak",
-          "buttonId": "GallPsychoticBreakTalent",
-          "name": "Acharnement psychotique",
+          "nameId": "GallTwilightFrenzy",
+          "buttonId": "GallTwilightFrenzy",
+          "name": "Frénésie du crépuscule",
           "icon": "storm_ui_icon_gall_psychoticbreak.png",
-          "shortTooltip": "Peut lancer des capacités après la mort.",
-          "fullTooltip": "En cas de mort, Gall obtient Rage d’ogre et peut utiliser des capacités pendant 10 secondes.",
-          "abilityType": "Passive",
+          "cooldownTooltip": "Temps de recharge : 30 secondes",
+          "shortTooltip": "Réduit les temps de recharge.",
+          "fullTooltip": "À l’activation, réduit les temps de recharge d’Ombreflamme et d’Orbe funeste à 2 secondes pendant les prochaines 6 secondes.",
+          "abilityType": "Active",
+          "isActive": true,
           "sort": 4
         }
       ]
@@ -16727,7 +16725,14 @@
           "name": "Assoiffé de sang",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
           "energyTooltip": "Mana : 55",
-          "cooldownTooltip": "Temps de recharge : 12 secondes",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
+          "cooldownTooltip": "Temps de recharge : 12 secondes",
           "shortTooltip": "Inflige des dégâts et rend une partie des points de vie manquants.",
           "fullTooltip": "Inflige 156 (+4% per level) points de dégâts à un ennemi et rend à Garrosh 10% de ses points de vie manquants. Cibler un héros adverse double le montant de points de vie rendus.",
           "abilityType": "W"
@@ -16903,9 +16908,9 @@
             "hideCount": true,
             "recastCooldown": 1.0
           },
-          "cooldownTooltip": "Temps de recharge : 16 secondes",
+          "cooldownTooltip": "Temps de recharge : 15 secondes",
           "shortTooltip": "Inflige des dégâts à la cible et la ralentit.",
-          "fullTooltip": "Activer inflige 111 (+4% per level) points de dégâts à l’ennemi ciblé et réduit sa vitesse de déplacement de 35% pendant 2 secondes. Réduit aussi les soins que reçoivent les héros touchés de 30% pendant 3 secondes.",
+          "fullTooltip": "Activer inflige 111 (+4% per level) points de dégâts à l’ennemi ciblé et réduit sa vitesse de déplacement de 35% pendant 3 secondes. Réduit aussi les soins que reçoivent les héros touchés de 30% pendant 3 secondes.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -16917,6 +16922,13 @@
           "buttonId": "GarroshBloodthirstInFortheKill",
           "name": "Mise à mort",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "shortTooltip": "Tuer des ennemis avec Assoiffé de sang annule son temps de recharge et rend son coût en mana.",
           "fullTooltip": "Augmente de 70% les dégâts infligés par Assoiffé de sang aux cibles non héroïques. Tuer des ennemis avec Assoiffé de sang annule son temps de recharge et restitue son coût en mana.",
           "abilityType": "W",
@@ -16930,6 +16942,13 @@
           "buttonId": "GarroshBloodthirstThirstforBattle",
           "name": "Soif de combat",
           "icon": "storm_ui_icon_garrosh_bloodthirst_var1.png",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "shortTooltip": "Les attaques de base réduisent le temps de recharge d’Assoiffé de sang.",
           "fullTooltip": "Les attaques de base portées aux héros adverses réduisent de 2 secondes le temps de recharge d’Assoiffé de sang.",
           "abilityType": "W",
@@ -17047,6 +17066,13 @@
           "buttonId": "GarroshBloodthirstBloodcraze",
           "name": "Ivresse du sang",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "shortTooltip": "Assoiffé de sang rend des points de vie sur la durée.",
           "fullTooltip": "Rend à Garrosh un surplus de points de vie équivalent à 15% de leur maximum en 3 secondes si Assoiffé de sang touche un héros adverse.",
           "abilityType": "W",
@@ -17073,42 +17099,44 @@
       ],
       "level16": [
         {
-          "nameId": "GarroshGroundbreakerRoughLanding",
-          "buttonId": "GarroshGroundbreakerRoughLanding",
-          "name": "Atterrissage brutal",
-          "icon": "storm_ui_icon_garrosh_groundbreaker.png",
-          "shortTooltip": "Augmente le ralentissement de Brise-roc.",
-          "fullTooltip": "Augmente le ralentissement de Brise-roc de 10% et sa durée de 1 seconde.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "GarroshGroundbreaker"
-          ]
-        },
-        {
           "nameId": "GarroshGroundbreakerMortalCombo",
           "buttonId": "GarroshGroundbreakerMortalCombo",
           "name": "Mortel combo",
-          "icon": "storm_ui_icon_garrosh_groundbreaker_var1.png",
+          "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
           "shortTooltip": "Les cibles étourdies réduisent le temps de recharge de Boulet de démolition.",
           "fullTooltip": "Étourdir des héros avec Brise-roc et les lancer avec Boulet de démolition dans les 3 secondes réduit le temps de recharge de Boulet de démolition de 10 secondes, quel que soit l’ordre d’exécution des actions.",
-          "abilityType": "Q",
-          "sort": 2,
+          "abilityType": "E",
+          "sort": 1,
           "abilityTalentLinkIds": [
-            "GarroshGroundbreaker"
+            "GarroshWreckingBall"
           ]
         },
         {
           "nameId": "GarroshWreckingBallEarthshaker",
           "buttonId": "GarroshWreckingBallEarthshaker",
           "name": "Trembleterre",
-          "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
+          "icon": "storm_ui_icon_garrosh_intothefray.png",
           "shortTooltip": "Étourdit les ennemis à proximité de l’impact.",
           "fullTooltip": "Boulet de démolition étourdit pendant 0.5 seconde les ennemis dans la zone d’impact.",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "GarroshWreckingBall"
+          ]
+        },
+        {
+          "nameId": "GarroshArmorUpSeasonedSoldier",
+          "buttonId": "GarroshArmorUpSeasonedSoldier",
+          "name": "Soldat vétéran",
+          "icon": "storm_ui_icon_garrosh_armor_up.png",
+          "shortTooltip": "Obtient des bonus multiples.",
+          "fullTooltip": "Augmente le maximum de points de vie de 5%, augmente la durée du ralentissement de Brise-roc de 1 seconde, et Assoiffé de sang obtient une charge supplémentaire.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "GarroshArmorUpDoubleUp",
+            "GarroshArmorUp"
           ]
         }
       ],
@@ -17119,7 +17147,7 @@
           "name": "Pulsion de mort",
           "icon": "storm_ui_icon_garrosh_warlords_challenge.png",
           "shortTooltip": "Faire des victimes renforce Défi du seigneur de guerre.",
-          "fullTooltip": "Si un héros adverse est tué alors qu’il était provoqué par Défi du seigneur de guerre, réduit le temps de recharge de 45 secondes.",
+          "fullTooltip": "Augmente la durée de Défi du seigneur de guerre de 0.5 secondes. Si un héros adverse est tué alors qu’il était provoqué par Défi du seigneur de guerre, réduit le temps de recharge de 45 secondes.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -17141,7 +17169,7 @@
             "recastCooldown": 1.0
           },
           "shortTooltip": "Tourbillon corrupteur réduit les dégâts infligés par les héros qu’il touche.",
-          "fullTooltip": "Réduit de 25% pendant 3 secondes les dégâts qu’infligent les héros adverses touchés par Tourbillon corrupteur.",
+          "fullTooltip": "Réduit de 40% pendant 3 secondes les dégâts qu’infligent les héros adverses touchés par Tourbillon corrupteur.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -17177,7 +17205,7 @@
             "recastCooldown": 1.0
           },
           "shortTooltip": "Coup d’épaule gagne une charge supplémentaire.",
-          "fullTooltip": "Coup d’épaule gagne une charge supplémentaire et se recharge 100% plus vite tant que le bonus à l’armure conféré par Résolution chanteguerre est d’au moins 25 points.",
+          "fullTooltip": "Coup d’épaule obtient une charge supplémentaire et la réduction de soins augmente de 45% supplémentaires.",
           "abilityType": "Active",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -17898,7 +17926,7 @@
           "energyTooltip": "Mana : 50",
           "cooldownTooltip": "Temps de recharge : 30 secondes",
           "shortTooltip": "Inflige des dégâts proportionnels aux points de vie de l’ennemi.",
-          "fullTooltip": "Grisetête se transforme en humain et tire une balle qui inflige au premier héros adverse qu’elle rencontre un montant de dégâts égal à 40% de sa vie actuelle.  N’affecte pas les véhicules.",
+          "fullTooltip": "Grisetête se transforme en humain et tire une balle qui inflige au premier héros adverse qu’elle rencontre un montant de dégâts égal à 35% de sa vie actuelle.  N’affecte pas les véhicules.",
           "abilityType": "Heroic"
         }
       ],
@@ -18169,7 +18197,7 @@
           "energyTooltip": "Mana : 50",
           "cooldownTooltip": "Temps de recharge : 30 secondes",
           "shortTooltip": "Inflige des dégâts proportionnels aux points de vie de l’ennemi.",
-          "fullTooltip": "Grisetête se transforme en humain et tire une balle qui inflige au premier héros adverse qu’elle rencontre un montant de dégâts égal à 40% de sa vie actuelle.  N’affecte pas les véhicules.",
+          "fullTooltip": "Grisetête se transforme en humain et tire une balle qui inflige au premier héros adverse qu’elle rencontre un montant de dégâts égal à 35% de sa vie actuelle.  N’affecte pas les véhicules.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -23349,8 +23377,8 @@
           "buttonId": "L90ETCFaceMelt",
           "name": "Fondu",
           "icon": "storm_ui_icon_etc_facemelt.png",
-          "energyTooltip": "Mana : 50",
-          "cooldownTooltip": "Temps de recharge : 10 secondes",
+          "energyTooltip": "Mana : 55",
+          "cooldownTooltip": "Temps de recharge : 12 secondes",
           "shortTooltip": "Repousse les ennemis proches et leur inflige des dégâts.",
           "fullTooltip": "Inflige 68 (+4% per level) points de dégâts aux ennemis proches et les fait reculer.",
           "abilityType": "W"
@@ -26710,8 +26738,8 @@
           "buttonId": "MaievContainmentDisc",
           "name": "Disque de confinement",
           "icon": "storm_ui_icon_maiev_heroic_1_a.png",
-          "energyTooltip": "Mana : 60",
-          "cooldownTooltip": "Temps de recharge : 50 secondes",
+          "energyTooltip": "Mana : 50",
+          "cooldownTooltip": "Temps de recharge : 40 secondes",
           "shortTooltip": "Plonge un héros adverse en stase et le prive de vision.",
           "fullTooltip": "Projette un glaive dans la direction ciblée. Si le glaive touche un héros adverse, Disque de confinement peut être réactivé pour priver le héros de vision et le plonger en stase pendant 4 secondes.  Disque de confinement s’active automatiquement 6 secondes après avoir touché un héros.",
           "abilityType": "Heroic"
@@ -26864,8 +26892,8 @@
           "buttonId": "MaievUmbralBindPursuitOfVengeance",
           "name": "Soif de vengeance",
           "icon": "storm_ui_icon_maiev_pursuit_vengeance.png",
-          "shortTooltip": "Les liens d’Entraves d’ombre réduisent le temps de recharge d’Esprit vengeur.",
-          "fullTooltip": "Chaque héros lié avec Entraves d’ombre réduit le temps de recharge d’Esprit vengeur de 2.5 seconde.",
+          "shortTooltip": "Réduit le temps de recharge d’Entraves d’ombre et d’Esprit vengeur.",
+          "fullTooltip": "Chaque héros lié avec Entraves d’ombre réduit le temps de recharge d’Esprit vengeur de 2.5 secondes et chaque héros touché par Esprit vengeur réduit le temps de recharge d’Entraves d’ombre de 1 seconde.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -26956,8 +26984,8 @@
           "buttonId": "MaievUmbralBindBondsOfCorruption",
           "name": "Brides corruptrices",
           "icon": "storm_ui_icon_maiev_orb_corruption.png",
-          "shortTooltip": "L’attraction d’Entraves d’ombre réduit l’armure.",
-          "fullTooltip": "Réduit de 10 points pendant 4 secondes l’armure des héros adverses attirés par Entraves d’ombre.",
+          "shortTooltip": "L’attraction d’Entraves d’ombre réduit l’armure et réduit la vitesse de déplacement.",
+          "fullTooltip": "L’armure des héros adverses attirés par Entraves d’ombre est réduite de 10 points et ils sont ralentis de 20% pendant 4 secondes.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -26986,8 +27014,8 @@
           "buttonId": "MaievContainmentDisc",
           "name": "Disque de confinement",
           "icon": "storm_ui_icon_maiev_heroic_1_a.png",
-          "energyTooltip": "Mana : 60",
-          "cooldownTooltip": "Temps de recharge : 50 secondes",
+          "energyTooltip": "Mana : 50",
+          "cooldownTooltip": "Temps de recharge : 40 secondes",
           "shortTooltip": "Plonge un héros adverse en stase et le prive de vision.",
           "fullTooltip": "Projette un glaive dans la direction ciblée. Si le glaive touche un héros adverse, Disque de confinement peut être réactivé pour priver le héros de vision et le plonger en stase pendant 4 secondes.  Disque de confinement s’active automatiquement 6 secondes après avoir touché un héros.",
           "abilityType": "Heroic",
@@ -27059,6 +27087,19 @@
       ],
       "level16": [
         {
+          "nameId": "MaievSpiritOfVengeanceVengefulKnives",
+          "buttonId": "MaievSpiritOfVengeanceVengefulKnives",
+          "name": "Dagues retorses",
+          "icon": "storm_ui_icon_maiev_knives.png",
+          "shortTooltip": "Infliger des dégâts augmente les dégâts d’Éventail de dagues.",
+          "fullTooltip": "Infliger des dégâts à des héros adverses permet à la prochaine utilisation d’Éventail de dagues qui touche des héros adverses d’infliger 1% du maximum de points de vie sous forme de bonus aux dégâts, jusqu’à 5%.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "MaievFanOfKnives"
+          ]
+        },
+        {
           "nameId": "MaievUmbralBindCruelChain",
           "buttonId": "MaievUmbralBindCruelChain",
           "name": "Chaînes de cruauté",
@@ -27066,24 +27107,10 @@
           "shortTooltip": "Infliger des dégâts aux cibles liées avec Entraves d’ombre augmente ses dégâts d’attraction.",
           "fullTooltip": "Entraves d’ombre augmente la vitesse de déplacement de 25% pendant 2.5 secondes. De plus, chaque fois que Maiev inflige des dégâts à des cibles entravées, les dégâts d’attraction d’Entraves d’ombre sont augmentés de 30%, jusqu’à un maximum de 150%.",
           "abilityType": "W",
-          "sort": 1,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "MaievUmbralBindPrimed",
             "MaievUmbralBind"
-          ]
-        },
-        {
-          "nameId": "MaievSpiritOfVengeanceVengefulKnives",
-          "buttonId": "MaievSpiritOfVengeanceVengefulKnives",
-          "name": "Dagues retorses",
-          "icon": "storm_ui_icon_maiev_vengeful_knives.png",
-          "shortTooltip": "Esprit vengeur augmente les dégâts d’Éventail de dagues.",
-          "fullTooltip": "Pendant 5 secondes après une téléportation avec Esprit vengeur, Éventail de dagues infligera aux héros adverses 1% du maximum de points de vie sous forme de bonus aux dégâts. Augmente ce bonus aux dégâts de 1% supplémentaire pour chaque héros adverse touché par Esprit vengeur.",
-          "abilityType": "E",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "MaievSpiritOfVengeanceBlink",
-            "MaievSpiritOfVengeance"
           ]
         },
         {
@@ -27780,8 +27807,8 @@
           "buttonId": "MalGanisDarkConversion",
           "name": "Sombre conversion",
           "icon": "storm_ui_icon_malganis_ult_conversion.png",
-          "energyTooltip": "Mana : 70",
-          "cooldownTooltip": "Temps de recharge : 80 secondes",
+          "energyTooltip": "Mana : 60",
+          "cooldownTooltip": "Temps de recharge : 60 secondes",
           "shortTooltip": "Échange les points de vie avec ceux d’un héros adverse après canalisation.",
           "fullTooltip": "Après 0.75 seconde de canalisation sur un héros adverse, Mal’Ganis et sa cible échangent leur pourcentage de points de vie restants en 3 secondes.",
           "abilityType": "Heroic"
@@ -27989,7 +28016,7 @@
           "name": "Écho funeste",
           "icon": "storm_ui_icon_malganis_necrotic_c.png",
           "shortTooltip": "Étreinte nécrotique explose à l’expiration.",
-          "fullTooltip": "Quand Étreinte nécrotique expire, elle explose de nouveau et inflige 54 (+4% per level) points de dégâts. Pour chaque héros adverse touché, Mal’Ganis obtient 5 points de mana et le temps de recharge d’Étreinte nécrotique est réduit de 0.75 secondes.  Ne réveille pas les cibles endormies.",
+          "fullTooltip": "Quand Étreinte nécrotique expire, elle explose de nouveau et inflige 60 (+4% per level) points de dégâts. Pour chaque héros adverse touché, Mal’Ganis obtient 5 points de mana et le temps de recharge d’Étreinte nécrotique est réduit de 0.75 secondes.  Ne réveille pas les cibles endormies.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -28065,8 +28092,8 @@
           "buttonId": "MalGanisDarkConversion",
           "name": "Sombre conversion",
           "icon": "storm_ui_icon_malganis_ult_conversion.png",
-          "energyTooltip": "Mana : 70",
-          "cooldownTooltip": "Temps de recharge : 80 secondes",
+          "energyTooltip": "Mana : 60",
+          "cooldownTooltip": "Temps de recharge : 60 secondes",
           "shortTooltip": "Échange les points de vie avec ceux d’un héros adverse après canalisation.",
           "fullTooltip": "Après 0.75 seconde de canalisation sur un héros adverse, Mal’Ganis et sa cible échangent leur pourcentage de points de vie restants en 3 secondes.",
           "abilityType": "Heroic",
@@ -28097,7 +28124,7 @@
           "name": "Nuit éternelle",
           "icon": "storm_ui_icon_malganis_nightrush_b.png",
           "shortTooltip": "Ailes de la nuit ralentit les ennemis.",
-          "fullTooltip": "Les attaques de base infligent 200% de dégâts supplémentaires aux cibles endormies. Quand l’effet de sommeil d’Ailes de la nuit expire, les cibles sont ralenties de 30% pendant 2.5 secondes.",
+          "fullTooltip": "Les attaques de base infligent 200% de dégâts supplémentaires aux cibles endormies. Quand l’effet de sommeil d’Ailes de la nuit expire, les cibles sont ralenties de 30% pendant 3 secondes.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -28843,7 +28870,7 @@
           },
           "cooldownTooltip": "Temps de recharge : 11 secondes",
           "shortTooltip": "Confère de l’armure à la cible.",
-          "fullTooltip": "Confère 30 points d’armure au héros allié ciblé pendant 3 secondes.",
+          "fullTooltip": "Confère 35 points d’armure au héros allié ciblé pendant 3 secondes.",
           "abilityType": "W"
         },
         {
@@ -30007,7 +30034,7 @@
           "name": "Avalanche",
           "icon": "storm_ui_icon_mei_r1_avalanche.png",
           "energyTooltip": "Mana : 70",
-          "cooldownTooltip": "Temps de recharge : 65 secondes",
+          "cooldownTooltip": "Temps de recharge : 70 secondes",
           "shortTooltip": "Emporte les héros dans une énorme boule de neige.",
           "fullTooltip": "Après 0.5 seconde, fait rouler une grosse boule de neige qui emporte tous les héros adverses se trouvant sur son passage. Au bout de sa course, la boule de neige s’effrite, libérant les héros emportés, leur infligeant 220 (+4% per level) points de dégâts et les étourdissant pendant 0.5 seconde par héros emporté.",
           "abilityType": "Heroic"
@@ -30018,9 +30045,9 @@
           "name": "Mur de glace",
           "icon": "storm_ui_icon_mei_r2_icewall.png",
           "energyTooltip": "Mana : 60",
-          "cooldownTooltip": "Temps de recharge : 90 secondes",
+          "cooldownTooltip": "Temps de recharge : 70 secondes",
           "shortTooltip": "Piège les ennemis à l’intérieur d’un mur de glace.",
-          "fullTooltip": "Ciblage vectoriel Au bout de 0.75 seconde, crée un mur infranchissable qui piège les héros adverses touchés pendant 2.5 secondes. Quand le mur disparaît, les héros piégés subissent un ralentissement de 75%, qui se dissipe en 3 secondes.",
+          "fullTooltip": "Ciblage vectoriel Au bout de 0.75 s, crée un mur infranchissable qui piège les héros adverses touchés pendant 2.5 s. Quand le mur disparaît, les héros piégés subissent un ralentissement de 75%, qui se dissipe en 3 s.",
           "abilityType": "Heroic"
         }
       ],
@@ -30141,7 +30168,7 @@
             "recastCooldown": 2.0
           },
           "shortTooltip": "Augmente le ralentissement de Boule de neige aveuglante et son temps de recharge est réduit.",
-          "fullTooltip": "Augmente la durée du ralentissement de Boule de neige aveuglante de 1.5 secondes. Chaque fois que Blizzard inflige des dégâts à un héros adverse, le temps de recharge de Boule de neige aveuglante est réduit de 0.125 seconde.",
+          "fullTooltip": "Augmente la durée du ralentissement de Boule de neige aveuglante de 1.5 secondes. Chaque fois que Blizzard inflige des dégâts à un héros adverse, le temps de recharge de Boule de neige aveuglante est réduit de 0.25 seconde.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -30212,7 +30239,7 @@
           "name": "Cristallisation",
           "icon": "storm_ui_icon_mei_trait.png",
           "shortTooltip": "Cryostase confère de l’armure anti-sort.",
-          "fullTooltip": "Réduit le temps de recharge de Cryostase de 15 secondes. Mei obtient 50 points d’armure anti-sort tant que Cryostase est active et jusqu’à 2 secondes après son expiration.",
+          "fullTooltip": "Réduit le temps de recharge de Cryostase de 10 secondes. Mei obtient 50 points d’armure anti-sort tant que Cryostase est active et jusqu’à 1 seconde après son expiration.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30267,7 +30294,7 @@
           "name": "Avalanche",
           "icon": "storm_ui_icon_mei_r1_avalanche.png",
           "energyTooltip": "Mana : 70",
-          "cooldownTooltip": "Temps de recharge : 65 secondes",
+          "cooldownTooltip": "Temps de recharge : 70 secondes",
           "shortTooltip": "Emporte les héros dans une énorme boule de neige.",
           "fullTooltip": "Après 0.5 seconde, fait rouler une grosse boule de neige qui emporte tous les héros adverses se trouvant sur son passage. Au bout de sa course, la boule de neige s’effrite, libérant les héros emportés, leur infligeant 220 (+4% per level) points de dégâts et les étourdissant pendant 0.5 seconde par héros emporté.",
           "abilityType": "Heroic",
@@ -30283,9 +30310,9 @@
           "name": "Mur de glace",
           "icon": "storm_ui_icon_mei_r2_icewall.png",
           "energyTooltip": "Mana : 60",
-          "cooldownTooltip": "Temps de recharge : 90 secondes",
+          "cooldownTooltip": "Temps de recharge : 70 secondes",
           "shortTooltip": "Piège les ennemis à l’intérieur d’un mur de glace.",
-          "fullTooltip": "Ciblage vectoriel Au bout de 0.75 seconde, crée un mur infranchissable qui piège les héros adverses touchés pendant 2.5 secondes. Quand le mur disparaît, les héros piégés subissent un ralentissement de 75%, qui se dissipe en 3 secondes.",
+          "fullTooltip": "Ciblage vectoriel Au bout de 0.75 s, crée un mur infranchissable qui piège les héros adverses touchés pendant 2.5 s. Quand le mur disparaît, les héros piégés subissent un ralentissement de 75%, qui se dissipe en 3 s.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -30384,7 +30411,7 @@
           "name": "Cascade",
           "icon": "storm_ui_icon_mei_r1_avalanche.png",
           "shortTooltip": "Avalanche lance des Boules de neige aveuglantes sur son passage.",
-          "fullTooltip": "En se déplaçant, Avalanche lance en continu des volées de Boules de neige aveuglantes de base devant elle.  Effet passif : réduit le temps de recharge d’Avalanche de 25 secondes.",
+          "fullTooltip": "En se déplaçant, Avalanche lance en continu des volées de Boules de neige aveuglantes de base devant elle.  Effet passif : réduit le temps de recharge d’Avalanche de 30 secondes.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -30540,7 +30567,7 @@
           "energyTooltip": "Mana : 50",
           "cooldownTooltip": "Temps de recharge : 14 secondes",
           "shortTooltip": "Inflige des dégâts croissants aux ennemis proches.",
-          "fullTooltip": "Un anneau de foudre se forme autour de Méphisto pendant 2.5 secondes. Les ennemis en contact avec l’anneau subissent 45 (+4% per level) points de dégâts toutes les 0.25 secondes.  Chaque fois qu’une décharge de Nova de foudre touche un héros, ses dégâts sont augmentés de 3%, jusqu’à un maximum de 30%.",
+          "fullTooltip": "Un anneau de foudre se forme autour de Méphisto pendant 2.5 secondes. Les ennemis en contact avec l’anneau subissent 43 (+4% per level) points de dégâts toutes les 0.25 secondes.  Chaque fois qu’une décharge de Nova de foudre touche un héros, ses dégâts sont augmentés de 3%, jusqu’à un maximum de 30%.",
           "abilityType": "W"
         },
         {
@@ -30675,7 +30702,7 @@
           "name": "Étincelle de haine",
           "icon": "storm_ui_icon_mephisto_lightning.png",
           "shortTooltip": "Nova de foudre inflige des dégâts supplémentaires.",
-          "fullTooltip": "Tous les 3 impacts de Nova de foudre contre la même cible, la capacité inflige 72 (+4% per level) points de dégâts supplémentaires et rend 2 de mana à Méphisto.",
+          "fullTooltip": "Tous les 3 impacts de Nova de foudre contre la même cible, la capacité inflige 65 (+4% per level) points de dégâts supplémentaires et rend 2 de mana à Méphisto.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -30819,7 +30846,7 @@
           "name": "Crâne honni",
           "icon": "storm_ui_icon_mephisto_skull.png",
           "shortTooltip": "Crâne maudit augmente la puissance de capacité.",
-          "fullTooltip": "Toucher un héros avec Crâne maudit augmente la puissance de capacité de 20% pendant 6 secondes.",
+          "fullTooltip": "Toucher un héros avec Crâne maudit augmente la puissance de capacité de 25% pendant 6 secondes.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -31055,7 +31082,7 @@
           "energyTooltip": "Mana : 65",
           "cooldownTooltip": "Temps de recharge : 10 secondes",
           "shortTooltip": "Rend des points de vie aux héros alliés proches et augmente la vitesse de déplacement.",
-          "fullTooltip": "Rend 276 (+4% per level) points de vie aux héros alliés proches et augmente leur vitesse de déplacement de 15% pendant 3 secondes.",
+          "fullTooltip": "Rend 285 (+4% per level) points de vie aux héros alliés proches et augmente leur vitesse de déplacement de 15% pendant 3 secondes.",
           "abilityType": "W"
         },
         {
@@ -31481,7 +31508,7 @@
           "name": "Sommeil paisible",
           "icon": "storm_ui_icon_monk_divinepalm.png",
           "shortTooltip": "Réduit le temps de recharge de Paume divine si la cible ne meurt pas.",
-          "fullTooltip": "Le montant de soins de Paume divine est augmenté de 75% et son temps de recharge est réduit à 5 secondes si le héros ne meurt pas.",
+          "fullTooltip": "Le montant de soins de Paume divine est augmenté de 75% et son temps de recharge passe à 5 secondes si le héros ne meurt pas.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -31627,7 +31654,7 @@
           "energyTooltip": "Mana : 50",
           "cooldownTooltip": "Temps de recharge : 8 secondes",
           "shortTooltip": "Ralentit et frappe les ennemis proches.",
-          "fullTooltip": "Provoque une onde de choc qui frappe les ennemis proches, leur inflige 96 (+4% per level) points de dégâts et réduit pendant 2.5 secondes leurs vitesses de déplacement de 25% et d’attaque de 25%.",
+          "fullTooltip": "Provoque une onde de choc qui frappe les ennemis proches, leur inflige 96 (+4% per level) points de dégâts et réduit pendant 2.5 secondes leurs vitesses de déplacement de 30% et d’attaque de 30%.",
           "abilityType": "W"
         },
         {
@@ -31824,7 +31851,7 @@
           "name": "Réverbération",
           "icon": "storm_ui_icon_muradin_thunderclap.png",
           "shortTooltip": "Renforce Coup de tonnerre et la capacité héroïque.",
-          "fullTooltip": "Porte le ralentissement de la vitesse d’attaque de Coup de tonnerre de 25% à 50% et sa durée de 2.5 à 3.5 secondes. Chaque héros adverse touché réduit le temps de recharge de la capacité héroïque de 5%.",
+          "fullTooltip": "Porte le ralentissement de la vitesse d’attaque de Coup de tonnerre de 30% à 50% et sa durée de 2.5 à 3.5 secondes. Chaque héros adverse touché réduit le temps de recharge de la capacité héroïque de 5%.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -32679,7 +32706,7 @@
           "energyTooltip": "Mana : 55",
           "cooldownTooltip": "Temps de recharge : 8 secondes",
           "shortTooltip": "Invoque une faux qui inflige des dégâts aux ennemis en revenant vers Xul.",
-          "fullTooltip": "Invoque une faux qui revient vers Xul après 1 seconde, inflige 200 (+4% per level) points de dégâts aux ennemis et génère un guerrier squelette en touchant les héros adverses. Ces squelettes n’entrent pas en compte dans la limite maximum d’Animation de squelette de Xul.",
+          "fullTooltip": "Invoque une faux qui revient vers Xul après 1 seconde, inflige 190 (+4% per level) points de dégâts aux ennemis et génère un guerrier squelette en touchant les héros adverses. Ces squelettes n’entrent pas en compte dans la limite maximum d’Animation de squelette de Xul.",
           "abilityType": "Q"
         },
         {
@@ -32739,7 +32766,7 @@
             "countMax": 3
           },
           "shortTooltip": "Génère des champions squelettes à partir de serviteurs.",
-          "fullTooltip": "Quand un serviteur adverse meurt à proximité, il se transforme en guerrier squelette avec 240 (+4% per level) points de vie qui inflige 21 (+4% per level) points de dégâts et dure jusqu’à un maximum de 12 secondes. Quand ils meurent, les guerriers squelettes infligent 46 (+4% per level) points de dégâts aux ennemis proches. Jusqu’à 3 guerriers squelettes peuvent être actifs à la fois lorsqu’ils sont générés de cette manière.",
+          "fullTooltip": "Quand un serviteur adverse meurt à proximité, il se transforme en guerrier squelette avec 240 (+4% per level) points de vie qui inflige 21 (+4% per level) points de dégâts et dure jusqu’à un maximum de 12 secondes. Quand ils meurent, les guerriers squelettes infligent 40 (+4% per level) points de dégâts aux ennemis proches. Jusqu’à 3 guerriers squelettes peuvent être actifs à la fois lorsqu’ils sont générés de cette manière.",
           "abilityType": "Trait",
           "isActive": false
         }
@@ -32823,7 +32850,7 @@
               "name": "Faux spectrale",
               "icon": "storm_ui_icon_necromancer_reap.png",
               "shortTooltip": "Invoque une faux qui inflige des dégâts aux ennemis en revenant vers Xul.",
-              "fullTooltip": "Invoque une faux qui revient vers Xul après 1 seconde, inflige 200 (+4% per level) points de dégâts aux ennemis et génère un guerrier squelette en touchant les héros adverses. Ces squelettes n’entrent pas en compte dans la limite maximum d’Animation de squelette de Xul.",
+              "fullTooltip": "Invoque une faux qui revient vers Xul après 1 seconde, inflige 190 (+4% per level) points de dégâts aux ennemis et génère un guerrier squelette en touchant les héros adverses. Ces squelettes n’entrent pas en compte dans la limite maximum d’Animation de squelette de Xul.",
               "abilityType": "Q",
               "isActive": false,
               "isPassive": true
@@ -32926,7 +32953,7 @@
             "countMax": 3
           },
           "shortTooltip": "Quête : Prison d’os génère des guerriers squelettes.",
-          "fullTooltip": "Prison d’os génère 2 guerriers squelettes, qui n’entrent pas en compte dans la limite d’Animation de squelette.  Quête : générer 80 guerriers squelettes.  Récompense : tant que les guerriers squelettes se focalisent sur l’ennemi, leurs vitesses d’attaque et de déplacement sont augmentées de 30%.",
+          "fullTooltip": "Prison d’os génère 2 guerriers squelettes, qui n’entrent pas en compte dans la limite d’Animation de squelette.  Quête : générer 80 guerriers squelettes.  Récompense : tant que les guerriers squelettes se focalisent sur l’ennemi, leurs vitesses d’attaque et de déplacement sont augmentées de 25%.",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 3,
@@ -33073,7 +33100,7 @@
           "name": "Affaiblir",
           "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
           "shortTooltip": "Frappes maudites et les guerriers squelettes réduisent les dégâts infligés.",
-          "fullTooltip": "Les dégâts infligés aux héros adverses touchés par Frappes maudites et les guerriers squelettes sont réduits de 40% pendant 3 secondes.",
+          "fullTooltip": "Les dégâts infligés aux héros adverses touchés par Frappes maudites et les guerriers squelettes sont réduits de 35% pendant 3 secondes.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -36681,7 +36708,7 @@
           "energyTooltip": "Mana : 70",
           "cooldownTooltip": "Temps de recharge : 90 secondes",
           "shortTooltip": "Accélère le déplacement et l’attaque des héros alliés, et leur confère du vol de vie.",
-          "fullTooltip": "Augmente la vitesse d’attaque des héros alliés proches de 40%, leur vitesse de déplacement de 35% et leur rend un montant de points de vie équivalent à 40% des dégâts infligés à leur cible principale par leur attaque de base. Dure 8 secondes.",
+          "fullTooltip": "Augmente la vitesse d’attaque des héros alliés proches de 40%, leur vitesse de déplacement de 35% et leur rend un montant de points de vie équivalent à 30% des dégâts infligés à leur cible principale par leur attaque de base. Dure 6 secondes.",
           "abilityType": "Heroic"
         },
         {
@@ -36944,7 +36971,7 @@
           "energyTooltip": "Mana : 70",
           "cooldownTooltip": "Temps de recharge : 90 secondes",
           "shortTooltip": "Accélère le déplacement et l’attaque des héros alliés, et leur confère du vol de vie.",
-          "fullTooltip": "Augmente la vitesse d’attaque des héros alliés proches de 40%, leur vitesse de déplacement de 35% et leur rend un montant de points de vie équivalent à 40% des dégâts infligés à leur cible principale par leur attaque de base. Dure 8 secondes.",
+          "fullTooltip": "Augmente la vitesse d’attaque des héros alliés proches de 40%, leur vitesse de déplacement de 35% et leur rend un montant de points de vie équivalent à 30% des dégâts infligés à leur cible principale par leur attaque de base. Dure 6 secondes.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -36960,7 +36987,7 @@
           "name": "Raz-de-marée",
           "icon": "storm_ui_icon_rehgar_chainheal.png",
           "shortTooltip": "Réduit le temps de recharge de Salve de guérison et son coût en mana.",
-          "fullTooltip": "Réduit le temps de recharge de Salve de guérison de 0,75 seconde par héros et réduit son coût en mana de 55 points à 40 points.",
+          "fullTooltip": "Réduit le temps de recharge de Salve de guérison de ,75 secondes par héros soigné et réduit son coût en mana de 55 points à 40 points.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38812,10 +38839,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_stitches.png"
     },
     "life": {
-      "amount": 3150.0,
+      "amount": 3060.0,
       "scale": 0.04,
       "type": "Vie",
-      "regenRate": 6.5625,
+      "regenRate": 6.379,
       "regenScale": 0.04
     },
     "energy": {
@@ -38860,10 +38887,10 @@
           "buttonId": "StitchesSlam",
           "name": "Choc",
           "icon": "storm_ui_icon_stitches_slam.png",
-          "energyTooltip": "Mana : 40",
+          "energyTooltip": "Mana : 35",
           "cooldownTooltip": "Temps de recharge : 7 secondes",
           "shortTooltip": "Frappe et ralentit les ennemis dans la zone ciblée.",
-          "fullTooltip": "Inflige 104 (+4% per level) points de dégâts aux ennemis dans la zone ciblée. Les ennemis frappés par la zone centrale subissent 40% de dégâts supplémentaires et sont ralentis de 45% pendant 1.5 seconde.",
+          "fullTooltip": "Inflige 104 (+4% per level) points de dégâts aux ennemis dans la zone ciblée. Les ennemis frappés par la zone centrale subissent 40% de dégâts supplémentaires et sont ralentis de 45% pendant 1.5 secondes. Inflige 50% de dégâts supplémentaires aux serviteurs et aux mercenaires.",
           "abilityType": "W"
         },
         {
@@ -39184,7 +39211,7 @@
           "name": "Hameçon",
           "icon": "storm_ui_icon_stitches_hook.png",
           "shortTooltip": "Augmente la portée de Crochet.",
-          "fullTooltip": "Augmente la portée de Crochet de 50%.",
+          "fullTooltip": "Augmente la portée de Crochet de 40%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -40592,7 +40619,7 @@
           "energyTooltip": "Mana : 100",
           "cooldownTooltip": "Temps de recharge : 90 secondes",
           "shortTooltip": "Transforme en archonte.",
-          "fullTooltip": "Tassadar se transforme en Archonte, ce qui lui confère un bouclier équivalent à 40% de son maximum de points de vie et renforce Rayon de résonance. Dure 12 secondes.  Rayon de résonance : inflige 150 (+4% per level) points de dégâts à la cible et 75 (+4% per level) points de dégâts aux ennemis proches. L’armure anti-sort des héros touchés est réduite de 20 points pendant 2 secondes. Rayon de résonance est chargé au maximum tant qu’Archonte est actif.",
+          "fullTooltip": "Tassadar se transforme en Archonte, ce qui lui confère un bouclier équivalent à 30% de son maximum de points de vie et renforce Rayon de résonance. Dure 12 secondes.  Rayon de résonance : inflige 150 (+4% per level) points de dégâts à la cible et 75 (+4% per level) points de dégâts aux ennemis proches. L’armure anti-sort des héros touchés est réduite de 20 points pendant 2 secondes. Rayon de résonance est chargé au maximum tant qu’Archonte est actif.",
           "abilityType": "Heroic"
         },
         {
@@ -40687,7 +40714,7 @@
               "name": "Archonte",
               "icon": "storm_ui_icon_tassadar_archon.png",
               "shortTooltip": "Transforme en archonte.",
-              "fullTooltip": "Tassadar se transforme en Archonte, ce qui lui confère un bouclier équivalent à 40% de son maximum de points de vie et renforce Rayon de résonance. Dure 12 secondes.  Rayon de résonance : inflige 150 (+4% per level) points de dégâts à la cible et 75 (+4% per level) points de dégâts aux ennemis proches. L’armure anti-sort des héros touchés est réduite de 20 points pendant 2 secondes. Rayon de résonance est chargé au maximum tant qu’Archonte est actif.",
+              "fullTooltip": "Tassadar se transforme en Archonte, ce qui lui confère un bouclier équivalent à 30% de son maximum de points de vie et renforce Rayon de résonance. Dure 12 secondes.  Rayon de résonance : inflige 150 (+4% per level) points de dégâts à la cible et 75 (+4% per level) points de dégâts aux ennemis proches. L’armure anti-sort des héros touchés est réduite de 20 points pendant 2 secondes. Rayon de résonance est chargé au maximum tant qu’Archonte est actif.",
               "abilityType": "Heroic",
               "isActive": false,
               "isPassive": true
@@ -40818,7 +40845,7 @@
           "name": "Alignement de rayons",
           "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
           "shortTooltip": "Rayon de résonance réduit le temps de recharge de Rayon de choc.",
-          "fullTooltip": "Tant que Rayon de résonance est chargé au maximum, la portée des attaques de base de Tassadar est augmentée de 1 mètre et le temps de recharge de Rayon de choc est diminué de 100%.",
+          "fullTooltip": "Réduit le coût en mana de Rayon de choc de 55 à 45 points. Tant que Rayon de résonance est chargé au maximum, le temps de recharge de Rayon de choc est diminué de 100%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -40845,7 +40872,7 @@
           "name": "Décharge en arc",
           "icon": "storm_ui_icon_tassadar_rework_trait.png",
           "shortTooltip": "Rayon de résonance génère des Tempêtes psioniques.",
-          "fullTooltip": "Quand Rayon de résonance est chargé au maximum, ses prochains dégâts génèrent également une Tempête psionique sur la cible. Cet effet a un temps de recharge de 20 secondes qui se dissipe deux fois plus vite tant que Rayon de résonance est chargé au maximum.",
+          "fullTooltip": "Tant que Rayon de résonance est chargé au maximum, la portée des attaques de base de Tassadar est augmentée de 1 mètre(s) et ses prochains dégâts génèrent également une Tempête psionique sur la cible.  Cet effet a un temps de recharge de 20 secondes qui se dissipe deux fois plus vite tant que Rayon de résonance est chargé au maximum.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -40863,7 +40890,7 @@
           "energyTooltip": "Mana : 100",
           "cooldownTooltip": "Temps de recharge : 90 secondes",
           "shortTooltip": "Transforme en archonte.",
-          "fullTooltip": "Tassadar se transforme en Archonte, ce qui lui confère un bouclier équivalent à 40% de son maximum de points de vie et renforce Rayon de résonance. Dure 12 secondes.  Rayon de résonance : inflige 150 (+4% per level) points de dégâts à la cible et 75 (+4% per level) points de dégâts aux ennemis proches. L’armure anti-sort des héros touchés est réduite de 20 points pendant 2 secondes. Rayon de résonance est chargé au maximum tant qu’Archonte est actif.",
+          "fullTooltip": "Tassadar se transforme en Archonte, ce qui lui confère un bouclier équivalent à 30% de son maximum de points de vie et renforce Rayon de résonance. Dure 12 secondes.  Rayon de résonance : inflige 150 (+4% per level) points de dégâts à la cible et 75 (+4% per level) points de dégâts aux ennemis proches. L’armure anti-sort des héros touchés est réduite de 20 points pendant 2 secondes. Rayon de résonance est chargé au maximum tant qu’Archonte est actif.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -43286,7 +43313,7 @@
           "name": "Marche ou crève",
           "icon": "storm_ui_icon_talent_relentless.png",
           "shortTooltip": "Les étourdissements et immobilisations confèrent de l’armure.",
-          "fullTooltip": "Subir un étourdissement ou une immobilisation confère 25 points d’armure pendant 3 secondes, ce qui réduit les dégâts subis de 25%.",
+          "fullTooltip": "Subir un étourdissement ou une immobilisation confère 30 points d’armure pendant 3 secondes, ce qui réduit les dégâts subis de 30%.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -43327,6 +43354,19 @@
       ],
       "level13": [
         {
+          "nameId": "TychusMasterySprayNPray",
+          "buttonId": "TychusOverkillSprayNPrayTalent",
+          "name": "J'arrose et tu douilles",
+          "icon": "storm_ui_icon_tychus_overkill.png",
+          "shortTooltip": "Exécution ralentit les ennemis et sa portée est augmentée.",
+          "fullTooltip": "Exécution diminue la vitesse de déplacement des ennemis de 25% et sa portée est augmentée de 25%.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TychusOverkillTargeted"
+          ]
+        },
+        {
           "nameId": "TychusThatsTheStuff",
           "buttonId": "TychusThatsTheStuff",
           "name": "C’est de la bonne !",
@@ -43334,7 +43374,7 @@
           "shortTooltip": "Infliger des dégâts avec Minigun rend des points de vie.",
           "fullTooltip": "À l’expiration, Minigun rend un montant de points de vie équivalent à 100% du surplus de dégâts qu’il a infligé.",
           "abilityType": "Trait",
-          "sort": 1,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "TychusMinigun",
             "TychusMinigunActive"
@@ -43347,63 +43387,51 @@
           "icon": "storm_temp_btn-upgrade-terran-neosteelframe.png",
           "cooldownTooltip": "Temps de recharge : 30 secondes",
           "shortTooltip": "Confère de l’armure anti-sort.",
-          "fullTooltip": "Confère 75 points d’armure anti-sort pendant 3 secondes à l’activation, ce qui réduit les dégâts de capacité subis de 75%.",
+          "fullTooltip": "Confère 75 points d’armure anti-sort pendant 4 secondes à l’activation, ce qui réduit les dégâts de capacité subis de 75%.",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 2
-        },
-        {
-          "nameId": "TychusMasterySprayNPray",
-          "buttonId": "TychusOverkillSprayNPrayTalent",
-          "name": "J'arrose et tu douilles",
-          "icon": "storm_ui_icon_tychus_overkill.png",
-          "shortTooltip": "Portée d’Exécution augmentée.",
-          "fullTooltip": "Augmente de 25% la portée d’Exécution.",
-          "abilityType": "Q",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "TychusOverkillTargeted"
-          ]
+          "sort": 3
         }
       ],
       "level16": [
+        {
+          "nameId": "TychusMasteryOverkillArmorPiercingRounds",
+          "buttonId": "TychusOverkillArmorPiercingRoundsTalent",
+          "name": "Munitions anti blindage",
+          "icon": "storm_ui_icon_tychus_overkill.png",
+          "shortTooltip": "Augmente les dégâts infligés successivement par Exécution.",
+          "fullTooltip": "Chaque fois qu’Exécution touche un ennemi, les dégâts infligés augmentent de 15%, jusqu’à un maximum de 60% de dégâts supplémentaires.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TychusOverkillTargeted"
+          ]
+        },
         {
           "nameId": "TychusMasteryFragGrenadeTitanGrenade",
           "buttonId": "TychusFragGrenadeTitanGrenadeTalent",
           "name": "Grenade Titan",
           "icon": "storm_ui_icon_tychus_fraggrenade.png",
           "shortTooltip": "Augmente les dégâts de Grenade à fragmentation infligés aux héros.",
-          "fullTooltip": "Grenade à fragmentation inflige des dégâts supplémentaire aux héros équivalents à 5% de leur maximum de points de vie.",
+          "fullTooltip": "Grenade à fragmentation inflige des dégâts supplémentaires aux héros équivalents à 5% de leur maximum de points de vie. Chaque héros adverse touché par Grenade à fragmentation réduit son temps de recharge de 1 seconde.",
           "abilityType": "W",
-          "sort": 1,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "TychusGrenade"
           ]
         },
         {
-          "nameId": "TychusMasteryLeadRain",
-          "buttonId": "TychusOverkillLeadRainTalent",
-          "name": "Pluie de plomb",
-          "icon": "storm_ui_icon_tychus_overkill.png",
-          "shortTooltip": "Ralentit les ennemis.",
-          "fullTooltip": "Exécution diminue également la vitesse de déplacement des adversaires de 30%.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "TychusOverkillTargeted"
-          ]
-        },
-        {
-          "nameId": "TychusMasteryOverkillArmorPiercingRounds",
-          "buttonId": "TychusOverkillArmorPiercingRoundsTalent",
-          "name": "Munitions anti blindage",
-          "icon": "storm_ui_icon_tychus_overkill_a.png",
-          "shortTooltip": "Augmente les dégâts d’Exécution à la cible principale.",
-          "fullTooltip": "Augmente les dégâts à la cible principale de 50%.",
-          "abilityType": "Q",
+          "nameId": "TychusSizzlinAttacks",
+          "buttonId": "TychusSizzlinAttacks",
+          "name": "Attaques brûlantes",
+          "icon": "storm_ui_icon_talent_autoattack_damage.png",
+          "shortTooltip": "Les attaques de base infligent plus de dégâts aux héros.",
+          "fullTooltip": "Les attaques de base portées aux héros leur infligent un montant de dégâts supplémentaire équivalent à 1% de leur maximum de points de vie. Cumulable avec Minigun.",
+          "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TychusOverkillTargeted"
+            "TychusMinigun",
+            "TychusMinigunActive"
           ]
         }
       ],
@@ -43442,17 +43470,16 @@
           ]
         },
         {
-          "nameId": "TychusSizzlinAttacks",
-          "buttonId": "TychusSizzlinAttacks",
-          "name": "Attaques brûlantes",
-          "icon": "storm_ui_icon_talent_autoattack_damage.png",
-          "shortTooltip": "Les attaques de base infligent plus de dégâts aux héros.",
-          "fullTooltip": "Les attaques de base portées aux héros leur infligent un montant de dégâts supplémentaire équivalent à 1% de leur maximum de points de vie. Cumulable avec Minigun.",
-          "abilityType": "Trait",
+          "nameId": "TychusCanDoThisAllDayOverkillTalent",
+          "buttonId": "TychusOverkillCanDoThisAllDayTalent",
+          "name": "Je peux faire ça toute la journée",
+          "icon": "storm_ui_icon_tychus_overkill.png",
+          "shortTooltip": "Réduit le temps de recharge d’Exécution et confère de l’armure.",
+          "fullTooltip": "Réduit le temps de recharge d’Exécution de 4 secondes. Pendant la canalisation d’Exécution, Tychus obtient 40 points d’armure.",
+          "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TychusMinigun",
-            "TychusMinigunActive"
+            "TychusOverkillTargeted"
           ]
         },
         {
@@ -48243,7 +48270,7 @@
           "name": "Lumière de Karabor",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "Augmente le rayon de Rémission et les points de vie qu’elle rend.",
-          "fullTooltip": "Augmente le rayon de Rémission de 15%. Toucher un héros adverse augmente les points de vie rendus par Rémission de 40%. Si plus d’un héros est touché, le bonus est porté à 80%.",
+          "fullTooltip": "Augmente le rayon de Rémission de 15%. Toucher un héros adverse augmente les points de vie rendus par Rémission de 45%. Si plus d’un héros est touché, le bonus est porté à 90%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -48257,7 +48284,7 @@
           "name": "Intrépidité",
           "icon": "storm_ui_icon_talent_abilitytalent_armor.png",
           "shortTooltip": "Les capacités de base confèrent de l’armure physique.",
-          "fullTooltip": "Utiliser une capacité de base confère 50 points d’armure physique à Yrel pendant 2.5 secondes.",
+          "fullTooltip": "Utiliser une capacité de base confère 40 points d’armure physique à Yrel pendant 2.5 secondes.",
           "abilityType": "Passive",
           "sort": 2
         },
@@ -48267,7 +48294,7 @@
           "name": "Leçon de Maraad",
           "icon": "storm_ui_icon_talent_autoattack_heal.png",
           "shortTooltip": "L’attaque qui suit l’utilisation d’une capacité de base rend des points de vie à Yrel.",
-          "fullTooltip": "Après avoir infligé des dégâts de capacité de base à un héros adverse, la première attaque de base d’Yrel lui rend 128 (+4% per level) points de vie.",
+          "fullTooltip": "Après avoir infligé des dégâts de capacité de base à un héros adverse, la première attaque de base d’Yrel lui rend 135 (+4% per level) points de vie.",
           "abilityType": "Passive",
           "sort": 3
         }
