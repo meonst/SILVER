@@ -241,6 +241,7 @@ class HeroPage extends React.Component {
         
         await fetch('https://min.hyeok.org/SILVER/files/json/herodata_' + version + '_' + lang + '.json').then(value => value.json()).then(value => {herodat = value[this.props.link]})
         this.setState({data: herodat})
+        this.setState({basics: [0, 1, 2]})
         if (herodat['unitId'] === 'HeroDeathwing' || herodat['unitId'] === 'HeroTracer') {this.setState({singleHeroic: true})}
         if (herodat['abilities']['activable'] === undefined) {this.setState({hasActivable: false})}
         if (herodat['abilities']['mount'][0]['nameId'] !== 'Mount') {this.setState({specialMount: true})}
@@ -310,6 +311,10 @@ class HeroPage extends React.Component {
             this.setState({wAlt: herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][1]})
             this.setState({eAlt: herodat['subAbilities'][0]['ValeeraStealth|ValeeraStealth|Trait']['basic'][2]})
         }
+        //Gall Basics
+        if (herodat['unitId'] === 'HeroGall') {
+            this.setState({basics: [0, 2, 3]})
+        }
 
         this.setState({component: true})
     }
@@ -326,17 +331,17 @@ class HeroPage extends React.Component {
                     />
 
                     <HeroSkill
-                        value={this.state.data['abilities']['basic'][0]}
+                        value={this.state.data['abilities']['basic'][this.state.basics[0]]}
                         button='Q'
                     />
 
                     <HeroSkill
-                        value={this.state.data['abilities']['basic'][1]}
+                        value={this.state.data['abilities']['basic'][this.state.basics[1]]}
                         button='W'
                     />
 
                     <HeroSkill
-                        value={this.state.data['abilities']['basic'][2]}
+                        value={this.state.data['abilities']['basic'][this.state.basics[2]]}
                         button='E'
                     />
 
