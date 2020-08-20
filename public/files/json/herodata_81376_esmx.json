@@ -2300,7 +2300,7 @@
           "icon": "storm_ui_icon_cassia_avoidance_b.png",
           "toggleCooldown": 0.25,
           "shortTooltip": "Activa Evitación para infligir daño",
-          "fullTooltip": "Después de recibir 500 (+4% per level) de daño con Evitación activa, Cassia puede activar Evitación para infligir 285 (+4% per level) de daño a los enemigos que la rodean.",
+          "fullTooltip": "Después de recibir 500 (+4% per level) de daño con Evitación activa, Cassia puede activar Evitación para infligir 250 (+4% per level) de daño a los enemigos que la rodean.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -2398,7 +2398,7 @@
             "recastCooldown": 1.0
           },
           "shortTooltip": "Furia de relámpagos atraviesa a los enemigos y lanza Luz cegadora",
-          "fullTooltip": "Furia de relámpagos atraviesa pero solo se divide contra héroes. Los héroes golpeados por la habilidad quedan marcados durante 15 segundos. Al alcanzar 3 marcas, se eliminan las marcas y se lanza una Luz cegadora a sus pies.",
+          "fullTooltip": "Furia de relámpagos atraviesa pero solo se divide contra héroes. Los héroes enemigos golpeados reducen 1 segundo el tiempo de reutilización y quedan marcados durante 15 segundos. Al alcanzar 3 marcas, se eliminan las marcas y se lanza una Luz cegadora a sus pies.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -4004,12 +4004,12 @@
       ],
       "level13": [
         {
-          "nameId": "GenericTalentBurningRage",
-          "buttonId": "GenericBurningRageTalent",
-          "name": "Ira ardiente",
+          "nameId": "AnubarakBurningBeetles",
+          "buttonId": "AnubarakBurningBeetlesTalent",
+          "name": "Alfazaques ardientes",
           "icon": "storm_ui_icon_talent_burningrage.png",
           "shortTooltip": "Inflige daño a los enemigos cercanos",
-          "fullTooltip": "Inflige 23 (+4% per level) de daño por segundo a los enemigos cercanos.",
+          "fullTooltip": "Inflige 21 (+4% per level) de daño por segundo a los enemigos cercanos. Los Alfazaques infligen 7 (+4% per level) de daño por segundo a los enemigos cercanos.",
           "abilityType": "Passive",
           "sort": 1
         },
@@ -4811,7 +4811,7 @@
           "energyTooltip": "Maná: 13 por segundo",
           "cooldownTooltip": "Tiempo de reutilización: 1 segundo",
           "shortTooltip": "Daña y ralentiza a los enemigos cercanos. Drena maná mientras está activa",
-          "fullTooltip": "Inflige 40 (+4% per level) de daño por segundo a los enemigos cercanos y disminuye su velocidad de movimiento un 10% por segundo, que se acumula hasta un 40%. La velocidad de ataque de los héroes golpeados disminuye un 10% por segundo, que se acumula hasta un 40%. El efecto de Tempestad gélida dura 1.5 segundos.",
+          "fullTooltip": "Inflige 40 (+4% per level) de daño por segundo a los enemigos cercanos y disminuye su velocidad de movimiento un 10% por segundo, hasta un máximo del 40%. La velocidad de ataque de los héroes golpeados también disminuye un 10% por segundo, hasta un máximo del 40%. El efecto de Tempestad gélida dura 1.5 segundos.",
           "abilityType": "E"
         }
       ],
@@ -4961,7 +4961,7 @@
           "name": "Presencia de escarcha",
           "icon": "storm_ui_icon_arthas_howlingblast.png",
           "shortTooltip": "Misión: Arraiga héroes para potenciar Explosión aullante",
-          "fullTooltip": "Misión: Arraiga a héroes enemigos con Explosión aullante.  Recompensa: Después de arraigar a 5 héroes, reduce el tiempo de reutilización de Explosión aullante 2 segundos.  Recompensa: Después de arraigar a 10 héroes, aumenta el alcance de Explosión aullante un 30%.  Recompensa: Después de arraigar a 20 héroes, Explosión aullante también arraiga a los enemigos que encuentra a su paso.",
+          "fullTooltip": "Misión: Arraiga a héroes enemigos con Explosión aullante.  Recompensa: Después de arraigar a 5 héroes, reduce el tiempo de reutilización de Explosión aullante 2 segundos.  Recompensa: Después de arraigar a 10 héroes, aumenta el alcance de Explosión aullante un 20%.  Recompensa: Después de arraigar a 20 héroes, Explosión aullante también arraiga a los enemigos que encuentra a su paso.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 1,
@@ -5233,13 +5233,14 @@
           "nameId": "ArthasDeathsAdvance",
           "buttonId": "ArthasDeathsAdvanceTalent",
           "name": "Avance de la muerte",
-          "icon": "storm_ui_icon_talent_deaths_advance.png",
-          "cooldownTooltip": "Tiempo de reutilización: 50 segundos",
-          "shortTooltip": "Actívalo para aumentar la velocidad de movimiento",
-          "fullTooltip": "Activar para aumentar la velocidad de movimiento un 30% durante 5 segundos.  Pasivo: Aumenta la velocidad de movimiento un 10%.",
-          "abilityType": "Active",
-          "isActive": true,
-          "sort": 3
+          "icon": "storm_ui_icon_arthas_frosentempest.png",
+          "shortTooltip": "Aumenta la velocidad de movimiento, potencia la ralentización de Tempestad gélida",
+          "fullTooltip": "Aumenta la velocidad de movimiento un 10%. Las reducciones máximas de velocidad de movimiento y de ataque de Tempestad gélida aumentan del 40% al 60%.",
+          "abilityType": "E",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "ArthasFrozenTempest"
+          ]
         },
         {
           "nameId": "ArthasAntiMagicShell",
@@ -7639,7 +7640,7 @@
               "toggleCooldown": 0.25,
               "energyTooltip": "Brebaje: 10",
               "shortTooltip": "Escupe fuego en una dirección, inflige daño e incinera a los enemigos empapados",
-              "fullTooltip": "Escupe un cono de llamas que inflige 85 (+4% per level) de daño. Incinera a los enemigos empapados en Brebaje, lo que les inflige 165 (+4% per level) más de daño durante 3 segundos y agrega 1.5 segundos a la duración de la ralentización de Embate con barril.    Tras ser utilizada o después de 6 segundos, esta habilidad se convierte en Embate con barril.  Embate con barril Inflige daño y ralentiza a los enemigos.",
+              "fullTooltip": "Escupe un cono de llamas que inflige 85 (+4% per level) de daño. Incinera a los enemigos empapados en Brebaje, lo que les inflige 171 (+4% per level) más de daño durante 3 segundos y agrega 1.5 segundos a la duración de la ralentización de Embate con barril.    Tras ser utilizada o después de 6 segundos, esta habilidad se convierte en Embate con barril.  Embate con barril Inflige daño y ralentiza a los enemigos.",
               "abilityType": "W"
             }
           ]
@@ -7668,7 +7669,7 @@
           "name": "Ingredientes de primera",
           "icon": "storm_ui_icon_chen_fortifyingbrew.png",
           "shortTooltip": "Misión: Las esferas de regeneración sanan más",
-          "fullTooltip": "Aumenta un 100% la duración de la sanación de las esferas de regeneración.  Misión: Recoge 15 esferas de regeneración.  Recompensa: Reduce el tiempo de reutilización de Brebaje vigorizante 1 segundo, y el 50% de sus escudos persisten indefinidamente después de beber.",
+          "fullTooltip": "Aumenta un 150% la duración de la sanación de las esferas de regeneración.  Misión: Recoge 15 esferas de regeneración.  Recompensa: Reduce el tiempo de reutilización de Brebaje vigorizante 1 segundo, y el 50% de sus escudos persisten indefinidamente después de beber.",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 2,
@@ -7884,7 +7885,7 @@
           "name": "Celeridad",
           "icon": "storm_ui_icon_chen_stagger.png",
           "shortTooltip": "Los ataques básicos reducen la reutilización de Aplazar, otorgan Armadura",
-          "fullTooltip": "Los ataques básicos contra héroes aturdidos, arraigados o ralentizados reducen el tiempo de reutilización de Aplazar 1.5 segundos y otorgan a Chen 30 de Armadura durante 3 segundos.",
+          "fullTooltip": "Los ataques básicos contra héroes aturdidos, arraigados o ralentizados reducen el tiempo de reutilización de Aplazar 2 segundos y otorgan a Chen 30 de Armadura durante 3 segundos.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -8587,7 +8588,7 @@
           "name": "Oleada de poder",
           "icon": "storm_ui_icon_cho_moltensurge_a.png",
           "shortTooltip": "Puño arrasador ralentiza a los héroes enemigos",
-          "fullTooltip": "Los héroes enemigos golpeados por Puño arrasador son ralentizados un 30% durante 2.5 segundos.  Obtienes un 15% de velocidad de movimiento mientras cargas Puño arrasador y durante los 2.5 segundos posteriores al lanzamiento de la habilidad.",
+          "fullTooltip": "Los héroes enemigos golpeados por Puño arrasador son ralentizados un 30% durante 2.5 segundos. Obtienes un 15% de velocidad de movimiento mientras cargas Puño arrasador y durante los 2.5 segundos posteriores al lanzamiento de la habilidad.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -8774,7 +8775,7 @@
           "name": "Combustible de corrupción",
           "icon": "storm_ui_icon_talent_autoattack_damage.png",
           "shortTooltip": "Los ataques básicos explotan al impactar",
-          "fullTooltip": "Los ataques básicos contra enemigos los hacen explotar, lo que inflige 21 (+4% per level) de daño a ellos y 45 (+4% per level) de daño a los enemigos cercanos.  El daño se duplica contra héroes enemigos.",
+          "fullTooltip": "Los ataques básicos contra enemigos los hacen explotar, lo que inflige 21 (+4% per level) de daño a ellos y 45 (+4% per level) de daño a los enemigos cercanos. El daño se duplica contra héroes enemigos.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -8930,7 +8931,7 @@
           "energyTooltip": "Maná: 3 por segundo",
           "cooldownTooltip": "Tiempo de reutilización: 5 segundos",
           "shortTooltip": "Crea un área ralentizadora",
-          "fullTooltip": "Invoca un vórtice de arena que ralentiza a los enemigos un 7% cada 0.25 segundos, hasta un máximo del 70%.",
+          "fullTooltip": "Invoca un vórtice de arena que ralentiza a los enemigos un 10% cada 0.25 segundos, hasta un máximo del 70%.",
           "abilityType": "Heroic"
         }
       ],
@@ -9057,7 +9058,7 @@
           "name": "Aliento concentrado",
           "icon": "storm_ui_icon_chromie_sandstrike.png",
           "shortTooltip": "Misión: Golpear héroes potencia Aliento de dragón",
-          "fullTooltip": "Misión: Cada vez que golpeas a un héroe con Aliento de dragón, su daño aumenta en 3, hasta un máximo de 75.  Recompensa: Después de golpear a 25 héroes, su daño aumenta 75 más y el radio de visión de Cromi se incrementa un 100%.",
+          "fullTooltip": "Misión: Cada vez que golpeas a un héroe con Aliento de dragón, su daño aumenta un 1.5%, hasta un máximo de 30%.  Recompensa: Después de golpear a 20 héroes, se reduce el tiempo de reutilización de Aliento de dragón en5 segundos y el costo de maná de 65 a 30.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -9071,11 +9072,10 @@
           "name": "Afán del caminante del tiempo",
           "icon": "storm_ui_icon_talent_clairvoyance.png",
           "cooldownTooltip": "Tiempo de reutilización: 25 segundos",
-          "shortTooltip": "Activar para revelar un área Misión: Más poder de habilidad especial por esfera",
-          "fullTooltip": "Activar para revelar el área objetivo durante 2 segundos. Los enemigos divisados quedan revelados durante 4 segundos.  Misión: Recoge 15 esferas de regeneración.  Recompensa: Después de recoger 15 esferas, Cromi obtiene un 15% de poder de habilidad especial.",
+          "shortTooltip": "Aumenta el poder de habilidad especial; activar para revelar un área",
+          "fullTooltip": "Obtiene un 15% de poder de habilidad especial y reduce 0.75 segundos el tiempo de armado de las Trampas temporales. Activar para revelar el área objetivo durante 2 segundos. Los enemigos divisados quedan revelados durante 4 segundos.",
           "abilityType": "Active",
           "isActive": true,
-          "isQuest": true,
           "sort": 3,
           "abilityTalentLinkIds": [
             "ChromieTimewalkerTrait"
@@ -9165,8 +9165,8 @@
           "buttonId": "ChromieDragonsBreathMobiusLoop",
           "name": "Bucle de Moebius",
           "icon": "storm_ui_icon_chromie_sandstrike.png",
-          "shortTooltip": "Golpear a héroes reduce el tiempo de reutilización de Aliento de dragón",
-          "fullTooltip": "Al golpear a un héroe con Aliento de dragón, su tiempo de reutilización se reduce 2 segundos y restituye 40 de maná.",
+          "shortTooltip": "Aliento de dragón inflige más daño en el centro, ralentiza",
+          "fullTooltip": "Aliento de dragón inflige un 50% más de daño a enemigos en el centro.  Los héroes enemigos golpeados en el centro son ralentizados un 60% durante 1 segundo.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -9197,7 +9197,7 @@
           "energyTooltip": "Maná: 3 por segundo",
           "cooldownTooltip": "Tiempo de reutilización: 5 segundos",
           "shortTooltip": "Crea un área ralentizadora",
-          "fullTooltip": "Invoca un vórtice de arena que ralentiza a los enemigos un 7% cada 0.25 segundos, hasta un máximo del 70%.",
+          "fullTooltip": "Invoca un vórtice de arena que ralentiza a los enemigos un 10% cada 0.25 segundos, hasta un máximo del 70%.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -9309,8 +9309,8 @@
           "name": "Desenredo",
           "icon": "storm_ui_icon_chromie_timewarp.png",
           "toggleCooldown": 0.125,
-          "shortTooltip": "Arenas ralentizadoras reduce la Armadura especial",
-          "fullTooltip": "Cada 0.25 segundos, la Armadura especial de los héroes ralentizados por Arenas ralentizadoras se reduce en 5, hasta un máximo de 30.",
+          "shortTooltip": "Arenas ralentizadoras reduce la Armadura especial, persiste",
+          "fullTooltip": "Cada 0.25 segundos, la Armadura especial de los héroes ralentizados por Arenas ralentizadoras se reduce en 7, hasta un máximo de 35. Arenas ralentizadoras persiste durante 5 segundos tras su cancelación.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -9825,7 +9825,7 @@
           "name": "Portadora de fe",
           "icon": "storm_ui_icon_johanna_blessed_shield.png",
           "shortTooltip": "Aumenta la duración del aturdimiento y la cantidad máxima de objetivos de Escudo bendecido",
-          "fullTooltip": "Aumenta en 2 la cantidad de enemigos golpeados por Escudo bendecido. La duración del aturdimiento aumenta a 1.75 segundos y todos los objetivos golpeados quedan aturdidos durante ese tiempo.",
+          "fullTooltip": "Aumenta en 2 la cantidad de enemigos golpeados por Escudo bendecido. La duración del aturdimiento aumenta a 1.75 segundos y todos los objetivos golpeados quedan aturdidos durante la máxima duración.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -10162,7 +10162,7 @@
           "name": "Sangre de arrabio",
           "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
           "shortTooltip": "Las placas de armadura incrementan la regeneración",
-          "fullTooltip": "Si Alamuerte tiene 3 o más placas de armadura, recupera un 0.5% de su salud máxima por segundo.",
+          "fullTooltip": "Si Alamuerte tiene 3 o más placas de armadura, recupera un 0.6% de su salud máxima por segundo.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -10909,7 +10909,7 @@
           "name": "Cuantos más, mejor",
           "icon": "storm_ui_icon_deckard_study_time.png",
           "shortTooltip": "Los aliados adicionales potencian Entereza de los fieles",
-          "fullTooltip": "Si al menos 3 héroes aliados están cerca, Entereza de los fieles otorga 15 más de Armadura, un 50% de regeneración de maná por segundo y hace que las habilidades de Deckard se recargan un 50% más rápido.",
+          "fullTooltip": "Si al menos 2 héroes aliados están cerca, Entereza de los fieles otorga 10 más de Armadura, un 50% de regeneración de maná por segundo y hace que las habilidades de Deckard se recargan un 50% más rápido.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -13347,7 +13347,7 @@
           "icon": "storm_ui_icon_dva_bunnyhop.png",
           "cooldownTooltip": "Tiempo de reutilización: 100 segundos",
           "shortTooltip": "Conviértete en una máquina imparable y ralentiza a los héroes cercanos",
-          "fullTooltip": "La armadura robótica de D.Va se vuelve imparable y pisotea cada 0.5 segundos, lo que inflige 60 (+4% per level) de daño y ralentiza a los enemigos un 40%. Dura 4 segundos.  Se requiere estar en modo de armadura robótica.",
+          "fullTooltip": "La armadura robótica de D.Va se vuelve imparable y pisotea cada 0.5 segundos, lo que inflige 60 (+4% per level) de daño y ralentiza a los enemigos un 40%. Dura 4 segundos.  Requiere modo de armadura robótica.",
           "abilityType": "Heroic"
         }
       ],
@@ -13479,7 +13479,7 @@
           "icon": "storm_ui_icon_dva_boosters_a.png",
           "toggleCooldown": 0.0625,
           "shortTooltip": "Propulsores otorga velocidad adicional inmediatamente",
-          "fullTooltip": "Aumenta la bonificación de la velocidad inicial de Propulsores un 325% y después vuelve a la velocidad normal de propulsión durante 0.5 segundos. Durante este período, Propulsores causa un 50% de daño adicional.",
+          "fullTooltip": "Aumenta la bonificación de la velocidad inicial de Propulsores un 325% y después vuelve a la velocidad normal de propulsión durante 0.5 segundos. Durante este período, Propulsores inflige un 50% de daño adicional.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -13507,7 +13507,7 @@
           "name": "Movimientos profesionales",
           "icon": "storm_ui_icon_dva_mechmode.png",
           "shortTooltip": "Al recibir daño, aumenta su velocidad de movimiento",
-          "fullTooltip": "La armadura robótica de D.Va obtiene un 2% de velocidad de movimiento durante 1.5 segundos cada vez que recibe daño, hasta un 30%.",
+          "fullTooltip": "La armadura robótica de D.Va obtiene un 2% de velocidad de movimiento durante 1.5 segundos cada vez que recibe daño, hasta un máximo del 30%.",
           "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -13647,7 +13647,7 @@
           "icon": "storm_ui_icon_dva_bunnyhop.png",
           "cooldownTooltip": "Tiempo de reutilización: 100 segundos",
           "shortTooltip": "Conviértete en una máquina imparable y ralentiza a los héroes cercanos",
-          "fullTooltip": "La armadura robótica de D.Va se vuelve imparable y pisotea cada 0.5 segundos, lo que inflige 60 (+4% per level) de daño y ralentiza a los enemigos un 40%. Dura 4 segundos.  Se requiere estar en modo de armadura robótica.",
+          "fullTooltip": "La armadura robótica de D.Va se vuelve imparable y pisotea cada 0.5 segundos, lo que inflige 60 (+4% per level) de daño y ralentiza a los enemigos un 40%. Dura 4 segundos.  Requiere modo de armadura robótica.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -15808,7 +15808,7 @@
           "icon": "storm_ui_icon_blaze_stim_1.png",
           "cooldownTooltip": "Tiempo de reutilización: 30 segundos",
           "shortTooltip": "Activar para obtener un escudo",
-          "fullTooltip": "Activar para obtener un escudo que absorbe 480 (+4% per level) de daño durante 5 segundos.  Al recibir daño cuando tu salud máxima está por debajo del 30%, Estimpack de resistencia se lanzará de forma automática si no está en tiempo de reutilización.",
+          "fullTooltip": "Activar para obtener un escudo que absorbe 530 (+4% per level) de daño durante 5 segundos.  Al recibir daño cuando tu salud máxima está por debajo del 30%, Estimpack de resistencia se lanzará de forma automática si no está en tiempo de reutilización.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 2
@@ -15879,7 +15879,7 @@
           "name": "Puños incineradores",
           "icon": "storm_ui_icon_talent_autoattack_slow.png",
           "shortTooltip": "Los ataques básicos infligen daño adicional a las unidades que no son héroes",
-          "fullTooltip": "Aumenta el área de ataque básico un 15%, y el daño de ataque básico a esbirros, mercenarios y monstruos un 70%.",
+          "fullTooltip": "Aumenta el área de ataque básico un 15%, y el daño de ataque básico a esbirros, mercenarios y monstruos un 50%.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -15930,7 +15930,7 @@
             "recastCooldown": 1.0
           },
           "shortTooltip": "Derrame de petróleo ralentiza cuando está en llamas",
-          "fullTooltip": "Los enemigos posicionados sobre un Derrame de petróleo cuando este se prende fuego son ralentizados un 35% durante 3 segundos.  Además, el daño por proximidad de los ataques básicos prende fuego los Derrames de petróleo.",
+          "fullTooltip": "Los enemigos posicionados sobre un Derrame de petróleo cuando este se prende fuego son ralentizados un 35% durante 3 segundos. Además, el daño por proximidad de los ataques básicos prende fuego los Derrames de petróleo.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -16169,16 +16169,6 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "GallDoubleBack",
-          "buttonId": "GallDoubleBackAbility",
-          "name": "No tan rápido",
-          "icon": "storm_ui_icon_gall_chaoscollision.png",
-          "toggleCooldown": 0.5,
-          "shortTooltip": "Actívalo para invertir el tercer rebote de Orbe terrorífico",
-          "fullTooltip": "Actívalo para invertir la dirección del tercer rebote.",
-          "abilityType": "W"
-        },
-        {
           "nameId": "GallDreadOrb",
           "buttonId": "GallDreadOrb",
           "name": "Orbe terrorífico",
@@ -16311,6 +16301,20 @@
               "shortTooltip": "Ralentiza y daña a los enemigos cercanos",
               "fullTooltip": "Después de 1 segundo, los enemigos cercanos se ralentizan un 50% mientras Gall canaliza, hasta un máximo de 5 segundos. Actívalo para infligir 353 (+5% per level) de daño.",
               "abilityType": "Heroic"
+            }
+          ]
+        },
+        "GallDreadOrb|GallDreadOrb|W": {
+          "basic": [
+            {
+              "nameId": "GallDoubleBack",
+              "buttonId": "GallDoubleBackAbility",
+              "name": "No tan rápido",
+              "icon": "storm_ui_icon_gall_chaoscollision.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Actívalo para invertir el tercer rebote de Orbe terrorífico",
+              "fullTooltip": "Actívalo para invertir la dirección del tercer rebote.",
+              "abilityType": "W"
             }
           ]
         },
@@ -19702,8 +19706,8 @@
           "buttonId": "IllidanDiveRapidChaseTalent",
           "name": "Persecución vertiginosa",
           "icon": "storm_ui_icon_illidan_dive.png",
-          "shortTooltip": "Zambullida aumenta la velocidad de movimiento",
-          "fullTooltip": "Zambullida otorga 20% de velocidad de movimiento durante 3 segundos.",
+          "shortTooltip": "Zambullida aumenta la velocidad de movimiento, reduce la reutilización",
+          "fullTooltip": "Zambullida otorga un 20% de velocidad de movimiento durante 3 segundos. Si golpea a un héroe enemigo, su tiempo de reutilización se reduce 1 segundo.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -19778,7 +19782,7 @@
           "name": "Embate del cazador",
           "icon": "storm_ui_icon_illidan_betrayersthirst_a.png",
           "shortTooltip": "El daño de habilidades básica sana",
-          "fullTooltip": "Las habilidades básicas sanan por un 25% del daño que infligen. Esta bonificación se duplica contra héroes.",
+          "fullTooltip": "Las habilidades básicas sanan por un 35% del daño que infligen. Esta bonificación se duplica contra héroes.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -19886,7 +19890,7 @@
           "name": "Marca ardiente",
           "icon": "storm_ui_icon_talent_autoattack_damage.png",
           "shortTooltip": "Potencia los ataques básicos consecutivos contra héroes",
-          "fullTooltip": "Cada 4 ataques contra el mismo héroe, infliges 9% de su salud máxima como daño adicional.",
+          "fullTooltip": "Cada 3 ataques contra el mismo héroe, infliges un 7% de su salud máxima como daño adicional.",
           "abilityType": "Passive",
           "sort": 2
         },
@@ -21073,7 +21077,7 @@
         "nameId": "JunkratHeroWeaponRanged",
         "range": 5.5,
         "period": 1.0,
-        "damage": 110.0,
+        "damage": 120.0,
         "damageScale": 0.04
       }
     ],
@@ -21217,7 +21221,7 @@
               "buttonId": "JunkratRocketRideSummonMount",
               "name": "Invocar montura",
               "icon": "storm_ui_icon_junkrat_mount.png",
-              "cooldownTooltip": "Tiempo de reutilización: 12 segundos",
+              "cooldownTooltip": "Tiempo de reutilización: 8 segundos",
               "fullTooltip": "Tras una canalización de 1 segundo, obtienes un 150% de velocidad de movimiento.",
               "abilityType": "Z"
             }
@@ -21310,7 +21314,7 @@
             "recastCooldown": 0.5
           },
           "shortTooltip": "Las granadas de Lanzagranadas de fragmentación infligen daño adicional",
-          "fullTooltip": "La granada final lanzada con Lanzagranadas de fragmentación inflige un 60% más de daño, y las granadas de Lanzagranadas de fragmentación duran 2 segundos más antes de detonar automáticamente.",
+          "fullTooltip": "La granada final lanzada con Lanzagranadas de fragmentación inflige un 80% más de daño, y las granadas de Lanzagranadas de fragmentación duran 2 segundos más antes de detonar automáticamente.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -21481,7 +21485,7 @@
             "recastCooldown": 0.5
           },
           "shortTooltip": "Aumenta el alcance y el daño de los ataques básicos",
-          "fullTooltip": "Aumenta el alcance del ataque básico de Junkrat en 1.  Las granadas de Lanzagranadas de fragmentación disparadas en un lapso de 0.5 segundos tras usar un ataque básico infligen un 25% más de daño.",
+          "fullTooltip": "Aumenta el alcance del ataque básico de Junkrat en 1.  Las granadas de Lanzagranadas de fragmentación disparadas en un lapso de 0.5 segundos tras usar un ataque básico infligen un 30% más de daño.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -21628,7 +21632,7 @@
           "name": "¡Odio esperar!",
           "icon": "storm_ui_icon_junkrat_mount_rocket.png",
           "shortTooltip": "¡Vuela en el cohete de Junkrat!",
-          "fullTooltip": "Junkrat siempre se desplaza en su montura de Vuelo en cohete, que otorga un 150% más de velocidad de movimiento, pero el tiempo de reutilización de la montura se incrementa a 12 segundos.",
+          "fullTooltip": "Junkrat siempre se desplaza en su montura de Vuelo en cohete, que otorga un 150% más de velocidad de movimiento, pero el tiempo de reutilización de la montura se incrementa a 8 segundos.",
           "abilityType": "Z",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -23513,7 +23517,7 @@
           "name": "Héroe del rock",
           "icon": "storm_ui_icon_etc_guitarsolo.png",
           "shortTooltip": "Los ataques básicos aumentan la duración y sanan durante Solo de guitarra",
-          "fullTooltip": "Mientras Solo de guitarra está activa, E.T.C. se sana por un 60% del daño que inflige con ataques básicos.  Los ataques básicos aumentan la duración de Solo de guitarra 0.25 segundos.",
+          "fullTooltip": "Mientras Solo de guitarra está activa, E.T.C. se sana por un 50% del daño que inflige con ataques básicos.  Los ataques básicos aumentan la duración de Solo de guitarra 0.5 segundos.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -23555,7 +23559,7 @@
           "name": "Canción animal",
           "icon": "storm_ui_icon_etc_powerslide.png",
           "shortTooltip": "Barrida metalera puede atravesar el terreno",
-          "fullTooltip": "Permite que Barrida metalera atraviese los muros y el terreno.",
+          "fullTooltip": "Permite que Barrida metalera atraviese los muros y el terreno. Si no golpea a ningún enemigo, su tiempo de reutilización se reduce 5 segundos y se restituye el costo de maná.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -23604,25 +23608,25 @@
           ]
         },
         {
+          "nameId": "ETCMasteryHammeron",
+          "buttonId": "ETCHammeronTalent",
+          "name": "Ligado ascendente",
+          "icon": "storm_ui_icon_etc_guitarsolo.png",
+          "shortTooltip": "Solo de guitarra aumenta el daño de ataque básico",
+          "fullTooltip": "Mientras Solo de guitarra está activa, tus ataques básicos infligen un 30% más de daño.",
+          "abilityType": "E",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "L90ETCGuitarSolo"
+          ]
+        },
+        {
           "nameId": "ETCCombatStyleEchoPedal",
           "buttonId": "L90ETCRockstarEchoPedalTalent",
           "name": "Pedal de eco",
           "icon": "storm_ui_icon_etc_echopedal.png",
           "shortTooltip": "Las habilidades infligen daño de área",
           "fullTooltip": "El uso de una habilidad básica o heroica libera dos pulsos que infligen 15 (+4% per level) de daño.  Esto inflige un 250% más de daño a los esbirros, mercenarios y monstruos. El primer pulso se libera al instante y el segundo, 2 segundos después.",
-          "abilityType": "Passive",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "RockstarDummy"
-          ]
-        },
-        {
-          "nameId": "ETCMasteryHammeron",
-          "buttonId": "ETCHammeronTalent",
-          "name": "Ligado ascendente",
-          "icon": "storm_ui_icon_talent_autoattack_damage.png",
-          "shortTooltip": "Las habilidades aumentan el daño de ataque básico",
-          "fullTooltip": "Después de usar una habilidad, los siguientes 2 ataques básicos de E.T.C. infligen un 40% más de daño.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -23683,8 +23687,8 @@
           "buttonId": "ETCEncoreTalent",
           "name": "¡Otra!",
           "icon": "storm_ui_icon_etc_facemelt_a.png",
-          "shortTooltip": "Riff alucinante empuja a los enemigos otra vez",
-          "fullTooltip": "Riff alucinante deja un amplificador en el terreno que empuja a los enemigos otra vez 2 segundos después.",
+          "shortTooltip": "Riff alucinante empuja a los enemigos otra vez, reduce la reutilización de la habilidad heroica",
+          "fullTooltip": "Riff alucinante deja un amplificador en el terreno que empuja a los enemigos otra vez 2 segundos después.   Pasivo: Cada héroe enemigo golpeado por Riff alucinante o el amplificador reduce el tiempo de reutilización de la habilidad heroica un 8%.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -23767,8 +23771,8 @@
           "buttonId": "ETCStageDiveCrowdPleaserTalent",
           "name": "Grandes éxitos",
           "icon": "storm_ui_icon_etc_stagedive.png",
-          "shortTooltip": "Aumenta el área de impacto de Salto al público y reduce su tiempo de reutilización",
-          "fullTooltip": "El área de impacto de Salto al público aumenta un 50% y su tiempo de reutilización se reduce 10 segundos por cada héroe enemigo golpeado.",
+          "shortTooltip": "Aumenta la ralentización y el área de impacto de Salto al público",
+          "fullTooltip": "Aumenta un 30% la ralentización y un 50% el área de impacto de Salto al público.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -30033,8 +30037,8 @@
           "buttonId": "MeiOWAvalanche",
           "name": "Avalancha",
           "icon": "storm_ui_icon_mei_r1_avalanche.png",
-          "energyTooltip": "Maná: 70",
-          "cooldownTooltip": "Tiempo de reutilización: 70 segundos",
+          "energyTooltip": "Maná: 80",
+          "cooldownTooltip": "Tiempo de reutilización: 90 segundos",
           "shortTooltip": "Consume a héroes en una bola de nieve gigante",
           "fullTooltip": "Tras 0.5 segundos, lanza una bola de nieve gigante que consume a todos los héroes enemigos a su paso. Al final de su recorrido, la bola de nieve se desmorona y suelta a los héroes consumidos, lo que les inflige 220 (+4% per level) de daño y los aturde durante 0.5 segundos por héroe consumido.",
           "abilityType": "Heroic"
@@ -30226,7 +30230,7 @@
           "name": "Frente frío",
           "icon": "storm_ui_icon_mei_e1_slide.png",
           "shortTooltip": "Ventisca reduce la reutilización de Deslizada gélida",
-          "fullTooltip": "Si Mei entra a su propia Ventisca mientras Deslizada gélida está activa, el tiempo de reutilización de Deslizada gélida se reduce 7 segundos y ella obtiene 50 de maná.",
+          "fullTooltip": "Si Mei entra a su propia Ventisca mientras Deslizada gélida está activa, el tiempo de reutilización de Deslizada gélida se reduce 8 segundos y ella obtiene 70 de maná.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -30239,7 +30243,7 @@
           "name": "Cristalizar",
           "icon": "storm_ui_icon_mei_trait.png",
           "shortTooltip": "Criocongelación otorga Armadura especial",
-          "fullTooltip": "Reduce 10 segundos el tiempo de reutilización de Criocongelación. Mei obtiene 50 de Armadura especial mientras Criocongelación está activa y durante 1 segundo posterior.",
+          "fullTooltip": "Reduce 10 segundos el tiempo de reutilización de Criocongelación. Mei obtiene 40 de Armadura especial mientras Criocongelación está activa y durante 1 segundo posterior.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30293,8 +30297,8 @@
           "buttonId": "MeiOWAvalanche",
           "name": "Avalancha",
           "icon": "storm_ui_icon_mei_r1_avalanche.png",
-          "energyTooltip": "Maná: 70",
-          "cooldownTooltip": "Tiempo de reutilización: 70 segundos",
+          "energyTooltip": "Maná: 80",
+          "cooldownTooltip": "Tiempo de reutilización: 90 segundos",
           "shortTooltip": "Consume a héroes en una bola de nieve gigante",
           "fullTooltip": "Tras 0.5 segundos, lanza una bola de nieve gigante que consume a todos los héroes enemigos a su paso. Al final de su recorrido, la bola de nieve se desmorona y suelta a los héroes consumidos, lo que les inflige 220 (+4% per level) de daño y los aturde durante 0.5 segundos por héroe consumido.",
           "abilityType": "Heroic",
@@ -30328,7 +30332,7 @@
           "name": "Aluvión",
           "icon": "storm_ui_icon_mei_w_blizzard.png",
           "shortTooltip": "Pararse en una Ventisca reduce su reutilización",
-          "fullTooltip": "Mientras está en su propia Ventisca, Mei obtiene un 50% más de velocidad de ataque y el tiempo de reutilización de Ventisca se restablece un 75% más rápido. Si Mei está en su propia Ventisca cuando esta finaliza, obtiene estas bonificaciones durante 3 segundos más.",
+          "fullTooltip": "Mientras está en su propia Ventisca, Mei obtiene un 50% más de velocidad de ataque y el tiempo de reutilización de Ventisca se restablece un 100% más rápido. Si Mei está en su propia Ventisca cuando esta finaliza, obtiene estas bonificaciones durante 3 segundos más.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -30354,7 +30358,7 @@
           "name": "Vórtice polar",
           "icon": "storm_ui_icon_arthas_frosentempest.png",
           "shortTooltip": "Ralentiza e inflige daño en un área tras lanzar habilidades",
-          "fullTooltip": "Usar una habilidad hace que Mei inflija 24 (+4% per level) de daño por segundo a los enemigos cercanos durante 4 segundos. A los héroes enemigos dañados por este efecto se les reduce un 20% su velocidad de ataque y de movimiento.",
+          "fullTooltip": "Usar una habilidad hace que Mei inflija 24 (+4% per level) de daño por segundo a los enemigos cercanos durante 4 segundos. A los héroes enemigos dañados por este efecto se les reduce un 20% su velocidad de ataque y velocidad de movimiento.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -31643,7 +31647,7 @@
           "energyTooltip": "Maná: 45",
           "cooldownTooltip": "Tiempo de reutilización: 10 segundos",
           "shortTooltip": "Lanza un martillo que aturde y daña al primer enemigo que golpea",
-          "fullTooltip": "Lanza un martillo que inflige 110 (+4% per level) de daño al primer enemigo golpeado y lo aturde durante 1.25 segundos.  Misión: Golpea a 25 héroes con Descarga tormentosa. Los héroes que mueren en un lapso de 2.5 segundos tras ser golpeados por Descarga tormentosa cuentan como 3 héroes adicionales golpeados.  Recompensa: Descarga tormentosa perfora para golpear a un objetivo adicional, y los ataques básicos de Muradin reducen el tiempo de reutilización de Descarga tormentosa 1 segundo.",
+          "fullTooltip": "Lanza un martillo que inflige 110 (+4% per level) de daño al primer enemigo golpeado y lo aturde durante 1.25 segundos.  Misión: Golpea a 25 héroes con Descarga tormentosa. Los héroes que mueren en un lapso de 2.5 segundos tras ser golpeados por Descarga tormentosa cuentan como 3 héroes adicionales golpeados.  Recompensa: Descarga tormentosa perfora para golpear a un objetivo adicional. Los ataques básicos de Muradin reducen el tiempo de reutilización de Descarga tormentosa 1 segundo y restituyen 3 de maná.",
           "abilityType": "Q"
         },
         {
@@ -33495,7 +33499,7 @@
           "name": "La sed",
           "icon": "storm_ui_icon_nexushunter_q.png",
           "shortTooltip": "Matanza incrementa el daño y la sanación de los ataques básicos",
-          "fullTooltip": "Cada vez que Matanza inflige daño a un héroe enemigo, el siguiente ataque básico de Qhira en los próximos 4 segundos contra un héroe enemigo inflige un 12% más de daño y restituye un 50% del total del daño infligido como salud. El daño se acumula hasta 10 veces.",
+          "fullTooltip": "Matanza restituye un 50% del daño infligido a héroes enemigos como salud. Cada vez que Matanza inflige daño a un héroe enemigo, el siguiente ataque básico de Qhira en los próximos 4 segundos contra un héroe enemigo inflige un 15% más de daño y se acumula hasta 10 veces.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -33521,7 +33525,7 @@
           "name": "Enlace succionante",
           "icon": "storm_ui_icon_nexushunter_e.png",
           "shortTooltip": "Barrido circular sana con el tiempo",
-          "fullTooltip": "Infligir daño a un héroe enemigo con el impacto inicial o el giro de Barrido circular hace que Qhira recupere 96 (+4% per level) de salud durante 4 segundos. Se acumula hasta 4 veces.",
+          "fullTooltip": "Infligir daño a un héroe enemigo con el impacto inicial o el giro de Barrido circular hace que Qhira recupere 96 (+4% per level) de salud durante 4 segundos. Se acumula hasta 4 veces.  Pasivo: Los ataques básicos restituyen un 20% del daño infligido como salud.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -33627,7 +33631,7 @@
           "name": "Mal persistente",
           "icon": "storm_ui_icon_nexushunter_e_alt_1.png",
           "shortTooltip": "Reduce la armadura de los héroes enemigos",
-          "fullTooltip": "A los héroes enemigos golpeados por el impacto inicial y el giro de Barrido circular se les reduce la Armadura en 15 durante 3 segundos.",
+          "fullTooltip": "A los héroes enemigos golpeados por Barrido circular o por Arpeo se les reduce la Armadura en 15 durante 3 segundos.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -33641,7 +33645,7 @@
           "name": "Arrebato de vida",
           "icon": "storm_ui_icon_nexushunter_e_alt_2.png",
           "shortTooltip": "Barrido circular se recarga más rápido",
-          "fullTooltip": "El tiempo de reutilización de Barrido circular se recarga un 200% más rápido mientras Qhira gira alrededor de su objetivo. Ella también obtiene 50 de Armadura especial durante 2.5 segundos tras el impacto de la reactivación.",
+          "fullTooltip": "El tiempo de reutilización de Barrido circular se recarga un 250% más rápido mientras Qhira gira alrededor de su objetivo. Ella también obtiene 50 de Armadura especial durante 2.5 segundos tras el impacto de la reactivación.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -44130,7 +44134,7 @@
           },
           "cooldownTooltip": "Tiempo de reutilización de carga: 16 segundos",
           "shortTooltip": "Sana a un héroe aliado",
-          "fullTooltip": "Le restituye 255 (+4% per level) de salud a un héroe aliado. El tiempo de reutilización de Luz de Elune se reduce 1.5 segundos cada vez que Tyrande inflige daño a un héroe enemigo o lo golpea con un ataque básico.  Acumula hasta 2 cargas. El tiempo de reutilización restablece todas las cargas al mismo tiempo.",
+          "fullTooltip": "Le restituye 270 (+4% per level) de salud a un héroe aliado. El tiempo de reutilización de Luz de Elune se reduce 1.5 segundos cada vez que Tyrande inflige daño a un héroe enemigo o lo golpea con un ataque básico.  Acumula hasta 2 cargas. El tiempo de reutilización restablece todas las cargas al mismo tiempo.",
           "abilityType": "Q"
         },
         {
@@ -44457,7 +44461,7 @@
           "name": "Luz de luna violenta",
           "icon": "storm_ui_icon_tyrande_sentinel.png",
           "shortTooltip": "Centinela ralentiza y reduce el daño infligido",
-          "fullTooltip": "Centinela ralentiza un 40% al primer objetivo golpeado y reduce su daño infligido un 40% durante 4 segundos.",
+          "fullTooltip": "Centinela ralentiza un 35% a los enemigos golpeados y reduce su daño infligido un 35% durante 4 segundos.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -44470,7 +44474,7 @@
           "name": "Marca del vigía",
           "icon": "storm_ui_icon_tyrande_huntersmark.png",
           "shortTooltip": "Los ataques básicos potencian Marca del cazador y Destello lunar",
-          "fullTooltip": "Los ataques básicos reducen el tiempo de reutilización de Marca del cazador 1 segundo. Los ataques básicos contra objetivos marcados reducen 1.5 segundos el tiempo de reutilización de Destello lunar.",
+          "fullTooltip": "Los ataques básicos reducen el tiempo de reutilización de Marca del cazador 1 segundo. Los ataques básicos contra objetivos marcados reducen 3 segundos el tiempo de reutilización de Destello lunar.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -44504,7 +44508,7 @@
           "name": "Potenciar",
           "icon": "storm_ui_icon_tyrande_sentinel.png",
           "shortTooltip": "Se reduce el tiempo de reutilización de Centinela, inflige daño porcentual",
-          "fullTooltip": "Reduce el tiempo de reutilización de Centinela 3 segundos. El primer héroe golpeado por Centinela recibe un daño adicional equivalente al 7% de su salud máxima.",
+          "fullTooltip": "Reduce el tiempo de reutilización de Centinela 3 segundos. Los héroes golpeados por Centinela reciben un daño adicional equivalente al 7% de su salud máxima.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -44629,10 +44633,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_uther.png"
     },
     "life": {
-      "amount": 2000.0,
+      "amount": 1975.0,
       "scale": 0.04,
       "type": "Salud",
-      "regenRate": 4.168,
+      "regenRate": 4.1093,
       "regenScale": 0.04
     },
     "energy": {
@@ -44677,10 +44681,10 @@
           "buttonId": "UtherHolyRadiance",
           "name": "Radiancia sagrada",
           "icon": "storm_ui_icon_uther_holyradiance.png",
-          "energyTooltip": "Maná: 70",
-          "cooldownTooltip": "Tiempo de reutilización: 12 segundos",
+          "energyTooltip": "Maná: 55",
+          "cooldownTooltip": "Tiempo de reutilización: 10 segundos",
           "shortTooltip": "Sana a los aliados y daña a los enemigos en una línea",
-          "fullTooltip": "Le restituye a todos los héroes y esbirros aliados en una línea 177 (+4% per level) de salud e inflige 177 (+4% per level) de daño a los enemigos.",
+          "fullTooltip": "Le restituye a todos los héroes y esbirros aliados en una línea 194 (+4% per level) de salud e inflige 177 (+4% per level) de daño a los enemigos.",
           "abilityType": "W"
         },
         {
@@ -44845,7 +44849,7 @@
           "name": "Oleada de luz",
           "icon": "storm_ui_icon_uther_holyradiance.png",
           "shortTooltip": "Misión: Radiancia sagrada aumenta la duración de Devoción",
-          "fullTooltip": "Misión: Daña o sana a héroes con Radiancia sagrada 60 veces.  Recompensa: Aumenta 0.5 segundos la duración de Devoción.  Pasivo: Dañar o sanar a héroes con Radiancia sagrada restituye 5 de maná y reduce su tiempo de reutilización 1 segundo.",
+          "fullTooltip": "Misión: Daña o sana a héroes con Radiancia sagrada 60 veces.  Recompensa: Aumenta 0.5 segundos la duración de Devoción.  Pasivo: Dañar o sanar a héroes con Radiancia sagrada restituye 5 de maná y reduce su tiempo de reutilización 0.75 segundos.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -45033,7 +45037,7 @@
           "name": "Señal de la Luz",
           "icon": "storm_ui_icon_uther_holylight.png",
           "shortTooltip": "Aumenta la autosanación de Luz sagrada",
-          "fullTooltip": "Mientras tienes menos del 50% de salud, Uther recibe un 200% más de autosanación cuando sana a los aliados con Luz sagrada.",
+          "fullTooltip": "Uther recibe un 100% más de autosanación cuando sana a los aliados con Luz sagrada. Esta bonificación aumenta al 200% mientras tiene menos del 50% de salud.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -45046,8 +45050,8 @@
           "buttonId": "UtherHolyRadianceTyrsDeliveranceTalent",
           "name": "Liberación de Tyr",
           "icon": "storm_ui_icon_uther_holyradiance.png",
-          "shortTooltip": "Radiancia sagrada aumenta la sanación recibida",
-          "fullTooltip": "Los aliados sanados con Radiancia sagrada reciben un 40% más de sanación de todas las fuentes durante 6 segundos.",
+          "shortTooltip": "Aumenta el daño y la sanación de Radiancia sagrada",
+          "fullTooltip": "Aumenta un 10% el daño y la sanación de Radiancia sagrada. Los ataques básicos contra héroes enemigos hacen que el siguiente lanzamiento de Radiancia sagrada tenga un 10% más de daño y sanación. Este efecto se acumula hasta 4 veces.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -50261,7 +50265,7 @@
           "name": "Presión incesante",
           "icon": "storm_ui_icon_zeratul_singularityspike.png",
           "shortTooltip": "Los ataques básicos reducen el tiempo de reutilización de Púa de singularidad",
-          "fullTooltip": "Los ataques básicos contra héroes enemigos marcados o ralentizados por Púa de singularidad reducen su tiempo de reutilización 1.25 segundos.",
+          "fullTooltip": "Púa de singularidad ya no cuesta maná. Los ataques básicos contra enemigos reducen su tiempo de reutilización 1.25 segundos. Se duplica contra héroes.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -50273,8 +50277,8 @@
           "buttonId": "ZeratulShadowStrideTalent",
           "name": "Andar sombrío",
           "icon": "storm_ui_icon_zeratul_vorpalblade.png",
-          "shortTooltip": "Reduce el tiempo de reutilización de Cuchilla vorpal",
-          "fullTooltip": "Reduce 10 segundos el tiempo de reutilización de Cuchilla vorpal.",
+          "shortTooltip": "Reduce el tiempo de reutilización de Cuchilla vorpal, obtiene un escudo",
+          "fullTooltip": "Reduce 10 segundos el tiempo de reutilización de Cuchilla vorpal. El lanzamiento de Cuchilla vorpal otorga a Zeratul un escudo que absorbe hasta 260 (+4% per level) de daño durante 3 segundos.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -50818,6 +50822,16 @@
           "abilityTalentLinkIds": [
             "ZuljinRegeneration"
           ]
+        },
+        {
+          "nameId": "ZuljinPassiveASurpriseForYa",
+          "buttonId": "Zul'jinPassiveASurpriseForYa",
+          "name": "Una sorpresa pa' ti",
+          "icon": "storm_ui_icon_talent_autoattack_aoe.png",
+          "shortTooltip": "Los ataques básicos rebotan sobre un enemigo cercano",
+          "fullTooltip": "Los ataques básicos rebotan sobre un enemigo cercano y le infligen un 50% de daño. Prioriza a los héroes enemigos.",
+          "abilityType": "Passive",
+          "sort": 4
         }
       ]
     }
