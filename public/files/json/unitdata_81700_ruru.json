@@ -5478,7 +5478,6 @@
     "life": {
       "amount": 1.0,
       "scale": 0.0,
-      "type": "Здоровье",
       "regenRate": 0.0,
       "regenScale": 0.0
     },
@@ -7694,6 +7693,56 @@
       "scale": 0.0,
       "regenRate": 100030.0,
       "regenScale": 0.0
+    }
+  },
+  "GazloweXplodiumChargeArkReaktorRockItTurret": {
+    "hyperlinkId": "GazloweXplodiumChargeArkReaktorRockItTurret",
+    "radius": 0.5,
+    "attributes": [
+      "IgnoredByTowerAI",
+      "ImmuneToAOE",
+      "ImmuneToFriendlyAbilities",
+      "ImmuneToSkillshots",
+      "NoMinionAggro",
+      "Summoned"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_gazlowe_turret.png"
+    },
+    "life": {
+      "amount": 510.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    },
+    "weapons": [
+      {
+        "nameId": "GazloweXplodiumChargeArkReaktorRockItTurretWeapon",
+        "range": 6.0,
+        "period": 1.0,
+        "damage": 36.0,
+        "damageScale": 0.04
+      }
+    ],
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "GazloweDethLazorFirinMahLazorz",
+          "buttonId": "GazloweDethLazorFirinMahLazorz",
+          "name": "Лазоры пыщ-пыщ",
+          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
+          "toggleCooldown": 0.25,
+          "shortTooltip": "«Рок'етные турели» используют «Лазор смерте».",
+          "fullTooltip": "При использовании «Лазора смерте» все «Рок'етные турели» также используют его, нанося при этом 125 (+4% per level) ед. урона.",
+          "abilityType": "Q"
+        }
+      ],
+      "hidden": [
+        {
+          "nameId": "BuildInProgress",
+          "abilityType": "Hidden"
+        }
+      ]
     }
   },
   "GenjiShurikenMissileCenter": {
@@ -13426,9 +13475,9 @@
     "weapons": [
       {
         "nameId": "RockItTurret",
-        "range": 7.0,
+        "range": 6.0,
         "period": 1.0,
-        "damage": 62.0,
+        "damage": 36.0,
         "damageScale": 0.04
       }
     ],
@@ -17938,21 +17987,33 @@
       "targetInfo": "storm_ui_ingame_targetinfopanel_unit_gazlowe_turret.png"
     },
     "life": {
-      "amount": 593.0,
-      "scale": 0.04,
+      "amount": 510.0,
+      "scale": 0.05,
       "regenRate": 0.0,
       "regenScale": 0.0
     },
     "weapons": [
       {
         "nameId": "RockItTurret",
-        "range": 7.0,
+        "range": 6.0,
         "period": 1.0,
-        "damage": 62.0,
+        "damage": 36.0,
         "damageScale": 0.04
       }
     ],
     "abilities": {
+      "basic": [
+        {
+          "nameId": "GazloweDethLazorFirinMahLazorz",
+          "buttonId": "GazloweDethLazorFirinMahLazorz",
+          "name": "Лазоры пыщ-пыщ",
+          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
+          "toggleCooldown": 0.25,
+          "shortTooltip": "«Рок'етные турели» используют «Лазор смерте».",
+          "fullTooltip": "При использовании «Лазора смерте» все «Рок'етные турели» также используют его, нанося при этом 125 (+4% per level) ед. урона.",
+          "abilityType": "Q"
+        }
+      ],
       "hidden": [
         {
           "nameId": "BuildInProgress",
@@ -17976,7 +18037,7 @@
       "Summoned"
     ],
     "life": {
-      "amount": 593.0,
+      "amount": 510.0,
       "scale": 0.0,
       "regenRate": 0.0,
       "regenScale": 0.0
@@ -17984,13 +18045,25 @@
     "weapons": [
       {
         "nameId": "RockItTurret",
-        "range": 7.0,
+        "range": 6.0,
         "period": 1.0,
-        "damage": 62.0,
+        "damage": 36.0,
         "damageScale": 0.04
       }
     ],
     "abilities": {
+      "basic": [
+        {
+          "nameId": "GazloweDethLazorFirinMahLazorz",
+          "buttonId": "GazloweDethLazorFirinMahLazorz",
+          "name": "Лазоры пыщ-пыщ",
+          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
+          "toggleCooldown": 0.25,
+          "shortTooltip": "«Рок'етные турели» используют «Лазор смерте».",
+          "fullTooltip": "При использовании «Лазора смерте» все «Рок'етные турели» также используют его, нанося при этом 125 (+4% per level) ед. урона.",
+          "abilityType": "Q"
+        }
+      ],
       "hidden": [
         {
           "nameId": "BuildInProgress",
@@ -18006,7 +18079,7 @@
   "TinkerSalvageScrap": {
     "name": "Ремонтник - переработка хлама",
     "hyperlinkId": "TinkerSalvageScrap",
-    "radius": 0.125,
+    "radius": 0.25,
     "attributes": [
       "ImmuneToAOE",
       "ImmuneToFriendlyAbilities",
@@ -18022,7 +18095,7 @@
     "weapons": [
       {
         "nameId": "TinkerSalvageWeapon",
-        "range": 1.25,
+        "range": 1.5,
         "period": 2.0,
         "damage": 0.0,
         "damageScale": 0.0

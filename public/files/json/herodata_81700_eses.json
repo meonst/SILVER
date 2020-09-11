@@ -684,10 +684,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_alarak.png"
     },
     "life": {
-      "amount": 1900.0,
+      "amount": 1950.0,
       "scale": 0.04,
       "type": "Salud",
-      "regenRate": 3.957,
+      "regenRate": 4.0585,
       "regenScale": 0.04
     },
     "energy": {
@@ -989,7 +989,7 @@
           "name": "Carga negativa",
           "icon": "storm_ui_icon_alarak_lightningsurge.png",
           "shortTooltip": "Misión: Aumenta el daño del medio de Oleada de relámpagos.",
-          "fullTooltip": "Aumenta a un 150% la bonificación al daño que inflige Oleada de relámpagos a los enemigos que se encuentran entre el objetivo y tú.  Misión repetible: Cada héroe alcanzado por la parte central de Oleada de relámpagos aumenta un 4% la bonificación al daño de forma permanente.",
+          "fullTooltip": "Aumenta a un 175% la bonificación al daño que inflige Oleada de relámpagos a los enemigos que se encuentran entre el objetivo y tú.  Misión repetible: Cada héroe alcanzado por la parte central de Oleada de relámpagos aumenta un 4% la bonificación al daño de forma permanente.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 2,
@@ -2300,7 +2300,7 @@
           "icon": "storm_ui_icon_cassia_avoidance_b.png",
           "toggleCooldown": 0.25,
           "shortTooltip": "Activa Evitar para infligir daño.",
-          "fullTooltip": "Tras sufrir 500 (+4% per level) de daño con Evitar activo, puedes activar Evitar para infligir 250 (+4% per level) de daño a los enemigos a tu alrededor.",
+          "fullTooltip": "Tras sufrir 650 (+4% per level) de daño con Evitar activo, puedes activar Evitar para infligir 240 (+4% per level) de daño a los enemigos a tu alrededor.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -9058,7 +9058,7 @@
           "name": "Aliento profundo",
           "icon": "storm_ui_icon_chromie_sandstrike.png",
           "shortTooltip": "Misión: Golpea a héroes para potenciar Aliento de dragón.",
-          "fullTooltip": "Misión: Golpea a héroes con Aliento de dragón para aumentar su daño un 1.5% por héroe golpeado, hasta un máximo de un 30%.  Recompensa: Tras golpear a 20 héroes, reduce 5 s el tiempo de reutilización de Aliento de dragón y su coste de maná de 65 a 30.",
+          "fullTooltip": "Misión: Golpea a héroes con Aliento de dragón para aumentar su daño un 1% por héroe golpeado, hasta un máximo de un 20%.  Recompensa: Tras golpear a 20 héroes, reduce 4 s el tiempo de reutilización de Aliento de dragón y su coste de maná de 65 a 40.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -9166,7 +9166,7 @@
           "name": "Cinta de Moebius",
           "icon": "storm_ui_icon_chromie_sandstrike.png",
           "shortTooltip": "El centro de Aliento de dragón inflige más daño y ralentiza.",
-          "fullTooltip": "Aliento de dragón inflige un 50% de daño adicional a los enemigos golpeados por su centro. Los héroes enemigos golpeados por su centro quedan ralentizados un 60% durante 1 s.",
+          "fullTooltip": "Aliento de dragón inflige un 30% de daño adicional a los enemigos golpeados por su centro. Los héroes enemigos golpeados por su centro quedan ralentizados un 60% durante 0.75 s.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -10757,7 +10757,7 @@
           "name": "Rubí",
           "icon": "storm_ui_icon_deckard_ruby.png",
           "toggleCooldown": 0.5,
-          "cooldownTooltip": "Tiempo de reutilización: 10 s",
+          "cooldownTooltip": "Tiempo de reutilización: 20 s",
           "shortTooltip": "Tu siguiente Cubo horádrico crea pociones curativas inferiores.",
           "fullTooltip": "Actívalo para aumentar un 100% el daño de tu próximo Cubo horádrico y hacer que aparezcan 3 pociones curativas inferiores de cada héroe enemigo golpeado. Cada poción cura 250 (+4% per level) de salud al héroe aliado que la recoge. Cada poción curativa inferior dura 10 s.  Solo puedes tener 1 gema activa a la vez.",
           "abilityType": "Active",
@@ -13260,10 +13260,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_dva_mech.png"
     },
     "life": {
-      "amount": 2000.0,
+      "amount": 2250.0,
       "scale": 0.04,
       "type": "Salud",
-      "regenRate": 4.168,
+      "regenRate": 4.6875,
       "regenScale": 0.04
     },
     "energy": {
@@ -13286,7 +13286,7 @@
         "nameId": "DVaMechWeapon",
         "range": 3.75,
         "period": 0.25,
-        "damage": 26.0,
+        "damage": 23.0,
         "damageScale": 0.04
       }
     ],
@@ -13298,9 +13298,9 @@
           "name": "Impulsores",
           "icon": "storm_ui_icon_dva_boosters.png",
           "toggleCooldown": 0.0625,
-          "cooldownTooltip": "Tiempo de reutilización: 9 s",
+          "cooldownTooltip": "Tiempo de reutilización: 10 s",
           "shortTooltip": "Te mueves rápido y repeles a los enemigos.",
-          "fullTooltip": "Aumenta tu velocidad de movimiento un 125% durante 2 s. Si golpeas a enemigos, les infliges 135 (+4% per level) de daño y los repeles.   Mientras Impulsores está activo, no te pueden ralentizar y, por cada uso de la habilidad, solo puedes golpear una vez a los enemigos.",
+          "fullTooltip": "Aumenta tu velocidad de movimiento un 115% durante 1.75 s. Si golpeas a enemigos, les infliges 135 (+4% per level) de daño y los repeles.   Mientras Impulsores está activo, no te pueden ralentizar y, por cada uso de la habilidad, solo puedes golpear una vez a los enemigos.",
           "abilityType": "Q"
         },
         {
@@ -13309,9 +13309,9 @@
           "name": "Matriz de defensa",
           "icon": "storm_ui_icon_dva_defensematrix.png",
           "toggleCooldown": 0.0625,
-          "cooldownTooltip": "Tiempo de reutilización: 10 s",
+          "cooldownTooltip": "Tiempo de reutilización: 12 s",
           "shortTooltip": "Reduces el daño de los héroes enemigos en un área.",
-          "fullTooltip": "Canalizas un campo defensivo en la dirección seleccionada durante 3 s, el cual reduce un 75% el daño que infligen los héroes enemigos que se encuentran en él. Mientras lo canalizas, puedes mover el meca, pero no lo puedes girar.  El daño que infligen al meca dichos enemigos sigue contribuyendo en la misma medida a la carga de Autodestrucción.",
+          "fullTooltip": "Proyectas un campo defensivo en la dirección seleccionada durante 3 s, el cual reduce un 50% el daño que infligen los héroes enemigos que se encuentran en él.  Actívala otra vez para cambiar el ángulo de proyección.  El daño que infligen al meca dichos enemigos sigue contribuyendo en la misma medida a la carga de Autodestrucción.",
           "abilityType": "W"
         },
         {
@@ -13325,29 +13325,35 @@
             "hideCount": true
           },
           "shortTooltip": "Saltas del meca y este se autodestruye, lo que inflige mucho daño.",
-          "fullTooltip": "Saltas del meca y este se autodestruye en 4 s. La explosión inflige entre 1200 (+4% per level) y 400 (+4% per level) de daño en una gran área, según la distancia al centro. Solo inflige un 50% de daño contra estructuras.  Obtienes un 1% de carga cada 2 s con los ataques básicos, y un 30% de carga por perder el 100% de la salud del meca.",
+          "fullTooltip": "Saltas del meca y este se autodestruye en 4 s. La explosión inflige entre 400 (+4% per level) y 1100 (+4% per level) de daño en una gran área, según la distancia al centro. Inflige un 50% de daño contra estructuras.  Obtienes un 1% de carga cada 2 s con los ataques básicos, y un 25% de carga por perder el 100% de la salud del meca.",
           "abilityType": "E"
         }
       ],
       "heroic": [
         {
-          "nameId": "DVaPilotBigShot",
-          "buttonId": "DVaPilotBigShot",
-          "name": "Cañonazo",
-          "icon": "storm_ui_icon_dva_bigshot.png",
-          "cooldownTooltip": "Tiempo de reutilización: 4 s",
-          "shortTooltip": "En Modo piloto, infliges daño a los enemigos en una línea.",
-          "fullTooltip": "Infliges 250 (+4% per level) de daño a todos los enemigos en una línea. El tiempo de reutilización de Solicitar meca se reduce 8 s por cada héroe enemigo alcanzado.  Necesitas estar en Modo piloto.",
-          "abilityType": "Heroic"
-        },
-        {
           "nameId": "DVaMechBunnyHopHeroic",
           "buttonId": "DVaBunnyHopOn",
           "name": "¡Salta, conejito!",
           "icon": "storm_ui_icon_dva_bunnyhop.png",
-          "cooldownTooltip": "Tiempo de reutilización: 100 s",
-          "shortTooltip": "Te vuelves imparable y ralentizas a los héroes cercanos.",
-          "fullTooltip": "Tu meca se vuelve imparable y golpea con fuerza el suelo cada 0.5 s, lo que inflige 60 (+4% per level) de daño a los enemigos y los ralentiza un 40%. Dura 4 s.  Necesitas estar en Modo meca.",
+          "cooldownTooltip": "Tiempo de reutilización: 80 s",
+          "shortTooltip": "Te vuelves imparable y aturdes a los héroes cercanos.",
+          "fullTooltip": "Tu meca se vuelve imparable y golpea con fuerza el suelo cada 0.5 s, lo que inflige 52 (+4% per level) de daño en un área amplia. Cada 4 golpes consecutivos contra un héroe, inflige un 100% más de daño y lo aturde durante 0.5 s.  Dura 4 s.  Necesitas estar en Modo meca.",
+          "abilityType": "Heroic"
+        },
+        {
+          "nameId": "DVaMicroMissiles",
+          "buttonId": "DVaMicroMissiles",
+          "name": "Micromisiles",
+          "icon": "storm_ui_icon_dva_micromissiles.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 5.0
+          },
+          "cooldownTooltip": "Tiempo de reutilización de carga: 20 s",
+          "shortTooltip": "Disparas una salva de misiles que dañan y ralentizan.",
+          "fullTooltip": "Tras 0,375 s, canalizas para lanzar una salva de 12 misiles en la dirección seleccionada. Cada misil impacta contra el primer enemigo en su camino, lo que inflige 44 (+4% per level) de daño en un área pequeña y ralentiza un 35% durante 2 s.  Acumula 2 cargas con un tiempo de reutilización de 5 s entre cada uso.  Necesitas estar en Modo meca.",
           "abilityType": "Heroic"
         }
       ],
@@ -13358,7 +13364,7 @@
           "name": "Modo meca",
           "icon": "storm_ui_icon_dva_mechmode.png",
           "shortTooltip": "Puedes saltar del meca y seguir luchando.",
-          "fullTooltip": "Cuando tu meca es destruido, sales eyectada tras 0.75 s, lo que te permite seguir luchando. Tu meca solo otorga un 50% de la experiencia normal que otorga la muerte de un héroe.",
+          "fullTooltip": "Cuando tu meca es destruido, sales eyectada tras 0.75 s, lo que te permite seguir luchando. Tu meca solo otorga un 50% de la experiencia normal que otorga la muerte de un héroe.  Cañones de fusión  Los ataques básicos de tu meca infligen 23 (+4% per level) de daño en un área amplia cada 0.25 s. Inflige un 50% más de daño a los enemigos que están muy cerca del meca.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -13371,7 +13377,7 @@
           "name": "Caminante mecanizada",
           "icon": "storm_ui_icon_dva_mount.png",
           "shortTooltip": "Mientras estás dentro del meca, puedes disparar y moverte al mismo tiempo, pero te desplazas más despacio.",
-          "fullTooltip": "Mientras estás dentro del meca, puedes disparar y moverte al mismo tiempo, pero tu velocidad de movimiento base se reduce un 15%.",
+          "fullTooltip": "Tu meca puede disparar mientras se mueve. Mientras dispara o canaliza una habilidad, la velocidad de movimiento del meca se reduce rápidamente un 25%.",
           "abilityType": "Z",
           "isActive": false,
           "isPassive": true
@@ -13443,14 +13449,27 @@
         "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W": {
           "basic": [
             {
-              "nameId": "DVaMechDefenseMatrixOff",
-              "buttonId": "DVaMechCancelDefenseMatrix",
+              "nameId": "DVaMechDefenseMatrixRetarget",
+              "buttonId": "DVaRetargetDefenseMatrix",
+              "name": "Redirigir Matriz de defensa",
+              "icon": "storm_ui_icon_dva_defensematrix_a.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Redirigir Matriz de defensa.",
+              "fullTooltip": "Redirigir Matriz de defensa.",
+              "abilityType": "W"
+            }
+          ]
+        },
+        "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|Trait": {
+          "trait": [
+            {
+              "nameId": "DvaCancelDefenseMatrix",
+              "buttonId": "DvaCancelDefenseMatrix",
               "name": "Cancelar Matriz de defensa",
               "icon": "hud_btn_bg_ability_cancel.png",
-              "toggleCooldown": 0.0625,
-              "shortTooltip": "Cancelar Matriz de defensa.",
-              "fullTooltip": "Cancelar Matriz de defensa.",
-              "abilityType": "W"
+              "shortTooltip": "Dejas de canalizar Matriz de defensa.",
+              "fullTooltip": "Dejas de canalizar Matriz de defensa.",
+              "abilityType": "Trait"
             }
           ]
         }
@@ -13459,57 +13478,45 @@
     "talents": {
       "level1": [
         {
-          "nameId": "DVaBoostersRushdown",
-          "buttonId": "DVaBoostersRushdown",
-          "name": "Avance progresivo",
-          "icon": "storm_ui_icon_dva_boosters.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "El tiempo de reutilización de Impulsores se reduce si la usas cuando no estás en combate.",
-          "fullTooltip": "Si no sufres ni infliges daño mientras estás usando Impulsores, su tiempo de reutilización se reduce 7 s.",
-          "abilityType": "Q",
+          "nameId": "DVaFullMetal",
+          "buttonId": "DVaFullMetal",
+          "name": "La tanqueta metálica",
+          "icon": "storm_ui_icon_dva_mechmode.png",
+          "shortTooltip": "Aumenta la salud del meca y los cañones de fusión curan.",
+          "fullTooltip": "Tu meca obtiene un 10% más de salud, y sus cañones de fusión curan un 20% del daño infligido a los enemigos en su área adicional.",
+          "abilityType": "Trait",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "DVaBoostersOn"
-          ]
-        },
-        {
-          "nameId": "DVaBoostersHitTheNitrous",
-          "buttonId": "DVaBoostersHitTheNitrous",
-          "name": "Óxido nitroso",
-          "icon": "storm_ui_icon_dva_boosters_a.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Impulsores da un pico inicial de velocidad.",
-          "fullTooltip": "La bonificación a la velocidad inicial de Impulsores aumenta a un 325% y se va reduciendo a lo largo de 0.5 s hasta llegar al aumento de velocidad normal. Durante ese tiempo, Impulsores inflige un 50% más de daño.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaBoostersOn"
-          ]
-        },
-        {
-          "nameId": "DVaBoostersCrashCourse",
-          "buttonId": "DVaBoostersCrashCourse",
-          "name": "Impacto total",
-          "icon": "storm_ui_icon_dva_boosters_b.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Misión: Reduce el tiempo de reutilización de Impulsores.",
-          "fullTooltip": "Misión: Inflige daño a los enemigos mediante Impulsores.  Recompensa: Tras infligir daño a 20 héroes, cada uso de Impulsores reduce su tiempo de reutilización 1 s por héroe golpeado.",
-          "abilityType": "Q",
-          "isQuest": true,
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DVaBoostersOn"
+            "DVaMechMechMode",
+            "DVaPilotCallMech"
           ]
         },
         {
           "nameId": "DVaMechProMoves",
           "buttonId": "DVaMechProMoves",
           "name": "Filigranas",
-          "icon": "storm_ui_icon_dva_mechmode.png",
-          "shortTooltip": "Sufrir daño aumenta la velocidad de movimiento.",
-          "fullTooltip": "Tu meca obtiene un 2% de velocidad de movimiento durante 1.5 s cada vez que sufre daño, hasta un máximo de un 30%.",
+          "icon": "storm_ui_icon_dva_mechmode_a.png",
+          "shortTooltip": "Sufrir daño aumenta la velocidad de movimiento y la armadura.",
+          "fullTooltip": "Tu meca obtiene un 2% de velocidad de movimiento y 2 de armadura cada vez que sufre daño. Este efecto se acumula hasta un máximo de 15 veces. Las acumulaciones de este efecto se reducen cada 0.5 s.  Tus ataques básicos contra héroes enemigos en Modo piloto reducen el tiempo de reutilización de Solicitar meca 1 s más.",
           "abilityType": "Trait",
-          "sort": 4,
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaMechMechMode",
+            "DVaPilotCallMech",
+            "DVaPilotPilotMode"
+          ]
+        },
+        {
+          "nameId": "DVaLiquidCooling",
+          "buttonId": "DVaLiquidCooling",
+          "name": "Refrigeración líquida",
+          "icon": "storm_ui_icon_dva_mechmode_b.png",
+          "cooldownTooltip": "Tiempo de reutilización: 50 s",
+          "shortTooltip": "Potencia la fuente de sanación en Modo meca.",
+          "fullTooltip": "Actívalo para obtener los efectos de la fuente de sanación. Necesitas estar en Modo meca.  Pasivo: Mientras estás en Modo meca, el tiempo de reutilización de la fuente de sanación se reduce a 50 s y sus efectos duran un 25% más.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3,
           "abilityTalentLinkIds": [
             "DVaMechMechMode"
           ]
@@ -13517,75 +13524,13 @@
       ],
       "level4": [
         {
-          "nameId": "DVaDefenseMatrixDivertingPower",
-          "buttonId": "DVaDefenseMatrixDivertingPower",
-          "name": "Desvío de energía",
-          "icon": "storm_ui_icon_dva_defensematrix.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Aumenta el tamaño de Matriz de defensa, pero reduce tu velocidad de movimiento.",
-          "fullTooltip": "El área de Matriz de defensa es un 100% más ancha y un 25% más larga, pero ahora tu velocidad de movimiento se reduce un 30% mientras Matriz de defensa está activa.",
-          "abilityType": "W",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "DVaMechDefenseMatrixOn"
-          ]
-        },
-        {
-          "nameId": "DVaDefenseMatrixGetThroughThis",
-          "buttonId": "DVaDefenseMatrixGetThroughThis",
-          "name": "¡Atravesad esto!",
-          "icon": "storm_ui_icon_dva_defensematrix_a.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Aumenta la duración de Matriz de defensa.",
-          "fullTooltip": "Aumenta 3 s la duración de Matriz de defensa.",
-          "abilityType": "W",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaMechDefenseMatrixOn"
-          ]
-        },
-        {
-          "nameId": "DVaDefenseMatrixFusionGenerator",
-          "buttonId": "DVaDefenseMatrixFusionGenerator",
-          "name": "Generador de fusión",
-          "icon": "storm_ui_icon_dva_defensematrix_b.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Matriz de defensa contribuye a la carga de Autodestrucción.",
-          "fullTooltip": "Cada vez que un héroe enemigo te inflige daño mientras se encuentra dentro de Matriz de defensa, la carga de Autodestrucción aumenta un 1%.  Puedes obtener hasta un 15% de carga por uso.",
-          "abilityType": "W",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DVaMechDefenseMatrixOn"
-          ]
-        },
-        {
-          "nameId": "DVaSelfDestructBringItOn",
-          "buttonId": "DVaSelfDestructBringItOn",
-          "name": "¡Vamos!",
-          "icon": "storm_ui_icon_dva_selfdestruct.png",
-          "charges": {
-            "countMax": 100,
-            "countUse": 100,
-            "hideCount": true
-          },
-          "shortTooltip": "Aumenta la carga que obtienes para Autodestrucción al perder salud.",
-          "fullTooltip": "La carga que obtienes para Autodestrucción aumenta un 30% cuando el meca pierde salud.",
-          "abilityType": "E",
-          "sort": 4,
-          "abilityTalentLinkIds": [
-            "DVaMechSelfDestruct"
-          ]
-        }
-      ],
-      "level7": [
-        {
-          "nameId": "DVaBoostersComingThrough",
-          "buttonId": "DVaBoostersComingThrough",
-          "name": "Paso, que voy",
+          "nameId": "DVaBoostersRushdown",
+          "buttonId": "DVaBoostersRushdown",
+          "name": "Avance progresivo",
           "icon": "storm_ui_icon_dva_boosters.png",
           "toggleCooldown": 0.0625,
-          "shortTooltip": "Aumenta la distancia de repulsión de Impulsores.",
-          "fullTooltip": "La distancia de repulsión de Impulsores aumenta un 100%.",
+          "shortTooltip": "Impulsores roba salud e inflige más daño a objetivos que no son héroes.",
+          "fullTooltip": "Impulsores inflige un daño adicional a héroes equivalente a un 4%  de su salud máxima y cura a tu meca una cantidad equivalente al daño infligido. Impulsores inflige un 100% más de daño a enemigos que no son héroes.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13593,29 +13538,15 @@
           ]
         },
         {
-          "nameId": "DVaDefenseMatrixDazerZone",
-          "buttonId": "DVaDefenseMatrixDazerZone",
-          "name": "Zona de frenado",
-          "icon": "storm_ui_icon_dva_defensematrix.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Matriz de defensa ralentiza.",
-          "fullTooltip": "Matriz de defensa ralentiza un 20% a los héroes enemigos a los que afecta.",
-          "abilityType": "W",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaMechDefenseMatrixOn"
-          ]
-        },
-        {
           "nameId": "DVaDefenseMatrixAggressionMatrix",
           "buttonId": "DVaDefenseMatrixAggressionMatrix",
           "name": "Matriz de agresión",
-          "icon": "storm_ui_icon_dva_defensematrix_a.png",
+          "icon": "storm_ui_icon_dva_defensematrix.png",
           "toggleCooldown": 0.0625,
-          "shortTooltip": "Los ataques básicos reducen el tiempo de reutilización de Matriz de defensa.",
-          "fullTooltip": "Cada ataque básico contra héroes mientras estés en Modo meca reduce 0.25 s el tiempo de reutilización de Matriz de defensa.",
+          "shortTooltip": "Matriz de defensa reduce la curación. Los ataques básicos reducen su tiempo de reutilización.",
+          "fullTooltip": "Los héroes enemigos dentro de tu Matriz de defensa reciben un 30% menos de curación.  Pasivo: Cada ataque básico contra héroes reduce 0.125 s el tiempo de reutilización de Matriz de defensa.",
           "abilityType": "W",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "DVaMechDefenseMatrixOn"
           ]
@@ -13630,12 +13561,57 @@
             "countUse": 100,
             "hideCount": true
           },
-          "shortTooltip": "Aumenta la cuenta atrás y el daño de Autodestrucción.",
-          "fullTooltip": "Aumenta la duración de la cuenta atrás de Autodestrucción en 3 s. El daño de la explosión aumenta un 70%.  Puedes solicitar un meca nuevo 4 s después.",
+          "shortTooltip": "Cañones de fusión y Autodestrucción potenciados.",
+          "fullTooltip": "Si golpeas tu meca con Cañonazo mientras se autodestruye, se autodestruirá un 40% más rápido.  Pasivo: Cuando los cañones de fusión infligen daño adicional a un héroe enemigo, obtienes 0.25 carga de Autodestrucción.",
           "abilityType": "E",
-          "sort": 4,
+          "sort": 3,
           "abilityTalentLinkIds": [
-            "DVaMechSelfDestruct"
+            "DVaMechSelfDestruct",
+            "DVaPilotBigShot"
+          ]
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "DvaGetOnThePoint",
+          "buttonId": "DvaGetOnThePoint",
+          "name": "¡Vamos al punto!",
+          "icon": "storm_ui_icon_dva_boosters.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Reduce el tiempo de reutilización de Impulsores y otorga velocidad de movimiento a los aliados.",
+          "fullTooltip": "Lanzar Impulsores otorga a los aliados cercanos un 20% de velocidad de movimiento durante 2 s.   Pasivo: Si no has sufrido daño en los últimos 3 s, el tiempo de reutilización de Impulsores se recarga un 100% más rápido.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "DVaBoostersOn"
+          ]
+        },
+        {
+          "nameId": "DVaBoostersHitTheNitrous",
+          "buttonId": "DVaBoostersHitTheNitrous",
+          "name": "Óxido nitroso",
+          "icon": "storm_ui_icon_dva_boosters_a.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Impulsores da un pico inicial de velocidad y aturde.",
+          "fullTooltip": "La bonificación a la velocidad inicial de Impulsores aumenta a un 300% y se va reduciendo a lo largo de 0.5 s hasta llegar al aumento de velocidad normal. Durante ese tiempo, Impulsores aturde durante 0.5 s.",
+          "abilityType": "Q",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaBoostersOn"
+          ]
+        },
+        {
+          "nameId": "DVaDefenseMatrixFusionGenerator",
+          "buttonId": "DVaDefenseMatrixFusionGenerator",
+          "name": "Generador de fusión",
+          "icon": "storm_ui_icon_dva_defensematrix.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Matriz de defensa contribuye a la carga de Autodestrucción.",
+          "fullTooltip": "Cada vez que un héroe enemigo te inflige daño mientras se encuentra dentro de Matriz de defensa, la carga de Autodestrucción aumenta un 1%. Puedes obtener hasta un 20% de carga por uso.  Pasivo: Cuando la carga de Autodestrucción está al máximo, la bonificación al daño de Cañones de fusión aumenta a un 75%.",
+          "abilityType": "W",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaMechDefenseMatrixOn"
           ]
         }
       ],
@@ -13645,9 +13621,9 @@
           "buttonId": "DVaBunnyHopOn",
           "name": "¡Salta, conejito!",
           "icon": "storm_ui_icon_dva_bunnyhop.png",
-          "cooldownTooltip": "Tiempo de reutilización: 100 s",
-          "shortTooltip": "Te vuelves imparable y ralentizas a los héroes cercanos.",
-          "fullTooltip": "Tu meca se vuelve imparable y golpea con fuerza el suelo cada 0.5 s, lo que inflige 60 (+4% per level) de daño a los enemigos y los ralentiza un 40%. Dura 4 s.  Necesitas estar en Modo meca.",
+          "cooldownTooltip": "Tiempo de reutilización: 80 s",
+          "shortTooltip": "Te vuelves imparable y aturdes a los héroes cercanos.",
+          "fullTooltip": "Tu meca se vuelve imparable y golpea con fuerza el suelo cada 0.5 s, lo que inflige 52 (+4% per level) de daño en un área amplia. Cada 4 golpes consecutivos contra un héroe, inflige un 100% más de daño y lo aturde durante 0.5 s.  Dura 4 s.  Necesitas estar en Modo meca.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -13656,35 +13632,96 @@
           ]
         },
         {
-          "nameId": "DVaBigShot",
-          "buttonId": "DVaPilotBigShot",
-          "name": "Cañonazo",
-          "icon": "storm_ui_icon_dva_bigshot.png",
-          "cooldownTooltip": "Tiempo de reutilización: 4 s",
-          "shortTooltip": "En Modo piloto, infliges daño a los enemigos en una línea.",
-          "fullTooltip": "Infliges 250 (+4% per level) de daño a todos los enemigos en una línea. El tiempo de reutilización de Solicitar meca se reduce 8 s por cada héroe enemigo alcanzado.  Necesitas estar en Modo piloto.",
+          "nameId": "DVaMicroMissiles",
+          "buttonId": "DVaMicroMissiles",
+          "name": "Micromisiles",
+          "icon": "storm_ui_icon_dva_micromissiles.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 5.0
+          },
+          "cooldownTooltip": "Tiempo de reutilización de carga: 20 s",
+          "shortTooltip": "Disparas una salva de misiles que dañan y ralentizan.",
+          "fullTooltip": "Tras 0,375 s, canalizas para lanzar una salva de 12 misiles en la dirección seleccionada. Cada misil impacta contra el primer enemigo en su camino, lo que inflige 44 (+4% per level) de daño en un área pequeña y ralentiza un 35% durante 2 s.  Acumula 2 cargas con un tiempo de reutilización de 5 s entre cada uso.  Necesitas estar en Modo meca.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
           "abilityTalentLinkIds": [
-            "DVaPilotBigShot"
+            "DVaMicroMissiles"
           ]
         }
       ],
       "level13": [
         {
-          "nameId": "DVaMechExpensivePlating",
-          "buttonId": "DVaMechExpensivePlating",
-          "name": "Chapado caro",
-          "icon": "storm_ui_icon_dva_callmech.png",
-          "shortTooltip": "Aumenta la salud del meca, pero también el tiempo de reutilización de Solicitar meca.",
-          "fullTooltip": "Aumenta un 20% la salud del meca, pero también aumenta 15 s el tiempo de reutilización de Solicitar meca.  Esto no reduce la carga que obtienes para Autodestrucción.",
-          "abilityType": "E",
+          "nameId": "DVaTargetLocked",
+          "buttonId": "DVaTargetLocked",
+          "name": "Objetivo marcado",
+          "icon": "storm_ui_icon_dva_defensematrix.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Matriz de defensa reduce la armadura y ralentiza.",
+          "fullTooltip": "Si un héroe enemigo permanece en tu Matriz de defensa durante 1.5 s, se reduce su armadura en 15 y su velocidad de movimiento un 25% durante 3 s.",
+          "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "DVaMechMechMode",
-            "DVaPilotCallMechMEKAfall",
-            "DVaPilotCallMech"
+            "DVaMechDefenseMatrixOn"
+          ]
+        },
+        {
+          "nameId": "DVaGoodToGo",
+          "buttonId": "DVaGoodToGo",
+          "name": "Presta y dispuesta",
+          "icon": "storm_ui_icon_dva_pilotmode.png",
+          "shortTooltip": "Desbloquea habilidades extra en Modo piloto.",
+          "fullTooltip": "Modo piloto: Desbloqueas las habilidades Carga de torpedo y Pulso de conmoción.  Carga de torpedo: Cargas a lo largo de una pequeña distancia. 10 s de tiempo de reutilización.  Pulso de conmoción: Infliges 120 (+4% per level) de daño a los enemigos en un cono y los repeles. 10 s de tiempo de reutilización.",
+          "abilityType": "Trait",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
+        },
+        {
+          "nameId": "DVaBigShotPewPewPew",
+          "buttonId": "DVaBigShotPewPewPew",
+          "name": "¡Pañun, pañun!",
+          "icon": "storm_ui_icon_dva_bigshot.png",
+          "shortTooltip": "Cañonazo lanza varios pulsos.",
+          "fullTooltip": "Modo piloto: En vez de lanzar un solo disparo, Cañonazo lanza 3 disparos a lo largo de 0.5 s. Cada disparo inflige un 75% del daño.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaPilotBigShot"
+          ]
+        }
+      ],
+      "level16": [
+        {
+          "nameId": "DVaInForTheKill",
+          "buttonId": "DVaInForTheKill",
+          "name": "Entrar a matar",
+          "icon": "storm_ui_icon_dva_boosters.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Impulsores otorga un escudo y potencia el daño de los ataques básicos.",
+          "fullTooltip": "Lanzar Impulsores te otorga un escudo equivalente al 10% de tu vida máxima durante 2.5 s. Cada héroe enemigo golpeado por Impulsores aumenta el daño de los ataques básicos de tu meca un 10% durante 5 s. Este efecto se acumula hasta 5 veces.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "DVaBoostersOn"
+          ]
+        },
+        {
+          "nameId": "DVaDefenseMatrixDivertingPower",
+          "buttonId": "DVaDefenseMatrixDivertingPower",
+          "name": "Desvío de energía",
+          "icon": "storm_ui_icon_dva_defensematrix.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Aumenta el área de Matriz de defensa y le añade curación.",
+          "fullTooltip": "El área de Matriz de defensa aumenta drásticamente de tamaño. Cada vez que reduce el daño infligido a héroes, tu meca se cura 35 (+4% per level) de salud.",
+          "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaMechDefenseMatrixOn"
           ]
         },
         {
@@ -13693,77 +13730,11 @@
           "name": "Escudo de emergencia",
           "icon": "storm_ui_icon_dva_mechmode.png",
           "shortTooltip": "En vez de destruirse, el meca obtiene un escudo.",
-          "fullTooltip": "Cuando vayan a destruir tu meca, este obtiene en su lugar un escudo que absorbe 210 (+4% per level) de daño durante 6 s.  Este efecto tiene un tiempo de reutilización de 15 s.",
-          "abilityType": "Trait",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaMechMechMode"
-          ]
-        },
-        {
-          "nameId": "DVaMechAblativeArmor",
-          "buttonId": "DVaMechAblativeArmor",
-          "name": "Armadura de disipación",
-          "icon": "storm_ui_icon_dva_mechmode_a.png",
-          "shortTooltip": "Sufres menos daño de los ataques débiles.",
-          "fullTooltip": "Si el meca sufre daño equivalente al 4% de su salud total o menos, este daño se reduce un 50%.  Esto no disminuye la carga que obtienes para Autodestrucción.",
+          "fullTooltip": "Cuando vayan a destruir tu meca, este obtiene en su lugar un escudo que absorbe 280 (+4% per level) de daño durante 4 s.  Este efecto tiene un tiempo de reutilización de 30 s.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
             "DVaMechMechMode"
-          ]
-        }
-      ],
-      "level16": [
-        {
-          "nameId": "DVaPilotTorpedoDash",
-          "buttonId": "DVaPilotTorpedoDashTalent",
-          "name": "Carga de torpedo",
-          "icon": "storm_ui_icon_dva_jetpackattack.png",
-          "cooldownTooltip": "Tiempo de reutilización: 12 s",
-          "shortTooltip": "En Modo piloto, cargas en una dirección.",
-          "fullTooltip": "Obtienes la habilidad Carga de torpedo, lo que te permite cargar en una dirección y atravesar a los enemigos.  Requiere estar en Modo piloto.",
-          "abilityType": "Q",
-          "isActive": true,
-          "sort": 1
-        },
-        {
-          "nameId": "DVaPilotGGWP",
-          "buttonId": "DVaPilotGGWP",
-          "name": "GG, WP",
-          "icon": "storm_ui_icon_dva_pilotmode.png",
-          "shortTooltip": "Aumenta tu daño en Modo piloto. Las bajas en las que participas reinician el meca.",
-          "fullTooltip": "Aumenta un 50% el daño de los ataques básicos en Modo piloto. Participar en una baja mientras estás en Modo piloto reinicia al instante el tiempo de reutilización de Solicitar meca.",
-          "abilityType": "Trait",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaPilotPilotMode"
-          ]
-        },
-        {
-          "nameId": "DVaPilotNanoweaveSuit",
-          "buttonId": "DVaPilotNanoweaveSuit",
-          "name": "Nanotraje",
-          "icon": "storm_ui_icon_dva_pilotmode_a.png",
-          "shortTooltip": "Solicitar meca se carga más rápido y la eyección otorga armadura.",
-          "fullTooltip": "Durante 4 s tras saltar del meca, obtienes 50 de armadura y cada ataque básico aumenta un 50% la reducción del tiempo de reutilización de Solicitar meca.",
-          "abilityType": "Trait",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DVaPilotPilotMode"
-          ]
-        },
-        {
-          "nameId": "DVaPilotSuppressingFire",
-          "buttonId": "DVaPilotSuppressingFire",
-          "name": "Fuego de contención",
-          "icon": "storm_ui_icon_dva_pilotmode_b.png",
-          "shortTooltip": "Los ataques básicos en Modo piloto ralentizan y tienen un mayor alcance.",
-          "fullTooltip": "Los ataques básicos en Modo piloto tienen un 20% más de alcance y reducen la velocidad de movimiento de los enemigos un 20% durante 2.5 s.",
-          "abilityType": "Trait",
-          "sort": 4,
-          "abilityTalentLinkIds": [
-            "DVaPilotPilotMode"
           ]
         }
       ],
@@ -13773,8 +13744,8 @@
           "buttonId": "DVaBunnyHopStopAndPop",
           "name": "Alto y salto",
           "icon": "storm_ui_icon_dva_bunnyhop.png",
-          "shortTooltip": "El daño de ¡Salta, conejito! aumenta si no te mueves.",
-          "fullTooltip": "¡Salta, conejito! inflige un 200% más de daño si no te mueves en el momento del impacto.",
+          "shortTooltip": "La duración de ¡Salta, conejito! se pausa si no te mueves.",
+          "fullTooltip": "La duración de ¡Salta, conejito! no se va reduciendo mientras no te mueves.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13785,46 +13756,52 @@
           ]
         },
         {
-          "nameId": "DVaBigShotPewPewPew",
-          "buttonId": "DVaBigShotPewPewPew",
-          "name": "¡Pañun, pañun!",
-          "icon": "storm_ui_icon_dva_bigshot.png",
-          "shortTooltip": "Cañonazo lanza varios pulsos.",
-          "fullTooltip": "En vez de lanzar un solo disparo, Cañonazo lanza 3 disparos a lo largo de 0.5 s. Cada disparo inflige un 50% del daño.",
+          "nameId": "DVaTimingAttack",
+          "buttonId": "DVaTimingAttack",
+          "name": "Ataque calculado",
+          "icon": "storm_ui_icon_dva_micromissiles.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 5.0
+          },
+          "shortTooltip": "Micromisiles tiene una carga más y reduce su tiempo de reutilización al golpear a héroes.",
+          "fullTooltip": "Micromisiles obtiene una carga adicional. Cada vez que Micromisiles golpea a un héroe enemigo, reduce 0.5 s su tiempo de reutilización y 0.25 s el tiempo de reutilización de las cargas.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "DVaPilotBigShot"
+            "DVaMicroMissiles",
+            "DVaMechSelfDestruct"
           ],
           "prerequisiteTalentIds": [
-            "DVaBigShot"
+            "DVaMicroMissiles"
           ]
         },
         {
-          "nameId": "DVaPilotConcussivePulse",
-          "buttonId": "DVaPilotConcussivePulseTalent",
-          "name": "Pulso de conmoción",
-          "icon": "storm_ui_icon_dva_concussivecharge.png",
-          "cooldownTooltip": "Tiempo de reutilización: 7 s",
-          "shortTooltip": "En Modo piloto, repeles a los enemigos.",
-          "fullTooltip": "Obtienes la habilidad Pulso de conmoción, que te permite infligir 141 (+4% per level) de daño a los enemigos en un cono y repelerlos.  Requiere estar en Modo piloto.",
-          "abilityType": "W",
-          "isActive": true,
-          "sort": 3
+          "nameId": "DVaHeadshot",
+          "buttonId": "DVaHeadshot",
+          "name": "¡En la cabeza!",
+          "icon": "storm_ui_icon_dva_bigshot.png",
+          "shortTooltip": "Aumenta el daño de Cañonazo y reduce su tiempo de reutilización.",
+          "fullTooltip": "Modo piloto: Aumenta el daño de Cañonazo un 75% y reduce su tiempo de reutilización 2 s.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaPilotBigShot"
+          ]
         },
         {
-          "nameId": "DVaPilotCallMechMEKAfall",
-          "buttonId": "DVaPilotCallMechMEKAfallTalent",
-          "name": "MEKAcaída",
-          "icon": "storm_ui_icon_dva_callmech.png",
-          "cooldownTooltip": "Tiempo de reutilización: 45 s",
-          "shortTooltip": "Solicitar meca es instantánea, puedes seleccionar una ubicación e infliges daño a enemigos.",
-          "fullTooltip": "Solicitar meca es instantánea y puedes seleccionar una ubicación. Al aterrizar, el meca inflige 202 (+4% per level) de daño a los enemigos que haya en el área de impacto.",
-          "abilityType": "E",
-          "isActive": true,
+          "nameId": "DVaMechAblativeArmor",
+          "buttonId": "DVaMechAblativeArmor",
+          "name": "Armadura de disipación",
+          "icon": "storm_ui_icon_dva_mechmode.png",
+          "shortTooltip": "Tu meca se cura un porcentaje del daño que sufre de habilidades.",
+          "fullTooltip": "El 45% del daño de habilidades que sufre tu meca se convierte en curación a lo largo de 4 s.",
+          "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
-            "DVaPilotCallMech"
+            "DVaMechMechMode"
           ]
         }
       ]
@@ -13874,7 +13851,7 @@
                 "buttonId": "DVaPilotTorpedoDashAbility",
                 "name": "Carga de torpedo",
                 "icon": "storm_ui_icon_dva_jetpackattack.png",
-                "cooldownTooltip": "Tiempo de reutilización: 12 s",
+                "cooldownTooltip": "Tiempo de reutilización: 10 s",
                 "shortTooltip": "Cargas hacia la ubicación seleccionada.",
                 "fullTooltip": "Cargas hacia la ubicación seleccionada y atraviesas a los enemigos.",
                 "abilityType": "Q"
@@ -13884,9 +13861,9 @@
                 "buttonId": "DVaPilotConcussivePulseAbility",
                 "name": "Pulso de conmoción",
                 "icon": "storm_ui_icon_dva_concussivecharge.png",
-                "cooldownTooltip": "Tiempo de reutilización: 7 s",
+                "cooldownTooltip": "Tiempo de reutilización: 10 s",
                 "shortTooltip": "Infliges daño y repeles a enemigos cercanos.",
-                "fullTooltip": "Infliges 141 (+4% per level) de daño a los enemigos en un cono y los repeles.",
+                "fullTooltip": "Infliges 120 (+4% per level) de daño a los enemigos en un cono y los repeles.",
                 "abilityType": "W"
               },
               {
@@ -13905,9 +13882,9 @@
                 "buttonId": "DVaPilotBigShot",
                 "name": "Cañonazo",
                 "icon": "storm_ui_icon_dva_bigshot.png",
-                "cooldownTooltip": "Tiempo de reutilización: 4 s",
-                "shortTooltip": "En Modo piloto, infliges daño a los enemigos en una línea.",
-                "fullTooltip": "Infliges 250 (+4% per level) de daño a todos los enemigos en una línea. El tiempo de reutilización de Solicitar meca se reduce 8 s por cada héroe enemigo alcanzado.  Necesitas estar en Modo piloto.",
+                "cooldownTooltip": "Tiempo de reutilización: 6 s",
+                "shortTooltip": "Infliges daño y ralentizas a los enemigos en una línea como piloto.",
+                "fullTooltip": "Infliges 150 (+4% per level) de daño a todos los enemigos en una línea. La velocidad de movimiento de los héroes alcanzados se reduce un 25% durante 1.5 s. El tiempo de reutilización de Solicitar meca se reduce 5 s por cada héroe enemigo alcanzado.  Necesitas estar en Modo piloto.",
                 "abilityType": "Heroic"
               }
             ],
@@ -13979,19 +13956,6 @@
                     "toggleCooldown": 0.1,
                     "fullTooltip": "Desmontas.",
                     "abilityType": "Z"
-                  }
-                ]
-              },
-              "DVaPilotCallMechMEKAfall|DVaPilotCallMechMEKAfallTalent": {
-                "basic": [
-                  {
-                    "nameId": "DVaPilotCallMechMEKAfall",
-                    "buttonId": "DVaPilotCallMech",
-                    "name": "Solicitar meca",
-                    "icon": "storm_ui_icon_dva_callmech.png",
-                    "cooldownTooltip": "Tiempo de reutilización: 45 s",
-                    "fullTooltip": "Solicitas un meca nuevo y entras en Modo meca.  Cada ataque básico reduce 0.5 s el tiempo de reutilización.",
-                    "abilityType": "E"
                   }
                 ]
               }
@@ -20265,7 +20229,7 @@
           "name": "Arrebato de ira",
           "icon": "storm_ui_icon_imperius_q.png",
           "shortTooltip": "Las marcas de Carga celestial infligen daño en un área.",
-          "fullTooltip": "Consumir una marca de Carga celestial inflige 180 (+4% per level) de daño al objetivo y a los enemigos cercanos, y te otorga 300 (+4% per level) de escudo durante 4 s.",
+          "fullTooltip": "Consumir una marca de Carga celestial inflige 165 (+4% per level) de daño al objetivo y a los enemigos cercanos, y te otorga 275 (+4% per level) de escudo durante 4 s.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -23688,7 +23652,7 @@
           "name": "Bis",
           "icon": "storm_ui_icon_etc_facemelt_a.png",
           "shortTooltip": "Acorde flipante repele a los enemigos una segunda vez y reduce el tiempo de reutilización de la habilidad heroica.",
-          "fullTooltip": "Acorde flipante deja un amplificador tras de sí que vuelve a repeler a los enemigos 2 s después.  Pasiva: Cada héroe enemigo golpeado por Acorde flipante o el amplificador reduce el tiempo de reutilización de tu habilidad heroica un 8%.",
+          "fullTooltip": "Acorde flipante deja un amplificador tras de sí que vuelve a repeler a los enemigos 2 s después.  Pasiva: Cada héroe enemigo golpeado por Acorde flipante o el amplificador reduce el tiempo de reutilización de tu habilidad heroica un 6%.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -29947,7 +29911,7 @@
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_meiow.png",
       "leaderboard": "storm_ui_ingame_hero_leaderboard_meiow.png",
-      "loading": "storm_ui_ingame_hero_loadingscreen_meiow.png",
+      "loading": "storm_ui_ingame_hero_loadingscreen_mei.png",
       "partyPanel": "storm_ui_ingame_partypanel_btn_meiow.png",
       "target": "ui_targetportrait_hero_meiow.png",
       "draftScreen": "storm_ui_glues_draft_portrait_meiow.png",
@@ -34558,7 +34522,7 @@
           "name": "Fuerza ancestral",
           "icon": "storm_ui_icon_orphea_trait.png",
           "shortTooltip": "Las habilidades infligen más daño a enemigos incapacitados.",
-          "fullTooltip": "Las habilidades no heroicas infligen un 20% más de daño a los enemigos aturdidos, inmovilizados, silenciados o ralentizados. Los héroes enemigos alcanzados por Caos desbordante quedan ralentizados un 20% durante 2.5 s.",
+          "fullTooltip": "Las habilidades no heroicas infligen un 15% más de daño a los enemigos aturdidos, inmovilizados, silenciados o ralentizados. Los héroes enemigos alcanzados por Caos desbordante quedan ralentizados un 20% durante 2.5 s.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -34643,7 +34607,7 @@
           "name": "Devorador de mentes",
           "icon": "storm_ui_icon_orphea_e.png",
           "shortTooltip": "Misión: Golpea a héroes con Terror para aumentar su daño y reducir su reutilización.",
-          "fullTooltip": "Misión: Golpea a héroes con Terror para aumentar su daño en 4, hasta un máximo de 160.  Recompensa: Tras golpear a 40 héroes, golpear a un héroe enemigo con la erupción de Terror establece su tiempo de reutilización en 6 s y devuelve 50 de maná.",
+          "fullTooltip": "Misión: Golpea a héroes con Terror para aumentar su daño en 5, hasta un máximo de 150.  Recompensa: Tras golpear a 30 héroes, golpear a un héroe enemigo con la erupción de Terror establece su tiempo de reutilización en 6 s y devuelve 50 de maná.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 3,
@@ -34706,7 +34670,7 @@
           "name": "Simbiosis abisal",
           "icon": "storm_ui_icon_orphea_w.png",
           "shortTooltip": "Golpear a héroes con Ñam otorga más caos y escudo.",
-          "fullTooltip": "Golpear a un héroe con Ñam te otorga el máximo de caos al instante y un escudo de 180 (+4% per level) durante 3 s.",
+          "fullTooltip": "Golpear a un héroe con Ñam te otorga el máximo de caos al instante y un escudo de 170 (+4% per level) durante 3 s.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -34749,7 +34713,7 @@
           "name": "Magia de la muerte",
           "icon": "storm_ui_icon_orphea_trait.png",
           "shortTooltip": "Los ataques básicos que consumen caos ignoran la armadura e infligen daño de área.",
-          "fullTooltip": "Los ataques básicos que consumen caos ignoran la armadura e infligen 95 (+4% per level) de daño de habilidad al objetivo y a todos los enemigos a su alrededor.",
+          "fullTooltip": "Los ataques básicos que consumen caos ignoran la armadura e infligen 90 (+4% per level) de daño de habilidad al objetivo y a todos los enemigos a su alrededor.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -37397,7 +37361,7 @@
           "name": "Cazador recolector",
           "icon": "storm_ui_icon_talent_regenerationmaster.png",
           "shortTooltip": "Misión: Recoge esferas de regeneración para obtener regeneración de salud.",
-          "fullTooltip": "Misión: Recoge una esfera de regeneración para aumentar tu regeneración de salud en 1 por segundo, hasta un máximo de 25 por segundo.   Recompensa: Al recoger 25 esferas, tanto Misha como tú obtenéis 15 de armadura.",
+          "fullTooltip": "Misión: Recoge una esfera de regeneración para aumentar tu regeneración de salud y la de Misha en 1 por segundo, hasta un máximo de 25 por segundo.   Recompensa: Al recoger 25 esferas, tanto Misha como tú obtenéis 15 de armadura.",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 2
@@ -38894,7 +38858,7 @@
           "energyTooltip": "Maná: 35",
           "cooldownTooltip": "Tiempo de reutilización: 7 s",
           "shortTooltip": "Dañas y ralentizas a los enemigos en un área.",
-          "fullTooltip": "Infliges 104 (+4% per level) de daño a los enemigos en el área seleccionada. Los enemigos en el área de impacto interna reciben un 40% más de daño y quedan ralentizados un 45% durante 1.5 s. Infliges un 50% de daño adicional a los esbirros y a los mercenarios.",
+          "fullTooltip": "Infliges 104 (+4% per level) de daño a los enemigos en el área seleccionada. Los enemigos en el área de impacto interna reciben un 40% más de daño y quedan ralentizados un 45% durante 1.5 s. Infliges un 60% de daño adicional a los esbirros y a los mercenarios.",
           "abilityType": "W"
         },
         {
@@ -40623,7 +40587,7 @@
           "energyTooltip": "Maná: 100",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Te conviertes en un arconte.",
-          "fullTooltip": "Te transformas en un arconte y obtienes un escudo equivalente a un 30% de tu salud máxima, además de potenciar Haz de resonancia. Dura 12 s.  Haz de resonancia: Inflige 150 (+4% per level) de daño al objetivo y 75 (+4% per level) de daño esparcido a los enemigos cercanos. Se reduce la armadura antihabilidades de los héroes golpeados en 20 durante 2 s. Haz de resonancia está cargado por completo mientras el estado de arconte permanece activo.",
+          "fullTooltip": "Te transformas en un arconte y obtienes un escudo equivalente a un 25% de tu salud máxima, además de potenciar Haz de resonancia. Dura 12 s.  Haz de resonancia: Inflige 140 (+4% per level) de daño al objetivo y 70 (+4% per level) de daño esparcido a los enemigos cercanos. Se reduce la armadura antihabilidades de los héroes golpeados en 20 durante 2 s. Haz de resonancia está cargado por completo mientras el estado de arconte permanece activo.",
           "abilityType": "Heroic"
         },
         {
@@ -40718,7 +40682,7 @@
               "name": "Arconte",
               "icon": "storm_ui_icon_tassadar_archon.png",
               "shortTooltip": "Te conviertes en un arconte.",
-              "fullTooltip": "Te transformas en un arconte y obtienes un escudo equivalente a un 30% de tu salud máxima, además de potenciar Haz de resonancia. Dura 12 s.  Haz de resonancia: Inflige 150 (+4% per level) de daño al objetivo y 75 (+4% per level) de daño esparcido a los enemigos cercanos. Se reduce la armadura antihabilidades de los héroes golpeados en 20 durante 2 s. Haz de resonancia está cargado por completo mientras el estado de arconte permanece activo.",
+              "fullTooltip": "Te transformas en un arconte y obtienes un escudo equivalente a un 25% de tu salud máxima, además de potenciar Haz de resonancia. Dura 12 s.  Haz de resonancia: Inflige 140 (+4% per level) de daño al objetivo y 70 (+4% per level) de daño esparcido a los enemigos cercanos. Se reduce la armadura antihabilidades de los héroes golpeados en 20 durante 2 s. Haz de resonancia está cargado por completo mientras el estado de arconte permanece activo.",
               "abilityType": "Heroic",
               "isActive": false,
               "isPassive": true
@@ -40763,7 +40727,7 @@
           "name": "Carga estática",
           "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
           "shortTooltip": "Misión: Golpea a héroes para aumentar el daño.",
-          "fullTooltip": "Misión: Golpea a héroes con Rayo de descarga para aumentar de forma permanente su daño en 5 y obtener un 33% de carga de Haz de resonancia.   Bonificación al daño máxima: 250.",
+          "fullTooltip": "Misión: Golpea a héroes con Rayo de descarga para aumentar de forma permanente su daño en 5 y obtener un 33% de carga de Haz de resonancia.   Bonificación al daño máxima: 200.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -40894,7 +40858,7 @@
           "energyTooltip": "Maná: 100",
           "cooldownTooltip": "Tiempo de reutilización: 90 s",
           "shortTooltip": "Te conviertes en un arconte.",
-          "fullTooltip": "Te transformas en un arconte y obtienes un escudo equivalente a un 30% de tu salud máxima, además de potenciar Haz de resonancia. Dura 12 s.  Haz de resonancia: Inflige 150 (+4% per level) de daño al objetivo y 75 (+4% per level) de daño esparcido a los enemigos cercanos. Se reduce la armadura antihabilidades de los héroes golpeados en 20 durante 2 s. Haz de resonancia está cargado por completo mientras el estado de arconte permanece activo.",
+          "fullTooltip": "Te transformas en un arconte y obtienes un escudo equivalente a un 25% de tu salud máxima, además de potenciar Haz de resonancia. Dura 12 s.  Haz de resonancia: Inflige 140 (+4% per level) de daño al objetivo y 70 (+4% per level) de daño esparcido a los enemigos cercanos. Se reduce la armadura antihabilidades de los héroes golpeados en 20 durante 2 s. Haz de resonancia está cargado por completo mientras el estado de arconte permanece activo.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -41647,7 +41611,7 @@
     "speed": 4.8398,
     "type": "cuerpo a cuerpo",
     "rarity": "Rare",
-    "scalingLinkId": "ExcellentMana",
+    "scalingLinkId": "HeroDummyVeterancy",
     "searchText": "Gazlowe Manitas Goblin Horda gazlowe WoW World of Warcraft War3 WC3 Warcraft3 III 3 Frozen Throne FT Cataclysm Warlords Draenor WoD BfA Battle for Azeroth",
     "description": "Un invocador que se especializa en controlar áreas clave del campo de batalla.",
     "infoText": "Pocos considerarían a Gazlowe un luchador, pero compensa de sobra su falta de altura con sus conocimientos mecánicos. Además, nadie llega a jefe de una ciudad \"explosiva\" como Trinquete por tener una personalidad encantadora, ¿verdad?",
@@ -41676,21 +41640,21 @@
       "targetInfo": "storm_ui_ingame_partyframe_tinker.png"
     },
     "life": {
-      "amount": 1826.0,
+      "amount": 2275.0,
       "scale": 0.04,
       "type": "Salud",
-      "regenRate": 3.8046,
+      "regenRate": 4.74,
       "regenScale": 0.04
     },
     "energy": {
-      "amount": 500.0,
-      "type": "Maná",
-      "regenRate": 3.0
+      "amount": 10.0,
+      "type": "Chatarra",
+      "regenRate": 0.0
     },
     "roles": [
-      "Especialista"
+      "Guerrero"
     ],
-    "expandedRole": "Asesino cuerpo a cuerpo",
+    "expandedRole": "Agresor",
     "ratings": {
       "complexity": 6.0,
       "damage": 5.0,
@@ -41702,7 +41666,7 @@
         "nameId": "HeroTinker",
         "range": 1.25,
         "period": 0.8,
-        "damage": 95.0,
+        "damage": 100.0,
         "damageScale": 0.04
       }
     ],
@@ -41713,36 +41677,17 @@
           "buttonId": "TinkerRockItTurret",
           "name": "Torreta de cohetes",
           "icon": "storm_ui_icon_gazlowe_rockitturret.png",
-          "energyTooltip": "Maná: 70",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "cooldownTooltip": "Tiempo de reutilización de carga: 15 s",
+          "toggleCooldown": 0.5,
+          "energyTooltip": "Chatarra: 4",
           "shortTooltip": "Creas una torreta que dispara a los enemigos cercanos.",
-          "fullTooltip": "Construyes una torreta que inflige 62 (+4% per level) de daño. Dura 30 s.  Puedes almacenar hasta 2 cargas.",
+          "fullTooltip": "Construyes una torreta que inflige 36 (+4% per level) de daño. Dura 15 s.  Las torretas dan prioridad al héroe enemigo más cercano cuando se acaban de construir.",
           "abilityType": "Q"
         },
         {
-          "nameId": "TinkerDethLazorCharged",
-          "buttonId": "TinkerDethLazor",
+          "nameId": "GazloweDethLazor",
+          "buttonId": "GazloweDethLazor",
           "name": "Láser mortal",
           "icon": "storm_ui_icon_gazlowe_dethlazor.png",
-          "toggleCooldown": 0.5,
-          "energyTooltip": "Maná: 60",
-          "cooldownTooltip": "Tiempo de reutilización: 12 s",
-          "shortTooltip": "Cargas y disparas un láser. El daño y el alcance aumentan con el tiempo de carga.",
-          "fullTooltip": "Un ataque cargado que inflige 137 (+4% per level) de daño a los enemigos en una línea. El daño y el alcance aumentan cuanto más se carga la habilidad, hasta un máximo del 100% a los 3 s.  Láser mortal se puede canalizar de forma indefinida.",
-          "abilityType": "W"
-        },
-        {
-          "nameId": "TinkerXplodiumBomb",
-          "buttonId": "TinkerXplodiumCharge",
-          "name": "Carga de explodium",
-          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
-          "energyTooltip": "Maná: 60",
           "charges": {
             "countMax": 1,
             "countUse": 1,
@@ -41750,43 +41695,52 @@
             "hideCount": true,
             "recastCooldown": 1.0
           },
-          "cooldownTooltip": "Tiempo de reutilización: 14 s",
+          "cooldownTooltip": "Tiempo de reutilización: 8 s",
+          "shortTooltip": "Dañas a los objetivos en una línea.",
+          "fullTooltip": "Tras 0.65 s, infliges 174 (+4% per level) de daño a los enemigos en una línea y te curas un 25% del daño infligido. Esta curación aumenta a un 75% contra héroes enemigos.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "TinkerXplodiumBomb",
+          "buttonId": "TinkerXplodiumCharge",
+          "name": "Carga de explodium",
+          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "cooldownTooltip": "Tiempo de reutilización: 12 s",
           "shortTooltip": "Lanzas una bomba con temporizador que aturde y daña a los enemigos en un área.",
-          "fullTooltip": "Colocas una bomba que inflige 233 (+4% per level) de daño a los enemigos dentro del área seleccionada tras 2.5 s y los aturde durante 1.75 s.",
+          "fullTooltip": "Colocas una bomba que inflige 155 (+4% per level) de daño a los enemigos dentro del área seleccionada tras 1.25 s. Además, los enemigos golpeados quedan aturdidos durante 1 s.",
           "abilityType": "E"
         }
       ],
       "heroic": [
         {
-          "nameId": "TinkerGravOBomb3000",
-          "buttonId": "TinkerGravOBomb3000",
-          "name": "Gravibomba 3000",
-          "icon": "storm_ui_icon_gazlowe_gravobomb.png",
-          "energyTooltip": "Maná: 80",
-          "cooldownTooltip": "Tiempo de reutilización: 90 s",
-          "shortTooltip": "Atraes y dañas a los enemigos.",
-          "fullTooltip": "Tras una demora de 2 s, atraes a los enemigos hacia el centro de un área y les infliges 251 (+4% per level) de daño.",
-          "abilityType": "Heroic"
-        },
-        {
           "nameId": "TinkerRoboGoblin",
           "buttonId": "TinkerRoboGoblinPassive",
           "name": "Robogoblin",
           "icon": "storm_ui_icon_gazlowe_robogoblin.png",
+          "cooldownTooltip": "Tiempo de reutilización: 40 s",
+          "shortTooltip": "Te vuelve imparable y aumenta el daño de los ataques básicos.",
+          "fullTooltip": "Actívalo para volverte imparable durante 1.5 s.  Pasivo: Los ataques básicos infligen 80 (+4% per level) de daño adicional a lo largo de 5 s. Este efecto se acumula hasta un máximo de 3 veces.",
+          "abilityType": "Heroic"
+        },
+        {
+          "nameId": "TinkerGravOBomb3000",
+          "buttonId": "TinkerGravOBomb3000",
+          "name": "Gravibomba 3000",
+          "icon": "storm_ui_icon_gazlowe_gravobomb.png",
           "cooldownTooltip": "Tiempo de reutilización: 60 s",
-          "shortTooltip": "Aumenta el daño de ataque, la armadura y la velocidad de movimiento.",
-          "fullTooltip": "Actívala para obtener 40 de armadura y un 30% de velocidad de movimiento durante 4 s.  Pasiva: Los ataques básicos infligen un 100% más de daño.",
+          "shortTooltip": "Atraes y dañas a los enemigos.",
+          "fullTooltip": "Tras una demora de 1.5 s, atraes a los enemigos hacia el centro de un área y les infliges 220 (+4% per level) de daño. Tus habilidades básicas infligen un 30% más de daño durante 5 s tras lanzar Gravibomba 3000.",
           "abilityType": "Heroic"
         }
       ],
       "trait": [
         {
-          "nameId": "TinkerDismantleTurret",
-          "buttonId": "TinkerSalvager",
-          "name": "Experto en reciclaje",
+          "nameId": "GazloweSalvagerSalvageTurretAbility",
+          "buttonId": "GazloweReduceReuseRecycleTrait",
+          "name": "Reducir, reutilizar, reciclar",
           "icon": "storm_ui_icon_gazlowe_salvager.png",
-          "shortTooltip": "Recoger la chatarra de estructuras enemigas y torretas reduce la reutilización y da maná.",
-          "fullTooltip": "Las estructuras enemigas destruidas y las torretas de cohetes sueltan chatarra. Recoger chatarra restaura 30 de maná y hace que las habilidades se recarguen el triple de rápido durante 3 s.   Activa Experto en reciclaje para reducir una torreta de cohetes seleccionada a chatarra.",
+          "shortTooltip": "Regenera chatarra, recicla torretas de cohetes",
+          "fullTooltip": "Regeneras 1 de chatarra cada 4 s. Las torretas de cohetes destruidas sueltan 1 de chatarra que puedes recoger.  Actívalo para destruir la torreta de cohetes seleccionada.",
           "abilityType": "Trait"
         }
       ],
@@ -41860,38 +41814,18 @@
               "abilityType": "Z"
             }
           ]
-        },
-        "TinkerDethLazorCharged|TinkerDethLazor|W": {
-          "basic": [
-            {
-              "nameId": "DethLazorCancel",
-              "buttonId": "TinkerDethLazorCancel",
-              "name": "Fin de Láser mortal",
-              "icon": "hud_btn_bg_ability_cancel.png",
-              "toggleCooldown": 0.5,
-              "fullTooltip": "Pone fin a la habilidad Láser mortal.",
-              "abilityType": "W"
-            }
-          ]
         }
       }
     ],
     "talents": {
       "level1": [
         {
-          "nameId": "TinkerMasteryExtraTNT",
-          "buttonId": "TinkerXplodiumChargeExtraTNTTalent",
-          "name": "Dinamita extra",
+          "nameId": "GazloweXplodiumChargeRocketBoots",
+          "buttonId": "GazloweXplodiumChargeRocketBoots",
+          "name": "Botas cohete",
           "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
-          "charges": {
-            "countMax": 1,
-            "countUse": 1,
-            "countStart": 1,
-            "hideCount": true,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "Carga de explodium inflige más daño.",
-          "fullTooltip": "Aumenta el daño de Carga de explodium un 10% por cada objetivo golpeado, hasta un máximo del 100%.",
+          "shortTooltip": "Aumenta el alcance de lanzamiento y el daño de Carga de explodium.",
+          "fullTooltip": "Aumenta un 30% el alcance de lanzamiento de Carga de explodium y un 20% su daño. Golpear a un héroe enemigo aumenta tu velocidad de movimiento un 20% durante 3 s.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -41899,69 +41833,95 @@
           ]
         },
         {
-          "nameId": "TinkerCombatStyleScrapoMaticSmelter",
-          "buttonId": "TinkerSalvagerScrapOMaticSmelterTalent",
-          "name": "Fundechatarra 3000",
+          "nameId": "GazloweBigGameHunter",
+          "buttonId": "GazloweBigGameHunter",
+          "name": "Caza mayor",
           "icon": "storm_ui_icon_gazlowe_salvager.png",
-          "shortTooltip": "Aumenta la restauración de maná de Experto en reciclaje.",
-          "fullTooltip": "Aumenta un 100% el maná restaurado por chatarra.",
+          "shortTooltip": "Golpear a héroes, mercenarios y monstruos aumenta la chatarra.",
+          "fullTooltip": "Aumenta en 2 la chatarra máxima. Infligir daño con ataques básicos a héroes enemigos, mercenarios o monstruos reduce 2 s el tiempo de reutilización de Reducir, reutilizar, reciclar.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "TinkerDismantleTurret"
+            "GazloweSalvagerSalvageTurretAbility"
           ]
         },
         {
-          "nameId": "TinkerCombatStyleBreakitDown",
-          "buttonId": "TinkerSalvagerBreakItDownTalent",
-          "name": "¡Darlo todo!",
-          "icon": "storm_ui_icon_gazlowe_salvager_var1.png",
-          "shortTooltip": "Aumenta la reducción del tiempo de reutilización de Experto en reciclaje.",
-          "fullTooltip": "La chatarra hace que el tiempo de reutilización de las habilidades vaya 4 veces más rápido durante 3 s.",
-          "abilityType": "Trait",
+          "nameId": "GazloweOneManWreckingCrew",
+          "buttonId": "GazloweOneManWreckingCrew",
+          "name": "Prodigio de la ingeniería",
+          "icon": "storm_ui_icon_talent_autoattack_damage.png",
+          "shortTooltip": "Las habilidades básicas potencian los ataques básicos.",
+          "fullTooltip": "Lanzar habilidades básicas provoca que tu siguiente ataque básico en los siguientes 6 s inflija un 45% más de daño. Puedes almacenar hasta 2 cargas.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TinkerDismantleTurret"
+            "GazloweSalvagerSalvageTurretAbility"
           ]
-        },
-        {
-          "nameId": "TinkerGoblinRepairs",
-          "buttonId": "TinkerGoblinRepairs",
-          "name": "Reparación goblin",
-          "icon": "storm_ui_icon_talent_regenerationmaster.png",
-          "shortTooltip": "Misión: Recoge esferas de regeneración para aumentar la regeneración de salud.",
-          "fullTooltip": "Misión: Recoge una esfera de regeneración para aumentar la regeneración de salud en 1 por segundo, hasta un máximo de 25.  Recompensa: Al recoger 25 esferas, obtienes 15 más de regeneración de salud por segundo.",
-          "abilityType": "Passive",
-          "isQuest": true,
-          "sort": 4
         }
       ],
       "level4": [
         {
-          "nameId": "TinkerCombatStyleClockwerkSteamFists",
-          "buttonId": "TinkerRockItTurretClockwerkSteamFistsTalent",
-          "name": "Puños mecánicos a vapor",
+          "nameId": "GazloweRockItSockIt",
+          "buttonId": "GazloweRockItSockIt",
+          "name": "Protectorreta",
           "icon": "storm_ui_icon_gazlowe_rockitturret.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Misión: Inflige ataques básicos para aumentar la duración de las torretas de cohetes.",
-          "fullTooltip": "Misión: Inflige ataques básicos para aumentar 1.5 s la duración de las torretas de cohetes activas.  Recompensa: Tras aumentar la duración de las torretas en un total de 600 s, el tiempo de reutilización de Torreta de cohetes se reduce 3 s.",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "Lanzar Torreta de cohetes otorga un escudo.",
+          "fullTooltip": "Al lanzar Torreta de cohetes, obtienes un escudo que absorbe hasta 215 (+4% per level) de daño durante 2.5 s.",
           "abilityType": "Q",
-          "isQuest": true,
           "sort": 1,
           "abilityTalentLinkIds": [
             "TinkerRockItTurret"
           ]
         },
         {
-          "nameId": "TinkerMasteryARKReaktor",
-          "buttonId": "TinkerARKReaktor",
-          "name": "Reactor Arc",
-          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "nameId": "GazloweHyperfocusCoils",
+          "buttonId": "GazloweHyperfocusCoils",
+          "name": "Resistencia hiperfocalizadora",
+          "icon": "storm_ui_icon_gazlowe_combo_w_e.png",
+          "shortTooltip": "Láser mortal y Carga de explodium infligen daño adicional y te curan.",
+          "fullTooltip": "Los héroes golpeados por Láser mortal o Carga de explodium sufren un 2% de su salud máxima como daño adicional. Te curas un 150% del daño infligido.",
+          "abilityType": "Passive",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "GazloweDethLazor",
+            "TinkerXplodiumBomb"
+          ]
+        },
+        {
+          "nameId": "TinkerMasteryEZPZDimensionalRipper",
+          "buttonId": "TinkerDethLazorEZPZDimensionalRipperTalent",
+          "name": "Desgarrador dimensional T-PTO",
+          "icon": "storm_ui_icon_talent_imposingpresence.png",
+          "cooldownTooltip": "Tiempo de reutilización: 40 s",
+          "shortTooltip": "Actívalo para obtener armadura y reducir el daño que infligen los enemigos.",
+          "fullTooltip": "Actívalo para obtener 35 de armadura durante 3 s, lo que reduce un 35% el daño que sufres y reduce un 50% el daño que infligen todos los héroes enemigos e invocaciones que están cerca de ti durante 3 s.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "TinkerMasteryGoblinFusion",
+          "buttonId": "GazloweDethLazorGoblinFusionTalent",
+          "name": "Fusión goblin",
+          "icon": "storm_ui_icon_gazlowe_combo_q_w.png",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "Láser mortal puede generar chatarra.",
+          "fullTooltip": "Generas 3 de chatarra por cada héroe golpeado con Láser mortal.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TinkerRockItTurret",
+            "GazloweDethLazor"
+          ]
+        },
+        {
+          "nameId": "GazloweOverload",
+          "buttonId": "GazloweOverload",
+          "name": "Sobrecarga",
+          "icon": "storm_ui_icon_gazlowe_dethlazor_a.png",
           "charges": {
             "countMax": 1,
             "countUse": 1,
@@ -41969,89 +41929,26 @@
             "hideCount": true,
             "recastCooldown": 1.0
           },
-          "shortTooltip": "Reduce el tiempo de reutilización de Carga de explodium y puede otorgar cargas de torreta.",
-          "fullTooltip": "Reduce el tiempo de reutilización de Carga de explodium 2 s. Si Carga de explodium golpea a un héroe enemigo, obtienes 2 cargas de Torreta de cohetes.",
-          "abilityType": "E",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "TinkerXplodiumBomb"
-          ]
-        },
-        {
-          "nameId": "TinkerCombatStyleReduceReuseRecycle",
-          "buttonId": "TinkerSalvagerReduceReuseRecycleTalent",
-          "name": "Reducir, reutilizar, reciclar",
-          "icon": "storm_ui_icon_gazlowe_salvager.png",
-          "shortTooltip": "Los esbirros enemigos pueden soltar chatarra.",
-          "fullTooltip": "Los esbirros enemigos que mueren a tu alrededor tienen un 15% de probabilidad de soltar chatarra.",
-          "abilityType": "Trait",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "TinkerDismantleTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerHiredGoons",
-          "buttonId": "TinkerHiredGoons",
-          "name": "Asesinos contratados",
-          "icon": "storm_ui_icon_talent_mercenarylord.png",
-          "shortTooltip": "Potencia a los mercenarios cercanos. Las torretas obtienen armadura antimercenarios.",
-          "fullTooltip": "Los mercenarios amistosos que no sean jefes y que estén cerca de ti infligen un 50% más de daño. Las torretas de cohetes obtienen 50 de armadura contra esbirros y mercenarios, lo que reduce el daño que reciben un 50%.",
-          "abilityType": "Passive",
-          "sort": 4
-        }
-      ],
-      "level7": [
-        {
-          "nameId": "TinkerMasteryRockitTurretXL",
-          "buttonId": "TinkerRockItTurretRockItTurretXLTalent",
-          "name": "Torreta de cohetes XL",
-          "icon": "storm_ui_icon_gazlowe_rockitturret.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Las torretas de cohetes atacan a múltiples enemigos.",
-          "fullTooltip": "Las torretas de cohetes atacan a un máximo de 2 enemigos adicionales, pero les infligen un 60% de daño.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "TinkerRockItTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerMasteryEngineGunk",
-          "buttonId": "TinkerRockItTurretEngineGunkTalent",
-          "name": "Motor pringoso",
-          "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Las torretas de cohetes ralentizan a los enemigos.",
-          "fullTooltip": "Los ataques de las torretas de cohetes ralentizan un 20% a los enemigos durante 2 s.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "TinkerRockItTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerMasteryHyperfocusCoils",
-          "buttonId": "TinkerDethLazorHyperfocusCoilsTalent",
-          "name": "Resistencia hiperfocalizadora",
-          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
-          "toggleCooldown": 0.5,
-          "shortTooltip": "Láser mortal se carga más rápido.",
-          "fullTooltip": "El coste de maná de Láser mortal se reduce en 30 y el láser se carga el doble de rápido.",
+          "shortTooltip": "Otorga una carga adicional de Láser mortal.",
+          "fullTooltip": "Ahora Láser mortal puede acumular hasta 2 cargas. El tiempo de reutilización de Láser mortal se reduce 0.5 s por cada héroe enemigo golpeado.",
           "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "GazloweDethLazor"
+          ]
+        },
+        {
+          "nameId": "GazloweMasterBlaster",
+          "buttonId": "GazloweMasterBlaster",
+          "name": "Maestro golpeador",
+          "icon": "storm_ui_icon_gazlowe_combo_w_e.png",
+          "shortTooltip": "Láser mortal y Carga de explodium ralentizan.",
+          "fullTooltip": "Láser mortal y Carga de explodium ralentizan a los enemigos golpeados un 35% durante 2.5 s. Los ataques básicos de Torreta de cohetes contra enemigos ralentizados de este modo prolongan 0.25 s la duración de la ralentización.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TinkerDethLazorCharged"
+            "GazloweDethLazor",
+            "TinkerXplodiumBomb"
           ]
         }
       ],
@@ -42061,9 +41958,9 @@
           "buttonId": "TinkerRoboGoblinPassive",
           "name": "Robogoblin",
           "icon": "storm_ui_icon_gazlowe_robogoblin.png",
-          "cooldownTooltip": "Tiempo de reutilización: 60 s",
-          "shortTooltip": "Aumenta el daño de ataque, la armadura y la velocidad de movimiento.",
-          "fullTooltip": "Actívala para obtener 40 de armadura y un 30% de velocidad de movimiento durante 4 s.  Pasiva: Los ataques básicos infligen un 100% más de daño.",
+          "cooldownTooltip": "Tiempo de reutilización: 40 s",
+          "shortTooltip": "Te vuelve imparable y aumenta el daño de los ataques básicos.",
+          "fullTooltip": "Actívalo para volverte imparable durante 1.5 s.  Pasivo: Los ataques básicos infligen 80 (+4% per level) de daño adicional a lo largo de 5 s. Este efecto se acumula hasta un máximo de 3 veces.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -42076,10 +41973,9 @@
           "buttonId": "TinkerGravOBomb3000",
           "name": "Gravibomba 3000",
           "icon": "storm_ui_icon_gazlowe_gravobomb.png",
-          "energyTooltip": "Maná: 80",
-          "cooldownTooltip": "Tiempo de reutilización: 90 s",
+          "cooldownTooltip": "Tiempo de reutilización: 60 s",
           "shortTooltip": "Atraes y dañas a los enemigos.",
-          "fullTooltip": "Tras una demora de 2 s, atraes a los enemigos hacia el centro de un área y les infliges 251 (+4% per level) de daño.",
+          "fullTooltip": "Tras una demora de 1.5 s, atraes a los enemigos hacia el centro de un área y les infliges 220 (+4% per level) de daño. Tus habilidades básicas infligen un 30% más de daño durante 5 s tras lanzar Gravibomba 3000.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -42090,98 +41986,54 @@
       ],
       "level13": [
         {
-          "nameId": "TinkerMasteryEZPZDimensionalRipper",
-          "buttonId": "TinkerDethLazorEZPZDimensionalRipperTalent",
-          "name": "Desgarrador dimensional T-PTO",
-          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
+          "nameId": "GazloweRockItTurretPositiveReinforcement",
+          "buttonId": "GazloweRockItTurretPositiveReinforcement",
+          "name": "Refuerzo positivo",
+          "icon": "storm_ui_icon_gazlowe_rockitturret.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Láser mortal incapacita a los enemigos.",
-          "fullTooltip": "Láser mortal ralentiza a los héroes un 50% y aturde a los enemigos que no son héroes durante 3 s.",
-          "abilityType": "W",
+          "shortTooltip": "Las torretas de cohetes aumentan la velocidad de ataque.",
+          "fullTooltip": "Los ataques de la torreta de cohetes principal contra héroes aumentan tu velocidad de ataque un 40% durante 3 s.",
+          "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "TinkerDethLazorCharged"
+            "TinkerRockItTurret"
           ]
         },
         {
-          "nameId": "TinkerMasteryGoblinFusion",
-          "buttonId": "TinkerDethLazorGoblinFusionTalent",
-          "name": "Fusión goblin",
-          "icon": "storm_ui_icon_gazlowe_dethlazor_a.png",
+          "nameId": "GazloweRockItTurretSuperiorSchematics",
+          "buttonId": "GazloweRockItTurretSuperiorSchematics",
+          "name": "Esquemas superiores",
+          "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Láser mortal inflige más daño.",
-          "fullTooltip": "Se puede cargar Láser mortal durante 1 s más para aumentar su daño adicional un 100% más.",
-          "abilityType": "W",
+          "shortTooltip": "Las torretas de cohetes atacan a múltiples enemigos.",
+          "fullTooltip": "Las torretas de cohetes atacan a un máximo de 2 enemigos adicionales, pero les infligen un 75% de daño. Además, tienen un 50% más de alcance de ataque básico.",
+          "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "TinkerDethLazorCharged"
+            "TinkerRockItTurret"
           ]
         },
         {
-          "nameId": "TinkerMasteryXTraLargeBombs",
-          "buttonId": "TinkerXplodiumChargeXtraLargeBombsTalent",
-          "name": "Bombas extragrandes",
-          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
-          "charges": {
-            "countMax": 1,
-            "countUse": 1,
-            "countStart": 1,
-            "hideCount": true,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "Lanzas Carga de explodium cuando te aturden o te inmovilizan.",
-          "fullTooltip": "Aumenta un 30% el radio de Carga de explodium. Si te aturden o te inmovilizan, lanzas una carga de explodium a tus pies.  Este efecto tiene un tiempo de reutilización de 10 s.",
-          "abilityType": "E",
+          "nameId": "GazloweRockItTurretOverchargedCapacitors",
+          "buttonId": "GazloweRockItTurretOverchargedCapacitors",
+          "name": "Condensadores sobrecargados",
+          "icon": "storm_ui_icon_gazlowe_rockitturret_var2.png",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "Tus ataques básicos aumentan la duración de las torretas, que además te otorgan poder de habilidad.",
+          "fullTooltip": "Obtienes un 5% de poder de habilidad por cada torreta de cohetes activa, hasta un máximo de un 15%. Infligir daño con ataques básicos prolonga 1.25 s la duración de Torreta de cohetes.",
+          "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TinkerXplodiumBomb"
+            "TinkerRockItTurret"
           ]
         }
       ],
       "level16": [
         {
-          "nameId": "TinkerMasteryTurretStorage",
-          "buttonId": "TinkerRockItTurretTurretStorageTalent",
-          "name": "Almacenamiento de torretas",
-          "icon": "storm_ui_icon_gazlowe_rockitturret.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Aumenta las cargas máximas de Torretas de cohetes.",
-          "fullTooltip": "Aumenta la cantidad máxima de cargas de las torretas de cohetes de 2 a 3.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "TinkerRockItTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerSuperiorSchematics",
-          "buttonId": "TinkerSuperiorSchematics",
-          "name": "Esquemas superiores",
-          "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Aumenta el alcance de las torretas de cohetes.",
-          "fullTooltip": "Tus torretas de cohetes tienen un 25% más de alcance cuando te encuentras dentro de su rango de ataque.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "TinkerRockItTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerMasteryQuikReleaseCharge",
-          "buttonId": "TinkerXplodiumChargeKwikReleaseChargeTalent",
-          "name": "Carga de lanzamiento rápido",
-          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "nameId": "GazloweDethLazorFirinMahLazorz",
+          "buttonId": "GazloweDethLazorFirinMahLazorz",
+          "name": "¡Toma láser!",
+          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
           "charges": {
             "countMax": 1,
             "countUse": 1,
@@ -42189,12 +42041,38 @@
             "hideCount": true,
             "recastCooldown": 1.0
           },
-          "shortTooltip": "Carga de explodium obtiene una segunda carga.",
-          "fullTooltip": "Carga de explodium obtiene una segunda carga.",
+          "shortTooltip": "Las torretas de cohetes disparan láseres mortales.",
+          "fullTooltip": "Disparar Láser mortal hace que todas tus torretas de cohetes disparen su propio Láser mortal, que inflige 125 (+4% per level) de daño.",
+          "abilityType": "W",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "GazloweDethLazor"
+          ]
+        },
+        {
+          "nameId": "GazloweXplodiumChargeArkReaktor",
+          "buttonId": "GazloweXplodiumChargeArkReaktor",
+          "name": "Reactor Arc",
+          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "shortTooltip": "Reduce el tiempo de reutilización de Carga de explodium, que crea torretas.",
+          "fullTooltip": "Reduce 3 s el tiempo de reutilización de Carga de explodium. Lanzar Carga de explodium crea 3 minitorretas de cohetes que duran 3 s.  Estas torretas no sueltan chatarra ni se benefician de otros talentos.",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "TinkerXplodiumBomb"
+          ]
+        },
+        {
+          "nameId": "GazloweOverklock",
+          "buttonId": "GazloweOverklock",
+          "name": "Tuneado",
+          "icon": "storm_ui_icon_talent_autoattack_searing.png",
+          "shortTooltip": "Los ataques otorgan velocidad de movimiento e infligen daño adicional.",
+          "fullTooltip": "Los ataques básicos te otorgan un 15% de velocidad de movimiento durante 2 s.  Infligir daño con ataques básicos a héroes hace que sufran un 2.5% de su salud máxima como daño adicional.",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "GazloweSalvagerSalvageTurretAbility"
           ]
         }
       ],
@@ -42204,8 +42082,8 @@
           "buttonId": "TinkerRoboGoblinMechaLordTalent",
           "name": "Señor de los robots",
           "icon": "storm_ui_icon_gazlowe_robogoblin.png",
-          "shortTooltip": "Obtienes armadura y daño de ataque básico.",
-          "fullTooltip": "Los ataques básicos infligen un 100% más de daño.  Pasiva: Obtienes 25 de armadura.",
+          "shortTooltip": "Los ataques básicos otorgan armadura y pueden infligir daño adicional.",
+          "fullTooltip": "Tus ataques básicos aumentan tu armadura en 10 durante 10 s, hasta un máximo de 30, e infligen un 50% de daño adicional a los enemigos aturdidos o ralentizados.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -42220,8 +42098,8 @@
           "buttonId": "TinkerGravOBombMiniatureBlackHoleTalent",
           "name": "Agujero negro en miniatura",
           "icon": "storm_ui_icon_gazlowe_gravobomb.png",
-          "shortTooltip": "Aumenta el radio y el daño de Gravibomba.",
-          "fullTooltip": "Aumenta un 25% el radio de Gravibomba 3000 y un 50% su daño.",
+          "shortTooltip": "Radio y daño aumentados. Tiempo de reutilización reducido.",
+          "fullTooltip": "Aumenta un 25% el radio de Gravibomba 3000 y un 50% su daño. El tiempo de reutilización se reduce 12 s por cada héroe enemigo atraído.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -42232,30 +42110,31 @@
           ]
         },
         {
-          "nameId": "TinkerTalentFirinMahLazorz",
-          "buttonId": "TinkerFirinMahLazorz",
-          "name": "¡Toma láser!",
-          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
-          "toggleCooldown": 0.5,
-          "shortTooltip": "Las torretas de cohetes disparan Láser mortal.",
-          "fullTooltip": "Disparar Láser mortal hace que todas tus torretas de cohetes disparen su propio Láser mortal, que inflige 137 (+4% per level) de daño.",
-          "abilityType": "W",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "TinkerDethLazorCharged"
-          ]
-        },
-        {
           "nameId": "TinkerItsRainingScrap",
           "buttonId": "TinkerItsRainingScrap",
           "name": "Lluvia de chatarra",
-          "icon": "storm_ui_icon_gazlowe_itsrainingscrap.png",
-          "cooldownTooltip": "Tiempo de reutilización: 30 s",
-          "shortTooltip": "Actívalo para crear chatarra.",
-          "fullTooltip": "Actívalo para crear 5 de chatarra cerca de ti durante 5 s.",
-          "abilityType": "Active",
-          "isActive": true,
-          "sort": 4
+          "icon": "storm_ui_icon_gazlowe_rockitturret.png",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "Las torretas de cohetes cuestan menos chatarra y otorgan más.",
+          "fullTooltip": "Reduce en 1 el coste de chatarra de Torreta de cohetes. Recuperas 2 de chatarra cada vez que la recoges.",
+          "abilityType": "Q",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "TinkerRockItTurret"
+          ]
+        },
+        {
+          "nameId": "GazloweXplodiumChargeBombToss",
+          "buttonId": "GazloweXplodiumChargeBombToss",
+          "name": "Lanzar bomba",
+          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "shortTooltip": "Carga de explodium libera más bombas.",
+          "fullTooltip": "Carga de explodium lanza 2 bombas más al detonar.",
+          "abilityType": "E",
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "TinkerXplodiumBomb"
+          ]
         }
       ]
     }
@@ -48288,7 +48167,7 @@
           "name": "Valerosa",
           "icon": "storm_ui_icon_talent_abilitytalent_armor.png",
           "shortTooltip": "Usar habilidades básicas te otorga armadura antiataques.",
-          "fullTooltip": "Lanzar una habilidad básica te otorga 40 de armadura antiataques durante 2.5 s.",
+          "fullTooltip": "Lanzar una habilidad básica te otorga 35 de armadura antiataques durante 2.5 s.",
           "abilityType": "Passive",
           "sort": 2
         },

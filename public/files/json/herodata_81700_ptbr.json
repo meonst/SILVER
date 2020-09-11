@@ -684,10 +684,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_alarak.png"
     },
     "life": {
-      "amount": 1900.0,
+      "amount": 1950.0,
       "scale": 0.04,
       "type": "Vida",
-      "regenRate": 3.957,
+      "regenRate": 4.0585,
       "regenScale": 0.04
     },
     "energy": {
@@ -989,7 +989,7 @@
           "name": "Carga Negativa",
           "icon": "storm_ui_icon_alarak_lightningsurge.png",
           "shortTooltip": "Missão: Aumenta o dano da parte central do Surto de Raios",
-          "fullTooltip": "Aumenta o bônus de dano do Surto de Raios contra inimigos entre Alarak e o alvo para 150%.  Missão repetível: Cada Herói atingido pela parte central do Surto de Raios aumenta permanentemente o bônus de dano em 4%.",
+          "fullTooltip": "Aumenta o bônus de dano do Surto de Raios contra inimigos entre Alarak e o alvo para 175%.  Missão repetível: Cada Herói atingido pela parte central do Surto de Raios aumenta permanentemente o bônus de dano em 4%.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 2,
@@ -2300,7 +2300,7 @@
           "icon": "storm_ui_icon_cassia_avoidance_b.png",
           "toggleCooldown": 0.25,
           "shortTooltip": "Ative Evasão para causar dano",
-          "fullTooltip": "Após receber 500 (+4% per level) de dano enquanto Evasão estiver ativa, Cássia pode ativar Evasão para causar 250 (+4% per level) de dano aos inimigos ao redor.",
+          "fullTooltip": "Após receber 650 (+4% per level) de dano enquanto Evasão estiver ativa, Cássia pode ativar Evasão para causar 240 (+4% per level) de dano aos inimigos ao redor.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -9058,7 +9058,7 @@
           "name": "Fôlego Profundo",
           "icon": "storm_ui_icon_chromie_sandstrike.png",
           "shortTooltip": "Missão: Atingir Heróis energiza Sopro de Dragão",
-          "fullTooltip": "Missão: Sempre que o Sopro de Dragão atingir um Herói, aumenta o dano causado em 1.5%, até um máximo de 30%.  Recompensa: Após atingir 20 Heróis, a recarga de Sopro de Dragão é reduzida em 5 s, e o custo de Mana é reduzido de 65 para 30.",
+          "fullTooltip": "Missão: Sempre que o Sopro de Dragão atingir um Herói, aumenta o dano causado em 1%, até um máximo de 20%.  Recompensa: Após atingir 20 Heróis, a recarga de Sopro de Dragão é reduzida em 4 s, e o custo de Mana é reduzido de 65 para 40.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -9166,7 +9166,7 @@
           "name": "Fita de Möbius",
           "icon": "storm_ui_icon_chromie_sandstrike.png",
           "shortTooltip": "Sopro de Dragão causa mais dano no centro e desacelera",
-          "fullTooltip": "Sopro de Dragão causa 50% de dano extra aos inimigos atingidos no centro. Heróis inimigos atingidos no centro são desacelerados em 60% por 1 s.",
+          "fullTooltip": "Sopro de Dragão causa 30% de dano extra aos inimigos atingidos no centro. Heróis inimigos atingidos no centro são desacelerados em 60% for 0.75 s.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -10757,7 +10757,7 @@
           "name": "Rubi",
           "icon": "storm_ui_icon_deckard_ruby.png",
           "toggleCooldown": 0.5,
-          "cooldownTooltip": "Recarga: 10 s",
+          "cooldownTooltip": "Recarga: 20 s",
           "shortTooltip": "Próximo Cubo Horádrico cria Poções Inferiores de Vida",
           "fullTooltip": "Ative para aumentar em 100% o dano do próximo Cubo Horádrico e fazer com que ele crie 3 Poções Inferiores de Vida para cada Herói inimigo atingido, curando 250 (+4% per level) de Vida dos Heróis aliados que as pegarem. As Poções Inferiores de Vida duram 10 s.  Só é possível ter 1 Gema ativa por vez.",
           "abilityType": "Active",
@@ -13260,10 +13260,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_dva_mech.png"
     },
     "life": {
-      "amount": 2000.0,
+      "amount": 2250.0,
       "scale": 0.04,
       "type": "Vida",
-      "regenRate": 4.168,
+      "regenRate": 4.6875,
       "regenScale": 0.04
     },
     "energy": {
@@ -13286,7 +13286,7 @@
         "nameId": "DVaMechWeapon",
         "range": 3.75,
         "period": 0.25,
-        "damage": 26.0,
+        "damage": 23.0,
         "damageScale": 0.04
       }
     ],
@@ -13298,9 +13298,9 @@
           "name": "Propulsores",
           "icon": "storm_ui_icon_dva_boosters.png",
           "toggleCooldown": 0.0625,
-          "cooldownTooltip": "Recarga: 9 s",
+          "cooldownTooltip": "Recarga: 10 s",
           "shortTooltip": "Anda rápido e repele inimigos",
-          "fullTooltip": "Aumenta a Velocidade de Movimento de D.Va em 125% por 2 s. Os inimigos atingidos recebem 135 (+4% per level) de dano e são repelidos.   D.Va não pode ser desacelerada enquanto os Propulsores estiverem ativos e cada inimigo só pode ser atingindo uma vez por uso.",
+          "fullTooltip": "Aumenta a Velocidade de Movimento de D.Va em 115% por 1.75 s. Os inimigos atingidos recebem 135 (+4% per level) de dano e são repelidos.   D.Va não pode ser desacelerada enquanto os Propulsores estiverem ativos e cada inimigo só pode ser atingindo uma vez por uso.",
           "abilityType": "Q"
         },
         {
@@ -13309,9 +13309,9 @@
           "name": "Matriz de Defesa",
           "icon": "storm_ui_icon_dva_defensematrix.png",
           "toggleCooldown": 0.0625,
-          "cooldownTooltip": "Recarga: 10 s",
+          "cooldownTooltip": "Recarga: 12 s",
           "shortTooltip": "Reduz o dano de Heróis inimigos em uma área",
-          "fullTooltip": "Canaliza um campo defensivo na direção selecionada por 3 s, reduzindo o dano causado por Heróis inimigos em 75%. O Mecha pode andar enquanto canaliza, mas não pode se virar.  O dano causado ao Mecha por inimigos dentro da Matriz de Defesa concede a mesma quantidade de carga de Autodestruir.",
+          "fullTooltip": "Projeta um campo defensivo na direção selecionada por 3 s, reduzindo o dano causado por Heróis inimigos na área em 50%.  Ative novamente para alterar o ângulo da projeção.  O dano causado ao Mecha por inimigos dentro da Matriz de Defesa concede a mesma quantidade de carga de Autodestruir.",
           "abilityType": "W"
         },
         {
@@ -13325,29 +13325,35 @@
             "hideCount": true
           },
           "shortTooltip": "Ejeta-se do Mecha, iniciando a autodestruição para causar muito dano",
-          "fullTooltip": "Ejeta-se do Mecha, destruindo-o após 4 s. Causa de 1200 (+4% per level) a 400 (+4% per level) de dano em uma grande área, de acordo com a distância ao centro da explosão. Só causa 50% de dano a Estruturas.  Ganha 1% de carga a cada 2 s que passar usando Ataques Básicos e 30% de carga pelos 100% dos pontos de Vida do Mecha perdidos.",
+          "fullTooltip": "Ejeta-se do Mecha, destruindo-o após 4 s. Causa de 400 (+4% per level) a 1100 (+4% per level) de dano em uma grande área, de acordo com a distância ao centro da explosão. Causa 50% de dano a Estruturas.  Ganha 1% de carga a cada 2 s que passar usando Ataques Básicos e 25% de carga pelos 100% dos pontos de Vida do Mecha perdidos.",
           "abilityType": "E"
         }
       ],
       "heroic": [
         {
-          "nameId": "DVaPilotBigShot",
-          "buttonId": "DVaPilotBigShot",
-          "name": "Tirambaço",
-          "icon": "storm_ui_icon_dva_bigshot.png",
-          "cooldownTooltip": "Recarga: 4 segundos",
-          "shortTooltip": "No Modo Piloto, causa dano a inimigos em linha reta",
-          "fullTooltip": "Causa 250 (+4% per level) de dano a todos os inimigos em linha reta. A recarga de Chamar Mecha é reduzida em 8 s para cada Herói inimigo atingido.  Requer Modo Piloto.",
-          "abilityType": "Heroic"
-        },
-        {
           "nameId": "DVaMechBunnyHopHeroic",
           "buttonId": "DVaBunnyHopOn",
           "name": "Salto de Coelhinho",
           "icon": "storm_ui_icon_dva_bunnyhop.png",
-          "cooldownTooltip": "Recarga: 100 s",
-          "shortTooltip": "Torna-se Irrefreável e desacelera Heróis próximos",
-          "fullTooltip": "O Mecha de D.Va fica Irrefreável e pisoteia a cada 0.5 s, causando 60 (+4% per level) de dano e desacelerando inimigos em 40%. Dura 4 s.  Requer Modo Mecha.",
+          "cooldownTooltip": "Recarga: 80 s",
+          "shortTooltip": "Torna-se Irrefreável e atordoa Heróis próximos",
+          "fullTooltip": "O Mecha de D.Va fica Irrefreável e pisoteia a cada 0.5 s, causando 52 (+4% per level) de dano em uma área grande. A cada 4 acertos consecutivos em um Herói, ele sofre 100% a mais de dano e fica atordoado por 0.5 s.  Dura 4 s.  Requer o Modo Mecha.",
+          "abilityType": "Heroic"
+        },
+        {
+          "nameId": "DVaMicroMissiles",
+          "buttonId": "DVaMicroMissiles",
+          "name": "Micro Mísseis",
+          "icon": "storm_ui_icon_dva_micromissiles.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 5.0
+          },
+          "cooldownTooltip": "Recarga da carga: 20 segundos",
+          "shortTooltip": "Dispara uma sequência de mísseis que causam dano e desaceleram",
+          "fullTooltip": "Após 0,375 s, canaliza uma saraivada de 12 mísseis na direção selecionada. Os mísseis explodem no primeiro inimigo atingido, causando 44 (+4% per level) de dano cada em uma pequena área e desacelerando em 35% por 2 s.  Armazena até 2 cargas e tem uma recarga de 5 s entre cada uso.  Requer o Modo Mecha.",
           "abilityType": "Heroic"
         }
       ],
@@ -13358,7 +13364,7 @@
           "name": "Modo Mecha",
           "icon": "storm_ui_icon_dva_mechmode.png",
           "shortTooltip": "D.Va pode ejetar-se do Mecha e continuar lutando",
-          "fullTooltip": "Quando o Mecha é destruído, D.Va é ejetada após 0.75 s e pode continuar lutando. O Mecha concede só 50% da experiência normal de Herói ao ser destruído.",
+          "fullTooltip": "Quando o Mecha é destruído, D.Va é ejetada após 0.75 s e pode continuar lutando. O Mecha concede só 50% da experiência normal de Herói ao ser destruído.  Canhões de Fusão  Os Ataques Básicos do Mecha de D.Va causam 23 (+4% per level) de dano em uma área grande a cada 0.25 s. Causa 50% de dano extra a inimigos muito perto do Mecha.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -13371,7 +13377,7 @@
           "name": "Andarilho Mecanizado",
           "icon": "storm_ui_icon_dva_mount.png",
           "shortTooltip": "Enquanto estiver no Mecha, D.Va pode andar e atirar, mas a Velocidade de Movimento é reduzida.",
-          "fullTooltip": "Enquanto estiver no Mecha, D.Va pode andar e atirar, mas a Velocidade de Movimento básica é reduzida em 15%.",
+          "fullTooltip": "O Mecha de D.Va pode atirar enquanto anda. Atirar ou canalizar uma habilidade reduz a Velocidade de Movimento do Mecha em 25%.",
           "abilityType": "Z",
           "isActive": false,
           "isPassive": true
@@ -13443,14 +13449,27 @@
         "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W": {
           "basic": [
             {
-              "nameId": "DVaMechDefenseMatrixOff",
-              "buttonId": "DVaMechCancelDefenseMatrix",
+              "nameId": "DVaMechDefenseMatrixRetarget",
+              "buttonId": "DVaRetargetDefenseMatrix",
+              "name": "Reposicionar Matriz de Defesa",
+              "icon": "storm_ui_icon_dva_defensematrix_a.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Reposicionar Matriz de Defesa",
+              "fullTooltip": "Reposicionar Matriz de Defesa",
+              "abilityType": "W"
+            }
+          ]
+        },
+        "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|Trait": {
+          "trait": [
+            {
+              "nameId": "DvaCancelDefenseMatrix",
+              "buttonId": "DvaCancelDefenseMatrix",
               "name": "Cancelar Matriz de Defesa",
               "icon": "hud_btn_bg_ability_cancel.png",
-              "toggleCooldown": 0.0625,
-              "shortTooltip": "Cancelar Matriz de Defesa",
-              "fullTooltip": "Cancelar Matriz de Defesa",
-              "abilityType": "W"
+              "shortTooltip": "Interromper a canalização da Matriz de Defesa",
+              "fullTooltip": "Interromper a canalização da Matriz de Defesa",
+              "abilityType": "Trait"
             }
           ]
         }
@@ -13459,57 +13478,45 @@
     "talents": {
       "level1": [
         {
-          "nameId": "DVaBoostersRushdown",
-          "buttonId": "DVaBoostersRushdown",
-          "name": "Correria",
-          "icon": "storm_ui_icon_dva_boosters.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Recarga dos Propulsores reduzida se usados fora de combate",
-          "fullTooltip": "Se D.Va não causar nem receber dano enquanto os Propulsores estiverem ativos, a recarga será reduzida em 7 s.",
-          "abilityType": "Q",
+          "nameId": "DVaFullMetal",
+          "buttonId": "DVaFullMetal",
+          "name": "Metal Total",
+          "icon": "storm_ui_icon_dva_mechmode.png",
+          "shortTooltip": "Aumenta a Vida do Mecha; Canhões de Fusão curam",
+          "fullTooltip": "O Mecha de D.Va ganha mais 10% de Vida. Os Canhões de Fusão curam o equivalente a 20% do dano causado a inimigos em sua área bônus.",
+          "abilityType": "Trait",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "DVaBoostersOn"
-          ]
-        },
-        {
-          "nameId": "DVaBoostersHitTheNitrous",
-          "buttonId": "DVaBoostersHitTheNitrous",
-          "name": "Solta o Nitro",
-          "icon": "storm_ui_icon_dva_boosters_a.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Propulsores concedem mais velocidade imediata",
-          "fullTooltip": "A velocidade inicial dos Propulsores é aumentada para 325%, mas decai até a velocidade normal ao longo de 0.5 s. Nesse período, os Propulsores causam 50% a mais de dano.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaBoostersOn"
-          ]
-        },
-        {
-          "nameId": "DVaBoostersCrashCourse",
-          "buttonId": "DVaBoostersCrashCourse",
-          "name": "Curso Intensivo",
-          "icon": "storm_ui_icon_dva_boosters_b.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Missão: Reduz a recarga dos Propulsores",
-          "fullTooltip": "Missão: Causar dano a Heróis inimigos com os Propulsores.  Recompensa: Após causar dano a 20 Heróis, cada uso dos Propulsores reduzirá a recarga em 1 s por Herói atingido.",
-          "abilityType": "Q",
-          "isQuest": true,
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DVaBoostersOn"
+            "DVaMechMechMode",
+            "DVaPilotCallMech"
           ]
         },
         {
           "nameId": "DVaMechProMoves",
           "buttonId": "DVaMechProMoves",
           "name": "Manobras Profissionais",
-          "icon": "storm_ui_icon_dva_mechmode.png",
-          "shortTooltip": "Receber dano aumenta a Velocidade de Movimento",
-          "fullTooltip": "O Mecha de D.Va ganha 2% de Velocidade de Movimento por 1.5 s sempre que receber dano, até 30%.",
+          "icon": "storm_ui_icon_dva_mechmode_a.png",
+          "shortTooltip": "Receber dano aumenta a Velocidade de Movimento e a Armadura",
+          "fullTooltip": "O Mecha de D.Va ganha 2% de Velocidade de Movimento e 2 de Armadura toda vez que sofre dano, acumulando até 15 vezes. Perde uma aplicação do efeito a cada 0.5 s.  Ataques Básicos contra Heróis inimigos no Modo Piloto reduzem a recarga de Chamar Mecha em mais 1 s.",
           "abilityType": "Trait",
-          "sort": 4,
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaMechMechMode",
+            "DVaPilotCallMech",
+            "DVaPilotPilotMode"
+          ]
+        },
+        {
+          "nameId": "DVaLiquidCooling",
+          "buttonId": "DVaLiquidCooling",
+          "name": "Arrefecimento Líquido",
+          "icon": "storm_ui_icon_dva_mechmode_b.png",
+          "cooldownTooltip": "Recarga: 50 segundos",
+          "shortTooltip": "Potencializa a Fonte Curativa no Modo Mecha",
+          "fullTooltip": "Ative para receber os efeitos da Fonte Curativa. Requer o Modo Mecha.  Passivo: No Modo Mecha, a recarga da Fonte Curativa é reduzida para 50 s e os efeitos dela duram 25% mais.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3,
           "abilityTalentLinkIds": [
             "DVaMechMechMode"
           ]
@@ -13517,75 +13524,13 @@
       ],
       "level4": [
         {
-          "nameId": "DVaDefenseMatrixDivertingPower",
-          "buttonId": "DVaDefenseMatrixDivertingPower",
-          "name": "Energia Digressiva",
-          "icon": "storm_ui_icon_dva_defensematrix.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Aumenta o tamanho da Matriz de Defesa; reduz a Velocidade de Movimento",
-          "fullTooltip": "Aumenta em 100% a largura e em 25% o comprimento da Matriz de Defesa, mas reduz em 30% a Velocidade de Movimento de D.Va enquanto durar o efeito.",
-          "abilityType": "W",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "DVaMechDefenseMatrixOn"
-          ]
-        },
-        {
-          "nameId": "DVaDefenseMatrixGetThroughThis",
-          "buttonId": "DVaDefenseMatrixGetThroughThis",
-          "name": "Aguenta Firme!",
-          "icon": "storm_ui_icon_dva_defensematrix_a.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Aumenta a duração da Matriz de Defesa",
-          "fullTooltip": "Aumenta a duração da Matriz de Defesa em 3 s.",
-          "abilityType": "W",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaMechDefenseMatrixOn"
-          ]
-        },
-        {
-          "nameId": "DVaDefenseMatrixFusionGenerator",
-          "buttonId": "DVaDefenseMatrixFusionGenerator",
-          "name": "Gerador de Fusão",
-          "icon": "storm_ui_icon_dva_defensematrix_b.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Matriz de Defesa aumenta a carga de Autodestruir",
-          "fullTooltip": "Sempre que um Herói inimigo causar dano dentro da Matriz de Defesa, a carga de Autodestruir de D.Va aumenta em 1%.  Máximo de 15% de carga por uso.",
-          "abilityType": "W",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DVaMechDefenseMatrixOn"
-          ]
-        },
-        {
-          "nameId": "DVaSelfDestructBringItOn",
-          "buttonId": "DVaSelfDestructBringItOn",
-          "name": "Manda Ver",
-          "icon": "storm_ui_icon_dva_selfdestruct.png",
-          "charges": {
-            "countMax": 100,
-            "countUse": 100,
-            "hideCount": true
-          },
-          "shortTooltip": "Aumenta a taxa de carregamento de Autodestruir",
-          "fullTooltip": "Aumenta em 30% a carga recebida pela Vida perdida do Mecha ao se Autodestruir.",
-          "abilityType": "E",
-          "sort": 4,
-          "abilityTalentLinkIds": [
-            "DVaMechSelfDestruct"
-          ]
-        }
-      ],
-      "level7": [
-        {
-          "nameId": "DVaBoostersComingThrough",
-          "buttonId": "DVaBoostersComingThrough",
-          "name": "Tô Passando",
+          "nameId": "DVaBoostersRushdown",
+          "buttonId": "DVaBoostersRushdown",
+          "name": "Correria",
           "icon": "storm_ui_icon_dva_boosters.png",
           "toggleCooldown": 0.0625,
-          "shortTooltip": "Aumenta a repulsão dos Propulsores",
-          "fullTooltip": "Aumenta a repulsão dos Propulsores em 100%.",
+          "shortTooltip": "Propulsores roubam vida; aumenta o dano não Heroico",
+          "fullTooltip": "Propulsores causam dano extra equivalente a 4% do máximo de Vida a Heróis e curam o Mecha de D.Va num valor equivalente ao dano causado. Propulsores causam 100% a mais de dano a inimigos não Heroicos.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13593,29 +13538,15 @@
           ]
         },
         {
-          "nameId": "DVaDefenseMatrixDazerZone",
-          "buttonId": "DVaDefenseMatrixDazerZone",
-          "name": "Zona Tonteante",
-          "icon": "storm_ui_icon_dva_defensematrix.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Matriz de Defesa desacelera",
-          "fullTooltip": "Heróis inimigos afetados pela Matriz de Defesa são desacelerados em 20%.",
-          "abilityType": "W",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaMechDefenseMatrixOn"
-          ]
-        },
-        {
           "nameId": "DVaDefenseMatrixAggressionMatrix",
           "buttonId": "DVaDefenseMatrixAggressionMatrix",
           "name": "Matriz de Agressão",
-          "icon": "storm_ui_icon_dva_defensematrix_a.png",
+          "icon": "storm_ui_icon_dva_defensematrix.png",
           "toggleCooldown": 0.0625,
-          "shortTooltip": "Ataques Básicos reduzem a recarga da Matriz de Defesa",
-          "fullTooltip": "No Modo Mecha, Ataques Básicos contra Heróis reduzem a recarga da Matriz de Defesa em 0.25 s.",
+          "shortTooltip": "Matriz de Defesa reduz a cura; recarga reduzida",
+          "fullTooltip": "Heróis inimigos dentro da sua Matriz de Defesa recebem 30% menos cura.  Passivo: Ataques Básicos contra Heróis reduzem a recarga da Matriz de Defesa em 0.125 s.",
           "abilityType": "W",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "DVaMechDefenseMatrixOn"
           ]
@@ -13630,12 +13561,57 @@
             "countUse": 100,
             "hideCount": true
           },
-          "shortTooltip": "Aumenta o dano e o tempo de detonação de Autodestruir",
-          "fullTooltip": "Aumenta o tempo de detonação de Autodestruir em 3 s. Aumenta o dano da detonação em 70%.  Outro Mecha pode ser chamado após 4 s.",
+          "shortTooltip": "Potencializa Autodestruir e os Canhões de Fusão",
+          "fullTooltip": "Atingir seu Mecha em processo de autodestruição com Tirambaço o faz explodir 40% mais rápido.  Passivo: Quando Canhões de Fusão causam dano extra a um Herói inimigo, recebe 0.25 de carga de Autodestruir.",
           "abilityType": "E",
-          "sort": 4,
+          "sort": 3,
           "abilityTalentLinkIds": [
-            "DVaMechSelfDestruct"
+            "DVaMechSelfDestruct",
+            "DVaPilotBigShot"
+          ]
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "DvaGetOnThePoint",
+          "buttonId": "DvaGetOnThePoint",
+          "name": "Direto ao Ponto",
+          "icon": "storm_ui_icon_dva_boosters.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Reduz a recarga dos Propulsores; concede Velocidade de Movimento a aliados",
+          "fullTooltip": "Propulsores concedem 20% de Velocidade de Movimento a aliados próximos por 2 s.   Passivo: Se D.Va não tiver recebido dano nos últimos 3 s, os Propulsores recarregam 100% mais rápido.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "DVaBoostersOn"
+          ]
+        },
+        {
+          "nameId": "DVaBoostersHitTheNitrous",
+          "buttonId": "DVaBoostersHitTheNitrous",
+          "name": "Solta o Nitro",
+          "icon": "storm_ui_icon_dva_boosters_a.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Propulsores concedem mais velocidade imediata e atordoam",
+          "fullTooltip": "A velocidade inicial dos Propulsores aumenta para 300%, mas decai até a velocidade normal ao longo de 0.5 s. Nesse período, os Propulsores atordoam por 0.5 s.",
+          "abilityType": "Q",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaBoostersOn"
+          ]
+        },
+        {
+          "nameId": "DVaDefenseMatrixFusionGenerator",
+          "buttonId": "DVaDefenseMatrixFusionGenerator",
+          "name": "Gerador de Fusão",
+          "icon": "storm_ui_icon_dva_defensematrix.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Matriz de Defesa aumenta a carga de Autodestruir",
+          "fullTooltip": "Sempre que um Herói inimigo causa dano dentro da Matriz de Defesa, a carga de Autodestruir de D.Va aumenta em 1%. Máximo de 20% de carga por uso.   Passivo: O dano extra dos Canhões de Fusão aumenta para 75% quando Autodestruir está com a carga máxima.",
+          "abilityType": "W",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaMechDefenseMatrixOn"
           ]
         }
       ],
@@ -13645,9 +13621,9 @@
           "buttonId": "DVaBunnyHopOn",
           "name": "Salto de Coelhinho",
           "icon": "storm_ui_icon_dva_bunnyhop.png",
-          "cooldownTooltip": "Recarga: 100 s",
-          "shortTooltip": "Torna-se Irrefreável e desacelera Heróis próximos",
-          "fullTooltip": "O Mecha de D.Va fica Irrefreável e pisoteia a cada 0.5 s, causando 60 (+4% per level) de dano e desacelerando inimigos em 40%. Dura 4 s.  Requer Modo Mecha.",
+          "cooldownTooltip": "Recarga: 80 s",
+          "shortTooltip": "Torna-se Irrefreável e atordoa Heróis próximos",
+          "fullTooltip": "O Mecha de D.Va fica Irrefreável e pisoteia a cada 0.5 s, causando 52 (+4% per level) de dano em uma área grande. A cada 4 acertos consecutivos em um Herói, ele sofre 100% a mais de dano e fica atordoado por 0.5 s.  Dura 4 s.  Requer o Modo Mecha.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -13656,35 +13632,96 @@
           ]
         },
         {
-          "nameId": "DVaBigShot",
-          "buttonId": "DVaPilotBigShot",
-          "name": "Tirambaço",
-          "icon": "storm_ui_icon_dva_bigshot.png",
-          "cooldownTooltip": "Recarga: 4 segundos",
-          "shortTooltip": "No Modo Piloto, causa dano a inimigos em linha reta",
-          "fullTooltip": "Causa 250 (+4% per level) de dano a todos os inimigos em linha reta. A recarga de Chamar Mecha é reduzida em 8 s para cada Herói inimigo atingido.  Requer Modo Piloto.",
+          "nameId": "DVaMicroMissiles",
+          "buttonId": "DVaMicroMissiles",
+          "name": "Micro Mísseis",
+          "icon": "storm_ui_icon_dva_micromissiles.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 5.0
+          },
+          "cooldownTooltip": "Recarga da carga: 20 segundos",
+          "shortTooltip": "Dispara uma sequência de mísseis que causam dano e desaceleram",
+          "fullTooltip": "Após 0,375 s, canaliza uma saraivada de 12 mísseis na direção selecionada. Os mísseis explodem no primeiro inimigo atingido, causando 44 (+4% per level) de dano cada em uma pequena área e desacelerando em 35% por 2 s.  Armazena até 2 cargas e tem uma recarga de 5 s entre cada uso.  Requer o Modo Mecha.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
           "abilityTalentLinkIds": [
-            "DVaPilotBigShot"
+            "DVaMicroMissiles"
           ]
         }
       ],
       "level13": [
         {
-          "nameId": "DVaMechExpensivePlating",
-          "buttonId": "DVaMechExpensivePlating",
-          "name": "Revestimento Caro",
-          "icon": "storm_ui_icon_dva_callmech.png",
-          "shortTooltip": "Aumenta a Vida do Mecha e a recarga de Chamar Mecha",
-          "fullTooltip": "Aumenta a Vida do Mecha em 20%, mas também aumenta a recarga de Chamar Mecha em 15 s.  Isso não reduz a quantidade de carga ganha de Autodestruir.",
-          "abilityType": "E",
+          "nameId": "DVaTargetLocked",
+          "buttonId": "DVaTargetLocked",
+          "name": "Alvo na Mira",
+          "icon": "storm_ui_icon_dva_defensematrix.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Matriz de Defesa reduz a Armadura e desacelera",
+          "fullTooltip": "Heróis inimigos que ficarem dentro da Matriz de Defesa por 1.5 s têm a Armadura reduzida em 15 e a Velocidade de Movimento, em 25% por 3 s.",
+          "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "DVaMechMechMode",
-            "DVaPilotCallMechMEKAfall",
-            "DVaPilotCallMech"
+            "DVaMechDefenseMatrixOn"
+          ]
+        },
+        {
+          "nameId": "DVaGoodToGo",
+          "buttonId": "DVaGoodToGo",
+          "name": "Tudo Pronto",
+          "icon": "storm_ui_icon_dva_pilotmode.png",
+          "shortTooltip": "Desbloqueia mais habilidades no Modo Piloto",
+          "fullTooltip": "Modo Piloto: Desbloqueia as habilidades Arremetida a Jato e Pulso de Concussão.   Arremetida a Jato:  Arremete por uma curta distância. 10 s de recarga.  Pulso de Concussão: Causa 120 (+4% per level) de dano a inimigos em um cone e os repele. 10 s de recarga.",
+          "abilityType": "Trait",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
+        },
+        {
+          "nameId": "DVaBigShotPewPewPew",
+          "buttonId": "DVaBigShotPewPewPew",
+          "name": "Pôu! Pôu! Pôu!",
+          "icon": "storm_ui_icon_dva_bigshot.png",
+          "shortTooltip": "Tirambaço dispara vários projéteis",
+          "fullTooltip": "Modo Piloto: Em vez de um tiro, Tirambaço dispara 3 projéteis ao longo de 0.5 s. Cada projétil causa 75% do dano.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaPilotBigShot"
+          ]
+        }
+      ],
+      "level16": [
+        {
+          "nameId": "DVaInForTheKill",
+          "buttonId": "DVaInForTheKill",
+          "name": "Entrar Para Matar",
+          "icon": "storm_ui_icon_dva_boosters.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Propulsores concedem Escudo; aumenta o dano de ataque",
+          "fullTooltip": "Propulsores concedem Escudo equivalente a 10% do máximo de Vida por 2.5 s. O dano de Ataque Básico do Mecha de D.Va aumenta em 10% por 5 s para cada Herói inimigo atingido pelos Propulsores, acumulando até 5 vezes.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "DVaBoostersOn"
+          ]
+        },
+        {
+          "nameId": "DVaDefenseMatrixDivertingPower",
+          "buttonId": "DVaDefenseMatrixDivertingPower",
+          "name": "Energia Digressiva",
+          "icon": "storm_ui_icon_dva_defensematrix.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Matriz de Defesa cura e tem área maior",
+          "fullTooltip": "A área da Matriz de Defesa aumenta consideravelmente e cada vez que ela reduz o dano causado a Heróis ela cura o Mecha de D.Va em 35 (+4% per level) de Vida.",
+          "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaMechDefenseMatrixOn"
           ]
         },
         {
@@ -13693,77 +13730,11 @@
           "name": "Blindagem de Emergência",
           "icon": "storm_ui_icon_dva_mechmode.png",
           "shortTooltip": "Mecha ganha Escudo em vez de morrer",
-          "fullTooltip": "Em vez de ser destruído, o Mecha ganha um Escudo que absorve 210 (+4% per level) de dano ao longo de 6 s.  Esse efeito tem recarga de 15 s.",
-          "abilityType": "Trait",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaMechMechMode"
-          ]
-        },
-        {
-          "nameId": "DVaMechAblativeArmor",
-          "buttonId": "DVaMechAblativeArmor",
-          "name": "Armadura Ablativa",
-          "icon": "storm_ui_icon_dva_mechmode_a.png",
-          "shortTooltip": "Recebe menos dano de ataques fracos",
-          "fullTooltip": "Instâncias de dano contra o Mecha de D.Va que causem 4% ou menos do máximo de Vida dele são reduzidas em 50%.  Isso não reduz a quantidade de carga ganhada de Autodestruir.",
+          "fullTooltip": "Em vez de ser destruído, o Mecha ganha um Escudo que absorve 280 (+4% per level) de dano ao longo de 4 s.  Esse efeito tem recarga de 30 s.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
             "DVaMechMechMode"
-          ]
-        }
-      ],
-      "level16": [
-        {
-          "nameId": "DVaPilotTorpedoDash",
-          "buttonId": "DVaPilotTorpedoDashTalent",
-          "name": "Arremetida a Jato",
-          "icon": "storm_ui_icon_dva_jetpackattack.png",
-          "cooldownTooltip": "Recarga: 12 segundos",
-          "shortTooltip": "Arremetida no Modo Piloto",
-          "fullTooltip": "D.Va ganha a habilidade Arremetida a Jato, podendo arremeter e passar pelos inimigos.  Requer Modo Piloto.",
-          "abilityType": "Q",
-          "isActive": true,
-          "sort": 1
-        },
-        {
-          "nameId": "DVaPilotGGWP",
-          "buttonId": "DVaPilotGGWP",
-          "name": "Mandou Bem",
-          "icon": "storm_ui_icon_dva_pilotmode.png",
-          "shortTooltip": "Piloto causa mais dano, Abates concluem recarga do Mecha",
-          "fullTooltip": "Aumenta o dano de Ataque Básico do Modo Piloto em 50%. Participar de Abates no Modo Piloto conclui a recarga de Chamar Mecha instantaneamente.",
-          "abilityType": "Trait",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaPilotPilotMode"
-          ]
-        },
-        {
-          "nameId": "DVaPilotNanoweaveSuit",
-          "buttonId": "DVaPilotNanoweaveSuit",
-          "name": "Traje de Nanofibra",
-          "icon": "storm_ui_icon_dva_pilotmode_a.png",
-          "shortTooltip": "Chamar Mecha carrega mais rápido, ejeção concede Armadura",
-          "fullTooltip": "Durante 4 s após ejetar-se do Mecha, D.Va ganha 50 de Armadura e os Ataques Básicos reduzem em mais 50% a recarga de Chamar Mecha.",
-          "abilityType": "Trait",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DVaPilotPilotMode"
-          ]
-        },
-        {
-          "nameId": "DVaPilotSuppressingFire",
-          "buttonId": "DVaPilotSuppressingFire",
-          "name": "Fogo de Supressão",
-          "icon": "storm_ui_icon_dva_pilotmode_b.png",
-          "shortTooltip": "Ataques Básicos em Modo Piloto desaceleram; alcance maior",
-          "fullTooltip": "Os Ataques Básicos no Modo Piloto têm alcance 20% maior e desaceleram os inimigos em 20% por 2.5 s.",
-          "abilityType": "Trait",
-          "sort": 4,
-          "abilityTalentLinkIds": [
-            "DVaPilotPilotMode"
           ]
         }
       ],
@@ -13773,8 +13744,8 @@
           "buttonId": "DVaBunnyHopStopAndPop",
           "name": "Paradinha",
           "icon": "storm_ui_icon_dva_bunnyhop.png",
-          "shortTooltip": "Salto de Coelhinho causa mais dano se permanecer no lugar",
-          "fullTooltip": "Salto de Coelhinho causa 200% a mais de dano se D.Va não se mover na hora do impacto.",
+          "shortTooltip": "Pausa a duração do Salto de Coelhinho se permanecer no lugar",
+          "fullTooltip": "A duração do Salto de Coelhinho não diminui quando o Mecha de D.Va está parado.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13785,46 +13756,52 @@
           ]
         },
         {
-          "nameId": "DVaBigShotPewPewPew",
-          "buttonId": "DVaBigShotPewPewPew",
-          "name": "Pôu! Pôu! Pôu!",
-          "icon": "storm_ui_icon_dva_bigshot.png",
-          "shortTooltip": "Tirambaço dispara vários projéteis",
-          "fullTooltip": "Em vez de um tiro, Tirambaço dispara 3 projéteis ao longo de 0.5 s. Cada projétil causa 50% do dano.",
+          "nameId": "DVaTimingAttack",
+          "buttonId": "DVaTimingAttack",
+          "name": "Ataque Desenfreado",
+          "icon": "storm_ui_icon_dva_micromissiles.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 5.0
+          },
+          "shortTooltip": "Recebe uma carga; acertos em Heróis reduzem a recarga",
+          "fullTooltip": "Micro Mísseis ganha mais uma carga. Toda vez que Micro Mísseis atinge um Herói inimigo, a recarga é reduzida em 0.5 s, e a recarga da carga, em 0.25 s.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "DVaPilotBigShot"
+            "DVaMicroMissiles",
+            "DVaMechSelfDestruct"
           ],
           "prerequisiteTalentIds": [
-            "DVaBigShot"
+            "DVaMicroMissiles"
           ]
         },
         {
-          "nameId": "DVaPilotConcussivePulse",
-          "buttonId": "DVaPilotConcussivePulseTalent",
-          "name": "Pulso de Concussão",
-          "icon": "storm_ui_icon_dva_concussivecharge.png",
-          "cooldownTooltip": "Recarga: 7 segundos",
-          "shortTooltip": "Repele inimigos no Modo Piloto",
-          "fullTooltip": "D.Va ganha a habilidade Pulso de Concussão, que causa 141 (+4% per level) de dano e repele os inimigos em uma área cônica.  Requer Modo Piloto.",
-          "abilityType": "W",
-          "isActive": true,
-          "sort": 3
+          "nameId": "DVaHeadshot",
+          "buttonId": "DVaHeadshot",
+          "name": "Na Cabeça!",
+          "icon": "storm_ui_icon_dva_bigshot.png",
+          "shortTooltip": "Aumenta o dano do Tirambaço; reduz a recarga",
+          "fullTooltip": "Modo Piloto: Aumenta o dano do Tirambaço em 75% e reduz a recarga dele em 2 s.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaPilotBigShot"
+          ]
         },
         {
-          "nameId": "DVaPilotCallMechMEKAfall",
-          "buttonId": "DVaPilotCallMechMEKAfallTalent",
-          "name": "MEKAbuloso",
-          "icon": "storm_ui_icon_dva_callmech.png",
-          "cooldownTooltip": "Recarga: 45 segundos",
-          "shortTooltip": "Chamar Mecha é instantâneo, pode ser mirado e causa dano aos inimigos",
-          "fullTooltip": "Chamar Mecha é instantâneo e pode ser mirado. Ao aterrissar, causa 202 (+4% per level) de dano aos inimigos na área de impacto.",
-          "abilityType": "E",
-          "isActive": true,
+          "nameId": "DVaMechAblativeArmor",
+          "buttonId": "DVaMechAblativeArmor",
+          "name": "Armadura Ablativa",
+          "icon": "storm_ui_icon_dva_mechmode.png",
+          "shortTooltip": "Cura uma parte do Dano Mágico recebido",
+          "fullTooltip": "O Mecha de D.Va recebe, ao longo de 4 s, uma cura equivalente a 45% do Dano Mágico recebido.",
+          "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
-            "DVaPilotCallMech"
+            "DVaMechMechMode"
           ]
         }
       ]
@@ -13874,7 +13851,7 @@
                 "buttonId": "DVaPilotTorpedoDashAbility",
                 "name": "Arremetida a Jato",
                 "icon": "storm_ui_icon_dva_jetpackattack.png",
-                "cooldownTooltip": "Recarga: 12 segundos",
+                "cooldownTooltip": "Recarga: 10 segundos",
                 "shortTooltip": "Arremete até o local selecionado",
                 "fullTooltip": "Arremete até o local selecionado, passando pelos inimigos no caminho.",
                 "abilityType": "Q"
@@ -13884,9 +13861,9 @@
                 "buttonId": "DVaPilotConcussivePulseAbility",
                 "name": "Pulso de Concussão",
                 "icon": "storm_ui_icon_dva_concussivecharge.png",
-                "cooldownTooltip": "Recarga: 7 segundos",
+                "cooldownTooltip": "Recarga: 10 segundos",
                 "shortTooltip": "Causa dano e repele inimigos próximos",
-                "fullTooltip": "Causa 141 (+4% per level) de dano e repele os inimigos em uma área cônica.",
+                "fullTooltip": "Causa 120 (+4% per level) de dano e repele os inimigos em uma área cônica.",
                 "abilityType": "W"
               },
               {
@@ -13905,9 +13882,9 @@
                 "buttonId": "DVaPilotBigShot",
                 "name": "Tirambaço",
                 "icon": "storm_ui_icon_dva_bigshot.png",
-                "cooldownTooltip": "Recarga: 4 segundos",
-                "shortTooltip": "No Modo Piloto, causa dano a inimigos em linha reta",
-                "fullTooltip": "Causa 250 (+4% per level) de dano a todos os inimigos em linha reta. A recarga de Chamar Mecha é reduzida em 8 s para cada Herói inimigo atingido.  Requer Modo Piloto.",
+                "cooldownTooltip": "Recarga: 6 segundos",
+                "shortTooltip": "Causa dano e desacelera inimigos em linha reta no modo Piloto",
+                "fullTooltip": "Causa 150 (+4% per level) de dano a todos os inimigos em linha reta. Heróis atingidos têm a Velocidade de Movimento reduzida em 25% por 1.5 s. A recarga de Chamar Mecha é reduzida em 5 s para cada Herói inimigo atingido.  Requer o Modo Piloto.",
                 "abilityType": "Heroic"
               }
             ],
@@ -13979,19 +13956,6 @@
                     "toggleCooldown": 0.1,
                     "fullTooltip": "Desmonta você.",
                     "abilityType": "Z"
-                  }
-                ]
-              },
-              "DVaPilotCallMechMEKAfall|DVaPilotCallMechMEKAfallTalent": {
-                "basic": [
-                  {
-                    "nameId": "DVaPilotCallMechMEKAfall",
-                    "buttonId": "DVaPilotCallMech",
-                    "name": "Chamar Mecha",
-                    "icon": "storm_ui_icon_dva_callmech.png",
-                    "cooldownTooltip": "Recarga: 45 segundos",
-                    "fullTooltip": "Chama um Mecha novo e entra em Modo Mecha.  Cada Ataque Básico reduz a recarga em 0.5 s.",
-                    "abilityType": "E"
                   }
                 ]
               }
@@ -20265,7 +20229,7 @@
           "name": "Lampejo de Raiva",
           "icon": "storm_ui_icon_imperius_q.png",
           "shortTooltip": "As marcas de Investida Celestial causam dano em área",
-          "fullTooltip": "Consumir uma marca da Investida Celestial causa 180 (+4% per level) de dano ao alvo e aos inimigos próximos, concedendo a Impérius 300 (+4% per level) de Escudo por 4 s.",
+          "fullTooltip": "Consumir uma marca da Investida Celestial causa 165 (+4% per level) de dano ao alvo e aos inimigos próximos, concedendo a Impérius 275 (+4% per level) de Escudo por 4 s.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -23688,7 +23652,7 @@
           "name": "Bis",
           "icon": "storm_ui_icon_etc_facemelt_a.png",
           "shortTooltip": "Solo Sinistroso repele os inimigos duas vezes e reduz a recarga da Habilidade Heroica",
-          "fullTooltip": "O Solo Sinistroso cria um Amplificador que repele os inimigos de novo 2 segundos depois.  Passivo: A cada Herói inimigo atingido pelo Solo Sinistroso ou pelo Amplificador, a recarga da Habilidade Heroica é reduzida em 8%.",
+          "fullTooltip": "O Solo Sinistroso cria um Amplificador que repele os inimigos de novo 2 segundos depois.  Passivo: A cada Herói inimigo atingido pelo Solo Sinistroso ou pelo Amplificador, a recarga da Habilidade Heroica é reduzida em 6%.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -27096,7 +27060,7 @@
           "name": "Facas Vingativas",
           "icon": "storm_ui_icon_maiev_knives.png",
           "shortTooltip": "Causar dano aumenta o dano do Leque de Facas",
-          "fullTooltip": "Causar dano a Heróis inimigos faz o próximo lançamento de Leque de Facas que acertar Heróis inimigos causar dano extra equivalente a 1% do máximo de Vida, até o máximo de 5%.",
+          "fullTooltip": "Causar dano a Heróis inimigos faz o próximo lançamento de Leque de Facas que atingir Heróis inimigos causar dano extra equivalente a 1% do máximo de Vida, até o máximo de 5%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -29947,7 +29911,7 @@
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_meiow.png",
       "leaderboard": "storm_ui_ingame_hero_leaderboard_meiow.png",
-      "loading": "storm_ui_ingame_hero_loadingscreen_meiow.png",
+      "loading": "storm_ui_ingame_hero_loadingscreen_mei.png",
       "partyPanel": "storm_ui_ingame_partypanel_btn_meiow.png",
       "target": "ui_targetportrait_hero_meiow.png",
       "draftScreen": "storm_ui_glues_draft_portrait_meiow.png",
@@ -34558,7 +34522,7 @@
           "name": "Força Ancestral",
           "icon": "storm_ui_icon_orphea_trait.png",
           "shortTooltip": "Habilidades causam mais dano a inimigos incapacitados",
-          "fullTooltip": "Habilidades não Heroicas causam mais 20% de dano a inimigos atordoados, enraizados, silenciados ou desacelerados. Heróis inimigos atingidos por Caos Ilimitado ficam desacelerados em 20% por 2.5 s.",
+          "fullTooltip": "Habilidades não Heroicas causam mais 15% de dano a inimigos atordoados, enraizados, silenciados ou desacelerados. Heróis inimigos atingidos por Caos Ilimitado ficam desacelerados em 20% por 2.5 s.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -34643,7 +34607,7 @@
           "name": "Devorador de Mentes",
           "icon": "storm_ui_icon_orphea_e.png",
           "shortTooltip": "Missão: Aumenta o dano da Onda de Pavor e reduz a recarga",
-          "fullTooltip": "Missão: Atingir Heróis com Onda de Pavor aumenta o dano da habilidade em 4, até um máximo de 160.  Recompensa: Após atingir 40 Heróis, a Onda de Pavor tem a recarga reduzida para 6 s e restaura 50 de Mana quando a explosão atinge um Herói inimigo.",
+          "fullTooltip": "Missão: Atingir Heróis com Onda de Pavor aumenta o dano da habilidade em 5, até um máximo de 150.  Recompensa: Após atingir 30 Heróis, a Onda de Pavor tem a recarga reduzida para 6 s e restaura 50 de Mana quando a explosão atinge um Herói inimigo.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 3,
@@ -34706,7 +34670,7 @@
           "name": "Simbiose Abissal",
           "icon": "storm_ui_icon_orphea_w.png",
           "shortTooltip": "Acertar Abocanhar em Heróis concede mais Caos e Escudo",
-          "fullTooltip": "Atingir um Herói com Abocanhar concede o máximo de aplicações de Caos a Orféa e 180 (+4% per level) de Escudo por 3 s.",
+          "fullTooltip": "Atingir um Herói com Abocanhar concede o máximo de aplicações de Caos a Orféa e 170 (+4% per level) de Escudo por 3 s.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -34749,7 +34713,7 @@
           "name": "Magia Morta",
           "icon": "storm_ui_icon_orphea_trait.png",
           "shortTooltip": "Ataques Básicos com Caos ignoram Armadura; dano em área",
-          "fullTooltip": "Ataques Básicos que consomem Caos ignoram a Armadura e causam 95 (+4% per level) de Dano Mágico ao alvo e a todos os inimigos ao redor dele.",
+          "fullTooltip": "Ataques Básicos que consomem Caos ignoram a Armadura e causam 90 (+4% per level) de Dano Mágico ao alvo e a todos os inimigos ao redor dele.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -37397,7 +37361,7 @@
           "name": "Caçador-Coletor",
           "icon": "storm_ui_icon_talent_regenerationmaster.png",
           "shortTooltip": "Missão: Globos de Regeneração concedem Regeneração de Vida",
-          "fullTooltip": "Missão: Coletar um Globo de Regeneração aumenta em 1 a Regeneração de Vida por segundo de Rexxar, até um máximo de 25 por segundo.   Recompensa: Após coletar 25 Globos, Rexxar e Misha ganham 15 de Armadura.",
+          "fullTooltip": "Missão: Coletar um Globo de Regeneração aumenta em 1 a Regeneração de Vida por segundo de Rexxar e Misha, até um máximo de 25 por segundo.   Recompensa: Após coletar 25 Globos, Rexxar e Misha ganham 15 de Armadura.",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 2
@@ -38894,7 +38858,7 @@
           "energyTooltip": "Mana: 35",
           "cooldownTooltip": "Recarga: 7 segundos",
           "shortTooltip": "Causa dano e desacelera os inimigos em uma área",
-          "fullTooltip": "Causa 104 (+4% per level) de dano aos inimigos na área-alvo. Inimigos na área de impacto interna recebem 40% a mais de dano e são desacelerados em 45% por 1.5 s. Causa 50% de dano extra a Tropas e Mercenários.",
+          "fullTooltip": "Causa 104 (+4% per level) de dano aos inimigos na área-alvo. Inimigos na área de impacto interna recebem 40% a mais de dano e são desacelerados em 45% por 1.5 s. Causa 60% de dano extra a Tropas e Mercenários.",
           "abilityType": "W"
         },
         {
@@ -40623,7 +40587,7 @@
           "energyTooltip": "Mana: 100",
           "cooldownTooltip": "Recarga: 90 segundos",
           "shortTooltip": "Torne-se um Arconte",
-          "fullTooltip": "Tassadar se transforma em Arconte, ganhando um Escudo equivalente a 30% do máximo de Vida e fortalecendo o Feixe de Ressonância. Dura 12 s.  Feixe de Ressonância: Causa 150 (+4% per level) de dano ao alvo e 75 (+4% per level) de dano colateral a inimigos próximos. Heróis atingidos têm a Armadura Mágica reduzida em 20 por 2 s. O Feixe de Ressonância fica totalmente carregado quando Arconte está ativo.",
+          "fullTooltip": "Tassadar se transforma em Arconte, ganhando um Escudo equivalente a 25% do máximo de Vida e fortalecendo o Feixe de Ressonância. Dura 12 s.  Feixe de Ressonância: Causa 140 (+4% per level) de dano ao alvo e 70 (+4% per level) de dano colateral a inimigos próximos. Heróis atingidos têm a Armadura Mágica reduzida em 20 por 2 s. O Feixe de Ressonância fica totalmente carregado quando Arconte está ativo.",
           "abilityType": "Heroic"
         },
         {
@@ -40718,7 +40682,7 @@
               "name": "Arconte",
               "icon": "storm_ui_icon_tassadar_archon.png",
               "shortTooltip": "Torne-se um Arconte",
-              "fullTooltip": "Tassadar se transforma em Arconte, ganhando um Escudo equivalente a 30% do máximo de Vida e fortalecendo o Feixe de Ressonância. Dura 12 s.  Feixe de Ressonância: Causa 150 (+4% per level) de dano ao alvo e 75 (+4% per level) de dano colateral a inimigos próximos. Heróis atingidos têm a Armadura Mágica reduzida em 20 por 2 s. O Feixe de Ressonância fica totalmente carregado quando Arconte está ativo.",
+              "fullTooltip": "Tassadar se transforma em Arconte, ganhando um Escudo equivalente a 25% do máximo de Vida e fortalecendo o Feixe de Ressonância. Dura 12 s.  Feixe de Ressonância: Causa 140 (+4% per level) de dano ao alvo e 70 (+4% per level) de dano colateral a inimigos próximos. Heróis atingidos têm a Armadura Mágica reduzida em 20 por 2 s. O Feixe de Ressonância fica totalmente carregado quando Arconte está ativo.",
               "abilityType": "Heroic",
               "isActive": false,
               "isPassive": true
@@ -40763,7 +40727,7 @@
           "name": "Carga Estática",
           "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
           "shortTooltip": "Missão: Acertar Heróis aumenta o dano",
-          "fullTooltip": "Missão: Heróis atingidos pela Descarga Elétrica aumentam permanentemente o dano dela em 5 e concedem 33% de carga para o Feixe de Ressonância.   Máximo de 250 de dano extra.",
+          "fullTooltip": "Missão: Heróis atingidos pela Descarga Elétrica aumentam permanentemente o dano dela em 5 e concedem 33% de carga para o Feixe de Ressonância.   Máximo de 200 de dano extra.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -40894,7 +40858,7 @@
           "energyTooltip": "Mana: 100",
           "cooldownTooltip": "Recarga: 90 segundos",
           "shortTooltip": "Torne-se um Arconte",
-          "fullTooltip": "Tassadar se transforma em Arconte, ganhando um Escudo equivalente a 30% do máximo de Vida e fortalecendo o Feixe de Ressonância. Dura 12 s.  Feixe de Ressonância: Causa 150 (+4% per level) de dano ao alvo e 75 (+4% per level) de dano colateral a inimigos próximos. Heróis atingidos têm a Armadura Mágica reduzida em 20 por 2 s. O Feixe de Ressonância fica totalmente carregado quando Arconte está ativo.",
+          "fullTooltip": "Tassadar se transforma em Arconte, ganhando um Escudo equivalente a 25% do máximo de Vida e fortalecendo o Feixe de Ressonância. Dura 12 s.  Feixe de Ressonância: Causa 140 (+4% per level) de dano ao alvo e 70 (+4% per level) de dano colateral a inimigos próximos. Heróis atingidos têm a Armadura Mágica reduzida em 20 por 2 s. O Feixe de Ressonância fica totalmente carregado quando Arconte está ativo.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -41647,7 +41611,7 @@
     "speed": 4.8398,
     "type": "Corpo-a-corpo",
     "rarity": "Rare",
-    "scalingLinkId": "ExcellentMana",
+    "scalingLinkId": "HeroDummyVeterancy",
     "searchText": "Gasganete Tinker Faz-tudo Goblin Horde Horda WoW World of Warcraft War3 WC3 Warcraft3 III 3 Frozen Throne FT Cataclysm Warlords Draenor WoD BFA Battle for Azeroth",
     "description": "Um Evocador especializado em controlar pontos importantes do campo de batalha.",
     "infoText": "Poucos considerariam Gasganete um guerreiro, mas o que lhe falta em estatura ele compensa com seu conhecimento de mecânica. Além disso, ninguém se torna chefe de uma cidade explosiva como a Vila Catraca só sendo simpático, se é que você me entende.",
@@ -41676,21 +41640,21 @@
       "targetInfo": "storm_ui_ingame_partyframe_tinker.png"
     },
     "life": {
-      "amount": 1826.0,
+      "amount": 2275.0,
       "scale": 0.04,
       "type": "Vida",
-      "regenRate": 3.8046,
+      "regenRate": 4.74,
       "regenScale": 0.04
     },
     "energy": {
-      "amount": 500.0,
-      "type": "Mana",
-      "regenRate": 3.0
+      "amount": 10.0,
+      "type": "Sucata",
+      "regenRate": 0.0
     },
     "roles": [
-      "Especialista"
+      "Guerreiro"
     ],
-    "expandedRole": "Assassino Corpo a Corpo",
+    "expandedRole": "Guerreiro",
     "ratings": {
       "complexity": 6.0,
       "damage": 5.0,
@@ -41702,7 +41666,7 @@
         "nameId": "HeroTinker",
         "range": 1.25,
         "period": 0.8,
-        "damage": 95.0,
+        "damage": 100.0,
         "damageScale": 0.04
       }
     ],
@@ -41713,36 +41677,17 @@
           "buttonId": "TinkerRockItTurret",
           "name": "Torre Arrebenta!",
           "icon": "storm_ui_icon_gazlowe_rockitturret.png",
-          "energyTooltip": "Mana: 70",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "cooldownTooltip": "Recarga da carga: 15 segundos",
+          "toggleCooldown": 0.5,
+          "energyTooltip": "Sucata: 4",
           "shortTooltip": "Cria uma torreta que dispara contra os inimigos próximos",
-          "fullTooltip": "Cria uma torreta que causa 62 (+4% per level) de dano. Dura 30 s.  Acumula até 2 cargas.",
+          "fullTooltip": "Cria uma torreta que causa 36 (+4% per level) de dano. Dura 15 s.  Ao ser criada, a torre prioriza o Herói inimigo mais próximo.",
           "abilityType": "Q"
         },
         {
-          "nameId": "TinkerDethLazorCharged",
-          "buttonId": "TinkerDethLazor",
+          "nameId": "GazloweDethLazor",
+          "buttonId": "GazloweDethLazor",
           "name": "Lêiser Mortau",
           "icon": "storm_ui_icon_gazlowe_dethlazor.png",
-          "toggleCooldown": 0.5,
-          "energyTooltip": "Mana: 60",
-          "cooldownTooltip": "Recarga: 12 segundos",
-          "shortTooltip": "Carrega e dispara um laser. Dano e alcance aumentam proporcionais ao tempo de carga.",
-          "fullTooltip": "Ataque carregado que causa 137 (+4% per level) de dano aos inimigos em linha reta. Dano e alcance aumentam proporcionalmente à duração do carregamento, até 100% após 3 s.  O Lêiser Mortau pode ser canalizado por tempo indefinido.",
-          "abilityType": "W"
-        },
-        {
-          "nameId": "TinkerXplodiumBomb",
-          "buttonId": "TinkerXplodiumCharge",
-          "name": "Carga de Xplôdio",
-          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
-          "energyTooltip": "Mana: 60",
           "charges": {
             "countMax": 1,
             "countUse": 1,
@@ -41750,43 +41695,52 @@
             "hideCount": true,
             "recastCooldown": 1.0
           },
-          "cooldownTooltip": "Recarga: 14 segundos",
+          "cooldownTooltip": "Recarga: 8 s",
+          "shortTooltip": "Causa dano em linha reta",
+          "fullTooltip": "Após 0.65 s, causa 174 (+4% per level) de dano a inimigos em linha reta. Cura-se em 25% do dano causado, aumentando para 75% contra Heróis inimigos.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "TinkerXplodiumBomb",
+          "buttonId": "TinkerXplodiumCharge",
+          "name": "Carga de Xplôdio",
+          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "cooldownTooltip": "Recarga: 12 segundos",
           "shortTooltip": "Arremessa uma bomba-relógio que atordoa e causa dano aos inimigos em uma área",
-          "fullTooltip": "Arma uma bomba que causa 233 (+4% per level) de dano aos inimigos na área-alvo após 2.5 segundos, atordoando-os por 1.75 segundo.",
+          "fullTooltip": "Arma uma bomba que causa 155 (+4% per level) de dano aos inimigos na área afetada após 1.25 s. Inimigos atingidos também ficam atordoados por 1 s.",
           "abilityType": "E"
         }
       ],
       "heroic": [
         {
-          "nameId": "TinkerGravOBomb3000",
-          "buttonId": "TinkerGravOBomb3000",
-          "name": "Gravitabomba 3000",
-          "icon": "storm_ui_icon_gazlowe_gravobomb.png",
-          "energyTooltip": "Mana: 80",
-          "cooldownTooltip": "Recarga: 90 segundos",
-          "shortTooltip": "Atrai os inimigos e causa dano",
-          "fullTooltip": "Após 2 segundos, puxa os inimigos para o centro da área e causa 251 (+4% per level) de dano.",
-          "abilityType": "Heroic"
-        },
-        {
           "nameId": "TinkerRoboGoblin",
           "buttonId": "TinkerRoboGoblinPassive",
           "name": "Robogoblin",
           "icon": "storm_ui_icon_gazlowe_robogoblin.png",
+          "cooldownTooltip": "Recarga: 40 segundos",
+          "shortTooltip": "Recebe Irrefreável; aumenta o dano de Ataque Básico",
+          "fullTooltip": "Ative para ficar Irrefreável por 1.5 s.   Passivo: Ataques Básicos causam 80 (+4% per level) de dano extra ao longo de 5 s, acumulando até um máximo de 3 vezes.",
+          "abilityType": "Heroic"
+        },
+        {
+          "nameId": "TinkerGravOBomb3000",
+          "buttonId": "TinkerGravOBomb3000",
+          "name": "Gravitabomba 3000",
+          "icon": "storm_ui_icon_gazlowe_gravobomb.png",
           "cooldownTooltip": "Recarga: 60 segundos",
-          "shortTooltip": "Aumenta Dano de Ataque, Armadura, Velocidade de Movimento",
-          "fullTooltip": "Ative para ganhar 40 de Armadura e 30% de Velocidade de Movimento por 4 s.   Passivo: Ataques Básicos causam 100% a mais de dano.",
+          "shortTooltip": "Puxa os inimigos e causa dano",
+          "fullTooltip": "Após 1.5 s, puxa todos os inimigos para o centro e causa 220 (+4% per level) de dano. Habilidades Básicas causam 30% a mais de dano por 5 s após o lançamento de Gravitabomba 3000.",
           "abilityType": "Heroic"
         }
       ],
       "trait": [
         {
-          "nameId": "TinkerDismantleTurret",
-          "buttonId": "TinkerSalvager",
-          "name": "Reciclador",
+          "nameId": "GazloweSalvagerSalvageTurretAbility",
+          "buttonId": "GazloweReduceReuseRecycleTrait",
+          "name": "Reduzir, Reutilizar, Reciclar",
           "icon": "storm_ui_icon_gazlowe_salvager.png",
-          "shortTooltip": "Torres de Artilharia e estruturas inimigas deixam Sucata que repõe Mana e reduz recargas",
-          "fullTooltip": "Estruturas inimigas e Torres Arrebenta!, quando destruídas, deixam cair Sucata. Ao recolher Sucata, restaura 30 de Mana e as habilidades recarregam três vezes mais rápido por 3 s.   Ative o Reciclador para transformar uma Torre Arrebenta! em Sucata.",
+          "shortTooltip": "Regenera Sucata; recicla Torres Arrebenta!",
+          "fullTooltip": "Regenera 1 de Sucata a cada 4 s. Ao ser destruída, a Torre Arrebenta! solta 1 Sucata, que pode ser pega.  Ative para escolher uma Torre Arrebenta! e destruí-la.",
           "abilityType": "Trait"
         }
       ],
@@ -41860,38 +41814,18 @@
               "abilityType": "Z"
             }
           ]
-        },
-        "TinkerDethLazorCharged|TinkerDethLazor|W": {
-          "basic": [
-            {
-              "nameId": "DethLazorCancel",
-              "buttonId": "TinkerDethLazorCancel",
-              "name": "Leiser Mortau - Fim",
-              "icon": "hud_btn_bg_ability_cancel.png",
-              "toggleCooldown": 0.5,
-              "fullTooltip": "Encerra a habilidade Lêiser Mortau.",
-              "abilityType": "W"
-            }
-          ]
         }
       }
     ],
     "talents": {
       "level1": [
         {
-          "nameId": "TinkerMasteryExtraTNT",
-          "buttonId": "TinkerXplodiumChargeExtraTNTTalent",
-          "name": "Dinamite Extra",
+          "nameId": "GazloweXplodiumChargeRocketBoots",
+          "buttonId": "GazloweXplodiumChargeRocketBoots",
+          "name": "Botas-Foguete",
           "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
-          "charges": {
-            "countMax": 1,
-            "countUse": 1,
-            "countStart": 1,
-            "hideCount": true,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "Carga de Xplôdio causa mais dano",
-          "fullTooltip": "Aumenta em 10% o dano de Carga de Xplôdio para cada alvo atingido, até um máximo de 100%.",
+          "shortTooltip": "Aumenta o alcance de lançamento e o dano da Carga de Xplôdio",
+          "fullTooltip": "Aumenta o alcance de lançamento da Carga de Xplôdio em 30% e o dano dela em 20%. Atingir um Herói inimigo aumenta a Velocidade de Movimento em 20% por 3 s.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -41899,69 +41833,95 @@
           ]
         },
         {
-          "nameId": "TinkerCombatStyleScrapoMaticSmelter",
-          "buttonId": "TinkerSalvagerScrapOMaticSmelterTalent",
-          "name": "Soldador Sucatrônico",
+          "nameId": "GazloweBigGameHunter",
+          "buttonId": "GazloweBigGameHunter",
+          "name": "Caçador Profissional",
           "icon": "storm_ui_icon_gazlowe_salvager.png",
-          "shortTooltip": "Aumenta a restauração de Mana do Reciclador",
-          "fullTooltip": "Aumenta o Mana restaurado de Sucata em 100%.",
+          "shortTooltip": "Atingir Heróis, Mercenários e Monstros aumenta a Sucata",
+          "fullTooltip": "Aumenta a Sucata máxima em 2. Causar dano com Ataques Básicos a Heróis inimigos, Mercenários e Monstros reduz a recarga de Reduzir, Reutilizar, Reciclar em 2 s.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "TinkerDismantleTurret"
+            "GazloweSalvagerSalvageTurretAbility"
           ]
         },
         {
-          "nameId": "TinkerCombatStyleBreakitDown",
-          "buttonId": "TinkerSalvagerBreakItDownTalent",
-          "name": "Arrebenta!",
-          "icon": "storm_ui_icon_gazlowe_salvager_var1.png",
-          "shortTooltip": "Aumenta a redução de recarga de Reciclador",
-          "fullTooltip": "Sucata faz com que as habilidades sejam recarregadas quatro vezes mais rápido por 3 segundos.",
-          "abilityType": "Trait",
+          "nameId": "GazloweOneManWreckingCrew",
+          "buttonId": "GazloweOneManWreckingCrew",
+          "name": "Equipe de Um Homem Só",
+          "icon": "storm_ui_icon_talent_autoattack_damage.png",
+          "shortTooltip": "Habilidades Básicas fortalecem os Ataques Básicos",
+          "fullTooltip": "Habilidades Básicas fazem o próximo Ataque Básico de Gasganete dentro de 6 s causar 45% a mais de dano. Acumula até 2 cargas.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TinkerDismantleTurret"
+            "GazloweSalvagerSalvageTurretAbility"
           ]
-        },
-        {
-          "nameId": "TinkerGoblinRepairs",
-          "buttonId": "TinkerGoblinRepairs",
-          "name": "Consertos Goblínicos",
-          "icon": "storm_ui_icon_talent_regenerationmaster.png",
-          "shortTooltip": "Missão: Globos de Regeneração aumentam a Regeneração de Vida",
-          "fullTooltip": "Missão: Coletar um Globo de Regeneração aumenta em 1 a Regeneração de Vida por segundo, até um máximo de 25.   Recompensa: Após coletar 25 Globos, ganha 15 a mais de Regeneração de Vida por segundo.",
-          "abilityType": "Passive",
-          "isQuest": true,
-          "sort": 4
         }
       ],
       "level4": [
         {
-          "nameId": "TinkerCombatStyleClockwerkSteamFists",
-          "buttonId": "TinkerRockItTurretClockwerkSteamFistsTalent",
-          "name": "Punhos Mecânicos a Vapor",
+          "nameId": "GazloweRockItSockIt",
+          "buttonId": "GazloweRockItSockIt",
+          "name": "Arrebentação Máxima",
           "icon": "storm_ui_icon_gazlowe_rockitturret.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Missão: Ataques Básicos aumentam a duração da Torre Arrebenta!",
-          "fullTooltip": "Missão: Os Ataques Básicos aumentam a duração das suas Torres Arrebenta! em 1.5 s.  Recompensa: Depois de aumentar a duração das torres em 600 s no total, reduz a recarga delas em 3 s.",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "Recebe Escudo ao usar Torre Arrebenta!",
+          "fullTooltip": "Ao lançar Torre Arrebenta!, Gasganete recebe um Escudo que absorve até 215 (+4% per level) de dano por 2.5 s.",
           "abilityType": "Q",
-          "isQuest": true,
           "sort": 1,
           "abilityTalentLinkIds": [
             "TinkerRockItTurret"
           ]
         },
         {
-          "nameId": "TinkerMasteryARKReaktor",
-          "buttonId": "TinkerARKReaktor",
-          "name": "Reator ARK",
-          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "nameId": "GazloweHyperfocusCoils",
+          "buttonId": "GazloweHyperfocusCoils",
+          "name": "Espirais de Hiperconcentração",
+          "icon": "storm_ui_icon_gazlowe_combo_w_e.png",
+          "shortTooltip": "Lêiser Mortau e Carga de Xplôdio causam dano extra e curam",
+          "fullTooltip": "Heróis atingidos pelo Lêiser Mortau ou por Carga de Xplôdio sofrem dano extra equivalente a 2% do máximo de Vida. Gasganete recebe uma cura de 150% do dano causado.",
+          "abilityType": "Passive",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "GazloweDethLazor",
+            "TinkerXplodiumBomb"
+          ]
+        },
+        {
+          "nameId": "TinkerMasteryEZPZDimensionalRipper",
+          "buttonId": "TinkerDethLazorEZPZDimensionalRipperTalent",
+          "name": "Estripador Dimensional Korta-Fácil",
+          "icon": "storm_ui_icon_talent_imposingpresence.png",
+          "cooldownTooltip": "Recarga: 40 segundos",
+          "shortTooltip": "Ative para receber Armadura; reduz o dano de inimigos",
+          "fullTooltip": "Ative para receber 35 de Armadura por 3 s, reduzindo o dano recebido em 35%, e reduzir o dano causado por todos os Heróis e Evocações inimigos próximos em 50% por 3 s.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "TinkerMasteryGoblinFusion",
+          "buttonId": "GazloweDethLazorGoblinFusionTalent",
+          "name": "Fusão Goblínica",
+          "icon": "storm_ui_icon_gazlowe_combo_q_w.png",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "Lêiser Mortau pode gerar Sucata",
+          "fullTooltip": "Gera 3 de Sucata para cada Herói atingido pelo Lêiser Mortau.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TinkerRockItTurret",
+            "GazloweDethLazor"
+          ]
+        },
+        {
+          "nameId": "GazloweOverload",
+          "buttonId": "GazloweOverload",
+          "name": "Sobrecarga",
+          "icon": "storm_ui_icon_gazlowe_dethlazor_a.png",
           "charges": {
             "countMax": 1,
             "countUse": 1,
@@ -41969,89 +41929,26 @@
             "hideCount": true,
             "recastCooldown": 1.0
           },
-          "shortTooltip": "Reduz a recarga de Carga de Xplôdio; pode conceder cargas de torreta",
-          "fullTooltip": "Reduz a recarga de Carga de Xplôdio em 2 s. Se Carga de Xplôdio atingir um Herói inimigo, 2 cargas de Torre Arrebenta! serão ganhas.",
-          "abilityType": "E",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "TinkerXplodiumBomb"
-          ]
-        },
-        {
-          "nameId": "TinkerCombatStyleReduceReuseRecycle",
-          "buttonId": "TinkerSalvagerReduceReuseRecycleTalent",
-          "name": "Reduzir, Reutilizar, Reciclar",
-          "icon": "storm_ui_icon_gazlowe_salvager.png",
-          "shortTooltip": "Tropas inimigas podem deixar Sucata",
-          "fullTooltip": "Tropas inimigas que morrerem por perto terão 15% de chance de largar Sucata.",
-          "abilityType": "Trait",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "TinkerDismantleTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerHiredGoons",
-          "buttonId": "TinkerHiredGoons",
-          "name": "Capangas Contratados",
-          "icon": "storm_ui_icon_talent_mercenarylord.png",
-          "shortTooltip": "Potencializa Mercenários próximos. Torres Arrebenta! têm Armadura contra Mercenários",
-          "fullTooltip": "Mercenários aliados perto do Gasganete causam 50% a mais de dano, com a exceção de Chefes. Torres Arrebenta! ganham 50 de Armadura contra Tropas e Mercenários, reduzindo o dano recebido em 50%.",
-          "abilityType": "Passive",
-          "sort": 4
-        }
-      ],
-      "level7": [
-        {
-          "nameId": "TinkerMasteryRockitTurretXL",
-          "buttonId": "TinkerRockItTurretRockItTurretXLTalent",
-          "name": "Torre Arrebenta! GG",
-          "icon": "storm_ui_icon_gazlowe_rockitturret.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Torres Arrebenta! atacam múltiplos inimigos",
-          "fullTooltip": "Torres Arrebenta! atacam até 2 inimigos adicionais, causando 60% do dano.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "TinkerRockItTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerMasteryEngineGunk",
-          "buttonId": "TinkerRockItTurretEngineGunkTalent",
-          "name": "Graxa de Motor",
-          "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "A Torre Arrebenta! desacelera inimigos",
-          "fullTooltip": "A Torre Arrebenta! desacelera os inimigos em 20% por 2 s.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "TinkerRockItTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerMasteryHyperfocusCoils",
-          "buttonId": "TinkerDethLazorHyperfocusCoilsTalent",
-          "name": "Espirais de Hiperconcentração",
-          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
-          "toggleCooldown": 0.5,
-          "shortTooltip": "O Lêiser Mortau carrega mais rápido",
-          "fullTooltip": "O custo de Mana do Lêiser Mortau é reduzido em 30 e ele carrega duas vezes mais rápido.",
+          "shortTooltip": "Ganha uma carga adicional de Lêiser Mortau",
+          "fullTooltip": "Lêiser Mortau agora pode ter até 2 cargas. A recarga do Lêiser Mortau é reduzida em 0.5 s para cada Herói inimigo atingido.",
           "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "GazloweDethLazor"
+          ]
+        },
+        {
+          "nameId": "GazloweMasterBlaster",
+          "buttonId": "GazloweMasterBlaster",
+          "name": "Megarrebentação",
+          "icon": "storm_ui_icon_gazlowe_combo_w_e.png",
+          "shortTooltip": "Lêiser Mortau e Carga de Xplôdio desaceleram",
+          "fullTooltip": "Lêiser Mortau e Carga de Xplôdio desaceleram inimigos atingidos em 35% por 2.5 s. Ataques Básicos da Torre Arrebenta! contra inimigos desacelerados desta maneira aumentam a duração da desaceleração em 0.25 s.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TinkerDethLazorCharged"
+            "GazloweDethLazor",
+            "TinkerXplodiumBomb"
           ]
         }
       ],
@@ -42061,9 +41958,9 @@
           "buttonId": "TinkerRoboGoblinPassive",
           "name": "Robogoblin",
           "icon": "storm_ui_icon_gazlowe_robogoblin.png",
-          "cooldownTooltip": "Recarga: 60 segundos",
-          "shortTooltip": "Aumenta Dano de Ataque, Armadura, Velocidade de Movimento",
-          "fullTooltip": "Ative para ganhar 40 de Armadura e 30% de Velocidade de Movimento por 4 s.   Passivo: Ataques Básicos causam 100% a mais de dano.",
+          "cooldownTooltip": "Recarga: 40 segundos",
+          "shortTooltip": "Recebe Irrefreável; aumenta o dano de Ataque Básico",
+          "fullTooltip": "Ative para ficar Irrefreável por 1.5 s.   Passivo: Ataques Básicos causam 80 (+4% per level) de dano extra ao longo de 5 s, acumulando até um máximo de 3 vezes.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -42076,10 +41973,9 @@
           "buttonId": "TinkerGravOBomb3000",
           "name": "Gravitabomba 3000",
           "icon": "storm_ui_icon_gazlowe_gravobomb.png",
-          "energyTooltip": "Mana: 80",
-          "cooldownTooltip": "Recarga: 90 segundos",
-          "shortTooltip": "Atrai os inimigos e causa dano",
-          "fullTooltip": "Após 2 segundos, puxa os inimigos para o centro da área e causa 251 (+4% per level) de dano.",
+          "cooldownTooltip": "Recarga: 60 segundos",
+          "shortTooltip": "Puxa os inimigos e causa dano",
+          "fullTooltip": "Após 1.5 s, puxa todos os inimigos para o centro e causa 220 (+4% per level) de dano. Habilidades Básicas causam 30% a mais de dano por 5 s após o lançamento de Gravitabomba 3000.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -42090,98 +41986,54 @@
       ],
       "level13": [
         {
-          "nameId": "TinkerMasteryEZPZDimensionalRipper",
-          "buttonId": "TinkerDethLazorEZPZDimensionalRipperTalent",
-          "name": "Estripador Dimensional Korta-Fácil",
-          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
+          "nameId": "GazloweRockItTurretPositiveReinforcement",
+          "buttonId": "GazloweRockItTurretPositiveReinforcement",
+          "name": "Reforço Positivo",
+          "icon": "storm_ui_icon_gazlowe_rockitturret.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Lêiser Mortau desativa os inimigos",
-          "fullTooltip": "Lêiser Mortau desacelera em 50% os Heróis e atordoa não Heróis por 3 s.",
-          "abilityType": "W",
+          "shortTooltip": "Ataques da Torre Arrebenta! aumentam a Velocidade de Ataque",
+          "fullTooltip": "Ataques primários da Torre Arrebenta! a Heróis aumentam a Velocidade de Ataque de Gasganete em 40% por 3 s.",
+          "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "TinkerDethLazorCharged"
+            "TinkerRockItTurret"
           ]
         },
         {
-          "nameId": "TinkerMasteryGoblinFusion",
-          "buttonId": "TinkerDethLazorGoblinFusionTalent",
-          "name": "Fusão Goblínica",
-          "icon": "storm_ui_icon_gazlowe_dethlazor_a.png",
+          "nameId": "GazloweRockItTurretSuperiorSchematics",
+          "buttonId": "GazloweRockItTurretSuperiorSchematics",
+          "name": "Diagrama Superior",
+          "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Lêiser Mortau causa mais dano",
-          "fullTooltip": "Lêiser Mortau pode ser carregado por 1 segundo a mais, aumentando o dano extra em 100%.",
-          "abilityType": "W",
+          "shortTooltip": "Torre Arrebenta! ataca vários inimigos",
+          "fullTooltip": "A Torre Arrebenta! ataca até 2 inimigos adicionais, causando 75% do dano, e tem 50% de alcance de Ataque Básico a mais.",
+          "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "TinkerDethLazorCharged"
+            "TinkerRockItTurret"
           ]
         },
         {
-          "nameId": "TinkerMasteryXTraLargeBombs",
-          "buttonId": "TinkerXplodiumChargeXtraLargeBombsTalent",
-          "name": "Bombas GG",
-          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
-          "charges": {
-            "countMax": 1,
-            "countUse": 1,
-            "countStart": 1,
-            "hideCount": true,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "Lança Carga de Xplôdio ao ser Atordoado ou Enraizado",
-          "fullTooltip": "Aumenta o raio da Carga de Xplôdio em 30%. Ser Atordoado ou Enraizado faz com que uma Carga de Xplôdio seja lançada aos pés do Gasganete.  Esse efeito tem recarga de 10 s.",
-          "abilityType": "E",
+          "nameId": "GazloweRockItTurretOverchargedCapacitors",
+          "buttonId": "GazloweRockItTurretOverchargedCapacitors",
+          "name": "Capacitores Sobrecarregados",
+          "icon": "storm_ui_icon_gazlowe_rockitturret_var2.png",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "Torre Arrebenta! tem duração aumentada e concede Poder Mágico",
+          "fullTooltip": "Gasganete recebe 5% de Poder Mágico para cada Torre Arrebenta! ativa, até um máximo de 15%. Causar dano com Ataques Básicos aumenta a duração das Torres Arrebenta! em 1.25 s.",
+          "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TinkerXplodiumBomb"
+            "TinkerRockItTurret"
           ]
         }
       ],
       "level16": [
         {
-          "nameId": "TinkerMasteryTurretStorage",
-          "buttonId": "TinkerRockItTurretTurretStorageTalent",
-          "name": "Armazenamento de Torre",
-          "icon": "storm_ui_icon_gazlowe_rockitturret.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Aumenta as cargas da Torre Arrebenta!",
-          "fullTooltip": "Aumenta o máximo de cargas da Torre Arrebenta! de 2 para 3.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "TinkerRockItTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerSuperiorSchematics",
-          "buttonId": "TinkerSuperiorSchematics",
-          "name": "Diagrama Superior",
-          "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Aumenta o alcance da Torre Arrebenta!",
-          "fullTooltip": "As Torres Arrebenta! do Gasganete ganham 25% a mais de alcance enquanto ele estiver ao alcance de ataque delas.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "TinkerRockItTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerMasteryQuikReleaseCharge",
-          "buttonId": "TinkerXplodiumChargeKwikReleaseChargeTalent",
-          "name": "Carga Solta-Fácil",
-          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "nameId": "GazloweDethLazorFirinMahLazorz",
+          "buttonId": "GazloweDethLazorFirinMahLazorz",
+          "name": "Tacando Meus Lêiser",
+          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
           "charges": {
             "countMax": 1,
             "countUse": 1,
@@ -42189,12 +42041,38 @@
             "hideCount": true,
             "recastCooldown": 1.0
           },
-          "shortTooltip": "Carga de Xplôdio ganha segunda carga",
-          "fullTooltip": "Carga de Xplôdio ganha uma segunda carga.",
+          "shortTooltip": "A Torre Arrebenta! dispara Lêiser Mortau",
+          "fullTooltip": "Disparar o Lêiser Mortau faz com que todas as Torres Arrebenta! de Gasganete também disparem um Lêiser Mortau que causa 125 (+4% per level) de dano.",
+          "abilityType": "W",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "GazloweDethLazor"
+          ]
+        },
+        {
+          "nameId": "GazloweXplodiumChargeArkReaktor",
+          "buttonId": "GazloweXplodiumChargeArkReaktor",
+          "name": "Reator ARK",
+          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "shortTooltip": "Carga de Xplôdio cria uma Torreta; reduz a recarga",
+          "fullTooltip": "Reduz a recarga da Carga de Xplôdio em 3 s. Lançar Carga de Xplôdio cria 3 miniaturas de Torre Arrebenta! que duram 3 s.  Essas Torres não deixam cair Sucata nem se beneficiam de outros Talentos.",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "TinkerXplodiumBomb"
+          ]
+        },
+        {
+          "nameId": "GazloweOverklock",
+          "buttonId": "GazloweOverklock",
+          "name": "Freneticidade Norótica",
+          "icon": "storm_ui_icon_talent_autoattack_searing.png",
+          "shortTooltip": "Ataques concedem Velocidade de Movimento e causam dano extra",
+          "fullTooltip": "Ataques Básicos aumentam a Velocidade de Movimento de Gasganete em 15% por 2 s.  Ataques Básicos em Heróis causam dano extra equivalente a 2.5% do máximo de Vida deles.",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "GazloweSalvagerSalvageTurretAbility"
           ]
         }
       ],
@@ -42204,8 +42082,8 @@
           "buttonId": "TinkerRoboGoblinMechaLordTalent",
           "name": "Mecanomestre",
           "icon": "storm_ui_icon_gazlowe_robogoblin.png",
-          "shortTooltip": "Ganha Armadura, bônus de Ataque Básico",
-          "fullTooltip": "Ataques Básicos causam 100% a mais de dano.  Passivo: Ganha 25 de Armadura.",
+          "shortTooltip": "Ataques Básicos concedem Armadura; pode causar dano extra",
+          "fullTooltip": "Ataques básicos aumentam a Armadura de Gasganete em 10 por 10 s, até um máximo de 30, e causam 50% de dano extra a inimigos Atordoados ou Desacelerados.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -42220,8 +42098,8 @@
           "buttonId": "TinkerGravOBombMiniatureBlackHoleTalent",
           "name": "Buraco Negro em Miniatura",
           "icon": "storm_ui_icon_gazlowe_gravobomb.png",
-          "shortTooltip": "Aumenta o raio e o dano da Gravitabomba",
-          "fullTooltip": "Aumenta o raio da Gravitabomba em 25% e o dano em 50%.",
+          "shortTooltip": "Aumenta o raio e o dano; reduz a recarga",
+          "fullTooltip": "Aumenta a área da Gravitabomba 3000 em 25% e o dano dela em 50%. Reduz a recarga em 12 s para cada Herói inimigo puxado.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -42232,30 +42110,31 @@
           ]
         },
         {
-          "nameId": "TinkerTalentFirinMahLazorz",
-          "buttonId": "TinkerFirinMahLazorz",
-          "name": "Tacando Meus Lêiser",
-          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
-          "toggleCooldown": 0.5,
-          "shortTooltip": "Torres Arrebenta! disparam Lêisers Mortaus",
-          "fullTooltip": "Disparar o Lêiser Mortau faz com que todas as Torres Arrebenta! de Gasganete também disparem um Lêiser Mortau que causa 137 (+4% per level) de dano.",
-          "abilityType": "W",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "TinkerDethLazorCharged"
-          ]
-        },
-        {
           "nameId": "TinkerItsRainingScrap",
           "buttonId": "TinkerItsRainingScrap",
           "name": "Está chovendo sucata",
-          "icon": "storm_ui_icon_gazlowe_itsrainingscrap.png",
-          "cooldownTooltip": "Recarga: 30 segundos",
-          "shortTooltip": "Ative para criar Sucata",
-          "fullTooltip": "Ative para criar 5 de Sucata perto de Gasganete ao longo de 5 s.",
-          "abilityType": "Active",
-          "isActive": true,
-          "sort": 4
+          "icon": "storm_ui_icon_gazlowe_rockitturret.png",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "Torre Arrebenta! custa menos Sucata; ganha mais Sucata",
+          "fullTooltip": "Reduz o custo de Sucata da Torre Arrebenta! em 1. Ganha 2 de Sucata para cada Sucata coletada.",
+          "abilityType": "Q",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "TinkerRockItTurret"
+          ]
+        },
+        {
+          "nameId": "GazloweXplodiumChargeBombToss",
+          "buttonId": "GazloweXplodiumChargeBombToss",
+          "name": "Lançamento de Bomba",
+          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "shortTooltip": "Carga de Xplôdio libera mais bombas",
+          "fullTooltip": "A Carga de Xplôdio lança mais 2 bombas ao detonar.",
+          "abilityType": "E",
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "TinkerXplodiumBomb"
+          ]
         }
       ]
     }
@@ -48288,7 +48167,7 @@
           "name": "Inabalável",
           "icon": "storm_ui_icon_talent_abilitytalent_armor.png",
           "shortTooltip": "Habilidades Básicas concedem Armadura Física",
-          "fullTooltip": "Usar Habilidades Básicas concede 40 de Armadura Física a Yrel por 2.5 s.",
+          "fullTooltip": "Usar Habilidades Básicas concede 35 de Armadura Física a Yrel por 2.5 s.",
           "abilityType": "Passive",
           "sort": 2
         },

@@ -684,10 +684,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_alarak.png"
     },
     "life": {
-      "amount": 1900.0,
+      "amount": 1950.0,
       "scale": 0.04,
       "type": "Здоровье",
-      "regenRate": 3.957,
+      "regenRate": 4.0585,
       "regenScale": 0.04
     },
     "energy": {
@@ -989,7 +989,7 @@
           "name": "Отрицательный заряд",
           "icon": "storm_ui_icon_alarak_lightningsurge.png",
           "shortTooltip": "Задача: увеличьте урон по противникам на пути «Разряда молнии».",
-          "fullTooltip": "Противники, находящиеся между Алараком и целью «Разряда молнии», получают 150% базового урона.  Поcтоянная задача: каждое попадание «Разрядом молнии» по героям, находящимся между Алараком и его целью, увеличивает бонус к урону на 4%.",
+          "fullTooltip": "Противники, находящиеся между Алараком и целью «Разряда молнии», получают 175% базового урона.  Поcтоянная задача: каждое попадание «Разрядом молнии» по героям, находящимся между Алараком и его целью, увеличивает бонус к урону на 4%.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 2,
@@ -2300,7 +2300,7 @@
           "icon": "storm_ui_icon_cassia_avoidance_b.png",
           "toggleCooldown": 0.25,
           "shortTooltip": "«Ускользание» наносит урон при использовании.",
-          "fullTooltip": "Получив во время действия «Ускользания» 500 (+4% per level) ед. урона, Кассия может использовать умение, чтобы нанести 250 (+4% per level) ед. урона находящимся рядом противникам.",
+          "fullTooltip": "Получив во время действия «Ускользания» 650 (+4% per level) ед. урона, Кассия может использовать умение, чтобы нанести 240 (+4% per level) ед. урона находящимся рядом противникам.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -9058,7 +9058,7 @@
           "name": "Глубокий вдох",
           "icon": "storm_ui_icon_chromie_sandstrike.png",
           "shortTooltip": "Задача: поражайте героев «Дыханием дракона», чтобы увеличить его урон.",
-          "fullTooltip": "Задача: каждое попадание «Дыханием дракона» по герою увеличивает урон от него на 1.5%, вплоть до 30%.  Награда: после 20 попаданий по героям время восстановления «Дыхания дракона» уменьшится на 5 сек., а стоимость снизится с 65 до 30 ед. маны.",
+          "fullTooltip": "Задача: каждое попадание «Дыханием дракона» по герою увеличивает урон от него на 1%, вплоть до 20%.  Награда: после 20 попаданий по героям время восстановления «Дыхания дракона» уменьшится на 4 сек., а стоимость снизится с 65 до 40 ед. маны.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -9166,7 +9166,7 @@
           "name": "Петля Мебиуса",
           "icon": "storm_ui_icon_chromie_sandstrike.png",
           "shortTooltip": "«Дыхание дракона» наносит больше урона в центре области действия и замедляет цели.",
-          "fullTooltip": "«Дыхание дракона» наносит героям на 50% больше урона в центре области действия. Герои, попавшие в центр, замедляются на 60% на 1 сек.",
+          "fullTooltip": "«Дыхание дракона» наносит на 30% больше урона в центре области действия. Герои, попавшие в центр, замедляются на 60% на 0.75 сек.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -10757,7 +10757,7 @@
           "name": "Рубин",
           "icon": "storm_ui_icon_deckard_ruby.png",
           "toggleCooldown": 0.5,
-          "cooldownTooltip": "Время восстановления: 10 сек.",
+          "cooldownTooltip": "Время восстановления: 20 сек.",
           "shortTooltip": "Следующий «Хорадримский куб» создает малые зелья здоровья.",
           "fullTooltip": "При использовании увеличивает урон от следующего «Хорадримского куба» на 100% и позволяет ему создать 3 малых зелья здоровья за каждого пораженного героя. Зелья существуют в течение 10 сек. и при подборе восполняют союзным героям 250 (+4% per level) ед. здоровья.  Одновременно можно использовать только 1 самоцвет.",
           "abilityType": "Active",
@@ -13260,10 +13260,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_dva_mech.png"
     },
     "life": {
-      "amount": 2000.0,
+      "amount": 2250.0,
       "scale": 0.04,
       "type": "Здоровье",
-      "regenRate": 4.168,
+      "regenRate": 4.6875,
       "regenScale": 0.04
     },
     "energy": {
@@ -13286,7 +13286,7 @@
         "nameId": "DVaMechWeapon",
         "range": 3.75,
         "period": 0.25,
-        "damage": 26.0,
+        "damage": 23.0,
         "damageScale": 0.04
       }
     ],
@@ -13298,9 +13298,9 @@
           "name": "Ускорители",
           "icon": "storm_ui_icon_dva_boosters.png",
           "toggleCooldown": 0.0625,
-          "cooldownTooltip": "Время восстановления: 9 сек.",
+          "cooldownTooltip": "Время восстановления: 10 сек.",
           "shortTooltip": "Меха совершает рывок и отбрасывает врагов.",
-          "fullTooltip": "Повышает скорость передвижения на 125% на 2 сек. При этом меха отбрасывает противников на своем пути, нанося им 135 (+4% per level) ед. урона.  Во время действия ускорителей D.Va нельзя замедлить. Каждого противника можно поразить только один раз.",
+          "fullTooltip": "Повышает скорость передвижения на 115% на 1.75 сек. При этом меха отбрасывает противников на своем пути, нанося им 135 (+4% per level) ед. урона.  Во время действия ускорителей D.Va нельзя замедлить. Каждого противника можно поразить только один раз.",
           "abilityType": "Q"
         },
         {
@@ -13309,9 +13309,9 @@
           "name": "Защитная матрица",
           "icon": "storm_ui_icon_dva_defensematrix.png",
           "toggleCooldown": 0.0625,
-          "cooldownTooltip": "Время восстановления: 10 сек.",
+          "cooldownTooltip": "Время восстановления: 12 сек.",
           "shortTooltip": "Снижает урон вражеских героев в области действия.",
-          "fullTooltip": "Создает в указанном направлении защитное поле, которое уменьшает урон, наносимый находящимися в области действия героями противника, на 75%. Время действия – 3 сек. Меха может двигаться с активным защитным полем, но не может поворачиваться.  Урон, получаемый мехой от противников в области действия «Защитной матрицы», все равно заряжает «Самоуничтожение».",
+          "fullTooltip": "Создает в указанном направлении защитное поле, которое уменьшает урон, наносимый находящимися в области действия героями противника, на 50%. Время действия – 3 сек.  При повторном использовании меняет угол развертывания поля.  Урон, получаемый мехой от противников в области действия «Защитной матрицы», все равно заряжает «Самоуничтожение».",
           "abilityType": "W"
         },
         {
@@ -13325,29 +13325,35 @@
             "hideCount": true
           },
           "shortTooltip": "D.Va покидает меху, которая взрывается и наносит огромный урон по области.",
-          "fullTooltip": "D.Va покидает меху. После паузы в 4 сек. меха взрывается, нанося от 1200 (+4% per level) до 400 (+4% per level) ед. урона в большой области. Объем урона зависит от близости противника к центру взрыва. Строения получают 50% урона.  «Самоуничтожение» заряжается на 1% за каждые 2 сек. автоатаки и на 30%, когда меха получает суммарный урон в объеме 100% запаса прочности.",
+          "fullTooltip": "D.Va покидает меху. После паузы в 4 сек. меха взрывается, нанося от 400 (+4% per level) до 1100 (+4% per level) ед. урона в большой области. Урон зависит от близости противника к центру взрыва. Строения получают 50% урона.  «Самоуничтожение» заряжается на 1% за каждые 2 сек. автоатаки и на 25%, когда меха получает суммарный урон в объеме 100% запаса прочности.",
           "abilityType": "E"
         }
       ],
       "heroic": [
         {
-          "nameId": "DVaPilotBigShot",
-          "buttonId": "DVaPilotBigShot",
-          "name": "Мегазалп",
-          "icon": "storm_ui_icon_dva_bigshot.png",
-          "cooldownTooltip": "Время восстановления: 4 сек.",
-          "shortTooltip": "Наносит урон противникам на прямой линии в режиме пилота.",
-          "fullTooltip": "Наносит 250 (+4% per level) ед. урона противникам на прямой линии. Время восстановления «Вызова мехи» сокращается на 8 сек. за каждого пораженного героя.  Требуется режим пилота.",
-          "abilityType": "Heroic"
-        },
-        {
           "nameId": "DVaMechBunnyHopHeroic",
           "buttonId": "DVaBunnyHopOn",
           "name": "Попрыгушки",
           "icon": "storm_ui_icon_dva_bunnyhop.png",
-          "cooldownTooltip": "Время восстановления: 100 сек.",
-          "shortTooltip": "Дает неудержимость и замедляет находящихся рядом героев.",
-          "fullTooltip": "Меха становится неудержимой и раз в 0.5 сек. совершает прыжок, нанося 60 (+4% per level) ед. урона и замедляя противников на 40%. Время действия – 4 сек.  Требуется режим мехи.",
+          "cooldownTooltip": "Время восстановления: 80 сек.",
+          "shortTooltip": "Меха становится неудержимой и оглушает находящихся рядом героев.",
+          "fullTooltip": "Меха становится неудержимой и раз в 0.5 сек. совершает прыжок, нанося 52 (+4% per level) ед. урона в большой области. Каждое 4-е последовательное попадание по герою наносит на 100% больше урона и оглушает цель на 0.5 сек.  Время действия – 4 сек.  Требуется режим мехи.",
+          "abilityType": "Heroic"
+        },
+        {
+          "nameId": "DVaMicroMissiles",
+          "buttonId": "DVaMicroMissiles",
+          "name": "Микроракеты",
+          "icon": "storm_ui_icon_dva_micromissiles.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 5.0
+          },
+          "cooldownTooltip": "Время восстановления заряда: 20 сек.",
+          "shortTooltip": "Выпускает залп ракет, наносящих урон и замедляющих цели.",
+          "fullTooltip": "После паузы в 0,375 сек. D.Va начинает поддерживать способность и выпускает залп из 12 ракет в указанном направлении. Каждая ракета поражает первого противника на своем пути, нанося 44 (+4% per level) ед. урона в небольшой области и замедляя пораженные цели на 35% на 2 сек.  Максимум зарядов – 2. Интервал между применением – 5 сек.  Требуется режим мехи.",
           "abilityType": "Heroic"
         }
       ],
@@ -13358,7 +13364,7 @@
           "name": "Режим мехи",
           "icon": "storm_ui_icon_dva_mechmode.png",
           "shortTooltip": "D.Va может покинуть меху и продолжить сражаться.",
-          "fullTooltip": "D.Va покидает меху через 0.75 сек. после ее уничтожения и может продолжать бой. При уничтожении мехи противники получают 50% базового опыта, получаемого за убийство героя.",
+          "fullTooltip": "D.Va покидает меху через 0.75 сек. после ее уничтожения и может продолжать бой. При уничтожении мехи противники получают 50% базового опыта, получаемого за убийство героя.  Атомные пушки  Автоатаки мехи наносят 23 (+4% per level) ед. урона в большой области раз в 0.25 сек. Автоатаки по героям, находящимся очень близко к мехе, наносят на 50% больше урона.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -13371,7 +13377,7 @@
           "name": "Механизированный транспорт",
           "icon": "storm_ui_icon_dva_mount.png",
           "shortTooltip": "Находясь в мехе, D.Va может двигаться и стрелять одновременно. При этом скорость ее передвижения снижается.",
-          "fullTooltip": "Находясь в мехе, D.Va может двигаться и стрелять одновременно. При этом ее скорость передвижения снижается на 15%.",
+          "fullTooltip": "Находясь в мехе, D.Va может двигаться и стрелять одновременно. При стрельбе или поддержании способностей ее скорость передвижения быстро снижается на 25%.",
           "abilityType": "Z",
           "isActive": false,
           "isPassive": true
@@ -13443,14 +13449,27 @@
         "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W": {
           "basic": [
             {
-              "nameId": "DVaMechDefenseMatrixOff",
-              "buttonId": "DVaMechCancelDefenseMatrix",
+              "nameId": "DVaMechDefenseMatrixRetarget",
+              "buttonId": "DVaRetargetDefenseMatrix",
+              "name": "Смена направления защитной матрицы",
+              "icon": "storm_ui_icon_dva_defensematrix_a.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Меняет угол развертывания «Защитной матрицы».",
+              "fullTooltip": "Меняет угол развертывания «Защитной матрицы».",
+              "abilityType": "W"
+            }
+          ]
+        },
+        "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|Trait": {
+          "trait": [
+            {
+              "nameId": "DvaCancelDefenseMatrix",
+              "buttonId": "DvaCancelDefenseMatrix",
               "name": "Отключение защитной матрицы",
               "icon": "hud_btn_bg_ability_cancel.png",
-              "toggleCooldown": 0.0625,
-              "shortTooltip": "Прерывает действие защитной матрицы.",
-              "fullTooltip": "Прерывает действие защитной матрицы.",
-              "abilityType": "W"
+              "shortTooltip": "Прерывает поддержание «Защитной матрицы».",
+              "fullTooltip": "Прерывает поддержание «Защитной матрицы».",
+              "abilityType": "Trait"
             }
           ]
         }
@@ -13459,57 +13478,45 @@
     "talents": {
       "level1": [
         {
-          "nameId": "DVaBoostersRushdown",
-          "buttonId": "DVaBoostersRushdown",
-          "name": "Понеслась!",
-          "icon": "storm_ui_icon_dva_boosters.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Сокращает время восстановления «Ускорителей» при использовании вне боя.",
-          "fullTooltip": "Если D.Va не наносит и не получает урон во время действия «Ускорителей», их время восстановления сокращается на 7 сек.",
-          "abilityType": "Q",
+          "nameId": "DVaFullMetal",
+          "buttonId": "DVaFullMetal",
+          "name": "Цельнометаллическая оболочка",
+          "icon": "storm_ui_icon_dva_mechmode.png",
+          "shortTooltip": "Увеличивает запас прочности мехи. Атомные пушки восстанавливают прочность мехи.",
+          "fullTooltip": "Увеличивает запас прочности мехи на 10%. Атаки атомными пушками восстанавливают прочность в объеме 20% урона, нанесенного в дополнительной области.",
+          "abilityType": "Trait",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "DVaBoostersOn"
-          ]
-        },
-        {
-          "nameId": "DVaBoostersHitTheNitrous",
-          "buttonId": "DVaBoostersHitTheNitrous",
-          "name": "Нитроускорители",
-          "icon": "storm_ui_icon_dva_boosters_a.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Увеличивает бонус от «Ускорителей» на старте.",
-          "fullTooltip": "Увеличивает начальный бонус к скорости передвижения от «Ускорителей» на 325%, а затем в течение 0.5 сек. возвращает его к базовому значению. Пока действует этот эффект, «Ускорители» наносят на 50% больше урона.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaBoostersOn"
-          ]
-        },
-        {
-          "nameId": "DVaBoostersCrashCourse",
-          "buttonId": "DVaBoostersCrashCourse",
-          "name": "Нубхант",
-          "icon": "storm_ui_icon_dva_boosters_b.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Задача: сократите время восстановления «Ускорителей».",
-          "fullTooltip": "Задача: наносите урон героям с помощью «Ускорителей».  Награда: после 20 попаданий по героям каждое использование «Ускорителей» будет сокращать время их восстановления на 1 сек. за каждого пораженного героя.",
-          "abilityType": "Q",
-          "isQuest": true,
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DVaBoostersOn"
+            "DVaMechMechMode",
+            "DVaPilotCallMech"
           ]
         },
         {
           "nameId": "DVaMechProMoves",
           "buttonId": "DVaMechProMoves",
           "name": "Как профи",
-          "icon": "storm_ui_icon_dva_mechmode.png",
-          "shortTooltip": "Ускоряет передвижение при получении урона.",
-          "fullTooltip": "Повышает скорость передвижения мехи на 2% на 1.5 сек. каждый раз, когда она получает урон. Максимальный бонус – 30%.",
+          "icon": "storm_ui_icon_dva_mechmode_a.png",
+          "shortTooltip": "Ускоряет передвижение и дает броню при получении урона.",
+          "fullTooltip": "Повышает скорость передвижения мехи на 2% и дает ей 2 ед. брони каждый раз, когда она получает урон. Суммируется до 15 раз. Раз в 0.5 сек. один из накопленных эффектов рассеивается.  Автоатаки по героям в режиме пилота сокращают время восстановления «Вызова мехи» еще на 1 сек.",
           "abilityType": "Trait",
-          "sort": 4,
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaMechMechMode",
+            "DVaPilotCallMech",
+            "DVaPilotPilotMode"
+          ]
+        },
+        {
+          "nameId": "DVaLiquidCooling",
+          "buttonId": "DVaLiquidCooling",
+          "name": "Жидкий хладагент",
+          "icon": "storm_ui_icon_dva_mechmode_b.png",
+          "cooldownTooltip": "Время восстановления: 50 сек.",
+          "shortTooltip": "Повышает эффективность исцеляющих фонтанов в режиме мехи.",
+          "fullTooltip": "При использовании дает эффект исцеляющего фонтана. Требуется режим мехи.  Пассивный эффект: пока D.Va находится в мехе, сокращает время восстановления исцеляющего фонтана до 50 сек. и продлевает время действия его эффектов на 25%.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3,
           "abilityTalentLinkIds": [
             "DVaMechMechMode"
           ]
@@ -13517,75 +13524,13 @@
       ],
       "level4": [
         {
-          "nameId": "DVaDefenseMatrixDivertingPower",
-          "buttonId": "DVaDefenseMatrixDivertingPower",
-          "name": "Питание на щиты!",
-          "icon": "storm_ui_icon_dva_defensematrix.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Увеличивает область «Защитной матрицы», но замедляет передвижение.",
-          "fullTooltip": "Увеличивает ширину области действия «Защитной матрицы» на 100%, а длину – на 25%, но во время ее использования скорость передвижения D.Va снижается на 30%.",
-          "abilityType": "W",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "DVaMechDefenseMatrixOn"
-          ]
-        },
-        {
-          "nameId": "DVaDefenseMatrixGetThroughThis",
-          "buttonId": "DVaDefenseMatrixGetThroughThis",
-          "name": "Попробуй пробейся!",
-          "icon": "storm_ui_icon_dva_defensematrix_a.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "Продлевает действие «Защитной матрицы».",
-          "fullTooltip": "Увеличивает время действия «Защитной матрицы» на 3 сек.",
-          "abilityType": "W",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaMechDefenseMatrixOn"
-          ]
-        },
-        {
-          "nameId": "DVaDefenseMatrixFusionGenerator",
-          "buttonId": "DVaDefenseMatrixFusionGenerator",
-          "name": "Атомный генератор",
-          "icon": "storm_ui_icon_dva_defensematrix_b.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "«Защитная матрица» заряжает «Самоуничтожение».",
-          "fullTooltip": "Каждый раз, когда вражеский герой наносит урон, находясь в области действия «Защитной матрицы», «Самоуничтожение» заряжается на 1%.  Максимум – 15% за одно использование «Защитной матрицы».",
-          "abilityType": "W",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DVaMechDefenseMatrixOn"
-          ]
-        },
-        {
-          "nameId": "DVaSelfDestructBringItOn",
-          "buttonId": "DVaSelfDestructBringItOn",
-          "name": "Нужно больше АПМ!",
-          "icon": "storm_ui_icon_dva_selfdestruct.png",
-          "charges": {
-            "countMax": 100,
-            "countUse": 100,
-            "hideCount": true
-          },
-          "shortTooltip": "Повышает эффективность зарядки «Самоуничтожения».",
-          "fullTooltip": "Повышает эффективность зарядки «Самоуничтожения» при получении урона в режиме мехи на 30%.",
-          "abilityType": "E",
-          "sort": 4,
-          "abilityTalentLinkIds": [
-            "DVaMechSelfDestruct"
-          ]
-        }
-      ],
-      "level7": [
-        {
-          "nameId": "DVaBoostersComingThrough",
-          "buttonId": "DVaBoostersComingThrough",
-          "name": "Прорыв",
+          "nameId": "DVaBoostersRushdown",
+          "buttonId": "DVaBoostersRushdown",
+          "name": "Понеслась!",
           "icon": "storm_ui_icon_dva_boosters.png",
           "toggleCooldown": 0.0625,
-          "shortTooltip": "«Ускорители» отбрасывают противников на большее расстояние.",
-          "fullTooltip": "Увеличивает расстояние, на которое «Ускорители» отбрасывают противников, на 100%.",
+          "shortTooltip": "«Ускорители» похищают здоровье и наносят больше урона всем, кроме героев.",
+          "fullTooltip": "«Ускорители» наносят героям дополнительный урон в объеме 4% их максимального запаса здоровья и восполняют прочность мехи в объеме, равном нанесенному урону. «Ускорители» наносят на 100% больше урона всем, кроме героев.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13593,29 +13538,15 @@
           ]
         },
         {
-          "nameId": "DVaDefenseMatrixDazerZone",
-          "buttonId": "DVaDefenseMatrixDazerZone",
-          "name": "Головокружение",
-          "icon": "storm_ui_icon_dva_defensematrix.png",
-          "toggleCooldown": 0.0625,
-          "shortTooltip": "«Защитная матрица» замедляет противников.",
-          "fullTooltip": "«Защитная матрица» замедляет попавших в область ее действия вражеских героев на 20%.",
-          "abilityType": "W",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaMechDefenseMatrixOn"
-          ]
-        },
-        {
           "nameId": "DVaDefenseMatrixAggressionMatrix",
           "buttonId": "DVaDefenseMatrixAggressionMatrix",
           "name": "Агро-матрица",
-          "icon": "storm_ui_icon_dva_defensematrix_a.png",
+          "icon": "storm_ui_icon_dva_defensematrix.png",
           "toggleCooldown": 0.0625,
-          "shortTooltip": "Автоатаки ускоряют восстановление «Защитной матрицы».",
-          "fullTooltip": "Каждая автоатака мехи по героям сокращает время восстановления «Защитной матрицы» на 0.25 сек.",
+          "shortTooltip": "«Защитная матрица» ослабляет исцеление противников и восстанавливается быстрее.",
+          "fullTooltip": "Снижает эффективность исцеления героев в области действия «Защитной матрицы» на 30%.  Пассивный эффект: каждая автоатака по героям сокращает время восстановления «Защитной матрицы» на 0.125 сек.",
           "abilityType": "W",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "DVaMechDefenseMatrixOn"
           ]
@@ -13630,12 +13561,57 @@
             "countUse": 100,
             "hideCount": true
           },
-          "shortTooltip": "Увеличивает время до детонации и урон от взрыва.",
-          "fullTooltip": "Увеличивает время до детонации при использовании «Самоуничтожения» на 3 сек. Взрыв наносит на 70% больше урона.  Время до вызова новой мехи не меняется и составляет 4 сек.",
+          "shortTooltip": "Усиливает атомные пушки и «Самоуничтожение».",
+          "fullTooltip": "Попадание по готовой взорваться мехе «Мегазалпом» ускоряет ее самоуничтожение на 40%.  Пассивный эффект: «Самоуничтожение» получает 0.25 заряда, когда атомные пушки наносят дополнительный урон герою.",
           "abilityType": "E",
-          "sort": 4,
+          "sort": 3,
           "abilityTalentLinkIds": [
-            "DVaMechSelfDestruct"
+            "DVaMechSelfDestruct",
+            "DVaPilotBigShot"
+          ]
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "DvaGetOnThePoint",
+          "buttonId": "DvaGetOnThePoint",
+          "name": "Все на объект!",
+          "icon": "storm_ui_icon_dva_boosters.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Ускоряет восстановление «Ускорителей». Ускоряет передвижение союзников.",
+          "fullTooltip": "При использовании «Ускорителей» находящиеся рядом союзники получают бонус к скорости передвижения в 20% на 2 сек.   Пассивный эффект: если D.Va не получает урон в течение 3 сек., «Ускорители» восстанавливаются на 100% быстрее.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "DVaBoostersOn"
+          ]
+        },
+        {
+          "nameId": "DVaBoostersHitTheNitrous",
+          "buttonId": "DVaBoostersHitTheNitrous",
+          "name": "Нитроускорители",
+          "icon": "storm_ui_icon_dva_boosters_a.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Усиливает «Ускорители» на старте. «Ускорители» оглушают противников.",
+          "fullTooltip": "Увеличивает начальный бонус к скорости передвижения от «Ускорителей» до 300%. В течение 0.5 сек. бонус возвращается к базовому значению. Пока действует этот эффект, «Ускорители» оглушают противников на 0.5 сек.",
+          "abilityType": "Q",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaBoostersOn"
+          ]
+        },
+        {
+          "nameId": "DVaDefenseMatrixFusionGenerator",
+          "buttonId": "DVaDefenseMatrixFusionGenerator",
+          "name": "Атомный генератор",
+          "icon": "storm_ui_icon_dva_defensematrix.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "«Защитная матрица» заряжает «Самоуничтожение».",
+          "fullTooltip": "Каждый раз, когда вражеский герой наносит урон, находясь в области действия «Защитной матрицы», «Самоуничтожение» заряжается на 1%. Максимум – 20% за одно использование «Защитной матрицы».   Пассивный эффект: когда «Самоуничтожение» заряжено полностью, объем дополнительного урона от атомных пушек увеличивается до 75%.",
+          "abilityType": "W",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaMechDefenseMatrixOn"
           ]
         }
       ],
@@ -13645,9 +13621,9 @@
           "buttonId": "DVaBunnyHopOn",
           "name": "Попрыгушки",
           "icon": "storm_ui_icon_dva_bunnyhop.png",
-          "cooldownTooltip": "Время восстановления: 100 сек.",
-          "shortTooltip": "Дает неудержимость и замедляет находящихся рядом героев.",
-          "fullTooltip": "Меха становится неудержимой и раз в 0.5 сек. совершает прыжок, нанося 60 (+4% per level) ед. урона и замедляя противников на 40%. Время действия – 4 сек.  Требуется режим мехи.",
+          "cooldownTooltip": "Время восстановления: 80 сек.",
+          "shortTooltip": "Меха становится неудержимой и оглушает находящихся рядом героев.",
+          "fullTooltip": "Меха становится неудержимой и раз в 0.5 сек. совершает прыжок, нанося 52 (+4% per level) ед. урона в большой области. Каждое 4-е последовательное попадание по герою наносит на 100% больше урона и оглушает цель на 0.5 сек.  Время действия – 4 сек.  Требуется режим мехи.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -13656,35 +13632,96 @@
           ]
         },
         {
-          "nameId": "DVaBigShot",
-          "buttonId": "DVaPilotBigShot",
-          "name": "Мегазалп",
-          "icon": "storm_ui_icon_dva_bigshot.png",
-          "cooldownTooltip": "Время восстановления: 4 сек.",
-          "shortTooltip": "Наносит урон противникам на прямой линии в режиме пилота.",
-          "fullTooltip": "Наносит 250 (+4% per level) ед. урона противникам на прямой линии. Время восстановления «Вызова мехи» сокращается на 8 сек. за каждого пораженного героя.  Требуется режим пилота.",
+          "nameId": "DVaMicroMissiles",
+          "buttonId": "DVaMicroMissiles",
+          "name": "Микроракеты",
+          "icon": "storm_ui_icon_dva_micromissiles.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 5.0
+          },
+          "cooldownTooltip": "Время восстановления заряда: 20 сек.",
+          "shortTooltip": "Выпускает залп ракет, наносящих урон и замедляющих цели.",
+          "fullTooltip": "После паузы в 0,375 сек. D.Va начинает поддерживать способность и выпускает залп из 12 ракет в указанном направлении. Каждая ракета поражает первого противника на своем пути, нанося 44 (+4% per level) ед. урона в небольшой области и замедляя пораженные цели на 35% на 2 сек.  Максимум зарядов – 2. Интервал между применением – 5 сек.  Требуется режим мехи.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
           "abilityTalentLinkIds": [
-            "DVaPilotBigShot"
+            "DVaMicroMissiles"
           ]
         }
       ],
       "level13": [
         {
-          "nameId": "DVaMechExpensivePlating",
-          "buttonId": "DVaMechExpensivePlating",
-          "name": "Продвинутая броня",
-          "icon": "storm_ui_icon_dva_callmech.png",
-          "shortTooltip": "Увеличивает запас прочности мехи и время восстановления «Вызова мехи».",
-          "fullTooltip": "Увеличивает запас прочности мехи на 20%, но при этом увеличивает время восстановления «Вызова мехи» на 15 сек.  Не влияет на эффективность зарядки «Самоуничтожения».",
-          "abilityType": "E",
+          "nameId": "DVaTargetLocked",
+          "buttonId": "DVaTargetLocked",
+          "name": "Захват цели",
+          "icon": "storm_ui_icon_dva_defensematrix.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "«Защитная матрица» ослабляет броню и замедляет.",
+          "fullTooltip": "Если вражеский герой находится в области действия «Защитной матрицы» в течение 1.5 сек., его броня ослабляется на 15 ед., а скорость передвижения снижается на 25% на 3 сек.",
+          "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "DVaMechMechMode",
-            "DVaPilotCallMechMEKAfall",
-            "DVaPilotCallMech"
+            "DVaMechDefenseMatrixOn"
+          ]
+        },
+        {
+          "nameId": "DVaGoodToGo",
+          "buttonId": "DVaGoodToGo",
+          "name": "К бою готова",
+          "icon": "storm_ui_icon_dva_pilotmode.png",
+          "shortTooltip": "Открывает дополнительные способности в режиме пилота.",
+          "fullTooltip": "Режим пилота: открывает способности «Ударный импульс» и «Скоростной рывок».  Скоростной рывок: D.Va совершает короткий рывок. Время восстановления – 10 сек.  Ударный импульс: наносит противникам в секторе 120 (+4% per level) ед. урона и отбрасывает их. Время восстановления – 10 сек.",
+          "abilityType": "Trait",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
+        },
+        {
+          "nameId": "DVaBigShotPewPewPew",
+          "buttonId": "DVaBigShotPewPewPew",
+          "name": "Пиу! Пиу! Пиу!",
+          "icon": "storm_ui_icon_dva_bigshot.png",
+          "shortTooltip": "«Мегазалп» выпускает несколько зарядов.",
+          "fullTooltip": "Режим пилота: используя «Мегазалп», D.Va выпускает 3 заряда,заряда,зарядов за 0.5 сек. вместо одного. Каждый заряд наносит 75% базового урона.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaPilotBigShot"
+          ]
+        }
+      ],
+      "level16": [
+        {
+          "nameId": "DVaInForTheKill",
+          "buttonId": "DVaInForTheKill",
+          "name": "Добивание",
+          "icon": "storm_ui_icon_dva_boosters.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Увеличивает урон от атак. «Ускорители» дают щит.",
+          "fullTooltip": "При использовании «Ускорителей» дает щит прочностью 10% максимального запаса прочности мехи на 2.5 сек. За каждого пораженного «Ускорителями» героя увеличивает урон от автоатак мехи на 10% на 5 сек. Суммируется до 5 раз.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "DVaBoostersOn"
+          ]
+        },
+        {
+          "nameId": "DVaDefenseMatrixDivertingPower",
+          "buttonId": "DVaDefenseMatrixDivertingPower",
+          "name": "Питание на щиты!",
+          "icon": "storm_ui_icon_dva_defensematrix.png",
+          "toggleCooldown": 0.0625,
+          "shortTooltip": "Увеличивает область действия «Защитной матрицы», восполняет прочность мехи.",
+          "fullTooltip": "Значительно увеличивает область действия «Защитной матрицы». Восполняет 35 (+4% per level) ед. прочности мехи каждый раз, когда «Защитная матрица» уменьшает урон, наносимый героям.",
+          "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaMechDefenseMatrixOn"
           ]
         },
         {
@@ -13693,77 +13730,11 @@
           "name": "Экстренный щит",
           "icon": "storm_ui_icon_dva_mechmode.png",
           "shortTooltip": "Дает мехе щит при получении фатального урона.",
-          "fullTooltip": "Получая фатальный урон, меха не уничтожается, а активирует щит, который поглощает 210 (+4% per level) ед. урона в течение 6 сек.  Время восстановления – 15 сек.",
-          "abilityType": "Trait",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaMechMechMode"
-          ]
-        },
-        {
-          "nameId": "DVaMechAblativeArmor",
-          "buttonId": "DVaMechAblativeArmor",
-          "name": "Абляционное покрытие",
-          "icon": "storm_ui_icon_dva_mechmode_a.png",
-          "shortTooltip": "D.Va получает меньше урона от слабых атак.",
-          "fullTooltip": "Снижает эффективность вражеских атак, наносящих урон в объеме не более 4% максимального запаса прочности мехи, на 50%.  Не влияет на эффективность зарядки «Самоуничтожения».",
+          "fullTooltip": "Получая фатальный урон, меха не уничтожается, а активирует щит, который поглощает 280 (+4% per level) ед. урона в течение 4 сек.  Время восстановления – 30 сек.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
             "DVaMechMechMode"
-          ]
-        }
-      ],
-      "level16": [
-        {
-          "nameId": "DVaPilotTorpedoDash",
-          "buttonId": "DVaPilotTorpedoDashTalent",
-          "name": "Скоростной рывок",
-          "icon": "storm_ui_icon_dva_jetpackattack.png",
-          "cooldownTooltip": "Время восстановления: 12 сек.",
-          "shortTooltip": "Совершает рывок в режиме пилота.",
-          "fullTooltip": "D.Va получает способность «Скоростной рывок», позволяющую совершить быстрый рывок в указанную точку, минуя противников.  Способность доступна только в режиме пилота.",
-          "abilityType": "Q",
-          "isActive": true,
-          "sort": 1
-        },
-        {
-          "nameId": "DVaPilotGGWP",
-          "buttonId": "DVaPilotGGWP",
-          "name": "ГГ, ВП",
-          "icon": "storm_ui_icon_dva_pilotmode.png",
-          "shortTooltip": "Увеличивает урон в режиме пилота. Убийства восстанавливают «Вызов мехи».",
-          "fullTooltip": "Увеличивает урон от автоатак в режиме пилота на 50%. При участии в убийстве героя в режиме пилота мгновенно восстанавливает «Вызов мехи».",
-          "abilityType": "Trait",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "DVaPilotPilotMode"
-          ]
-        },
-        {
-          "nameId": "DVaPilotNanoweaveSuit",
-          "buttonId": "DVaPilotNanoweaveSuit",
-          "name": "Костюм из нановолокна",
-          "icon": "storm_ui_icon_dva_pilotmode_a.png",
-          "shortTooltip": "Ускоряет восстановление «Вызова мехи» и дает броню после катапультирования.",
-          "fullTooltip": "D.Va получает 50 ед. брони на 4 сек. после того, как покидает меху. Автоатаки в режиме пилота сокращают время восстановления «Вызова мехи» на 50% эффективнее.",
-          "abilityType": "Trait",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DVaPilotPilotMode"
-          ]
-        },
-        {
-          "nameId": "DVaPilotSuppressingFire",
-          "buttonId": "DVaPilotSuppressingFire",
-          "name": "Подавляющий огонь",
-          "icon": "storm_ui_icon_dva_pilotmode_b.png",
-          "shortTooltip": "Автоатаки в режиме пилота бьют дальше и замедляют противников.",
-          "fullTooltip": "Увеличивает дальность автоатак в режиме пилота на 20%. Скорость передвижения пораженных автоатаками противников снижается на 20% на 2.5 сек.",
-          "abilityType": "Trait",
-          "sort": 4,
-          "abilityTalentLinkIds": [
-            "DVaPilotPilotMode"
           ]
         }
       ],
@@ -13773,8 +13744,8 @@
           "buttonId": "DVaBunnyHopStopAndPop",
           "name": "Попрыгушки на месте",
           "icon": "storm_ui_icon_dva_bunnyhop.png",
-          "shortTooltip": "Увеличивает урон от «Попрыгушек», если D.Va прыгает на месте.",
-          "fullTooltip": "«Попрыгушки» наносят на 200% больше урона, если меха прыгает на месте.",
+          "shortTooltip": "Время действия «Попрыгушек» не убывает, если D.Va прыгает на месте.",
+          "fullTooltip": "Время действия «Попрыгушек» не убывает, если меха прыгает на месте.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13785,46 +13756,52 @@
           ]
         },
         {
-          "nameId": "DVaBigShotPewPewPew",
-          "buttonId": "DVaBigShotPewPewPew",
-          "name": "Пиу! Пиу! Пиу!",
-          "icon": "storm_ui_icon_dva_bigshot.png",
-          "shortTooltip": "Используя «Мегазалп», D.Va выпускает несколько зарядов.",
-          "fullTooltip": "Используя «Мегазалп», D.Va выпускает вместо одного 3 заряда,заряда,зарядов за 0.5 сек. Каждый заряд наносит 50% базового урона.",
+          "nameId": "DVaTimingAttack",
+          "buttonId": "DVaTimingAttack",
+          "name": "Синхронная атака",
+          "icon": "storm_ui_icon_dva_micromissiles.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 5.0
+          },
+          "shortTooltip": "«Микроракеты» получают еще один заряд и восстанавливаются быстрее, поражая героев.",
+          "fullTooltip": "«Микроракеты» получают дополнительный заряд. Каждый раз, когда «Микроракеты» поражают героя, их время восстановления сокращается на 0.5 сек., а время восстановления заряда – на 0.25 сек.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "DVaPilotBigShot"
+            "DVaMicroMissiles",
+            "DVaMechSelfDestruct"
           ],
           "prerequisiteTalentIds": [
-            "DVaBigShot"
+            "DVaMicroMissiles"
           ]
         },
         {
-          "nameId": "DVaPilotConcussivePulse",
-          "buttonId": "DVaPilotConcussivePulseTalent",
-          "name": "Ударный импульс",
-          "icon": "storm_ui_icon_dva_concussivecharge.png",
-          "cooldownTooltip": "Время восстановления: 7 сек.",
-          "shortTooltip": "Отбрасывает противников в режиме пилота.",
-          "fullTooltip": "Дает способность «Ударный импульс», которая наносит 141 (+4% per level) ед. урона противникам в секторе и отбрасывает их.  Требуется режим пилота.",
-          "abilityType": "W",
-          "isActive": true,
-          "sort": 3
+          "nameId": "DVaHeadshot",
+          "buttonId": "DVaHeadshot",
+          "name": "В яблочко!",
+          "icon": "storm_ui_icon_dva_bigshot.png",
+          "shortTooltip": "Увеличивает урон и ускоряет восстановление «Мегазалпа».",
+          "fullTooltip": "Режим пилота: увеличивает урон от «Мегазалпа» на 75% и уменьшает его время восстановления на 2 сек.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaPilotBigShot"
+          ]
         },
         {
-          "nameId": "DVaPilotCallMechMEKAfall",
-          "buttonId": "DVaPilotCallMechMEKAfallTalent",
-          "name": "Камехамеха!",
-          "icon": "storm_ui_icon_dva_callmech.png",
-          "cooldownTooltip": "Время восстановления: 45 сек.",
-          "shortTooltip": "Вызванная меха приземляется в указанном месте и наносит урон.",
-          "fullTooltip": "При вызове меха мгновенно приземляется в указанном месте и наносит 202 (+4% per level) ед. урона противникам в области поражения.",
-          "abilityType": "E",
-          "isActive": true,
+          "nameId": "DVaMechAblativeArmor",
+          "buttonId": "DVaMechAblativeArmor",
+          "name": "Абляционное покрытие",
+          "icon": "storm_ui_icon_dva_mechmode.png",
+          "shortTooltip": "Меха восполняет часть урона от способностей.",
+          "fullTooltip": "Меха восполняет прочность в объеме 45% полученного урона от способностей за 4 сек.",
+          "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
-            "DVaPilotCallMech"
+            "DVaMechMechMode"
           ]
         }
       ]
@@ -13874,7 +13851,7 @@
                 "buttonId": "DVaPilotTorpedoDashAbility",
                 "name": "Скоростной рывок",
                 "icon": "storm_ui_icon_dva_jetpackattack.png",
-                "cooldownTooltip": "Время восстановления: 12 сек.",
+                "cooldownTooltip": "Время восстановления: 10 сек.",
                 "shortTooltip": "Совершает рывок в указанную точку.",
                 "fullTooltip": "Совершает рывок в указанную точку, минуя противников.",
                 "abilityType": "Q"
@@ -13884,9 +13861,9 @@
                 "buttonId": "DVaPilotConcussivePulseAbility",
                 "name": "Ударный импульс",
                 "icon": "storm_ui_icon_dva_concussivecharge.png",
-                "cooldownTooltip": "Время восстановления: 7 сек.",
+                "cooldownTooltip": "Время восстановления: 10 сек.",
                 "shortTooltip": "Наносит урон противникам поблизости и отбрасывает их.",
-                "fullTooltip": "Наносит противникам в секторе 141 (+4% per level) ед. урона и отбрасывает их.",
+                "fullTooltip": "Наносит противникам в секторе 120 (+4% per level) ед. урона и отбрасывает их.",
                 "abilityType": "W"
               },
               {
@@ -13905,9 +13882,9 @@
                 "buttonId": "DVaPilotBigShot",
                 "name": "Мегазалп",
                 "icon": "storm_ui_icon_dva_bigshot.png",
-                "cooldownTooltip": "Время восстановления: 4 сек.",
-                "shortTooltip": "Наносит урон противникам на прямой линии в режиме пилота.",
-                "fullTooltip": "Наносит 250 (+4% per level) ед. урона противникам на прямой линии. Время восстановления «Вызова мехи» сокращается на 8 сек. за каждого пораженного героя.  Требуется режим пилота.",
+                "cooldownTooltip": "Время восстановления: 6 сек.",
+                "shortTooltip": "Наносит урон противникам на прямой линии и замедляет их в режиме пилота.",
+                "fullTooltip": "Наносит 150 (+4% per level) ед. урона противникам на прямой линии и снижает скорость передвижения пораженных героев на 25% на 1.5 сек. Время восстановления «Вызова мехи» сокращается на 5 сек. за каждого пораженного героя.  Требуется режим пилота.",
                 "abilityType": "Heroic"
               }
             ],
@@ -13979,19 +13956,6 @@
                     "toggleCooldown": 0.1,
                     "fullTooltip": "Покинуть транспорт.",
                     "abilityType": "Z"
-                  }
-                ]
-              },
-              "DVaPilotCallMechMEKAfall|DVaPilotCallMechMEKAfallTalent": {
-                "basic": [
-                  {
-                    "nameId": "DVaPilotCallMechMEKAfall",
-                    "buttonId": "DVaPilotCallMech",
-                    "name": "Вызов мехи",
-                    "icon": "storm_ui_icon_dva_callmech.png",
-                    "cooldownTooltip": "Время восстановления: 45 сек.",
-                    "fullTooltip": "D.Va вызывает новую меху и переходит в режим мехи.  Автоатаки сокращают время восстановления этой способности на 0.5 сек.",
-                    "abilityType": "E"
                   }
                 ]
               }
@@ -20265,7 +20229,7 @@
           "name": "Вспышка ярости",
           "icon": "storm_ui_icon_imperius_q.png",
           "shortTooltip": "Метки «Небесного рывка» наносят урон по области.",
-          "fullTooltip": "При снятии метки от «Небесного рывка» Империй наносит 180 (+4% per level) ед. урона цели и находящимся рядом противникам и получает щит прочностью 300 (+4% per level) ед. на 4 сек.",
+          "fullTooltip": "При снятии метки от «Небесного рывка» Империй наносит 165 (+4% per level) ед. урона цели и находящимся рядом противникам и получает щит прочностью 275 (+4% per level) ед. на 4 сек.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -23687,8 +23651,8 @@
           "buttonId": "ETCEncoreTalent",
           "name": "На бис!",
           "icon": "storm_ui_icon_etc_facemelt_a.png",
-          "shortTooltip": "«Вынос мозга» отбрасывает дважды, но замедляет восстановление героической способности.",
-          "fullTooltip": "После «Выноса мозга» на земле остается звукоусилитель, который повторно отбрасывает противников спустя 2 сек.  Пассивный эффект: за каждого героя, пораженного «Выносом мозга» или звукоусилителем, время восстановления героической способности сокращается на 8%.",
+          "shortTooltip": "«Вынос мозга» отбрасывает дважды и ускоряет восстановление героической способности.",
+          "fullTooltip": "После «Выноса мозга» на земле остается звукоусилитель, который повторно отбрасывает противников спустя 2 сек.  Пассивный эффект: за каждого героя, пораженного «Выносом мозга» или звукоусилителем, время восстановления героической способности сокращается на 6%.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -29947,7 +29911,7 @@
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_meiow.png",
       "leaderboard": "storm_ui_ingame_hero_leaderboard_meiow.png",
-      "loading": "storm_ui_ingame_hero_loadingscreen_meiow.png",
+      "loading": "storm_ui_ingame_hero_loadingscreen_mei.png",
       "partyPanel": "storm_ui_ingame_partypanel_btn_meiow.png",
       "target": "ui_targetportrait_hero_meiow.png",
       "draftScreen": "storm_ui_glues_draft_portrait_meiow.png",
@@ -34558,7 +34522,7 @@
           "name": "Древняя сила",
           "icon": "storm_ui_icon_orphea_trait.png",
           "shortTooltip": "Способности наносят больше урона противникам под эффектами контроля.",
-          "fullTooltip": "Негероические способности наносят на 20% больше урона противникам, находящимся под воздействием эффектов оглушения, обездвиживания, немоты и замедления. «Переполняющий хаос» замедляет пораженных героев на 20% на 2.5 сек.",
+          "fullTooltip": "Негероические способности наносят на 15% больше урона противникам, находящимся под воздействием эффектов оглушения, обездвиживания, немоты и замедления. «Переполняющий хаос» замедляет пораженных героев на 20% на 2.5 сек.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -34643,7 +34607,7 @@
           "name": "Поглощение разума",
           "icon": "storm_ui_icon_orphea_e.png",
           "shortTooltip": "Задача: увеличьте урон и ускорьте восстановление «Ужаса».",
-          "fullTooltip": "Задача: поражайте героев «Ужасом», чтобы увеличить урон от него на 4 ед., вплоть до 160 ед.  Награда: после того как «Ужас» поразит героев 40 раз, при поражении героя взрывом от «Ужаса» время его восстановления будет сокращаться до 6 сек., а Орфея будет восполнять 50 ед. маны.",
+          "fullTooltip": "Задача: поражайте героев «Ужасом», чтобы увеличить урон от него на 5 ед., вплоть до 150 ед.  Награда: после того как «Ужас» поразит героев 30 раз, при поражении героя взрывом от «Ужаса» время его восстановления будет сокращаться до 6 сек., а Орфея будет восполнять 50 ед. маны.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 3,
@@ -34706,7 +34670,7 @@
           "name": "Симбиоз с бездной",
           "icon": "storm_ui_icon_orphea_w.png",
           "shortTooltip": "«Хрум» дает щит и больше эффектов «Хаоса» при попадании по героям.",
-          "fullTooltip": "Когда «Хрум» поражает героя, Орфея мгновенно получает максимум эффектов «Хаоса» и щит прочностью 180 (+4% per level) ед. на 3 сек.",
+          "fullTooltip": "Когда «Хрум» поражает героя, Орфея мгновенно получает максимум эффектов «Хаоса» и щит прочностью 170 (+4% per level) ед. на 3 сек.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -34749,7 +34713,7 @@
           "name": "Магия мертвых",
           "icon": "storm_ui_icon_orphea_trait.png",
           "shortTooltip": "Автоатаки под действием «Хаоса» игнорируют броню и наносят урон по области.",
-          "fullTooltip": "Автоатаки, расходующие эффекты «Хаоса», игнорируют броню и наносят 95 (+4% per level) ед. урона от способностей цели, а также противникам рядом с ней.",
+          "fullTooltip": "Автоатаки, расходующие эффекты «Хаоса», игнорируют броню и наносят 90 (+4% per level) ед. урона от способностей цели, а также противникам рядом с ней.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -37397,7 +37361,7 @@
           "name": "Охотник-собиратель",
           "icon": "storm_ui_icon_talent_regenerationmaster.png",
           "shortTooltip": "Задача: сферы регенерации ускоряют восстановление здоровья.",
-          "fullTooltip": "Задача: каждая подобранная сфера регенерации ускоряет восстановление здоровья Рексара на 1 ед. в секунду, вплоть до 25 ед. в секунду.  Награда: подобрав 25 сфер, Рексар и Миша получат 15 ед. брони.",
+          "fullTooltip": "Задача: каждая подобранная сфера регенерации ускоряет восполнение здоровья Рексара и Миши на 1 ед. в секунду, вплоть до 25 ед. в секунду.  Награда: подобрав 25 сфер, Рексар и Миша получат 15 ед. брони.",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 2
@@ -38894,7 +38858,7 @@
           "energyTooltip": "Мана: 35",
           "cooldownTooltip": "Время восстановления: 7 сек.",
           "shortTooltip": "Замедляет противников в области поражения и наносит им урон.",
-          "fullTooltip": "Наносит противникам в указанной области 104 (+4% per level) ед. урона. Противники во внутреннем радиусе получают на 40% больше урона и замедляются на 45% на 1.5 сек. Наносит на 50% больше урона воинам и наемникам.",
+          "fullTooltip": "Наносит противникам в указанной области 104 (+4% per level) ед. урона. Противники во внутреннем радиусе получают на 40% больше урона и замедляются на 45% на 1.5 сек. Наносит на 60% больше урона воинам и наемникам.",
           "abilityType": "W"
         },
         {
@@ -40623,7 +40587,7 @@
           "energyTooltip": "Мана: 100",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Тассадар превращается в архонта.",
-          "fullTooltip": "Тассадар превращается в архонта, получает щит прочностью 30% максимального запаса здоровья и усиливает «Луч резонанса». Время действия – 12 сек.  «Луч резонанса»: наносит 150 (+4% per level) ед. урона цели и 75 (+4% per level) ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на 20 ед. на 2 сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
+          "fullTooltip": "Тассадар превращается в архонта, получает щит прочностью 25% максимального запаса здоровья и усиливает «Луч резонанса». Время действия – 12 сек.  «Луч резонанса»: наносит 140 (+4% per level) ед. урона цели и 70 (+4% per level) ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на 20 ед. на 2 сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
           "abilityType": "Heroic"
         },
         {
@@ -40718,7 +40682,7 @@
               "name": "Архонт",
               "icon": "storm_ui_icon_tassadar_archon.png",
               "shortTooltip": "Тассадар превращается в архонта.",
-              "fullTooltip": "Тассадар превращается в архонта, получает щит прочностью 30% максимального запаса здоровья и усиливает «Луч резонанса». Время действия – 12 сек.  «Луч резонанса»: наносит 150 (+4% per level) ед. урона цели и 75 (+4% per level) ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на 20 ед. на 2 сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
+              "fullTooltip": "Тассадар превращается в архонта, получает щит прочностью 25% максимального запаса здоровья и усиливает «Луч резонанса». Время действия – 12 сек.  «Луч резонанса»: наносит 140 (+4% per level) ед. урона цели и 70 (+4% per level) ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на 20 ед. на 2 сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
               "abilityType": "Heroic",
               "isActive": false,
               "isPassive": true
@@ -40763,7 +40727,7 @@
           "name": "Статический разряд",
           "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
           "shortTooltip": "Задача: увеличьте урон от «Ударного луча», поражая героев.",
-          "fullTooltip": "Задача: каждое попадание по герою «Ударным лучом» увеличивает урон от него на 5 ед. до конца матча и заряжает «Луч резонанса» на 33%.  Максимальный бонус к урону – 250 ед.",
+          "fullTooltip": "Задача: каждое попадание по герою «Ударным лучом» увеличивает урон от него на 5 ед. до конца матча и заряжает «Луч резонанса» на 33%.  Максимальный бонус к урону – 200 ед.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -40894,7 +40858,7 @@
           "energyTooltip": "Мана: 100",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Тассадар превращается в архонта.",
-          "fullTooltip": "Тассадар превращается в архонта, получает щит прочностью 30% максимального запаса здоровья и усиливает «Луч резонанса». Время действия – 12 сек.  «Луч резонанса»: наносит 150 (+4% per level) ед. урона цели и 75 (+4% per level) ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на 20 ед. на 2 сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
+          "fullTooltip": "Тассадар превращается в архонта, получает щит прочностью 25% максимального запаса здоровья и усиливает «Луч резонанса». Время действия – 12 сек.  «Луч резонанса»: наносит 140 (+4% per level) ед. урона цели и 70 (+4% per level) ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на 20 ед. на 2 сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -41647,7 +41611,7 @@
     "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Rare",
-    "scalingLinkId": "ExcellentMana",
+    "scalingLinkId": "HeroDummyVeterancy",
     "searchText": "Газлоу гоблин Орда механик WoW World of Warcraft War3 WC3 Warcraft3 III 3 Frozen Throne FT Cataclysm Warlords Draenor WoD газлов казлов козлов BFA Battle for Azeroth газул",
     "description": "Призыватель, специализирующийся на удержании ключевых областей на поле боя.",
     "infoText": "На первый взгляд, Газлоу сложно принять за хорошего бойца, но недостаток роста он компенсирует смекалкой в инженерном деле. К тому же, для того, чтобы стать главным в таком взрывном городе, как Кабестан, вовсе не надо быть милашкой.",
@@ -41676,21 +41640,21 @@
       "targetInfo": "storm_ui_ingame_partyframe_tinker.png"
     },
     "life": {
-      "amount": 1826.0,
+      "amount": 2275.0,
       "scale": 0.04,
       "type": "Здоровье",
-      "regenRate": 3.8046,
+      "regenRate": 4.74,
       "regenScale": 0.04
     },
     "energy": {
-      "amount": 500.0,
-      "type": "Мана",
-      "regenRate": 3.0
+      "amount": 10.0,
+      "type": "Хлам",
+      "regenRate": 0.0
     },
     "roles": [
-      "Специалист"
+      "Боец"
     ],
-    "expandedRole": "Убийца ближнего боя",
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 6.0,
       "damage": 5.0,
@@ -41702,7 +41666,7 @@
         "nameId": "HeroTinker",
         "range": 1.25,
         "period": 0.8,
-        "damage": 95.0,
+        "damage": 100.0,
         "damageScale": 0.04
       }
     ],
@@ -41713,36 +41677,17 @@
           "buttonId": "TinkerRockItTurret",
           "name": "Рок'етная турель",
           "icon": "storm_ui_icon_gazlowe_rockitturret.png",
-          "energyTooltip": "Мана: 70",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "cooldownTooltip": "Время восстановления заряда: 15 сек.",
+          "toggleCooldown": 0.5,
+          "energyTooltip": "Хлам: 4",
           "shortTooltip": "Создает турель, обстреливающую противников поблизости.",
-          "fullTooltip": "Устанавливает турель, существующую в течение 30 сек. и наносящую 62 (+4% per level) ед. урона.  Максимум зарядов – 2.",
+          "fullTooltip": "Устанавливает турель, существующую 15 сек. и наносящую 36 (+4% per level) ед. урона.  После установки турели в первую очередь поражают ближайшего героя.",
           "abilityType": "Q"
         },
         {
-          "nameId": "TinkerDethLazorCharged",
-          "buttonId": "TinkerDethLazor",
+          "nameId": "GazloweDethLazor",
+          "buttonId": "GazloweDethLazor",
           "name": "Лазор смерте",
           "icon": "storm_ui_icon_gazlowe_dethlazor.png",
-          "toggleCooldown": 0.5,
-          "energyTooltip": "Мана: 60",
-          "cooldownTooltip": "Время восстановления: 12 сек.",
-          "shortTooltip": "Наносит урон, зависящий от продолжительности зарядки лазера.",
-          "fullTooltip": "Атака, требующая времени на подготовку и наносящая 137 (+4% per level) ед. урона противникам, оказавшимся на линии огня. По мере зарядки способности ее урон и дальность действия возрастают, пока не достигнут максимальной прибавки в размере 100% через 3 сек. после начала зарядки.  «Лазор смерте» можно заряжать бесконечно.",
-          "abilityType": "W"
-        },
-        {
-          "nameId": "TinkerXplodiumBomb",
-          "buttonId": "TinkerXplodiumCharge",
-          "name": "Заряд взрыводия",
-          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
-          "energyTooltip": "Мана: 60",
           "charges": {
             "countMax": 1,
             "countUse": 1,
@@ -41750,43 +41695,52 @@
             "hideCount": true,
             "recastCooldown": 1.0
           },
-          "cooldownTooltip": "Время восстановления: 14 сек.",
+          "cooldownTooltip": "Время восстановления: 8 сек.",
+          "shortTooltip": "Наносит урон целям на прямой линии.",
+          "fullTooltip": "После паузы в 0.65 сек. наносит противникам на прямой линии 174 (+4% per level) ед. урона. Восполняет здоровье в объеме 25% нанесенного урона. Объем исцеления увеличивается до 75% при попадании по героям.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "TinkerXplodiumBomb",
+          "buttonId": "TinkerXplodiumCharge",
+          "name": "Заряд взрыводия",
+          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "cooldownTooltip": "Время восстановления: 12 сек.",
           "shortTooltip": "Бросает бомбу, оглушающую врагов и наносящую им урон.",
-          "fullTooltip": "Устанавливает бомбу, которая после паузы в 2.5 сек. наносит 233 (+4% per level) ед. урона противникам в области поражения и оглушает их на 1.75 сек.",
+          "fullTooltip": "Устанавливает бомбу, которая после паузы в 1.25 сек. наносит 155 (+4% per level) ед. урона противникам в области поражения и оглушает их на 1 сек.",
           "abilityType": "E"
         }
       ],
       "heroic": [
         {
-          "nameId": "TinkerGravOBomb3000",
-          "buttonId": "TinkerGravOBomb3000",
-          "name": "Грав-о-бомба 3000",
-          "icon": "storm_ui_icon_gazlowe_gravobomb.png",
-          "energyTooltip": "Мана: 80",
-          "cooldownTooltip": "Время восстановления: 90 сек.",
-          "shortTooltip": "Притягивает противников и наносит им урон.",
-          "fullTooltip": "Спустя 2 сек. притягивает противников к центру области действия и наносит 251 (+4% per level) ед. урона.",
-          "abilityType": "Heroic"
-        },
-        {
           "nameId": "TinkerRoboGoblin",
           "buttonId": "TinkerRoboGoblinPassive",
           "name": "Робогоблин",
           "icon": "storm_ui_icon_gazlowe_robogoblin.png",
+          "cooldownTooltip": "Время восстановления: 40 сек.",
+          "shortTooltip": "Дает неудержимость. Автоатаки наносят больше урона.",
+          "fullTooltip": "При использовании дает неудержимость на 1.5 сек.   Пассивный эффект: автоатаки дополнительно наносят 80 (+4% per level) ед. урона за 5 сек. Суммируется до 3 раз.",
+          "abilityType": "Heroic"
+        },
+        {
+          "nameId": "TinkerGravOBomb3000",
+          "buttonId": "TinkerGravOBomb3000",
+          "name": "Грав-о-бомба 3000",
+          "icon": "storm_ui_icon_gazlowe_gravobomb.png",
           "cooldownTooltip": "Время восстановления: 60 сек.",
-          "shortTooltip": "Усиливает автоатаки, дает броню и ускоряет передвижение.",
-          "fullTooltip": "При использовании дает 40 ед. брони и бонус к скорости передвижения в 30% на 4 сек.  Пассивный эффект: автоатаки наносят на 100% больше урона.",
+          "shortTooltip": "Притягивает противников и наносит им урон.",
+          "fullTooltip": "После паузы в 1.5 сек. притягивает противников к центру области действия и наносит 220 (+4% per level) ед. урона. Базовые способности наносят на 30% больше урона в течение 5 сек. после применения «Грав-о-бомбы 3000».",
           "abilityType": "Heroic"
         }
       ],
       "trait": [
         {
-          "nameId": "TinkerDismantleTurret",
-          "buttonId": "TinkerSalvager",
-          "name": "Утилизатор",
+          "nameId": "GazloweSalvagerSalvageTurretAbility",
+          "buttonId": "GazloweReduceReuseRecycleTrait",
+          "name": "Переработка",
           "icon": "storm_ui_icon_gazlowe_salvager.png",
-          "shortTooltip": "Собирает хлам, восполняя ману и ускоряя восстановление способностей.",
-          "fullTooltip": "Разрушенные строения противника и рок'етные турели Газлоу оставляют после себя хлам. Подобранный хлам восполняет 30 ед. маны и повышает скорость восстановления способностей в три раза. Время действия эффекта – 3 сек.   При использовании Газлоу демонтирует выбранную турель, превращая ее в хлам.",
+          "shortTooltip": "Восполняет запас хлама и собирает хлам с разрушенных «Рок'етных турелей».",
+          "fullTooltip": "Получает 1 ед. хлама раз в 4 сек. Разрушенные «Рок'етные турели» оставляют после себя 1 ед. хлама. Подберите хлам, чтобы пополнить его запас.  Примените умение, чтобы уничтожить указанную «Рок'етную турель».",
           "abilityType": "Trait"
         }
       ],
@@ -41860,38 +41814,18 @@
               "abilityType": "Z"
             }
           ]
-        },
-        "TinkerDethLazorCharged|TinkerDethLazor|W": {
-          "basic": [
-            {
-              "nameId": "DethLazorCancel",
-              "buttonId": "TinkerDethLazorCancel",
-              "name": "Выстрел из лазора смерте",
-              "icon": "hud_btn_bg_ability_cancel.png",
-              "toggleCooldown": 0.5,
-              "fullTooltip": "Прекращает действие «Лазора смерте».",
-              "abilityType": "W"
-            }
-          ]
         }
       }
     ],
     "talents": {
       "level1": [
         {
-          "nameId": "TinkerMasteryExtraTNT",
-          "buttonId": "TinkerXplodiumChargeExtraTNTTalent",
-          "name": "Дополнительная взрывчатка",
+          "nameId": "GazloweXplodiumChargeRocketBoots",
+          "buttonId": "GazloweXplodiumChargeRocketBoots",
+          "name": "Реактивные сапоги",
           "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
-          "charges": {
-            "countMax": 1,
-            "countUse": 1,
-            "countStart": 1,
-            "hideCount": true,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "Увеличивает урон «Заряда взрыводия».",
-          "fullTooltip": "«Заряд взрыводия» наносит на 10% больше урона за каждого пораженного взрывом противника. Максимальный бонус к урону – 100%.",
+          "shortTooltip": "Увеличивает дальность применения и урон «Заряда взрыводия».",
+          "fullTooltip": "Увеличивает дальность применения «Заряда взрыводия» на 30%, а наносимый им урон – на 20%. При попадании по герою скорость передвижения Газлоу повышается на 20% на 3 сек.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -41899,69 +41833,95 @@
           ]
         },
         {
-          "nameId": "TinkerCombatStyleScrapoMaticSmelter",
-          "buttonId": "TinkerSalvagerScrapOMaticSmelterTalent",
-          "name": "Мастер переплавки",
+          "nameId": "GazloweBigGameHunter",
+          "buttonId": "GazloweBigGameHunter",
+          "name": "Охотник на крупную дичь",
           "icon": "storm_ui_icon_gazlowe_salvager.png",
-          "shortTooltip": "«Утилизатор» восполняет больше маны.",
-          "fullTooltip": "Увеличивает количество маны, восполняемой хламом, на 100%.",
+          "shortTooltip": "Попадания по героям, наемникам и монстрам ускоряют накопление хлама.",
+          "fullTooltip": "Увеличивает максимальный запас хлама на 2 ед. Каждая успешная автоатака по герою, наемнику или монстру сокращает время восстановления «Переработки» на 2 сек.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "TinkerDismantleTurret"
+            "GazloweSalvagerSalvageTurretAbility"
           ]
         },
         {
-          "nameId": "TinkerCombatStyleBreakitDown",
-          "buttonId": "TinkerSalvagerBreakItDownTalent",
-          "name": "Ломай это полностью!",
-          "icon": "storm_ui_icon_gazlowe_salvager_var1.png",
-          "shortTooltip": "Хлам дополнительно ускоряет восстановление способностей.",
-          "fullTooltip": "Хлам ускоряет восстановление способностей в четыре раза. Время действия эффекта – 3 сек.",
-          "abilityType": "Trait",
+          "nameId": "GazloweOneManWreckingCrew",
+          "buttonId": "GazloweOneManWreckingCrew",
+          "name": "Специалист по сносу",
+          "icon": "storm_ui_icon_talent_autoattack_damage.png",
+          "shortTooltip": "Базовые способности усиливают автоатаки.",
+          "fullTooltip": "Когда Газлоу использует базовую способность, его следующая автоатака в течение 6 сек. наносит на 45% больше урона. Максимум зарядов – 2.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TinkerDismantleTurret"
+            "GazloweSalvagerSalvageTurretAbility"
           ]
-        },
-        {
-          "nameId": "TinkerGoblinRepairs",
-          "buttonId": "TinkerGoblinRepairs",
-          "name": "Ремонт по-гоблински",
-          "icon": "storm_ui_icon_talent_regenerationmaster.png",
-          "shortTooltip": "Задача: подбирайте сферы регенерации, чтобы ускорить восстановление здоровья.",
-          "fullTooltip": "Задача: подбирайте сферы регенерации, чтобы ускорить восстановление здоровья на 1 ед. в секунду вплоть до 25 ед. в секунду.  Награда: после подбора 25 сфер скорость восстановления здоровья дополнительно увеличится на 15 ед. в секунду.",
-          "abilityType": "Passive",
-          "isQuest": true,
-          "sort": 4
         }
       ],
       "level4": [
         {
-          "nameId": "TinkerCombatStyleClockwerkSteamFists",
-          "buttonId": "TinkerRockItTurretClockwerkSteamFistsTalent",
-          "name": "Паромеханические кулаки",
+          "nameId": "GazloweRockItSockIt",
+          "buttonId": "GazloweRockItSockIt",
+          "name": "Рок'еты в бой!",
           "icon": "storm_ui_icon_gazlowe_rockitturret.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Задача: автоатаки увеличивают время существования турелей.",
-          "fullTooltip": "Задача: автоатаки увеличивают время действия активных рок'етных турелей на 1.5 сек.  Награда: продлив в сумме время действия турелей на 600 сек., Газлоу сократит время восстановления зарядов «Рок'етной турели» на 3 сек.",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "Применение «Рок'етной турели» дает щит.",
+          "fullTooltip": "При использовании «Рок'етной турели» Газлоу на 2.5 сек. получает щит, поглощающий до 215 (+4% per level) ед. урона.",
           "abilityType": "Q",
-          "isQuest": true,
           "sort": 1,
           "abilityTalentLinkIds": [
             "TinkerRockItTurret"
           ]
         },
         {
-          "nameId": "TinkerMasteryARKReaktor",
-          "buttonId": "TinkerARKReaktor",
-          "name": "Реактор С.Т.А.Р.К.",
-          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "nameId": "GazloweHyperfocusCoils",
+          "buttonId": "GazloweHyperfocusCoils",
+          "name": "Гиперфокусирующие катушки",
+          "icon": "storm_ui_icon_gazlowe_combo_w_e.png",
+          "shortTooltip": "«Лазор смерте» и «Заряд взрыводия» наносят больше урона и исцеляют Газлоу.",
+          "fullTooltip": "Герои, пораженные «Лазором смерте» и «Зарядом взрыводия», получают дополнительный урон в объеме 2% их максимального запаса здоровья. Газлоу восполняет здоровье в объеме 150% нанесенного таким образом урона.",
+          "abilityType": "Passive",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "GazloweDethLazor",
+            "TinkerXplodiumBomb"
+          ]
+        },
+        {
+          "nameId": "TinkerMasteryEZPZDimensionalRipper",
+          "buttonId": "TinkerDethLazorEZPZDimensionalRipperTalent",
+          "name": "Разрыватель пространства «Два пальца»",
+          "icon": "storm_ui_icon_talent_imposingpresence.png",
+          "cooldownTooltip": "Время восстановления: 40 сек.",
+          "shortTooltip": "Дает броню и уменьшает наносимый противниками урон.",
+          "fullTooltip": "При использовании на 3 сек. дает 35 ед. брони, уменьшающей получаемый урон на 35%, и уменьшает урон, наносимый находящимися рядом вражескими героями и призванными существами, на 50% на 3 сек.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "TinkerMasteryGoblinFusion",
+          "buttonId": "GazloweDethLazorGoblinFusionTalent",
+          "name": "Гоблинский расплав",
+          "icon": "storm_ui_icon_gazlowe_combo_q_w.png",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "«Лазор смерте» создает хлам.",
+          "fullTooltip": "Создает 3 ед. хлама за каждого героя, пораженного «Лазором смерте».",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TinkerRockItTurret",
+            "GazloweDethLazor"
+          ]
+        },
+        {
+          "nameId": "GazloweOverload",
+          "buttonId": "GazloweOverload",
+          "name": "Перегрузка",
+          "icon": "storm_ui_icon_gazlowe_dethlazor_a.png",
           "charges": {
             "countMax": 1,
             "countUse": 1,
@@ -41969,89 +41929,26 @@
             "hideCount": true,
             "recastCooldown": 1.0
           },
-          "shortTooltip": "«Заряд взрыводия» восстанавливается быстрее и дает заряды «Рок'етной турели».",
-          "fullTooltip": "Уменьшает время восстановления «Заряда взрыводия» на 2 сек. Если он поражает героя, Газлоу получает 2 заряда «Рок'етной турели».",
-          "abilityType": "E",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "TinkerXplodiumBomb"
-          ]
-        },
-        {
-          "nameId": "TinkerCombatStyleReduceReuseRecycle",
-          "buttonId": "TinkerSalvagerReduceReuseRecycleTalent",
-          "name": "Переработка",
-          "icon": "storm_ui_icon_gazlowe_salvager.png",
-          "shortTooltip": "После смерти вражеских воинов может оставаться хлам.",
-          "fullTooltip": "Воины противника, погибающие рядом с Газлоу, с вероятностью 15% оставляют после себя хлам.",
-          "abilityType": "Trait",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "TinkerDismantleTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerHiredGoons",
-          "buttonId": "TinkerHiredGoons",
-          "name": "Наемные бугаи",
-          "icon": "storm_ui_icon_talent_mercenarylord.png",
-          "shortTooltip": "Усиливает наемников поблизости. Турели получают от наемников меньше урона.",
-          "fullTooltip": "Находящиеся рядом с Газлоу союзные наемники (кроме боссов) наносят на 50% больше урона. Рок'етные турели получают 50 ед. брони, которая уменьшает получаемый ими урон от воинов и наемников на 50%.",
-          "abilityType": "Passive",
-          "sort": 4
-        }
-      ],
-      "level7": [
-        {
-          "nameId": "TinkerMasteryRockitTurretXL",
-          "buttonId": "TinkerRockItTurretRockItTurretXLTalent",
-          "name": "Рок'етная турель XL",
-          "icon": "storm_ui_icon_gazlowe_rockitturret.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Турели могут поражать несколько целей.",
-          "fullTooltip": "Турели могут атаковать до 2 дополнительной цели,дополнительных целей,дополнительных целей, нанося им 60% базового урона.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "TinkerRockItTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerMasteryEngineGunk",
-          "buttonId": "TinkerRockItTurretEngineGunkTalent",
-          "name": "Топливный след",
-          "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Рок'етные турели замедляют противников.",
-          "fullTooltip": "Атаки рок'етных турелей замедляют противников на 20% на 2 сек.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "TinkerRockItTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerMasteryHyperfocusCoils",
-          "buttonId": "TinkerDethLazorHyperfocusCoilsTalent",
-          "name": "Гиперфокусирующие катушки",
-          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
-          "toggleCooldown": 0.5,
-          "shortTooltip": "«Лазор смерте» заряжается быстрее.",
-          "fullTooltip": "Снижает стоимость «Лазора смерте» на 30 ед. маны и вдвое сокращает время его зарядки.",
+          "shortTooltip": "Дает дополнительный заряд «Лазора смерте».",
+          "fullTooltip": "Максимум зарядов «Лазора смерте» – 2. Сокращает время восстановления «Лазора смерте» на 0.5 сек. за каждого пораженного им героя.",
           "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "GazloweDethLazor"
+          ]
+        },
+        {
+          "nameId": "GazloweMasterBlaster",
+          "buttonId": "GazloweMasterBlaster",
+          "name": "Мастер-бластер",
+          "icon": "storm_ui_icon_gazlowe_combo_w_e.png",
+          "shortTooltip": "«Лазор смерте» и «Заряд взрыводия» замедляют противников.",
+          "fullTooltip": "«Лазор смерте» и «Заряд взрыводия» замедляют пораженных противников на 35% на 2.5 сек. Автоатаки «Рок'етных турелей» продлевают действие замедления на 0.25 сек.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TinkerDethLazorCharged"
+            "GazloweDethLazor",
+            "TinkerXplodiumBomb"
           ]
         }
       ],
@@ -42061,9 +41958,9 @@
           "buttonId": "TinkerRoboGoblinPassive",
           "name": "Робогоблин",
           "icon": "storm_ui_icon_gazlowe_robogoblin.png",
-          "cooldownTooltip": "Время восстановления: 60 сек.",
-          "shortTooltip": "Усиливает автоатаки, дает броню и ускоряет передвижение.",
-          "fullTooltip": "При использовании дает 40 ед. брони и бонус к скорости передвижения в 30% на 4 сек.  Пассивный эффект: автоатаки наносят на 100% больше урона.",
+          "cooldownTooltip": "Время восстановления: 40 сек.",
+          "shortTooltip": "Дает неудержимость. Автоатаки наносят больше урона.",
+          "fullTooltip": "При использовании дает неудержимость на 1.5 сек.   Пассивный эффект: автоатаки дополнительно наносят 80 (+4% per level) ед. урона за 5 сек. Суммируется до 3 раз.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -42076,10 +41973,9 @@
           "buttonId": "TinkerGravOBomb3000",
           "name": "Грав-о-бомба 3000",
           "icon": "storm_ui_icon_gazlowe_gravobomb.png",
-          "energyTooltip": "Мана: 80",
-          "cooldownTooltip": "Время восстановления: 90 сек.",
+          "cooldownTooltip": "Время восстановления: 60 сек.",
           "shortTooltip": "Притягивает противников и наносит им урон.",
-          "fullTooltip": "Спустя 2 сек. притягивает противников к центру области действия и наносит 251 (+4% per level) ед. урона.",
+          "fullTooltip": "После паузы в 1.5 сек. притягивает противников к центру области действия и наносит 220 (+4% per level) ед. урона. Базовые способности наносят на 30% больше урона в течение 5 сек. после применения «Грав-о-бомбы 3000».",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -42090,98 +41986,54 @@
       ],
       "level13": [
         {
-          "nameId": "TinkerMasteryEZPZDimensionalRipper",
-          "buttonId": "TinkerDethLazorEZPZDimensionalRipperTalent",
-          "name": "Разрыватель пространства «Два пальца»",
-          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
+          "nameId": "GazloweRockItTurretPositiveReinforcement",
+          "buttonId": "GazloweRockItTurretPositiveReinforcement",
+          "name": "Положительная мотивация",
+          "icon": "storm_ui_icon_gazlowe_rockitturret.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "«Лазор смерте» замедляет героев и замораживает всех остальных.",
-          "fullTooltip": "«Лазор смерте» замедляет героев на 50% и оглушает всех, кроме героев, на 3 сек.",
-          "abilityType": "W",
+          "shortTooltip": "Атаки «Рок'етных турелей» повышают скорость атаки.",
+          "fullTooltip": "Когда «Рок'етные турели» поражают героев своими обычными атаками, скорость атаки Газлоу повышается на 40% на 3 сек.",
+          "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "TinkerDethLazorCharged"
+            "TinkerRockItTurret"
           ]
         },
         {
-          "nameId": "TinkerMasteryGoblinFusion",
-          "buttonId": "TinkerDethLazorGoblinFusionTalent",
-          "name": "Гоблинский расплав",
-          "icon": "storm_ui_icon_gazlowe_dethlazor_a.png",
+          "nameId": "GazloweRockItTurretSuperiorSchematics",
+          "buttonId": "GazloweRockItTurretSuperiorSchematics",
+          "name": "Крутосхемы",
+          "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Увеличивает урон «Лазора смерте».",
-          "fullTooltip": "«Лазор смерте» может дополнительно заряжаться в течение 1 сек., что увеличивает прибавку к его урону еще на 100%.",
-          "abilityType": "W",
+          "shortTooltip": "«Рок'етные турели» могут атаковать несколько противников.",
+          "fullTooltip": "«Рок'етные турели» атакуют до 2 дополнительных противников, нанося им 75% базового урона. Увеличивает дальность автоатаки турелей на 50%.",
+          "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "TinkerDethLazorCharged"
+            "TinkerRockItTurret"
           ]
         },
         {
-          "nameId": "TinkerMasteryXTraLargeBombs",
-          "buttonId": "TinkerXplodiumChargeXtraLargeBombsTalent",
-          "name": "Биг-бада-бомбы",
-          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
-          "charges": {
-            "countMax": 1,
-            "countUse": 1,
-            "countStart": 1,
-            "hideCount": true,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "«Заряд взрыводия» применяется автоматически при оглушении и обездвиживании.",
-          "fullTooltip": "Увеличивает область поражения «Заряда взрыводия» на 30%. При обездвиживании или оглушении Газлоу автоматически бросает заряд взрыводия себе под ноги.  Время восстановления – 10 сек.",
-          "abilityType": "E",
+          "nameId": "GazloweRockItTurretOverchargedCapacitors",
+          "buttonId": "GazloweRockItTurretOverchargedCapacitors",
+          "name": "Перегрузка накопителей",
+          "icon": "storm_ui_icon_gazlowe_rockitturret_var2.png",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "«Рок'етные турели» усиливают способности и существуют дольше.",
+          "fullTooltip": "Повышает силу способностей на 5% за каждую активную «Рок'етную турель», вплоть до 15%. Когда Газлоу наносит урон автоатакой, время существования активных «Рок'етных турелей» увеличивается на 1.25 сек.",
+          "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "TinkerXplodiumBomb"
+            "TinkerRockItTurret"
           ]
         }
       ],
       "level16": [
         {
-          "nameId": "TinkerMasteryTurretStorage",
-          "buttonId": "TinkerRockItTurretTurretStorageTalent",
-          "name": "Хранилище турелей",
-          "icon": "storm_ui_icon_gazlowe_rockitturret.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Увеличивает количество зарядов «Рок'етной турели».",
-          "fullTooltip": "Увеличивает максимальное количество зарядов «Рок'етной турели» с 2 до 3.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "TinkerRockItTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerSuperiorSchematics",
-          "buttonId": "TinkerSuperiorSchematics",
-          "name": "Крутосхемы",
-          "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 2.0
-          },
-          "shortTooltip": "Увеличивает дальность «Рок'етной турели».",
-          "fullTooltip": "Увеличивает дальность действия рок'етной турели на 25%, пока Газлоу находится в зоне ее обстрела.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "TinkerRockItTurret"
-          ]
-        },
-        {
-          "nameId": "TinkerMasteryQuikReleaseCharge",
-          "buttonId": "TinkerXplodiumChargeKwikReleaseChargeTalent",
-          "name": "Бомбометание",
-          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "nameId": "GazloweDethLazorFirinMahLazorz",
+          "buttonId": "GazloweDethLazorFirinMahLazorz",
+          "name": "Лазоры пыщ-пыщ",
+          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
           "charges": {
             "countMax": 1,
             "countUse": 1,
@@ -42189,12 +42041,38 @@
             "hideCount": true,
             "recastCooldown": 1.0
           },
-          "shortTooltip": "«Заряд взрыводия» получает второй заряд.",
-          "fullTooltip": "«Заряд взрыводия» получает второй заряд.",
+          "shortTooltip": "«Рок'етные турели» используют «Лазор смерте».",
+          "fullTooltip": "При использовании «Лазора смерте» все «Рок'етные турели» также используют его, нанося при этом 125 (+4% per level) ед. урона.",
+          "abilityType": "W",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "GazloweDethLazor"
+          ]
+        },
+        {
+          "nameId": "GazloweXplodiumChargeArkReaktor",
+          "buttonId": "GazloweXplodiumChargeArkReaktor",
+          "name": "Реактор СТАРК",
+          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "shortTooltip": "«Заряд взрыводия» восстанавливается быстрее и создает турели.",
+          "fullTooltip": "Уменьшает время восстановления «Заряда взрыводия» на 3 сек. При использовании «Заряд взрыводия» создает миниатюрные «Рок'етные турели», существующие 3 сек. Число турелей – 3.  Эти турели не оставляют после себя хлам и не получают бонусов от талантов.",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "TinkerXplodiumBomb"
+          ]
+        },
+        {
+          "nameId": "GazloweOverklock",
+          "buttonId": "GazloweOverklock",
+          "name": "Разгон",
+          "icon": "storm_ui_icon_talent_autoattack_searing.png",
+          "shortTooltip": "Атаки ускоряют передвижение и наносят больше урона.",
+          "fullTooltip": "Автоатаки повышают скорость передвижения на 15% на 2 сек.  Когда Газлоу наносит урон от автоатак героям, они получают дополнительный урон в объеме 2.5% их максимального запаса здоровья.",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "GazloweSalvagerSalvageTurretAbility"
           ]
         }
       ],
@@ -42204,8 +42082,8 @@
           "buttonId": "TinkerRoboGoblinMechaLordTalent",
           "name": "Повелитель механизмов",
           "icon": "storm_ui_icon_gazlowe_robogoblin.png",
-          "shortTooltip": "Газлоу получает броню и бонус к урону от автоатак.",
-          "fullTooltip": "Автоатаки наносят на 100% больше урона.  Пассивный эффект: дает 25 ед. брони.",
+          "shortTooltip": "Автоатаки дают броню и могут нанести больше урона.",
+          "fullTooltip": "Автоатаки усиливают броню на 10 ед. на 10 сек., вплоть до 30 ед., и наносят на 50% больше урона оглушенным и замедленным целям.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -42220,8 +42098,8 @@
           "buttonId": "TinkerGravOBombMiniatureBlackHoleTalent",
           "name": "Миниатюрная черная дыра",
           "icon": "storm_ui_icon_gazlowe_gravobomb.png",
-          "shortTooltip": "Увеличивает радиус действия и урон «Грав-о-бомбы 3000».",
-          "fullTooltip": "Увеличивает радиус действия «Грав-о-бомбы 3000» на 25%, а урон от ее взрыва – на 50%.",
+          "shortTooltip": "Увеличивает радиус действия и урон «Грав-о-бомбы 3000», ускоряет ее восстановление.",
+          "fullTooltip": "Увеличивает радиус действия «Грав-о-бомбы 3000» на 25%, а урон от нее – на 50%. Каждое притягивание героя сокращает время восстановления «Грав-о-бомбы 3000» на 12 сек.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -42232,30 +42110,31 @@
           ]
         },
         {
-          "nameId": "TinkerTalentFirinMahLazorz",
-          "buttonId": "TinkerFirinMahLazorz",
-          "name": "Лазоры пыщ-пыщ",
-          "icon": "storm_ui_icon_gazlowe_dethlazor.png",
-          "toggleCooldown": 0.5,
-          "shortTooltip": "«Рок'етная турель» также использует «Лазор смерте».",
-          "fullTooltip": "При использовании «Лазора смерте» все турели также используют эту способность, нанося при этом 137 (+4% per level) ед. урона.",
-          "abilityType": "W",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "TinkerDethLazorCharged"
-          ]
-        },
-        {
           "nameId": "TinkerItsRainingScrap",
           "buttonId": "TinkerItsRainingScrap",
           "name": "Хламосброс",
-          "icon": "storm_ui_icon_gazlowe_itsrainingscrap.png",
-          "cooldownTooltip": "Время восстановления: 30 сек.",
-          "shortTooltip": "Создает дополнительный хлам.",
-          "fullTooltip": "При использовании создает поблизости 5 куч хлама в течение 5 сек.",
-          "abilityType": "Active",
-          "isActive": true,
-          "sort": 4
+          "icon": "storm_ui_icon_gazlowe_rockitturret.png",
+          "toggleCooldown": 0.5,
+          "shortTooltip": "«Рок'етные турели» требуют меньше хлама, а оставляют больше.",
+          "fullTooltip": "Снижает стоимость «Рок'етных турелей» на 1 ед. хлама. Когда Газлоу подбирает хлам, он получает 2 ед. хлама.",
+          "abilityType": "Q",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "TinkerRockItTurret"
+          ]
+        },
+        {
+          "nameId": "GazloweXplodiumChargeBombToss",
+          "buttonId": "GazloweXplodiumChargeBombToss",
+          "name": "Бросок бомбы",
+          "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+          "shortTooltip": "«Заряд взрыводия» выпускает больше бомб.",
+          "fullTooltip": "При детонации «Заряд взрыводия» выпускает дополнительные бомбы. Количество дополнительных бомб – 2.",
+          "abilityType": "E",
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "TinkerXplodiumBomb"
+          ]
         }
       ]
     }
@@ -48288,7 +48167,7 @@
           "name": "Неустрашимость",
           "icon": "storm_ui_icon_talent_abilitytalent_armor.png",
           "shortTooltip": "Базовые способности дают кинетическую броню.",
-          "fullTooltip": "Когда Ирель использует базовую способность, она получает 40 ед. кинетической брони на 2.5 сек.",
+          "fullTooltip": "Когда Ирель использует базовую способность, она получает 35 ед. кинетической брони на 2.5 сек.",
           "abilityType": "Passive",
           "sort": 2
         },
