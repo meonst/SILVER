@@ -313,7 +313,7 @@ class HeroPage extends React.Component {
         }
         //Gall Basics
         if (herodat['unitId'] === 'HeroGall') {
-            this.setState({basics: [0, 2, 3]})
+            this.setState({basics: [0, 1, 2]})
         }
 
         this.setState({component: true})
