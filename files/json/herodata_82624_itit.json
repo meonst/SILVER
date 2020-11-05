@@ -1168,7 +1168,7 @@
           "name": "Colpi Ingannevoli",
           "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
           "shortTooltip": "Riduce i tempi di recupero colpendo eroi inabilitati.",
-          "fullTooltip": "Gli attacchi base contro gli eroi storditi, silenziati, rallentati o immobilizzati riducono il tempo di recupero delle abilità base di Alarak di 3 s.",
+          "fullTooltip": "Gli attacchi base contro gli eroi nemici riducono il tempo di recupero delle abilità base di Alarak di 1.5 s. Il bonus è raddoppiato contro gli eroi nemici storditi, silenziati, rallentati o immobilizzati.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -4086,7 +4086,7 @@
           "name": "Locusta Regina",
           "icon": "storm_ui_icon_anubarak_locustswarm.png",
           "shortTooltip": "Fornisce una Locusta Vampiro permanente.",
-          "fullTooltip": "Anub'arak ottiene una Locusta Vampiro che attacca un nemico vicino ogni 3 s. La Locusta Vampiro infligge 153 (+4% per level) danni e cura Anub'arak di 50 (+4% per level) Salute.",
+          "fullTooltip": "Anub'arak ottiene una Locusta Vampiro che attacca un nemico vicino ogni 3 s. La Locusta Vampiro infligge 165 (+4% per level) danni e cura Anub'arak di 80 (+4% per level) Salute.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -4101,8 +4101,8 @@
           "buttonId": "AnubarakCryptweaveCocoonTalent",
           "name": "Trama Fitta",
           "icon": "storm_ui_icon_anubarak_webblast.png",
-          "shortTooltip": "Aumenta la durata di Bozzolo.",
-          "fullTooltip": "Se Anub'arak rimane vicino al bozzolo, la durata aumenta fino a 6 s.",
+          "shortTooltip": "Aumenta la durata di Bozzolo durata di Bozzolo e danni periodici all'uscita.",
+          "fullTooltip": "Se Anub'arak rimane vicino al Bozzolo, la durata aumenta fino a 6 s per ogni Bozzolo. Dopo aver lasciato il Bozzolo, i nemici subiscono 50 (+4% per level) danni in 4 s. Questi danni sono aumentati del 100% per ogni secondo in cui i nemici sono rimasti all'interno.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -4113,13 +4113,13 @@
           ]
         },
         {
-          "nameId": "GenericTalentHardenedShield",
-          "buttonId": "HardenedShieldTalent",
-          "name": "Scudo Rinforzato",
+          "nameId": "AnubarakTheTraitorKing",
+          "buttonId": "AnubarakTheTraitorKing",
+          "name": "Re Traditore",
           "icon": "storm_ui_icon_talent_hardenedshield.png",
           "cooldownTooltip": "Recupero: 60 s",
-          "shortTooltip": "All'attivazione fornisce Resistenza.",
-          "fullTooltip": "All'attivazione fornisce 75 Resistenza per 4 s, riducendo del 75% i danni subiti.",
+          "shortTooltip": "Ottiene Salute e Resistenza magica aggiuntive e all'attivazione fornisce Resistenza.",
+          "fullTooltip": "Fornisce il 10% di Salute aggiuntiva e 20 Resistenza magica. All'attivazione fornisce 75 Resistenza per 4 s.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -6142,7 +6142,7 @@
           "name": "Maestro della Distruzione",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "Terra Bruciata provoca un'esplosione.",
-          "fullTooltip": "I danni finali di Terra Bruciata si applicano ai nemici in un'area attorno al bersaglio e forniscono 4 accumuli di Annientamento per ogni eroe colpito.",
+          "fullTooltip": "Se l'incanalamento di Terra Bruciata dura fino al suo termine o uccide il bersaglio, i danni finali di Terra Bruciata si applicano a tutti i nemici in un'area attorno al bersaglio e forniscono 4 accumuli di Annientamento per ogni eroe colpito.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -6204,7 +6204,7 @@
           "name": "Bacio di Cydaea",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "Riduce l'incanalamento di Terra Bruciata, e i danni finali rigenerano Salute.",
-          "fullTooltip": "Riduce il tempo di incanalamento di Terra Bruciata di 0.5 s. Se l'incanalamento dura fino al suo termine contro un eroe, Azmodan rigenera il 8% della sua Salute massima.",
+          "fullTooltip": "Riduce il tempo di incanalamento di Terra Bruciata di 0.5 s. Se l'incanalamento dura fino al suo termine contro un eroe o lo uccide, Azmodan rigenera il 8% della sua Salute massima.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -6245,7 +6245,7 @@
           "name": "Varco Infernale",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "Terra Bruciata evoca e potenzia i Guerrieri Demoniaci.",
-          "fullTooltip": "Se l'incanalamento di Terra Bruciata dura fino al suo termine, evoca un Guerriero Demoniaco nella posizione del bersaglio, e i Guerrieri Demoniaci infliggono il 100% di danni aggiuntivi per 5 s.",
+          "fullTooltip": "Se l'incanalamento di Terra Bruciata dura fino al suo termine o uccide il bersaglio, evoca un Guerriero Demoniaco nella posizione del bersaglio, e i Guerrieri Demoniaci infliggono il 100% di danni aggiuntivi per 5 s.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -6318,7 +6318,7 @@
           "name": "Stretta del Peccato",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "Terra Bruciata rallenta i nemici e ha tempo di recupero ridotto.",
-          "fullTooltip": "Terra Bruciata rallenta gli eroi nemici del 15% durante l'incanalamento. Se l'incanalamento dura fino al termine contro un eroe nemico, il tempo di recupero è ridotto del 50% e il bersaglio è rallentato del 50% per 2.5 s.",
+          "fullTooltip": "Terra Bruciata rallenta gli eroi nemici del 15% durante l'incanalamento. Se l'incanalamento dura fino al termine o uccide un eroe nemico, il tempo di recupero è ridotto del 50% e il bersaglio è rallentato del 50% per 2.5 s.",
           "abilityType": "E",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -7670,7 +7670,7 @@
           "name": "Ingredienti Freschi",
           "icon": "storm_ui_icon_chen_fortifyingbrew.png",
           "shortTooltip": "Missione: I globi rigeneranti aumentano la rigenerazione di Salute.",
-          "fullTooltip": "Aumenta del 150% la durata delle cure dei globi rigeneranti.  Missione: Raccogli 15 globi rigeneranti.  Ricompensa: Riduce di 1 s il tempo di recupero di Pinta Fortificante e conserva permanentemente il 50% degli Scudi dopo aver bevuto.",
+          "fullTooltip": "Aumenta del 150% la durata delle cure dei globi rigeneranti.  Missione: Raccogli 15 globi rigeneranti.  Ricompensa: Riduce di 2 s il tempo di recupero di Pinta Fortificante e conserva permanentemente il 50% degli Scudi dopo aver bevuto.",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 2,
@@ -7699,7 +7699,7 @@
           "name": "Assalto Mortale",
           "icon": "storm_ui_icon_chen_flyingkick.png",
           "shortTooltip": "Aumenta i danni di Calcio Volante e ne rimuove il costo in Birra.",
-          "fullTooltip": "Rimuove il costo in Birra di Calcio Volante. Inoltre, ne aumenta i danni del 100% finché lo Scudo di Pinta Fortificante è attivo.",
+          "fullTooltip": "Rimuove il costo in Birra di Calcio Volante. Inoltre, ne aumenta i danni del 125% finché lo Scudo di Pinta Fortificante è attivo.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -7744,7 +7744,7 @@
           "name": "Dono dello Yak",
           "icon": "storm_ui_icon_chen_stagger.png",
           "shortTooltip": "Aumenta la durata di Noncuranza e riduce i danni subiti.",
-          "fullTooltip": "Aumenta di 1.5 s il tempo per cui Noncuranza consente di non subire danni, e riduce l'ammontare dei danni periodici al 60% dei danni subiti.",
+          "fullTooltip": "Aumenta di 1.5 s il tempo per cui Noncuranza consente di non subire danni, e riduce l'ammontare dei danni periodici al 50% dei danni subiti.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -11093,7 +11093,7 @@
           "energyTooltip": "Mana: 50",
           "cooldownTooltip": "Recupero: 10 s",
           "shortTooltip": "Infligge danni ai nemici vicini.",
-          "fullTooltip": "Infligge 49 (+4% per level) danni ogni 0.5 s ai nemici vicini per 3.5 s. Consente di oltrepassare le unità, e può essere attivato durante Trascinamento e Rintanamento.",
+          "fullTooltip": "Infligge 52 (+4% per level) danni ogni 0.5 s ai nemici vicini per 3.5 s. Consente di oltrepassare le unità, e può essere attivato durante Trascinamento e Rintanamento.",
           "abilityType": "W"
         },
         {
@@ -11268,7 +11268,7 @@
           "icon": "storm_ui_icon_dehaka_burrow.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Rintanamento fornisce occultamento e respinge i nemici.",
-          "fullTooltip": "Riduce di 4 s il tempo di recupero di Rintanamento. Emergere da Rintanamento consente a Dehaka di occultarsi per 3 s e respingere i nemici vicini, rallentandoli del 30% per 3 s.",
+          "fullTooltip": "Riduce di 6 s il tempo di recupero di Rintanamento. Emergere da Rintanamento consente a Dehaka di occultarsi per 3 s e respingere i nemici vicini, rallentandoli del 30% per 3 s.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -11331,7 +11331,7 @@
           "name": "Enzimi Paralizzanti",
           "icon": "storm_ui_icon_dehaka_drag_var1.png",
           "shortTooltip": "Aumenta la durata di Trascinamento e rallenta il bersaglio.",
-          "fullTooltip": "Aumenta la durata di Trascinamento di 0.5 s e Trascinamento rallenta del 30% i nemici per 2 s dopo il termine dell'effetto.",
+          "fullTooltip": "Aumenta la durata di Trascinamento di 0.5 s e Trascinamento rallenta del 35% i nemici per 2 s dopo il termine dell'effetto.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -11388,23 +11388,6 @@
       ],
       "level13": [
         {
-          "nameId": "DehakaPrimalRage",
-          "buttonId": "DehakaPrimalRage",
-          "name": "Rabbia Primordiale",
-          "icon": "storm_ui_icon_dehaka_essencecollection.png",
-          "charges": {
-            "countMax": 50,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "Raccogliere essenze aumenta i danni degli attacchi.",
-          "fullTooltip": "Aumenta del 1% i danni degli attacchi per ogni essenza in possesso.",
-          "abilityType": "Trait",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "DehakaEssenceCollection"
-          ]
-        },
-        {
           "nameId": "DehakaBrushstalkerFerociousStalker",
           "buttonId": "DehakaBrushstalkerFerociousStalkerTalent",
           "name": "Predatore Feroce",
@@ -11412,7 +11395,7 @@
           "shortTooltip": "Predatore Selvatico rallenta i nemici e aumenta i danni di Sciame Oscuro.",
           "fullTooltip": "Sciame Oscuro rallenta del 15% gli eroi nemici per 0.75 s e infligge il 50% di danni aggiuntivi finché il bonus alla velocità di movimento di Predatore Selvatico è attivo.",
           "abilityType": "W",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "DehakaDarkSwarm"
           ]
@@ -11425,9 +11408,26 @@
           "shortTooltip": "Sciame Oscuro riduce la Resistenza dei nemici.",
           "fullTooltip": "Sciame Oscuro riduce di 10 la Resistenza dei nemici per 0.75 s, aumentando del 10% i danni subiti.",
           "abilityType": "W",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "DehakaDarkSwarm"
+          ]
+        },
+        {
+          "nameId": "DehakaPrimalRage",
+          "buttonId": "DehakaPrimalRage",
+          "name": "Rabbia Primordiale",
+          "icon": "storm_ui_icon_dehaka_essencecollection.png",
+          "charges": {
+            "countMax": 50,
+            "recastCooldown": 1.0
+          },
+          "shortTooltip": "Raccogliere essenze aumenta i danni degli attacchi.",
+          "fullTooltip": "Aumenta del 1.25% i danni degli attacchi per ogni essenza in possesso.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DehakaEssenceCollection"
           ]
         }
       ],
@@ -11496,7 +11496,7 @@
           "name": "Sopravvivenza Evolutiva",
           "icon": "storm_ui_icon_dehaka_adaptation.png",
           "shortTooltip": "Aumenta le cure di Adattamento e ne riduce il tempo di recupero.",
-          "fullTooltip": "Aumenta le cure di Adattamento al 200% dei danni subiti e riduce il tempo di recupero di 30 s.",
+          "fullTooltip": "Aumenta le cure di Adattamento al 200% dei danni subiti e riduce il tempo di recupero di 40 s.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -11504,19 +11504,6 @@
           ],
           "prerequisiteTalentIds": [
             "DehakaHeroicAbilityAdaptation"
-          ]
-        },
-        {
-          "nameId": "DehakaBrushstalkerApexPredator",
-          "buttonId": "DehakaBrushstalkerApexPredatorTalent",
-          "name": "Predatore Alfa",
-          "icon": "storm_ui_icon_dehaka_brushstalker.png",
-          "shortTooltip": "Riduce il tempo di recupero e di attivazione di Predatore Selvatico.",
-          "fullTooltip": "Riduce di 35 s il tempo di recupero e di 0.5 s il tempo di attivazione di Predatore Selvatico.",
-          "abilityType": "Z",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DehakaBrushstalker"
           ]
         },
         {
@@ -11531,9 +11518,22 @@
           "shortTooltip": "Gli attacchi base rallentano i nemici e forniscono essenze.",
           "fullTooltip": "Gli attacchi base di Dehaka rallentano il bersaglio del 20% per 1 s. Se il bersaglio è un eroe, Dehaka ottiene 5 essenze.",
           "abilityType": "Trait",
-          "sort": 4,
+          "sort": 3,
           "abilityTalentLinkIds": [
             "DehakaEssenceCollection"
+          ]
+        },
+        {
+          "nameId": "DehakaBrushstalkerApexPredator",
+          "buttonId": "DehakaBrushstalkerApexPredatorTalent",
+          "name": "Predatore Alfa",
+          "icon": "storm_ui_icon_dehaka_brushstalker.png",
+          "shortTooltip": "Riduce il tempo di recupero e di attivazione di Predatore Selvatico.",
+          "fullTooltip": "Riduce di 50 s il tempo di recupero e di 0.5 s il tempo di attivazione di Predatore Selvatico.",
+          "abilityType": "Z",
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "DehakaBrushstalker"
           ]
         }
       ]
@@ -12920,7 +12920,7 @@
           "name": "Bocciolo Impetuoso",
           "icon": "storm_ui_icon_lunara_pollencloud.png",
           "shortTooltip": "Estende la portata e il raggio di Bocciolo Nocivo.",
-          "fullTooltip": "Estende del 25% la portata di Bocciolo Nocivo e del 20% il suo raggio. Colpire un eroe nemico con Bocciolo Nocivo aumenta del 15% la velocità di movimento di Lunara per 3 s. L'effetto si somma ad altri bonus alla velocità.",
+          "fullTooltip": "Estende del 25% la portata di Bocciolo Nocivo e del 20% il suo raggio. Bocciolo Impetuoso applica 2 accumuli di Tossina Naturale ai nemici colpiti.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13098,7 +13098,7 @@
           "name": "Contaminazione Accelerata",
           "icon": "storm_ui_icon_lunara_pollencloud.png",
           "shortTooltip": "Bocciolo Nocivo si ricarica più rapidamente.",
-          "fullTooltip": "Riduce il costo in Mana di Bocciolo Nocivo da 60 a 40. Quando almeno 2 eroi nemici sono affetti da Tossina Naturale, il tempo di recupero di Bocciolo Nocivo si ricarica il 100% più velocemente.",
+          "fullTooltip": "Riduce il costo in Mana di Bocciolo Nocivo da 60 a 40. Quando almeno 1 eroe nemico è affetto da Tossina Naturale, il tempo di recupero di Bocciolo Nocivo si ricarica il 75% più velocemente.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13111,7 +13111,7 @@
           "name": "Lancia di Legno Stellare",
           "icon": "storm_ui_icon_lunara_fullbloom.png",
           "shortTooltip": "Spore Paralizzanti estende la portata degli attacchi base.",
-          "fullTooltip": "Utilizzare Spore Paralizzanti estende del 2.75 la portata degli attacchi base di Lunara per 6 s.",
+          "fullTooltip": "Aumenta la portata degli attacchi base di Lunara di 0.5. Utilizzare Spore Paralizzanti aumenta ulteriormente la portata degli attacchi base di Lunara di 2.25 per 6 s.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -13532,7 +13532,7 @@
           "icon": "storm_ui_icon_dva_boosters.png",
           "toggleCooldown": 0.0625,
           "shortTooltip": "Retrorazzi sottrae Salute e aumenta i danni contro le unità non eroiche.",
-          "fullTooltip": "Retrorazzi infligge danni aggiuntivi agli eroi pari al 3% della loro Salute massima e rigenera Salute al Mech di D.VA pari ai danni inflitti. Retrorazzi infligge il 75% di danni aggiuntivi ai nemici non eroici.",
+          "fullTooltip": "Retrorazzi infligge danni aggiuntivi agli eroi pari al 2% della loro Salute massima e rigenera Salute al Mech di D.VA pari ai danni inflitti. Retrorazzi infligge il 70% di danni aggiuntivi ai nemici non eroici.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -14616,10 +14616,10 @@
           "buttonId": "FalstadHinterlandBlast",
           "name": "Esplosione dell'Entroterra",
           "icon": "storm_ui_icon_falstad_hinterlandblast.png",
-          "energyTooltip": "Mana: 100",
+          "energyTooltip": "Mana: 80",
           "cooldownTooltip": "Recupero: 120 s",
           "shortTooltip": "Un raggio che infligge danni a distanza.",
-          "fullTooltip": "Dopo 1 s, infligge 475 (+4.75% per level) danni ai nemici in una linea retta. Il tempo di recupero è ridotto di 25 s per ogni eroe nemico colpito.",
+          "fullTooltip": "Dopo 1 s, infligge 475 (+4.75% per level) danni ai nemici in una linea retta. Il tempo di recupero è ridotto di 30 s per ogni eroe nemico colpito.",
           "abilityType": "Heroic"
         }
       ],
@@ -14707,7 +14707,7 @@
           "name": "Tempesta Crescente",
           "icon": "storm_ui_icon_falstad_hammerang.png",
           "shortTooltip": "Missione: Colpire gli eroi potenzia Martello Fedele.",
-          "fullTooltip": "Missione: Ogni volta che Martello Fedele colpisce un eroe, i suoi danni aumentano permanentemente di 1.5 e ripristina 10 mana.",
+          "fullTooltip": "Missione: Ogni volta che Martello Fedele colpisce un eroe, i suoi danni aumentano permanentemente di 2 e ripristina 10 mana.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -14766,7 +14766,7 @@
           "name": "Corrente Ascensionale",
           "icon": "storm_ui_icon_falstad_barrelroll.png",
           "shortTooltip": "Estende la portata e aumenta lo scudo fornito da Avvitamento.",
-          "fullTooltip": "Estende del 40% la portata di Avvitamento e aumenta del 60% l'ammontare degli Scudi, che non hanno più limite di tempo.",
+          "fullTooltip": "Estende del 40% la portata di Avvitamento e aumenta del 70% l'ammontare degli Scudi, che non hanno più limite di tempo.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -14791,7 +14791,7 @@
           "name": "Arma Segreta",
           "icon": "storm_ui_icon_falstad_hammerang.png",
           "shortTooltip": "Estende la portata di Martello Fedele e aumenta i danni degli attacchi base.",
-          "fullTooltip": "Estende la portata di Martello Fedele del 30%. Gli attacchi base infliggono il 80% di danni aggiuntivi durante il volo di Martello Fedele.",
+          "fullTooltip": "Estende la portata di Martello Fedele del 30%. Gli attacchi base infliggono il 90% di danni aggiuntivi durante il volo di Martello Fedele.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -14831,10 +14831,10 @@
           "buttonId": "FalstadHinterlandBlast",
           "name": "Esplosione dell'Entroterra",
           "icon": "storm_ui_icon_falstad_hinterlandblast.png",
-          "energyTooltip": "Mana: 100",
+          "energyTooltip": "Mana: 80",
           "cooldownTooltip": "Recupero: 120 s",
           "shortTooltip": "Un raggio che infligge danni a distanza.",
-          "fullTooltip": "Dopo 1 s, infligge 475 (+4.75% per level) danni ai nemici in una linea retta. Il tempo di recupero è ridotto di 25 s per ogni eroe nemico colpito.",
+          "fullTooltip": "Dopo 1 s, infligge 475 (+4.75% per level) danni ai nemici in una linea retta. Il tempo di recupero è ridotto di 30 s per ogni eroe nemico colpito.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -14987,7 +14987,7 @@
           "name": "Cavalcatura Epica",
           "icon": "storm_ui_icon_falstad_epicmount.png",
           "shortTooltip": "Riduce i tempi di recupero e di attivazione di Volo.",
-          "fullTooltip": "Riduce il tempo di recupero di Volo di 40 s, riduce il tempo di attivazione prima di volare a 0,5 s e aumenta la velocità del 50%.",
+          "fullTooltip": "Riduce il tempo di recupero di Volo di 50 s, riduce il tempo di attivazione prima di volare a 0,5 s e aumenta la velocità del 50%.",
           "abilityType": "Z",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -23858,7 +23858,7 @@
         "nameId": "LeoricWeapon",
         "range": 2.0,
         "period": 1.3,
-        "damage": 109.0,
+        "damage": 115.0,
         "damageScale": 0.04
       }
     ],
@@ -24209,7 +24209,7 @@
           "name": "Disperazione Assoluta",
           "icon": "storm_ui_icon_leoric_drainhope.png",
           "shortTooltip": "Riduce il tempo di recupero di Sottrazione di Speranza.",
-          "fullTooltip": "Il tempo di recupero di Sottrazione di Speranza è ridotto di 0,5 s per ogni 1 s in cui rimane attiva. Se Sottrazione di Speranza dura fino al termine, il suo tempo di recupero è ridotto di altri 3 s.",
+          "fullTooltip": "Il tempo di recupero di Sottrazione di Speranza è ridotto di 0,75 s per ogni 1 s in cui rimane attiva. Se Sottrazione di Speranza dura fino al termine, il suo tempo di recupero è ridotto di altri 2 s.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -24319,39 +24319,29 @@
           ]
         },
         {
-          "nameId": "LeoricDrainHopeHardenedBonesTalent",
-          "buttonId": "LeoricHardenedBonesTalent",
-          "name": "Ossa Dure",
-          "icon": "storm_ui_icon_leoric_drainhope_var1.png",
-          "shortTooltip": "Sottrazione di Speranza fornisce Resistenza.",
-          "fullTooltip": "Fornisce 50 Resistenza finché Sottrazione di Speranza è attiva. Se Sottrazione di Speranza dura fino al termine, il bonus alla resistenza permane per 2 s.",
-          "abilityType": "W",
+          "nameId": "LeoricBurningDespairTalent",
+          "buttonId": "LeoricBurningDespair",
+          "name": "Disperazione Ardente",
+          "icon": "storm_ui_icon_leoric_drainhope.png",
+          "shortTooltip": "Infligge danni ai nemici vicini e ottiene Resistenza.",
+          "fullTooltip": "Infligge 40 (+4% per level) danni al secondo ai nemici vicini.   Finché Sottrazione di Speranza è attiva, fornisce 40 Resistenza e l'area è aumentata del 100%.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
             "LeoricDrainHope"
           ]
         },
         {
-          "nameId": "LeoricBurningDespairTalent",
-          "buttonId": "LeoricBurningDespair",
-          "name": "Disperazione Ardente",
-          "icon": "storm_ui_icon_leoric_drainhope.png",
-          "shortTooltip": "Infligge danni ai nemici vicini.",
-          "fullTooltip": "Infligge 40 (+4% per level) danni al secondo ai nemici vicini. Aumenta del 100% i danni e l'area finché Sottrazione di Speranza è attiva.",
-          "abilityType": "Passive",
-          "sort": 4
-        },
-        {
           "nameId": "LeoricShroudoftheDeadKingTalent",
           "buttonId": "LeoricShroudoftheDeadKingTalent",
           "name": "Manto del Re Morto",
           "icon": "storm_ui_icon_talent_hardenedshield.png",
-          "cooldownTooltip": "Recupero: 30 s",
+          "cooldownTooltip": "Recupero: 25 s",
           "shortTooltip": "All'attivazione fornisce protezione.",
           "fullTooltip": "All'attivazione fornisce protezione per 3 s, assorbendo tutti i danni.",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 5
+          "sort": 4
         }
       ]
     }
@@ -27706,10 +27696,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_malganis.png"
     },
     "life": {
-      "amount": 2450.0,
+      "amount": 2550.0,
       "scale": 0.04,
       "type": "Salute",
-      "regenRate": 5.1054,
+      "regenRate": 5.3125,
       "regenScale": 0.04
     },
     "energy": {
@@ -27987,7 +27977,7 @@
           "name": "Eco della Rovina",
           "icon": "storm_ui_icon_malganis_necrotic_c.png",
           "shortTooltip": "Abbraccio Necrotico esplode alla scadenza.",
-          "fullTooltip": "Abbraccio Necrotico esplode di nuovo al suo termine, infliggendo 60 (+4% per level) danni. Per ogni eroe nemico colpito, Mal'Ganis rigenera 5 Mana e riduce il tempo di recupero di Abbraccio Necrotico di 0.75 s.  Non sveglia i bersagli addormentati.",
+          "fullTooltip": "Abbraccio Necrotico esplode di nuovo al suo termine, infliggendo 66 (+4% per level) danni. Per ogni eroe nemico colpito, Mal'Ganis rigenera 5 Mana e riduce il tempo di recupero di Abbraccio Necrotico di 0.75 s.  Non sveglia i bersagli addormentati.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -28490,7 +28480,7 @@
           "name": "Proiezione d'Ombra",
           "icon": "storm_ui_icon_malthael_deathshroud.png",
           "shortTooltip": "Estende la portata di Velo di Morte e ne riduce il tempo di recupero.",
-          "fullTooltip": "Estende del 33% la portata di Velo di Morte, ne riduce il tempo di recupero di 3 s e il costo in Mana da 50 a 30.",
+          "fullTooltip": "Estende del 33% la portata di Velo di Morte, ne riduce il tempo di recupero di 3 s e il costo in Mana da 50 a 30.  L'impatto iniziale di Velo di Morte infligge danni pari al 2% della Salute massima alle unità nemiche diverse dalle strutture.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -28672,7 +28662,7 @@
           "name": "Memento Mori",
           "icon": "storm_ui_icon_malthael_reapersmark.png",
           "shortTooltip": "Marchio del Mietitore infligge danni periodici aggiuntivi.",
-          "fullTooltip": "Marchio del Mietitore infligge l'80% di danni aggiuntivi se permane su un nemico per più di 4 s.",
+          "fullTooltip": "Marchio del Mietitore infligge il 90% di danni aggiuntivi se permane su un nemico per più di 4 s.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -34540,8 +34530,8 @@
           "buttonId": "OrpheaAllegrissimo",
           "name": "Allegrissimo",
           "icon": "storm_ui_icon_orphea_q.png",
-          "shortTooltip": "Riduce ulteriormente il tempo di recupero di Danza dell'Ombra colpendo con l'estremità dell'area.",
-          "fullTooltip": "Colpire eroi con l'estremità dell'area di Danza dell'Ombra ne imposta il tempo di recupero a 0.75 s.",
+          "shortTooltip": "Riduce il tempo di recupero di Danza dell'Ombra.",
+          "fullTooltip": "Riduce il tempo di recupero di Danza dell'Ombra di 1 s.  Colpire eroi con l'estremità dell'area di Danza dell'Ombra ne imposta il tempo di recupero a 0.75 s.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34583,7 +34573,7 @@
           "name": "Insaziabilità",
           "icon": "storm_ui_icon_orphea_w.png",
           "shortTooltip": "Colpire eroi riduce il tempo di recupero di Gnam.",
-          "fullTooltip": "Se Gnam colpisce un eroe, il suo tempo di recupero è impostato a 1.5 s.",
+          "fullTooltip": "Se Gnam colpisce un eroe, il suo tempo di recupero è impostato a 2 s.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34747,8 +34737,8 @@
           "buttonId": "OrpheaMonsterWithin",
           "name": "Mostro Interiore",
           "icon": "storm_ui_icon_orphea_ult_darkfall.png",
-          "shortTooltip": "Banchetto Eterno fornisce Caos e aumenta la velocità d'attacco.",
-          "fullTooltip": "Banchetto Eterno fornisce 1 accumulo di Caos ogni volta che colpisce un eroe. Finché Banchetto Eterno è attivo, la velocità d'attacco di Orfea aumenta del 50%.",
+          "shortTooltip": "Banchetto Eterno fornisce Caos e riduce i tempi di recupero.",
+          "fullTooltip": "Banchetto Eterno fornisce 1 accumulo di Caos ogni volta che colpisce un eroe. Finché Banchetto Eterno è attivo, le abilità base di Orfea si ricaricano il 150% più velocemente.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34764,7 +34754,7 @@
           "name": "Oblio Avvolgente",
           "icon": "storm_ui_icon_orphea_ult_thrasher.png",
           "shortTooltip": "Mandibola Possente riduce la Resistenza e il tempo di recupero.",
-          "fullTooltip": "Mandibola Possente riduce di 25 la Resistenza degli eroi colpiti per 2 s. Le uccisioni impostano il tempo di recupero a 5 s.",
+          "fullTooltip": "Mandibola Possente riduce di 25 la Resistenza degli eroi colpiti per 3 s. Le uccisioni impostano il tempo di recupero a 5 s.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -34793,7 +34783,7 @@
           "buttonId": "OrpheaFinalToccata",
           "name": "Tocco Finale",
           "icon": "storm_ui_icon_orphea_reset.png",
-          "cooldownTooltip": "Recupero: 30 s",
+          "cooldownTooltip": "Recupero: 20 s",
           "shortTooltip": "Azzera il tempo di recupero di Danza dell'Ombra dopo lo scatto.",
           "fullTooltip": "All'attivazione, azzera il tempo di recupero di Danza dell'Ombra. Per i 6 s successivi, scattare con Danza dell'Ombra azzera il tempo di recupero.",
           "abilityType": "Active",
@@ -38500,9 +38490,9 @@
             "countStart": 3,
             "recastCooldown": 5.0
           },
-          "cooldownTooltip": "Recupero carica: 90 s",
+          "cooldownTooltip": "Recupero carica: 100 s",
           "shortTooltip": "Aumenta i danni degli attacchi base all'attivazione.",
-          "fullTooltip": "All'attivazione aumenta i danni degli attacchi base del 35% per 5 s. Colpire strutture con attacchi base in Assetto da Assedio riduce il tempo di recupero di Munizioni Maelstrom di 5 s.  Accumula fino a 3 cariche.",
+          "fullTooltip": "All'attivazione aumenta i danni degli attacchi base del 30% per 5 s. Colpire gli eroi nemici o le strutture con attacchi base in Assetto da Assedio riduce il tempo di recupero di Munizioni Maelstrom di 5 s.  Accumula fino a 3 cariche.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3,
@@ -38518,7 +38508,7 @@
           "name": "Barricata",
           "icon": "storm_ui_icon_sgthammer_concussiveblast.png",
           "shortTooltip": "Salva Devastante crea un muro.",
-          "fullTooltip": "Riduce il tempo di recupero di Salva Devastante di 3 s, il suo costo in Mana di 40 e crea un muro impenetrabile di fronte a Sgt. Hammer per 4 s.",
+          "fullTooltip": "Riduce il tempo di recupero di Salva Devastante di 4 s, il suo costo in Mana di 40 e crea un muro impenetrabile di fronte a Sgt. Hammer per 4 s.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38559,7 +38549,7 @@
           "name": "Impulso Esplosivo",
           "icon": "storm_ui_icon_sgthammer_spidermines.png",
           "shortTooltip": "Le Mine Ragno esplodono più volte.",
-          "fullTooltip": "Le Mine Ragno esplodono 3 volte in 3 s. Gli attacchi base contro gli eroi nemici forniscono 5 Mana e riducono il tempo di recupero di Mine Ragno di 1 s. Il bonus aumenta a 1.5 s in Assetto da Assedio.",
+          "fullTooltip": "Le Mine Ragno esplodono 3 volte in 3 s. Gli attacchi base contro gli eroi nemici forniscono 5 Mana e riducono il tempo di recupero di Mine Ragno di 1.5 s. Il bonus aumenta a 2.5 s in Assetto da Assedio.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38586,7 +38576,7 @@
           "name": "Portata Graduale",
           "icon": "storm_ui_icon_sgthammer_siegemode_var1.png",
           "shortTooltip": "Estende gradualmente la portata degli attacchi base in Assetto da Assedio.",
-          "fullTooltip": "In Assetto da Assedio, estende la portata degli attacchi base di 1 ogni 3 s, fino a un massimo di 3.",
+          "fullTooltip": "In Assetto da Assedio, estende la portata degli attacchi base di 1 ogni 2 s, fino a un massimo di 3.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -38676,8 +38666,8 @@
           "buttonId": "SgtHammerNeosteelPlatingMechanicalKnowhowTalent",
           "name": "Competenze Meccaniche",
           "icon": "storm_ui_icon_sgthammer_neosteelplating.png",
-          "shortTooltip": "Corazza in Neo-acciaio fornisce uno scudo.",
-          "fullTooltip": "Corazza in Neo-acciaio fornisce uno scudo pari al 5% della Salute massima per 2 s. Se lo scudo è distrutto, i danni degli attacchi base aumentano del 50% per 5 s.",
+          "shortTooltip": "Corazza in Neo-acciaio fornisce uno scudo e aumenta i danni.",
+          "fullTooltip": "Corazza in Neo-acciaio fornisce uno scudo pari al 20% della Salute massima per 2 s e aumenta i danni base del 30% per 5 s.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -40023,8 +40013,8 @@
           "buttonId": "SylvanasMindControlMissile",
           "name": "Controllo Mentale",
           "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
-          "energyTooltip": "Mana: 75",
-          "cooldownTooltip": "Recupero: 50 secondi",
+          "energyTooltip": "Mana: 50",
+          "cooldownTooltip": "Recupero: 40 s",
           "shortTooltip": "Costringe un eroe nemico ad avvicinarsi a Sylvanas.",
           "fullTooltip": "Dopo 0.25 s, lancia un proiettile che controlla mentalmente il primo eroe nemico colpito. Gli eroi colpiti sono silenziati, rallentati del 30%, hanno 3 accumuli di Maledizione della Banshee e sono costretti ad avvicinarsi a Sylvanas per 1.75 s.",
           "abilityType": "Heroic"
@@ -40321,8 +40311,8 @@
           "buttonId": "SylvanasMindControlMissile",
           "name": "Controllo Mentale",
           "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
-          "energyTooltip": "Mana: 75",
-          "cooldownTooltip": "Recupero: 50 secondi",
+          "energyTooltip": "Mana: 50",
+          "cooldownTooltip": "Recupero: 40 s",
           "shortTooltip": "Costringe un eroe nemico ad avvicinarsi a Sylvanas.",
           "fullTooltip": "Dopo 0.25 s, lancia un proiettile che controlla mentalmente il primo eroe nemico colpito. Gli eroi colpiti sono silenziati, rallentati del 30%, hanno 3 accumuli di Maledizione della Banshee e sono costretti ad avvicinarsi a Sylvanas per 1.75 s.",
           "abilityType": "Heroic",
@@ -40435,7 +40425,7 @@
           "name": "Richiamo della Dama Oscura",
           "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
           "shortTooltip": "Controllo Mentale riduce la visuale del nemico.",
-          "fullTooltip": "La visuale degli eroi colpiti da Controllo Mentale è notevolmente ridotta per 5 s. Il tempo di recupero di Controllo Mentale è ridotto di 30 s.",
+          "fullTooltip": "La visuale degli eroi colpiti da Controllo Mentale è notevolmente ridotta per 5 s. Il tempo di recupero di Controllo Mentale è ridotto di 25 s.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -40450,8 +40440,8 @@
           "buttonId": "SylvanasWitheringFireWitheringBarrage",
           "name": "Scarica Fantasma",
           "icon": "storm_ui_icon_sylvanas_witheringfire.png",
-          "shortTooltip": "Riduce il tempo di recupero di Tiro Fantasma.",
-          "fullTooltip": "Ogni colpo di Tiro Fantasma contro un eroe riduce il tempo di recupero di 0.75 s.",
+          "shortTooltip": "Tiro Fantasma applica Maledizione della Banshee.",
+          "fullTooltip": "Tiro Fantasma applica Maledizione della Banshee e gli eroi colpiti da Tiro Fantasma ne riducono il tempo di recupero di 0.75 s.",
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -41683,7 +41673,7 @@
           "toggleCooldown": 0.5,
           "energyTooltip": "Rottami: 4",
           "shortTooltip": "Crea una torretta che spara contro i nemici vicini.",
-          "fullTooltip": "Crea una torretta che infligge 40 (+4% per level) danni. Dura 15 s.   Le torrette danno priorità all'eroe nemico più vicino al momento della creazione.",
+          "fullTooltip": "Crea una torretta che infligge 38 (+4% per level) danni. Dura 15 s.   Le torrette danno priorità all'eroe nemico più vicino al momento della creazione.",
           "abilityType": "Q"
         },
         {
@@ -41700,7 +41690,7 @@
           },
           "cooldownTooltip": "Recupero: 8 s",
           "shortTooltip": "Infligge danni ai bersagli in una linea retta.",
-          "fullTooltip": "Dopo 0.65 s, infligge 184 (+4% per level) danni ai nemici in una linea retta. Rigenera Salute pari al 25% dei danni inflitti e questo effetto è aumentato al 75% contro gli eroi nemici.",
+          "fullTooltip": "Dopo 0.65 s, infligge 180 (+4% per level) danni ai nemici in una linea retta. Rigenera Salute pari al 25% dei danni inflitti e questo effetto è aumentato al 75% contro gli eroi nemici.",
           "abilityType": "W"
         },
         {
@@ -41855,7 +41845,7 @@
           "name": "Esperto di Caccia Grossa",
           "icon": "storm_ui_icon_gazlowe_salvager.png",
           "shortTooltip": "Colpire eroi, mercenari e mostri aumenta i rottami.",
-          "fullTooltip": "Aumenta i rottami massimi di 2. Infliggere danni con gli attacchi base a eroi, mercenari o mostri accelera la rigenerazione di rottami di Raccolta Differenziata di 2 s.",
+          "fullTooltip": "Aumenta i rottami massimi di 2. Infliggere danni con gli attacchi base a eroi, mercenari o mostri accelera la rigenerazione di rottami di Raccolta Differenziata di 1.5 s.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41884,7 +41874,7 @@
           "icon": "storm_ui_icon_gazlowe_rockitturret.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Lanciare Torretta Spaccatutto fornisce uno scudo.",
-          "fullTooltip": "L'attivazione di Torretta Spaccatutto fornisce a Sparachiodi uno scudo che assorbe fino a 215 (+4% per level) danni per 2.5 s.",
+          "fullTooltip": "L'attivazione di Torretta Spaccatutto fornisce a Sparachiodi uno scudo che assorbe fino a 200 (+4% per level) danni per 2.5 s.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -42023,7 +42013,7 @@
           "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Le Torrette Spaccatutto attaccano più nemici.",
-          "fullTooltip": "Le Torrette Spaccatutto attaccano fino a 2 nemici aggiuntivi, infliggendo il 75% dei danni e la portata dei loro attacchi base è estesa del 50%.",
+          "fullTooltip": "Le Torrette Spaccatutto attaccano fino a 2 nemici aggiuntivi, infliggendo il 60% dei danni e la portata dei loro attacchi base è estesa del 50%.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -42079,7 +42069,7 @@
             "recastCooldown": 3.0
           },
           "shortTooltip": "Carica di Explodio crea Torrette e riduce il tempo di recupero.",
-          "fullTooltip": "Riduce di 3 s il tempo di recupero di Carica di Explodio. L'attivazione di Carica di Explodio crea 3 Torrette Spaccatutto in miniatura che durano 3 s.  Queste torrette non rilasciano rottami e non beneficiano degli altri Talenti.",
+          "fullTooltip": "Riduce di 2 s il tempo di recupero di Carica di Explodio. L'attivazione di Carica di Explodio crea 3 Torrette Spaccatutto in miniatura che durano 3 s.  Queste torrette non rilasciano rottami e non beneficiano degli altri Talenti.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -43093,8 +43083,8 @@
           "buttonId": "TychusFragGrenadeQuarterbackTalent",
           "name": "Lanciatore",
           "icon": "storm_ui_icon_tychus_fraggrenade.png",
-          "shortTooltip": "Estende la portata di Bomba a Mano.",
-          "fullTooltip": "Estende la portata di Bomba a Mano del 50%.",
+          "shortTooltip": "Bomba a Mano infligge danni aggiuntivi e ha raggio aumentato.",
+          "fullTooltip": "Aumenta i danni di Bomba a Mano del 20% e ne estende il raggio del 50%.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -44835,7 +44825,7 @@
           "name": "Guardiano dei Re Antichi",
           "icon": "storm_ui_icon_uther_eternaldevotion.png",
           "shortTooltip": "Aumenta la Resistenza fornita da Devozione ai bersagli inabilitati.",
-          "fullTooltip": "Curare un eroe stordito, immobilizzato o silenziato gli fornisce 50 Resistenza per 3 s.",
+          "fullTooltip": "Curare un eroe stordito, immobilizzato o silenziato con un'abilità base gli fornisce 50 Resistenza per 3 s.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -45649,10 +45639,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_varian.png"
     },
     "life": {
-      "amount": 2116.0,
+      "amount": 2220.0,
       "scale": 0.04,
       "type": "Salute",
-      "regenRate": 4.4062,
+      "regenRate": 4.625,
       "regenScale": 0.04
     },
     "energy": {
@@ -45856,7 +45846,7 @@
           "name": "Fauci del Leone",
           "icon": "storm_ui_icon_varian_lionsfang.png",
           "shortTooltip": "Missione: Colpire eroi potenzia Zanna del Leone.",
-          "fullTooltip": "Missione: Ogni volta che Zanna del Leone colpisce un eroe, i suoi danni aumentano di 5, fino a un massimo di 125.  Ricompensa: Dopo aver colpito 25 eroi, l'effetto di rallentamento è aumentato al 50% e la durata è aumentata a 2 s.",
+          "fullTooltip": "Missione: Ogni volta che Zanna del Leone colpisce un eroe, i suoi danni aumentano di 6, fino a un massimo di 150.  Ricompensa: Dopo aver colpito 25 eroi, l'effetto di rallentamento è aumentato al 50% e la durata è aumentata a 2 s.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -45888,7 +45878,7 @@
           "name": "Missione del Grande Re",
           "icon": "storm_ui_icon_varian_highkingsquest.png",
           "shortTooltip": "Missione: Completare missioni aumenta i danni da attacco.",
-          "fullTooltip": "Missione: Colpisci gli eroi 50 volte con attacchi base. Missione: Partecipa all'uccisione di 5 eroi. Missione: Raccogli 20 globi rigeneranti.  Ricompensa: Completare una missione aumenta di 10 i danni degli attacchi base. Completare tutte e 3 le missioni aumenta ulteriormente di 30 i danni degli attacchi base.",
+          "fullTooltip": "Missione: Colpisci gli eroi 50 volte con attacchi base. Missione: Partecipa all'uccisione di 5 eroi. Missione: Raccogli 15 globi rigeneranti.  Ricompensa: Completare una missione aumenta di 10 i danni degli attacchi base. Completare tutte e 3 le missioni aumenta ulteriormente di 30 i danni degli attacchi base.",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 3,
@@ -46163,7 +46153,7 @@
           "buttonId": "VarianDemoralizingShout",
           "name": "Urlo Demoralizzante",
           "icon": "storm_ui_icon_varian_demoralizingshout.png",
-          "cooldownTooltip": "Recupero: 25 s",
+          "cooldownTooltip": "Recupero: 20 s",
           "shortTooltip": "Riduce i danni subiti dagli eroi vicini.",
           "fullTooltip": "All'attivazione riduce il morale degli eroi nemici vicini, riducendo del 40% i danni da loro inflitti per 5 s.",
           "abilityType": "Active",

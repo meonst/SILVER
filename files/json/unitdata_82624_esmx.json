@@ -7704,7 +7704,7 @@
         "nameId": "GazloweXplodiumChargeArkReaktorRockItTurretWeapon",
         "range": 6.0,
         "period": 1.0,
-        "damage": 40.0,
+        "damage": 38.0,
         "damageScale": 0.04
       }
     ],
@@ -13460,7 +13460,7 @@
         "nameId": "RockItTurret",
         "range": 6.0,
         "period": 1.0,
-        "damage": 40.0,
+        "damage": 38.0,
         "damageScale": 0.04
       }
     ],
@@ -17980,7 +17980,7 @@
         "nameId": "RockItTurret",
         "range": 6.0,
         "period": 1.0,
-        "damage": 40.0,
+        "damage": 38.0,
         "damageScale": 0.04
       }
     ],
@@ -18030,7 +18030,7 @@
         "nameId": "RockItTurret",
         "range": 6.0,
         "period": 1.0,
-        "damage": 40.0,
+        "damage": 38.0,
         "damageScale": 0.04
       }
     ],
@@ -26997,6 +26997,36 @@
     "sight": 4.0,
     "portraits": {
       "minimap": "storm_ui_minimapicon_spiderqueen_turnin.png"
+    },
+    "life": {
+      "amount": 1.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "warheadjunctiondata-WaygateEntrance": {
+    "name": "Túnel de cloaca",
+    "hyperlinkId": "warheadjunctiondata-WaygateEntrance",
+    "radius": 0.5,
+    "attributes": [
+      "ImmuneToAOE",
+      "ImmuneToFriendlyAbilities",
+      "ImmuneToSkillshots",
+      "NoMinionAggro"
+    ],
+    "life": {
+      "amount": 1.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "warheadjunctiondata-WaygateEntranceMinimapIconActor": {
+    "hyperlinkId": "warheadjunctiondata-WaygateEntranceMinimapIconActor",
+    "radius": 0.5,
+    "portraits": {
+      "minimap": "storm_ui_minimapicon_tod_waygate_in.png"
     },
     "life": {
       "amount": 1.0,
