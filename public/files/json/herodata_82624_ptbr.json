@@ -1168,7 +1168,7 @@
           "name": "Golpes Provocantes",
           "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
           "shortTooltip": "Reduz as recargas contra Heróis incapacitados",
-          "fullTooltip": "Ataques Básicos contra Heróis Atordoados, Silenciados, Desacelerados ou Enraizados reduzem a recarga das Habilidades Básicas de Alarak em 3 s.",
+          "fullTooltip": "Ataques Básicos contra Heróis inimigos reduzem a recarga das Habilidades Básicas de Alarak em 1.5 s. Esse bônus dobra contra Heróis inimigos atordoados, silenciados, desacelerados ou enraizados.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -4086,7 +4086,7 @@
           "name": "Mestre da Colmeia",
           "icon": "storm_ui_icon_anubarak_locustswarm.png",
           "shortTooltip": "Ganha um gafanhoto permanente que rouba vida",
-          "fullTooltip": "Ganha um Gafanhoto Vampiro permanente que ataca os inimigos próximos a cada 3 s. O Gafanhoto Vampiro causa 153 (+4% per level) de dano e volta para curar Anub'arak em 50 (+4% per level) de Vida.",
+          "fullTooltip": "Ganha um Gafanhoto Vampiro permanente que ataca os inimigos próximos a cada 3 s. O Gafanhoto Vampiro causa 165 (+4% per level) de dano e volta para curar Anub'arak em 80 (+4% per level) de Vida.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -4101,8 +4101,8 @@
           "buttonId": "AnubarakCryptweaveCocoonTalent",
           "name": "Tecer Cripta",
           "icon": "storm_ui_icon_anubarak_webblast.png",
-          "shortTooltip": "Aumenta a duração de Casulo",
-          "fullTooltip": "Ficar perto do Casulo permite que Anub'arak amplie a duração em até 6 s por Casulo.",
+          "shortTooltip": "Aumenta a duração de Casulo; dano periódico ao fim",
+          "fullTooltip": "Ficar perto do Casulo permite que Anub'arak amplie a duração em até 6 s por Casulo. Ao sair do Casulo, os inimigos recebem 50 (+4% per level) de dano ao longo de 4 s. Esse dano aumenta em 100% para cada segundo que a vítima ficar dentro do Casulo.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -4113,13 +4113,13 @@
           ]
         },
         {
-          "nameId": "GenericTalentHardenedShield",
-          "buttonId": "HardenedShieldTalent",
-          "name": "Escudo Fortalecido",
+          "nameId": "AnubarakTheTraitorKing",
+          "buttonId": "AnubarakTheTraitorKing",
+          "name": "O Rei Traidor",
           "icon": "storm_ui_icon_talent_hardenedshield.png",
           "cooldownTooltip": "Recarga: 60 segundos",
-          "shortTooltip": "Ative para ganhar Armadura gigantesca",
-          "fullTooltip": "Ative para ganhar 75 de Armadura por 4 segundos, recebendo 75% menos dano.",
+          "shortTooltip": "Ganha Vida e Armadura Mágica; ative para ganhar muita Armadura",
+          "fullTooltip": "Aumenta em 10% o máximo de Vida e em 20 a Armadura Mágica. Ative para ganhar 75 de Armadura por 4 s.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -6142,7 +6142,7 @@
           "name": "Mestre da Destruição",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "Todos Queimarão explode",
-          "fullTooltip": "O dano final de Todos Queimarão é causado a todos os inimigos ao redor do alvo e concede 4 de Aniquilação para cada Herói atingido.",
+          "fullTooltip": "Se a canalização de Todos Queimarão durar até o fim ou matar, o dano final será causado a todos os inimigos em uma área ao redor do alvo e concederá 4 de Aniquilação por Herói atingido.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -6204,7 +6204,7 @@
           "name": "Beijo da Cidárea",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "Reduz a canalização de Todos Queimarão; dano final cura",
-          "fullTooltip": "Reduz o tempo de canalização de Todos Queimarão em 0.5 s. Se Todos Queimarão for canalizado em um Herói até o fim, Azmodan recuperará 8% do máximo de Vida.",
+          "fullTooltip": "Reduz o tempo de canalização de Todos Queimarão em 0.5 s. Se Todos Queimarão matar ou for canalizado em um Herói até o fim, Azmodan recuperará 8% do máximo de Vida.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -6245,7 +6245,7 @@
           "name": "Fenda do Inferno",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "Todos Queimarão evoca e fortalece Demônios Guerreiros",
-          "fullTooltip": "Se Todos Queimarão canalizar até o fim, um Demônio Guerreiro será evocado onde o alvo estiver, e todos os Demônios Guerreiros causarão mais 100% de dano por 5 s.",
+          "fullTooltip": "Se Todos Queimarão canalizar até o fim ou matar o alvo, um Demônio Guerreiro será evocado onde o alvo estiver e todos os Demônios Guerreiros causarão mais 100% de dano por 5 s.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -6318,7 +6318,7 @@
           "name": "Garra do Pecado",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "Todos Queimarão desacelera, reduz a recarga",
-          "fullTooltip": "Todos Queimarão desacelera em 15% Heróis inimigos durante a canalização. Se Todos Queimarão canalizar até o fim em um Herói inimigo, a recarga será reduzida em 50% e o alvo ficará desacelerado em 50% por 2.5 s.",
+          "fullTooltip": "Todos Queimarão desacelera em 15% Heróis inimigos durante a canalização. Se Todos Queimarão canalizar até o fim ou matar um Herói inimigo, a recarga será reduzida em 50% e o alvo ficará desacelerado em 50% por 2.5 s.",
           "abilityType": "E",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -7670,7 +7670,7 @@
           "name": "Ingredientes Fresquinhos",
           "icon": "storm_ui_icon_chen_fortifyingbrew.png",
           "shortTooltip": "Missão: Globos de Regeneração curam mais",
-          "fullTooltip": "Aumenta a duração da cura dos Globos de Regeneração em 150%.  Missão: Coletar 15 Globos de Regeneração.  Recompensa: Reduz a recarga da Cerveja Fortificante em 1 s, e 50% do Escudo dela persiste por tempo indeterminado após parar de beber.",
+          "fullTooltip": "Aumenta a duração da cura dos Globos de Regeneração em 150%.  Missão: Coletar 15 Globos de Regeneração.  Recompensa: Reduz a recarga da Cerveja Fortificante em 2 s, e 50% do Escudo dela persiste por tempo indeterminado após parar de beber.",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 2,
@@ -7699,7 +7699,7 @@
           "name": "Golpe Mortal",
           "icon": "storm_ui_icon_chen_flyingkick.png",
           "shortTooltip": "Aumenta o dano de Voadora e remove o custo de Cerveja",
-          "fullTooltip": "Voadora não custa mais Cerveja. Além disso, o dano aumenta em 100% quando Chen está com o Escudo de Cerveja Fortificante.",
+          "fullTooltip": "Voadora não custa mais Cerveja. Além disso, o dano aumenta em 125% quando Chen está com o Escudo de Cerveja Fortificante.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -7744,7 +7744,7 @@
           "name": "Dádiva do Boi",
           "icon": "storm_ui_icon_chen_stagger.png",
           "shortTooltip": "Aumenta a duração de Cambalear, reduz o dano recebido",
-          "fullTooltip": "Aumenta em 1.5 s o tempo durante o qual Cambalear evita dano e reduz o dano ao longo do tempo para 60% do dano recebido.",
+          "fullTooltip": "Aumenta em 1.5 s o tempo durante o qual Cambalear evita dano e reduz o dano ao longo do tempo para 50% do dano recebido.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -11092,7 +11092,7 @@
           "energyTooltip": "Mana: 50",
           "cooldownTooltip": "Recarga: 10 segundos",
           "shortTooltip": "Causa dano a todos os inimigos próximos",
-          "fullTooltip": "Causa 49 (+4% per level) de dano a cada 0.5 s aos inimigos próximos por 3.5 s. Enquanto estiver ativo, você pode atravessar unidades. Pode ser lançado durante Arrastar e Entocar.",
+          "fullTooltip": "Causa 52 (+4% per level) de dano a cada 0.5 s aos inimigos próximos por 3.5 s. Enquanto estiver ativo, você pode atravessar unidades. Pode ser lançado durante Arrastar e Entocar.",
           "abilityType": "W"
         },
         {
@@ -11267,7 +11267,7 @@
           "icon": "storm_ui_icon_dehaka_burrow.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Entocar-se aciona furtividade e repele inimigos",
-          "fullTooltip": "Reduz a recarga de Entocar em 4 s. Emergir de Entocar concede Furtividade a Dehaka por 3 s, repele os inimigos próximos e os desacelera em 30% por 3 s.",
+          "fullTooltip": "Reduz a recarga de Entocar em 6 s. Emergir de Entocar concede Furtividade a Dehaka por 3 s, repele os inimigos próximos e os desacelera em 30% por 3 s.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -11330,7 +11330,7 @@
           "name": "Enzimas Paralisantes",
           "icon": "storm_ui_icon_dehaka_drag_var1.png",
           "shortTooltip": "Aumenta duração de Arrastar; desacelera",
-          "fullTooltip": "Aumenta a duração de Arrastar em 0.5 s. Arrastar desacelera os inimigos em 30% por 2 s depois que acaba.",
+          "fullTooltip": "Aumenta a duração de Arrastar em 0.5 s. Arrastar desacelera os inimigos em 35% por 2 s depois que acaba.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -11387,23 +11387,6 @@
       ],
       "level13": [
         {
-          "nameId": "DehakaPrimalRage",
-          "buttonId": "DehakaPrimalRage",
-          "name": "Raiva Primeva",
-          "icon": "storm_ui_icon_dehaka_essencecollection.png",
-          "charges": {
-            "countMax": 50,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "Essência aumenta o Dano de Ataque",
-          "fullTooltip": "Aumenta em 1% o Dano de Ataque para cada Essência armazenada.",
-          "abilityType": "Trait",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "DehakaEssenceCollection"
-          ]
-        },
-        {
           "nameId": "DehakaBrushstalkerFerociousStalker",
           "buttonId": "DehakaBrushstalkerFerociousStalkerTalent",
           "name": "Espreitador Feroz",
@@ -11411,7 +11394,7 @@
           "shortTooltip": "Espreita-arbustos causa desaceleração e aumenta o dano de Enxame Macabro",
           "fullTooltip": "Enxame macabro desacelera Heróis inimigos em 15% por 0.75 s e causa 50% a mais de dano enquanto o bônus de Velocidade de Movimento do Espreita-arbustos estiver ativo.",
           "abilityType": "W",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "DehakaDarkSwarm"
           ]
@@ -11424,9 +11407,26 @@
           "shortTooltip": "Enxame Macabro reduz a Armadura dos inimigos",
           "fullTooltip": "Enxame Macabro faz os inimigos atingidos perderem 10 de Armadura por 0.75 segundo, fazendo-os receber 10% de dano extra.",
           "abilityType": "W",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "DehakaDarkSwarm"
+          ]
+        },
+        {
+          "nameId": "DehakaPrimalRage",
+          "buttonId": "DehakaPrimalRage",
+          "name": "Raiva Primeva",
+          "icon": "storm_ui_icon_dehaka_essencecollection.png",
+          "charges": {
+            "countMax": 50,
+            "recastCooldown": 1.0
+          },
+          "shortTooltip": "Essência aumenta o Dano de Ataque",
+          "fullTooltip": "Aumenta em 1.25% o Dano de Ataque para cada Essência armazenada.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DehakaEssenceCollection"
           ]
         }
       ],
@@ -11495,7 +11495,7 @@
           "name": "Mudar é Sobreviver",
           "icon": "storm_ui_icon_dehaka_adaptation.png",
           "shortTooltip": "Melhora a cura e a recarga de Adaptação",
-          "fullTooltip": "Aumenta a cura de Adaptação para 200% do dano recebido e reduz a recarga em 30 segundos.",
+          "fullTooltip": "Aumenta a cura de Adaptação para 200% do dano recebido e reduz a recarga em 40 segundos.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -11503,19 +11503,6 @@
           ],
           "prerequisiteTalentIds": [
             "DehakaHeroicAbilityAdaptation"
-          ]
-        },
-        {
-          "nameId": "DehakaBrushstalkerApexPredator",
-          "buttonId": "DehakaBrushstalkerApexPredatorTalent",
-          "name": "Predador do Ápice",
-          "icon": "storm_ui_icon_dehaka_brushstalker.png",
-          "shortTooltip": "Reduz recarga e tempo de lançamento de Espreita-arbustos",
-          "fullTooltip": "Reduz a recarga do Espreita-arbustos em 35 segundos e o tempo de lançamento em 0.5 segundo.",
-          "abilityType": "Z",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DehakaBrushstalker"
           ]
         },
         {
@@ -11530,9 +11517,22 @@
           "shortTooltip": "Os Ataques Básicos causam desaceleração e concedem Essência",
           "fullTooltip": "Os Ataques Básicos de Dehaka desaceleram o alvo em 20% por 1 segundo. Se o alvo for um Herói, Dehaka ganhará 5 de Essência.",
           "abilityType": "Trait",
-          "sort": 4,
+          "sort": 3,
           "abilityTalentLinkIds": [
             "DehakaEssenceCollection"
+          ]
+        },
+        {
+          "nameId": "DehakaBrushstalkerApexPredator",
+          "buttonId": "DehakaBrushstalkerApexPredatorTalent",
+          "name": "Predador do Ápice",
+          "icon": "storm_ui_icon_dehaka_brushstalker.png",
+          "shortTooltip": "Reduz recarga e tempo de lançamento de Espreita-arbustos",
+          "fullTooltip": "Reduz a recarga do Espreita-arbustos em 50 segundos e o tempo de lançamento em 0.5 segundo.",
+          "abilityType": "Z",
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "DehakaBrushstalker"
           ]
         }
       ]
@@ -12919,7 +12919,7 @@
           "name": "Gérmen de Florescimento",
           "icon": "storm_ui_icon_lunara_pollencloud.png",
           "shortTooltip": "Aumenta o alcance e o raio do Florescimento Nóxio",
-          "fullTooltip": "Aumenta em 25% o alcance do Florescimento Nóxio e em 20% o raio dele. Atingir um Herói inimigo com Florescimento Nóxio aumenta em 15% a Velocidade de Movimento de Lunara por 3 s. Acumula com outros bônus de Velocidade de Movimento.",
+          "fullTooltip": "Aumenta em 25% o alcance do Florescimento Nóxio e em 20% o raio. Gérmen de Florescimento concederá 2 aplicações da Toxina da Natureza aos inimigos atingidos.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13097,7 +13097,7 @@
           "name": "Contaminação Acelerada",
           "icon": "storm_ui_icon_lunara_pollencloud.png",
           "shortTooltip": "Florescimento Nóxio recarrega mais rápido",
-          "fullTooltip": "Reduz o custo de Mana do Florescimento Nóxio de 60 para 40. Enquanto houver pelo menos 2 Heróis inimigos sob efeito da Toxina da Natureza, a recarga do Florescimento Nóxio será concluída 100% mais depressa.",
+          "fullTooltip": "Reduz o custo de Mana do Florescimento Nóxio de 60 para 40. Enquanto houver pelo menos 1 Herói inimigo sob efeito da Toxina da Natureza, a recarga do Florescimento Nóxio será concluída 75% mais depressa.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13110,7 +13110,7 @@
           "name": "Lança de Madeira Estelar",
           "icon": "storm_ui_icon_lunara_fullbloom.png",
           "shortTooltip": "Esporos Incapacitantes aumentam o alcance do Ataque Básico",
-          "fullTooltip": "Usar Esporos Incapacitantes aumenta em 2.75 o alcance do Ataque Básico de Lunara por 6 segundos.",
+          "fullTooltip": "Aumenta o alcance do Ataque Básico de Lunara em 0.5. Usar Esporos Incapacitantes aumenta em mais 2.25 o alcance do Ataque Básico por 6 s.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -13531,7 +13531,7 @@
           "icon": "storm_ui_icon_dva_boosters.png",
           "toggleCooldown": 0.0625,
           "shortTooltip": "Propulsores roubam vida; aumenta o dano não Heroico",
-          "fullTooltip": "Propulsores causam dano extra equivalente a 3% do máximo de Vida a Heróis e curam o Mecha de D.Va num valor equivalente ao dano causado. Propulsores causam 75% a mais de dano a inimigos não Heroicos.",
+          "fullTooltip": "Propulsores causam dano extra equivalente a 2% do máximo de Vida a Heróis e curam o Mecha de D.Va num valor equivalente ao dano causado. Propulsores causam 70% a mais de dano a inimigos não Heroicos.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -14615,10 +14615,10 @@
           "buttonId": "FalstadHinterlandBlast",
           "name": "Golpe das Terras Agrestes",
           "icon": "storm_ui_icon_falstad_hinterlandblast.png",
-          "energyTooltip": "Mana: 100",
+          "energyTooltip": "Mana: 80",
           "cooldownTooltip": "Recarga: 120 segundos",
           "shortTooltip": "Feixe de dano de longo alcance",
-          "fullTooltip": "Após 1 s, causa 475 (+4.75% per level) de dano aos inimigos enfileirados até uma longa distância. A recarga é reduzida em 25 s para cada Herói inimigo atingido.",
+          "fullTooltip": "Após 1 s, causa 475 (+4.75% per level) de dano aos inimigos enfileirados até uma longa distância. A recarga é reduzida em 30 s para cada Herói inimigo atingido.",
           "abilityType": "Heroic"
         }
       ],
@@ -14706,7 +14706,7 @@
           "name": "Tempestade à Vista",
           "icon": "storm_ui_icon_falstad_hammerang.png",
           "shortTooltip": "Missão: Atingir Heróis potencializa Martelorangue",
-          "fullTooltip": "Missão: sempre que acertar um Herói, Martelorangue terá o dano aumentado permanentemente em 1.5 e restaurará 10 de Mana.",
+          "fullTooltip": "Missão: sempre que acertar um Herói, Martelorangue terá o dano aumentado permanentemente em 2 e restaurará 10 de Mana.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -14765,7 +14765,7 @@
           "name": "Corrente de Ar",
           "icon": "storm_ui_icon_falstad_barrelroll.png",
           "shortTooltip": "Aumenta o alcance e o Escudo do Tunô Barril",
-          "fullTooltip": "Aumenta em 40% o alcance do Tunô Barril e em 60% a quantidade de Escudo. O Escudo passa a durar por tempo indeterminado.",
+          "fullTooltip": "Aumenta em 40% o alcance do Tunô Barril e em 70% a quantidade de Escudo. O Escudo passa a durar por tempo indeterminado.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -14790,7 +14790,7 @@
           "name": "Arma Secreta",
           "icon": "storm_ui_icon_falstad_hammerang.png",
           "shortTooltip": "Aumenta o alcance de Martelorangue e o dano de Ataque Básico",
-          "fullTooltip": "Aumenta em 30% o alcance de Martelorangue, e os Ataques Básicos causam 80% de dano extra enquanto o Martelorangue estiver no ar.",
+          "fullTooltip": "Aumenta em 30% o alcance de Martelorangue, e os Ataques Básicos causam 90% de dano extra enquanto o Martelorangue estiver no ar.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -14830,10 +14830,10 @@
           "buttonId": "FalstadHinterlandBlast",
           "name": "Golpe das Terras Agrestes",
           "icon": "storm_ui_icon_falstad_hinterlandblast.png",
-          "energyTooltip": "Mana: 100",
+          "energyTooltip": "Mana: 80",
           "cooldownTooltip": "Recarga: 120 segundos",
           "shortTooltip": "Feixe de dano de longo alcance",
-          "fullTooltip": "Após 1 s, causa 475 (+4.75% per level) de dano aos inimigos enfileirados até uma longa distância. A recarga é reduzida em 25 s para cada Herói inimigo atingido.",
+          "fullTooltip": "Após 1 s, causa 475 (+4.75% per level) de dano aos inimigos enfileirados até uma longa distância. A recarga é reduzida em 30 s para cada Herói inimigo atingido.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -14986,7 +14986,7 @@
           "name": "Montaria Épica",
           "icon": "storm_ui_icon_falstad_epicmount.png",
           "shortTooltip": "Reduz a recarga e o intervalo de Voo",
-          "fullTooltip": "Reduz a recarga do Voo em 40 s, o tempo de lançamento anterior ao voo para 0,5 s e aumenta a velocidade em 50%.",
+          "fullTooltip": "Reduz a recarga do Voo em 50 s, o tempo de lançamento anterior ao voo para 0,5 s e aumenta a velocidade em 50%.",
           "abilityType": "Z",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -23856,7 +23856,7 @@
         "nameId": "LeoricWeapon",
         "range": 2.0,
         "period": 1.3,
-        "damage": 109.0,
+        "damage": 115.0,
         "damageScale": 0.04
       }
     ],
@@ -24207,7 +24207,7 @@
           "name": "Desespero Infindo",
           "icon": "storm_ui_icon_leoric_drainhope.png",
           "shortTooltip": "Reduz a recarga de Drenar Esperança",
-          "fullTooltip": "Reduz em 0,5 s a recarga de Drenar Esperança a cada 1 s que a habilidade permanece ativa. Se Drenar Esperança durar até o final, a recarga será reduzida em mais 3 s.",
+          "fullTooltip": "Reduz em 0,75 s a recarga de Drenar Esperança a cada 1 s que a habilidade permanece ativa. Se Drenar Esperança durar até o final, a recarga será reduzida em mais 2 s.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -24317,39 +24317,29 @@
           ]
         },
         {
-          "nameId": "LeoricDrainHopeHardenedBonesTalent",
-          "buttonId": "LeoricHardenedBonesTalent",
-          "name": "Ossos Empedernidos",
-          "icon": "storm_ui_icon_leoric_drainhope_var1.png",
-          "shortTooltip": "Ganha Armadura durante Drenar Esperança",
-          "fullTooltip": "Enquanto Drenar Esperança estiver ativo, ganha 50 de Armadura. Se Drenar Esperança durar até o final, o bônus de Armadura continuará por 2 s.",
-          "abilityType": "W",
+          "nameId": "LeoricBurningDespairTalent",
+          "buttonId": "LeoricBurningDespair",
+          "name": "Desespero Ardente",
+          "icon": "storm_ui_icon_leoric_drainhope.png",
+          "shortTooltip": "Causa dano a inimigos próximos; ganha Armadura",
+          "fullTooltip": "Causa 40 (+4% per level) de dano por segundo aos inimigos próximos.   Enquanto Drenar Esperança estiver ativo, ganha 40 de Armadura, além de aumentar em 100% o dano e a área.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
             "LeoricDrainHope"
           ]
         },
         {
-          "nameId": "LeoricBurningDespairTalent",
-          "buttonId": "LeoricBurningDespair",
-          "name": "Desespero Ardente",
-          "icon": "storm_ui_icon_leoric_drainhope.png",
-          "shortTooltip": "Causa dano a inimigos próximos",
-          "fullTooltip": "Causa 40 (+4% per level) de dano por segundo aos inimigos próximos. O dano e a área aumentam em 100% enquanto Drenar Esperança estiver ativo.",
-          "abilityType": "Passive",
-          "sort": 4
-        },
-        {
           "nameId": "LeoricShroudoftheDeadKingTalent",
           "buttonId": "LeoricShroudoftheDeadKingTalent",
           "name": "Mortalha do Rei Morto",
           "icon": "storm_ui_icon_talent_hardenedshield.png",
-          "cooldownTooltip": "Recarga: 30 segundos",
+          "cooldownTooltip": "Recarga: 25 segundos",
           "shortTooltip": "Ative para ficar Protegido",
           "fullTooltip": "Ative para ficar Protegido por 3 s, anulando todo o dano.",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 5
+          "sort": 4
         }
       ]
     }
@@ -27704,10 +27694,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_malganis.png"
     },
     "life": {
-      "amount": 2450.0,
+      "amount": 2550.0,
       "scale": 0.04,
       "type": "Vida",
-      "regenRate": 5.1054,
+      "regenRate": 5.3125,
       "regenScale": 0.04
     },
     "energy": {
@@ -27985,7 +27975,7 @@
           "name": "Eco da Ruína",
           "icon": "storm_ui_icon_malganis_necrotic_c.png",
           "shortTooltip": "Abraço Necrótico explode quando expira",
-          "fullTooltip": "Quando Abraço Necrótico expira, provoca uma nova explosão que causa 60 (+4% per level) de dano. Para cada Herói inimigo atingido, ganha 5 de Mana e reduz a recarga do Abraço Necrótico em 0.75 s.  Não desperta alvos adormecidos.",
+          "fullTooltip": "Quando Abraço Necrótico expira, provoca uma nova explosão que causa 66 (+4% per level) de dano. Para cada Herói inimigo atingido, ganha 5 de Mana e reduz a recarga do Abraço Necrótico em 0.75 s.  Não desperta alvos adormecidos.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -28488,7 +28478,7 @@
           "name": "Alcance Nefasto",
           "icon": "storm_ui_icon_malthael_deathshroud.png",
           "shortTooltip": "Aumenta o alcance da Mortalha Sombria; reduz a recarga",
-          "fullTooltip": "Aumenta o alcance da Mortalha Sombria em 33%, reduz a recarga em 3 s e reduz o custo de Mana de 50 para 30.",
+          "fullTooltip": "Aumenta o alcance da Mortalha Sombria em 33%, reduz a recarga em 3 s e reduz o custo de Mana de 50 para 30.  O impacto inicial da Mortalha da Morte causa dano equivalente a 2% do máximo de Vida a inimigos que não sejam Estruturas.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -28670,7 +28660,7 @@
           "name": "Memento Mori",
           "icon": "storm_ui_icon_malthael_reapersmark.png",
           "shortTooltip": "Marca do Ceifador causa mais dano ao longo do tempo",
-          "fullTooltip": "Marca do Ceifador causa 80% a mais de dano após afligir um inimigo por mais de 4 s.",
+          "fullTooltip": "Marca do Ceifador causa 90% a mais de dano após afligir um inimigo por mais de 4 s.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -34538,8 +34528,8 @@
           "buttonId": "OrpheaAllegrissimo",
           "name": "Allegrissimo",
           "icon": "storm_ui_icon_orphea_q.png",
-          "shortTooltip": "Valsa das Sombras tem mais redução de recarga na ponta",
-          "fullTooltip": "Reduz a recarga da Valsa das Sombras para 0.75 s ao atingir Heróis na ponta.",
+          "shortTooltip": "Reduz a recarga da Valsa das Sombras",
+          "fullTooltip": "Reduz a recarga da Valsa das Sombras para 1 s.  Acertar Heróis com a ponta da Valsa das Sombras reduz a recarga para 0.75 s.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34581,7 +34571,7 @@
           "name": "Insaciável",
           "icon": "storm_ui_icon_orphea_w.png",
           "shortTooltip": "A recarga de Abocanhar é reduzida ao atingir Heróis",
-          "fullTooltip": "Abocanhar tem a recarga reduzida para 1.5 s ao atingir um Herói.",
+          "fullTooltip": "Abocanhar tem a recarga reduzida para 2 s ao atingir um Herói.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34745,8 +34735,8 @@
           "buttonId": "OrpheaMonsterWithin",
           "name": "Monstro Interior",
           "icon": "storm_ui_icon_orphea_ult_darkfall.png",
-          "shortTooltip": "Banquete Eterno concede Caos e aumenta a Velocidade de Ataque",
-          "fullTooltip": "Banquete Eterno concede 1 de Caos ao atingir um Herói. Enquanto Banquete Eterno estiver ativo, a Velocidade de Ataque de Orféa aumenta em 50%.",
+          "shortTooltip": "Banquete Eterno concede Caos; reduz recargas",
+          "fullTooltip": "Banquete Eterno concede 1 de Caos sempre que atingir um Herói. Enquanto Banquete Eterno estiver ativo, as Habilidades Básicas de Orféa recarregam 150% mais rápido.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34762,7 +34752,7 @@
           "name": "Abraço do Esquecimento",
           "icon": "storm_ui_icon_orphea_ult_thrasher.png",
           "shortTooltip": "Mandíbulas Esmagadoras reduz a Armadura; reduz a recarga",
-          "fullTooltip": "Mandíbulas Esmagadoras reduz a Armadura dos Heróis atingidos em 25 por 2 s. Abates reduzem a recarga para 5 s.",
+          "fullTooltip": "Mandíbulas Esmagadoras reduz a Armadura dos Heróis atingidos em 25 por 3 s. Abates reduzem a recarga para 5 s.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -34791,7 +34781,7 @@
           "buttonId": "OrpheaFinalToccata",
           "name": "Última Tocata",
           "icon": "storm_ui_icon_orphea_reset.png",
-          "cooldownTooltip": "Recarga: 30 segundos",
+          "cooldownTooltip": "Recarga: 20 segundos",
           "shortTooltip": "Conclui a recarga de Valsa das Sombras após a arremetida",
           "fullTooltip": "Ative para concluir instantaneamente a recarga da Valsa das Sombras. Durante os próximos 6 s, Valsa das Sombras terá a recarga concluída a cada arremetida.",
           "abilityType": "Active",
@@ -38498,9 +38488,9 @@
             "countStart": 3,
             "recastCooldown": 5.0
           },
-          "cooldownTooltip": "Recarga da carga: 90 segundos",
+          "cooldownTooltip": "Recarga da carga: 100 segundos",
           "shortTooltip": "Ative para aumentar o dano de ataque básico",
-          "fullTooltip": "Ative para aumentar o dano de Ataque Básico causado em 35% por 5 s. Atingir Estruturas com Ataques Básicos no Modo de Cerco reduz a recarga de Disparos Turbilhão em 5 s.  Acumula até 3 cargas.",
+          "fullTooltip": "Ative para aumentar o dano de Ataque Básico causado em 30% por 5 s. Atingir Heróis inimigos ou Estruturas com Ataques Básicos no Modo de Cerco reduz a recarga de Disparos Turbilhão em 5 s.  Acumula até 3 cargas.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3,
@@ -38516,7 +38506,7 @@
           "name": "Barricada",
           "icon": "storm_ui_icon_sgthammer_concussiveblast.png",
           "shortTooltip": "Impacto de Concussão cria uma barreira",
-          "fullTooltip": "Reduz a recarga do Impacto de Concussão em 3 s, o custo de Mana em 40 e cria uma barreira intransponível à frente da Sgt. Marreta por 4 s.",
+          "fullTooltip": "Reduz a recarga do Impacto de Concussão em 4 s, o custo de Mana em 40 e cria uma barreira intransponível à frente da Sgt. Marreta por 4 s.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38557,7 +38547,7 @@
           "name": "Núcleo de Detonação por Pulso",
           "icon": "storm_ui_icon_sgthammer_spidermines.png",
           "shortTooltip": "Minas-aranha explodem várias vezes",
-          "fullTooltip": "Minas-aranha explodem 3 vezes ao longo de 3 s. Ataques Básicos contra Heróis inimigos concedem 5 de Mana e reduzem a recarga das Minas-aranha em 1 s. Este bônus sobe para 1.5 s no Modo de Cerco.",
+          "fullTooltip": "Minas-aranha explodem 3 vezes ao longo de 3 s. Ataques Básicos contra Heróis inimigos concedem 5 de Mana e reduzem a recarga das Minas-aranha em 1.5 s. Esse bônus sobe para 2.5 s no Modo de Cerco.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38584,7 +38574,7 @@
           "name": "Alcance Gradativo",
           "icon": "storm_ui_icon_sgthammer_siegemode_var1.png",
           "shortTooltip": "Aumenta gradativamente o alcance do Ataque Básico no Modo de Cerco",
-          "fullTooltip": "Enquanto estiver no Modo de Cerco, o alcance do Ataque Básico aumenta em 1 a cada 3 s, até um máximo de 3.",
+          "fullTooltip": "Enquanto estiver no Modo de Cerco, o alcance do Ataque Básico aumenta em 1 a cada 2 s, até um máximo de 3.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -38674,8 +38664,8 @@
           "buttonId": "SgtHammerNeosteelPlatingMechanicalKnowhowTalent",
           "name": "Conhecimento Mecânico",
           "icon": "storm_ui_icon_sgthammer_neosteelplating.png",
-          "shortTooltip": "Blindagem de Novoaço concede um Escudo",
-          "fullTooltip": "Blindagem de Novoaço concede Escudo equivalente a 5% do máximo de Vida por 2 s. Se este escudo for destruído, o dano de Ataque Básico aumenta em 50% por 5 s.",
+          "shortTooltip": "Blindagem de Novoaço concede um Escudo; aumenta o dano",
+          "fullTooltip": "Blindagem de Novoaço concede Escudo equivalente a 20% do máximo de Vida por 2 s e aumenta o dano de Ataque Básico em 30% por 5 s.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -40021,8 +40011,8 @@
           "buttonId": "SylvanasMindControlMissile",
           "name": "Controle Mental",
           "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
-          "energyTooltip": "Mana: 75",
-          "cooldownTooltip": "Recarga: 50 s",
+          "energyTooltip": "Mana: 50",
+          "cooldownTooltip": "Recarga: 40 s",
           "shortTooltip": "Força um Herói inimigo a andar em direção a Sylvana",
           "fullTooltip": "Após 0.25 s, dispara um projétil que causa Controle Mental no primeiro Herói inimigo atingido. Heróis atingidos são silenciados, desacelerados em 30%, recebem 3 aplicações da Maldição da Banshee e são forçados a andar em direção a Sylvana por 1.75 s.",
           "abilityType": "Heroic"
@@ -40319,8 +40309,8 @@
           "buttonId": "SylvanasMindControlMissile",
           "name": "Controle Mental",
           "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
-          "energyTooltip": "Mana: 75",
-          "cooldownTooltip": "Recarga: 50 s",
+          "energyTooltip": "Mana: 50",
+          "cooldownTooltip": "Recarga: 40 s",
           "shortTooltip": "Força um Herói inimigo a andar em direção a Sylvana",
           "fullTooltip": "Após 0.25 s, dispara um projétil que causa Controle Mental no primeiro Herói inimigo atingido. Heróis atingidos são silenciados, desacelerados em 30%, recebem 3 aplicações da Maldição da Banshee e são forçados a andar em direção a Sylvana por 1.75 s.",
           "abilityType": "Heroic",
@@ -40433,7 +40423,7 @@
           "name": "Chamado da Dama Sombria",
           "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
           "shortTooltip": "Controle Mental reduz a visão do inimigo",
-          "fullTooltip": "Heróis atingidos por Controle Mental têm o campo de visão bastante reduzido por 5 s. Controle Mental tem a recarga reduzida em 30 s.",
+          "fullTooltip": "Heróis atingidos por Controle Mental têm o campo de visão bastante reduzido por 5 s. Controle Mental tem a recarga reduzida em 25 s.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -40448,8 +40438,8 @@
           "buttonId": "SylvanasWitheringFireWitheringBarrage",
           "name": "Barragem Devastadora",
           "icon": "storm_ui_icon_sylvanas_witheringfire.png",
-          "shortTooltip": "Reduz a recarga do Fogo Devastador",
-          "fullTooltip": "Reduz a recarga do Fogo Devastador em 0.75 s ao atingir Heróis inimigos.",
+          "shortTooltip": "Fogo Devastador aplica Maldição da Banshee",
+          "fullTooltip": "Fogo Devastador aplica Maldição da Banshee, e os Heróis atingidos pelo Fogo Devastador reduzem a recarga em 0.75 s.",
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -41681,7 +41671,7 @@
           "toggleCooldown": 0.5,
           "energyTooltip": "Sucata: 4",
           "shortTooltip": "Cria uma torreta que dispara contra os inimigos próximos",
-          "fullTooltip": "Cria uma torreta que causa 40 (+4% per level) de dano. Dura 15 s.  Ao ser criada, a torre prioriza o Herói inimigo mais próximo.",
+          "fullTooltip": "Cria uma torreta que causa 38 (+4% per level) de dano. Dura 15 s.  Ao ser criada, a torre prioriza o Herói inimigo mais próximo.",
           "abilityType": "Q"
         },
         {
@@ -41698,7 +41688,7 @@
           },
           "cooldownTooltip": "Recarga: 8 s",
           "shortTooltip": "Causa dano em linha reta",
-          "fullTooltip": "Após 0.65 s, causa 184 (+4% per level) de dano a inimigos em linha reta. Cura-se em 25% do dano causado, aumentando para 75% contra Heróis inimigos.",
+          "fullTooltip": "Após 0.65 s, causa 180 (+4% per level) de dano a inimigos em linha reta. Cura-se em 25% do dano causado, aumentando para 75% contra Heróis inimigos.",
           "abilityType": "W"
         },
         {
@@ -41853,7 +41843,7 @@
           "name": "Caçador Profissional",
           "icon": "storm_ui_icon_gazlowe_salvager.png",
           "shortTooltip": "Atingir Heróis, Mercenários e Monstros aumenta a Sucata",
-          "fullTooltip": "Aumenta a Sucata máxima em 2. Ataques Básicos contra Heróis inimigos, Mercenários e Monstros aceleram a regeneração de Sucata de Reduzir, Reutilizar, Reciclar em 2 s.",
+          "fullTooltip": "Aumenta a Sucata máxima em 2. Ataques Básicos contra Heróis inimigos, Mercenários e Monstros aceleram a regeneração de Sucata de Reduzir, Reutilizar, Reciclar em 1.5 s.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41882,7 +41872,7 @@
           "icon": "storm_ui_icon_gazlowe_rockitturret.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Recebe Escudo ao usar Torre Arrebenta!",
-          "fullTooltip": "Ao lançar Torre Arrebenta!, Gasganete recebe um Escudo que absorve até 215 (+4% per level) de dano por 2.5 s.",
+          "fullTooltip": "Ao lançar Torre Arrebenta!, Gasganete recebe um Escudo que absorve até 200 (+4% per level) de dano por 2.5 s.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -42021,7 +42011,7 @@
           "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Torre Arrebenta! ataca vários inimigos",
-          "fullTooltip": "A Torre Arrebenta! ataca até 2 inimigos adicionais, causando 75% do dano, e tem 50% de alcance de Ataque Básico a mais.",
+          "fullTooltip": "A Torre Arrebenta! ataca até 2 inimigos adicionais, causando 60% do dano, e tem 50% de alcance de Ataque Básico a mais.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -42077,7 +42067,7 @@
             "recastCooldown": 3.0
           },
           "shortTooltip": "Carga de Xplôdio cria uma Torreta; reduz a recarga",
-          "fullTooltip": "Reduz a recarga da Carga de Xplôdio em 3 s. Lançar Carga de Xplôdio cria 3 miniaturas de Torre Arrebenta! que duram 3 s.  Essas Torres não deixam cair Sucata nem se beneficiam de outros Talentos.",
+          "fullTooltip": "Reduz a recarga da Carga de Xplôdio em 2 s. Lançar Carga de Xplôdio cria 3 miniaturas de Torre Arrebenta! que duram 3 s.  Essas Torres não deixam cair Sucata nem se beneficiam de outros Talentos.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -43091,8 +43081,8 @@
           "buttonId": "TychusFragGrenadeQuarterbackTalent",
           "name": "Tiro de Meta",
           "icon": "storm_ui_icon_tychus_fraggrenade.png",
-          "shortTooltip": "Alcance da Granada de Fragmentação aumentado",
-          "fullTooltip": "Aumenta o alcance da Granada de Fragmentação em 50%.",
+          "shortTooltip": "Aumenta dano e alcance da Granada de Fragmentação",
+          "fullTooltip": "Aumenta em 20% o dano e em 50% o alcance da Granada de Fragmentação.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -44833,7 +44823,7 @@
           "name": "Guardião dos Reis Antigos",
           "icon": "storm_ui_icon_uther_eternaldevotion.png",
           "shortTooltip": "Aumenta a Armadura da Devoção em alvos incapacitados",
-          "fullTooltip": "Curar um Herói Atordoado, Enraizado ou Silenciado concede a ele 50 de Armadura por 3 s.",
+          "fullTooltip": "Curar com uma Habilidade Básica um Herói atordoado, enraizado ou silenciado concede a ele 50 de Armadura por 3 s.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -45647,10 +45637,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_varian.png"
     },
     "life": {
-      "amount": 2116.0,
+      "amount": 2220.0,
       "scale": 0.04,
       "type": "Vida",
-      "regenRate": 4.4062,
+      "regenRate": 4.625,
       "regenScale": 0.04
     },
     "energy": {
@@ -45854,7 +45844,7 @@
           "name": "Bocarra do Leão",
           "icon": "storm_ui_icon_varian_lionsfang.png",
           "shortTooltip": "Missão: Atingir Heróis para potencializar Presa do Leão",
-          "fullTooltip": "Missão: Toda vez que Presa do Leão atinge um Herói, o dano da habilidade aumenta em 5, até um máximo de 125.  Recompensa: Ao atingir 25 Heróis, a desaceleração aumenta para 50%, e a duração, para 2 s.",
+          "fullTooltip": "Missão: Toda vez que Presa do Leão atinge um Herói, o dano da habilidade aumenta em 6, até um máximo de 150.  Recompensa: Ao atingir 25 Heróis, a desaceleração aumenta para 50%, e a duração, para 2 s.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -45886,7 +45876,7 @@
           "name": "Jornada do Alto-rei",
           "icon": "storm_ui_icon_varian_highkingsquest.png",
           "shortTooltip": "Missão: Cumpra missões para ganhar Dano de Ataque",
-          "fullTooltip": "Missão: Atingir 50 Heróis com Ataques Básicos. Missão: Participar de 5 Abates de Heróis. Missão: Coletar 20 Globos de Regeneração.  Recompensa: Cumprir uma Missão concede 10 de Dano de Ataque Básico. Cumprir as 3 Missões concede um adicional de 30 de Dano de Ataque Básico.",
+          "fullTooltip": "Missão: Atingir 50 Heróis com Ataques Básicos. Missão: Participar de 5 Abates de Heróis. Missão: Coletar 15 Globos de Regeneração.  Recompensa: Cumprir uma Missão concede 10 de Dano de Ataque Básico. Cumprir as 3 Missões concede um adicional de 30 de Dano de Ataque Básico.",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 3,
@@ -46161,7 +46151,7 @@
           "buttonId": "VarianDemoralizingShout",
           "name": "Urro Desmoralizante",
           "icon": "storm_ui_icon_varian_demoralizingshout.png",
-          "cooldownTooltip": "Recarga: 25 segundos",
+          "cooldownTooltip": "Recarga: 20 segundos",
           "shortTooltip": "Reduz o dano de Heróis próximos",
           "fullTooltip": "Ative para desmoralizar Heróis inimigos próximos, reduzindo o dano causado por eles em 40% por 5 segundos.",
           "abilityType": "Active",

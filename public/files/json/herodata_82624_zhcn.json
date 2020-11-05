@@ -1168,7 +1168,7 @@
           "name": "嘲讽打击",
           "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
           "shortTooltip": "攻击被控制的英雄减少冷却时间",
-          "fullTooltip": "对处于昏迷、沉默、减速或定身效果的英雄进行普通攻击，可以使阿拉纳克基本技能的冷却时间缩短3秒。",
+          "fullTooltip": "对敌方英雄进行普通攻击，可以使阿拉纳克基本技能的冷却时间缩短1.5秒。当敌方英雄处于昏迷、沉默、减速或定身效果时，该加成翻倍。",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -4086,7 +4086,7 @@
           "name": "吸血暴蝗",
           "icon": "storm_ui_icon_anubarak_locustswarm.png",
           "shortTooltip": "孵化一只永久的吸血蝗虫",
-          "fullTooltip": "获得一只永久的吸血蝗虫，每3秒攻击一次附近的一名敌人。吸血蝗虫造成153 (+4% per level)点伤害，然后返回治疗阿努巴拉克50 (+4% per level)点生命值。",
+          "fullTooltip": "获得一只永久的吸血蝗虫，每3秒攻击一次附近的一名敌人。吸血蝗虫造成165 (+4% per level)点伤害，然后返回治疗阿努巴拉克80 (+4% per level)点生命值。",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -4101,8 +4101,8 @@
           "buttonId": "AnubarakCryptweaveCocoonTalent",
           "name": "地穴织网",
           "icon": "storm_ui_icon_anubarak_webblast.png",
-          "shortTooltip": "延长虫茧缚体的持续时间",
-          "fullTooltip": "阿努巴拉克在虫茧缚体周围时可以延长其持续时间，每个虫茧最多延长6秒。",
+          "shortTooltip": "延长虫茧缚体的持续时间，挣脱时施加持续伤害效果",
+          "fullTooltip": "阿努巴拉克在虫茧缚体周围时可以延长其持续时间，每个虫茧最多延长6秒。敌人从虫茧挣脱时，会在4秒内受到50 (+4% per level)点伤害。敌人每被虫茧束缚1秒，该伤害就会提高100%。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -4113,13 +4113,13 @@
           ]
         },
         {
-          "nameId": "GenericTalentHardenedShield",
-          "buttonId": "HardenedShieldTalent",
-          "name": "刚毅护盾",
+          "nameId": "AnubarakTheTraitorKing",
+          "buttonId": "AnubarakTheTraitorKing",
+          "name": "叛徒国王",
           "icon": "storm_ui_icon_talent_hardenedshield.png",
           "cooldownTooltip": "冷却时间：60秒",
-          "shortTooltip": "激活后获得大量护甲",
-          "fullTooltip": "激活后获得75点护甲，使受到的伤害降低75%，持续4秒。",
+          "shortTooltip": "获得生命值和法术护甲加成，激活后获得大量护甲",
+          "fullTooltip": "获得10%最大生命值加成和20点法术护甲值加成。激活后获得75点护甲值，持续4秒。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -6142,7 +6142,7 @@
           "name": "毁灭专长",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "燃尽万物将爆炸",
-          "fullTooltip": "燃尽万物的最终伤害将施加给目标周围区域内的所有敌人，并且每击中一名英雄给予4点湮灭。",
+          "fullTooltip": "如果燃尽万物完整引导或造成击杀，燃尽万物的最终伤害将施加给目标周围区域内的所有敌人，并且每击中一名英雄给予4层湮灭。",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -6204,7 +6204,7 @@
           "name": "辛迪娅之吻",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "缩短燃尽万物的引导时间，最终伤害具有治疗效果",
-          "fullTooltip": "使燃尽万物的引导时间缩短0.5秒。如果燃尽万物在英雄身上完整引导，阿兹莫丹将获得相当于其最大生命值8%的生命。",
+          "fullTooltip": "使燃尽万物的引导时间缩短0.5秒。如果燃尽万物消灭了英雄，或在英雄身上完整引导，阿兹莫丹将获得相当于其最大生命值8%的生命值。",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -6245,7 +6245,7 @@
           "name": "地狱裂隙",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "燃尽万物召唤恶魔战士并为其提供增益",
-          "fullTooltip": "如果燃尽万物一直引导至其持续时间结束，将在目标位置召唤一名恶魔战士，并且所有恶魔造成的伤害提高100%，持续5秒。",
+          "fullTooltip": "如果燃尽万物一直引导至其持续时间结束或消灭了目标，将在目标位置召唤一名恶魔战士，并且所有恶魔造成的伤害提高100%，持续5秒。",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -6318,7 +6318,7 @@
           "name": "原罪之握",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "燃尽万物可减速，缩短冷却时间",
-          "fullTooltip": "燃尽万物可以在引导期间使敌方英雄减速15% ，如果该技能完整引导，则冷却时间缩短50%，并使敌方英雄减速50%，持续2.5秒。",
+          "fullTooltip": "燃尽万物可以在引导期间使敌方英雄减速15%，如果该技能完整引导或击杀一名敌方英雄，则冷却时间缩短50%，并使目标减速50%，持续2.5秒。",
           "abilityType": "E",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -7670,7 +7670,7 @@
           "name": "新鲜原料",
           "icon": "storm_ui_icon_chen_fortifyingbrew.png",
           "shortTooltip": "任务：恢复之球治疗效果提高",
-          "fullTooltip": "恢复之球的治疗持续时间提高150%。  任务： 收集15个恢复之球。  奖励：壮胆酒的冷却时间缩短1秒，并且喝下壮胆酒后50%的护盾值可以永久保留。",
+          "fullTooltip": "恢复之球的治疗持续时间提高150%。  任务：收集15个恢复之球。  奖励：壮胆酒的冷却时间缩短2秒，并且喝下壮胆酒后50%的护盾值可以永久保留。",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 2,
@@ -7699,7 +7699,7 @@
           "name": "下段踢",
           "icon": "storm_ui_icon_chen_flyingkick.png",
           "shortTooltip": "提高飞天脚伤害，并移除酒量消耗",
-          "fullTooltip": "飞天脚不再消耗酒量。此外，陈拥有壮胆酒的护盾时，飞天脚的伤害提高100%。",
+          "fullTooltip": "飞天脚不再消耗酒量。此外，陈拥有壮胆酒的护盾时，飞天脚的伤害提高125%。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -7744,7 +7744,7 @@
           "name": "玄牛之赐",
           "icon": "storm_ui_icon_chen_stagger.png",
           "shortTooltip": "提高醉拳的持续时间，降低受到的伤害",
-          "fullTooltip": "使醉拳阻止伤害的持续时间延长1.5秒，并使随后受到的持续伤害降低至所受伤害的60%。",
+          "fullTooltip": "使醉拳阻止伤害的持续时间延长1.5秒，并使随后受到的持续伤害降低至所受伤害的50%。",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -11092,7 +11092,7 @@
           "energyTooltip": "法力值：50",
           "cooldownTooltip": "冷却时间：10秒",
           "shortTooltip": "对附近敌人造成伤害",
-          "fullTooltip": "每0.5秒对附近的敌人造成49 (+4% per level)点伤害，持续3.5秒。激活时，你可以穿越单位。可以在拖拽和潜地时施放。",
+          "fullTooltip": "每0.5秒对附近的敌人造成52 (+4% per level)点伤害，持续3.5秒。激活时，你可以穿越单位。可以在拖拽和潜地时施放。",
           "abilityType": "W"
         },
         {
@@ -11267,7 +11267,7 @@
           "icon": "storm_ui_icon_dehaka_burrow.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "潜地会潜行，并击退敌人",
-          "fullTooltip": "潜地的冷却时间缩短4秒。钻出地面后德哈卡获得潜行，持续3秒，并击退附近敌人，使其减速30%，持续3秒。",
+          "fullTooltip": "潜地的冷却时间缩短6秒。钻出地面后德哈卡获得潜行，持续3秒，并击退附近敌人，使其减速30%，持续3秒。",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -11330,7 +11330,7 @@
           "name": "麻痹酵素",
           "icon": "storm_ui_icon_dehaka_drag_var1.png",
           "shortTooltip": "提高拖拽持续时间并施加减速",
-          "fullTooltip": "提高0.5秒拖拽持续时间。拖拽结束后使敌人减速30%，持续2秒。",
+          "fullTooltip": "提高0.5秒拖拽持续时间。拖拽结束后使敌人减速35%，持续2秒。",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -11387,23 +11387,6 @@
       ],
       "level13": [
         {
-          "nameId": "DehakaPrimalRage",
-          "buttonId": "DehakaPrimalRage",
-          "name": "原始暴怒",
-          "icon": "storm_ui_icon_dehaka_essencecollection.png",
-          "charges": {
-            "countMax": 50,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "精华提高攻击伤害",
-          "fullTooltip": "每储存一点精华，攻击伤害额外提高1%。",
-          "abilityType": "Trait",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "DehakaEssenceCollection"
-          ]
-        },
-        {
           "nameId": "DehakaBrushstalkerFerociousStalker",
           "buttonId": "DehakaBrushstalkerFerociousStalkerTalent",
           "name": "凶狠猎手",
@@ -11411,7 +11394,7 @@
           "shortTooltip": "隐蔽猎手可减速，并提高黑暗虫群的伤害",
           "fullTooltip": "在有隐蔽猎手移动速度加成时，黑暗虫群可以额外造成50%的伤害，并使敌方英雄减速15%，持续0.75秒。",
           "abilityType": "W",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "DehakaDarkSwarm"
           ]
@@ -11424,9 +11407,26 @@
           "shortTooltip": "黑暗虫群降低敌人的护甲",
           "fullTooltip": "黑暗虫群使被击中的敌人的护甲降低10点，使其受到的伤害提高10%，持续0.75秒。",
           "abilityType": "W",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "DehakaDarkSwarm"
+          ]
+        },
+        {
+          "nameId": "DehakaPrimalRage",
+          "buttonId": "DehakaPrimalRage",
+          "name": "原始暴怒",
+          "icon": "storm_ui_icon_dehaka_essencecollection.png",
+          "charges": {
+            "countMax": 50,
+            "recastCooldown": 1.0
+          },
+          "shortTooltip": "精华提高攻击伤害",
+          "fullTooltip": "每储存一点精华，攻击伤害额外提高1.25%。",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DehakaEssenceCollection"
           ]
         }
       ],
@@ -11495,7 +11495,7 @@
           "name": "改变才能生存",
           "icon": "storm_ui_icon_dehaka_adaptation.png",
           "shortTooltip": "提高适者生存的治疗量，并缩短冷却时间",
-          "fullTooltip": "适者生存的治疗量提高至所受伤害的200%，并且冷却时间缩短30秒。",
+          "fullTooltip": "适者生存的治疗量提高至所受伤害的200%，并且冷却时间缩短40秒。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -11503,19 +11503,6 @@
           ],
           "prerequisiteTalentIds": [
             "DehakaHeroicAbilityAdaptation"
-          ]
-        },
-        {
-          "nameId": "DehakaBrushstalkerApexPredator",
-          "buttonId": "DehakaBrushstalkerApexPredatorTalent",
-          "name": "顶级捕食者",
-          "icon": "storm_ui_icon_dehaka_brushstalker.png",
-          "shortTooltip": "缩短隐蔽猎手的冷却时间和施法时间",
-          "fullTooltip": "隐蔽猎手的冷却时间缩短35秒，施法时间缩短0.5秒。",
-          "abilityType": "Z",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DehakaBrushstalker"
           ]
         },
         {
@@ -11530,9 +11517,22 @@
           "shortTooltip": "普通攻击造成减速，并提供精华",
           "fullTooltip": "德哈卡的普通攻击使目标减速20%，持续1秒。如果目标是英雄，德哈卡获得5个精华。",
           "abilityType": "Trait",
-          "sort": 4,
+          "sort": 3,
           "abilityTalentLinkIds": [
             "DehakaEssenceCollection"
+          ]
+        },
+        {
+          "nameId": "DehakaBrushstalkerApexPredator",
+          "buttonId": "DehakaBrushstalkerApexPredatorTalent",
+          "name": "顶级捕食者",
+          "icon": "storm_ui_icon_dehaka_brushstalker.png",
+          "shortTooltip": "缩短隐蔽猎手的冷却时间和施法时间",
+          "fullTooltip": "隐蔽猎手的冷却时间缩短50秒，施法时间缩短0.5秒。",
+          "abilityType": "Z",
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "DehakaBrushstalker"
           ]
         }
       ]
@@ -12919,7 +12919,7 @@
           "name": "花朵膨胀",
           "icon": "storm_ui_icon_lunara_pollencloud.png",
           "shortTooltip": "提高剧毒之花的使用范围和效果半径",
-          "fullTooltip": "剧毒之花的使用范围扩大25%，效果半径扩大20%。剧毒之花击中敌人可以使露娜拉的移动速度提高15%，持续3秒。可以与其他移动速度加成叠加。",
+          "fullTooltip": "剧毒之花的使用范围扩大25%，效果半径扩大20%。花朵膨胀会对被剧毒之花命中的敌人施加2层自然毒素。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13097,7 +13097,7 @@
           "name": "加速污染",
           "icon": "storm_ui_icon_lunara_pollencloud.png",
           "shortTooltip": "剧毒之花冷却速度加快",
-          "fullTooltip": "剧毒之花的法力消耗从60点降低至40点。当有至少2名敌方英雄受到自然毒素影响时，剧毒之花的冷却速度加快100%。",
+          "fullTooltip": "剧毒之花的法力消耗从60点降低至40点。当有至少1名敌方英雄受到自然毒素影响时，剧毒之花的冷却速度加快75%。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13110,7 +13110,7 @@
           "name": "星木之矛",
           "icon": "storm_ui_icon_lunara_fullbloom.png",
           "shortTooltip": "致残孢子提高普通攻击射程",
-          "fullTooltip": "使用致残孢子使露娜拉的普通攻击射程提高2.75，持续6秒。",
+          "fullTooltip": "使露娜拉的普通攻击射程提高0.5码。使用致残孢子使露娜拉的普通攻击射程额外提高2.25码，持续6秒。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -13531,7 +13531,7 @@
           "icon": "storm_ui_icon_dva_boosters.png",
           "toggleCooldown": 0.0625,
           "shortTooltip": "推进器偷取生命值，提高对非英雄单位的伤害",
-          "fullTooltip": "推进器对英雄造成相当于最大生命值3%的额外伤害，并为D.Va的机甲提供相当于伤害量的治疗量。推进器对非英雄单位造成75%的额外伤害。",
+          "fullTooltip": "推进器对英雄造成相当于最大生命值2%的额外伤害，并为D.Va的机甲提供相当于伤害量的治疗量。推进器对非英雄单位造成70%的额外伤害。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -14615,10 +14615,10 @@
           "buttonId": "FalstadHinterlandBlast",
           "name": "辛特兰雷击",
           "icon": "storm_ui_icon_falstad_hinterlandblast.png",
-          "energyTooltip": "法力值：100",
+          "energyTooltip": "法力值：80",
           "cooldownTooltip": "冷却时间：120秒",
           "shortTooltip": "超远距离的伤害光束",
-          "fullTooltip": "1秒后，对一长段直线上的敌人造成475 (+4.75% per level)点伤害。每击中一名敌方英雄，冷却时间就会缩短25秒。",
+          "fullTooltip": "1秒后，对一长段直线上的敌人造成475 (+4.75% per level)点伤害。每击中一名敌方英雄，冷却时间就会缩短30秒。",
           "abilityType": "Heroic"
         }
       ],
@@ -14706,7 +14706,7 @@
           "name": "风暴聚集",
           "icon": "storm_ui_icon_falstad_hammerang.png",
           "shortTooltip": "任务：击中英雄提高回旋锤伤害",
-          "fullTooltip": "任务：回旋锤每次击中英雄都会使其伤害永久提高1.5点，并返还10点法力值。",
+          "fullTooltip": "任务：回旋锤每次击中英雄都会使其伤害永久提高2点，并返还10点法力值。",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -14765,7 +14765,7 @@
           "name": "上升气流",
           "icon": "storm_ui_icon_falstad_barrelroll.png",
           "shortTooltip": "增加侧滚翻的距离和护盾值",
-          "fullTooltip": "侧滚翻的距离提高40% ，护盾值提高60%，并且该护盾的持续时间不限。",
+          "fullTooltip": "侧滚翻的距离提高40% ，护盾值提高70%，并且该护盾的持续时间不限。",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -14790,7 +14790,7 @@
           "name": "秘密武器",
           "icon": "storm_ui_icon_falstad_hammerang.png",
           "shortTooltip": "提高回旋锤的射程和普通攻击伤害",
-          "fullTooltip": "回旋锤的射程提高30%，并且回旋锤飞行的过程中，普通攻击伤害提高80%。",
+          "fullTooltip": "回旋锤的射程提高30%，并且回旋锤飞行的过程中，普通攻击伤害提高90%。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -14830,10 +14830,10 @@
           "buttonId": "FalstadHinterlandBlast",
           "name": "辛特兰雷击",
           "icon": "storm_ui_icon_falstad_hinterlandblast.png",
-          "energyTooltip": "法力值：100",
+          "energyTooltip": "法力值：80",
           "cooldownTooltip": "冷却时间：120秒",
           "shortTooltip": "超远距离的伤害光束",
-          "fullTooltip": "1秒后，对一长段直线上的敌人造成475 (+4.75% per level)点伤害。每击中一名敌方英雄，冷却时间就会缩短25秒。",
+          "fullTooltip": "1秒后，对一长段直线上的敌人造成475 (+4.75% per level)点伤害。每击中一名敌方英雄，冷却时间就会缩短30秒。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -14986,7 +14986,7 @@
           "name": "史诗坐骑",
           "icon": "storm_ui_icon_falstad_epicmount.png",
           "shortTooltip": "降低飞行的冷却时间和施法时间",
-          "fullTooltip": "飞行的冷却时间缩短40秒，飞行前的施法时间缩短至0.5秒，并且速度提高50%。",
+          "fullTooltip": "飞行的冷却时间缩短50秒，飞行前的施法时间缩短至0.5秒，并且速度提高50%。",
           "abilityType": "Z",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -23856,7 +23856,7 @@
         "nameId": "LeoricWeapon",
         "range": 2.0,
         "period": 1.3,
-        "damage": 109.0,
+        "damage": 115.0,
         "damageScale": 0.04
       }
     ],
@@ -24207,7 +24207,7 @@
           "name": "不灭绝望",
           "icon": "storm_ui_icon_leoric_drainhope.png",
           "shortTooltip": "缩短绝望吸魂的冷却时间",
-          "fullTooltip": "绝望吸魂每激活1秒，冷却时间就缩短0.5秒。如果绝望吸魂完整引导，则冷却时间额外缩短3秒。",
+          "fullTooltip": "绝望吸魂每激活1秒，冷却时间就缩短0.75秒。如果绝望吸魂完整引导，则冷却时间额外缩短2秒。",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -24317,39 +24317,29 @@
           ]
         },
         {
-          "nameId": "LeoricDrainHopeHardenedBonesTalent",
-          "buttonId": "LeoricHardenedBonesTalent",
-          "name": "硬化骨骼",
-          "icon": "storm_ui_icon_leoric_drainhope_var1.png",
-          "shortTooltip": "绝望吸魂激活时获得护甲",
-          "fullTooltip": "绝望吸魂激活时，李奥瑞克获得50点护甲。如果绝望吸魂完整引导，则保留护甲加成，持续2秒。",
-          "abilityType": "W",
+          "nameId": "LeoricBurningDespairTalent",
+          "buttonId": "LeoricBurningDespair",
+          "name": "燃烧绝望",
+          "icon": "storm_ui_icon_leoric_drainhope.png",
+          "shortTooltip": "对附近敌人造成伤害，获得护甲",
+          "fullTooltip": "每秒对附近的敌人造成40 (+4% per level)点伤害。  绝望吸魂激活时获得40点护甲值，伤害和范围提高100%。",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
             "LeoricDrainHope"
           ]
         },
         {
-          "nameId": "LeoricBurningDespairTalent",
-          "buttonId": "LeoricBurningDespair",
-          "name": "燃烧绝望",
-          "icon": "storm_ui_icon_leoric_drainhope.png",
-          "shortTooltip": "对附近敌人造成伤害",
-          "fullTooltip": "每秒对附近的敌人造成40 (+4% per level)点伤害。绝望吸魂激活时的伤害和范围提高100%。",
-          "abilityType": "Passive",
-          "sort": 4
-        },
-        {
           "nameId": "LeoricShroudoftheDeadKingTalent",
           "buttonId": "LeoricShroudoftheDeadKingTalent",
           "name": "不死君王的裹尸布",
           "icon": "storm_ui_icon_talent_hardenedshield.png",
-          "cooldownTooltip": "冷却时间：30秒",
+          "cooldownTooltip": "冷却时间：25秒",
           "shortTooltip": "激活后进入受保护状态",
           "fullTooltip": "激活后进入受保护状态，持续3秒，阻挡所有伤害。",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 5
+          "sort": 4
         }
       ]
     }
@@ -27704,10 +27694,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_malganis.png"
     },
     "life": {
-      "amount": 2450.0,
+      "amount": 2550.0,
       "scale": 0.04,
       "type": "生命值",
-      "regenRate": 5.1054,
+      "regenRate": 5.3125,
       "regenScale": 0.04
     },
     "energy": {
@@ -27985,7 +27975,7 @@
           "name": "末日回响",
           "icon": "storm_ui_icon_malganis_necrotic_c.png",
           "shortTooltip": "冥魂之拥效果结束时爆炸",
-          "fullTooltip": "冥魂之拥结束时将再次爆炸，造成60 (+4% per level)点伤害。每击中一名敌方英雄，就会获得5点法力值并使冥魂之拥的冷却时间缩短0.75秒。  不会唤醒沉睡的目标。",
+          "fullTooltip": "冥魂之拥结束时将再次爆炸，造成66 (+4% per level)点伤害。每击中一名敌方英雄，就会获得5点法力值并使冥魂之拥的冷却时间缩短0.75秒。  不会唤醒沉睡的目标。",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -28488,7 +28478,7 @@
           "name": "死亡投影",
           "icon": "storm_ui_icon_malthael_deathshroud.png",
           "shortTooltip": "提高死亡笼罩的使用范围，缩短冷却时间",
-          "fullTooltip": "死亡笼罩的使用范围增加33%，冷却时间缩短3秒，法力值消耗从50点减少至30点。",
+          "fullTooltip": "死亡笼罩的使用范围增加33%，冷却时间缩短3秒，法力值消耗从50点减少至30点。  死亡笼罩的第一段攻击可以对非建筑敌人造成相当于最大生命值2%的伤害。",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -28670,7 +28660,7 @@
           "name": "死亡警示",
           "icon": "storm_ui_icon_malthael_reapersmark.png",
           "shortTooltip": "死神印记的持续伤害提高",
-          "fullTooltip": "死神印记在敌人身上持续时间超过4秒后，伤害提高80%。",
+          "fullTooltip": "死神印记在敌人身上持续时间超过4秒后，伤害提高90%。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -34538,8 +34528,8 @@
           "buttonId": "OrpheaAllegrissimo",
           "name": "急速变奏",
           "icon": "storm_ui_icon_orphea_q.png",
-          "shortTooltip": "暗影华尔兹末端提供额外的冷却时间缩减",
-          "fullTooltip": "使用暗影华尔兹的末端击中英雄使该技能的冷却时间缩短至0.75秒。",
+          "shortTooltip": "缩短暗影华尔兹冷却时间",
+          "fullTooltip": "暗影华尔兹的冷却时间缩短1秒。  使用暗影华尔兹的末端击中英雄使该技能的冷却时间缩短至0.75秒。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34581,7 +34571,7 @@
           "name": "大胃魔",
           "icon": "storm_ui_icon_orphea_w.png",
           "shortTooltip": "击中英雄缩短魔噬的冷却时间",
-          "fullTooltip": "使用魔噬击中英雄会使该技能的冷却时间缩短至1.5秒。",
+          "fullTooltip": "使用魔噬击中英雄会使该技能的冷却时间缩短至2秒。",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34745,8 +34735,8 @@
           "buttonId": "OrpheaMonsterWithin",
           "name": "暗藏之魔",
           "icon": "storm_ui_icon_orphea_ult_darkfall.png",
-          "shortTooltip": "永恒盛宴给予混乱层数，提高攻击速度",
-          "fullTooltip": "永恒盛宴每次击中英雄都可以给予1层混乱。当永恒盛宴激活时，奥菲娅的攻击速度提高50%。",
+          "shortTooltip": "永恒盛宴给予混乱层数，缩短冷却时间",
+          "fullTooltip": "永恒盛宴每次击中英雄都可以给予1层混乱。当永恒盛宴激活时，奥菲娅的基本技能冷却时间恢复速度加快150%。",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34762,7 +34752,7 @@
           "name": "湮灭之缚",
           "icon": "storm_ui_icon_orphea_ult_thrasher.png",
           "shortTooltip": "巨颚碎压可降低护甲，冷却时间缩短",
-          "fullTooltip": "巨颚碎压使被击中的英雄护甲降低25点，持续2秒。击杀英雄可以使其冷却时间缩短至5秒。",
+          "fullTooltip": "巨颚碎压使被击中的英雄护甲降低25点，持续3秒。击杀英雄可以使其冷却时间缩短至5秒。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -34791,7 +34781,7 @@
           "buttonId": "OrpheaFinalToccata",
           "name": "终焉狂想曲",
           "icon": "storm_ui_icon_orphea_reset.png",
-          "cooldownTooltip": "冷却时间：30秒",
+          "cooldownTooltip": "冷却时间：20秒",
           "shortTooltip": "突进后重置暗影华尔兹的冷却时间",
           "fullTooltip": "激活后立即重置暗影华尔兹的冷却时间，并且在接下来的6秒内，暗影华尔兹的突进可以重置该技能的冷却时间。",
           "abilityType": "Active",
@@ -38498,9 +38488,9 @@
             "countStart": 3,
             "recastCooldown": 5.0
           },
-          "cooldownTooltip": "充能时间：90秒",
+          "cooldownTooltip": "充能时间：100秒",
           "shortTooltip": "激活后提高普通攻击伤害",
-          "fullTooltip": "激活后普通攻击的伤害提高35%，持续5秒。在攻城模式下用普通攻击命中建筑会使漩涡弹的冷却时间降低5秒。  最多储存3次。",
+          "fullTooltip": "激活后普通攻击的伤害提高30%，持续5秒。在攻城模式下用普通攻击命中敌方英雄或建筑会使漩涡弹的冷却时间降低5秒。  最多储存3次。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3,
@@ -38516,7 +38506,7 @@
           "name": "路障",
           "icon": "storm_ui_icon_sgthammer_concussiveblast.png",
           "shortTooltip": "震荡炮击可以制造一堵路障",
-          "fullTooltip": "震荡炮击的冷却时间缩短3秒，其法力值消耗降低 40点，并且会在重锤军士前方生成一道不可穿越的墙，持续4秒。",
+          "fullTooltip": "震荡炮击的冷却时间缩短4秒，其法力值消耗降低 40点，并且会在重锤军士前方生成一道不可穿越的墙，持续4秒。",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38557,7 +38547,7 @@
           "name": "脉冲爆核",
           "icon": "storm_ui_icon_sgthammer_spidermines.png",
           "shortTooltip": "蜘蛛雷可以多次引爆",
-          "fullTooltip": "蜘蛛雷会在3秒内引爆3次。对敌方英雄的普通攻击可以给予5点法力，并使蜘蛛雷的冷却时间缩短1秒。在攻城模式下，该加成效果增加至1.5秒。",
+          "fullTooltip": "蜘蛛雷会在3秒内引爆3次。对敌方英雄的普通攻击可以给予5点法力值，并使蜘蛛雷的冷却时间缩短1.5秒。在攻城模式下，该加成效果增加至2.5秒。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38584,7 +38574,7 @@
           "name": "射程调节",
           "icon": "storm_ui_icon_sgthammer_siegemode_var1.png",
           "shortTooltip": "攻城模式下，普通攻击射程将逐步提高",
-          "fullTooltip": "攻城模式下，普通攻击的射程每3秒提高1，最多提高3。",
+          "fullTooltip": "攻城模式下，普通攻击的射程每2秒提高1，最多提高3。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -38674,8 +38664,8 @@
           "buttonId": "SgtHammerNeosteelPlatingMechanicalKnowhowTalent",
           "name": "机械能手",
           "icon": "storm_ui_icon_sgthammer_neosteelplating.png",
-          "shortTooltip": "精钢装甲提供一层护盾",
-          "fullTooltip": "精钢装甲提供一层等于最大生命值5%的护盾，持续2秒。如果这层护盾被摧毁，普通攻击的伤害会提高50%，持续5秒。",
+          "shortTooltip": "精钢装甲提供一层护盾，提高伤害",
+          "fullTooltip": "精钢装甲提供一层相当于最大生命值20%的护盾，持续2秒，并使普通攻击的伤害提高30%，持续5秒。",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -40021,8 +40011,8 @@
           "buttonId": "SylvanasMindControlMissile",
           "name": "精神控制",
           "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
-          "energyTooltip": "法力值：75",
-          "cooldownTooltip": "冷却时间：50秒",
+          "energyTooltip": "法力值：50",
+          "cooldownTooltip": "冷却时间：40秒",
           "shortTooltip": "强迫一名敌方英雄朝希尔瓦娜斯移动",
           "fullTooltip": "在0.25秒的施法后，发射一枚飞箭，对击中的第一个英雄施加精神控制，该英雄会受到沉默和30%的减速，获得3层女妖诅咒并强制朝希尔瓦娜斯移动，持续1.75秒。",
           "abilityType": "Heroic"
@@ -40319,8 +40309,8 @@
           "buttonId": "SylvanasMindControlMissile",
           "name": "精神控制",
           "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
-          "energyTooltip": "法力值：75",
-          "cooldownTooltip": "冷却时间：50秒",
+          "energyTooltip": "法力值：50",
+          "cooldownTooltip": "冷却时间：40秒",
           "shortTooltip": "强迫一名敌方英雄朝希尔瓦娜斯移动",
           "fullTooltip": "在0.25秒的施法后，发射一枚飞箭，对击中的第一个英雄施加精神控制，该英雄会受到沉默和30%的减速，获得3层女妖诅咒并强制朝希尔瓦娜斯移动，持续1.75秒。",
           "abilityType": "Heroic",
@@ -40433,7 +40423,7 @@
           "name": "黑暗女王的召唤",
           "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
           "shortTooltip": "精神控制降低敌人视野",
-          "fullTooltip": "被精神控制的英雄视野会大大降低，持续5秒。精神控制的冷却时间缩短30秒。",
+          "fullTooltip": "被精神控制的英雄视野会大大降低，持续5秒。精神控制的冷却时间缩短25秒。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -40448,8 +40438,8 @@
           "buttonId": "SylvanasWitheringFireWitheringBarrage",
           "name": "凋零箭幕",
           "icon": "storm_ui_icon_sylvanas_witheringfire.png",
-          "shortTooltip": "缩短凋零射击的冷却时间",
-          "fullTooltip": "凋零射击击中英雄可以使该技能冷却时间减少0.75秒。",
+          "shortTooltip": "凋零射击施加女妖诅咒",
+          "fullTooltip": "凋零射击施加女妖诅咒，凋零射击命中英雄可以使该技能冷却时间减少0.75秒。",
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -41681,7 +41671,7 @@
           "toggleCooldown": 0.5,
           "energyTooltip": "碎片：4",
           "shortTooltip": "放置一座可以攻击敌人的炮台。",
-          "fullTooltip": "建造一座可造成40 (+4% per level)点伤害的炮台，持续15秒。  炮台在刚刚建造的时候会以最近的敌方英雄为优先目标。",
+          "fullTooltip": "建造一座可造成38 (+4% per level)点伤害的炮台，持续15秒。  炮台在刚刚建造的时候会以最近的敌方英雄为优先目标。",
           "abilityType": "Q"
         },
         {
@@ -41698,7 +41688,7 @@
           },
           "cooldownTooltip": "冷却时间：8秒",
           "shortTooltip": "对一条直线上的目标造成伤害",
-          "fullTooltip": "0.65秒后，对一条直线上的敌人造成184 (+4% per level)点伤害。可恢复相当于伤害量25%的生命值，击中敌方英雄时提高至75%。",
+          "fullTooltip": "0.65秒后，对一条直线上的敌人造成180 (+4% per level)点伤害。可恢复相当于伤害量25%的生命值，击中敌方英雄时提高至75%。",
           "abilityType": "W"
         },
         {
@@ -41853,7 +41843,7 @@
           "name": "王牌猎人",
           "icon": "storm_ui_icon_gazlowe_salvager.png",
           "shortTooltip": "击中英雄、雇佣兵、怪物提高碎片数量",
-          "fullTooltip": "使碎片的最大数量提高2。对敌方英雄、雇佣兵和怪物发动普通攻击可以使降解、循环、回收的碎片生成速度加快2秒。",
+          "fullTooltip": "使碎片的最大数量提高2。对敌方英雄、雇佣兵和怪物发动普通攻击可以使降解、循环、回收的碎片生成速度加快1.5秒。",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41882,7 +41872,7 @@
           "icon": "storm_ui_icon_gazlowe_rockitturret.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "施放摇滚炮台获得护盾",
-          "fullTooltip": "施放摇滚炮台可以使加兹鲁维获得一个护盾，最多可以吸收215 (+4% per level)点伤害，持续2.5秒。",
+          "fullTooltip": "施放摇滚炮台可以使加兹鲁维获得一个护盾，最多可以吸收200 (+4% per level)点伤害，持续2.5秒。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -42021,7 +42011,7 @@
           "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "摇滚炮台可以攻击多个目标",
-          "fullTooltip": "摇滚炮台可以攻击最多2名额外敌人，造成75%的伤害，并且普通攻击射程提高50%。",
+          "fullTooltip": "摇滚炮台可以攻击最多2名额外敌人，造成60%的伤害，并且普通攻击射程提高50%。",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -42077,7 +42067,7 @@
             "recastCooldown": 3.0
           },
           "shortTooltip": "爆素炸药建造炮台，缩短冷却时间",
-          "fullTooltip": "使爆素炸药的冷却时间缩短3秒。施放爆素炸药时建造3个持续3秒的迷你摇滚炮台。  这些炮台不掉落碎片，也无法从其他天赋中获得增益效果。",
+          "fullTooltip": "使爆素炸药的冷却时间缩短2秒。施放爆素炸药时建造3个持续3秒的迷你摇滚炮台。  这些炮台不掉落碎片，也无法从其他天赋中获得增益效果。",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -43091,8 +43081,8 @@
           "buttonId": "TychusFragGrenadeQuarterbackTalent",
           "name": "四分卫",
           "icon": "storm_ui_icon_tychus_fraggrenade.png",
-          "shortTooltip": "扩大破片手雷使用范围",
-          "fullTooltip": "破片手雷的使用范围扩大50%。",
+          "shortTooltip": "提高破片手雷的伤害和使用范围",
+          "fullTooltip": "破片手雷的伤害提高20%，使用范围扩大50%。",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -44833,7 +44823,7 @@
           "name": "远古列王守卫",
           "icon": "storm_ui_icon_uther_eternaldevotion.png",
           "shortTooltip": "提高被控制的目标的虔诚护甲",
-          "fullTooltip": "治疗被击晕、定身或沉默的英雄可以使其获得50点护甲值加成，持续3秒。",
+          "fullTooltip": "使用基本技能治疗被击晕、定身或沉默的英雄可以使其获得50点护甲值加成，持续3秒。",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -45647,10 +45637,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_varian.png"
     },
     "life": {
-      "amount": 2116.0,
+      "amount": 2220.0,
       "scale": 0.04,
       "type": "生命值",
-      "regenRate": 4.4062,
+      "regenRate": 4.625,
       "regenScale": 0.04
     },
     "energy": {
@@ -45854,7 +45844,7 @@
           "name": "雄狮之爪",
           "icon": "storm_ui_icon_varian_lionsfang.png",
           "shortTooltip": "任务：击中英雄来强化雄狮之牙",
-          "fullTooltip": "任务：雄狮之牙每次击中一个英雄，伤害就会提高5点，最多提高125点。  奖励：击中25个英雄后，减速效果提高至50%，并且持续时间延长至2秒。",
+          "fullTooltip": "任务：雄狮之牙每次击中一个英雄，伤害就会提高6点，最多提高150点。  奖励：击中25个英雄后，减速效果提高至50%，并且持续时间延长至2秒。",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -45886,7 +45876,7 @@
           "name": "至高王的任务",
           "icon": "storm_ui_icon_varian_highkingsquest.png",
           "shortTooltip": "任务：完成任务提高攻击伤害",
-          "fullTooltip": "任务：用普通攻击击中50个英雄。 任务：参与5次英雄击杀。 任务：收集20个恢复之球。  奖励：完成一个任务后，获得10点普通攻击伤害加成。完成所有3个任务后，额外获得30点普通攻击伤害加成。",
+          "fullTooltip": "任务：用普通攻击击中50个英雄。 任务：参与5次英雄击杀。 任务：收集15个恢复之球。  奖励：完成一个任务后，获得10点普通攻击伤害加成。完成所有3个任务后，额外获得30点普通攻击伤害加成。",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 3,
@@ -46161,7 +46151,7 @@
           "buttonId": "VarianDemoralizingShout",
           "name": "挫志怒吼",
           "icon": "storm_ui_icon_varian_demoralizingshout.png",
-          "cooldownTooltip": "冷却时间：25秒",
+          "cooldownTooltip": "冷却时间：20秒",
           "shortTooltip": "降低附近英雄的伤害",
           "fullTooltip": "激活后降低敌方英雄的士气，使其造成的伤害降低40%，持续5秒。",
           "abilityType": "Active",

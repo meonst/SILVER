@@ -1168,7 +1168,7 @@
           "name": "Frappes railleuses",
           "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
           "shortTooltip": "Attaquer des héros affectés par des effets de contrôle réduit les temps de recharge.",
-          "fullTooltip": "Les attaques de base portées à des héros étourdis, réduits au silence, ralentis ou immobilisés réduisent de 3 secondes le temps de recharge des capacités de base d’Alarak.",
+          "fullTooltip": "Les attaques de base portées à des héros adverses réduisent de 1.5 seconde le temps de recharge des capacités de base d’Alarak. Ce bonus est doublé contre les héros adverses étourdis, réduits au silence, ralentis ou immobilisés.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -4086,7 +4086,7 @@
           "name": "Maître de la ruche",
           "icon": "storm_ui_icon_anubarak_locustswarm.png",
           "shortTooltip": "Confère de façon permanente une sauterelle vampirique.",
-          "fullTooltip": "Confère de façon permanente une sauterelle vampirique qui attaque un ennemi proche toutes les 3 secondes. La sauterelle inflige 153 (+4% per level) points de dégâts puis revient à Anub’arak pour lui rendre 50 (+4% per level) points de vie.",
+          "fullTooltip": "Confère de façon permanente une sauterelle vampirique qui attaque un ennemi proche toutes les 3 secondes. La sauterelle inflige 165 (+4% per level) points de dégâts puis revient à Anub’arak pour lui rendre 80 (+4% per level) points de vie.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -4101,8 +4101,8 @@
           "buttonId": "AnubarakCryptweaveCocoonTalent",
           "name": "Tisse-crypte",
           "icon": "storm_ui_icon_anubarak_webblast.png",
-          "shortTooltip": "Augmente la durée du cocon.",
-          "fullTooltip": "Rester près d’un cocon permet à Anub’arak d’augmenter sa durée jusqu’à 6 secondes supplémentaires.",
+          "shortTooltip": "Augmente la durée du cocon et inflige des dégâts sur la durée à la sortie.",
+          "fullTooltip": "Rester près d’un cocon permet à Anub’arak d’augmenter sa durée jusqu’à 6 secondes supplémentaires. À leur sortie du cocon, les ennemis subissent 50 (+4% per level) points de dégâts en 4 secondes. Ces dégâts augmentent de 100% pour chaque seconde passée à l’intérieur.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -4113,13 +4113,13 @@
           ]
         },
         {
-          "nameId": "GenericTalentHardenedShield",
-          "buttonId": "HardenedShieldTalent",
-          "name": "Bouclier renforcé",
+          "nameId": "AnubarakTheTraitorKing",
+          "buttonId": "AnubarakTheTraitorKing",
+          "name": "Le roi traître",
           "icon": "storm_ui_icon_talent_hardenedshield.png",
           "cooldownTooltip": "Temps de recharge : 60 secondes",
-          "shortTooltip": "Confère une grande quantité d’armure.",
-          "fullTooltip": "Confère 75 points d’armure pendant 4 secondes à l’activation, ce qui réduit les dégâts subis de 75%.",
+          "shortTooltip": "Confère un bonus à la santé, de l’armure anti-sort et une grande quantité d’armure.",
+          "fullTooltip": "Confère un bonus de 10% au maximum de points de vie et 20 points d’armure anti-sort. Confère également 75 points d’armure pendant 4 secondes.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -6142,7 +6142,7 @@
           "name": "Maître ès destruction",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "Tout doit brûler déclenche une explosion.",
-          "fullTooltip": "Les dégâts finaux de Tout doit brûler sont infligés à tous les ennemis dans une zone autour de la cible et confèrent 4 cumuls d’Annihilation par héros touché.",
+          "fullTooltip": "Si Tout doit brûler tue ou atteint son terme, applique ses dégâts finaux à tous les ennemis dans une zone autour de la cible et confère 4 cumuls d’Annihilation par héros touché.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -6204,7 +6204,7 @@
           "name": "Baiser de Cydaée",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "Réduit la durée de canalisation de Tout doit brûler et soigne Asmodan à son terme.",
-          "fullTooltip": "Réduit le temps de canalisation de Tout doit brûler de 0.5 seconde. Si Tout doit brûler atteint son terme sur un héros, Asmodan récupère 8% de ses points de vie maximum.",
+          "fullTooltip": "Réduit le temps de canalisation de Tout doit brûler de 0.5 seconde. Si Tout doit brûler tue ou atteint son terme contre un héros, Asmodan récupère 8% de son maximum de points de vie.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -6245,7 +6245,7 @@
           "name": "Faille infernale",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "Tout doit brûler invoque des guerriers démoniaques et les renforce.",
-          "fullTooltip": "Si Tout doit brûler atteint son terme, un guerrier démoniaque est invoqué à l’emplacement de la cible et tous les guerriers démoniaques infligent 100% de dégâts supplémentaires pendant 5 secondes.",
+          "fullTooltip": "Si Tout doit brûler atteint son terme ou tue la cible, invoque un guerrier démoniaque à l’emplacement de la cible et augmente les dégâts de tous les guerriers démoniaques de 100% pendant 5 secondes.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -6318,7 +6318,7 @@
           "name": "Emprise du péché",
           "icon": "storm_ui_icon_azmodan_allshallburn.png",
           "shortTooltip": "Tout doit brûler ralentit et voit son temps de recharge réduit.",
-          "fullTooltip": "Tout doit brûler ralentit les héros adverses de 15% pendant sa canalisation. Si la compétence atteint son terme sur un héros adverse, son temps de recharge est réduit de 50% et la cible est ralentie de 50% pendant 2.5 secondes.",
+          "fullTooltip": "Tout doit brûler ralentit les héros adverses de 15% pendant sa canalisation. Si Tout doit brûler atteint son terme ou tue un héros adverse, réduit son temps de recharge de 50% et ralentit la cible de 50% pendant 2.5 secondes.",
           "abilityType": "E",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -7670,7 +7670,7 @@
           "name": "Meilleurs ingrédients",
           "icon": "storm_ui_icon_chen_fortifyingbrew.png",
           "shortTooltip": "Quête : les globes de régénération rendent davantage de points de vie.",
-          "fullTooltip": "Augmente la durée d’effet des globes de régénération de 150%.  Quête : collecter 15 globes de régénération.  Récompense : réduit le temps de recharge de Boisson fortifiante de 1 seconde et Chen conserve de manière permanente 50% du bouclier que lui confère Boisson fortifiante.",
+          "fullTooltip": "Augmente la durée de soin des globes de régénération de 150%.  Quête : collecter 15 globes de régénération.  Récompense : réduit le temps de recharge de Boisson fortifiante de 2 secondes. Chen conserve de manière permanente 50% du bouclier que lui confère Boisson fortifiante.",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 2,
@@ -7699,7 +7699,7 @@
           "name": "Frappe létale",
           "icon": "storm_ui_icon_chen_flyingkick.png",
           "shortTooltip": "Augmente les dégâts de Coup de pied volant et annule le coût en points de breuvage.",
-          "fullTooltip": "Coup de pied volant ne coûte plus de breuvage. De plus, ses dégâts sont augmentés de 100% quand Chen est protégé par les boucliers de Boisson fortifiante.",
+          "fullTooltip": "Coup de pied volant ne coûte plus de breuvage. De plus, ses dégâts sont augmentés de 125% quand Chen est protégé par les boucliers de Boisson fortifiante.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -7744,7 +7744,7 @@
           "name": "Don du buffle",
           "icon": "storm_ui_icon_chen_stagger.png",
           "shortTooltip": "Augmente la durée de Report et réduit les dégâts subis.",
-          "fullTooltip": "Augmente la durée pendant laquelle Report protège des dégâts de 1.5 seconde et réduit le montant de dégâts subis sur la durée pour un montant équivalent à 60% des dégâts subis.",
+          "fullTooltip": "Augmente la durée d’absorption des dégâts de Report de 1.5 seconde et abaisse le montant de dégâts subis sur la durée à 50% des dégâts subis.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -11092,7 +11092,7 @@
           "energyTooltip": "Mana : 50",
           "cooldownTooltip": "Temps de recharge : 10 secondes",
           "shortTooltip": "Frappe les ennemis proches.",
-          "fullTooltip": "Inflige 49 (+4% per level) points de dégâts toutes les 0.5 secondes aux ennemis proches pendant 3.5 secondes et permet de traverser les unités pendant toute sa durée. Peut être utilisé pendant Traction et Enfouissement.",
+          "fullTooltip": "Inflige 52 (+4% per level) points de dégâts toutes les 0.5 secondes aux ennemis proches pendant 3.5 secondes et permet de traverser les unités pendant toute sa durée. Peut être utilisé pendant Traction et Enfouissement.",
           "abilityType": "W"
         },
         {
@@ -11267,7 +11267,7 @@
           "icon": "storm_ui_icon_dehaka_burrow.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Enfouissement camoufle, et repousse les ennemis.",
-          "fullTooltip": "Réduit le temps de recharge d’Enfouissement de 4 secondes. Émerger de l’enfouissement camoufle Dehaka pendant 3 secondes, repousse les ennemis proches et les ralentit de 30% pendant 3 secondes.",
+          "fullTooltip": "Réduit le temps de recharge d’Enfouissement de 6 secondes. Émerger de l’enfouissement camoufle Dehaka pendant 3 secondes, repousse les ennemis proches et les ralentit de 30% pendant 3 secondes.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -11330,7 +11330,7 @@
           "name": "Enzymes paralysantes",
           "icon": "storm_ui_icon_dehaka_drag_var1.png",
           "shortTooltip": "Augmente la durée de Traction et ralentit les ennemis.",
-          "fullTooltip": "Augmente la durée de Traction de 0.5 seconde. À l’expiration de Traction, les ennemis sont ralentis de 30% pendant 2 secondes.",
+          "fullTooltip": "Augmente la durée de Traction de 0.5 seconde. À l’expiration de Traction, les ennemis sont ralentis de 35% pendant 2 secondes.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -11387,23 +11387,6 @@
       ],
       "level13": [
         {
-          "nameId": "DehakaPrimalRage",
-          "buttonId": "DehakaPrimalRage",
-          "name": "Rage primordiale",
-          "icon": "storm_ui_icon_dehaka_essencecollection.png",
-          "charges": {
-            "countMax": 50,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "L’essence augmente les dégâts d’attaque.",
-          "fullTooltip": "Augmente les dégâts des attaques de base de 1% par unité d’essence.",
-          "abilityType": "Trait",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "DehakaEssenceCollection"
-          ]
-        },
-        {
           "nameId": "DehakaBrushstalkerFerociousStalker",
           "buttonId": "DehakaBrushstalkerFerociousStalkerTalent",
           "name": "Traqueur féroce",
@@ -11411,7 +11394,7 @@
           "shortTooltip": "Traqueur de la jungle ralentit les héros adverses et augmente la puissance d’Essaim noir.",
           "fullTooltip": "Essaim noir ralentit les héros adverses de 15% pendant 0.75 seconde et inflige 50% de dégâts supplémentaires tant que le bonus à la vitesse de déplacement conféré par Traqueur de la jungle est actif.",
           "abilityType": "W",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "DehakaDarkSwarm"
           ]
@@ -11424,9 +11407,26 @@
           "shortTooltip": "Essaim noir réduit l’armure des ennemis.",
           "fullTooltip": "Essaim noir réduit l’armure des ennemis touchés de 10 points pendant 0.75 seconde, ce qui augmente les dégâts qu’ils subissent de 10%.",
           "abilityType": "W",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "DehakaDarkSwarm"
+          ]
+        },
+        {
+          "nameId": "DehakaPrimalRage",
+          "buttonId": "DehakaPrimalRage",
+          "name": "Rage primordiale",
+          "icon": "storm_ui_icon_dehaka_essencecollection.png",
+          "charges": {
+            "countMax": 50,
+            "recastCooldown": 1.0
+          },
+          "shortTooltip": "L’essence augmente les dégâts d’attaque.",
+          "fullTooltip": "Augmente les dégâts des attaques de base de 1.25% par unité d’essence.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DehakaEssenceCollection"
           ]
         }
       ],
@@ -11495,7 +11495,7 @@
           "name": "Changer, c’est survivre",
           "icon": "storm_ui_icon_dehaka_adaptation.png",
           "shortTooltip": "Augmente les soins et diminue le temps de recharge d’Adaptation.",
-          "fullTooltip": "Porte les soins d’Adaptation à 200% des dégâts subis et diminue le temps de recharge de 30 secondes.",
+          "fullTooltip": "Porte les soins d’Adaptation à 200% des dégâts subis et diminue le temps de recharge de 40 secondes.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -11503,19 +11503,6 @@
           ],
           "prerequisiteTalentIds": [
             "DehakaHeroicAbilityAdaptation"
-          ]
-        },
-        {
-          "nameId": "DehakaBrushstalkerApexPredator",
-          "buttonId": "DehakaBrushstalkerApexPredatorTalent",
-          "name": "Prédateur de l’apex",
-          "icon": "storm_ui_icon_dehaka_brushstalker.png",
-          "shortTooltip": "Réduit les temps de recharge et d’incantation de Traqueur de la jungle.",
-          "fullTooltip": "Réduit le temps de recharge de Traqueur de la jungle de 35 secondes et sa durée d’incantation de 0.5 seconde.",
-          "abilityType": "Z",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "DehakaBrushstalker"
           ]
         },
         {
@@ -11530,9 +11517,22 @@
           "shortTooltip": "Les attaques de base ralentissent la cible et confèrent de l’essence.",
           "fullTooltip": "Les attaques de base ralentissent la cible de 20% pendant 1 seconde. Si c’est un héros, Dehaka obtient 5 unités d’essence.",
           "abilityType": "Trait",
-          "sort": 4,
+          "sort": 3,
           "abilityTalentLinkIds": [
             "DehakaEssenceCollection"
+          ]
+        },
+        {
+          "nameId": "DehakaBrushstalkerApexPredator",
+          "buttonId": "DehakaBrushstalkerApexPredatorTalent",
+          "name": "Prédateur de l’apex",
+          "icon": "storm_ui_icon_dehaka_brushstalker.png",
+          "shortTooltip": "Réduit les temps de recharge et d’incantation de Traqueur de la jungle.",
+          "fullTooltip": "Réduit le temps de recharge de Traqueur de la jungle de 50 secondes et sa durée d’incantation de 0.5 seconde.",
+          "abilityType": "Z",
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "DehakaBrushstalker"
           ]
         }
       ]
@@ -12919,7 +12919,7 @@
           "name": "Houle fleurie",
           "icon": "storm_ui_icon_lunara_pollencloud.png",
           "shortTooltip": "Augmente le rayon et la portée de Fleurs nocives.",
-          "fullTooltip": "Augmente la portée de Fleurs nocives de 25% et son rayon de 20%. Toucher un héros adverse avec Fleurs nocives augmente la vitesse de déplacement de Lunara de 15% pendant 3 secondes. Cumulable avec d’autres bonus à la vitesse de déplacement.",
+          "fullTooltip": "Augmente la portée de Fleurs nocives de 25% et son rayon de 20%. Fleurs nocives applique 2 charges de Toxine naturelle aux ennemis touchés.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13097,7 +13097,7 @@
           "name": "Infection galopante",
           "icon": "storm_ui_icon_lunara_pollencloud.png",
           "shortTooltip": "Réduit le temps de recharge de Fleurs nocives.",
-          "fullTooltip": "Réduit le coût en mana de Fleurs nocives de 60 points à 40 points. Quand au moins 2 héros adverses sont affectés par Toxine naturelle, le temps de recharge de Fleurs nocives s’écoule 100% plus vite.",
+          "fullTooltip": "Réduit le coût en mana de Fleurs nocives de 60 à 40 points. Tant qu’au moins 1 héros adverse est affligé par Toxine naturelle, le temps de recharge de Fleurs nocives s’écoule 75% plus vite.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13110,7 +13110,7 @@
           "name": "Lance en bois d’étoile",
           "icon": "storm_ui_icon_lunara_fullbloom.png",
           "shortTooltip": "Spores affaiblissantes augmente la portée des attaques de base.",
-          "fullTooltip": "Spores affaiblissantes augmente la portée des attaques de base de Lunara de 2.75 mètres pendant 6 secondes.",
+          "fullTooltip": "Augmente la portée des attaques de base de Lunara de 0.5 mètres. Spores affaiblissantes augmente la portée des attaques de base de 2.25 mètres supplémentaires pendant 6 secondes.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -13531,7 +13531,7 @@
           "icon": "storm_ui_icon_dva_boosters.png",
           "toggleCooldown": 0.0625,
           "shortTooltip": "Turboréacteurs vole des points de vie et augmente les dégâts aux ennemis non héroïques.",
-          "fullTooltip": "Turboréacteurs inflige aux héros un montant de dégâts supplémentaires équivalent à 3% de leur maximum de points de vie et rend au méca de D.Va un nombre de points de vie équivalent aux dégâts infligés. Turboréacteurs inflige 75% de dégâts supplémentaires aux ennemis non héroïques.",
+          "fullTooltip": "Turboréacteurs inflige aux héros un montant de dégâts supplémentaires équivalent à 2% de leur maximum de points de vie et rend au méca de D.Va un nombre de points de vie équivalent aux dégâts infligés. Turboréacteurs inflige 70% de dégâts supplémentaires aux ennemis non héroïques.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13563,7 +13563,7 @@
             "hideCount": true
           },
           "shortTooltip": "Renforce les Fusio-canons et Autodestruction.",
-          "fullTooltip": "Toucher votre méca qui s’autodétruit avec Tir de PGM accélère son autodestruction de 40%.  Effet passif : quand les Fusio-canons infligent des dégâts supplémentaires à un héros adverse, obtient 0.25 de charge d’Autodestruction.",
+          "fullTooltip": "Toucher votre méca qui s’autodétruit avec Tir de PGM accélère son autodestruction de 40%.  Effet passif : quand les Fusio-canons infligent des dégâts supplémentaires à un héros adverse, obtient 0.25 charge d’Autodestruction.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -14615,10 +14615,10 @@
           "buttonId": "FalstadHinterlandBlast",
           "name": "Explosion des Hinterlands",
           "icon": "storm_ui_icon_falstad_hinterlandblast.png",
-          "energyTooltip": "Mana : 100",
+          "energyTooltip": "Mana : 80",
           "cooldownTooltip": "Temps de recharge : 120 secondes",
           "shortTooltip": "Rayon à longue portée.",
-          "fullTooltip": "Au bout de 1 seconde, inflige 475 (+4.75% per level) points de dégâts aux ennemis sur une longue ligne. Chaque héros adverse touché réduit le temps de recharge de 25 secondes.",
+          "fullTooltip": "Au bout de 1 seconde, inflige 475 (+4.75% per level) points de dégâts aux ennemis sur une longue ligne. Chaque héros adverse touché réduit le temps de recharge de 30 secondes.",
           "abilityType": "Heroic"
         }
       ],
@@ -14706,7 +14706,7 @@
           "name": "Tempête grandissante",
           "icon": "storm_ui_icon_falstad_hammerang.png",
           "shortTooltip": "Quête : toucher des héros renforce Marteau-boomerang.",
-          "fullTooltip": "Quête : augmente les dégâts de Marteau-boomerang de 1.5 point et rend 10 points de mana chaque fois qu’il touche un héros.",
+          "fullTooltip": "Quête : augmente les dégâts de Marteau-boomerang de 2 points et rend 10 points de mana chaque fois qu’il touche un héros.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -14765,7 +14765,7 @@
           "name": "Courant ascendant",
           "icon": "storm_ui_icon_falstad_barrelroll.png",
           "shortTooltip": "Augmente la portée et le bouclier de Tonneau.",
-          "fullTooltip": "Augmente la portée de Tonneau de 40% et le bouclier qu’il confère de 60%. Ce bouclier n’est plus limité dans le temps.",
+          "fullTooltip": "Augmente la portée de Tonneau de 40% et le bouclier qu’il confère de 70%. Ce bouclier n’est plus limité dans le temps.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -14790,7 +14790,7 @@
           "name": "Arme secrète",
           "icon": "storm_ui_icon_falstad_hammerang.png",
           "shortTooltip": "Augmente la portée de Marteau-boomerang et les dégâts des attaques de base.",
-          "fullTooltip": "Augmente la portée de Marteau-boomerang de 30% et les attaques de base infligent 80% de dégâts supplémentaires tant que Marteau-boomerang est en vol.",
+          "fullTooltip": "Augmente la portée de Marteau-boomerang de 30% et les attaques de base infligent 90% de dégâts supplémentaires tant que Marteau-boomerang est en vol.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -14830,10 +14830,10 @@
           "buttonId": "FalstadHinterlandBlast",
           "name": "Explosion des Hinterlands",
           "icon": "storm_ui_icon_falstad_hinterlandblast.png",
-          "energyTooltip": "Mana : 100",
+          "energyTooltip": "Mana : 80",
           "cooldownTooltip": "Temps de recharge : 120 secondes",
           "shortTooltip": "Rayon à longue portée.",
-          "fullTooltip": "Au bout de 1 seconde, inflige 475 (+4.75% per level) points de dégâts aux ennemis sur une longue ligne. Chaque héros adverse touché réduit le temps de recharge de 25 secondes.",
+          "fullTooltip": "Au bout de 1 seconde, inflige 475 (+4.75% per level) points de dégâts aux ennemis sur une longue ligne. Chaque héros adverse touché réduit le temps de recharge de 30 secondes.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -14986,7 +14986,7 @@
           "name": "Monture épique",
           "icon": "storm_ui_icon_falstad_epicmount.png",
           "shortTooltip": "Réduit le temps de recharge et d’incantation de Vol.",
-          "fullTooltip": "Réduit le temps de recharge de Vol de 40 secondes, son temps d’incantation de 0,5 seconde et augmente sa vitesse de 50%.",
+          "fullTooltip": "Réduit le temps de recharge de Vol de 50 secondes, son temps d’incantation de 0,5 seconde et augmente sa vitesse de 50%.",
           "abilityType": "Z",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -23856,7 +23856,7 @@
         "nameId": "LeoricWeapon",
         "range": 2.0,
         "period": 1.3,
-        "damage": 109.0,
+        "damage": 115.0,
         "damageScale": 0.04
       }
     ],
@@ -24207,7 +24207,7 @@
           "name": "Désespérance",
           "icon": "storm_ui_icon_leoric_drainhope.png",
           "shortTooltip": "Réduit le temps de recharge de Drain d’espoir.",
-          "fullTooltip": "Réduit le temps de recharge de Drain d’espoir de 0,5 seconde pour chaque seconde d’activité. Si Drain d’espoir atteint son terme, son temps de recharge est réduit de 3 secondes supplémentaires.",
+          "fullTooltip": "Réduit le temps de recharge de Drain d’espoir de 0,75 seconde pour chaque seconde où il est actif. Si Drain d’espoir atteint son terme, réduit son temps de recharge de 2 secondes supplémentaires.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -24317,39 +24317,29 @@
           ]
         },
         {
-          "nameId": "LeoricDrainHopeHardenedBonesTalent",
-          "buttonId": "LeoricHardenedBonesTalent",
-          "name": "Os endurcis",
-          "icon": "storm_ui_icon_leoric_drainhope_var1.png",
-          "shortTooltip": "Drain d’espoir confère de l’armure.",
-          "fullTooltip": "Pendant Drain d’espoir, Léoric gagne 50 points d’armure. Si Drain d’espoir atteint son terme, Léoric conserve le bonus d’armure pendant 2 secondes.",
-          "abilityType": "W",
+          "nameId": "LeoricBurningDespairTalent",
+          "buttonId": "LeoricBurningDespair",
+          "name": "Désespoir contagieux",
+          "icon": "storm_ui_icon_leoric_drainhope.png",
+          "shortTooltip": "Inflige des dégâts aux ennemis proches et confère de l’armure.",
+          "fullTooltip": "Inflige 40 (+4% per level) points de dégâts par seconde aux ennemis proches.  Tant que Drain d’espoir est actif, confère 40 points d’armure et augmente de 100% les dégâts et la zone d’effet.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
             "LeoricDrainHope"
           ]
         },
         {
-          "nameId": "LeoricBurningDespairTalent",
-          "buttonId": "LeoricBurningDespair",
-          "name": "Désespoir contagieux",
-          "icon": "storm_ui_icon_leoric_drainhope.png",
-          "shortTooltip": "Inflige des dégâts aux ennemis proches.",
-          "fullTooltip": "Inflige 40 (+4% per level) points de dégâts par seconde aux ennemis proches. Les dégâts et la zone d’effet augmentent de 100% tant que Drain d’espoir est actif.",
-          "abilityType": "Passive",
-          "sort": 4
-        },
-        {
           "nameId": "LeoricShroudoftheDeadKingTalent",
           "buttonId": "LeoricShroudoftheDeadKingTalent",
           "name": "Linceul du roi défunt",
           "icon": "storm_ui_icon_talent_hardenedshield.png",
-          "cooldownTooltip": "Temps de recharge : 30 secondes",
+          "cooldownTooltip": "Temps de recharge : 25 secondes",
           "shortTooltip": "Immunise contre tous les dégâts à l’activation.",
           "fullTooltip": "Immunise contre les dégâts pendant 3 secondes.",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 5
+          "sort": 4
         }
       ]
     }
@@ -27704,10 +27694,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_malganis.png"
     },
     "life": {
-      "amount": 2450.0,
+      "amount": 2550.0,
       "scale": 0.04,
       "type": "Vie",
-      "regenRate": 5.1054,
+      "regenRate": 5.3125,
       "regenScale": 0.04
     },
     "energy": {
@@ -27985,7 +27975,7 @@
           "name": "Écho funeste",
           "icon": "storm_ui_icon_malganis_necrotic_c.png",
           "shortTooltip": "Étreinte nécrotique explose à l’expiration.",
-          "fullTooltip": "Quand Étreinte nécrotique expire, elle explose de nouveau et inflige 60 (+4% per level) points de dégâts. Pour chaque héros adverse touché, Mal’Ganis obtient 5 points de mana et le temps de recharge d’Étreinte nécrotique est réduit de 0.75 secondes.  Ne réveille pas les cibles endormies.",
+          "fullTooltip": "Quand Étreinte nécrotique expire, elle explose de nouveau et inflige 66 (+4% per level) points de dégâts. Pour chaque héros adverse touché, Mal’Ganis obtient 5 points de mana et le temps de recharge d’Étreinte nécrotique est réduit de 0.75 secondes.  Ne réveille pas les cibles endormies.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -28488,7 +28478,7 @@
           "name": "Ombre projetée",
           "icon": "storm_ui_icon_malthael_deathshroud.png",
           "shortTooltip": "Augmente la portée de Voile du faucheur et réduit son temps de recharge.",
-          "fullTooltip": "Augmente la portée de Voile du faucheur de 33%, réduit son temps de recharge de 3 secondes et abaisse son coût en mana de 50 à 30 points.",
+          "fullTooltip": "Augmente la portée de Voile du faucheur de 33%, réduit son temps de recharge de 3 secondes et réduit son coût en mana de 50 à 30 points.  L’impact initial de Voile du faucheur inflige aux ennemis autres que les bâtiments un montant de dégâts équivalent à 2% de leur maximum de points de vie.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -28670,7 +28660,7 @@
           "name": "Memento Mori",
           "icon": "storm_ui_icon_malthael_reapersmark.png",
           "shortTooltip": "Les dégâts de Marque du faucheur augmentent sur la durée.",
-          "fullTooltip": "Marque du faucheur inflige 80% de dégâts supplémentaires aux ennemis marqués pendant plus de 4 secondes.",
+          "fullTooltip": "Marque du faucheur inflige 90% de dégâts supplémentaires aux ennemis marqués pendant plus de 4 secondes.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -29981,7 +29971,7 @@
           "energyTooltip": "Mana : 70",
           "cooldownTooltip": "Temps de recharge : 14 secondes",
           "shortTooltip": "Gèle les ennemis dans une zone.",
-          "fullTooltip": "Ordonne à Flocon de créer un Blizzard à l’emplacement ciblé pendant 2 secondes. Les ennemis à l’intérieur du blizzard subissent 13 (+4% per level) points de dégâts toutes les 0,25 secondes et sont ralentis de 7%, jusqu’à un maximum de 35%. Quand le Blizzard se termine, les ennemis se trouvant à l’intérieur de sa zone d’effet subissent 75 (+4% per level) points de dégâts supplémentaires et sont étourdis pendant 1.25 secondes.",
+          "fullTooltip": "Ordonne à Flocon de créer un Blizzard à l’emplacement ciblé pendant 2 secondes. Les ennemis à l’intérieur du Blizzard subissent 13 (+4% per level) points de dégâts toutes les 0,25 secondes et sont ralentis de 7%, jusqu’à un maximum de 35%. Quand le Blizzard se termine, les ennemis se trouvant à l’intérieur de sa zone d’effet subissent 75 (+4% per level) points de dégâts supplémentaires et sont étourdis pendant 1.25 secondes.",
           "abilityType": "W"
         },
         {
@@ -30250,7 +30240,7 @@
           "icon": "storm_ui_icon_mei_battery.png",
           "cooldownTooltip": "Temps de recharge : 70 secondes",
           "shortTooltip": "Dissipe les immobilisations et ralentissements à l’activation et rend des points de vie.",
-          "fullTooltip": "Dissipe les immobilisations et les ralentissements et régénère 20% du maximum de points de vie en 2 secondes. Le temps de recharge de cette capacité est réduit de 10 secondes chaque fois que Mei ramasse un globe de régénération.",
+          "fullTooltip": "Dissipe les immobilisations et les ralentissements, et régénère 20% du maximum de points de vie en 2 secondes. Le temps de recharge de cette capacité est réduit de 10 secondes chaque fois que Mei ramasse un globe de régénération.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -34538,8 +34528,8 @@
           "buttonId": "OrpheaAllegrissimo",
           "name": "Prestissimo",
           "icon": "storm_ui_icon_orphea_q.png",
-          "shortTooltip": "Toucher des héros avec l’extrémité de Valse d’ombre réduit son temps de recharge.",
-          "fullTooltip": "Toucher des héros avec l’extrémité de Valse d’ombre ramène son temps de recharge à 0.75 seconde.",
+          "shortTooltip": "Réduit le temps de recharge de Valse d’ombre.",
+          "fullTooltip": "Réduit le temps de recharge de Valse d’ombre de 1 seconde.  Toucher des héros avec l’extrémité de Valse d’ombre ramène son temps de recharge à 0.75 seconde.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34581,7 +34571,7 @@
           "name": "Insatiabilité",
           "icon": "storm_ui_icon_orphea_w.png",
           "shortTooltip": "Toucher un héros réduit le temps de recharge de Mandibule.",
-          "fullTooltip": "Toucher un héros avec Mandibule ramène son temps de recharge à 1.5 seconde.",
+          "fullTooltip": "Toucher un héros avec Mandibule ramène son temps de recharge à 2 secondes.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34745,8 +34735,8 @@
           "buttonId": "OrpheaMonsterWithin",
           "name": "Monstre intérieur",
           "icon": "storm_ui_icon_orphea_ult_darkfall.png",
-          "shortTooltip": "Festin perpétuel confère des points de chaos et augmente la vitesse d’attaque.",
-          "fullTooltip": "Festin perpétuel confère 1 point de chaos chaque fois qu’il touche un héros. Tant que Festin perpétuel est actif, la vitesse d’attaque d’Orphéa augmente de 50%.",
+          "shortTooltip": "Festin perpétuel confère des points de chaos et réduit les temps de recharge.",
+          "fullTooltip": "Festin perpétuel confère 1 point de chaos chaque fois qu’il touche un héros. Tant que Festin perpétuel est actif, les capacités de base d’Orphéa se rechargent 150% plus vite.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34762,7 +34752,7 @@
           "name": "Crocs fracassants",
           "icon": "storm_ui_icon_orphea_ult_thrasher.png",
           "shortTooltip": "Mort sûre réduit l’armure et son temps de recharge est réduit.",
-          "fullTooltip": "Mort sûre réduit l’armure des héros touchés de 25 points pendant 2 secondes. Faire des victimes ramène son temps de recharge à 5 secondes.",
+          "fullTooltip": "Mort sûre réduit l’armure des héros touchés de 25 points pendant 3 secondes. Faire des victimes ramène son temps de recharge à 5 secondes.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -34791,7 +34781,7 @@
           "buttonId": "OrpheaFinalToccata",
           "name": "Point d’orgue",
           "icon": "storm_ui_icon_orphea_reset.png",
-          "cooldownTooltip": "Temps de recharge : 30 secondes",
+          "cooldownTooltip": "Temps de recharge : 20 secondes",
           "shortTooltip": "Le temps de recharge de Valse d’ombre prend fin après la ruée.",
           "fullTooltip": "Activer annule immédiatement le temps de recharge de Valse d’ombre. Pendant les 6 secondes qui suivent l’activation, la ruée de Valse d’ombre annule son temps de recharge.",
           "abilityType": "Active",
@@ -38498,9 +38488,9 @@
             "countStart": 3,
             "recastCooldown": 5.0
           },
-          "cooldownTooltip": "Temps de recharge : 90 secondes",
+          "cooldownTooltip": "Temps de recharge : 100 secondes",
           "shortTooltip": "Augmente les dégâts des attaques de base.",
-          "fullTooltip": "Augmente les dégâts des attaques de base de 35% pendant 5 secondes. Toucher des bâtiments avec les attaques de base en mode Siège réduit le temps de recharge d’Obus Maelström de 5 secondes.  Cumule jusqu’à 3 charges.",
+          "fullTooltip": "Augmente les dégâts des attaques de base de 30% pendant 5 secondes. Toucher des héros adverses ou des bâtiments avec des attaques de base en mode Siège réduit le temps de recharge d’Obus Maelström de 5 secondes.  Cumule jusqu’à 3 charges.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3,
@@ -38516,7 +38506,7 @@
           "name": "Barricade",
           "icon": "storm_ui_icon_sgthammer_concussiveblast.png",
           "shortTooltip": "Crée un mur de débris.",
-          "fullTooltip": "Réduit le temps de recharge de Décharge percutante de 3 secondes, son coût en mana de 40 et crée un mur infranchissable devant Sgt Marteau pendant 4 secondes.",
+          "fullTooltip": "Réduit le temps de recharge de Décharge percutante de 4 secondes, son coût en mana de 40 et crée un mur infranchissable devant Sgt Marteau pendant 4 secondes.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38557,7 +38547,7 @@
           "name": "Charge à fragmentation",
           "icon": "storm_ui_icon_sgthammer_spidermines.png",
           "shortTooltip": "Les mines araignées explosent plusieurs fois.",
-          "fullTooltip": "Les mines araignées explosent 3 fois en 3 secondes. Les attaques de base contre les héros ennemis donnent 5 points de mana et réduisent le temps de recharge de Mines araignées de 1 seconde. Ce bonus passe à 1.5 seconde en mode Siège.",
+          "fullTooltip": "Les mines araignées explosent 3 fois en 3 secondes. Les attaques de base portées aux héros adverses donnent 5 points de mana et réduisent de 1.5 seconde le temps de recharge de Mines araignées. Ce bonus est porté à 2.5 secondes en mode Siège.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38584,7 +38574,7 @@
           "name": "Portée graduée",
           "icon": "storm_ui_icon_sgthammer_siegemode_var1.png",
           "shortTooltip": "Augmente graduellement la portée des attaques de base en mode Siège.",
-          "fullTooltip": "Augmente la portée des attaques en mode Siège de 1 mètre toutes les 3 secondes, jusqu’à un maximum de 3 mètres.",
+          "fullTooltip": "Augmente la portée des attaques en mode Siège de 1 mètre toutes les 2 secondes, jusqu’à un maximum de 3 mètres.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -38674,8 +38664,8 @@
           "buttonId": "SgtHammerNeosteelPlatingMechanicalKnowhowTalent",
           "name": "Sensibilité mécanique",
           "icon": "storm_ui_icon_sgthammer_neosteelplating.png",
-          "shortTooltip": "Blindage en NéoAcier confère un bouclier.",
-          "fullTooltip": "Blindage en NéoAcier confère un bouclier équivalent à 5% du maximum de points de vie pendant 2 secondes. Si ce bouclier est détruit, les dégâts des attaques de base augmentent de 50% pendant 5 secondes.",
+          "shortTooltip": "Blindage en NéoAcier confère un bouclier et augmente les dégâts.",
+          "fullTooltip": "Blindage en NéoAcier confère 20% du maximum de points de vie sous forme de bouclier pendant 2 secondes et augmente les dégâts des attaques de base de 30% pendant 5 secondes.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -40021,8 +40011,8 @@
           "buttonId": "SylvanasMindControlMissile",
           "name": "Contrôle mental",
           "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
-          "energyTooltip": "Mana : 75",
-          "cooldownTooltip": "Temps de recharge : 50 secondes",
+          "energyTooltip": "Mana : 50",
+          "cooldownTooltip": "Temps de recharge : 40 secondes",
           "shortTooltip": "Force un héros adverse à venir vers Sylvanas.",
           "fullTooltip": "Après 0.25 secondes, tire un projectile qui prend le Contrôle mental du premier héros adverse sur sa trajectoire. Celui-ci est réduit au silence, ralenti de 30%, se voit appliquer 3 charges de Malédiction de la banshee, et est contraint à marcher vers Sylvanas pendant 1.75 secondes.",
           "abilityType": "Heroic"
@@ -40319,8 +40309,8 @@
           "buttonId": "SylvanasMindControlMissile",
           "name": "Contrôle mental",
           "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
-          "energyTooltip": "Mana : 75",
-          "cooldownTooltip": "Temps de recharge : 50 secondes",
+          "energyTooltip": "Mana : 50",
+          "cooldownTooltip": "Temps de recharge : 40 secondes",
           "shortTooltip": "Force un héros adverse à venir vers Sylvanas.",
           "fullTooltip": "Après 0.25 secondes, tire un projectile qui prend le Contrôle mental du premier héros adverse sur sa trajectoire. Celui-ci est réduit au silence, ralenti de 30%, se voit appliquer 3 charges de Malédiction de la banshee, et est contraint à marcher vers Sylvanas pendant 1.75 secondes.",
           "abilityType": "Heroic",
@@ -40433,7 +40423,7 @@
           "name": "L’appel de la Dame noire",
           "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
           "shortTooltip": "Contrôle mental réduit la vision des ennemis.",
-          "fullTooltip": "La vision des héros touchés par Contrôle mental est fortement réduite pendant 5 secondes. Réduit le temps de recharge de Contrôle mental de 30 secondes.",
+          "fullTooltip": "La vision des héros touchés par Contrôle mental est fortement réduite pendant 5 secondes. Réduit le temps de recharge de Contrôle mental de 25 secondes.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -40448,8 +40438,8 @@
           "buttonId": "SylvanasWitheringFireWitheringBarrage",
           "name": "Barrage d’affliction",
           "icon": "storm_ui_icon_sylvanas_witheringfire.png",
-          "shortTooltip": "Réduit le temps de recharge de Tir d’affliction.",
-          "fullTooltip": "Les héros adverses touchés par Tir d’affliction réduisent son temps de recharge de 0.75 seconde.",
+          "shortTooltip": "Tir d’affliction applique Malédiction de la banshee.",
+          "fullTooltip": "Tir d’affliction applique Malédiction de la banshee. Toucher des héros adverses avec Tir d’affliction réduit son temps de recharge de 0.75 seconde.",
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -41681,7 +41671,7 @@
           "toggleCooldown": 0.5,
           "energyTooltip": "Débris : 4",
           "shortTooltip": "Pose une tourelle qui tire sur les ennemis proches.",
-          "fullTooltip": "Pose une tourelle qui inflige 40 (+4% per level) points de dégâts et dure 15 secondes.  Une fois créées, les tourelles visent en priorité le héros adverse le plus proche.",
+          "fullTooltip": "Pose une tourelle qui inflige 38 (+4% per level) points de dégâts et dure 15 secondes.  Une fois créées, les tourelles visent en priorité le héros adverse le plus proche.",
           "abilityType": "Q"
         },
         {
@@ -41698,7 +41688,7 @@
           },
           "cooldownTooltip": "Temps de recharge : 8 secondes",
           "shortTooltip": "Inflige des dégâts aux cibles sur une ligne.",
-          "fullTooltip": "Après 0.65 secondes, inflige 184 (+4% per level) points de dégâts aux ennemis sur une ligne. Rend un montant de points de vie équivalent à 25% des dégâts infligés, cet effet est augmenté à 75% contre les héros adverses.",
+          "fullTooltip": "Après 0.65 secondes, inflige 180 (+4% per level) points de dégâts aux ennemis sur une ligne. Rend un montant de points de vie équivalent à 25% des dégâts infligés, cet effet est augmenté à 75% contre les héros adverses.",
           "abilityType": "W"
         },
         {
@@ -41853,7 +41843,7 @@
           "name": "Chasseur de gros gibier",
           "icon": "storm_ui_icon_gazlowe_salvager.png",
           "shortTooltip": "Toucher des héros, des mercenaires et des monstres augmente les débris.",
-          "fullTooltip": "Augmente le maximum de débris de 2. Les attaques de base contre les héros adverses, mercenaires ou monstres accélèrent la régénération de débris de Rationaliser, réutiliser, recycler de 2 secondes.",
+          "fullTooltip": "Augmente le maximum de débris de 2. Les attaques de base contre les héros adverses, mercenaires ou monstres accélèrent la régénération de débris de Rationaliser, réutiliser, recycler de 1.5 secondes.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41882,7 +41872,7 @@
           "icon": "storm_ui_icon_gazlowe_rockitturret.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "L’utilisation de Tourelle Sulfatt confère un bouclier.",
-          "fullTooltip": "L’utilisation de Tourelle Sulfatt confère à Gazleu un bouclier qui absorbe jusqu’à 215 (+4% per level) points de dégâts pendant 2.5 secondes.",
+          "fullTooltip": "L’utilisation de Tourelle Sulfatt confère à Gazleu un bouclier qui absorbe jusqu’à 200 (+4% per level) points de dégâts pendant 2.5 secondes.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -42021,7 +42011,7 @@
           "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Les tourelles Sulfatt attaquent plusieurs ennemis.",
-          "fullTooltip": "Les tourelles Sulfatt attaquent jusqu’à 2 ennemis supplémentaires, infligent 75% de leurs dégâts normaux, et la portée de leurs attaques de base est augmentée de 50%.",
+          "fullTooltip": "Les tourelles Sulfatt attaquent jusqu’à 2 ennemis supplémentaires, infligent 60% de leurs dégâts normaux, et la portée de leurs attaques de base est augmentée de 50%.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -42077,7 +42067,7 @@
             "recastCooldown": 3.0
           },
           "shortTooltip": "Réduit le temps de recharge de Charge d’X-plosium et crée des tourelles.",
-          "fullTooltip": "Réduit le temps de recharge de Charge d’X-plosium de 3 secondes. L’utilisation de Charge d’X-plosium crée 3 tourelles Sulfatt miniatures qui durent 3 secondes.  Ces tourelles ne lâchent pas de débris et ne bénéficient pas des effets d’autres talents.",
+          "fullTooltip": "Réduit le temps de recharge de Charge d’X-plosium de 2 secondes. L’utilisation de Charge d’X-plosium crée 3 tourelles Sulfatt miniatures qui durent 3 secondes.  Ces tourelles ne lâchent pas de débris et ne bénéficient pas des effets d’autres talents.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -43091,8 +43081,8 @@
           "buttonId": "TychusFragGrenadeQuarterbackTalent",
           "name": "Discobole",
           "icon": "storm_ui_icon_tychus_fraggrenade.png",
-          "shortTooltip": "Augmente la portée de Grenade à fragmentation.",
-          "fullTooltip": "Augmente la portée de Grenade à fragmentation de 50%.",
+          "shortTooltip": "Augmente les dégâts et la portée de Grenade à fragmentation.",
+          "fullTooltip": "Augmente les dégâts de Grenade à fragmentation de 20% et sa portée de 50%.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -44833,7 +44823,7 @@
           "name": "Gardien des anciens rois",
           "icon": "storm_ui_icon_uther_eternaldevotion.png",
           "shortTooltip": "Augmente l’armure conférée par Dévotion aux cibles diminuées.",
-          "fullTooltip": "Rendre des points de vie à un héros étourdi, immobilisé ou réduit au silence lui confère 50 points d’armure pendant 3 secondes.",
+          "fullTooltip": "Rendre des points de vie avec une capacité de base à un héros étourdi, immobilisé ou réduit au silence lui confère 50 points d’armure pendant 3 secondes.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -45647,10 +45637,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_varian.png"
     },
     "life": {
-      "amount": 2116.0,
+      "amount": 2220.0,
       "scale": 0.04,
       "type": "Vie",
-      "regenRate": 4.4062,
+      "regenRate": 4.625,
       "regenScale": 0.04
     },
     "energy": {
@@ -45854,7 +45844,7 @@
           "name": "Gueule-de-Lion",
           "icon": "storm_ui_icon_varian_lionsfang.png",
           "shortTooltip": "Quête : toucher des héros renforce Croc-de-Lion.",
-          "fullTooltip": "Quête : augmente de 5 points, jusqu’à un maximum de 125, les dégâts de Croc-de-Lion chaque fois qu’elle touche un héros.  Récompense : une fois 25 héros touchés, porte le ralentissement de Croc-de-lion à 50% et sa durée à 2 secondes.",
+          "fullTooltip": "Quête : augmente de 6 points, jusqu’à un maximum de 150, les dégâts de Croc-de-Lion chaque fois qu’elle touche un héros.  Récompense : une fois 25 héros touchés, porte le ralentissement de Croc-de-lion à 50% et sa durée à 2 secondes.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -45886,7 +45876,7 @@
           "name": "Quête du haut roi",
           "icon": "storm_ui_icon_varian_highkingsquest.png",
           "shortTooltip": "Quête : accomplir des quêtes augmente les dégâts d’attaque.",
-          "fullTooltip": "Quête : toucher 50 héros avec des attaques de base. Quête : contribuer à faire 5 victimes. Quête : collecter 20 globes de régénération.  Récompense : accomplir une quête augmente les dégâts des attaques de base de 10 points. Terminer les 3 quêtes augmente les dégâts des attaques de base de 30 points supplémentaires.",
+          "fullTooltip": "Quête : toucher 50 héros avec des attaques de base. Quête : contribuer à faire 5 victimes. Quête : collecter 15 globes de régénération.  Récompense : accomplir une quête augmente les dégâts des attaques de base de 10 points. Terminer les 3 quêtes augmente les dégâts des attaques de base de 30 points supplémentaires.",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 3,
@@ -46161,7 +46151,7 @@
           "buttonId": "VarianDemoralizingShout",
           "name": "Cri démoralisant",
           "icon": "storm_ui_icon_varian_demoralizingshout.png",
-          "cooldownTooltip": "Temps de recharge : 25 secondes",
+          "cooldownTooltip": "Temps de recharge : 20 secondes",
           "shortTooltip": "Réduit les dégâts infligés par les ennemis proches.",
           "fullTooltip": "Démoralise les héros adverses proches, réduisant les dégâts qu’ils infligent de 40% pendant 5 secondes.",
           "abilityType": "Active",
