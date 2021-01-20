@@ -11,7 +11,7 @@ import {
 
 //var lang = (navigator.language || navigator.userLanguage).toLowerCase().replace('-', '');
 var lang = 'enus'
-const version = '83004'
+const version = '83632'
 var cooldown, energycost, lifecost, necessityStyle, sharedTalent
 const talentShareColor = []
 talentShareColor[0] = {borderColor: '#cd7f32'}
@@ -197,10 +197,11 @@ class HeroPage extends React.Component {
             }
             ImageContext.drawImage(talentImages[i], 0, 0, 128, 128, 128 * i, 0, 128, 128)
         }
-
+        /* Watermark
         ImageContext.font = 'Comic Sans'
         ImageContext.fillStyle = 'white'
         ImageContext.fillText("min.hyeok.org/SILVER", 790, 120 )
+        */
         var donwloadLink = document.createElement('a')
         donwloadLink.href = Image.toDataURL();
         donwloadLink.download = sharedTalent.join('') + '.png';

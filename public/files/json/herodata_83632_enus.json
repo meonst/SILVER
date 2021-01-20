@@ -1994,14 +1994,14 @@
         "nameId": "AmazonHeroWeaponMelee",
         "range": 2.0,
         "period": 0.9,
-        "damage": 125.0,
+        "damage": 120.0,
         "damageScale": 0.04
       },
       {
         "nameId": "AmazonHeroWeaponRanged",
         "range": 4.5,
         "period": 0.9,
-        "damage": 125.0,
+        "damage": 120.0,
         "damageScale": 0.04
       }
     ],
@@ -2021,7 +2021,7 @@
           },
           "cooldownTooltip": "Cooldown: 5 seconds",
           "shortTooltip": "Hurl a lightning javelin that splits upon impact",
-          "fullTooltip": "Hurl a lightning javelin that deals 165 (+4% per level) damage to the first enemy hit and splits into two lightning bolts that deal 165 (+4% per level) damage to enemies in their path.",
+          "fullTooltip": "Hurl a lightning javelin that deals 158 (+4% per level) damage to the first enemy hit and splits into two lightning bolts that deal 158 (+4% per level) damage to enemies in their path.",
           "abilityType": "Q"
         },
         {
@@ -2043,7 +2043,7 @@
           "energyTooltip": "Mana: 50",
           "cooldownTooltip": "Cooldown: 10 seconds",
           "shortTooltip": "Charge at a target and rapidly attack nearby enemies",
-          "fullTooltip": "Charge at an enemy, and upon arriving Channel for up to 1.5 seconds, dealing 68 (+4% per level) damage to enemies in front of Cassia every 0.25 seconds. Deals 50% reduced damage to non-Heroes. Avoidance remains charged while Channeling.",
+          "fullTooltip": "Charge at an enemy, and upon arriving Channel for up to 1.5 seconds, dealing 64 (+4% per level) damage to enemies in front of Cassia every 0.25 seconds. Deals 50% reduced damage to non-Heroes. Avoidance remains charged while Channeling.",
           "abilityType": "E"
         }
       ],
@@ -3572,7 +3572,7 @@
           "name": "Light of Stormwind",
           "icon": "storm_ui_icon_anduin_holy_word_salvation.png",
           "shortTooltip": "Holy Word: Salvation grants allies Invulnerability",
-          "fullTooltip": "Holy Word: Salvation grants allied Heroes Invulnerability instead of Protected. This does not affect Anduin.",
+          "fullTooltip": "Holy Word: Salvation grants allied Heroes Invulnerability instead of Protected. This does not affect Anduin.   Channeling Holy Word: Salvation for its full duration reduces its cooldown by -61 seconds.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3613,7 +3613,7 @@
           "buttonId": "AnduinFlashHealDesperatePrayer",
           "name": "Desperate Prayer",
           "icon": "storm_ui_icon_anduin_desperate_prayer.png",
-          "cooldownTooltip": "Cooldown: 40 seconds",
+          "cooldownTooltip": "Cooldown: 30 seconds",
           "shortTooltip": "Activate to desperately heal an allied Hero",
           "fullTooltip": "Activate to desperately heal an allied Hero for 540 (+4% per level), but kneel for 2 seconds, unable to act.",
           "abilityType": "Active",
@@ -5545,8 +5545,8 @@
           "buttonId": "AurielHeavyBurdenDetainmentStrikeTalent",
           "name": "Heavy Burden",
           "icon": "storm_ui_icon_auriel_restrainingblow.png",
-          "shortTooltip": "Detainment Strike slows enemies after stun",
-          "fullTooltip": "When an enemy Hero is stunned by Detainment Strike, their Movement Speed is slowed by 50% for 3 seconds after the stun.",
+          "shortTooltip": "Detainment Strike Slows",
+          "fullTooltip": "Detainment Strike Slows enemy Heroes by 20% for 2.5 seconds. Slow and duration doubled on enemies it Stuns.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -10573,6 +10573,13 @@
           "name": "Lorenado",
           "icon": "storm_ui_icon_deckard_lorenado.png",
           "energyTooltip": "Mana: 35",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "cooldownTooltip": "Cooldown: 30 seconds",
           "shortTooltip": "Conjure a lorenado that knocks enemies away",
           "fullTooltip": "Vector Targeting After 1 second, create a twirling tome tornado that travels towards the targeted direction, continually knocking away enemies that come into contact with it.",
@@ -10836,6 +10843,13 @@
           "name": "Lorenado",
           "icon": "storm_ui_icon_deckard_lorenado.png",
           "energyTooltip": "Mana: 35",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
           "cooldownTooltip": "Cooldown: 30 seconds",
           "shortTooltip": "Conjure a lorenado that knocks enemies away",
           "fullTooltip": "Vector Targeting After 1 second, create a twirling tome tornado that travels towards the targeted direction, continually knocking away enemies that come into contact with it.",
@@ -10951,8 +10965,15 @@
           "buttonId": "DeckardMorenados",
           "name": "Morenados!",
           "icon": "storm_ui_icon_deckard_lorenado.png",
-          "shortTooltip": "Hitting Heroes reduces Lorenado cooldown",
-          "fullTooltip": "Lorenado's cooldown is reduced by 10 seconds every time an enemy Hero is knocked back. This effect can only occur once per 0.5 seconds.",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
+          "shortTooltip": "Gain Lorenado charge, reduce cooldown",
+          "fullTooltip": "Lorenado gains an additional charge and its cooldown is reduced by 10 seconds every time an enemy Hero is knocked back. This effect can only occur once per 0.5 seconds.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -13261,10 +13282,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_dva_mech.png"
     },
     "life": {
-      "amount": 2250.0,
+      "amount": 2150.0,
       "scale": 0.04,
       "type": "Health",
-      "regenRate": 4.6875,
+      "regenRate": 4.4804,
       "regenScale": 0.04
     },
     "energy": {
@@ -13338,7 +13359,7 @@
           "icon": "storm_ui_icon_dva_bunnyhop.png",
           "cooldownTooltip": "Cooldown: 70 Seconds",
           "shortTooltip": "Become Unstoppable and Stun nearby Heroes",
-          "fullTooltip": "D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 52 (+4% per level) damage in a large area. Every 4th consecutive hit on a Hero deals 100% more damage and Stuns them for 0.5 seconds.  Lasts for 4 seconds.  Requires Mech Mode.",
+          "fullTooltip": "D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 70 (+4% per level) damage in a large area. Every 4th consecutive hit on a Hero deals 100% more damage and Stuns them for 0.5 seconds.  Lasts for 4 seconds.  Requires Mech Mode.",
           "abilityType": "Heroic"
         },
         {
@@ -13624,7 +13645,7 @@
           "icon": "storm_ui_icon_dva_bunnyhop.png",
           "cooldownTooltip": "Cooldown: 70 Seconds",
           "shortTooltip": "Become Unstoppable and Stun nearby Heroes",
-          "fullTooltip": "D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 52 (+4% per level) damage in a large area. Every 4th consecutive hit on a Hero deals 100% more damage and Stuns them for 0.5 seconds.  Lasts for 4 seconds.  Requires Mech Mode.",
+          "fullTooltip": "D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 70 (+4% per level) damage in a large area. Every 4th consecutive hit on a Hero deals 100% more damage and Stuns them for 0.5 seconds.  Lasts for 4 seconds.  Requires Mech Mode.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -14363,7 +14384,7 @@
           "name": "Safety Dust",
           "icon": "storm_ui_icon_brightwing_pixiedust_a.png",
           "shortTooltip": "Pixie Dust increases healing",
-          "fullTooltip": "Increase Pixie Dust's duration by 1 second. Brightwing heals allies with an active Pixie Dust for 75% more.",
+          "fullTooltip": "Increase Pixie Dust's duration by 1 second. Soothing Mist and Blink Heal heal allies with an active Pixie Dust for 75% more.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -15294,7 +15315,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Phase Bomb can Slow enemies hit",
-          "fullTooltip": "While Phase Bomb is active, Basic Attacks against Slowed Heroes Slow all enemies in the area by 30% for 2.5 seconds.",
+          "fullTooltip": "Basic Attacks against Slowed enemies with Phase Bomb active Slow all enemies hit by 30% for 2.5 seconds.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -15773,7 +15794,7 @@
           "icon": "storm_ui_icon_blaze_stim_1.png",
           "cooldownTooltip": "Cooldown: 30 seconds",
           "shortTooltip": "Activate to gain a Shield",
-          "fullTooltip": "Activate to gain a Shield that absorbs 530 (+4% per level) damage over 5 seconds.  When taking damage while below 30% maximum Health, Endurance Stimpack will automatically be cast if it is not on cooldown.",
+          "fullTooltip": "Activate to gain a Shield that absorbs 590 (+4% per level) damage over 5 seconds.  When taking damage while below 30% maximum Health, Endurance Stimpack will automatically be cast if it is not on cooldown.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 2
@@ -15783,7 +15804,7 @@
           "buttonId": "FirebatNeuralStimpack",
           "name": "Neural Stimpack",
           "icon": "storm_ui_icon_blaze_stim_3.png",
-          "cooldownTooltip": "Cooldown: 40 seconds",
+          "cooldownTooltip": "Cooldown: 30 seconds",
           "shortTooltip": "Activate to increase cooldown recharge rate",
           "fullTooltip": "Activate to gain 40 Mana and cause Basic Ability cooldowns to recharge 100% faster for 5 seconds.",
           "abilityType": "Active",
@@ -15875,7 +15896,7 @@
             "recastCooldown": 1.0
           },
           "shortTooltip": "Quest: Increase Ignited Oil Spill damage, duration",
-          "fullTooltip": "Quest: Damage enemy Heroes with Ignited Oil Spills 60 times.  Reward: Increase Oil Spill's Ignite duration by 2 seconds, and damage by 20%.",
+          "fullTooltip": "Quest: Damage enemy Heroes with Ignited Oil Spills 60 times.  Reward: Increase Oil Spill's Ignite duration by 2 seconds, and damage by 35%.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -15895,7 +15916,7 @@
             "recastCooldown": 1.0
           },
           "shortTooltip": "Oil Spill Slows when Ignited",
-          "fullTooltip": "Enemies standing in Oil Spill when it is Ignited are Slowed by 35% for 3 seconds.  Additionally, Basic Attack splashes Ignite Oil Spills.",
+          "fullTooltip": "Enemies standing in Oil Spill when it is Ignited are Slowed by 40% for 3 seconds.  Additionally, Basic Attack splashes Ignite Oil Spills.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -15963,7 +15984,7 @@
             "recastCooldown": 1.0
           },
           "shortTooltip": "Oil Spill reduces Attack Speed",
-          "fullTooltip": "Enemies standing in Oil Spills and Ignited Oil Spills have their Attack Speed reduced by 50% for 2.5 seconds.",
+          "fullTooltip": "Enemies standing in Oil Spills and Ignited Oil Spills have their Attack Speed reduced by 50% for 3 seconds.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -19443,10 +19464,10 @@
       "targetInfo": "storm_ui_ingame_partyframe_hogger.png"
     },
     "life": {
-      "amount": 2320.0,
+      "amount": 2260.0,
       "scale": 0.04,
       "type": "Health",
-      "regenRate": 4.8281,
+      "regenRate": 4.711,
       "regenScale": 0.04
     },
     "energy": {
@@ -19531,9 +19552,9 @@
           "buttonId": "HoggerHoardapult",
           "name": "Hoardapult",
           "icon": "storm_ui_icon_hogger_r1.png",
-          "cooldownTooltip": "Cooldown: 50 seconds",
+          "cooldownTooltip": "Cooldown: 60 seconds",
           "shortTooltip": "Launch Loot Hoard, Hogger",
-          "fullTooltip": "Launch an empowered Loot Hoard with Hogger attached, dealing 140 (+4% per level) damage and Slowing enemies by 50% for 2 seconds.  Hoardapult's Loot Hoard lasts for up to 20 seconds, decaying rapidly while not nearby. Every 10 seconds Hogger can take a chunk of Meat from the Loot Hoard.",
+          "fullTooltip": "Launch an empowered Loot Hoard with Hogger attached, dealing 100 (+4% per level) damage and Slowing enemies by 50% for 2 seconds.  Hoardapult's Loot Hoard lasts for up to 20 seconds, decaying rapidly while not nearby. Every 10 seconds Hogger can take a chunk of Meat from the Loot Hoard.",
           "abilityType": "Heroic"
         },
         {
@@ -19543,7 +19564,7 @@
           "icon": "storm_ui_icon_hogger_r2.png",
           "cooldownTooltip": "Cooldown: 70 seconds",
           "shortTooltip": "Damage and Stun in long line",
-          "fullTooltip": "After 0.5 seconds, slam the ground, sending out a shockwave that travels in a long line. Enemies hit by the initial slam take 306 (+4% per level) damage and are Stunned for 1.25 seconds. Enemies only hit by the shockwave take 210 (+4% per level) damage and are Stunned for 0.75 seconds.",
+          "fullTooltip": "After 0.5 seconds, slam the ground, sending out a shockwave that travels in a long line. Enemies hit by the initial slam take 335 (+4% per level) damage and are Stunned for 1.5 seconds. Enemies only hit by the shockwave take 230 (+4% per level) damage and are Stunned for 0.75 seconds.",
           "abilityType": "Heroic"
         }
       ],
@@ -19565,7 +19586,7 @@
           "icon": "storm_ui_icon_hogger_trait.png",
           "cooldownTooltip": "Cooldown: 20 seconds",
           "shortTooltip": "Create terrain and restore Health",
-          "fullTooltip": "Toss a pile of junk onto the battlefield, dealing 102 (+4% per level) damage in an area, knocking enemies away, and acting as terrain for up to 5 seconds.  When the Loot Hoard expires or is destroyed, a chunk of Meat falls out that can be picked up to restore 3% of maximum Health every second for 5 seconds.  Reactivate to destroy Loot Hoard.",
+          "fullTooltip": "Toss a pile of junk onto the battlefield, dealing 102 (+4% per level) damage in an area, knocking enemies away, and acting as terrain for up to 5 seconds.  When the Loot Hoard expires or is destroyed, a chunk of Meat falls out that can be picked up to restore 3% of maximum Health every second for 4 seconds.  Reactivate to destroy Loot Hoard.",
           "abilityType": "Trait"
         }
       ],
@@ -19638,7 +19659,7 @@
           "name": "Journeyman Cooking",
           "icon": "storm_ui_icon_hogger_w.png",
           "shortTooltip": "Quest: Ez-Thro Dynamite heals, increases Health",
-          "fullTooltip": "Each Hero hit by Ez-Thro Dynamite heals you for 6% of maximum Health.  Quest: Hitting Heroes with Ez-Thro Dynamite permanently increases your maximum Health by 10, to a maximum of 750 bonus Health.",
+          "fullTooltip": "Each Hero hit by Ez-Thro Dynamite heals you for 8% of maximum Health.  Quest: Hitting Heroes with Ez-Thro Dynamite permanently increases your maximum Health by 10, to a maximum of 750 bonus Health.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 1,
@@ -19664,9 +19685,9 @@
           "buttonId": "HoggerOnTheProwl",
           "name": "On The Prowl",
           "icon": "storm_ui_icon_hogger_rage.png",
-          "cooldownTooltip": "Cooldown: 45 seconds",
+          "cooldownTooltip": "Cooldown: 40 seconds",
           "shortTooltip": "Periodically heal, activate to gain Rage",
-          "fullTooltip": "Activate to gain 30 Rage over 8 seconds.  Passive: You heal for 6 (+4% per level) Health every second, increased by 2% per point of Rage.",
+          "fullTooltip": "Activate to gain 30 Rage over 8 seconds.  Passive: You heal for 9 (+4% per level) Health every second, increased by 2% per point of Rage.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -19679,7 +19700,7 @@
           "name": "Brute Force",
           "icon": "storm_ui_icon_hogger_combo_q_d.png",
           "shortTooltip": "Increases Attack Damage and Loot Hoard range",
-          "fullTooltip": "Increase the range of Loot Hoard by 15%.  Quest: Hitting Heroes with Staggering Blow permanently increases Basic Attack damage by 1, to a maximum of 100 bonus damage. Enemy Heroes that hit terrain grant an additional 2 damage.",
+          "fullTooltip": "Increase the range of Loot Hoard by 15%.  Quest: Hitting Heroes with Staggering Blow permanently increases Basic Attack damage by 1, to a maximum of 125 bonus damage. Enemy Heroes that hit terrain grant an additional 8 damage.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -19693,7 +19714,7 @@
           "name": "Aggro Range",
           "icon": "storm_ui_icon_hogger_e.png",
           "shortTooltip": "Increase Hogg Wild radius, generates Rage",
-          "fullTooltip": "Increase Hogg Wild's radius by 25% and each enemy hit generates 1 Rage, increased to 3 against Heroes.",
+          "fullTooltip": "Increase Hogg Wild's radius by 25% and each enemy hit generates 0.5 Rage, increased to 2 against Heroes.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -19718,7 +19739,7 @@
           "name": "Seeing Red",
           "icon": "storm_ui_icon_hogger_combo_q_e.png",
           "shortTooltip": "Rage empowers Basic Abilities, Basic Attacks",
-          "fullTooltip": "While above 50 Rage, gain 25% Attack Speed and the cooldowns of Staggering Blow and Hogg Wild refresh 30% faster.",
+          "fullTooltip": "While above 50 Rage, gain 35% Attack Speed and the cooldowns of Staggering Blow and Hogg Wild refresh 30% faster.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -19746,7 +19767,7 @@
           "name": "Garbage Fire",
           "icon": "storm_ui_icon_hogger_trait.png",
           "shortTooltip": "Loot Hoard deals area damage, Slows",
-          "fullTooltip": "Reduce the cooldown of Loot Hoard by 4 seconds.  Every 0.5 seconds, enemies in a large area around Loot Hoard take 25 (+4% per level) damage and are Slowed by 20%.",
+          "fullTooltip": "Reduce the cooldown of Loot Hoard by 2 seconds.  Every 0.5 seconds, enemies in a large area around Loot Hoard take 23 (+4% per level) damage and are Slowed by 20%.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -19760,9 +19781,9 @@
           "buttonId": "HoggerHoardapult",
           "name": "Hoardapult",
           "icon": "storm_ui_icon_hogger_r1.png",
-          "cooldownTooltip": "Cooldown: 50 seconds",
+          "cooldownTooltip": "Cooldown: 60 seconds",
           "shortTooltip": "Launch Loot Hoard, Hogger",
-          "fullTooltip": "Launch an empowered Loot Hoard with Hogger attached, dealing 140 (+4% per level) damage and Slowing enemies by 50% for 2 seconds.  Hoardapult's Loot Hoard lasts for up to 20 seconds, decaying rapidly while not nearby. Every 10 seconds Hogger can take a chunk of Meat from the Loot Hoard.",
+          "fullTooltip": "Launch an empowered Loot Hoard with Hogger attached, dealing 100 (+4% per level) damage and Slowing enemies by 50% for 2 seconds.  Hoardapult's Loot Hoard lasts for up to 20 seconds, decaying rapidly while not nearby. Every 10 seconds Hogger can take a chunk of Meat from the Loot Hoard.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -19777,7 +19798,7 @@
           "icon": "storm_ui_icon_hogger_r2.png",
           "cooldownTooltip": "Cooldown: 70 seconds",
           "shortTooltip": "Damage and Stun in long line",
-          "fullTooltip": "After 0.5 seconds, slam the ground, sending out a shockwave that travels in a long line. Enemies hit by the initial slam take 306 (+4% per level) damage and are Stunned for 1.25 seconds. Enemies only hit by the shockwave take 210 (+4% per level) damage and are Stunned for 0.75 seconds.",
+          "fullTooltip": "After 0.5 seconds, slam the ground, sending out a shockwave that travels in a long line. Enemies hit by the initial slam take 335 (+4% per level) damage and are Stunned for 1.5 seconds. Enemies only hit by the shockwave take 230 (+4% per level) damage and are Stunned for 0.75 seconds.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -19793,7 +19814,7 @@
           "name": "Dust Devil",
           "icon": "storm_ui_icon_hogger_e.png",
           "shortTooltip": "Hogg Wild grants Armor",
-          "fullTooltip": "Gain 30 Armor while Hogg Wild is active and for 3 seconds after. When above 50 Rage, increase this Armor to 50.",
+          "fullTooltip": "Gain 20 Armor while Hogg Wild is active and for 3 seconds after. When above 50 Rage, increase this Armor to 40.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -19806,7 +19827,7 @@
           "name": "Pummel",
           "icon": "storm_ui_icon_hogger_e_variant.png",
           "shortTooltip": "Hogg Wild Slows, reduces Spell Power",
-          "fullTooltip": "Enemies hit by Hogg Wild are Slowed by 10% for 1.5 seconds, stacking up to 5 times.   Heroes hit have their Spell Power reduced by 50% for 3 seconds.",
+          "fullTooltip": "Enemies hit by Hogg Wild are Slowed by 10% for 2 seconds, stacking up to 5 times.   Heroes hit have their Spell Power reduced by 50% for 3 seconds.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -19848,7 +19869,7 @@
           "name": "Kablooie!",
           "icon": "storm_ui_icon_hogger_w.png",
           "shortTooltip": "Empower Ez-Thro Dynamite instant detonations",
-          "fullTooltip": "Instant Ez-Thro Dynamite detonations deal 40% more damage, reduce its cooldown by 1.5 seconds, and increase its Slow amount to 50%.   Passive: Increase Ez-Thro Dynamite's range by 25%.",
+          "fullTooltip": "Instant Ez-Thro Dynamite detonations deal 50% more damage, reduce its cooldown by 1.5 seconds, and increase its Slow amount to 50%.   Passive: Increase Ez-Thro Dynamite's range by 25%.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -20572,7 +20593,7 @@
           "energyTooltip": "Mana: 70",
           "cooldownTooltip": "Cooldown: 70 seconds",
           "shortTooltip": "Gain a large Shield, reactivate to damage",
-          "fullTooltip": "Summon a ring of blazing swords that grants 1000 (+4% per level) Shield for 3 seconds.  If the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 (+4% per level) damage to the first enemy hit.",
+          "fullTooltip": "Summon a ring of blazing swords that grants 850 (+4% per level) Shield for 3 seconds.  If the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 (+4% per level) damage to the first enemy hit.",
           "abilityType": "Heroic"
         },
         {
@@ -20669,7 +20690,7 @@
           "name": "Impaling Light",
           "icon": "storm_ui_icon_imperius_q.png",
           "shortTooltip": "Empower Celestial Charge with Valorous Brand",
-          "fullTooltip": "Celestial Charge's final damage is increased by 125% and its cooldown is reduced by 1.25 seconds for each Valorous Brand on the target when the Stun completes.",
+          "fullTooltip": "Celestial Charge's final damage is increased by 75% and its cooldown is reduced by 1.25 seconds for each Valorous Brand on the target when the Stun completes.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -20710,7 +20731,7 @@
           "name": "Sovereign Armor",
           "icon": "storm_ui_icon_imperius_e.png",
           "shortTooltip": "Molten Armor grants Armor",
-          "fullTooltip": "Molten Armor grants 25 Armor for 1.5 seconds. Damaging an enemy Hero with Molten Armor increases the duration of the Armor by 0.5 seconds.",
+          "fullTooltip": "Molten Armor grants 20 Armor for 1.5 seconds. Damaging an enemy Hero with Molten Armor increases the duration of the Armor by 0.5 seconds.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -20793,7 +20814,7 @@
           "energyTooltip": "Mana: 70",
           "cooldownTooltip": "Cooldown: 70 seconds",
           "shortTooltip": "Gain a large Shield, reactivate to damage",
-          "fullTooltip": "Summon a ring of blazing swords that grants 1000 (+4% per level) Shield for 3 seconds.  If the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 (+4% per level) damage to the first enemy hit.",
+          "fullTooltip": "Summon a ring of blazing swords that grants 850 (+4% per level) Shield for 3 seconds.  If the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 (+4% per level) damage to the first enemy hit.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -22624,13 +22645,15 @@
             "hideCount": true,
             "recastCooldown": 0.0625
           },
-          "shortTooltip": "Verdant Spheres gains a second charge",
-          "fullTooltip": "Verdant Spheres gains a second charge.",
+          "shortTooltip": "Gain level 7 talents, Verdant Spheres charge",
+          "fullTooltip": "Verdant Spheres gains a second charge.  Passive: Kael'thas benefits from all of his level 7 talents.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
             "KaelthasVerdantSpheresActive",
-            "KaelthasVerdantSpheres"
+            "KaelthasVerdantSpheres",
+            "KaelthasFlamestrike",
+            "KaelthasLivingBomb"
           ]
         }
       ],
@@ -23558,7 +23581,7 @@
             "recastCooldown": 0.25
           },
           "shortTooltip": "Ravage deals bonus damage to Minions, Mercs",
-          "fullTooltip": "Reduce the cooldown of Ravage by 2 seconds and increase its damage to Minions and Mercenaries by 50%.",
+          "fullTooltip": "Reduce the cooldown of Ravage by 3 seconds and increase its damage to Minions and Mercenaries by 100%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -26720,10 +26743,10 @@
           "buttonId": "LucioHighFive",
           "name": "High Five",
           "icon": "storm_ui_icon_lucio_highfive.png",
-          "energyTooltip": "Mana: 35",
-          "cooldownTooltip": "Cooldown: 15 seconds per ally",
+          "energyTooltip": "Mana: 30",
+          "cooldownTooltip": "Cooldown: 20 seconds per ally",
           "shortTooltip": "Skate to allies, healing and granting Unstoppable",
-          "fullTooltip": "Quickly skate to an allied Hero. Upon arrival, the ally is granted Unstoppable for 1 second and is healed for 250 (+4% per level).",
+          "fullTooltip": "Quickly skate to an allied Hero. Upon arrival the ally is healed for 250 (+4% per level), Lúcio is healed for 125 (+4% per level), and both gain Unstoppable for 1 second.",
           "abilityType": "Heroic"
         }
       ],
@@ -26896,7 +26919,7 @@
           "name": "Good Vibrations",
           "icon": "storm_ui_icon_lucio_soundwave_a.png",
           "shortTooltip": "Soundwave grants Shield",
-          "fullTooltip": "Hitting an enemy with Soundwave grants Lúcio a 35 (+4% per level) Shield for 7 seconds. Hitting enemy Heroes grants 3 times this amount.",
+          "fullTooltip": "Hitting an enemy with Soundwave grants Lúcio a 38 (+4% per level) Shield for 7 seconds. Hitting enemy Heroes grants 3 times this amount.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -26924,7 +26947,7 @@
           "icon": "storm_ui_icon_lucio_fineshrine.png",
           "cooldownTooltip": "Cooldown: 20 seconds",
           "shortTooltip": "Drop a boombox that plays Crossfade",
-          "fullTooltip": "Place a boombox that plays Lúcio's active Crossfade track for 30 seconds. Its volume adjusts with Amp It Up.  Crossfade tracks do not stack.",
+          "fullTooltip": "Place a boombox that plays Lúcio's active Crossfade track. Its volume adjusts with Amp It Up.  Crossfade tracks do not stack.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -26953,10 +26976,10 @@
           "buttonId": "LucioHighFive",
           "name": "High Five",
           "icon": "storm_ui_icon_lucio_highfive.png",
-          "energyTooltip": "Mana: 35",
-          "cooldownTooltip": "Cooldown: 15 seconds per ally",
+          "energyTooltip": "Mana: 30",
+          "cooldownTooltip": "Cooldown: 20 seconds per ally",
           "shortTooltip": "Skate to allies, healing and granting Unstoppable",
-          "fullTooltip": "Quickly skate to an allied Hero. Upon arrival, the ally is granted Unstoppable for 1 second and is healed for 250 (+4% per level).",
+          "fullTooltip": "Quickly skate to an allied Hero. Upon arrival the ally is healed for 250 (+4% per level), Lúcio is healed for 125 (+4% per level), and both gain Unstoppable for 1 second.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -27039,12 +27062,13 @@
           "buttonId": "LucioAmpItUpUpToEleven",
           "name": "Up To Eleven",
           "icon": "storm_ui_icon_lucio_ampitup_a.png",
-          "cooldownTooltip": "Cooldown: 60 seconds",
-          "shortTooltip": "Activate to extend Amp It Up",
-          "fullTooltip": "Activate to extend the duration of Amp It Up by 2 seconds.",
-          "abilityType": "Active",
-          "isActive": true,
-          "sort": 3
+          "shortTooltip": "Increase Amp It Up duration",
+          "fullTooltip": "Increase the duration of Amp It Up by 1 second.",
+          "abilityType": "E",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "LucioAmpItUp"
+          ]
         }
       ],
       "level20": [
@@ -27071,7 +27095,7 @@
           "name": "Mixing Fire",
           "icon": "storm_ui_icon_lucio_highfive.png",
           "shortTooltip": "High Five damages enemies, reduces their healing",
-          "fullTooltip": "High Five can now be cast on enemy Heroes, dealing 225 (+4% per level) damage and reducing all healing received by 50% for 3 seconds.  Passive: Increase the duration of Amp It Up by 1 second.",
+          "fullTooltip": "High Five can now be cast on enemy Heroes, dealing 225 (+4% per level) damage and reducing all healing received by 50% for 3 seconds.  Passive: Reduce the cost and cooldown of High Five by 50%.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -27100,9 +27124,9 @@
           "buttonId": "LucioItemSummerAnthem",
           "name": "Summer Anthem",
           "icon": "storm_ui_icon_lucio_crossfade_a.png",
-          "cooldownTooltip": "Cooldown: 75 seconds",
-          "shortTooltip": "Activate for nearby allies to become Unkillable",
-          "fullTooltip": "Activate for all other allies affected by Crossfade to become Unkillable for 1.5 seconds.",
+          "cooldownTooltip": "Cooldown: 60 seconds",
+          "shortTooltip": "Activate for Crossfade to grant Unkillable",
+          "fullTooltip": "Activate for allies affected by Crossfade to become Unkillable for 1.5 seconds.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4,
@@ -30481,7 +30505,7 @@
           },
           "cooldownTooltip": "Cooldown: 10 seconds",
           "shortTooltip": "Throw a snowball that Slows and Blinds",
-          "fullTooltip": "Throw a snowball that hits all enemies in an area. Enemies hit take 70 (+4% per level) damage, are Slowed by 35%, and are Blinded for 1.5 seconds.",
+          "fullTooltip": "Throw a snowball that hits all enemies in an area. Enemies hit take 70 (+4% per level) damage, are Slowed by 35%, and are Blinded for 1.75 seconds.",
           "abilityType": "Q"
         },
         {
@@ -30524,8 +30548,8 @@
           "buttonId": "MeiOWIceWall",
           "name": "Ice Wall",
           "icon": "storm_ui_icon_mei_r2_icewall.png",
-          "energyTooltip": "Mana: 60",
-          "cooldownTooltip": "Cooldown: 70 seconds",
+          "energyTooltip": "Mana: 50",
+          "cooldownTooltip": "Cooldown: 50 seconds",
           "shortTooltip": "Trap enemies inside of a path blocking wall",
           "fullTooltip": "Vector Targeting After a 0.75 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.",
           "abilityType": "Heroic"
@@ -30648,7 +30672,7 @@
             "recastCooldown": 2.0
           },
           "shortTooltip": "Increase Snow Blind's Slow, reduced cooldown",
-          "fullTooltip": "Increases the duration of Snow Blind's Slow by 1.5 seconds. Each time Blizzard damages an enemy Hero, reduce the cooldown of Snow Blind by 0.25 seconds.",
+          "fullTooltip": "Increases the duration of Snow Blind's Slow by 1.5 seconds. Each time Blizzard damages an enemy Hero, reduce the cooldown of Snow Blind by 0.5 seconds and gain 3 Mana.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -30661,7 +30685,7 @@
           "name": "Ice Storm",
           "icon": "storm_ui_icon_mei_w_blizzard.png",
           "shortTooltip": "Blizzard can deal extra damage",
-          "fullTooltip": "Every 3rd hit of Blizzard against enemy Heroes deals an additional 45 (+4% per level) damage. Blizzard's final Stun damage is increased by 125% against all enemies.",
+          "fullTooltip": "Every 3rd hit of Blizzard against enemy Heroes deals an additional 45 (+4% per level) damage. Blizzard's final Stun damage is increased by 150% against all enemies.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -30693,7 +30717,7 @@
             "recastCooldown": 2.0
           },
           "shortTooltip": "Increase Snow Blind damage, disables Structures",
-          "fullTooltip": "Snow Blind deals 50% increased damage and Structures hit are disabled for 3 seconds.",
+          "fullTooltip": "Snow Blind deals 75% increased damage and Structures hit are disabled for 3 seconds.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -30706,7 +30730,7 @@
           "name": "Cold Front",
           "icon": "storm_ui_icon_mei_e1_slide.png",
           "shortTooltip": "Blizzard reduces Icing cooldown",
-          "fullTooltip": "If Mei enters her own Blizzard while Icing is active, the cooldown of Icing is reduced by 8 seconds and she gains 70 Mana.",
+          "fullTooltip": "Reduce the cooldown of Icing by 4 seconds.  If Mei enters her own Blizzard while Icing is active, the cooldown of Icing is reduced by 5 seconds and she gains 80 Mana.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -30789,8 +30813,8 @@
           "buttonId": "MeiOWIceWall",
           "name": "Ice Wall",
           "icon": "storm_ui_icon_mei_r2_icewall.png",
-          "energyTooltip": "Mana: 60",
-          "cooldownTooltip": "Cooldown: 70 seconds",
+          "energyTooltip": "Mana: 50",
+          "cooldownTooltip": "Cooldown: 50 seconds",
           "shortTooltip": "Trap enemies inside of a path blocking wall",
           "fullTooltip": "Vector Targeting After a 0.75 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.",
           "abilityType": "Heroic",
@@ -30808,7 +30832,7 @@
           "name": "Flurry",
           "icon": "storm_ui_icon_mei_w_blizzard.png",
           "shortTooltip": "Standing in Blizzard reduces its cooldown",
-          "fullTooltip": "While in her own Blizzard, Mei gains 50% increased Attack Speed and Blizzard's cooldown refreshes 100% faster. If Mei is in her own Blizzard when it ends, gain these bonuses for 3 additional seconds.",
+          "fullTooltip": "While in her own Blizzard, Mei gains 50% increased Attack Speed and Blizzard's cooldown refreshes 125% faster. If Mei is in her own Blizzard when it ends, gain these bonuses for 3 additional seconds.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -36106,7 +36130,7 @@
           "name": "Shifting Meteor",
           "icon": "storm_ui_icon_ragnaros_livingmeteor.png",
           "shortTooltip": "Quest: Hit Heroes to empower Living Meteor",
-          "fullTooltip": "Each time an enemy is hit by the same Living Meteor, they take 5% increased damage from it.  Quest: Hit 75 Heroes with Living Meteor.  Reward: After hitting 75 Heroes with Living Meteor, its duration is increased to 2.25 seconds, and it can be reactivated to change its direction once per use.",
+          "fullTooltip": "Each time an enemy is hit by the same Living Meteor, they take 6% increased damage from it.  Quest: Hit 75 Heroes with Living Meteor.  Reward: After hitting 75 Heroes with Living Meteor, its duration is increased to 2.25 seconds, and it can be reactivated to change its direction once per use.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -36189,8 +36213,8 @@
           "buttonId": "RagnarosLivingMeteorMoltenPower",
           "name": "Molten Power",
           "icon": "storm_ui_icon_ragnaros_livingmeteor.png",
-          "shortTooltip": "After hitting Heroes, next Living Meteor deals increased damage",
-          "fullTooltip": "Each enemy Hero hit by Living Meteor increases the damage of the next Living Meteor by 20%, up to a maximum of 100%.",
+          "shortTooltip": "Reduced Living Meteor cooldown",
+          "fullTooltip": "If Living Meteor hits enemy Heroes at least 5 times, reduce its cooldown by 7 seconds, and refund 30 Mana.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -40074,7 +40098,7 @@
           "name": "Fetid Touch",
           "icon": "storm_ui_icon_stukov_weightedpustule.png",
           "shortTooltip": "Quest: Reduce Weighted Pustule cooldown, cost",
-          "fullTooltip": "Quest: Hit Heroes with Weighted Pustule.  Reward: After hitting 15 Heroes, reduce the cooldown of Weighted Pustule by 2.5 seconds and its Mana cost by 25.  Reward: After hitting 30 Heroes, reduce the cooldown of Weighted Pustule by an additional 2.5 seconds and remove its Mana cost.",
+          "fullTooltip": "Quest: Hit Heroes with Weighted Pustule.  Reward: After hitting 15 Heroes, reduce the cooldown of Weighted Pustule by 2.5 seconds and its Mana cost by 25.  Reward: After hitting 25 Heroes, reduce the cooldown of Weighted Pustule by an additional 2.5 seconds and remove its Mana cost.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 1,
@@ -40088,7 +40112,7 @@
           "name": "Reactive Ballistospores",
           "icon": "storm_ui_icon_stukov_weightedpustule_a.png",
           "shortTooltip": "Radiate Weighted Pustule at low Health",
-          "fullTooltip": "When taking damage below 50% Health, instantly spread a Weighted Pustule to all nearby enemy Heroes and reset the cooldown of Bio-Kill Switch.  This effect has a 15 second cooldown.",
+          "fullTooltip": "When taking damage below 50% Health, instantly spread a Weighted Pustule to all nearby enemy Heroes and reset the cooldown of Bio-Kill Switch.  This effect has a 25 second cooldown.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -40101,7 +40125,7 @@
           "name": "Low Blow",
           "icon": "storm_ui_icon_stukov_lurkingarm.png",
           "shortTooltip": "Increase Lurking Arm damage to low Health targets",
-          "fullTooltip": "Lurking Arm deals 100% more damage to enemy Heroes below 30% Health.",
+          "fullTooltip": "Lurking Arm deals 100% more damage to enemy Heroes below 50% Health.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -40139,7 +40163,7 @@
           "name": "Biotic Armor",
           "icon": "storm_ui_icon_stukov_healingpathogen_b.png",
           "shortTooltip": "Healing Pathogen grants Physical Armor",
-          "fullTooltip": "Healing Pathogen grants 15 Physical Armor to targets while active on them. Detonating Bio-Kill Switch increases this bonus to 75 for 2.5 seconds.",
+          "fullTooltip": "Healing Pathogen grants 10 Physical Armor to targets while active on them. Detonating Bio-Kill Switch increases this bonus to 75 for 2.5 seconds.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -40249,7 +40273,7 @@
           "name": "It Hungers",
           "icon": "storm_ui_icon_stukov_lurkingarm.png",
           "shortTooltip": "Lurking Arm cost can be refunded",
-          "fullTooltip": "Increase the range of Lurking Arm by 20%. If Lurking Arm damages enemy Heroes 10 times, its cooldown is reset and its Mana cost is refunded.",
+          "fullTooltip": "Increase the range of Lurking Arm by 20%. If Lurking Arm damages enemy Heroes 8 times, its cooldown is reset and its Mana cost is refunded.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -42226,7 +42250,7 @@
           },
           "cooldownTooltip": "Cooldown: 12 seconds",
           "shortTooltip": "Throw a timed bomb which stuns and damages enemies in an area",
-          "fullTooltip": "Place a bomb that deals 155 (+4% per level) damage to enemies within the target area after 1.25 seconds.  Enemies hit are also Stunned for 1 second.",
+          "fullTooltip": "Place a bomb that deals 142 (+4% per level) damage to enemies within the target area after 1.25 seconds.  Enemies hit are also Stunned for 1 second.",
           "abilityType": "E"
         }
       ],
@@ -42248,7 +42272,7 @@
           "icon": "storm_ui_icon_gazlowe_gravobomb.png",
           "cooldownTooltip": "Cooldown: 60 seconds",
           "shortTooltip": "Pulls and damages enemies",
-          "fullTooltip": "After a 1.5 second delay, pull enemies toward the center of an area and deal 235 (+4% per level) damage. Basic Abilities deal 30% more damage for 5 seconds after casting Grav-O-Bomb 3000.",
+          "fullTooltip": "After a 1.5 second delay, pull enemies toward the center of an area and deal 220 (+4% per level) damage. Basic Abilities deal 30% more damage for 5 seconds after casting Grav-O-Bomb 3000.",
           "abilityType": "Heroic"
         }
       ],
@@ -42501,7 +42525,7 @@
           "icon": "storm_ui_icon_gazlowe_gravobomb.png",
           "cooldownTooltip": "Cooldown: 60 seconds",
           "shortTooltip": "Pulls and damages enemies",
-          "fullTooltip": "After a 1.5 second delay, pull enemies toward the center of an area and deal 235 (+4% per level) damage. Basic Abilities deal 30% more damage for 5 seconds after casting Grav-O-Bomb 3000.",
+          "fullTooltip": "After a 1.5 second delay, pull enemies toward the center of an area and deal 220 (+4% per level) damage. Basic Abilities deal 30% more damage for 5 seconds after casting Grav-O-Bomb 3000.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -42532,7 +42556,7 @@
           "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Rock-It! Turrets attack multiple enemies",
-          "fullTooltip": "Rock-It! Turrets attack up to 2 additional enemies for 60% damage and have 50% increased Basic Attack range.",
+          "fullTooltip": "Rock-It! Turrets attack up to 2 additional enemies for 60% damage and have 30% increased Basic Attack range.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -43603,7 +43627,7 @@
           "name": "Quarterback",
           "icon": "storm_ui_icon_tychus_fraggrenade.png",
           "shortTooltip": "Increased Frag Grenade damage, range",
-          "fullTooltip": "Increases Frag Grenade's damage by 20% and its range by 50%.",
+          "fullTooltip": "Increases Frag Grenade's damage by 10% and its range by 50%.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -45621,7 +45645,7 @@
           "buttonId": "ValeeraSinisterStrike",
           "name": "Sinister Strike",
           "icon": "storm_ui_icon_valeera_sinisterstrike.png",
-          "energyTooltip": "Energy: 30",
+          "energyTooltip": "Energy: 25",
           "cooldownTooltip": "Cooldown: 5 seconds",
           "shortTooltip": "Dash forward, damaging enemies in a line",
           "fullTooltip": "Dash forward, hitting all enemies in a line for 110 (+4% per level) damage. If Sinister Strike hits a Hero, Valeera stops dashing immediately and the cooldown is reduced to 1 second.  Awards 1 Combo Point.  Stealth: Ambush Heavily damage an enemy and reduce their Armor.",
@@ -45668,7 +45692,7 @@
           "icon": "storm_ui_icon_valeera_smokebomb.png",
           "cooldownTooltip": "Cooldown: 60 seconds",
           "shortTooltip": "Create an obscuring cloud of smoke",
-          "fullTooltip": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 30 Armor, reducing damage taken by 30%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
+          "fullTooltip": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 60 Armor, reducing damage taken by 60%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
           "abilityType": "Heroic"
         }
       ],
@@ -45851,7 +45875,7 @@
           "name": "Relentless Strikes",
           "icon": "storm_ui_icon_valeera_sinisterstrike.png",
           "shortTooltip": "Reduces Sinister Strike Energy cost",
-          "fullTooltip": "Reduces the Energy cost of Sinister Strike by 15.",
+          "fullTooltip": "Reduces the Energy cost of Sinister Strike by 10.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -45949,7 +45973,7 @@
           "icon": "storm_ui_icon_valeera_smokebomb.png",
           "cooldownTooltip": "Cooldown: 60 seconds",
           "shortTooltip": "Create an obscuring cloud of smoke",
-          "fullTooltip": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 30 Armor, reducing damage taken by 30%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
+          "fullTooltip": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 60 Armor, reducing damage taken by 60%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -46046,7 +46070,7 @@
           "buttonId": "ValeeraThistleTea",
           "name": "Thistle Tea",
           "icon": "storm_ui_icon_valeera_thistletea.png",
-          "cooldownTooltip": "Cooldown: 40 seconds",
+          "cooldownTooltip": "Cooldown: 20 seconds",
           "shortTooltip": "Activate to instantly restore Energy",
           "fullTooltip": "Activate to instantly restore 100 Energy.  Activating Thistle Tea does not break Stealth.",
           "abilityType": "Active",
@@ -47681,7 +47705,7 @@
             "recastCooldown": 1.0
           },
           "shortTooltip": "Toads grant Armor",
-          "fullTooltip": "Hitting an enemy Hero with Plague of Toads gives 25 Armor for 2 seconds, reducing damage taken by 25%.",
+          "fullTooltip": "Hitting an enemy Hero with Plague of Toads grants 30 Armor for 1.5 seconds, stacking up to 4 seconds.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -50972,7 +50996,7 @@
           "icon": "storm_ui_icon_zuljin_berzerker.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Low Health increases damage",
-          "fullTooltip": "While Zul'jin is below 75% Health, he gains 10% Spell Power. While he is below 50% Health, his Basic Attack damage is increased by 20%.",
+          "fullTooltip": "While Zul'jin is below 75% Health, he gains 10% Spell Power. While he is below 50% Health, his Basic Attack damage is increased by 15% and Basic Attacks against Heroes grant an additional stack of You Want Axe?.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -51042,7 +51066,7 @@
           "name": "Vicious Assault",
           "icon": "storm_ui_icon_zuljin_grievousthrow.png",
           "shortTooltip": "Increase Grievous Throw duration and damage",
-          "fullTooltip": "Increase the duration of Grievous Throw's mark by 3 seconds and its damage bonus by 35%.",
+          "fullTooltip": "Increase the duration of Grievous Throw's mark by 3 seconds and its damage bonus by 45%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -51120,7 +51144,7 @@
           "name": "Lacerate",
           "icon": "storm_ui_icon_zuljin_twincleave.png",
           "shortTooltip": "Increase Twin Cleave Slow",
-          "fullTooltip": "Increase the Slow amount of each Twin Cleave axe by 10%.",
+          "fullTooltip": "Increase the Slow amount of each Twin Cleave axe by 10% and its duration by 0.5 seconds.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -51142,9 +51166,9 @@
           "buttonId": "ZuljinEnsnare",
           "name": "Ensnare",
           "icon": "storm_ui_icon_zuljin_trollnet.png",
-          "cooldownTooltip": "Cooldown: 45 seconds",
+          "cooldownTooltip": "Cooldown: 40 seconds",
           "shortTooltip": "Throw a net that Roots enemies",
-          "fullTooltip": "Throw a net forward, Rooting the first enemy Hero hit for 1.5 seconds.",
+          "fullTooltip": "Throw a net forward, Rooting the first enemy Hero hit for 1.5 seconds. If no Heroes are hit, Ensnare's cooldown is reduced to 10 seconds.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -51156,8 +51180,8 @@
           "buttonId": "ZuljinNoMercyTalent",
           "name": "No Mercy!",
           "icon": "storm_ui_icon_zuljin_grievousthrow.png",
-          "shortTooltip": "Basic Attacks ignore Armor",
-          "fullTooltip": "Zul'jin's Basic Attacks against enemy Heroes marked with Grievous Throw ignore Armor.",
+          "shortTooltip": "Basic Attacks ignore Armor, deal more damage",
+          "fullTooltip": "Zul'jin's Basic Attacks against enemy Heroes marked with Grievous Throw ignore Armor and deal an additional 2% of maximum Health as damage.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
