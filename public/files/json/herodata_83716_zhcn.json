@@ -19840,7 +19840,7 @@
           "name": "嗜血成性",
           "icon": "storm_ui_icon_talent_autoattack_heal.png",
           "shortTooltip": "普通攻击和部分技能可治疗",
-          "fullTooltip": "普通攻击对英雄造成伤害时，链球甩击或河爪旋风所造成伤害的33%转化为对你的治疗。",
+          "fullTooltip": "普通攻击、链球甩击或河爪旋风对英雄造成伤害时，所造成伤害的33%转化为对你的治疗。",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
