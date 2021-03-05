@@ -7,8 +7,3 @@ dotnet heroes-data "D:\Games\Heroes of the Storm" -e herodata -l all -e units -i
 
 dotnet tool install --global HeroesDataParser
 dotnet heroes-data "E:\Games\blizzard\Heroes of the Storm" -e herodata -l all -e units -i abilitytalents --json -i heroportraits -d 3 -o "C:\Users\smh21\Downloads"
-
-dotnet heroes-data "E:\Games\blizzard\Heroes of the Storm" -e all -l enus -i all -d 3 -o "C:\Users\smh21\Downloads"
-
-
-dotnet heroes-data "E:\Games\blizzard\Heroes of the Storm" -e emoticons -l kokr -o "C:\Users\smh21\Downloads"

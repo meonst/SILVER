@@ -15385,9 +15385,11 @@
           "buttonId": "FalstadTailwindFrequentFlyer",
           "name": "Frequent Flyer",
           "icon": "storm_ui_icon_falstad_tailwind_a.png",
+          "cooldownTooltip": "Cooldown: 45 seconds",
           "shortTooltip": "Activate to gain Attack Speed, Tailwind Quest: Killing enemies grants Basic Attack damage",
           "fullTooltip": "Activate Frequent Flyer to gain 40% Attack Speed and Tailwind for 5 seconds.  Quest: Minion kills grant 0.2 Basic Attack Damage. Hero Takedowns grant 0.5 Basic Attack Damage.",
           "abilityType": "Active",
+          "isActive": true,
           "isQuest": true,
           "sort": 3
         }
@@ -32478,7 +32480,7 @@
           "energyTooltip": "Mana: 50",
           "cooldownTooltip": "Cooldown: 50 seconds",
           "shortTooltip": "Unleash spirits that spread Roots",
-          "fullTooltip": "After 0.75 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2.5 seconds and deal 250 (+4% per level) damage to them over the same duration.  Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.",
+          "fullTooltip": "After 1 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2.5 seconds and deal 250 (+4% per level) damage to them over the same duration.  Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.",
           "abilityType": "Heroic"
         }
       ],
@@ -32720,7 +32722,7 @@
           "energyTooltip": "Mana: 50",
           "cooldownTooltip": "Cooldown: 50 seconds",
           "shortTooltip": "Unleash spirits that spread Roots",
-          "fullTooltip": "After 0.75 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2.5 seconds and deal 250 (+4% per level) damage to them over the same duration.  Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.",
+          "fullTooltip": "After 1 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2.5 seconds and deal 250 (+4% per level) damage to them over the same duration.  Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
