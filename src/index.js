@@ -11,7 +11,7 @@ import {
 
 //var lang = (navigator.language || navigator.userLanguage).toLowerCase().replace('-', '');
 var lang = 'enus'
-const version = '85027'
+const version = '85311'
 var cooldown, energycost, lifecost, necessityStyle, sharedTalent
 const talentShareColor = []
 talentShareColor[0] = {borderColor: '#cd7f32'}
