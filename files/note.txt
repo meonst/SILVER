@@ -11,4 +11,4 @@ dotnet heroes-data "D:\Games\blizzard\Heroes of the Storm" -e herodata -l all -e
 
 dotnet heroes-data "D:\Games\blizzard\Heroes of the Storm" -e herodata -l enus -l kokr -e units -i abilitytalents --json -i heroportraits -d 3 -o "C:\Users\smh21\Downloads"
 
-dotnet heroes-data "D:\Games\blizzard\Heroes of the Storm" -e herodata -l enus -l kokr -l dede -l eses -l esmx -l itit -l plpl -l ptbr -l ruru -l zhcn -l zhtw -e units -i abilitytalents --json -i heroportraits -d 3 -o "C:\Users\smh21\Downloads"
+dotnet heroes-data "D:\Games\blizzard\Heroes of the Storm" -e herodata -l enus -l kokr -l dede -l eses -l exmx -l itit -l plpl -l ptbr -l ruru -n zhcn -l zhtw -e units -i abilitytalents --json -i heroportraits -d 3 -o "C:\Users\smh21\Downloads"

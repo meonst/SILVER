@@ -3309,10 +3309,10 @@
           "buttonId": "AnduinFlashHeal",
           "name": "Blitzheilung",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
-          "energyTooltip": "Mana: 25",
+          "energyTooltip": "Mana: 20",
           "cooldownTooltip": "Abklingzeit: 5 Sek.",
           "shortTooltip": "Heilt einen Verbündeten.",
-          "fullTooltip": "Heilt einen verbündeten Helden nach 0.75 Sek. um 270 (+4% per level).",
+          "fullTooltip": "Heilt einen verbündeten Helden nach 0.75 Sek. um 280 (+4% per level).",
           "abilityType": "Q"
         },
         {
@@ -3332,7 +3332,7 @@
           "name": "Züchtigung",
           "icon": "storm_ui_icon_anduin_chastise.png",
           "energyTooltip": "Mana: 40",
-          "cooldownTooltip": "Abklingzeit: 10 Sek.",
+          "cooldownTooltip": "Abklingzeit: 9 Sek.",
           "shortTooltip": "Stößt einen Lichtschwall aus, der Gegner bewegungsunfähig macht.",
           "fullTooltip": "Stößt einen Lichtschwall aus, der dem ersten getroffenen gegnerischen Helden 175 (+4% per level) Schaden zufügt und ihn 1.25 Sek. lang bewegungsunfähig macht.",
           "abilityType": "E"
@@ -3377,7 +3377,7 @@
           },
           "cooldownTooltip": "Abklingzeit: 70 Sek.",
           "shortTooltip": "Zieht einen verbündeten Helden zu sich.",
-          "fullTooltip": "Ein Akt des Glaubens zieht einen verbündeten Helden sofort zu Anduins Position und macht ihn währenddessen unaufhaltbar.  Gnadenakt  Automatische Angriffe gegen Helden heilen den verbündeten Helden mit den niedrigsten Lebenspunkten in Anduins Nähe um 26 (+4% per level).",
+          "fullTooltip": "Ein Akt des Glaubens zieht einen verbündeten Helden sofort zu Anduins Position und macht ihn währenddessen unaufhaltbar.  Gnadenakt  Automatische Angriffe gegen Helden heilen den verbündeten Helden mit den niedrigsten Lebenspunkten in Anduins Nähe um 32 (+4% per level).",
           "abilityType": "Trait"
         }
       ],
@@ -3464,7 +3464,7 @@
           "name": "Unbefangenheit",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "Verringert die Abklingzeit, wenn ein neues Ziel geheilt wird.",
-          "fullTooltip": "Erhöht die Heilung um 10% und verringert die Abklingzeit um 40%, wenn die Blitzheilung für ein anderes Ziel als das vorherige eingesetzt wird.",
+          "fullTooltip": "Erhöht die Heilung um 15% und verringert die Abklingzeit um 40%, wenn die Blitzheilung für ein anderes Ziel als das vorherige eingesetzt wird.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3489,7 +3489,7 @@
           "buttonId": "AnduinLightwell",
           "name": "Lichtbrunnen",
           "icon": "storm_ui_icon_anduin_lightwell.png",
-          "cooldownTooltip": "Abklingzeit: 80 Sek.",
+          "cooldownTooltip": "Abklingzeit: 75 Sek.",
           "shortTooltip": "Aktivieren, um einen heilenden Lichtbrunnen aufzustellen.",
           "fullTooltip": "Stellt einen Lichtbrunnen auf, der regelmäßig verbündete Helden in der Nähe um 50 (+4% per level) Lebenspunkte heilt. Der Brunnen verschwindet nach 15 Heilungen oder wenn ein neuer aufgestellt wird.  Verringert die Abklingzeit jedes Mal um 1 Sek., wenn Anduin einen verbündeten Helden heilt.",
           "abilityType": "Active",
@@ -3517,7 +3517,7 @@
           "name": "Woge des Lichts",
           "icon": "storm_ui_icon_anduin_chastise.png",
           "shortTooltip": "Züchtigung verstärkt automatische Angriffe.",
-          "fullTooltip": "Automatische Angriffe verringern die Abklingzeit von Züchtigung um 0.5 Sek. Automatische Angriffe gegen Helden, die durch Züchtigung bewegungsunfähig sind, lösen einen zusätzlichen automatischen Angriff aus und stellen 25 Mana wieder her.",
+          "fullTooltip": "Automatische Angriffe verringern die Abklingzeit von Züchtigung um 0.75 Sek. Automatische Angriffe gegen Helden, die durch Züchtigung bewegungsunfähig sind, lösen einen zusätzlichen automatischen Angriff aus und stellen 25 Mana wieder her.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -3546,7 +3546,7 @@
           "name": "Verbindende Heilung",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "Die Blitzheilung heilt zusätzlich Anduin.",
-          "fullTooltip": "Heilt Anduin ebenfalls um 115 (+4% per level), wenn die Blitzheilung einen Verbündeten heilt.",
+          "fullTooltip": "Heilt Anduin ebenfalls um 135 (+4% per level), wenn die Blitzheilung einen Verbündeten heilt.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3568,9 +3568,9 @@
           "buttonId": "AnduinFlashHealDesperatePrayer",
           "name": "Verzweifeltes Gebet",
           "icon": "storm_ui_icon_anduin_desperate_prayer.png",
-          "cooldownTooltip": "Abklingzeit: 40 Sek.",
+          "cooldownTooltip": "Abklingzeit: 35 Sek.",
           "shortTooltip": "Aktivieren, um einen verbündeten Helden zu heilen. Macht jedoch selbst handlungsunfähig.",
-          "fullTooltip": "Aktivieren, um einen verbündeten Helden sofort um 360 (+4% per level) Lebenspunkte zu heilen. Muss sich dafür hinknien und wird 2 Sek. lang handlungsunfähig.",
+          "fullTooltip": "Aktivieren, um einen verbündeten Helden sofort um 375 (+4% per level) Lebenspunkte zu heilen. Muss sich dafür hinknien und wird 2 Sek. lang handlungsunfähig.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -3655,7 +3655,7 @@
           "name": "Erneuerung",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "Blitzheilung heilt über Zeit.",
-          "fullTooltip": "Blitzheilung heilt das Ziel zusätzlich im Verlauf von 5 Sek. um 130 (+4% per level) Lebenspunkte. Die Heilungsdauer wird jedes Mal erneuert, wenn Anduin einen gegnerischen Helden mit einem automatischen Angriff trifft.",
+          "fullTooltip": "Blitzheilung heilt das Ziel zusätzlich im Verlauf von 6 Sek. um 180 (+4% per level) Lebenspunkte. Die Heilungsdauer wird jedes Mal erneuert, wenn Anduin einen gegnerischen Helden mit einem automatischen Angriff trifft.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3687,6 +3687,18 @@
           "abilityTalentLinkIds": [
             "AnduinLeapOfFaithInstant"
           ]
+        },
+        {
+          "nameId": "AnduinFlashHealInnerFocus",
+          "buttonId": "AnduinFlashHealInnerFocus",
+          "name": "Innerer Fokus",
+          "icon": "storm_ui_icon_anduin_inner_focus.png",
+          "cooldownTooltip": "Abklingzeit: 20 Sek.",
+          "shortTooltip": "Aktivieren, um die Abklingzeit der Blitzheilung abzuschließen.",
+          "fullTooltip": "Aktivieren, um die Abklingzeit der Blitzheilung abzuschließen und die Heilung beim nächsten Einsatz um 25% zu erhöhen.  Schaden gegen Helden verringert die Abklingzeit dieser Fähigkeit um 1 Sek.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 4
         }
       ],
       "level20": [
@@ -9908,7 +9920,7 @@
           "energyTooltip": "Mana: 60",
           "cooldownTooltip": "Abklingzeit: 50 Sek.",
           "shortTooltip": "Springt zum Zielort, schützt Verbündete und betäubt Gegner.",
-          "fullTooltip": "Lässt Johanna 2 Sek. lang in die Luft springen. Während des Sprungs kann die Landeposition durch Bewegen bestimmt werden. Verbündete unter Johanna sind unaufhaltbar. Fügt Gegnern bei der Landung 150 (+4% per level) Schaden zu und betäubt sie 0.25 Sek. lang.",
+          "fullTooltip": "Lässt Johanna 2 Sek. lang in die Luft springen. Während des Sprungs kann die Landeposition durch Bewegen bestimmt werden. Verbündete unter Johanna sind unaufhaltbar. Fügt Gegnern bei der Landung 225 (+4% per level) Schaden zu und betäubt sie 0.25 Sek. lang.",
           "abilityType": "Heroic"
         },
         {
@@ -9931,7 +9943,7 @@
           "icon": "storm_ui_icon_johanna_iron_skin.png",
           "cooldownTooltip": "Abklingzeit: 25 Sek.",
           "shortTooltip": "Macht unaufhaltbar und gewährt einen Schild.",
-          "fullTooltip": "Aktivieren, um einen Schild zu erhalten, der 4 Sek. lang anhält und bis zu 674 (+4% per level) Schaden absorbiert. Solange der Schild aktiv ist, ist Johanna unaufhaltbar.",
+          "fullTooltip": "Aktivieren, um einen Schild zu erhalten, der 4 Sek. lang anhält und bis zu 810 (+4% per level) Schaden absorbiert. Solange der Schild aktiv ist, ist Johanna unaufhaltbar.",
           "abilityType": "Trait"
         }
       ],
@@ -10023,8 +10035,8 @@
           "buttonId": "CrusaderPassiveDivineFortress",
           "name": "Himmlische Festung",
           "icon": "storm_ui_icon_talent_block.png",
-          "shortTooltip": "Leihgabe: Erhöht die maximalen Lebenspunkte. Automatische Angriffe gewähren physische Panzerung.",
-          "fullTooltip": "Leihgabe: Erhöht die maximalen Lebenspunkte um 20%. Mit jedem Tod gehen 5% dieses Bonus verloren.  Automatische Angriffe gegen Helden gewähren 2.5 Sek. lang 8 physische Panzerung, bis maximal 40.",
+          "shortTooltip": "Wagnis: Erhöht die maximalen Lebenspunkte. Automatische Angriffe gewähren physische Panzerung.",
+          "fullTooltip": "Automatische Angriffe gegen Helden gewähren 2.5 Sek. lang 8 physische Panzerung, bis maximal 40.  Wagnis: Erhöht die maximalen Lebenspunkte um 20%. Mit jedem Tod gehen 5% dieses Bonus verloren.",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 2
@@ -10077,7 +10089,7 @@
           "name": "Standhalten",
           "icon": "storm_ui_icon_johanna_iron_skin.png",
           "shortTooltip": "Verstärkt den durch Eisenhaut gewährten Schild. Verringert die Abklingzeit.",
-          "fullTooltip": "Erhöht die Schildpunkte von Eisenhaut um 60% und verringert die Abklingzeit um 5 Sek.",
+          "fullTooltip": "Erhöht die Schildpunkte von Eisenhaut um 40% und verringert die Abklingzeit um 5 Sek.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -10092,7 +10104,7 @@
           "name": "Bannstrahl",
           "icon": "storm_ui_icon_johanna_punish.png",
           "shortTooltip": "Bestrafen verringert die erhaltene Heilung von Gegnern.",
-          "fullTooltip": "Bestrafen verringert die erhaltene Heilung getroffener Gegner 2 Sek. lang um 25%. Automatische Angriffe gegen betroffene Ziele erneuern die Dauer.",
+          "fullTooltip": "Bestrafen verringert die erhaltene Heilung getroffener Gegner 2 Sek. lang um 35%. Automatische Angriffe gegen betroffene Ziele erneuern die Dauer.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -10117,7 +10129,7 @@
           "buttonId": "CrusaderIronSkinSteedCharge",
           "name": "Kavallerie",
           "icon": "storm_btn_d3ros_crusader_steedcharge.png",
-          "cooldownTooltip": "Abklingzeit: 30 Sek.",
+          "cooldownTooltip": "Abklingzeit: 20 Sek.",
           "shortTooltip": "Aktivieren, um sofort ungehindert von Schaden aufzusitzen.",
           "fullTooltip": "Aktivieren, um sofort ungehindert von Schaden 3 Sek. lang aufzusitzen.  Passiv: Erhöht die Dauer von Eisenhaut um 1 Sek.",
           "abilityType": "Active",
@@ -10134,7 +10146,7 @@
           "energyTooltip": "Mana: 60",
           "cooldownTooltip": "Abklingzeit: 50 Sek.",
           "shortTooltip": "Springt zum Zielort, schützt Verbündete und betäubt Gegner.",
-          "fullTooltip": "Lässt Johanna 2 Sek. lang in die Luft springen. Während des Sprungs kann die Landeposition durch Bewegen bestimmt werden. Verbündete unter Johanna sind unaufhaltbar. Fügt Gegnern bei der Landung 150 (+4% per level) Schaden zu und betäubt sie 0.25 Sek. lang.",
+          "fullTooltip": "Lässt Johanna 2 Sek. lang in die Luft springen. Während des Sprungs kann die Landeposition durch Bewegen bestimmt werden. Verbündete unter Johanna sind unaufhaltbar. Fügt Gegnern bei der Landung 225 (+4% per level) Schaden zu und betäubt sie 0.25 Sek. lang.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -10179,7 +10191,7 @@
           "name": "Heilige Wut",
           "icon": "storm_ui_icon_talent_burningrage.png",
           "shortTooltip": "Fügt Gegnern in der Nähe Schaden zu.",
-          "fullTooltip": "Fügt Gegnern in der Nähe 12 (+4% per level) Schaden pro Sekunde zu. Jeder mit Schuldspruch getroffene Held erhöht den Schaden 5 Sek. lang um 40%.",
+          "fullTooltip": "Fügt Gegnern in der Nähe 15 (+4% per level) Schaden pro Sekunde zu. Jeder mit Schuldspruch getroffene Held erhöht den Schaden 5 Sek. lang um 40%.",
           "abilityType": "Passive",
           "sort": 2
         },
@@ -10248,7 +10260,7 @@
           "name": "Himmelsfuror",
           "icon": "storm_ui_icon_johanna_falling_sword.png",
           "shortTooltip": "Himmlische Vollstreckung lässt heilige Blitze herabregnen.",
-          "fullTooltip": "Himmlische Vollstreckung lässt heilige Blitze herabregnen, die Gegnern 75 (+4% per level) Schaden zufügen, Verbündete um 75 (+4% per level) Lebenspunkte heilen und die Abklingzeit der Fähigkeit um 2 Sek. verringern.",
+          "fullTooltip": "Himmlische Vollstreckung lässt heilige Blitze herabregnen, die Gegnern 75 (+4% per level) Schaden zufügen, verbündete Helden um 75 (+4% per level) Lebenspunkte heilen und die Abklingzeit der Fähigkeit für jeden getroffenen Helden um 2 Sek. verringern.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -12318,7 +12330,7 @@
           "name": "Durchdringender Pfeil",
           "icon": "storm_ui_icon_valla_hungeringarrow.png",
           "shortTooltip": "Quest: Erhöht Übersprünge und Schaden des Hungrigen Pfeils.",
-          "fullTooltip": "Der Hungrige Pfeil springt 1-mal mehr über.  Quest: Triff Helden mit dem ersten Einschlag des Hungrigen Pfeils, um 40 Mana zu erstatten und den Schaden des ersten Einschlags dauerhaft um 6 zu erhöhen.",
+          "fullTooltip": "Der Hungrige Pfeil springt 1-mal mehr über.  Quest: Triff Helden mit dem ersten Einschlag des Hungrigen Pfeils, um 40 Mana zu erstatten und den Schaden des ersten Einschlags dauerhaft um 7 zu erhöhen.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -12332,7 +12344,7 @@
           "name": "Freuer frei",
           "icon": "storm_ui_icon_valla_multishot.png",
           "shortTooltip": "Quest: Erzeugt Hass und erhöht den Schaden vom Mehrfachschuss.",
-          "fullTooltip": "Quest: Triff Helden mit dem Mehrfachschuss, um 2 Stapel von Hass zu erzeugen und den Schaden dauerhaft um 4 zu erhöhen.",
+          "fullTooltip": "Quest: Triff Helden mit dem Mehrfachschuss, um 2 Stapel von Hass zu erzeugen und den Schaden dauerhaft um 2 zu erhöhen.  Belohnung: Sobald 20 Helden getroffen wurden, wird der Schaden des Mehrfachschusses um 40 erhöht.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -12345,8 +12357,8 @@
           "buttonId": "DemonHunterCreedoftheHunter",
           "name": "Jägercredo",
           "icon": "storm_ui_icon_valla_hatred.png",
-          "shortTooltip": "Leihgabe: Erhöht die Angriffsgeschwindigkeit. Quest: Erhöht den Bonus auf Angriffsschaden durch Hass.",
-          "fullTooltip": "Leihgabe: Erhöht die Angriffsgeschwindigkeit um 20%. Mit jedem Tod gehen 5% dieses Bonus verloren.  Quest: Triff Helden mit jeweils 50 automatischen Angriffen, um den Bonus auf Angriffsschaden durch Hass pro Stapel um 1% zu erhöhen, bis maximal 5%.",
+          "shortTooltip": "Wagnis: Erhöht die Angriffsgeschwindigkeit. Quest: Erhöht den Bonus auf Angriffsschaden durch Hass.",
+          "fullTooltip": "Quest: Triff Helden mit jeweils 50 automatischen Angriffen, um den Bonus auf Angriffsschaden durch Hass pro Stapel um 1% zu erhöhen, bis maximal 5%.  Wagnis: Erhöht die Angriffsgeschwindigkeit um 20%. Mit jedem Tod gehen 5% dieses Bonus verloren.",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 3,
@@ -14762,9 +14774,9 @@
           "buttonId": "BrightwingSoothingMistCalmingMist",
           "name": "Lindernder Nebel",
           "icon": "storm_ui_icon_brightwing_soothingmist.png",
-          "cooldownTooltip": "Abklingzeit: 100 Sek.",
+          "cooldownTooltip": "Abklingzeit: 90 Sek.",
           "shortTooltip": "Entfernt Beeinträchtigungen von Verbündeten.",
-          "fullTooltip": "Aktivieren, um alle Verlangsamungen, Betäubungen sowie Bewegungsunfähigkeits- und Stilleeffekte von verbündeten Helden in der Nähe zu entfernen.  Passiv: Funkelchen heilt alle 4 Sek. verbündete Helden in der Nähe um 105 (+4% per level).",
+          "fullTooltip": "Aktivieren, um alle Verlangsamungen, Betäubungen sowie Bewegungsunfähigkeits- und Stilleeffekte von verbündeten Helden in der Nähe zu entfernen.  Passiv: Funkelchen heilt alle 4 Sek. verbündete Helden in der Nähe um 115 (+4% per level).",
           "abilityType": "Trait"
         }
       ],
@@ -14774,7 +14786,7 @@
           "buttonId": "BrightwingPhaseShift",
           "name": "Phasenverschiebung",
           "icon": "storm_ui_icon_brightwing_mount.png",
-          "cooldownTooltip": "Abklingzeit: 50 Sek.",
+          "cooldownTooltip": "Abklingzeit: 40 Sek.",
           "shortTooltip": "Funkelchen teleportiert sich zu einem verbündeten Helden und heilt ihn.",
           "fullTooltip": "Nach 2 Sek. teleportiert sich Funkelchen zu einem verbündeten Helden und heilt ihn um 25% seiner maximalen Lebenspunkte.",
           "abilityType": "Z"
@@ -14851,7 +14863,7 @@
           "name": "Phasenerholung",
           "icon": "storm_ui_icon_brightwing_hypershift.png",
           "shortTooltip": "Verstärkt die durch Phasenverschiebung verursachte Heilung.",
-          "fullTooltip": "Erhöht die von der Phasenverschiebung verursachte Heilung um zusätzlich 8% der maximalen Lebenspunkte des Ziels. In der Nähe getötete Diener verringern die Abklingzeit von Phasenverschiebung um 1.5 Sek.",
+          "fullTooltip": "Erhöht die von der Phasenverschiebung verursachte Heilung um zusätzlich 8% der maximalen Lebenspunkte des Ziels. In der Nähe getötete Diener verringern die Abklingzeit von Phasenverschiebung um 1 Sek.",
           "abilityType": "Z",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -14933,7 +14945,7 @@
           "name": "Kuckuck!",
           "icon": "storm_ui_icon_brightwing_hypershift.png",
           "shortTooltip": "Phasenverschiebung gewährt dem Ziel einen Schild. Deckt einen Bereich auf.",
-          "fullTooltip": "Gewährt Funkelchen und dem mit Phasenverschiebung anvisierten Verbündeten einen Schild mit 335 (+4% per level) Punkten und deckt 5 Sek. lang einen großen Bereich um den Verbündeten auf.",
+          "fullTooltip": "Gewährt Funkelchen und dem mit Phasenverschiebung anvisierten Verbündeten 4 Sek. lang einen Schild mit 335 (+4% per level) Punkten und deckt 5 Sek. lang einen großen Bereich um den Verbündeten auf.",
           "abilityType": "Z",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -14946,7 +14958,7 @@
           "name": "Kritischer Nebel",
           "icon": "storm_ui_icon_brightwing_soothingmist.png",
           "shortTooltip": "Lindernder Nebel heilt sofort, wenn Beeinträchtigungen entfernt werden.",
-          "fullTooltip": "Lindernder Nebel heilt verbündete Helden um 165 (+4% per level) Lebenspunkte. Diese Heilung wird um 100% verstärkt, wenn Lindernder Nebel den anvisierten Helden von einer Beeinträchtigung befreit hat.",
+          "fullTooltip": "Lindernder Nebel heilt verbündete Helden um 165 (+4% per level) Lebenspunkte. Diese Heilung wird um 140% verstärkt, wenn Lindernder Nebel den anvisierten Helden von einer Beeinträchtigung befreit hat.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -15001,7 +15013,7 @@
           "name": "Feeneinspritzung",
           "icon": "storm_ui_icon_brightwing_pixiedust.png",
           "shortTooltip": "Feenstaub erhöht die Bewegungsgeschwindigkeit zusätzlich.",
-          "fullTooltip": "Feenstaub erhöht die Bewegungsgeschwindigkeit um 40%. Dieser Effekt sinkt im Verlauf von 3 Sek. bis auf 20%.",
+          "fullTooltip": "Feenstaub erhöht die Bewegungsgeschwindigkeit um 50%. Dieser Effekt sinkt im Verlauf von 3 Sek. bis auf 20%.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -15103,8 +15115,8 @@
           "buttonId": "BrightwingEmeraldWindIntensiveWinds",
           "name": "Stärkere Winde",
           "icon": "storm_ui_icon_brightwing_emeraldwind.png",
-          "shortTooltip": "Verringert die Abklingzeit von Smaragdgrüner Wind. Erhöht die Kosten.",
-          "fullTooltip": "Verringert die Abklingzeit von Smaragdgrüner Wind permanent auf 5 Sek. und erhöht die Manakosten auf 200.",
+          "shortTooltip": "Verringert die Abklingzeit von Smaragdgrüner Wind deutlich.",
+          "fullTooltip": "Verringert die Abklingzeit von Smaragdgrüner Wind permanent auf 5 Sek.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -15120,9 +15132,12 @@
           "name": "Karacho",
           "icon": "storm_ui_icon_brightwing_hypershift.png",
           "shortTooltip": "Erhöht die Bewegungsgeschwindigkeit dauerhaft.",
-          "fullTooltip": "Erhöht die Bewegungsgeschwindigkeit dauerhaft um 20%.",
-          "abilityType": "Passive",
-          "sort": 3
+          "fullTooltip": "Erhöht die Bewegungsgeschwindigkeit dauerhaft um 20%. Verringert die Einsatzzeit von Phasenverschiebung um 1 Sek.",
+          "abilityType": "Z",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "BrightwingPhaseShift"
+          ]
         },
         {
           "nameId": "BrightwingFaerieProtector",
@@ -15131,7 +15146,7 @@
           "icon": "storm_ui_icon_brightwing_pixiedust.png",
           "cooldownTooltip": "Abklingzeit: 45 Sek.",
           "shortTooltip": "Gewährt Helden in der Nähe Feenstaub.",
-          "fullTooltip": "Aktivieren, um allen verbündeten Helden in der Nähe Feenstaub zu gewähren.",
+          "fullTooltip": "Aktivieren, um allen verbündeten Helden in der Nähe Feenstaub zu gewähren.  Passiv: Feenstaub springt immer zurück und gewährt Funkelchen den Effekt.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4,
@@ -16341,7 +16356,7 @@
           "energyTooltip": "Mana: 30",
           "cooldownTooltip": "Abklingzeit: 4 Sek.",
           "shortTooltip": "Verschießt zwei Feuerstrahlen.",
-          "fullTooltip": "Verschießt zwei Feuerstrahlen, die getroffenen Gegnern 83 (+4% per level) Schaden zufügen. Setzt Ölspuren in Brand.",
+          "fullTooltip": "Verschießt zwei Feuerstrahlen, die getroffenen Gegnern 83 (+4% per level) Schaden zufügen. Gegner, die von beiden Strahlen getroffen werden, erleiden zusätzlich 120 (+4% per level) Schaden. Setzt Ölspuren in Brand.",
           "abilityType": "Q"
         },
         {
@@ -16527,7 +16542,7 @@
           "name": "Öfter mal was Neues",
           "icon": "storm_ui_icon_blaze_new_habits.png",
           "shortTooltip": "Quest: Pyromanie macht unaufhaltbar.",
-          "fullTooltip": "Eingesammelte Regenerationskugeln verringern die Abklingzeit von Pyromanie um 8 Sek.  Quest: Sammle 15 Regenerationskugeln ein.  Belohnung: Pyromanie macht 2 Sek. lang unaufhaltbar.",
+          "fullTooltip": "Eingesammelte Regenerationskugeln verringern die Abklingzeit von Pyromanie um 6 Sek.  Quest: Sammle 15 Regenerationskugeln ein.  Belohnung: Pyromanie macht 2 Sek. lang unaufhaltbar.",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 4,
@@ -16582,12 +16597,12 @@
       ],
       "level7": [
         {
-          "nameId": "FirebatFlameStreamCrossfire",
-          "buttonId": "FirebatFlameStreamCrossfire",
-          "name": "Kreuzfeuer",
+          "nameId": "FirebatFlameStreamSuppressiveFire",
+          "buttonId": "FirebatFlameStreamSuppressiveFire",
+          "name": "Feuerschutz",
           "icon": "storm_ui_icon_blaze_flame.png",
-          "shortTooltip": "Feuerstrahl kann Bonusschaden verursachen.",
-          "fullTooltip": "Fügt einem Gegner 139 (+4% per level) Bonusschaden zu, wenn er von beiden Feuerstrahlen getroffen wird.",
+          "shortTooltip": "Feuerstrahl verringert die Fähigkeitsstärke.",
+          "fullTooltip": "Jeder Feuerstrahl verringert die Fähigkeitsstärke getroffener Helden 4 Sek. lang um 25%, bis maximal 50%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -16595,9 +16610,9 @@
           ]
         },
         {
-          "nameId": "FirebatOilSpillGrillandKill",
-          "buttonId": "FirebatOilSpillGrillandKill",
-          "name": "Killen und grillen",
+          "nameId": "FirebatOilSpillNanomachineCoating",
+          "buttonId": "FirebatOilSpillNanomachineCoating",
+          "name": "Nanomaschinenzusatz",
           "icon": "storm_ui_icon_blaze_oil.png",
           "charges": {
             "countMax": 2,
@@ -16605,32 +16620,25 @@
             "countStart": 2,
             "recastCooldown": 1.0
           },
-          "shortTooltip": "Quest: Erhöht den Schaden und die Dauer der brennenden Ölspur.",
-          "fullTooltip": "Quest: Füge gegnerischen Helden mit der brennenden Ölspur 60-mal Schaden zu.  Belohnung: Erhöht die Dauer der brennenden Ölspur um 2 Sek. und ihren Schaden um 35%.",
+          "shortTooltip": "Die Ölspur verringert die Angriffsgeschwindigkeit.",
+          "fullTooltip": "Verringert die Angriffsgeschwindigkeit von Gegnern in der Ölspur oder brennenden Ölspur 3 Sek. lang um 50%.",
           "abilityType": "W",
-          "isQuest": true,
           "sort": 2,
           "abilityTalentLinkIds": [
             "FirebatOilSpill"
           ]
         },
         {
-          "nameId": "FirebatOilSpillAdhesivePetroleum",
-          "buttonId": "FirebatOilSpillAdhesivePetroleum",
-          "name": "Schweröl",
-          "icon": "storm_ui_icon_blaze_oil_b.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "Die Ölspur verlangsamt beim Anzünden.",
-          "fullTooltip": "Verlangsamt Gegner, die in der angezündeten Ölspur stehen, 3 Sek. lang um 40%. Außerdem setzen automatische Angriffe Ölspuren in Brand.",
-          "abilityType": "W",
+          "nameId": "FirebatJetPropulsionFuelLeak",
+          "buttonId": "FirebatJetPropulsionFuelLeak",
+          "name": "Brennstoffleck",
+          "icon": "storm_ui_icon_blaze_jet.png",
+          "shortTooltip": "Düsenantrieb hinterlässt eine Ölspur.",
+          "fullTooltip": "Düsenantrieb hinterlässt auf dem Weg eine Ölspur. Erschafft eine zusätzliche Ölspur unter dem Ziel, wenn ein gegnerischer Held mit dem Düsenantrieb getroffen wird.",
+          "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "FirebatOilSpill"
+            "FirebatJetPropulsion"
           ]
         }
       ],
@@ -16670,22 +16678,9 @@
       ],
       "level13": [
         {
-          "nameId": "FirebatFlameStreamSuppressiveFire",
-          "buttonId": "FirebatFlameStreamSuppressiveFire",
-          "name": "Feuerschutz",
-          "icon": "storm_ui_icon_blaze_flame.png",
-          "shortTooltip": "Feuerstrahl verringert die Fähigkeitsstärke.",
-          "fullTooltip": "Jeder Feuerstrahl verringert die Fähigkeitsstärke getroffener Helden 4 Sek. lang um 25%, bis maximal 50%.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "FirebatFlameStream"
-          ]
-        },
-        {
-          "nameId": "FirebatOilSpillNanomachineCoating",
-          "buttonId": "FirebatOilSpillNanomachineCoating",
-          "name": "Nanomaschinenzusatz",
+          "nameId": "FirebatOilSpillGrillandKill",
+          "buttonId": "FirebatOilSpillGrillandKill",
+          "name": "Killen und grillen",
           "icon": "storm_ui_icon_blaze_oil.png",
           "charges": {
             "countMax": 2,
@@ -16693,8 +16688,28 @@
             "countStart": 2,
             "recastCooldown": 1.0
           },
-          "shortTooltip": "Die Ölspur verringert die Angriffsgeschwindigkeit.",
-          "fullTooltip": "Verringert die Angriffsgeschwindigkeit von Gegnern in der Ölspur oder brennenden Ölspur 3 Sek. lang um 50%.",
+          "shortTooltip": "Quest: Erhöht den Schaden und die Dauer der brennenden Ölspur.",
+          "fullTooltip": "Erhöht den Schaden der brennenden Ölspur um 45%.  Quest: Füge gegnerischen Helden mit der brennenden Ölspur 30-mal Schaden zu.  Belohnung: Erhöht die Dauer der brennenden Ölspur um 2.5 Sek.",
+          "abilityType": "W",
+          "isQuest": true,
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "FirebatOilSpill"
+          ]
+        },
+        {
+          "nameId": "FirebatOilSpillAdhesivePetroleum",
+          "buttonId": "FirebatOilSpillAdhesivePetroleum",
+          "name": "Schweröl",
+          "icon": "storm_ui_icon_blaze_oil_b.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 1.0
+          },
+          "shortTooltip": "Die Ölspur verlangsamt beim Anzünden.",
+          "fullTooltip": "Gegner, die in der brennenden Ölspur stehen, werden 3 Sek. lang um 40% verlangsamt und erleiden 35% mehr Schaden durch automatische Angriffe von Blaze. Außerdem setzen automatische Angriffe Ölspuren in Brand.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -16702,12 +16717,12 @@
           ]
         },
         {
-          "nameId": "FirebatJetPropulsionFuelLeak",
-          "buttonId": "FirebatJetPropulsionFuelLeak",
-          "name": "Brennstoffleck",
+          "nameId": "FirebatJetPropulsionCollisionCourse",
+          "buttonId": "FirebatJetPropulsionCollisionCourse",
+          "name": "Kollisionskurs",
           "icon": "storm_ui_icon_blaze_jet.png",
-          "shortTooltip": "Düsenantrieb hinterlässt eine Ölspur.",
-          "fullTooltip": "Düsenantrieb hinterlässt auf dem Weg eine Ölspur. Erschafft eine zusätzliche Ölspur unter dem Ziel, wenn ein gegnerischer Held mit dem Düsenantrieb getroffen wird.",
+          "shortTooltip": "Der Zusammenstoß von Düsenantrieb verursacht Schaden.",
+          "fullTooltip": "Der Zusammenstoß von Düsenantrieb fügt dem ersten getroffenen Helden 325 (+4% per level) Schaden zu.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -17554,6 +17569,18 @@
           "abilityType": "Z"
         }
       ],
+      "activable": [
+        {
+          "nameId": "GarroshWreckingBallIntotheFray",
+          "buttonId": "GarroshWreckingBallIntotheFray",
+          "name": "Kampfgetümmel",
+          "icon": "storm_ui_icon_garrosh_intothefray.png",
+          "cooldownTooltip": "Abklingzeit: 45 Sek.",
+          "shortTooltip": "Aktivieren, um einen nahen Verbündeten zu schleudern.",
+          "fullTooltip": "Aktivieren, um einen nahen Verbündeten zu schleudern. Gewährt ihm 3 Sek. lang 20 Panzerung. Fügt beim Aufprall Gegnern in der Nähe 91 (+4% per level) Schaden zu und verringert ihre Bewegungsgeschwindigkeit 2.5 Sek. lang um 30%.  Während ihres Fluges sind verbündete Helden unaufhaltbar.",
+          "abilityType": "Active"
+        }
+      ],
       "hearth": [
         {
           "nameId": "Hearthstone",
@@ -17728,7 +17755,7 @@
           "name": "Einschüchterung",
           "icon": "storm_ui_icon_garrosh_groundbreaker.png",
           "shortTooltip": "Verringert die Angriffsgeschwindigkeit.",
-          "fullTooltip": "Bodenbrecher verringert die Angriffsgeschwindigkeit getroffener Helden 4 Sek. lang um 40%.",
+          "fullTooltip": "Bodenbrecher verringert die Angriffsgeschwindigkeit getroffener Helden 4 Sek. lang um 30%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -17739,23 +17766,36 @@
           "nameId": "GarroshOppressor",
           "buttonId": "GarroshOppressor",
           "name": "Unterdrücker",
-          "icon": "storm_ui_icon_talent_autoattack_slow.png",
-          "shortTooltip": "Automatische Angriffe verringern die Fähigkeitsstärke.",
-          "fullTooltip": "Automatische Angriffe gegen Helden verringern ihre Fähigkeitsstärke 2.5 Sek. lang um 40%.",
-          "abilityType": "Passive",
-          "sort": 2
+          "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
+          "shortTooltip": "Automatische Angriffe und Blutdurst verringern die Fähigkeitsstärke.",
+          "fullTooltip": "Automatische Angriffe und Blutdurst verringern die Fähigkeitsstärke getroffener Helden 2.5 Sek. lang um 30%.",
+          "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "GarroshBloodthirst"
+          ]
         },
         {
-          "nameId": "GarroshWreckingBallIntotheFray",
-          "buttonId": "GarroshWreckingBallIntotheFray",
-          "name": "Kampfgetümmel",
+          "nameId": "GarroshIntotheFrayLoktarOgar",
+          "buttonId": "GarroshIntoTheFrayLoktarOgar",
+          "name": "Lok'tar ogar!",
           "icon": "storm_ui_icon_garrosh_intothefray.png",
           "cooldownTooltip": "Abklingzeit: 45 Sek.",
-          "shortTooltip": "Aktivieren, um einen nahen Verbündeten zu schleudern.",
-          "fullTooltip": "Aktivieren, um einen nahen Verbündeten zu schleudern. Gewährt ihm 3 Sek. lang 25 Panzerung. Fügt beim Aufprall Gegnern in der Nähe 91 (+4% per level) Schaden zu und verringert ihre Bewegungsgeschwindigkeit 2.5 Sek. lang um 30%.  Während ihres Fluges sind verbündete Helden unaufhaltbar.",
+          "shortTooltip": "Erhöht die gewährte Panzerung und verringert die Abklingzeit.",
+          "fullTooltip": "Erhöht die von Kampfgetümmel gewährte Panzerung um 20. Getroffene gegnerische Helden verringern die Abklingzeit um 12 Sek.",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "GarroshWreckingBallIntotheFray"
+          ]
         }
       ],
       "level10": [
@@ -21472,7 +21512,7 @@
         "nameId": "ImperiusHeroWeapon",
         "range": 2.0,
         "period": 1.2,
-        "damage": 122.0,
+        "damage": 126.0,
         "damageScale": 0.04
       }
     ],
@@ -21520,7 +21560,7 @@
           "energyTooltip": "Mana: 50",
           "cooldownTooltip": "Abklingzeit: 8 Sek.",
           "shortTooltip": "Fügt Gegnern in einer geraden Linie Schaden zu und verlangsamt sie.",
-          "fullTooltip": "Entfesselt eine Feuerwelle, die 100 (+4% per level) Schaden verursacht. Ziele im mittleren Bereich erleiden 50% Bonusschaden und werden 3 Sek. lang um 40% verlangsamt.",
+          "fullTooltip": "Entfesselt eine Feuerwelle, die 110 (+4% per level) Schaden verursacht. Ziele im mittleren Bereich erleiden 50% Bonusschaden und werden 3 Sek. lang um 40% verlangsamt.",
           "abilityType": "W"
         },
         {
@@ -21695,7 +21735,7 @@
           "name": "Gefallen an der Schlacht",
           "icon": "storm_ui_icon_imperius_trait.png",
           "shortTooltip": "Erhöht die Heilung durch Stigma des Erzengels.",
-          "fullTooltip": "Erhöht die Heilung durch Stigma des Erzengels um 70%.",
+          "fullTooltip": "Erhöht die Heilung durch Stigma des Erzengels um 80%.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -21736,7 +21776,7 @@
           "name": "Nimbusflammen",
           "icon": "storm_ui_icon_imperius_w.png",
           "shortTooltip": "Hinterlässt eine explodierende Brandspur.",
-          "fullTooltip": "Solarions Feuer hinterlässt eine Spur verbrannter Erde im inneren Bereich, die nach 2 Sek. explodiert und 150 (+4% per level) Schaden verursacht. Diese Explosion profitiert von Stigmen des Erzengels und verbraucht diese.",
+          "fullTooltip": "Solarions Feuer hinterlässt eine Spur verbrannter Erde im inneren Bereich, die nach 2 Sek. explodiert und 185 (+4% per level) Schaden verursacht. Diese Explosion profitiert von Stigmen des Erzengels und verbraucht diese.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -21750,7 +21790,7 @@
           "icon": "storm_ui_icon_imperius_item_01.png",
           "cooldownTooltip": "Abklingzeit: 25 Sek.",
           "shortTooltip": "Aktivieren, damit automatische Angriffe Flächenschaden verursachen.",
-          "fullTooltip": "Aktivieren, damit die nächsten 4 automatischen Angriffe innerhalb von 10 Sek. zusätzlich 30% Flächenschaden verursachen.",
+          "fullTooltip": "Aktivieren, damit die nächsten 4 automatischen Angriffe innerhalb von 10 Sek. zusätzlich 30% Flächenschaden verursachen.  Passiv: Der Einsatz der Geschmolzenen Rüstung gewährt den nächsten 2 automatischen Angriffen Religiöser Eifer.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -21893,8 +21933,8 @@
           "buttonId": "ImperiusWrathOfTheAngirisUnrelentingDescent",
           "name": "Sündenfall",
           "icon": "storm_ui_icon_imperius_r2.png",
-          "shortTooltip": "Stigma des Erzengels verringert die Abklingzeit.",
-          "fullTooltip": "Verringert die Abklingzeit von Zorn des Angiris-Rats um 10 Sek., wenn ein Stigma des Erzengels verbraucht wird.",
+          "shortTooltip": "Zorn des Angiris-Rats heilt und klingt schneller ab.",
+          "fullTooltip": "Der Aufprall stellt 30% der maximalen Lebenspunkte und des maximalen Manas wieder her. Verringert die Abklingzeit von Zorn des Angiris-Rats um 10 Sek., wenn ein Stigma des Erzengels verbraucht wird.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -29392,7 +29432,7 @@
           "name": "Besonnenheit",
           "icon": "storm_ui_icon_malfurion_tranquility.png",
           "shortTooltip": "Verstärkt Gelassenheit.",
-          "fullTooltip": "Verringert die Abklingzeit von Gelassenheit um 3 Sek. pro gegnerischem Helden, der von Mondfeuer getroffen wird. Erhöht die Heilung von Gelassenheit pro aktivem Nachwachsen um 10%.",
+          "fullTooltip": "Verringert die Abklingzeit von Gelassenheit um 3 Sek. pro gegnerischem Helden, der von Mondfeuer getroffen wird. Erhöht die Heilung von Gelassenheit um 25% und zusätzlich pro aktivem Nachwachsen um 10%.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -33622,7 +33662,7 @@
           "energyTooltip": "Mana: 45",
           "cooldownTooltip": "Abklingzeit: 10 Sek.",
           "shortTooltip": "Wirft einen Hammer, der einen Gegner betäubt und ihm Schaden zufügt.",
-          "fullTooltip": "Wirft einen Hammer, der dem ersten getroffenen Gegner 110 (+4% per level) Schaden zufügt und ihn 1.25 Sek. lang betäubt.  Quest: Triff 25 Helden mit Sturmschlag. Helden, die innerhalb von 2.5 Sek. sterben, nachdem sie von Sturmschlag getroffen wurden, zählen als 3 zusätzliche Treffer.  Belohnung: Sturmschlag trifft ein zusätzliches Ziel. Automatische Angriffe verringern die Abklingzeit um 1 Sek. und stellen 3 Mana wieder her.",
+          "fullTooltip": "Wirft einen Hammer, der dem ersten getroffenen Gegner 110 (+4% per level) Schaden zufügt und ihn 1.25 Sek. lang betäubt.  Ab Stufe 10 trifft Sturmschlag ein zusätzliches Ziel. Automatische Angriffe verringern die Abklingzeit von Sturmschlag um 1 Sek. und stellen 3 Mana wieder her.",
           "abilityType": "Q"
         },
         {
@@ -33775,7 +33815,7 @@
           "name": "Perfekter Sturm",
           "icon": "storm_ui_icon_muradin_stormbolt.png",
           "shortTooltip": "Quest: Triff Helden, um Sturmschlag zu verstärken.",
-          "fullTooltip": "Quest: Erhöht den Schaden von Sturmschlag pro getroffenem Helden um 4.",
+          "fullTooltip": "Quest: Erhöht den Schaden von Sturmschlag jedes Mal um 0.5, wenn Muradin einen gegnerischen Helden mit einem automatischen Angriff trifft. Erhöht den Schaden von Sturmschlag zusätzlich um 10, wenn ein Held innerhalb von 3 Sek. stirbt, nachdem er von Sturmschlag getroffen wurde.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -33816,8 +33856,8 @@
           "buttonId": "MuradinStormboltSledgehammerTalent",
           "name": "Vorschlaghammer",
           "icon": "storm_ui_icon_muradin_stormbolt.png",
-          "shortTooltip": "Verstärkt Sturmschlag.",
-          "fullTooltip": "Fügt nicht heroischen Gegnern 350% Schaden zu. Heldentreffer zählen doppelt für die Quest.",
+          "shortTooltip": "Sturmschlag fügt nicht heroischen Gegnern mehr Schaden zu.",
+          "fullTooltip": "Der Sturmschlag fügt nicht heroischen Gegnern 350% Schaden zu.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -36634,7 +36674,7 @@
           "name": "Spitzentanz",
           "icon": "storm_ui_icon_orphea_q.png",
           "shortTooltip": "Erhöht den Schaden im Endbereich von Schattentanz.",
-          "fullTooltip": "Erhöht den Schaden im Endbereich von Schattentanz um 90%.",
+          "fullTooltip": "Erhöht den Schaden im Endbereich von Schattentanz um 90% und die Fähigkeit gewährt 1 zusätzlichen Stapel Chaos.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -36647,7 +36687,7 @@
           "name": "Wachsender Schrecken",
           "icon": "storm_ui_icon_orphea_e.png",
           "shortTooltip": "Quest: Verstärkt die Zähne der Schreckenswelle.",
-          "fullTooltip": "Erhöht den Schaden der hervorschießenden Zähne um 40%.  Quest: Triff 3 Helden gleichzeitig mit den Zähnen der Schreckenswelle.  Belohnung: Erhöht den Schaden der Zähne zusätzlich um 25% und die Verlangsamung um 15%.",
+          "fullTooltip": "Erhöht den Schaden der Schreckenswelle um 50%.  Quest: Triff 3 Helden gleichzeitig mit den Zähnen der Schreckenswelle.  Belohnung: Erhöht den Schaden der Zähne um 50% und die Verlangsamung um 15%.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 2,
@@ -36884,7 +36924,7 @@
           "name": "Inneres Monster",
           "icon": "storm_ui_icon_orphea_ult_darkfall.png",
           "shortTooltip": "Ewiges Schlemmen gewährt Chaos. Verringert Abklingzeiten.",
-          "fullTooltip": "Heldentreffer mit Ewiges Schlemmen gewähren 1 Stapel Chaos. Orpheas Grundfähigkeiten klingen 150% schneller ab, solange Ewiges Schlemmen aktiv ist.",
+          "fullTooltip": "Heldentreffer mit Ewiges Schlemmen gewähren 1 Stapel Chaos. Während der Dauer von Ewiges Schlemmen und 5 Sek. danach klingen Orpheas Grundfähigkeiten 150% schneller ab.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -36900,7 +36940,7 @@
           "name": "Das Vergessen wartet",
           "icon": "storm_ui_icon_orphea_ult_thrasher.png",
           "shortTooltip": "Verringert die Panzerung getroffener Helden sowie die Abklingzeit.",
-          "fullTooltip": "Die Kieferzwinge verringert die Panzerung getroffener Helden 3 Sek. lang um 25. Kills setzen die Abklingzeit auf 5 Sek.",
+          "fullTooltip": "Die Kieferzwinge verringert die Panzerung getroffener Helden 3 Sek. lang um 50. Kills setzen die Abklingzeit auf 5 Sek.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -36931,7 +36971,7 @@
           "icon": "storm_ui_icon_orphea_reset.png",
           "cooldownTooltip": "Abklingzeit: 20 Sek.",
           "shortTooltip": "Schließt die Abklingzeit von Schattentanz nach dem Sprint ab.",
-          "fullTooltip": "Aktivieren, um die Abklingzeit von Schattentanz sofort abzuschließen. Innerhalb der nächsten 6 Sek. setzt der Sprint die Abklingzeit von Schattentanz zurück.",
+          "fullTooltip": "Aktivieren, um die Abklingzeit von Schattentanz sofort abzuschließen. Innerhalb der nächsten 5 Sek. setzt der Sprint die Abklingzeit von Schattentanz zurück und erhöht die Dauer von Großes Finale um 1 Sek.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4,
@@ -38243,14 +38283,14 @@
         "nameId": "RaynorWeaponMelee",
         "range": 2.0,
         "period": 0.8,
-        "damage": 92.0,
+        "damage": 98.0,
         "damageScale": 0.04
       },
       {
         "nameId": "RaynorWeapon",
         "range": 6.5,
         "period": 0.8,
-        "damage": 92.0,
+        "damage": 98.0,
         "damageScale": 0.04
       }
     ],
@@ -38293,7 +38333,7 @@
           "energyTooltip": "Mana: 60",
           "cooldownTooltip": "Abklingzeit: 9 Sek.",
           "shortTooltip": "Feuert einen Schuss ab, der Gegnern Schaden zufügt, sie zurückstößt und verlangsamt.",
-          "fullTooltip": "Verursacht 190 (+4% per level) Schaden, stößt Gegner in einer geraden Linie zurück und verlangsamt sie 2 Sek. lang um 20%. Gegner werden weiter zurückgestoßen, je näher sie Raynor sind.",
+          "fullTooltip": "Verursacht 205 (+4% per level) Schaden, stößt Gegner in einer geraden Linie zurück und verlangsamt sie 2 Sek. lang um 20%. Gegner werden weiter zurückgestoßen, je näher sie Raynor sind.",
           "abilityType": "Q"
         },
         {
@@ -38447,21 +38487,6 @@
     "talents": {
       "level1": [
         {
-          "nameId": "RaynorAceInTheHole",
-          "buttonId": "RaynorAceInTheHole",
-          "name": "Ass im Ärmel",
-          "icon": "storm_ui_icon_raynor_acardtoplay.png",
-          "shortTooltip": "Gebt ihnen Saures verlangsamt Helden.",
-          "fullTooltip": "Gebt ihnen Saures verlangsamt getroffene gegnerische Helden 2.5 Sek. lang um 10%. Die Durchschlagsmunition fügt betäubten oder verlangsamten Helden 25% mehr Schaden zu.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "RaynorPenetratingRound",
-            "RaynorBountyHunter",
-            "RaynorGiveEmSomePepper"
-          ]
-        },
-        {
           "nameId": "RaynorGiveEmSomePepperExterminator",
           "buttonId": "RaynorExterminator",
           "name": "Kammerjäger",
@@ -38469,7 +38494,7 @@
           "shortTooltip": "Erhöht den Schaden gegen nicht heroische Gegner.",
           "fullTooltip": "Erhöht den Schaden automatischer Angriffe gegen Diener, Söldner und Monster um 50%. Erhöht diesen Bonus auf 125%, solange Mut machen aktiv ist.  Passiv: Mut machen läuft bei befreundeten Dienern und Söldnern nicht mehr ab.",
           "abilityType": "W",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "RaynorInspire",
             "RaynorBountyHunter",
@@ -38481,10 +38506,24 @@
           "buttonId": "RaynorVeteranMarksman",
           "name": "Geübter Schütze",
           "icon": "storm_ui_icon_raynor_acquireweakspot.png",
-          "shortTooltip": "Leihgabe: Gewährt Angriffsgeschwindigkeit. Quest: Erhöht den Schaden von Gebt ihnen Saures.",
-          "fullTooltip": "Leihgabe: Gebt ihnen Saures verursacht 60% mehr Schaden. Mit jedem Tod gehen 15% dieses Bonus verloren.  Quest: Erhöht den Schadensbonus von Gebt ihnen Saures jedes Mal um 0.75%, wenn das Hauptziel der Fähigkeit ein Held ist.",
+          "shortTooltip": "Wagnis: Erhöht den Schaden von Gebt ihnen Saures. Quest: Erhöht den Schaden von Gebt ihnen Saures.",
+          "fullTooltip": "Quest: Erhöht den Schadensbonus von Gebt ihnen Saures jedes Mal um 0.75%, wenn das Hauptziel der Fähigkeit ein Held ist.  Wagnis: Gebt ihnen Saures verursacht 60% mehr Schaden. Mit jedem Tod gehen 15% dieses Bonus verloren.",
           "abilityType": "Trait",
           "isQuest": true,
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "RaynorBountyHunter",
+            "RaynorGiveEmSomePepper"
+          ]
+        },
+        {
+          "nameId": "RaynorAceInTheHole",
+          "buttonId": "RaynorAceInTheHole",
+          "name": "Ass im Ärmel",
+          "icon": "storm_ui_icon_raynor_acardtoplay.png",
+          "shortTooltip": "Erhöht den Schaden gegen beeinträchtigte Helden.",
+          "fullTooltip": "Erhöht den verursachten Schaden gegen verlangsamte oder betäubte Helden um 10%.  Gebt ihnen Saures verlangsamt getroffene gegnerische Helden 2.5 Sek. lang um 10%.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
             "RaynorBountyHunter",
@@ -38764,7 +38803,7 @@
           "name": "Letzter Befehl",
           "icon": "storm_ui_icon_raynor_advancedoptics.png",
           "shortTooltip": "Schlägt nach dem Tod zurück.",
-          "fullTooltip": "Verkürzt den Todestimer auf 30 Sek. und setzt beim Tod die Hyperion in Richtung des nächsten gegnerischen Helden ein.",
+          "fullTooltip": "Verkürzt den Todestimer um 35 Sek. und setzt beim Tod die Hyperion in Richtung des nächsten gegnerischen Helden ein.",
           "abilityType": "Passive",
           "sort": 5
         }
@@ -41238,7 +41277,7 @@
           "icon": "storm_ui_icon_stitches_acidcloud.png",
           "cooldownTooltip": "Abklingzeit: 60 Sek.",
           "shortTooltip": "Angriffe vergiften. Aktivieren, um Verlangsamungen zu verhindern.",
-          "fullTooltip": "Aktivieren, um pro Sekunde Übles Gas in einem großen Bereich zu verströmen und 5 Sek. lang zu verhindern, dass die Bewegungsgeschwindigkeit unter 110% sinken kann.  Übles Gas Automatische Angriffe und der innere Bereich von Zuschlagen vergiften Gegner mit Üblem Gas, das im Verlauf von 3 Sek. 27 (+4% per level) Schaden verursacht. Das Gas fügt Dienern, Söldnern und Monstern 150% mehr Schaden zu.",
+          "fullTooltip": "Aktivieren, um pro Sekunde Übles Gas in einem großen Bereich zu verströmen und 5 Sek. lang zu verhindern, dass die Bewegungsgeschwindigkeit unter 110% sinken kann.  Übles Gas Automatische Angriffe und der innere Bereich von Zuschlagen vergiften Gegner mit Üblem Gas, das im Verlauf von 4 Sek. 36 (+4% per level) Schaden verursacht. Das Gas fügt Dienern, Söldnern und Monstern 150% mehr Schaden zu.",
           "abilityType": "Trait"
         }
       ],
@@ -41355,7 +41394,7 @@
           "name": "Unersättlich",
           "icon": "storm_ui_icon_stitches_hungry.png",
           "shortTooltip": "Quest: Regenerationskugeln erhöhen die Lebenspunkte und die Bewegungsgeschwindigkeit.",
-          "fullTooltip": "Erhöht die Bewegungsgeschwindigkeit um 5%.  Quest: Sammle Regenerationskugeln ein, um die maximalen Lebenspunkte jeweils um 30 zu erhöhen.  Belohnung: Sobald jeweils 20 Regenerationskugeln eingesammelt wurden, wird die Bewegungsgeschwindigkeit dauerhaft um weitere 5% erhöht.",
+          "fullTooltip": "Erhöht die Bewegungsgeschwindigkeit um 5%.  Quest: Sammle Regenerationskugeln ein, um die maximalen Lebenspunkte jeweils um 25 zu erhöhen.  Belohnung: Sobald jeweils 20 Regenerationskugeln eingesammelt wurden, wird die Bewegungsgeschwindigkeit dauerhaft um weitere 5% erhöht.",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 3
@@ -41368,7 +41407,7 @@
           "name": "Zeit zum Spielen!",
           "icon": "storm_ui_icon_stitches_slam.png",
           "shortTooltip": "Automatische Angriffe verringern die Abklingzeit von Zuschlagen.",
-          "fullTooltip": "Automatische Angriffe verringern die Abklingzeit von Zuschlagen um 0.75 Sek. und stellen 5 Mana wieder her. Heldentreffer mit dem inneren Bereich von Zuschlagen verringern die Abklingzeit der Fähigkeit um 1 Sek.",
+          "fullTooltip": "Automatische Angriffe verringern die Abklingzeit von Zuschlagen um 0.75 Sek. und stellen 5 Mana wieder her. Heldentreffer mit dem inneren Bereich von Zuschlagen verringern die Abklingzeit der Fähigkeit um 1.5 Sek.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -41380,8 +41419,8 @@
           "buttonId": "StitchesVileCleaver",
           "name": "Übles Hackbeil",
           "icon": "storm_ui_icon_stitches_acidcloud.png",
-          "shortTooltip": "Automatische Angriffe verteilen Übles Gas.",
-          "fullTooltip": "Automatische Angriffe gegen Gegner, die von Üblem Gas betroffen sind, verursachen 35% mehr Schaden und vergiften Gegner in der Nähe mit Üblem Gas.",
+          "shortTooltip": "Automatische Angriffe und Zuschlagen verteilen Übles Gas.",
+          "fullTooltip": "Automatische Angriffe gegen Gegner, die von Üblem Gas betroffen sind, verursachen 35% mehr Schaden und vergiften Gegner in der Nähe mit Üblem Gas.  Passiv: Zuschlagen vergiftet alle getroffenen Ziele mit Üblem Gas.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41394,7 +41433,7 @@
           "name": "Fleischklopfer",
           "icon": "storm_ui_icon_talent_autoattack_slow.png",
           "shortTooltip": "Automatische Angriffe gegen Helden verlangsamen und heilen.",
-          "fullTooltip": "Automatische Angriffe gegen Helden verlangsamen diese 2.5 Sek. lang um 25% und stellen 2% von Kleiners maximalen Lebenspunkten wieder her.",
+          "fullTooltip": "Automatische Angriffe gegen Helden verlangsamen diese 2.5 Sek. lang um 25% und stellen 1.75% von Kleiners maximalen Lebenspunkten wieder her.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -41406,7 +41445,7 @@
           "name": "Widerhaken",
           "icon": "storm_ui_icon_stitches_hook.png",
           "shortTooltip": "Der Haken verursacht Bonusschaden. Verringert die Abklingzeit.",
-          "fullTooltip": "Heldentreffer mit dem Haken verursachen Bonusschaden in Höhe von 5% der maximalen Lebenspunkte des Ziels, verringern die Abklingzeit des Hakens um 5 Sek. und stellen 35 Mana wieder her.",
+          "fullTooltip": "Heldentreffer mit dem Haken verursachen Bonusschaden in Höhe von 5% der maximalen Lebenspunkte des Ziels, verringern die Abklingzeit des Hakens um 4 Sek. und stellen 35 Mana wieder her.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -41425,8 +41464,8 @@
             "hideCount": true,
             "recastCooldown": 6.0
           },
-          "shortTooltip": "Leihgabe: Verschlingen erhält eine zusätzliche Aufladung und gewährt Schilde.",
-          "fullTooltip": "Verschlingen erhält 1 zusätzliche Aufladung. Zwischen dem Einsatz der Aufladungen besteht eine Abklingzeit von 6 Sek.  Leihgabe: Gewährt 10 Sek. lang einen Schild in Höhe von 15% der maximalen Lebenspunkte, wenn Kleiner nach dem Einsatz von Verschlingen volle Lebenspunkte hat. Mit jedem Tod gehen 3% der Schildpunkte verloren.",
+          "shortTooltip": "Wagnis: Verschlingen erhält eine zusätzliche Aufladung und gewährt Schilde.",
+          "fullTooltip": "Verschlingen erhält 1 zusätzliche Aufladung. Zwischen dem Einsatz der Aufladungen besteht eine Abklingzeit von 6 Sek.  Wagnis: Gewährt 10 Sek. lang einen Schild in Höhe von 15% der maximalen Lebenspunkte, wenn Kleiner nach dem Einsatz von Verschlingen volle Lebenspunkte hat. Mit jedem Tod gehen 3% der Schildpunkte verloren.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 2,
@@ -41440,7 +41479,7 @@
           "name": "Putrefaktion",
           "icon": "storm_ui_icon_stitches_acidcloud.png",
           "shortTooltip": "Übles Gas heilt und ist während Torkelnder Schrecken verstärkt.",
-          "fullTooltip": "Während Torkelnder Schrecken aktiv ist, verringert Übles Gas die erhaltene Heilung um 30%.  Passiv: Übles Gas heilt Kleiner um 60% des verursachten Schadens.",
+          "fullTooltip": "Während Torkelnder Schrecken aktiv ist, verringert Übles Gas die erhaltene Heilung um 40%.  Passiv: Übles Gas heilt Kleiner um 75% des verursachten Schadens.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -41489,7 +41528,7 @@
           "name": "Fleischerhaken",
           "icon": "storm_ui_icon_stitches_hook.png",
           "shortTooltip": "Kleiners Haken heilt ihn über Zeit.",
-          "fullTooltip": "Wenn sein Haken einen gegnerischen Helden trifft, wird Kleiner im Verlauf von 4 Sek. um 20% seiner maximalen Lebenspunkte geheilt. Während dieser Effekt aktiv ist, erneuern automatische Angriffe gegen den getroffenen Helden die Dauer.",
+          "fullTooltip": "Wenn sein Haken einen gegnerischen Helden trifft, wird Kleiner im Verlauf von 5 Sek. um 20% seiner maximalen Lebenspunkte geheilt. Während dieser Effekt aktiv ist, erneuern automatische Angriffe gegen den getroffenen Helden die Dauer.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -41516,7 +41555,7 @@
           "name": "Schlag auf Schlag",
           "icon": "storm_ui_icon_stitches_chopchop.png",
           "shortTooltip": "Haken und Torkelnder Schrecken erhöhen die Angriffsgeschwindigkeit.",
-          "fullTooltip": "Erhöht die Angriffsgeschwindigkeit 5 Sek. lang um 50%, wenn ein gegnerischer Held vom Haken getroffen oder Torkelnder Schrecken aktiviert wird.",
+          "fullTooltip": "Erhöht die Angriffsgeschwindigkeit 4 Sek. lang um 40%, wenn ein gegnerischer Held vom Haken getroffen oder Torkelnder Schrecken aktiviert wird. Automatische Angriffe erneuern die Dauer.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -41551,7 +41590,7 @@
             "recastCooldown": 6.0
           },
           "shortTooltip": "Erhöht den Schaden von Verschlingen und verringert den Schaden getroffener Helden.",
-          "fullTooltip": "Verschlingen verursacht zusätzlich im Verlauf von 5 Sek. 140 (+4% per level) Schaden. Heldentreffer verringern die Abklingzeit um 5 Sek. und den verursachten Schaden des verschlungenen Helden 5 Sek. lang um 50%.",
+          "fullTooltip": "Verschlingen verursacht zusätzlich im Verlauf von 5 Sek. 140 (+4% per level) Schaden. Heldentreffer verringern die Abklingzeit um 4 Sek. und den verursachten Schaden des verschlungenen Helden 4 Sek. lang um 50%.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41593,7 +41632,7 @@
           "name": "Fressmaschine",
           "icon": "storm_ui_icon_stitches_cannibalize.png",
           "shortTooltip": "Vollfressen kann Kleiner zu weiteren Helden teleportieren, die er ebenfalls verschlingt.",
-          "fullTooltip": "Nach dem Einsatz von Vollfressen kann sich Kleiner 4 Sek. lang über kurze Distanz zu zusätzlichen Zielen teleportieren und sie ebenfalls verschlingen.",
+          "fullTooltip": "Nach dem Einsatz von Vollfressen kann sich Kleiner 4 Sek. lang über kurze Distanz zu zusätzlichen Zielen teleportieren und sie ebenfalls verschlingen. Wenn Vollfressen endet, werden Gegner 1 Sek. lang um 75% verlangsamt.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41609,7 +41648,7 @@
           "name": "Hakenmeister",
           "icon": "storm_ui_icon_stitches_hook.png",
           "shortTooltip": "Verstärkt den Haken.",
-          "fullTooltip": "Verringert die Abklingzeit des Hakens um 5 Sek. Getroffene gegnerische Helden erhalten 2 Sek. lang 100% weniger Heilung. Getroffene Verbündete sind 2 Sek. lang unbesiegbar.",
+          "fullTooltip": "Verringert die Abklingzeit des Hakens um 4 Sek. Getroffene gegnerische Helden erhalten 2 Sek. lang 75% weniger Heilung. Getroffene Verbündete sind 2 Sek. lang unbesiegbar.",
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -41892,7 +41931,7 @@
           "name": "Faulende Berührung",
           "icon": "storm_ui_icon_stukov_weightedpustule.png",
           "shortTooltip": "Quest: Verringert Abklingzeit und Kosten der Viralen Pustel.",
-          "fullTooltip": "Quest: Triff Helden mit der Viralen Pustel.  Belohnung: Sobald 15 Helden mit Viralen Pusteln getroffen wurden, werden die Abklingzeit um 2,5 Sek. und die Manakosten um 25 verringert.  Belohnung: Sobald 25 Helden mit Viralen Pusteln getroffen wurden, wird die Abklingzeit um weitere 2,5 Sek. verringert und die Manakosten werden entfernt.",
+          "fullTooltip": "Automatische Angriffe werden zu Fernkampfangriffen und verlangsamen Gegner 1.5 Sek. lang um 15%, verursachen aber 50% weniger Schaden.  Quest: Triff Helden mit der Viralen Pustel.  Belohnung: Sobald 20 Helden mit Viralen Pusteln getroffen wurden, wird die Abklingzeit um 5 Sek. verringert und die Manakosten werden entfernt.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 1,
@@ -41906,7 +41945,7 @@
           "name": "Reaktive Pusteln",
           "icon": "storm_ui_icon_stukov_weightedpustule_a.png",
           "shortTooltip": "Infiziert bei niedrigen Lebenspunkten Gegner in der Nähe mit Viralen Pusteln.",
-          "fullTooltip": "Infiziert sofort alle gegnerischen Helden in der Nähe mit Viralen Pusteln, wenn Stukov mit weniger als 50% Lebenspunkten Schaden erleidet. Schließt dabei auch die Abklingzeit der Immunreaktion ab.  Dieser Effekt hat eine Abklingzeit von 25 Sek.",
+          "fullTooltip": "Wenn Stukov weniger als 50% Lebenspunkte hat, wird die Abklingzeit der Immunreaktion 150% schneller abgeschlossen.  Aktivieren, um sofort alle gegnerischen Helden in der Nähe mit Viralen Pusteln zu infizieren und die Abklingzeit der Immunreaktion abzuschließen.  Dieser Effekt hat eine Abklingzeit von 60 Sek.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41919,22 +41958,12 @@
           "name": "Tiefschlag",
           "icon": "storm_ui_icon_stukov_lurkingarm.png",
           "shortTooltip": "Der Tiefenarm fügt Zielen mit niedrigen Lebenspunkten mehr Schaden zu.",
-          "fullTooltip": "Fügt gegnerischen Helden mit weniger als 50% Lebenspunkten 100% mehr Schaden zu.",
+          "fullTooltip": "Fügt gegnerischen Helden mit weniger als 50% Lebenspunkten 100% mehr Schaden zu und bleibt nach Abbruch noch 1 Sek. lang bestehen.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
             "StukovLurkingArm"
           ]
-        },
-        {
-          "nameId": "StukovSpineLauncher",
-          "buttonId": "StukovSpineLauncherTalent",
-          "name": "Stachelgeschosse",
-          "icon": "storm_ui_icon_stukov_spinelauncher.png",
-          "shortTooltip": "Automatische Angriffe werden zu Fernkampfangriffen und verlangsamen Gegner.",
-          "fullTooltip": "Automatische Angriffe werden zu Fernkampfangriffen und verlangsamen Gegner 1.5 Sek. lang um 20%, verursachen aber 40% weniger Schaden.",
-          "abilityType": "Passive",
-          "sort": 4
         }
       ],
       "level4": [
@@ -41957,7 +41986,7 @@
           "name": "Biopanzerung",
           "icon": "storm_ui_icon_stukov_healingpathogen_b.png",
           "shortTooltip": "Heilpathogene gewähren physische Panzerung.",
-          "fullTooltip": "Heilpathogene gewähren dem Ziel 10 physische Panzerung, solange sie aktiv sind. Das Auslösen der Immunreaktion erhöht diesen Bonus 2.5 Sek. lang auf 75.",
+          "fullTooltip": "Heilpathogene gewähren dem Ziel 10 physische Panzerung, solange sie aktiv sind. Das Auslösen der Immunreaktion erhöht diesen Bonus 2.5 Sek. lang auf 50.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -42011,7 +42040,7 @@
           "name": "Gezielte Ausrottung",
           "icon": "storm_ui_icon_stukov_bio-killswitch.png",
           "shortTooltip": "Verringert Abklingzeiten, wenn nur eine Virale Pustel detoniert wird.",
-          "fullTooltip": "Verringert die Abklingzeit der Immunreaktion auf 5 Sek. und die anderer Grundfähigkeiten um 1.5 Sek., wenn sie genau 1 Virale Pustel detonieren lässt, unabhängig von der Menge an Heilpathogenen.",
+          "fullTooltip": "Verringert die Abklingzeit der Immunreaktion auf 8 Sek. und die anderer Grundfähigkeiten um 1.5 Sek., wenn sie genau 1 Virale Pustel detonieren lässt, unabhängig von der Menge an Heilpathogenen.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -42075,27 +42104,14 @@
           ]
         },
         {
-          "nameId": "StukovLingeringSpines",
-          "buttonId": "StukovLingeringSpinesTalent",
-          "name": "Sog der Tiefe",
-          "icon": "storm_ui_icon_stukov_lurkingarm_a.png",
-          "shortTooltip": "Der Tiefenarm bleibt nach Abbruch noch bestehen.",
-          "fullTooltip": "Der Tiefenarm bleibt nach Abbruch noch 1.5 Sek. lang bestehen.",
-          "abilityType": "E",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "StukovLurkingArm"
-          ]
-        },
-        {
           "nameId": "StukovVirulentReaction",
           "buttonId": "StukovVirulentReactionTalent",
           "name": "Virulente Reaktion",
-          "icon": "storm_ui_icon_stukov_lurkingarm_b.png",
+          "icon": "storm_ui_icon_stukov_lurkingarm_a.png",
           "shortTooltip": "Die Detonation Viraler Pusteln macht Gegner im Bereich des Tiefenarms bewegungsunfähig.",
-          "fullTooltip": "Die Detonation Viraler Pusteln macht Gegner im Bereich des Tiefenarms 2 Sek. lang bewegungsunfähig.",
+          "fullTooltip": "Die Detonation Viraler Pusteln macht Gegner im Bereich des Tiefenarms 1.5 Sek. lang bewegungsunfähig.",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "StukovLurkingArm"
           ]
@@ -42108,7 +42124,7 @@
           "shortTooltip": "Die Virale Pustel kann Flächenschaden verursachen.",
           "fullTooltip": "Wenn die Virale Pustel in einem Zeitraum von bis zu 1.5 Sek. vor ihrem Ablauf durch die Immunreaktion detoniert, wird ihr Schaden um 150% erhöht. Fügt außerdem Gegnern im umliegenden Wirkungsbereich denselben Schaden zu, verlangsamt sie und infiziert getroffene Helden mit Viralen Pusteln.",
           "abilityType": "Trait",
-          "sort": 4,
+          "sort": 3,
           "abilityTalentLinkIds": [
             "StukovBioKillSwitch"
           ]
