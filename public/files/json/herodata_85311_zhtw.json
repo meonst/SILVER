@@ -3309,10 +3309,10 @@
           "buttonId": "AnduinFlashHeal",
           "name": "快速治療",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
-          "energyTooltip": "法力：25點",
+          "energyTooltip": "法力：20點",
           "cooldownTooltip": "冷卻時間：5秒",
           "shortTooltip": "為一名盟友施放治療",
-          "fullTooltip": "施放0.75秒後，為一名友方英雄治療270 (+4% per level)點生命值。",
+          "fullTooltip": "施放0.75秒後，為一名友方英雄治療280 (+4% per level)點生命值。",
           "abilityType": "Q"
         },
         {
@@ -3332,7 +3332,7 @@
           "name": "譴責",
           "icon": "storm_ui_icon_anduin_chastise.png",
           "energyTooltip": "法力：40點",
-          "cooldownTooltip": "冷卻時間：10秒",
+          "cooldownTooltip": "冷卻時間：9秒",
           "shortTooltip": "向前釋放一道光，會造成定身",
           "fullTooltip": "向前釋放一道光，對第一個擊中的敵方英雄造成175 (+4% per level)點傷害，並且使其定身1.25秒。",
           "abilityType": "E"
@@ -3377,7 +3377,7 @@
           },
           "cooldownTooltip": "冷卻時間：70秒",
           "shortTooltip": "把一名友方英雄拉至你身邊",
-          "fullTooltip": "使用虔信之力立即把一名友方英雄拉至安杜因身邊，並且使該盟友在飛躍期間獲得控場免疫。  恩典隨行  對敵方英雄的基本攻擊可治療安杜因附近生命值最低的友方英雄26 (+4% per level)點生命值。",
+          "fullTooltip": "使用虔信之力立即把一名友方英雄拉至安杜因身邊，並且使該盟友在飛躍期間獲得控場免疫。  恩典隨行  對敵方英雄的基本攻擊可治療安杜因附近生命值最低的友方英雄32 (+4% per level)點生命值。",
           "abilityType": "Trait"
         }
       ],
@@ -3464,7 +3464,7 @@
           "name": "無私祝福",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "對新的目標施放快速治療可恢復部分冷卻時間",
-          "fullTooltip": "快速治療對不同於上一次的目標施放時，可使其治療量提高10%，並且使其恢復40%的冷卻時間。",
+          "fullTooltip": "快速治療對不同於上一次的目標施放時，可使其治療量提高15%，並且使其恢復40%的冷卻時間。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3489,7 +3489,7 @@
           "buttonId": "AnduinLightwell",
           "name": "光束泉",
           "icon": "storm_ui_icon_anduin_lightwell.png",
-          "cooldownTooltip": "冷卻時間：80秒",
+          "cooldownTooltip": "冷卻時間：75秒",
           "shortTooltip": "啟動後會召喚一個有治療效果的光束泉",
           "fullTooltip": "召喚一個光束泉，定期為附近友方英雄恢復50 (+4% per level)點生命值。在治療15次後，或者重新施放後，光束泉才會消失。  安杜因每次治療友方英雄，可使此技能的冷卻時間降低1秒。",
           "abilityType": "Active",
@@ -3517,7 +3517,7 @@
           "name": "光之澎湃",
           "icon": "storm_ui_icon_anduin_chastise.png",
           "shortTooltip": "譴責會強化基本攻擊",
-          "fullTooltip": "基本攻擊會使譴責的冷卻時間降低0.5秒。對被譴責定身的英雄進行基本攻擊會額外觸發一次基本攻擊，並且恢復25點法力值。",
+          "fullTooltip": "基本攻擊會使譴責的冷卻時間降低0.75秒。對被譴責定身的英雄進行基本攻擊會額外觸發一次基本攻擊，並且恢復25點法力值。",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -3546,7 +3546,7 @@
           "name": "束縛治療",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "快速治療可同時治療安杜因",
-          "fullTooltip": "對盟友施放快速治療可為安杜因恢復115 (+4% per level)點生命值。",
+          "fullTooltip": "對盟友施放快速治療可為安杜因恢復135 (+4% per level)點生命值。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3568,9 +3568,9 @@
           "buttonId": "AnduinFlashHealDesperatePrayer",
           "name": "絕望禱言",
           "icon": "storm_ui_icon_anduin_desperate_prayer.png",
-          "cooldownTooltip": "冷卻時間：40秒",
+          "cooldownTooltip": "冷卻時間：35秒",
           "shortTooltip": "啟動後會全力治療一名友方英雄",
-          "fullTooltip": "啟動後會立即為一名友方英雄恢復360 (+4% per level)點生命值，但是會跪地祈禱2秒，並且無法行動。",
+          "fullTooltip": "啟動後會立即為一名友方英雄恢復375 (+4% per level)點生命值，但是會跪地祈禱2秒，並且無法行動。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -3655,7 +3655,7 @@
           "name": "恢復",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "快速治療會持續治療",
-          "fullTooltip": "快速治療會在5秒內額外恢復130 (+4% per level)點生命值。安杜因對敵方英雄的基本攻擊會重置此治療效果的持續時間。",
+          "fullTooltip": "快速治療會在6秒內額外恢復180 (+4% per level)點生命值。安杜因對敵方英雄的基本攻擊會重置此治療效果的持續時間。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3687,6 +3687,18 @@
           "abilityTalentLinkIds": [
             "AnduinLeapOfFaithInstant"
           ]
+        },
+        {
+          "nameId": "AnduinFlashHealInnerFocus",
+          "buttonId": "AnduinFlashHealInnerFocus",
+          "name": "心靈專注",
+          "icon": "storm_ui_icon_anduin_inner_focus.png",
+          "cooldownTooltip": "冷卻時間：20秒",
+          "shortTooltip": "啟動後可重置快速治療的冷卻時間",
+          "fullTooltip": "啟動後可重置快速治療的冷卻時間，並且使其下一次施放的治療量提高25%。  對敵方英雄造成傷害可使此技能的冷卻時間降低1秒。",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 4
         }
       ],
       "level20": [
@@ -9908,7 +9920,7 @@
           "energyTooltip": "法力：60點",
           "cooldownTooltip": "冷卻時間：50秒",
           "shortTooltip": "飛躍至目標區域守護盟友，並且使敵人昏迷",
-          "fullTooltip": "喬安娜飛身縱躍，持續2秒，此時喬安娜可移動，以決定落地的位置。喬安娜在空中時，底下的盟友獲得控場免疫。落地時，被擊中的敵人會受到150 (+4% per level)點傷害，並且昏迷0.25秒。",
+          "fullTooltip": "喬安娜飛身縱躍，持續2秒，此時喬安娜可移動，以決定落地的位置。喬安娜在空中時，底下的盟友獲得控場免疫。落地時，被擊中的敵人會受到225 (+4% per level)點傷害，並且昏迷0.25秒。",
           "abilityType": "Heroic"
         },
         {
@@ -9931,7 +9943,7 @@
           "icon": "storm_ui_icon_johanna_iron_skin.png",
           "cooldownTooltip": "冷卻時間：25秒",
           "shortTooltip": "控場免疫，並且獲得護盾",
-          "fullTooltip": "啟動後，喬安娜獲得可吸收674 (+4% per level)點傷害值的護盾，持續4秒。護盾作用期間為控場免疫。",
+          "fullTooltip": "啟動後，喬安娜獲得可吸收810 (+4% per level)點傷害值的護盾，持續4秒。護盾作用期間為控場免疫。",
           "abilityType": "Trait"
         }
       ],
@@ -10023,8 +10035,8 @@
           "buttonId": "CrusaderPassiveDivineFortress",
           "name": "神聖壁壘",
           "icon": "storm_ui_icon_talent_block.png",
-          "shortTooltip": "預借：提高最大生命值 基本攻擊會賦予物理護甲",
-          "fullTooltip": "預借：最大生命值提高20%。每次死亡會使此加成降低5%。  對敵方英雄的基本攻擊會使物理護甲提高8點，持續2.5秒，最多可堆疊40點。",
+          "shortTooltip": "險著：提高最大生命值 基本攻擊會賦予物理護甲",
+          "fullTooltip": "對敵方英雄的基本攻擊會使物理護甲提高8點，持續2.5秒，最多可堆疊40點。  險著：最大生命值提高20%。每次死亡時，此加成會降低5%。",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 2
@@ -10077,7 +10089,7 @@
           "name": "堅守陣地",
           "icon": "storm_ui_icon_johanna_iron_skin.png",
           "shortTooltip": "提高鋼鐵之甲的護盾值，降低冷卻時間",
-          "fullTooltip": "鋼鐵之甲的護盾值提高60%，冷卻時間降低5秒。",
+          "fullTooltip": "鋼鐵之甲的護盾值提高40%，冷卻時間降低5秒。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -10092,7 +10104,7 @@
           "name": "罪行揭露",
           "icon": "storm_ui_icon_johanna_punish.png",
           "shortTooltip": "制裁會降低敵人受到的治療效果",
-          "fullTooltip": "制裁會使受到的治療效果降低25%，持續2秒。對該敵人進行基本攻擊會重置此效果的持續時間。",
+          "fullTooltip": "制裁會使受到的治療效果降低35%，持續2秒。對該敵人進行基本攻擊會重置此效果的持續時間。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -10117,7 +10129,7 @@
           "buttonId": "CrusaderIronSkinSteedCharge",
           "name": "戰馬奔騰",
           "icon": "storm_btn_d3ros_crusader_steedcharge.png",
-          "cooldownTooltip": "冷卻時間：30秒",
+          "cooldownTooltip": "冷卻時間：20秒",
           "shortTooltip": "啟動可強化騎乘能力",
           "fullTooltip": "啟動可立即騎乘坐騎，持續3秒，不受傷害的阻礙。  被動：鋼鐵之甲的持續時間提高1秒。",
           "abilityType": "Active",
@@ -10134,7 +10146,7 @@
           "energyTooltip": "法力：60點",
           "cooldownTooltip": "冷卻時間：50秒",
           "shortTooltip": "飛躍至目標區域守護盟友，並且使敵人昏迷",
-          "fullTooltip": "喬安娜飛身縱躍，持續2秒，此時喬安娜可移動，以決定落地的位置。喬安娜在空中時，底下的盟友獲得控場免疫。落地時，被擊中的敵人會受到150 (+4% per level)點傷害，並且昏迷0.25秒。",
+          "fullTooltip": "喬安娜飛身縱躍，持續2秒，此時喬安娜可移動，以決定落地的位置。喬安娜在空中時，底下的盟友獲得控場免疫。落地時，被擊中的敵人會受到225 (+4% per level)點傷害，並且昏迷0.25秒。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -10179,7 +10191,7 @@
           "name": "神聖烈怒",
           "icon": "storm_ui_icon_talent_burningrage.png",
           "shortTooltip": "對附近的敵人造成傷害",
-          "fullTooltip": "每秒對周圍敵人造成12 (+4% per level)點傷害。天譴每擊中一名英雄，可使此傷害提高40%，持續5秒。",
+          "fullTooltip": "每秒對周圍敵人造成15 (+4% per level)點傷害。天譴每擊中一名英雄，可使此傷害提高40%，持續5秒。",
           "abilityType": "Passive",
           "sort": 2
         },
@@ -12318,7 +12330,7 @@
           "name": "穿刺箭",
           "icon": "storm_ui_icon_valla_hungeringarrow.png",
           "shortTooltip": "任務：提高追噬箭的彈跳次數和傷害",
-          "fullTooltip": "追噬箭的彈跳次數提高1次。  任務：追噬箭的第一下攻擊命中敵方英雄時，恢復40點法力，並且永久使第一下攻擊的傷害提高6點。",
+          "fullTooltip": "追噬箭的彈跳次數提高1次。  任務：追噬箭的第一下攻擊命中敵方英雄時，恢復40點法力，並且永久使第一下攻擊的傷害提高7點。",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -12332,7 +12344,7 @@
           "name": "全線射擊",
           "icon": "storm_ui_icon_valla_multishot.png",
           "shortTooltip": "任務：獲得多重射擊傷害和憎恨",
-          "fullTooltip": "任務：以多重射擊命中英雄可獲得2層憎恨，並且永久使多重射擊的傷害提高4點。",
+          "fullTooltip": "任務：以多重射擊命中英雄可獲得2層憎恨，並且永久使多重射擊的傷害提高2點。  獎勵：以多重射擊命中20名英雄後，可使其傷害提高40點。",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -12345,8 +12357,8 @@
           "buttonId": "DemonHunterCreedoftheHunter",
           "name": "狩魔教條",
           "icon": "storm_ui_icon_valla_hatred.png",
-          "shortTooltip": "預借：獲得攻擊速度 任務：憎恨的基本攻擊加成提高",
-          "fullTooltip": "預借：攻擊速度提高20%。每當你死亡時，此加成會降低5%。  任務：對英雄每進行50次基本攻擊，可使每層憎恨的傷害加成提高1%，最多可提高5%。",
+          "shortTooltip": "險著：獲得攻擊速度 任務：憎恨的基本攻擊加成提高",
+          "fullTooltip": "任務：對英雄每進行50次基本攻擊，可使每層憎恨的傷害加成提高1%，最多可提高5%。  險著：攻擊速度提高20%。每次死亡時，此加成會降低5%。",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 3,
@@ -14762,9 +14774,9 @@
           "buttonId": "BrightwingSoothingMistCalmingMist",
           "name": "舒和之霧",
           "icon": "storm_ui_icon_brightwing_soothingmist.png",
-          "cooldownTooltip": "冷卻時間：100秒",
+          "cooldownTooltip": "冷卻時間：90秒",
           "shortTooltip": "移除盟友身上的控場效果",
-          "fullTooltip": "啟動後可移除附近友方英雄身上所有昏迷、定身、緩速和沉默效果。  被動：亮翼每4秒為附近友方英雄恢復105 (+4% per level)點生命值。",
+          "fullTooltip": "啟動後可移除附近友方英雄身上所有昏迷、定身、緩速和沉默效果。  被動：亮翼每4秒為附近友方英雄恢復115 (+4% per level)點生命值。",
           "abilityType": "Trait"
         }
       ],
@@ -14774,7 +14786,7 @@
           "buttonId": "BrightwingPhaseShift",
           "name": "相位轉移",
           "icon": "storm_ui_icon_brightwing_mount.png",
-          "cooldownTooltip": "冷卻時間：50秒",
+          "cooldownTooltip": "冷卻時間：40秒",
           "shortTooltip": "傳送到友方英雄身旁，並且治療友方英雄",
           "fullTooltip": "延遲2秒後，傳送到一名友方英雄身旁，並且為其恢復最大生命值的25%。",
           "abilityType": "Z"
@@ -14851,7 +14863,7 @@
           "name": "超相位",
           "icon": "storm_ui_icon_brightwing_hypershift.png",
           "shortTooltip": "提高相位轉移的治療量",
-          "fullTooltip": "相位轉移的治療量提高相當於目標最大生命值的8%。附近有敵方小兵死亡時，可使相位轉移的冷卻時間降低1.5秒。",
+          "fullTooltip": "相位轉移的治療量提高相當於目標最大生命值的8%。附近有敵方小兵死亡時，可使相位轉移的冷卻時間降低1秒。",
           "abilityType": "Z",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -14933,7 +14945,7 @@
           "name": "捉迷藏",
           "icon": "storm_ui_icon_brightwing_hypershift.png",
           "shortTooltip": "相位轉移可賦予護盾，並且顯示附近區域",
-          "fullTooltip": "使用相位轉移傳送到盟友身邊後，亮翼和該目標會獲得335 (+4% per level)點護盾，並且顯示附近大範圍區域的視野，持續5秒。",
+          "fullTooltip": "使用相位轉移傳送到盟友身邊後，亮翼和該目標會獲得335 (+4% per level)點護盾，持續4秒，並且顯示附近大範圍區域的視野，持續5秒。",
           "abilityType": "Z",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -14946,7 +14958,7 @@
           "name": "救急之霧",
           "icon": "storm_ui_icon_brightwing_soothingmist.png",
           "shortTooltip": "啟動舒和之霧可治療盟友",
-          "fullTooltip": "舒和之霧會為友方英雄恢復165 (+4% per level)點生命值。如果舒和之霧移除盟友身上的控場效果，可使其恢復量提高100%。",
+          "fullTooltip": "舒和之霧會為友方英雄恢復165 (+4% per level)點生命值。如果舒和之霧移除盟友身上的控場效果，可使其恢復量提高140%。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -15001,7 +15013,7 @@
           "name": "妖精鼓舞",
           "icon": "storm_ui_icon_brightwing_pixiedust.png",
           "shortTooltip": "妖精之塵再進一步提高移動速度",
-          "fullTooltip": "妖精之塵的移動速度加成提高至40%，此效果會在3秒內消退至20%。",
+          "fullTooltip": "妖精之塵的移動速度加成提高至50%，此效果會在3秒內消退至20%。",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -15103,8 +15115,8 @@
           "buttonId": "BrightwingEmeraldWindIntensiveWinds",
           "name": "強襲之風",
           "icon": "storm_ui_icon_brightwing_emeraldwind.png",
-          "shortTooltip": "降低翡翠之風的冷卻時間，提高法力消耗",
-          "fullTooltip": "翡翠之風的冷卻時間永久降低至5秒，法力消耗提高至200點法力值。",
+          "shortTooltip": "大幅降低翡翠之風的冷卻時間",
+          "fullTooltip": "翡翠之風的冷卻時間永久降低至5秒。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -15120,9 +15132,12 @@
           "name": "疾速精靈龍",
           "icon": "storm_ui_icon_brightwing_hypershift.png",
           "shortTooltip": "永久提高移動速度",
-          "fullTooltip": "移動速度永久提高20%。",
-          "abilityType": "Passive",
-          "sort": 3
+          "fullTooltip": "移動速度永久提高20%。相位轉移的施放時間降低1秒。",
+          "abilityType": "Z",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "BrightwingPhaseShift"
+          ]
         },
         {
           "nameId": "BrightwingFaerieProtector",
@@ -15131,7 +15146,7 @@
           "icon": "storm_ui_icon_brightwing_pixiedust.png",
           "cooldownTooltip": "冷卻時間：45秒",
           "shortTooltip": "為附近的盟友施加妖精之塵",
-          "fullTooltip": "啟動後可為附近所有英雄施加妖精之塵。",
+          "fullTooltip": "啟動後可為附近所有英雄施加妖精之塵。  被動：妖精之塵會彈跳並且施加在亮翼身上。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4,
@@ -16341,7 +16356,7 @@
           "energyTooltip": "法力：30點",
           "cooldownTooltip": "冷卻時間：4秒",
           "shortTooltip": "發出兩道噴射火焰",
-          "fullTooltip": "發出兩道噴射火焰，對擊中的敵人造成83 (+4% per level)點傷害。噴射火焰可點燃路徑上的燃油。",
+          "fullTooltip": "發出兩道噴射火焰，對擊中的敵人造成83 (+4% per level)點傷害，對被兩道噴射火焰同時擊中的敵人額外造成120 (+4% per level)點傷害。噴射火焰可點燃路徑上的燃油。",
           "abilityType": "Q"
         },
         {
@@ -16527,7 +16542,7 @@
           "name": "新把戲",
           "icon": "storm_ui_icon_blaze_new_habits.png",
           "shortTooltip": "任務：「縱火狂」會賦予控場免疫",
-          "fullTooltip": "收集恢復之球會使「縱火狂」的冷卻時間降低8秒。  任務：收集15顆恢復之球。  獎勵：「縱火狂」會賦予控場免疫效果，持續2秒。",
+          "fullTooltip": "收集恢復之球會使「縱火狂」的冷卻時間降低6秒。  任務：收集15顆恢復之球。  獎勵：「縱火狂」會賦予控場免疫效果，持續2秒。",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 4,
@@ -16582,12 +16597,12 @@
       ],
       "level7": [
         {
-          "nameId": "FirebatFlameStreamCrossfire",
-          "buttonId": "FirebatFlameStreamCrossfire",
-          "name": "交叉火力",
+          "nameId": "FirebatFlameStreamSuppressiveFire",
+          "buttonId": "FirebatFlameStreamSuppressiveFire",
+          "name": "壓制火力",
           "icon": "storm_ui_icon_blaze_flame.png",
-          "shortTooltip": "噴射火焰可造成額外傷害",
-          "fullTooltip": "兩道噴射火焰同時擊中一名敵人可額外造成139 (+4% per level)點傷害。",
+          "shortTooltip": "噴射火焰會降低法術強度",
+          "fullTooltip": "每一道噴射火焰會使被擊中的敵方英雄法術強度降低25%，持續4秒，最多可降低50%。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -16595,9 +16610,9 @@
           ]
         },
         {
-          "nameId": "FirebatOilSpillGrillandKill",
-          "buttonId": "FirebatOilSpillGrillandKill",
-          "name": "烈焰燒烤",
+          "nameId": "FirebatOilSpillNanomachineCoating",
+          "buttonId": "FirebatOilSpillNanomachineCoating",
+          "name": "奈米機械油膜",
           "icon": "storm_ui_icon_blaze_oil.png",
           "charges": {
             "countMax": 2,
@@ -16605,32 +16620,25 @@
             "countStart": 2,
             "recastCooldown": 1.0
           },
-          "shortTooltip": "任務：提高燃油燃燒的傷害和持續時間",
-          "fullTooltip": "任務：以點燃的燃油對敵方英雄造成傷害60次。  獎勵：燃油點燃的持續時間提高2秒，造成的傷害提高35%。",
+          "shortTooltip": "燃油會降低攻擊速度",
+          "fullTooltip": "站在燃油和點燃的燃油中的敵人攻擊速度降低50%，持續3秒。",
           "abilityType": "W",
-          "isQuest": true,
           "sort": 2,
           "abilityTalentLinkIds": [
             "FirebatOilSpill"
           ]
         },
         {
-          "nameId": "FirebatOilSpillAdhesivePetroleum",
-          "buttonId": "FirebatOilSpillAdhesivePetroleum",
-          "name": "黏稠石油",
-          "icon": "storm_ui_icon_blaze_oil_b.png",
-          "charges": {
-            "countMax": 2,
-            "countUse": 1,
-            "countStart": 2,
-            "recastCooldown": 1.0
-          },
-          "shortTooltip": "燃油點燃後會造成緩速效果",
-          "fullTooltip": "燃油點燃後，站在燃油中的敵人移動速度降低40%，持續3秒。另外，基本攻擊會點燃燃油造成擴散傷害。",
-          "abilityType": "W",
+          "nameId": "FirebatJetPropulsionFuelLeak",
+          "buttonId": "FirebatJetPropulsionFuelLeak",
+          "name": "傾瀉燃料",
+          "icon": "storm_ui_icon_blaze_jet.png",
+          "shortTooltip": "火焰推進器會留下燃油軌跡",
+          "fullTooltip": "火焰推進器會在「爆焰」的路徑上留下燃油。如果火焰推進器撞到敵方英雄，會在該英雄的位置留下另一灘燃油。",
+          "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "FirebatOilSpill"
+            "FirebatJetPropulsion"
           ]
         }
       ],
@@ -16670,22 +16678,9 @@
       ],
       "level13": [
         {
-          "nameId": "FirebatFlameStreamSuppressiveFire",
-          "buttonId": "FirebatFlameStreamSuppressiveFire",
-          "name": "壓制火力",
-          "icon": "storm_ui_icon_blaze_flame.png",
-          "shortTooltip": "噴射火焰會降低法術強度",
-          "fullTooltip": "每一道噴射火焰會使被擊中的敵方英雄法術強度降低25%，持續4秒，最多可降低50%。",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "FirebatFlameStream"
-          ]
-        },
-        {
-          "nameId": "FirebatOilSpillNanomachineCoating",
-          "buttonId": "FirebatOilSpillNanomachineCoating",
-          "name": "奈米機械油膜",
+          "nameId": "FirebatOilSpillGrillandKill",
+          "buttonId": "FirebatOilSpillGrillandKill",
+          "name": "烈焰燒烤",
           "icon": "storm_ui_icon_blaze_oil.png",
           "charges": {
             "countMax": 2,
@@ -16693,8 +16688,28 @@
             "countStart": 2,
             "recastCooldown": 1.0
           },
-          "shortTooltip": "燃油會降低攻擊速度",
-          "fullTooltip": "站在燃油和點燃的燃油中的敵人攻擊速度降低50%，持續3秒。",
+          "shortTooltip": "任務：提高燃油燃燒的傷害和持續時間",
+          "fullTooltip": "點燃燃油造成的傷害提高45%。  任務：以點燃的燃油對敵方英雄造成傷害30次。  獎勵：燃油點燃的持續時間提高2.5秒。",
+          "abilityType": "W",
+          "isQuest": true,
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "FirebatOilSpill"
+          ]
+        },
+        {
+          "nameId": "FirebatOilSpillAdhesivePetroleum",
+          "buttonId": "FirebatOilSpillAdhesivePetroleum",
+          "name": "黏稠石油",
+          "icon": "storm_ui_icon_blaze_oil_b.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "countStart": 2,
+            "recastCooldown": 1.0
+          },
+          "shortTooltip": "燃油點燃後會造成緩速效果",
+          "fullTooltip": "燃油點燃後，站在燃油中的敵人會緩速40%，並且受到爆焰造成的基本攻擊傷害會額外提高35%，持續3秒。另外，基本攻擊會點燃燃油造成擴散傷害。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -16702,12 +16717,12 @@
           ]
         },
         {
-          "nameId": "FirebatJetPropulsionFuelLeak",
-          "buttonId": "FirebatJetPropulsionFuelLeak",
-          "name": "傾瀉燃料",
+          "nameId": "FirebatJetPropulsionCollisionCourse",
+          "buttonId": "FirebatJetPropulsionCollisionCourse",
+          "name": "衝撞路徑",
           "icon": "storm_ui_icon_blaze_jet.png",
-          "shortTooltip": "火焰推進器會留下燃油軌跡",
-          "fullTooltip": "火焰推進器會在「爆焰」的路徑上留下燃油。如果火焰推進器撞到敵方英雄，會在該英雄的位置留下另一灘燃油。",
+          "shortTooltip": "火焰推進器的撞擊會造成傷害",
+          "fullTooltip": "火焰推進器的撞擊會對第一個擊中的敵方英雄造成325 (+4% per level)點傷害。",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -17554,6 +17569,18 @@
           "abilityType": "Z"
         }
       ],
+      "activable": [
+        {
+          "nameId": "GarroshWreckingBallIntotheFray",
+          "buttonId": "GarroshWreckingBallIntotheFray",
+          "name": "迎敵",
+          "icon": "storm_ui_icon_garrosh_intothefray.png",
+          "cooldownTooltip": "冷卻時間：45秒",
+          "shortTooltip": "啟動後可擲出一名盟友",
+          "fullTooltip": "啟動後，擲出附近一名盟友，並且賦予他們20點護甲，持續3秒。擲出的盟友落地時會對附近敵人造成91 (+4% per level)點傷害，並且使其緩速30%，持續2.5秒。  友方英雄尚未落地前對控場免疫。",
+          "abilityType": "Active"
+        }
+      ],
       "hearth": [
         {
           "nameId": "Hearthstone",
@@ -17728,7 +17755,7 @@
           "name": "威嚇",
           "icon": "storm_ui_icon_garrosh_groundbreaker.png",
           "shortTooltip": "破地斬會降低攻擊速度",
-          "fullTooltip": "被破地斬擊中會使敵方英雄的攻擊速度降低40%，持續4秒。",
+          "fullTooltip": "被破地斬擊中會使敵方英雄的攻擊速度降低30%，持續4秒。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -17739,23 +17766,36 @@
           "nameId": "GarroshOppressor",
           "buttonId": "GarroshOppressor",
           "name": "制霸",
-          "icon": "storm_ui_icon_talent_autoattack_slow.png",
-          "shortTooltip": "基本攻擊可降低法術強度",
-          "fullTooltip": "基本攻擊可使敵方英雄的法術強度降低40%，持續2.5秒。",
-          "abilityType": "Passive",
-          "sort": 2
+          "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 1.0
+          },
+          "shortTooltip": "基本攻擊和嗜血斬可降低法術強度",
+          "fullTooltip": "基本攻擊和嗜血斬可使敵方英雄的法術強度降低30%，持續2.5秒。",
+          "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "GarroshBloodthirst"
+          ]
         },
         {
-          "nameId": "GarroshWreckingBallIntotheFray",
-          "buttonId": "GarroshWreckingBallIntotheFray",
-          "name": "迎敵",
+          "nameId": "GarroshIntotheFrayLoktarOgar",
+          "buttonId": "GarroshIntoTheFrayLoktarOgar",
+          "name": "Lok-tar ogar！",
           "icon": "storm_ui_icon_garrosh_intothefray.png",
           "cooldownTooltip": "冷卻時間：45秒",
-          "shortTooltip": "啟動後可擲出一名盟友",
-          "fullTooltip": "啟動後，擲出附近一名盟友，並且賦予他們25點護甲，持續3秒。擲出的盟友落地時會對附近敵人造成91 (+4% per level)點傷害，並且使其緩速30%，持續2.5秒。  友方英雄尚未落地前對控場免疫。",
+          "shortTooltip": "提高迎敵的護甲，降低冷卻時間",
+          "fullTooltip": "迎敵的護甲提高20點。以迎敵命中敵方英雄可使其冷卻時間降低12秒。",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "GarroshWreckingBallIntotheFray"
+          ]
         }
       ],
       "level10": [
@@ -21472,7 +21512,7 @@
         "nameId": "ImperiusHeroWeapon",
         "range": 2.0,
         "period": 1.2,
-        "damage": 122.0,
+        "damage": 126.0,
         "damageScale": 0.04
       }
     ],
@@ -21520,7 +21560,7 @@
           "energyTooltip": "法力：50點",
           "cooldownTooltip": "冷卻時間：8秒",
           "shortTooltip": "對直線路徑上的敵人造成傷害，並使其緩速",
-          "fullTooltip": "釋放一波怒火，造成100 (+4% per level)點傷害。被中央區域擊中的敵人會額外受到50%點傷害，並且緩速40%，持續3秒。",
+          "fullTooltip": "釋放一波怒火，造成110 (+4% per level)點傷害。被中央區域擊中的敵人會額外受到50%點傷害，並且緩速40%，持續3秒。",
           "abilityType": "W"
         },
         {
@@ -21695,7 +21735,7 @@
           "name": "嗜戰",
           "icon": "storm_ui_icon_imperius_trait.png",
           "shortTooltip": "提高英勇烙印的治療量",
-          "fullTooltip": "英勇烙印的治療量提高70%。",
+          "fullTooltip": "英勇烙印的治療量提高80%。",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -21736,7 +21776,7 @@
           "name": "烈火榮耀",
           "icon": "storm_ui_icon_imperius_w.png",
           "shortTooltip": "索拉瑞恩之火在短暫延遲後會引爆",
-          "fullTooltip": "索拉瑞恩之火會在路徑中央留下一片焦土，2秒後引爆，造成150 (+4% per level)點傷害。此爆炸效果會消耗並且受益於英勇烙印。",
+          "fullTooltip": "索拉瑞恩之火會在路徑中央留下一片焦土，2秒後引爆，造成185 (+4% per level)點傷害。此爆炸效果會消耗並且受益於英勇烙印。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -21750,7 +21790,7 @@
           "icon": "storm_ui_icon_imperius_item_01.png",
           "cooldownTooltip": "冷卻時間：25秒",
           "shortTooltip": "啟動後，基本攻擊會造成擴散傷害",
-          "fullTooltip": "啟動後，在10秒內的下4次基本攻擊會擴散，額外造成30%傷害。",
+          "fullTooltip": "啟動後，在10秒內的下4次基本攻擊會擴散，額外造成30%傷害。  被動：施放熔火護甲可使2次基本攻擊獲得狂熱聖擊。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -21893,8 +21933,8 @@
           "buttonId": "ImperiusWrathOfTheAngirisUnrelentingDescent",
           "name": "無恕之隕",
           "icon": "storm_ui_icon_imperius_r2.png",
-          "shortTooltip": "英勇烙印可降低冷卻時間",
-          "fullTooltip": "消耗英勇烙印可使安傑瑞斯之怒的冷卻時間降低10秒。",
+          "shortTooltip": "安傑瑞斯之怒會恢復生命值，降低冷卻時間",
+          "fullTooltip": "英普瑞斯從天而降可使其恢復30%最大生命值和法力。消耗英勇烙印可使安傑瑞斯之怒的冷卻時間降低10秒。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -29392,7 +29432,7 @@
           "name": "靜謐",
           "icon": "storm_ui_icon_malfurion_tranquility.png",
           "shortTooltip": "強化寧靜",
-          "fullTooltip": "月火術每擊中一個敵方英雄，可使寧靜的冷卻時間降低3秒。每一個受到癒合效果影響的盟友可使寧靜的治療效果提高10%。",
+          "fullTooltip": "月火術每擊中一個敵方英雄，可使寧靜的冷卻時間降低3秒。寧靜的治療效果提高25%，並且每一個受到癒合效果影響的盟友可使其治療效果提高10%。",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -33622,7 +33662,7 @@
           "energyTooltip": "法力：45點",
           "cooldownTooltip": "冷卻時間：10秒",
           "shortTooltip": "擲出戰鎚，使第一個被擊中的目標昏迷，並且對其造成傷害",
-          "fullTooltip": "擲出戰鎚，對第一個命中的敵人造成110 (+4% per level)點傷害，並且使其昏迷1.25秒。  任務：使用風暴怒擲擊中敵方英雄25次。若英雄在被風暴怒擲擊中的2.5秒內死亡，視為額外擊中3名敵方英雄。  獎勵：風暴怒擲會穿透敵人，擊中一名額外目標。穆拉丁的普通攻擊可使其冷卻時間降低1秒，並恢復3點法力。",
+          "fullTooltip": "擲出戰鎚，對第一個命中的敵人造成110 (+4% per level)點傷害，並且使其昏迷1.25秒。  達到等級10後，風暴怒擲會穿透敵人，擊中一名額外目標。穆拉丁的普通攻擊可使其冷卻時間降低1秒，並恢復3點法力。",
           "abilityType": "Q"
         },
         {
@@ -33775,7 +33815,7 @@
           "name": "熟練擲鎚",
           "icon": "storm_ui_icon_muradin_stormbolt.png",
           "shortTooltip": "任務：擊中英雄可強化風暴怒擲",
-          "fullTooltip": "任務：風暴怒擲每擊中一名英雄，可使其傷害提高4點。",
+          "fullTooltip": "任務：穆拉丁每次以基本攻擊命中一名英雄，可使風暴怒擲的傷害提高0.5點。被風暴怒擲擊中的敵方英雄若在3秒內死亡，可使其傷害額外提高10點。",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -33816,8 +33856,8 @@
           "buttonId": "MuradinStormboltSledgehammerTalent",
           "name": "攻城戰鎚",
           "icon": "storm_ui_icon_muradin_stormbolt.png",
-          "shortTooltip": "強化風暴怒擲",
-          "fullTooltip": "風暴怒擲對非英雄單位造成350%傷害。風暴怒擲擊中英雄可額外獲得一層基礎任務完成度。",
+          "shortTooltip": "提高風暴怒擲的非英雄傷害",
+          "fullTooltip": "風暴怒擲對非英雄敵人造成350%傷害。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -36634,7 +36674,7 @@
           "name": "死亡芭蕾",
           "icon": "storm_ui_icon_orphea_q.png",
           "shortTooltip": "暗影華爾滋效果末端擊中敵人可額外造成傷害",
-          "fullTooltip": "效果末端擊中敵人可使暗影華爾滋的傷害提高90%。",
+          "fullTooltip": "效果末端擊中敵人可使暗影華爾滋的傷害提高90%，並且額外堆疊1層混沌。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -36647,7 +36687,7 @@
           "name": "噩夢蔓延",
           "icon": "storm_ui_icon_orphea_e.png",
           "shortTooltip": "任務：強化恐懼之牙的爆炸效果",
-          "fullTooltip": "恐懼之牙的爆炸傷害提高40%。  任務：以單次恐懼之牙的爆炸擊中3名敵方英雄。  獎勵：恐懼之牙的爆炸傷害永久額外提高25%，恐懼之牙爆炸造成的緩速提高15%。",
+          "fullTooltip": "恐懼之牙的傷害提高50%。  任務：以單次恐懼之牙的爆炸擊中3名敵方英雄。  獎勵：恐懼之牙的爆炸傷害永久提高50%，恐懼之牙爆炸造成的緩速提高15%。",
           "abilityType": "E",
           "isQuest": true,
           "sort": 2,
@@ -36884,7 +36924,7 @@
           "name": "心魔",
           "icon": "storm_ui_icon_orphea_ult_darkfall.png",
           "shortTooltip": "永恆饗宴可堆疊混沌，並且降低冷卻時間",
-          "fullTooltip": "永恆饗宴每擊中一名英雄可賦予1層混沌。永恆饗宴作用期間內，歐菲亞的基本技能冷卻速度提高150%。",
+          "fullTooltip": "永恆饗宴每擊中一名英雄可賦予1層混沌。永恆饗宴作用期間內，以及效果結束後的5秒內，歐菲亞的基本技能冷卻速度提高150%。",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -36900,7 +36940,7 @@
           "name": "吞噬湮滅",
           "icon": "storm_ui_icon_orphea_ult_thrasher.png",
           "shortTooltip": "碎骨巨顎可降低敵方英雄的護甲，同時降低碎骨巨顎的冷卻時間",
-          "fullTooltip": "碎骨巨顎擊中敵方英雄可使其護甲降低25點，持續3秒。參與擊殺可使碎骨巨顎的冷卻時間降低至5秒。",
+          "fullTooltip": "碎骨巨顎擊中敵方英雄可使其護甲降低50點，持續3秒。參與擊殺可使碎骨巨顎的冷卻時間降低至5秒。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -36931,7 +36971,7 @@
           "icon": "storm_ui_icon_orphea_reset.png",
           "cooldownTooltip": "冷卻時間：20秒",
           "shortTooltip": "衝刺後可重置暗影華爾滋的冷卻時間",
-          "fullTooltip": "啟動後，立即重置暗影華爾滋的冷卻時間。在接下來的6秒內，使用暗影華爾滋衝刺可重置暗影華爾滋的冷卻時間。",
+          "fullTooltip": "啟動後，立即重置暗影華爾滋的冷卻時間。在接下來的5秒內，使用暗影華爾滋衝刺可重置暗影華爾滋的冷卻時間，並且使終極樂章的持續時間提高1秒。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4,
@@ -38243,14 +38283,14 @@
         "nameId": "RaynorWeaponMelee",
         "range": 2.0,
         "period": 0.8,
-        "damage": 92.0,
+        "damage": 98.0,
         "damageScale": 0.04
       },
       {
         "nameId": "RaynorWeapon",
         "range": 6.5,
         "period": 0.8,
-        "damage": 92.0,
+        "damage": 98.0,
         "damageScale": 0.04
       }
     ],
@@ -38293,7 +38333,7 @@
           "energyTooltip": "法力：60點",
           "cooldownTooltip": "冷卻時間：9秒",
           "shortTooltip": "發射穿甲彈，對敵人造成傷害、擊退和緩速",
-          "fullTooltip": "擊退直線路徑上的敵人，並且對其造成190 (+4% per level)點傷害和20%緩速，持續2秒。 靠近雷諾的敵人會被擊退更遠的距離。",
+          "fullTooltip": "擊退直線路徑上的敵人，並且對其造成205 (+4% per level)點傷害和20%緩速，持續2秒。 靠近雷諾的敵人會被擊退更遠的距離。",
           "abilityType": "Q"
         },
         {
@@ -38447,21 +38487,6 @@
     "talents": {
       "level1": [
         {
-          "nameId": "RaynorAceInTheHole",
-          "buttonId": "RaynorAceInTheHole",
-          "name": "勝券在握",
-          "icon": "storm_ui_icon_raynor_acardtoplay.png",
-          "shortTooltip": "射成蜂窩會對英雄造成緩速",
-          "fullTooltip": "被射成蜂窩擊中的敵方英雄移動速度降低10%，持續2.5秒。穿甲彈對昏迷或緩速的英雄造成的傷害提高25%。",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "RaynorPenetratingRound",
-            "RaynorBountyHunter",
-            "RaynorGiveEmSomePepper"
-          ]
-        },
-        {
           "nameId": "RaynorGiveEmSomePepperExterminator",
           "buttonId": "RaynorExterminator",
           "name": "殲滅者",
@@ -38469,7 +38494,7 @@
           "shortTooltip": "提高對非英雄單位的傷害",
           "fullTooltip": "基本攻擊對小兵、傭兵與中立怪造成的傷害提高50%。在激勵士氣啟動期間，此效果提高為125%。  被動：友方小兵和傭兵的激勵士氣效果持續時間不會結束。",
           "abilityType": "W",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "RaynorInspire",
             "RaynorBountyHunter",
@@ -38481,10 +38506,24 @@
           "buttonId": "RaynorVeteranMarksman",
           "name": "神準射手",
           "icon": "storm_ui_icon_raynor_acquireweakspot.png",
-          "shortTooltip": "預借：射成蜂窩傷害提高 任務：射成蜂窩傷害提高",
-          "fullTooltip": "預借：射成蜂窩傷害加成提高60%。每當你死亡時，此加成會降低15%。   任務：射成蜂窩每次擊中的主要目標是敵方英雄時，會永久使其傷害加成提高0.75%。",
+          "shortTooltip": "險著：射成蜂窩傷害提高 任務：射成蜂窩傷害提高",
+          "fullTooltip": "任務：射成蜂窩每次擊中的主要目標是敵方英雄時，會永久使其傷害加成提高0.75%。  險著：射成蜂窩傷害加成提高60%。每次死亡時，此加成會降低15%。",
           "abilityType": "Trait",
           "isQuest": true,
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "RaynorBountyHunter",
+            "RaynorGiveEmSomePepper"
+          ]
+        },
+        {
+          "nameId": "RaynorAceInTheHole",
+          "buttonId": "RaynorAceInTheHole",
+          "name": "勝券在握",
+          "icon": "storm_ui_icon_raynor_acardtoplay.png",
+          "shortTooltip": "對被控場的英雄造成額外傷害",
+          "fullTooltip": "對陷入昏迷或被緩速的英雄額外造成10%傷害。  被射成蜂窩擊中的敵方英雄會緩速10%，持續2.5秒。",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
             "RaynorBountyHunter",
@@ -38764,7 +38803,7 @@
           "name": "死亡命令",
           "icon": "storm_ui_icon_raynor_advancedoptics.png",
           "shortTooltip": "死亡時反擊敵方英雄",
-          "fullTooltip": "雷諾的復活時間降低至30秒。死亡時，對最靠近的敵方英雄施放海伯利昂號。",
+          "fullTooltip": "雷諾的復活時間降低35秒。死亡時，對最靠近的敵方英雄施放海伯利昂號。",
           "abilityType": "Passive",
           "sort": 5
         }
@@ -41238,7 +41277,7 @@
           "icon": "storm_ui_icon_stitches_acidcloud.png",
           "cooldownTooltip": "冷卻時間：60秒",
           "shortTooltip": "攻擊會造成中毒，啟動後可防止被緩速",
-          "fullTooltip": "啟動後，每秒在大範圍內散播污穢臭氣，並且使你的移動速度不會低於110%，持續5秒。  污穢臭氣 以基本攻擊或猛敲的內環範圍擊中敵人，會使其受到污穢臭氣的影響，在3秒內額外造成27 (+4% per level)點傷害。對小兵、傭兵和中立怪造成的傷害提高150%。",
+          "fullTooltip": "啟動後，每秒在大範圍內散播污穢臭氣，並且使你的移動速度不會低於110%，持續5秒。  污穢臭氣 以基本攻擊或猛敲的內環範圍擊中敵人，會使其受到污穢臭氣的影響，在4秒內額外造成36 (+4% per level)點傷害。對小兵、傭兵和中立怪造成的傷害提高150%。",
           "abilityType": "Trait"
         }
       ],
@@ -41355,7 +41394,7 @@
           "name": "食慾旺盛",
           "icon": "storm_ui_icon_stitches_hungry.png",
           "shortTooltip": "任務：恢復之球可提高生命值和移動速度",
-          "fullTooltip": "獲得5%移動速度。  任務：拾取恢復之球可使縫合怪的最大生命值提高30點。  獎勵：每拾取20顆恢復之球，可永久使縫合怪的移動速度額外提高5%。",
+          "fullTooltip": "獲得5%移動速度。  任務：拾取恢復之球可使縫合怪的最大生命值提高25點。  獎勵：每拾取20顆恢復之球，可永久使縫合怪的移動速度額外提高5%。",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 3
@@ -41368,7 +41407,7 @@
           "name": "來玩囉！",
           "icon": "storm_ui_icon_stitches_slam.png",
           "shortTooltip": "基本攻擊會降低猛敲的冷卻時間",
-          "fullTooltip": "基本攻擊會使猛敲的冷卻時間降低0.75秒，並且恢復5點法力值。以猛敲的內環範圍擊中英雄時，會使猛敲的冷卻時間降低1秒。",
+          "fullTooltip": "基本攻擊會使猛敲的冷卻時間降低0.75秒，並且恢復5點法力值。以猛敲的內環範圍擊中英雄時，會使猛敲的冷卻時間降低1.5秒。",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -41380,8 +41419,8 @@
           "buttonId": "StitchesVileCleaver",
           "name": "污穢菜刀",
           "icon": "storm_ui_icon_stitches_acidcloud.png",
-          "shortTooltip": "基本攻擊會散播污穢臭氣",
-          "fullTooltip": "基本攻擊對受到污穢臭氣影響的敵人造成的傷害提高35%，並且會使污穢臭氣散播到附近的敵人身上。",
+          "shortTooltip": "基本攻擊和猛敲會散播污穢臭氣",
+          "fullTooltip": "基本攻擊對受到污穢臭氣影響的敵人造成的傷害提高35%，並且會使污穢臭氣散播到附近的敵人身上。  被動：猛敲會對所有命中的目標施加污穢臭氣。",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41394,7 +41433,7 @@
           "name": "斷筋碎骨",
           "icon": "storm_ui_icon_talent_autoattack_slow.png",
           "shortTooltip": "基本攻擊會對英雄造成緩速，並且恢復生命值",
-          "fullTooltip": "基本攻擊會使敵方英雄緩速25%，持續2.5秒，並且使縫合怪恢復最大生命值的2%。",
+          "fullTooltip": "基本攻擊會使敵方英雄緩速25%，持續2.5秒，並且使縫合怪恢復最大生命值的1.75%。",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -41406,7 +41445,7 @@
           "name": "鋸齒尖鉤",
           "icon": "storm_ui_icon_stitches_hook.png",
           "shortTooltip": "肉鉤可額外造成傷害，並降低冷卻時間",
-          "fullTooltip": "肉鉤擊中敵方英雄可額外造成相當於其最大生命值5%的傷害、使肉鉤的冷卻時間降低5秒，並且恢復35點法力值。",
+          "fullTooltip": "肉鉤擊中敵方英雄可額外造成相當於其最大生命值5%的傷害、使肉鉤的冷卻時間降低4秒，並且恢復35點法力值。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -41425,8 +41464,8 @@
             "hideCount": true,
             "recastCooldown": 6.0
           },
-          "shortTooltip": "預借：吞噬獲得額外使用次數，並且可賦予護盾",
-          "fullTooltip": "吞噬額外獲得1次使用次數，使用次數之間有6秒冷卻時間。  預借：若使用吞噬後生命值已滿，縫合怪會獲得最大生命值15%的護盾，持續10秒。每次死亡時，此護盾會降低3%。",
+          "shortTooltip": "險著：吞噬獲得額外使用次數，並且可賦予護盾",
+          "fullTooltip": "吞噬額外獲得1次使用次數，使用次數之間有6秒冷卻時間。  險著：若使用吞噬後生命值已滿，縫合怪會獲得最大生命值15%的護盾，持續10秒。每次死亡時，此護盾會降低3%。",
           "abilityType": "E",
           "isQuest": true,
           "sort": 2,
@@ -41440,7 +41479,7 @@
           "name": "腐臭之氣",
           "icon": "storm_ui_icon_stitches_acidcloud.png",
           "shortTooltip": "污穢臭氣會恢復生命值，並且在畸異魔怪作用期間獲得強化",
-          "fullTooltip": "在畸異魔怪作用期間，污穢臭氣會使受到的治療效果降低30%。  被動：污穢臭氣會為縫合怪恢復相當於傷害值60%的生命值。",
+          "fullTooltip": "在畸異魔怪作用期間，污穢臭氣會使受到的治療效果降低40%。  被動：污穢臭氣會為縫合怪恢復相當於傷害值75%的生命值。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -41489,7 +41528,7 @@
           "name": "保命肉鉤",
           "icon": "storm_ui_icon_stitches_hook.png",
           "shortTooltip": "肉鉤可持續為縫合怪恢復生命值",
-          "fullTooltip": "肉鉤擊中敵方英雄可在4秒內持續為縫合怪恢復最大生命值的20%。在效果期間內，縫合怪對該英雄施展基本攻擊可重置此效果的持續時間。",
+          "fullTooltip": "肉鉤擊中敵方英雄可在5秒內持續為縫合怪恢復最大生命值的20%。在效果期間內，縫合怪對該英雄施展基本攻擊可重置此效果的持續時間。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -41516,7 +41555,7 @@
           "name": "砍砍砍",
           "icon": "storm_ui_icon_stitches_chopchop.png",
           "shortTooltip": "肉鉤和畸異魔怪會提高攻擊速度",
-          "fullTooltip": "肉鉤擊中敵方英雄或啟動畸異魔怪會獲得50%攻擊速度，持續5秒。",
+          "fullTooltip": "肉鉤擊中敵方英雄或啟動畸異魔怪會獲得40%攻擊速度，持續4秒。基本攻擊可重置此效果的持續時間。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -41551,7 +41590,7 @@
             "recastCooldown": 6.0
           },
           "shortTooltip": "吞噬的傷害提高，並且可降低敵人造成的傷害",
-          "fullTooltip": "吞噬會在5秒內額外造成140 (+4% per level)點傷害。對英雄使用吞噬時，會使其冷卻時間降低5秒，並且使該英雄造成的傷害降低50%，持續5秒。",
+          "fullTooltip": "吞噬會在5秒內額外造成140 (+4% per level)點傷害。對英雄使用吞噬時，會使其冷卻時間降低4秒，並且使該英雄造成的傷害降低50%，持續4秒。",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41593,7 +41632,7 @@
           "name": "肚子餓餓",
           "icon": "storm_ui_icon_stitches_cannibalize.png",
           "shortTooltip": "可吞食多名英雄，並且進行傳送",
-          "fullTooltip": "使用大口吞食後的4秒內，縫合怪可短距離傳送至其他目標身邊，並且吞噬他們。",
+          "fullTooltip": "使用大口吞食後的4秒內，縫合怪可短距離傳送至其他目標身邊，並且吞噬他們。大口吞食效果結束後，敵人會緩速75%，持續1秒。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41609,7 +41648,7 @@
           "name": "鉤鉤大師",
           "icon": "storm_ui_icon_stitches_hook.png",
           "shortTooltip": "強化肉鉤",
-          "fullTooltip": "肉鉤的冷卻時間降低5秒。肉鉤擊中敵方英雄會使其受到的治療效果降低100%，持續2秒。樂於鉤人擊中盟友會使其獲得無法擊殺狀態，持續2秒。",
+          "fullTooltip": "肉鉤的冷卻時間降低4秒。肉鉤擊中敵方英雄會使其受到的治療效果降低75%，持續2秒。樂於鉤人擊中盟友會使其獲得無法擊殺狀態，持續2秒。",
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -41892,7 +41931,7 @@
           "name": "惡臭感染",
           "icon": "storm_ui_icon_stukov_weightedpustule.png",
           "shortTooltip": "任務：降低黏稠膿疱的冷卻時間和法力消耗",
-          "fullTooltip": "任務：以黏稠膿疱命中英雄。  獎勵：命中15名英雄後，黏稠膿疱的冷卻時間降低2.5秒，法力消耗降低25點。  獎勵：命中25名英雄後，黏稠膿疱的冷卻時間額外降低2.5秒，並且移除法力消耗。",
+          "fullTooltip": "基本攻擊改為遠程，並且可使敵人緩速15%，持續1.5秒，但是傷害降低50%。  任務：以黏稠膿疱命中英雄。  獎勵：命中20名英雄後，黏稠膿疱的冷卻時間降低5秒，並且移除法力消耗。",
           "abilityType": "W",
           "isQuest": true,
           "sort": 1,
@@ -41906,7 +41945,7 @@
           "name": "孢子噴發",
           "icon": "storm_ui_icon_stukov_weightedpustule_a.png",
           "shortTooltip": "在生命值偏低時，噴發黏稠膿疱",
-          "fullTooltip": "當受到傷害使生命值低於50%時，立即對附近敵方英雄噴發黏稠膿疱，並且重置病毒爆發的冷卻時間。  此效果有25秒的冷卻時間。",
+          "fullTooltip": "當生命值低於50%時，病毒爆發的冷卻速度提高150%。  啟動後，立即對附近敵方英雄噴發黏稠膿疱，並且重置病毒爆發的冷卻時間。  此效果有60秒的冷卻時間。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41919,22 +41958,12 @@
           "name": "痛擊要害",
           "icon": "storm_ui_icon_stukov_lurkingarm.png",
           "shortTooltip": "潛地突變手會對低生命值的目標造成額外傷害",
-          "fullTooltip": "潛地突變手會對生命值低於50%的敵方英雄額外造成100%傷害。",
+          "fullTooltip": "潛地突變手會對生命值低於50%的敵方英雄額外造成100%傷害，潛地突變手取消後，範圍效果會持續1秒。",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
             "StukovLurkingArm"
           ]
-        },
-        {
-          "nameId": "StukovSpineLauncher",
-          "buttonId": "StukovSpineLauncherTalent",
-          "name": "脊刺攻擊",
-          "icon": "storm_ui_icon_stukov_spinelauncher.png",
-          "shortTooltip": "基本攻擊改為遠程，並且可緩速",
-          "fullTooltip": "基本攻擊改為遠程攻擊，並且可使敵人緩速20%，持續1.5秒，但是傷害降低40%。",
-          "abilityType": "Passive",
-          "sort": 4
         }
       ],
       "level4": [
@@ -41957,7 +41986,7 @@
           "name": "生化護甲",
           "icon": "storm_ui_icon_stukov_healingpathogen_b.png",
           "shortTooltip": "癒合病原體會賦予物理護甲",
-          "fullTooltip": "癒合病原體會在效果期間內賦予目標10點物理護甲。引爆病毒爆發會使此加成效果提高至75點，持續2.5秒。",
+          "fullTooltip": "癒合病原體會在效果期間內賦予目標10點物理護甲。引爆病毒爆發會使此加成效果提高至50點，持續2.5秒。",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -42011,7 +42040,7 @@
           "name": "鎖定傳染",
           "icon": "storm_ui_icon_stukov_bio-killswitch.png",
           "shortTooltip": "只引爆一個黏稠膿疱可降低冷卻時間",
-          "fullTooltip": "病毒爆發只引爆1個黏稠膿疱時（癒合病原體數量則不限），可使病毒爆發的冷卻時間降低至5秒，並且使其他基本技能的冷卻時間降低1.5秒。",
+          "fullTooltip": "病毒爆發只引爆1個黏稠膿疱時（癒合病原體數量則不限），可使病毒爆發的冷卻時間降低至8秒，並且使其他基本技能的冷卻時間降低1.5秒。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -42075,27 +42104,14 @@
           ]
         },
         {
-          "nameId": "StukovLingeringSpines",
-          "buttonId": "StukovLingeringSpinesTalent",
-          "name": "嵌地脊牙",
-          "icon": "storm_ui_icon_stukov_lurkingarm_a.png",
-          "shortTooltip": "潛地突變手取消後仍會持續一段時間",
-          "fullTooltip": "潛地突變手取消後，範圍效果會持續1.5秒。",
-          "abilityType": "E",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "StukovLurkingArm"
-          ]
-        },
-        {
           "nameId": "StukovVirulentReaction",
           "buttonId": "StukovVirulentReactionTalent",
           "name": "毒膿效應",
-          "icon": "storm_ui_icon_stukov_lurkingarm_b.png",
+          "icon": "storm_ui_icon_stukov_lurkingarm_a.png",
           "shortTooltip": "引爆潛地突變手範圍內的黏稠膿疱可使敵人定身",
-          "fullTooltip": "引爆潛地突變手範圍內的黏稠膿疱可使敵人定身，持續2秒。",
+          "fullTooltip": "引爆潛地突變手範圍內的黏稠膿疱可使敵人定身，持續1.5秒。",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "StukovLurkingArm"
           ]
@@ -42108,7 +42124,7 @@
           "shortTooltip": "引爆黏稠膿疱可造成範圍效果",
           "fullTooltip": "黏稠膿疱在持續時間結束前1.5秒內以病毒爆發引爆，可使黏稠膿疱的傷害提高150%，並且對範圍內的敵人造成傷害與緩速效果。被此傷害擊中的敵方英雄會感染黏稠膿疱。",
           "abilityType": "Trait",
-          "sort": 4,
+          "sort": 3,
           "abilityTalentLinkIds": [
             "StukovBioKillSwitch"
           ]
